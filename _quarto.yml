@@ -3,14 +3,14 @@ project:
 
 website: 
   page-navigation: true
-  title: "NOAA quarto simple" 
-  site-url: "https://nmfs-opensci.github.io/NOAA-quarto-simple" 
-  repo-url: "https://github.com/nmfs-opensci/NOAA-quarto-simple"
+  title: "Projeto MPB" 
+  site-url: "https://projetompb.github.io/site/"
+  repo-url: "https://github.com/ProjetoMPB/site"
   repo-actions: [edit, source, issue]
   favicon: images/favicon.ico
   
   page-footer:
-    right: "This page is built with [Quarto](https://quarto.org/)."
+    right: "Página construída em [Quarto](https://quarto.org/)."
     left: "&copy; CC-1.0"
   
   sidebar:
@@ -21,30 +21,18 @@ website:
     align: center
     tools: 
       - icon: globe
-        href: https://nmfs-opensci.github.io
-        text: "NMFS Open Science"
+        href: https://projetompb.github.io/site/
+        text: "Projeto MPB"
       - icon: github
-        href: https://github.com/nmfs-opensci
-        text: "NMFS OpenSci"
+        href: https://github.com/ProjetoMPB/site
+        text: "Projeto MPB (repositório)"
 
     style: "docked"
     search: true
     collapse-level: 1
     contents:
       - href: index.qmd
-        text: Home
-      # - href: content/add-content.qmd
-        # text: Add content
-      # - href: content/customizing.qmd
-        # text: Customizing
-      # - href: content/rendering.qmd
-        # text: Rendering
-      # - href: content/rmarkdown.Rmd
-        # text: R Markdown files
-      # - href: content/code.qmd
-        # text: Code in your files
-      # - href: content/acknowledgements.qmd
-        # text: Acknowledgements
+        text: Início
 
 format:
   html:
@@ -59,5 +47,3 @@ format:
 filters:
   - include-files.lua
   - quarto
-
-  
