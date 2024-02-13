@@ -4,6 +4,10 @@ on:
 
 name: Render and Publish
 
+permissions:
+  contents: read
+  pages: write          # <-- Add this line
+
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
@@ -33,7 +37,3 @@ jobs:
           target: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions
-
-permissions:
-  contents: read
-  pages: write          # <-- Add this line
