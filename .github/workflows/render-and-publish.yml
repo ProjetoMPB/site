@@ -4,9 +4,9 @@ on:
 
 name: Render and Publish
 
-permissions:
-  contents: read
-  pages: write          # <-- Add this line
+# permissions:
+#   contents: read
+#   pages: write          # <-- Add this line
 
 jobs:
   build-deploy:
