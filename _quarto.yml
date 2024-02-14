@@ -35,6 +35,8 @@ website:
         text: Início
       - href: capitulos/intro.qmd
         text: Introdução
+      - href: capitulos/nossa-mpb.qmd
+        text: A "nossa" MPB
 
 format:
   html:
