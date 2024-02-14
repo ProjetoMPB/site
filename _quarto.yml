@@ -7,7 +7,7 @@ website:
   site-url: "https://projetompb.github.io/site/"
   repo-url: "https://github.com/ProjetoMPB/site"
   repo-actions: [edit, source, issue]
-  favicon: images/favicon.ico
+  favicon: favicon.ico
   
   page-footer:
     right: "Página construída em [Quarto](https://quarto.org/)."
@@ -15,8 +15,8 @@ website:
   
   sidebar:
     background: "#D9E3E4"
-    logo: "https://raw.githubusercontent.com/nmfs-opensci/assets/main/logo/nmfs-opensci-logo3.png"
-    favicon: images/favicon.ico
+    logo: figs/logo_projeto.png
+    favicon: favicon.ico
     pinned: true
     align: center
     tools: 
