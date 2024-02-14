@@ -7,18 +7,18 @@ page-layout: full
 **COMPLETAR ESSE INÍCIO**
 
 A estrutura deste projeto foi pensada como uma sequência de artigos (ou capítulos) relativamente autônomos a serem publicados gradual e periodicamente, de modo a tornar mais palatável aos leitores a considerável quantidade de informação produzida ao longo da pesquisa. Em linhas gerais, são os seguintes os tópicos a serem publicados:
-* Introdução
-* A "nossa" MPB
-* Uma breve discussão sobre estilo musical
-* Hipóteses
-* Os \textit{corpora} de análise
-* Modelos teóricos
-* O processo analítico
-* Parâmetros e métricas
-* Entropia e probabilidade
-* Cadeias de Markov
-* Aplicações composicionais
-* Análise e discussão dos resultados
+  - Introdução
+  - A "nossa" MPB
+  - Uma breve discussão sobre estilo musical
+  - Hipóteses
+  - Os \textit{corpora} de análise
+  - Modelos teóricos
+  - O processo analítico
+  - Parâmetros e métricas
+  - Entropia e probabilidade
+  - Cadeias de Markov
+  - Aplicações composicionais
+  - Análise e discussão dos resultados
 
 ## Membros
 **Carlos Almada** teve o privilégio de estar próximo ao epicentro temporal do maremoto da MPB, em meados dos anos 1970, justamente quando cursava o Ginasial (como na época se chamava o atual Ensino Médio), o que consistiu em um fator decisivo para sua formação musical e intelectual, numa relação afetiva profunda que se mantém intensa até hoje. Após graduar-se em Engenharia Mecânica, Almada direcionou sua vida profissional para o campo da música popular, tonando-se flautista, arranjador e compositor, nesta ordem, com atuação especialmente em samba e choro. Bem mais tarde, obteve graus de Mestre e Doutor em Música pela UNIRIO, a partir de uma pesquisa analítico-teórica sobre a *Primeira Sinfonia de Câmara* de Schoenberg, ingressando assim na vida acadêmica. Posteriormente, tornou-se professor da Escola de Música da UFRJ, onde leciona nos níveis de graduação e pós-graduação. Seus interesses de pesquisa atuais são a variação musical e os estudos sistemáticos em música popular, um campo de estudos, aliás, que nunca abandonou. É autor dos livros *Arranjo* (Editora da Unicamp, 2001), *A estrutura do choro* (Da Fonseca, 2006), *Harmonia funcional* (Editora da Unicamp, 2009), *Contraponto em música popular* (Editora da UFRJ, 2013), *Nas fronteiras da tonalidade* (Prisma, 2016), *A harmonia de Jobim* (Editora da Unicamp, 2022) e *Musical Variation: Toward a Transformational Perspective* (Springer, no prelo). Almada é membro fundador da Associação Brasileira de Teoria e Análise Musical (TeMa), líder do grupo de pesquisa MusMat e editor-chefe do periódico *MusMat: Brazilian Journal of Music and Mathematics*. Recentemente foi contemplado com uma Bolsa de Produtividade PQ-2, outorgada pelo Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq), referente ao projeto intitulado "Um mapeamento sistemático da estruturação melódico-harmônica na música popular brasileira no período entre 1950 e 1990", ao qual se vincula a presente pesquisa.
