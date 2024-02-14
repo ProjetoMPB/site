@@ -1,0 +1,1890 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.549">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Projeto MPB - Listagem dor corpora</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../capitulos/estilo-musical.html" rel="prev">
+<link href="../favicon.ico" rel="icon">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../capitulos/listagem-corpora.html">Listagem dos <em>corpora</em></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="../figs/logo_projeto.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      <div class="sidebar-tools-main tools-wide">
+    <a href="https://projetompb.github.io/site/" title="Projeto MPB" class="quarto-navigation-tool px-1" aria-label="Projeto MPB"><i class="bi bi-globe"></i></a>
+    <a href="https://github.com/ProjetoMPB/site" title="Projeto MPB (repositório)" class="quarto-navigation-tool px-1" aria-label="Projeto MPB (repositório)"><i class="bi bi-github"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Início</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introdução</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/nossa-mpb.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">A “nossa” MPB</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/estilo-musical.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Uma breve discussão sobre estilo musical</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/listagem-corpora.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Listagem dos <em>corpora</em></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#jazz" id="toc-jazz" class="nav-link active" data-scroll-target="#jazz">Jazz</a></li>
+  <li><a href="#choro" id="toc-choro" class="nav-link" data-scroll-target="#choro">Choro</a></li>
+  <li><a href="#samba" id="toc-samba" class="nav-link" data-scroll-target="#samba">Samba</a></li>
+  <li><a href="#tom-jobim" id="toc-tom-jobim" class="nav-link" data-scroll-target="#tom-jobim">Tom Jobim</a></li>
+  <li><a href="#ivan-lins" id="toc-ivan-lins" class="nav-link" data-scroll-target="#ivan-lins">Ivan Lins</a></li>
+  <li><a href="#chico-buarque" id="toc-chico-buarque" class="nav-link" data-scroll-target="#chico-buarque">Chico Buarque</a></li>
+  <li><a href="#edu-lobo" id="toc-edu-lobo" class="nav-link" data-scroll-target="#edu-lobo">Edu Lobo</a></li>
+  <li><a href="#caetano-veloso" id="toc-caetano-veloso" class="nav-link" data-scroll-target="#caetano-veloso">Caetano Veloso</a></li>
+  <li><a href="#djavan" id="toc-djavan" class="nav-link" data-scroll-target="#djavan">Djavan</a></li>
+  <li><a href="#joão-bosco" id="toc-joão-bosco" class="nav-link" data-scroll-target="#joão-bosco">João Bosco</a></li>
+  <li><a href="#milton-nascimento" id="toc-milton-nascimento" class="nav-link" data-scroll-target="#milton-nascimento">Milton Nascimento</a></li>
+  <li><a href="#gilberto-gil" id="toc-gilberto-gil" class="nav-link" data-scroll-target="#gilberto-gil">Gilberto Gil</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/capitulos/listagem-corpora.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/capitulos/listagem-corpora.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Listagem dor <em>corpora</em></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="jazz" class="level2">
+<h2 class="anchored" data-anchor-id="jazz">Jazz</h2>
+<ul>
+<li><em>A child is born</em> (Thad Jones)</li>
+<li><em>A foggy day</em> (George Gershwin)<br>
+</li>
+<li><em>A night in Tunisia</em> (Dizzy Gillespie)<br>
+</li>
+<li><em>Afternoon in Paris</em> (John Lewis)<br>
+</li>
+<li><em>All of me in Paris</em> (Seymour Simons e Gerald Marks)<br>
+</li>
+<li><em>All the things you are</em> (Jerome Kern e Oscar Hammerstein II)<br>
+</li>
+<li><em>Anthropology</em> (Charlie Parker)<br>
+</li>
+<li><em>April in Paris</em> (Vernon Duke e Edgard Harburg)<br>
+</li>
+<li><em>As time goes by</em> (Herman Hupfeld)<br>
+</li>
+<li><em>Bewitched</em> (Richard Rodgers e Lorenz Hart)<br>
+</li>
+<li><em>Bluesette</em> (Toots Thielemans)<br>
+</li>
+<li><em>Blues for Alice</em> (Toots Thielemans)<br>
+</li>
+<li><em>Body and soul</em> (Johnny Green, Edward Heyman, Robert Sour e Frank Eyton)</li>
+<li><em>Cottontail</em> (Duke Ellington)<br>
+</li>
+<li><em>Could it be you</em> (Cole Porter)<br>
+</li>
+<li><em>Countdown</em> (John Coltrane)<br>
+</li>
+<li><em>Crystal silence</em> (Chick Corea)<br>
+</li>
+<li><em>Days of wine and roses</em> (Henry Mancini)<br>
+</li>
+<li><em>Dexterity</em> (Charlie Parker)<br>
+</li>
+<li><em>Dolphin dance</em> (Herbie Hancock)<br>
+</li>
+<li><em>The duke</em> (Dave Brubeck)<br>
+</li>
+<li><em>Easy to love</em> (Cole Porter)<br>
+</li>
+<li><em>Five hundred miles high</em> (Chick Corea)<br>
+</li>
+<li><em>For heaven’s sake</em> (Sherman Edwards e Elise Bretton)<br>
+</li>
+<li><em>Four</em> (Miles Davis)<br>
+</li>
+<li><em>Giant steps</em> (John Coltrane)<br>
+</li>
+<li><em>Goodbye pork pie hat</em> (Charles Mingus)</li>
+<li><em>Have you met Miss Jones?</em> (Richard RChoroodgers e Lorenz Hart)<br>
+</li>
+<li><em>How high the moon</em> (Morgan Lewis e Nancy Hamilton)</li>
+<li><em>I can´t get started</em> (Vernon Duke e Ira Gershwin)<br>
+</li>
+<li><em>I love you</em> (Cole Porter)<br>
+</li>
+<li><em>In a sentimental mood</em> (Duke Ellington)<br>
+</li>
+<li><em>In your own sweet way</em> (Dave Brubeck)<br>
+</li>
+<li><em>Misty</em> (Errol Garner)<br>
+</li>
+<li><em>Mood indigo</em> (Duke Ellington)<br>
+</li>
+<li><em>My funny Valentine</em> (Richard Rodgers e Lorenz Hart)<br>
+</li>
+<li><em>Night and day</em> (Cole Porter)<br>
+</li>
+<li><em>Ornithology</em> (Charlie Parker)<br>
+</li>
+<li><em>Peri’s cope</em> (Bill Evans)<br>
+</li>
+<li><em>Prelude to a kiss</em> (Duke Ellington)</li>
+<li><em>Played twice</em> (Thelonious Monk)<br>
+</li>
+<li><em>Round midnight</em> (Thelonious Monk)<br>
+</li>
+<li><em>Satin doll</em> (Duke Ellington)<br>
+</li>
+<li><em>Semblence</em> (Keith Jarrett)<br>
+</li>
+<li><em>The shadow of your smile</em> (Johnny Mandel e Paul Francis Webster)</li>
+<li><em>The song is you</em> (Jerome Kern e Oscar Hammerstein III)</li>
+<li><em>The sorcerer</em> (Herbie Hancock)<br>
+</li>
+<li><em>Time remembered</em> (Bill Evans)</li>
+</ul>
+</section>
+<section id="choro" class="level2">
+<h2 class="anchored" data-anchor-id="choro">Choro</h2>
+<ul>
+<li><em>Abraçando jacaré</em> (Pixinguinha)</li>
+<li><em>Agradecendo</em> (Pixinguinha)<br>
+</li>
+<li><em>Ainda me recordo</em> (Pixinguinha e Benedito Lacerda)<br>
+</li>
+<li><em>Ande ligeiro</em> (Pixinguinha)<br>
+</li>
+<li><em>As proezas de Nolasco</em> (Pixinguinha)<br>
+</li>
+<li><em>Atencioso</em> (Pixinguinha)<br>
+</li>
+<li><em>A vida é um buraco</em> (Pixinguinha)<br>
+</li>
+<li><em>Bom senso</em> (Pixinguinha)<br>
+</li>
+<li><em>Canto em rodeio</em> (Pixinguinha)<br>
+</li>
+<li><em>Carinhoso</em> (Pixinguinha e João de Barro)<br>
+</li>
+<li><em>Cascatinha</em> (Pixinguinha)<br>
+</li>
+<li><em>Cheguei</em> (Pixinguinha e Benedito Lacerda)<br>
+</li>
+<li><em>Chorando sempre</em> (Pixinguinha)<br>
+</li>
+<li><em>Chorei</em> (Pixinguinha e Benedito Lacerda)<br>
+</li>
+<li><em>Choro de gafieira</em> (Pixinguinha)<br>
+</li>
+<li><em>Concerto de baterias</em> (Pixinguinha)<br>
+</li>
+<li><em>Cuidado, colega</em> (Pixinguinha e Benedito Lacerda)<br>
+</li>
+<li><em>Descendo a serra</em> (Pixinguinha e Benedito Lacerda)<br>
+</li>
+<li><em>Desprezado</em> (Pixinguinha)<br>
+</li>
+<li><em>Destino da rosa</em> (Pixinguinha)<br>
+</li>
+<li><em>Devagar e sempre</em> (Pixinguinha e Benedito Lacerda)<br>
+</li>
+<li><em>Diabólica</em> (Pixinguinha)</li>
+<li><em>Dininha</em> (Pixinguinha e Benedito Lacerda)<br>
+</li>
+<li><em>Dominó</em> (Pixinguinha)</li>
+<li><em>É isso mesmo</em> (Pixinguinha)<br>
+</li>
+<li><em>Ele e eu</em> (Pixinguinha e Benedito Lacerda)<br>
+</li>
+<li><em>Fonte abandonada</em> (Pixinguinha)<br>
+</li>
+<li><em>Gargalhada</em> (Pixinguinha)<br>
+</li>
+<li><em>Generoso</em> (Pixinguinha)<br>
+</li>
+<li><em>Homenagem à flor margarida</em> (Pixinguinha)</li>
+<li><em>Ingênuo</em> (Pixinguinha e Benedito Lacerda)</li>
+<li><em>Joaquim virou padre</em> (Pixinguinha)</li>
+<li><em>Jurando falso</em> (Pixinguinha)<br>
+</li>
+<li><em>Lamentos</em> (Pixinguinha e Vinicius de Moraes)</li>
+<li><em>Minha vez</em> (Pixinguinha)<br>
+</li>
+<li><em>Naquele tempo</em> (Pixinguinha e Benedito Lacerda)</li>
+<li><em>Não vou nessa</em> (Pixinguinha)</li>
+<li><em>Os cinco companheiros</em> (Pixinguinha)<br>
+</li>
+<li><em>Os oito batutas</em> (Pixinguinha e Benedito Lacerda)</li>
+<li><em>Oscarina</em> (Pixinguinha e Benedito Lacerda)</li>
+<li><em>Pagão</em> (Pixinguinha e Benedito Lacerda)<br>
+</li>
+<li><em>Parangolé</em> (Pixinguinha)<br>
+</li>
+<li><em>Passa tempo</em> (Pixinguinha)<br>
+</li>
+<li><em>Pretensioso</em> (Pixinguinha)<br>
+</li>
+<li><em>Proezas de Solon</em> (Pixinguinha e Benedito Lacerda)<br>
+</li>
+<li><em>Quem é você</em> (Pixinguinha)<br>
+</li>
+<li><em>Rir pra não chorar</em> (Pixinguinha)<br>
+</li>
+<li><em>Segura ele</em> (Pixinguinha e Benedito Lacerda)<br>
+</li>
+<li><em>Seu Lourenço do vinho</em> (Pixinguinha e Benedito Lacerda)<br>
+</li>
+<li><em>Vou vivendo</em> (Pixinguinha e Benedito Lacerda)</li>
+</ul>
+</section>
+<section id="samba" class="level2">
+<h2 class="anchored" data-anchor-id="samba">Samba</h2>
+<ul>
+<li><em>Abre a janela</em> (Roberto Roberti e Arlindo Marques Júnior)</li>
+<li><em>Acreditar</em> (Délcio Carvalho e Dona Ivone Lara)<br>
+</li>
+<li><em>Adeus batucada</em> (Synval Silva)<br>
+</li>
+<li><em>A flor e o espinho</em> (Nelson Cavaquinho, Guilherme de Brito</li>
+<li>e Alcides Caminha)<br>
+</li>
+<li><em>Agoniza mas não morre</em> (Nelson Sargento)<br>
+</li>
+<li><em>Agora é cinza</em> (Bide e Marçal)</li>
+<li><em>Água na boca</em> (Agildo Mendes)</li>
+<li><em>Ai que saudades da Amélia</em> (Ataulfo Alves e Mário Lago)</li>
+<li><em>Alguém me avisou</em> (Dona Ivone Lara)<br>
+</li>
+<li><em>Alô, alô</em> (Mario Reis e André Filho)<br>
+</li>
+<li><em>Amor aventureiro</em> (Mano Décio da Viola e Silas de Oliveira)</li>
+<li><em>Amor de poeta</em> (Sinhô)</li>
+<li><em>Apoteose ao samba</em> (Silas de Oliveira e Mano Décio de Carvalho)<br>
+</li>
+<li><em>A primeira vez</em> (Alcebíades Barcelos e Armando Marçal)<br>
+</li>
+<li><em>A vida me fez assim</em> (Teresa Cristina e Argemiro)<br>
+</li>
+<li><em>A voz do morro</em> (Zé Keti)<br>
+</li>
+<li><em>Brasil pandeiro</em> (Assis Valente)<br>
+</li>
+<li><em>Beija-me</em> (Mário Rossi e Roberto Martins)<br>
+</li>
+<li><em>Cabide de mulambo</em> (João da Baiana)<br>
+</li>
+<li><em>Camisa amarela</em> (Ary Barroso)<br>
+</li>
+<li><em>Canta, canta, minha gente</em> (Martinho da Vila)<br>
+</li>
+<li><em>Coisa de pele</em> (Acyr Marques e Jorge Aragão)<br>
+</li>
+<li><em>Confessa, meu bem</em> (Sinhô)<br>
+</li>
+<li><em>Coisa da antiga</em> (Nei Lopes e Wilson Moreira)<br>
+</li>
+<li><em>Essa nega qué me dá</em> (Caninha)<br>
+</li>
+<li><em>Eu queria um retratinho de você</em> (Noel Rosa)<br>
+</li>
+<li><em>Exaltação à Mangueira</em> (Enéas Brites da Silva e Aluízio Augusto da Costa)<br>
+</li>
+<li><em>Fala, meu louro</em> (Sinhô)<br>
+</li>
+<li><em>Falsa baiana</em> (Geraldo Pereira)<br>
+</li>
+<li><em>Feitio de oração</em> (Noel Rosa)<br>
+</li>
+<li><em>Festa para um rei negro</em> (Zuzuca)<br>
+</li>
+<li><em>Filosofia</em> (Noel Rosa)<br>
+</li>
+<li><em>Foi um rio que passou em minha vida</em> (Paulinho da Viola)<br>
+</li>
+<li><em>Jura</em> (Sinhô)<br>
+</li>
+<li><em>Isaura</em> (Roberto Roberti e Herivelto Martins)<br>
+</li>
+<li><em>Lá vem a baiana</em> (Dorival Caymmi)<br>
+</li>
+<li><em>Macaco, olha teu rabo</em> (Chico da Baiana)<br>
+</li>
+<li><em>Me deixa em paz</em> (Monsueto Menezes e Ayrton Amorim)<br>
+</li>
+<li><em>Mora na filosofia</em> (Monsueto Menezes e Arnaldo Passos)</li>
+<li><em>Nega maluca</em> (Fernando Lobo e Evaldo Ruy)<br>
+</li>
+<li><em>O meu nome já caiu no esquecimento</em> (Paulo da Portela)<br>
+<em>Os cinco bailes da história do Rio</em> (Silas de Oliveira, Bacalhau e Dona Ivone - Lara)<br>
+</li>
+<li><em>Palpite infeliz</em> (Noel Rosa)<br>
+</li>
+<li><em>Papagaio come milho</em> (Chico da Baiana)<br>
+</li>
+<li><em>Pelo telefone</em> (Donga)<br>
+</li>
+<li><em>Quem são eles</em> (Sinhô)<br>
+</li>
+<li><em>Rapaz folgado</em> (Noel Rosa)<br>
+</li>
+<li><em>Se acaso você chegasse</em> (Lupicínio Rodrigues e Felisberto Martins)</li>
+<li><em>Se você jurar</em> (Ismael Silva)<br>
+</li>
+<li><em>Vai saudade</em> (Heitor dos Prazeres)</li>
+</ul>
+</section>
+<section id="tom-jobim" class="level2">
+<h2 class="anchored" data-anchor-id="tom-jobim">Tom Jobim</h2>
+<ul>
+<li><em>Absolute Lee</em> (Antonio Carlos Jobim)</li>
+<li><em>Água de beber</em> (Antonio Carlos Jobim e Vinicius de Moraes)</li>
+<li><em>Angela</em> (Antonio Carlos Jobim)<br>
+</li>
+<li><em>Angela</em> (Antonio Carlos Jobim e Marino Pinto)<br>
+</li>
+<li><em>Bebel</em> (Antonio Carlos Jobim)<br>
+</li>
+<li><em>Bonita</em> (Antonio Carlos Jobim, Gene Lees e Ray Gilberto Gilbert)<br>
+</li>
+<li><em>Brigas nunca mais</em> (Antonio Carlos Jobim e Vinicius de Moraes)</li>
+<li><em>Caminho de pedra</em> (Antonio Carlos Jobim e Vinicius de Moraes)</li>
+<li><em>Caminhos cruzados</em> (Antonio Carlos Jobim e Newton Mendonça)<br>
+</li>
+<li><em>Canção do amor demais</em> (Antonio Carlos Jobim e Vinicius de Moraes)</li>
+<li><em>Chega de saudade</em> (Antonio Carlos Jobim e Vinicius de Moraes)</li>
+<li><em>Corcovado</em> (Antonio Carlos Jobim)<br>
+</li>
+<li><em>Demais</em> (Antonio Carlos Jobim e Aloysio de Oliveira)</li>
+<li><em>Derradeira primavera</em> (Antonio Carlos Jobim e Vinicius de Moraes)<br>
+</li>
+<li><em>Desafinado</em> (Antonio Carlos Jobim e Newton Mendonça)<br>
+</li>
+<li><em>Dindi</em> (Antonio Carlos Jobim e Aloysio de Oliveira)<br>
+</li>
+<li><em>Discussão</em> (Antonio Carlos Jobim e Newton Mendonça)<br>
+</li>
+<li><em>É preciso dizer adeus</em> (Antonio Carlos Jobim e Vinicius de Moraes)</li>
+<li><em>Ela é carioca</em> (Antonio Carlos Jobim e Vinicius de Moraes)<br>
+</li>
+<li><em>Engano</em> (Antonio Carlos Jobim e Newton Mendonça e Luis Bonfá)<br>
+</li>
+<li><em>Este seu olhar</em> (Antonio Carlos Jobim)</li>
+<li><em>Estrada do sol</em> (Antonio Carlos Jobim e Dolores Duran)<br>
+</li>
+<li><em>Eu e o meu amor</em> (Antonio Carlos Jobim e Vinicius de Moraes)<br>
+</li>
+<li><em>Eu sei que vou te amar</em> (Antonio Carlos Jobim e Vinicius de Moraes)<br>
+</li>
+<li><em>Faz uma semana</em> (Antonio Carlos Jobim e João Stockler)<br>
+</li>
+<li><em>Garota de Ipanema</em> (Antonio Carlos Jobim e Vinicius de Moraes)<br>
+</li>
+<li><em>Incerteza</em> (Antonio Carlos Jobim e Newton Mendonça)</li>
+<li><em>Insensatez</em> (Antonio Carlos Jobim e Vinicius de Moraes)<br>
+</li>
+<li><em>Janelas abertas</em> (Antonio Carlos Jobim e Vinicius de Moraes)<br>
+</li>
+<li><em>Lamento no morro</em> (Antonio Carlos Jobim e Vinicius de Moraes)<br>
+</li>
+<li><em>Ligia</em> (Antonio Carlos Jobim)<br>
+</li>
+<li><em>Luar e batucada</em> (Antonio Carlos Jobim)<br>
+</li>
+<li><em>Luiza</em> (Antonio Carlos Jobim e Newton Mendonça)<br>
+</li>
+<li><em>Mágoa</em> (Antonio Carlos Jobim e Marino Pinto)<br>
+</li>
+<li><em>Meditação</em> (Antonio Carlos Jobim e Newton Mendonça)<br>
+</li>
+<li><em>Modinha</em> (Antonio Carlos Jobim e Vinicius de Moraes)<br>
+</li>
+<li><em>O amor em paz</em> (Antonio Carlos Jobim e Vinicius de Moraes)<br>
+</li>
+<li><em>Pois é</em> (Antonio Carlos Jobim e Chico Buarque)<br>
+</li>
+<li><em>Sabiá</em> (Antonio Carlos Jobim e Chico Buarque)<br>
+</li>
+<li><em>Samba de uma nota só</em> (Antonio Carlos Jobim e Newton Mendonça)<br>
+</li>
+<li><em>Samba do avião</em> (Antonio Carlos Jobim)<br>
+</li>
+<li><em>Se todos fossem iguais a você</em> (Antonio Carlos Jobim e Vinicius de Moraes)<br>
+</li>
+<li><em>Só danço samba</em> (Antonio Carlos Jobim e Vinicius de Moraes)<br>
+</li>
+<li><em>Só tinha de ser com você</em> (Antonio Carlos Jobim e Aloysio de Oliveira)<br>
+</li>
+<li><em>Solidão</em> (Antonio Carlos Jobim e Alcides Fernandes)<br>
+</li>
+<li><em>Tereza da praia</em> (Antonio Carlos Jobim e Billy Blanco)<br>
+</li>
+<li><em>Triste</em> (Antonio Carlos Jobim)<br>
+</li>
+<li><em>Vivo sonhando</em> (Antonio Carlos Jobim)<br>
+</li>
+<li><em>Você vai ver</em> (Antonio Carlos Jobim)<br>
+</li>
+<li><em>Wave</em> (Antonio Carlos Jobim)</li>
+</ul>
+</section>
+<section id="ivan-lins" class="level2">
+<h2 class="anchored" data-anchor-id="ivan-lins">Ivan Lins</h2>
+<ul>
+<li><em>Abre alas</em> (Ivan Lins e Vitor Martins)<br>
+</li>
+<li><em>Acaso</em> (Ivan Lins e Abel Silva)<br>
+</li>
+<li><em>A cor do pôr-do-sol</em> (Ivan Lins e Celso Viáfora)<br>
+</li>
+<li><em>Agora</em> (Ivan Lins e Ronaldo Monteiro de Souza)<br>
+</li>
+<li><em>Ai, ai, ai, ai, ai, ai</em> (Ivan Lins e Vitor Martins)<br>
+</li>
+<li><em>Ainda te procuro</em> (Ivan Lins e Vitor Martins)<br>
+</li>
+<li><em>A noite</em> (Ivan Lins e Vitor Martins)<br>
+</li>
+<li><em>Amor</em> (Ivan Lins e Vitor Martins)<br>
+</li>
+<li><em>Anjo de mim</em> (Ivan Lins e Vitor Martins)<br>
+</li>
+<li><em>Aos nossos filhos</em> (Ivan Lins e Vitor Martins)<br>
+</li>
+<li><em>Aparecida</em> (Ivan Lins e Maurício Tapajós)<br>
+</li>
+<li><em>Arlequim desconhecido</em> (Ivan Lins e Vitor Martins)<br>
+</li>
+<li><em>Bandeira do Divino</em> (Ivan Lins e Vitor Martins)<br>
+</li>
+<li><em>Bilhete</em> (Ivan Lins e Vitor Martins)<br>
+</li>
+<li><em>Bonito</em> (Ivan Lins e Vitor Martins)<br>
+</li>
+<li><em>Camaleão</em> (Ivan Lins, Vitor Martins e Aldir Blanc)<br>
+</li>
+<li><em>Cantor da noite</em> (Ivan Lins e Vitor Martins)<br>
+</li>
+<li><em>Cartomante</em> (Ivan Lins e Vitor Martins)<br>
+</li>
+<li><em>Choro das águas</em> (Ivan Lins e Vitor Martins)<br>
+</li>
+<li><em>Coragem mulher</em> (Ivan Lins e Vitor Martins)<br>
+</li>
+<li><em>Daquilo que eu sei</em> (Ivan Lins e Vitor Martins)<br>
+</li>
+<li><em>Depois dos temporais</em> (Ivan Lins)<br>
+</li>
+<li><em>Dinorah, Dinorah</em> (Ivan Lins e Vitor Martins)<br>
+</li>
+<li><em>Doce presença</em> (Ivan Lins e Vitor Martins)<br>
+</li>
+<li><em>Essa maré</em> (Ivan Lins e Ronaldo Monteiro de Souza)<br>
+</li>
+<li><em>Fogueira</em> (Ivan Lins e Vitor Martins)<br>
+</li>
+<li><em>Guarde nos olhos</em> (Ivan Lins e Vitor Martins)<br>
+</li>
+<li><em>Iluminados</em> (Ivan Lins e Vitor Martins)<br>
+</li>
+<li><em>Ituverava</em> (Ivan Lins e Vitor Martins)<br>
+</li>
+<li><em>Joana dos barcos</em> (Ivan Lins e Vitor Martins)<br>
+</li>
+<li><em>Lembra</em> (Ivan Lins e Vitor Martins)<br>
+</li>
+<li><em>Lembra de mim</em> (Ivan Lins e Vitor Martins)<br>
+</li>
+<li><em>Leva e traz (Elis)</em> (Ivan Lins e Vitor Martins)<br>
+</li>
+<li><em>Madalena</em> (Ivan Lins e Ronaldo Monteiro de Souza)<br>
+</li>
+<li><em>Meu país</em> (Ivan Lins e Vitor Martins)<br>
+</li>
+<li><em>Mudança dos ventos</em> (Ivan Lins e Vitor Martins)<br>
+</li>
+<li><em>Na areia, na beira do mar</em> (Ivan Lins e Cláudio Jorge)<br>
+</li>
+<li><em>Novo tempo</em> (Ivan Lins e Vitor Martins)<br>
+</li>
+<li><em>O amor é meu país</em> (Ivan Lins e Ronaldo Monteiro de Souza)<br>
+</li>
+<li><em>Porta entreaberta</em> (Ivan Lins e Paulo César Pinheiro)<br>
+</li>
+<li><em>Quadras de roda</em> (Ivan Lins e Vitor Martins)<br>
+</li>
+<li><em>Rio de maio</em> (Ivan Lins e Celso Viáfora)<br>
+</li>
+<li><em>Saindo de mim</em> (Ivan Lins e Vitor Martins)<br>
+</li>
+<li><em>Sertaneja</em> (Ivan Lins e Vitor Martins)<br>
+</li>
+<li><em>Soberana rosa</em> (Ivan Lins e Vitor Martins)<br>
+</li>
+<li><em>Tens</em> (Ivan Lins e Ronaldo Monteiro de Souza)<br>
+</li>
+<li><em>Um fado</em> (Ivan Lins e Vitor Martins)<br>
+</li>
+<li><em>Velas içadas</em> (Ivan Lins e Vitor Martins)<br>
+</li>
+<li><em>Vitoriosa</em> (Ivan Lins e Vitor Martins)<br>
+</li>
+<li><em>Antes que seja tarde</em> (Ivan Lins e Vitor Martins)</li>
+</ul>
+</section>
+<section id="chico-buarque" class="level2">
+<h2 class="anchored" data-anchor-id="chico-buarque">Chico Buarque</h2>
+<ul>
+<li><em>A banda</em> (Chico Buarque)</li>
+<li><em>Acorda amor</em> (Chico Buarque e Leonel Paiva)</li>
+<li><em>Agora falando sério</em> (Chico Buarque)</li>
+<li><em>Apesar de você</em> (Chico Buarque)<br>
+</li>
+<li><em>A Rita</em> (Chico Buarque)<br>
+</li>
+<li><em>Atrás da porta</em> (Chico Buarque e Francis Hime)</li>
+<li><em>Bastidores</em> (Chico Buarque)<br>
+</li>
+<li><em>Biscate</em> (Chico Buarque)<br>
+</li>
+<li><em>Bye bye Brasil</em> (Chico Buarque e Roberto Menescal)</li>
+<li><em>Cálice</em> (Chico Buarque e Gilberto Gil)<br>
+</li>
+<li><em>Carolina</em> (Chico Buarque)</li>
+<li><em>Com açúcar e com afeto</em> (Chico Buarque)</li>
+<li><em>Construção</em> (Chico Buarque)</li>
+<li><em>Cotidiano</em> (Chico Buarque)</li>
+<li><em>Desalento</em> (Chico Buarque)</li>
+<li><em>Desencontro</em> (Chico Buarque e Vinicius de Moraes)</li>
+<li><em>Deixe a menina</em> (Chico Buarque)<br>
+</li>
+<li><em>De todas as maneiras</em> (Chico Buarque)<br>
+</li>
+<li><em>De volta ao samba</em> (Chico Buarque)<br>
+</li>
+<li><em>Ela desatinou</em> (Chico Buarque)</li>
+<li><em>Fado tropical</em> (Chico Buarque e Ruy Guerra)<br>
+</li>
+<li><em>Feijoada completa</em> (Chico Buarque)</li>
+<li><em>Flor da idade</em> (Chico Buarque)</li>
+<li><em>Folhetim</em> (Chico Buarque)<br>
+</li>
+<li><em>Futuros amantes</em> (Chico Buarque)<br>
+</li>
+<li><em>Homenagem ao malandro</em> (Chico Buarque)</li>
+<li><em>Januária</em> (Chico Buarque)</li>
+<li><em>Joana francesa</em> (Chico Buarque)</li>
+<li><em>Mambembe</em> (Chico Buarque)<br>
+</li>
+<li><em>Maninha</em> (Chico Buarque)</li>
+<li><em>Meu caro amigo</em> (Chico Buarque)</li>
+<li><em>Morena dos olhos d’água</em> (Chico Buarque)<br>
+</li>
+<li><em>Mulheres de Atenas</em> (Chico Buarque e Augusto Boal)</li>
+<li><em>Não existe pecado ao sul do equador</em> (Chico Buarque e Ruy Guerra)</li>
+<li><em>Noite dos mascarados</em> (Chico Buarque)</li>
+<li><em>Olê olá</em> (Chico Buarque)</li>
+<li><em>Olhos nos olhos</em> (Chico Buarque)</li>
+<li><em>O meu amor</em> (Chico Buarque)<br>
+</li>
+<li><em>Paratodos</em> (Chico Buarque)</li>
+<li><em>Pedro pedreiro</em> (Chico Buarque)</li>
+<li><em>Pelas tabelas</em> (Chico Buarque)</li>
+<li><em>Quem te viu, quem te vê</em> (Chico Buarque)</li>
+<li><em>Roda viva</em> (Chico Buarque)</li>
+<li><em>Samba de Orly</em> (Chico Buarque, Vinicius de Moraes e Toquinho)<br>
+</li>
+<li><em>Samba do grande amor</em> (Chico Buarque)</li>
+<li><em>Samba e amor</em> (Chico Buarque)<br>
+</li>
+<li><em>Sem fantasia</em> (Chico Buarque)</li>
+<li><em>Sob medida</em> (Chico Buarque)<br>
+</li>
+<li><em>Tatuagem</em> (Chico Buarque e Ruy Guerra)<br>
+</li>
+<li><em>Vai trabalhar vagabundo</em> (Chico Buarque)</li>
+</ul>
+</section>
+<section id="edu-lobo" class="level2">
+<h2 class="anchored" data-anchor-id="edu-lobo">Edu Lobo</h2>
+<ul>
+<li><em>Abandono</em> (Edu Lobo e Chico Buarque)<br>
+</li>
+<li><em>Acalanto</em> (Edu Lobo e Chico Buarque)<br>
+</li>
+<li><em>Aguaverde</em> (Edu Lobo)<br>
+</li>
+<li><em>A história de Lilly Braun</em> (Edu Lobo e Chico Buarque)<br>
+</li>
+<li><em>Arrastão</em> (Edu Lobo e Vinicius de Moraes)<br>
+</li>
+<li><em>Arpoador</em> (Edu Lobo)<br>
+</li>
+<li><em>As mesmas histórias</em> (Edu Lobo)<br>
+</li>
+<li><em>Ave rara</em> (Edu Lobo e Aldir Blanc)<br>
+</li>
+<li><em>Beatriz</em> (Edu Lobo e Chico Buarque)<br>
+</li>
+<li><em>Borandá</em> (Edu Lobo)<br>
+</li>
+<li><em>Branca Dias</em> (Edu Lobo e Cacaso)<br>
+</li>
+<li><em>Candeias</em> (Edu Lobo)<br>
+</li>
+<li><em>Canção da terra</em> (Edu Lobo)<br>
+</li>
+<li><em>Casa forte</em> (Edu Lobo)<br>
+</li>
+<li><em>Canudos</em> (Edu Lobo e Cacaso)<br>
+</li>
+<li><em>Canto triste</em> (Edu Lobo e Vinicius de Moraes)<br>
+</li>
+<li><em>Chegança</em> (Edu Lobo e Oduvaldo Viana Filho)<br>
+</li>
+<li><em>Choro bandido</em> (Edu Lobo e Chico Buarque)</li>
+<li><em>Cidade Nova</em> (Edu Lobo e Ronaldo Bastos)<br>
+</li>
+<li><em>Considerando</em> (Edu Lobo e Capinan)<br>
+</li>
+<li><em>Corrida de jangada</em> (Edu Lobo e Capinan)</li>
+<li><em>Corrupião</em> (Edu Lobo)<br>
+</li>
+<li><em>Descompassado</em> (Edu Lobo e Cacaso)<br>
+</li>
+<li><em>Dono do lugar</em> (Edu Lobo e Cacaso)</li>
+<li><em>Dos navegantes</em> (Edu Lobo e Paulo César Pinheiro)</li>
+<li><em>Frevo diabo</em> (Edu Lobo e Chico Buarque)</li>
+<li><em>Lero-lero</em> (Edu Lobo e Cacaso)</li>
+<li><em>Meia-noite</em> (Edu Lobo e Chico Buarque)<br>
+</li>
+<li><em>Memórias de Marta Saré</em> (Edu Lobo e Gianfrancesco Guarnieri)<br>
+</li>
+<li><em>Meu namorado</em> (Edu Lobo e Chico Buarque)<br>
+</li>
+<li><em>Meus pensamentos de mágoa</em> (Edu Lobo, sobre um poema de Fernando Pessoa)<br>
+</li>
+<li><em>Na carreira</em> (Edu Lobo e Chico Buarque)<br>
+</li>
+<li><em>Na ilha de Lia, no barco de Rosa</em> (Edu Lobo e Chico Buarque)</li>
+<li><em>No cordão da saideira</em> (Edu Lobo)<br>
+</li>
+<li><em>O sertão</em> (Edu Lobo)<br>
+</li>
+<li><em>Pra você que chora</em> (Edu Lobo e Gianfrancesco Guarnieri)<br>
+</li>
+<li><em>Perambulando</em> (Edu Lobo)<br>
+</li>
+<li><em>Pianinho</em> (Edu Lobo e Aldir Blanc)<br>
+</li>
+<li><em>Ponteio</em> (Edu Lobo e Capinan)<br>
+</li>
+<li><em>Pra dizer adeus</em> (Edu Lobo e Torquato Neto)<br>
+</li>
+<li><em>Reza</em> (Edu Lobo e Ruy Guerra)<br>
+</li>
+<li><em>Senhora do Rio</em> (Edu Lobo)<br>
+</li>
+<li><em>Só me fez bem</em> (Edu Lobo e Vinicius de Moraes)<br>
+</li>
+<li><em>Sobre todas as coisas</em> (Edu Lobo e Chico Buarque)<br>
+</li>
+<li><em>Upa, neguinho</em> (Edu Lobo e Gianfrancesco Guarnieri)<br>
+</li>
+<li><em>Vento bravo</em> (Edu Lobo e Paulo César Pinheiro)<br>
+</li>
+<li><em>Viola fora de moda</em> (Edu Lobo e Capinan)</li>
+<li><em>Zambi</em> (Edu Lobo e Vinicius de Moraes)<br>
+</li>
+<li><em>Zanga, zangada</em> (Edu Lobo e Ronaldo Bastos)<br>
+</li>
+<li><em>Zanzibar</em> (Edu Lobo)</li>
+</ul>
+</section>
+<section id="caetano-veloso" class="level2">
+<h2 class="anchored" data-anchor-id="caetano-veloso">Caetano Veloso</h2>
+<ul>
+<li><em>A filha da Chiquita Bacana</em> (Caetano Veloso)<br>
+</li>
+<li><em>Alegria, alegria</em> (Caetano Veloso)<br>
+</li>
+<li><em>A outra banda da Terra</em> (Caetano Veloso)<br>
+</li>
+<li><em>Atrás do trio elétrico</em> (Caetano Veloso)</li>
+<li><em>Avarandado</em> (Caetano Veloso)<br>
+</li>
+<li><em>A tua presença morena</em> (Caetano Veloso)<br>
+</li>
+<li><em>Baby</em> (Caetano Veloso)<br>
+</li>
+<li><em>Beleza pura</em> (Caetano Veloso)<br>
+</li>
+<li><em>Cajuína</em> (Caetano Veloso)</li>
+<li><em>Cavaleiro de Jorge</em> (Caetano Veloso)<br>
+</li>
+<li><em>Chuva, suor e cerveja</em> (Caetano Veloso)<br>
+</li>
+<li><em>Cinema Olímpia</em> (Caetano Veloso)<br>
+</li>
+<li><em>Como dois e dois</em> (Caetano Veloso)<br>
+</li>
+<li><em>Coração vagabundo</em> (Caetano Veloso)<br>
+</li>
+<li><em>Dom de iludir</em> (Caetano Veloso)<br>
+</li>
+<li><em>Drama</em> (Caetano Veloso)</li>
+<li><em>Eclipse oculto</em> (Caetano Veloso)</li>
+<li><em>Ele me deu um beijo na boca</em> (Caetano Veloso)<br>
+</li>
+<li><em>Esse cara</em> (Caetano Veloso)<br>
+</li>
+<li><em>Gema</em> (Caetano Veloso)<br>
+</li>
+<li><em>Gente</em> (Caetano Veloso)</li>
+<li><em>Irene</em> (Caetano Veloso)<br>
+</li>
+<li><em>Jeito de corpo</em> (Caetano Veloso)<br>
+</li>
+<li><em>London, London</em> (Caetano Veloso)<br>
+</li>
+<li><em>Louco por você</em> (Caetano Veloso)<br>
+</li>
+<li><em>Lua de São Jorge</em> (Caetano Veloso)<br>
+</li>
+<li><em>Lua, lua, lua, lua</em> (Caetano Veloso)<br>
+</li>
+<li><em>Luz do sol</em> (Caetano Veloso)<br>
+</li>
+<li><em>Massa real</em> (Caetano Veloso)<br>
+</li>
+<li><em>Mel</em> (Caetano Veloso e Wally Salomão)<br>
+</li>
+<li><em>Menino do Rio</em> (Caetano Veloso)</li>
+<li><em>Meu bem, meu mal</em> (Caetano Veloso)<br>
+</li>
+<li><em>Milagres do povo</em> (Caetano Veloso)</li>
+<li><em>Minha voz, minha vida</em> (Caetano Veloso)</li>
+<li><em>Muito</em> (Caetano Veloso)</li>
+<li><em>Não identificado</em> (Caetano Veloso)<br>
+</li>
+<li><em>No dia em que eu vim-me embora</em> (Caetano Veloso e Gilberto Gil)<br>
+</li>
+<li><em>Nosso estranho amor</em> (Caetano Veloso)<br>
+</li>
+<li><em>Odara</em> (Caetano Veloso)<br>
+</li>
+<li><em>O leãozinho</em> (Caetano Veloso)<br>
+</li>
+<li><em>O quereres</em> (Caetano Veloso)</li>
+<li><em>Os argonautas</em> (Caetano Veloso)</li>
+<li><em>Outras palavras</em> (Caetano Veloso)</li>
+<li><em>Quero ir a Cuba</em> (Caetano Veloso)</li>
+<li><em>Pecado original</em> (Caetano Veloso)<br>
+</li>
+<li><em>Podres poderes</em> (Caetano Veloso)<br>
+</li>
+<li><em>Rapte-me, camaleoa</em> (Caetano Veloso)<br>
+</li>
+<li><em>Sampa</em> (Caetano Veloso)<br>
+</li>
+<li><em>Sim, não</em> (Caetano Veloso e Bolão)</li>
+<li><em>Superbacana</em> (Caetano Veloso)</li>
+</ul>
+</section>
+<section id="djavan" class="level2">
+<h2 class="anchored" data-anchor-id="djavan">Djavan</h2>
+<ul>
+<li><em>Açaí</em> (Djavan)<br>
+</li>
+<li><em>Água</em> (Djavan)</li>
+<li><em>Alagoas</em> (Djavan)<br>
+</li>
+<li><em>Álibi</em> (Djavan)<br>
+</li>
+<li><em>Aquele um</em> (Djavan)<br>
+</li>
+<li><em>Asa</em> (Djavan)<br>
+</li>
+<li><em>Atitude</em> (Djavan)<br>
+</li>
+<li><em>Azul</em> (Djavan)<br>
+</li>
+<li><em>Beiral</em> (Djavan)<br>
+</li>
+<li><em>Capim</em> (Djavan)<br>
+</li>
+<li><em>Doidice</em> (Djavan)<br>
+</li>
+<li><em>Dupla traição</em> (Djavan)<br>
+</li>
+<li><em>E que Deus ajude</em> (Djavan)<br>
+</li>
+<li><em>Esfinge</em> (Djavan)<br>
+</li>
+<li><em>Estória de cantador</em> (Djavan)<br>
+</li>
+<li><em>Faltando um pedaço</em> (Djavan)</li>
+<li><em>Fato consumado</em> (Djavan)<br>
+</li>
+<li><em>Flor de lis</em> (Djavan)<br>
+</li>
+<li><em>Flor do medo</em> (Djavan)<br>
+</li>
+<li><em>Joaninha</em> (Djavan)<br>
+</li>
+<li><em>Lambada de serpente</em> (Djavan)<br>
+</li>
+<li><em>Lilás</em> (Djavan)<br>
+</li>
+<li><em>Luz</em> (Djavan)<br>
+</li>
+<li><em>Maçã</em> (Djavan)<br>
+</li>
+<li><em>Mal de mim</em> (Djavan)<br>
+</li>
+<li><em>Meu</em> (Djavan)<br>
+</li>
+<li><em>Meu bem querer</em> (Djavan)<br>
+</li>
+<li><em>Muito obrigado</em> (Djavan)</li>
+<li><em>Nem um dia</em> (Djavan)<br>
+</li>
+<li><em>Nereci</em> (Djavan)<br>
+</li>
+<li><em>Nobreza</em> (Djavan)<br>
+</li>
+<li><em>Numa esquina de Hanói</em> (Djavan)<br>
+</li>
+<li><em>Obi</em> (Djavan)<br>
+</li>
+<li><em>Oceano</em> (Djavan)<br>
+</li>
+<li><em>Om</em> (Djavan)<br>
+</li>
+<li><em>Pétala</em> (Djavan)<br>
+</li>
+<li><em>Passou</em> (Djavan)<br>
+</li>
+<li><em>Pedro Brasil</em> (Djavan)<br>
+</li>
+<li><em>Que foi, my love?</em> (Djavan)<br>
+</li>
+<li><em>Samba dobrado</em> (Djavan)<br>
+</li>
+<li><em>Samurai</em> (Djavan)<br>
+</li>
+<li><em>Seduzir</em> (Djavan)<br>
+</li>
+<li><em>Serene</em> (Djavan)<br>
+</li>
+<li><em>Serrado</em> (Djavan)<br>
+</li>
+<li><em>Sílaba</em> (Djavan)<br>
+</li>
+<li><em>Sina</em> (Djavan)<br>
+</li>
+<li><em>Sururu de capote</em> (Djavan)<br>
+</li>
+<li><em>Tanta saudade</em> (Djavan e Chico Buarque)<br>
+</li>
+<li><em>Tem boi na linha</em> (Djavan)<br>
+</li>
+<li><em>Topázio</em> (Djavan)</li>
+</ul>
+</section>
+<section id="joão-bosco" class="level2">
+<h2 class="anchored" data-anchor-id="joão-bosco">João Bosco</h2>
+<ul>
+<li><em>Agnus sei</em> (João Bosco e Aldir Blanc)<br>
+</li>
+<li><em>A nível de…</em> (João Bosco e Aldir Blanc)<br>
+</li>
+<li><em>Bala com bala</em> (João Bosco e Aldir Blanc)<br>
+</li>
+<li><em>Beirando a rumba</em> (João Bosco e Francisco Bosco)<br>
+</li>
+<li><em>Bijuterias</em> (João Bosco e Aldir Blanc)<br>
+</li>
+<li><em>Boca de sapo</em> (João Bosco e Aldir Blanc)<br>
+</li>
+<li><em>Casa de marimbondo</em> (João Bosco e Aldir Blanc)<br>
+</li>
+<li><em>Corsário</em> (João Bosco e Aldir Blanc)<br>
+</li>
+<li><em>De frente pro crime</em> (João Bosco e Aldir Blanc)<br>
+</li>
+<li><em>Denúncia vazia</em> (João Bosco e Aldir Blanc)<br>
+</li>
+<li><em>Desenho de giz</em> (João Bosco e Abel Silva)<br>
+</li>
+<li><em>Dois pra lá, dois pra cá</em> (João Bosco e Aldir Blanc)<br>
+</li>
+<li><em>Escadas da Penha</em> (João Bosco e Aldir Blanc)<br>
+</li>
+<li><em>Falso brilhante</em> (João Bosco e Aldir Blanc)<br>
+</li>
+<li><em>Feminismo no Estácio</em> (João Bosco e Aldir Blanc)<br>
+</li>
+<li><em>Galos de briga</em> (João Bosco e Aldir Blanc)<br>
+</li>
+<li><em>Gol anulado</em> (João Bosco e Aldir Blanc)<br>
+</li>
+<li><em>Jade</em> (João Bosco)</li>
+<li><em>Jandira da gandaia</em> (João Bosco e Aldir Blanc)<br>
+</li>
+<li><em>Jogador</em> (João Bosco e Aldir Blanc)<br>
+</li>
+<li><em>Kid Cavaquinho</em> (João Bosco e Aldir Blanc)<br>
+</li>
+<li><em>Latin lover</em> (João Bosco e Aldir Blanc)<br>
+</li>
+<li><em>Linha de passe</em> (João Bosco, Aldir Blanc e Paulo Emílio)</li>
+<li><em>Meu caro visconde</em> (João Bosco e Aldir Blanc)<br>
+</li>
+<li><em>Miss suéter</em> (João Bosco e Aldir Blanc)<br>
+</li>
+<li><em>Nação</em> (João Bosco, Aldir Blanc e Paulo Emílio)</li>
+<li><em>Nesta data</em> (João Bosco e Aldir Blanc)<br>
+</li>
+<li><em>Nossas últimas viagens</em> (João Bosco, João Donato e Aldir Blanc)<br>
+</li>
+<li><em>O bêbado e a equilibrista</em> (João Bosco e Aldir Blanc)<br>
+</li>
+<li><em>O mestre-sala dos mares</em> (João Bosco e Aldir Blanc)<br>
+</li>
+<li><em>O rancho da goiabada</em> (João Bosco e Aldir Blanc)<br>
+</li>
+<li><em>Ofício de um puxador</em> (João Bosco e Aldir Blanc)<br>
+</li>
+<li><em>Papel machê</em> (João Bosco e Aldir Blanc)<br>
+</li>
+<li><em>Pirata azul</em> (João Bosco e Capinam)<br>
+</li>
+<li><em>Plataforma</em> (João Bosco e Aldir Blanc)<br>
+</li>
+<li><em>Preta-porter de tafetá</em> (João Bosco e Aldir Blanc)<br>
+</li>
+<li><em>Profissionalismo é isso aí</em> (João Bosco e Aldir Blanc)<br>
+</li>
+<li><em>Quando o amor acontece</em> (João Bosco e Aldir Blanc)<br>
+</li>
+<li><em>Querido diário</em> (João Bosco e Aldir Blanc)<br>
+</li>
+<li><em>Siameses</em> (João Bosco e Aldir Blanc)<br>
+</li>
+<li><em>Samba do pouso</em> (João Bosco e Vinicius de Moraes)<br>
+</li>
+<li><em>Siri recheado e o cacete</em> (João Bosco e Aldir Blanc)<br>
+</li>
+<li><em>Tabelas</em> (João Bosco e Aldir Blanc)<br>
+</li>
+<li><em>Tenho dito</em> (João Bosco)<br>
+</li>
+<li><em>Terra dourada</em> (João Bosco)</li>
+<li><em>Tiro de misericórdia</em> (João Bosco e Aldir Blanc)<br>
+</li>
+<li><em>Trilha sonora</em> (João Bosco e Aldir Blanc)<br>
+</li>
+<li><em>Um por todos</em> (João Bosco e Aldir Blanc)<br>
+</li>
+<li><em>Violeta de Belford Roxo</em> (João Bosco e Aldir Blanc)<br>
+</li>
+<li><em>Zona de fronteira</em> (João Bosco, Antônio Cícero e Wally Salomão)</li>
+</ul>
+</section>
+<section id="milton-nascimento" class="level2">
+<h2 class="anchored" data-anchor-id="milton-nascimento">Milton Nascimento</h2>
+<ul>
+<li><em>A lágrima e o rio</em> (Milton Nascimento, Wilson Lopes e Ricardo Nazar)</li>
+<li><em>Ao que vai nascer</em> (Milton Nascimento e Fernando Brant)<br>
+</li>
+<li><em>A sede do peixe</em> (Milton Nascimento e Márcio Borges)</li>
+<li><em>A terceira margem do rio</em> (Milton Nascimento e Caetano Veloso)</li>
+<li><em>Amor amigo</em> (Milton Nascimento e Fernando Brant)</li>
+<li><em>Cadê</em> (Milton Nascimento e Ruy Guerra)<br>
+</li>
+<li><em>Cais</em> (Milton Nascimento e Ronaldo Bastos)</li>
+<li><em>Canção amiga</em> (Milton Nascimento e Carlos Drumond de Andrade)</li>
+<li><em>Catavento</em> (Milton Nascimento)</li>
+<li><em>Caxangá</em> (Milton Nascimento e Fernando Brant)<br>
+</li>
+<li><em>Clube da Esquina n° 2</em> (Milton Nascimento, Lô Borges e Márcio Borges)<br>
+</li>
+<li><em>Coisas de Minas</em> (Milton Nascimento e Wilson Lopes)<br>
+</li>
+<li><em>Coração civil</em> (Milton Nascimento e Fernando Brant)<br>
+</li>
+<li><em>Cravo e canela</em> (Milton Nascimento e Ronaldo Bastos)<br>
+</li>
+<li><em>Credo</em> (Milton Nascimento e Fernando Brant)<br>
+</li>
+<li><em>Crença</em> (Milton Nascimento e Márcio Borges)<br>
+</li>
+<li><em>Dança dos meninos</em> (Milton Nascimento e Marco Antônio Guimarães)<br>
+</li>
+<li><em>E daí?</em> (Milton Nascimento e Ruy Guerra)<br>
+</li>
+<li><em>Estrelada</em> (Milton Nascimento e Márcio Borges)<br>
+</li>
+<li><em>Gira, girou</em> (Milton Nascimento e Márcio Borges)<br>
+</li>
+<li><em>Leila</em> (Milton Nascimento)<br>
+</li>
+<li><em>Lilia</em> (Milton Nascimento)<br>
+</li>
+<li><em>Maria, Maria</em> (Milton Nascimento e Fernando Brant)<br>
+</li>
+<li><em>Maria três filhos</em> (Milton Nascimento e Fernando Brant)<br>
+</li>
+<li><em>Milagre dos peixes</em> (Milton Nascimento e Fernando Brant)<br>
+</li>
+<li><em>Morro Velho</em> (Milton Nascimento)<br>
+</li>
+<li><em>Nada será como antes</em> (Milton Nascimento e Ronaldo Bastos)<br>
+</li>
+<li><em>Novena</em> (Milton Nascimento e Márcio Borges)<br>
+</li>
+<li><em>Olha</em> (Milton Nascimento)</li>
+<li><em>O cavaleiro</em> (Milton Nascimento e Wilson Lopes)<br>
+</li>
+<li><em>Os povos</em> (Milton Nascimento e Márcio Borges)<br>
+</li>
+<li><em>Outubro</em> (Milton Nascimento e Fernando Brant)<br>
+</li>
+<li><em>Pelo amor de Deus</em> (Milton Nascimento e Fernando Brant)<br>
+</li>
+<li><em>Pietá</em> (Milton Nascimento e Chico Amaral)<br>
+</li>
+<li><em>Primeiro de maio</em> (Milton Nascimento e Chico Buarque)<br>
+</li>
+<li><em>Rio Vermelho</em> (Milton Nascimento, Danilo Caymmi e Ronaldo Bastos)<br>
+</li>
+<li><em>River Phoenix</em> (Milton Nascimento)<br>
+</li>
+<li><em>Roupa Nova</em> (Milton Nascimento e Fernando Brant)<br>
+</li>
+<li><em>Saídas e bandeiras</em> (Milton Nascimento e Fernando Brant)<br>
+</li>
+<li><em>San Vicente</em> (Milton Nascimento e Fernando Brant)<br>
+</li>
+<li><em>Saudades dos aviões da Panair</em> (Milton Nascimento e Fernando Brant)</li>
+<li><em>Tarde</em> (Milton Nascimento e Márcio Borges)<br>
+</li>
+<li><em>Tema de Tostão</em> (Milton Nascimento e Matthew Moore)<br>
+</li>
+<li><em>Travessia</em> (Milton Nascimento e Fernando Brant)</li>
+<li><em>Três Pontas</em> (Milton Nascimento e Ronaldo Bastos)<br>
+</li>
+<li><em>Tristesse</em> (Milton Nascimento e Telo Borges)<br>
+</li>
+<li><em>Um gosto de sol</em> (Milton Nascimento e Ronaldo Bastos)<br>
+</li>
+<li><em>Vera Cruz</em> (Milton Nascimento e Márcio Borges)</li>
+<li><em>Vida</em> (Milton Nascimento e Fernando Brant)<br>
+</li>
+<li><em>Vidro e corte</em> (Milton Nascimento)</li>
+</ul>
+</section>
+<section id="gilberto-gil" class="level2">
+<h2 class="anchored" data-anchor-id="gilberto-gil">Gilberto Gil</h2>
+<ul>
+<li><em>Andar com fé</em> (Gilberto Gil)</li>
+<li><em>Aquele abraço</em> (Gilberto Gil)<br>
+</li>
+<li><em>Aqui e agora</em> (Gilberto Gil)<br>
+</li>
+<li><em>Babá Alapalá</em> (Gilberto Gil)<br>
+</li>
+<li><em>Back in Bahia</em> (Gilberto Gil)<br>
+</li>
+<li><em>Barato total</em> (Gilberto Gil)<br>
+</li>
+<li><em>Cérebro eletrônico</em> (Gilberto Gil)<br>
+</li>
+<li><em>Chororô</em> (Gilberto Gil)<br>
+</li>
+<li><em>Copo vazio</em> (Gilberto Gil)<br>
+</li>
+<li><em>Cores vivas</em> (Gilberto Gil)<br>
+</li>
+<li><em>Deixar você</em> (Gilberto Gil)<br>
+</li>
+<li><em>Divino e maravilhoso</em> (Gilberto Gil e Caetano Veloso)<br>
+</li>
+<li><em>Domingo no parque</em> (Gilberto Gil)<br>
+</li>
+<li><em>Drão</em> (Gilberto Gil)<br>
+</li>
+<li><em>Era nova</em> (Gilberto Gil)<br>
+</li>
+<li><em>Eu vim da Bahia</em> (Gilberto Gil)<br>
+</li>
+<li><em>Expresso 2222</em> (Gilberto Gil)<br>
+</li>
+<li><em>Extra</em> (Gilberto Gil)<br>
+</li>
+<li><em>Flora</em> (Gilberto Gil)<br>
+</li>
+<li><em>Ladeira da Preguiça</em> (Gilberto Gil)<br>
+</li>
+<li><em>Lamento sertanejo</em> (Gilberto Gil e Dominguinhos)<br>
+</li>
+<li><em>Lente do amor</em> (Gilberto Gil)<br>
+</li>
+<li><em>Louvação</em> (Gilberto Gil e Torquato Neto)<br>
+</li>
+<li><em>Luar</em> (Gilberto Gil)<br>
+</li>
+<li><em>Lugar comum</em> (Gilberto Gil e João Donato)<br>
+</li>
+<li><em>Mancada</em> (Gilberto Gil)<br>
+</li>
+<li><em>Meio de campo</em> (Gilberto Gil)<br>
+</li>
+<li><em>Menina do sonho</em> (Gilberto Gil)<br>
+</li>
+<li><em>Meu amigo, meu herói</em> (Gilberto Gil)<br>
+</li>
+<li><em>Morena</em> (Gilberto Gil e Cassiano)<br>
+</li>
+<li><em>O rouxinol</em> (Gilberto Gil e Jorge Mautner)<br>
+</li>
+<li><em>O sonho acabou</em> (Gilberto Gil)<br>
+</li>
+<li><em>Palco</em> (Gilberto Gil)<br>
+</li>
+<li><em>Pessoa nefasta</em> (Gilberto Gil)<br>
+</li>
+<li><em>Preciso aprender a ser só</em> (Gilberto Gil)<br>
+</li>
+<li><em>Procissão</em> (Gilberto Gil)<br>
+</li>
+<li><em>Punk da periferia</em> (Gilberto Gil)<br>
+</li>
+<li><em>Raça humana</em> (Gilberto Gil)<br>
+</li>
+<li><em>Rebento</em> (Gilberto Gil)<br>
+</li>
+<li><em>Refazenda</em> (Gilberto Gil)<br>
+</li>
+<li><em>Retiros espirituais</em> (Gilberto Gil)<br>
+</li>
+<li><em>Sandra</em> (Gilberto Gil)<br>
+</li>
+<li><em>Sarará miolo</em> (Gilberto Gil)<br>
+</li>
+<li><em>Se eu quiser falar com Deus</em> (Gilberto Gil)<br>
+</li>
+<li><em>Soy loco por ti, América</em> (Gilberto Gil e Capinam)<br>
+</li>
+<li><em>Super-homem, a canção</em> (Gilberto Gil)<br>
+</li>
+<li><em>Realce</em> (Gilberto Gil)<br>
+</li>
+<li><em>Sítio do Pica-Pau Amarelo</em> (Gilberto Gil)<br>
+</li>
+<li><em>Toda menina baiana</em> (Gilberto Gil)<br>
+</li>
+<li><em>Vamos fugir</em> (Gilberto Gil e Liminha)</li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../capitulos/estilo-musical.html" class="pagination-link  aria-label=" uma="" breve="" discussão="" sobre="" estilo="" musical"="">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Uma breve discussão sobre estilo musical</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© CC-1.0</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/capitulos/listagem-corpora.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/capitulos/listagem-corpora.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>Página construída em <a href="https://quarto.org/">Quarto</a>.</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
