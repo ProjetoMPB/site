@@ -37,6 +37,16 @@ website:
         text: Introdução
       - href: capitulos/nossa-mpb.qmd
         text: A "nossa" MPB
+      - href: capitulos/estilo-musical.qmd
+        text: Uma breve discussão sobre estilo musical
+      - href: capitulos/listagem-corpora.qmd
+        text: Listagem dos *corpora*
+
+crossref:
+  fig-title: Figura
+  tbl-title: Tabela
+
+# number-sections: true
 
 format:
   html:
