@@ -1,0 +1,7 @@
+---
+title: Logotipo do Projeto MPB
+---
+
+![](../logos/logo-projeto.png)
+
+Logotipo do Projeto MPB. Você consegue identificar todos(as) os(as) 40 compositores(as)? 😁 Faça o teste aqui!

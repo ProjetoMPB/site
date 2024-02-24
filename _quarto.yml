@@ -15,7 +15,7 @@ website:
   
   sidebar:
     background: "#D9E3E4"
-    logo: figs/logo_projeto.png
+    logo: logos/logo-projeto.png
     favicon: favicon.ico
     pinned: true
     align: center
@@ -32,19 +32,32 @@ website:
     collapse-level: 1
     contents:
       - href: index.qmd
-        text: Início
+        text: Página inicial
       - href: capitulos/intro.qmd
         text: Introdução
       - href: capitulos/nossa-mpb.qmd
         text: A "nossa" MPB
       - href: capitulos/estilo-musical.qmd
         text: Uma breve discussão sobre estilo musical
+      - href: capitulos/hipoteses.qmd
+        text: Hipóteses
+      - href: capitulos/corpora-mpb.qmd
+        text: Os *corpora* MPB
+      - href: capitulos/modelos-teoricos.qmd
+        text: Modelos teóricos
+      - text: "---"
       - href: capitulos/listagem-corpora.qmd
         text: Listagem dos *corpora*
+      - href: capitulos/producao-bibliografica.qmd
+        text: Produção bibliográfica
 
 crossref:
   fig-title: Figura
   tbl-title: Tabela
+
+lang: pt
+
+bibliography: refs.bib
 
 # number-sections: true
 
@@ -56,7 +69,6 @@ format:
     code-copy: true
     code-overflow: wrap
     toc: true
-
 
 filters:
   - include-files.lua

@@ -1,0 +1,67 @@
+---
+title: Produção bibliográfica
+---
+
+## 2023
+
+### Livros
+#### A melodia de Jobim
+Carlos Almada
+
+Editora da Unicamp
+
+**Resumo**: A melodia de Jobim dá seguimento ao livro A harmonia de Jobim, publicado em 2022. Ambos resultam de pesquisa voltada para um exame original e detalhado de aspectos diversos da estrutura da obra de Antonio Carlos Jobim. O livro descreve em sua primeira parte os modelos teóricos elaborados ao longo da pesquisa, destinados à análise sistemática das estruturas de alturas e rítmicas de um corpus de composições jobinianas, incluindo várias peças não publicadas. A segunda parte é voltada especialmente a abordagens analíticas focalizando aspectos específicos da organização melódica, a saber, configurações de contornos, apoios em tensões harmônicas, linhas cromáticas, configurações formais e temáticas, derivação motívica e relações entre melodia e texto.
+
+### Artigos
+#### O ritmo de ideias básicas de samba: uma abordagem sistemática
+Carlos de Lemos Almada e Pedro Zisels Ramos
+
+Musica Theorica, v. 8 n. 1 (DOI: [https://doi.org/10.52930/mt.v8i1.261](https://doi.org/10.52930/mt.v8i1.261))
+
+**Resumo**: Integrando uma pesquisa detalhada sobre aspectos estruturais do gênero samba, o presente artigo propõe um recorte no qual é enfocada apenas as configurações rítmicas das ideias básicas (Caplin 1998) de 500 sambas selecionados. A partir de um modelo teórico original e ferramentas computacionais especialmente desenvolvidas, o estudo analisa a construção rítmica das canções selecionadas, considerando diversos níveis de organização e suas combinações. Gráficos e quadros comparativos fornecem um inédito e sistemático painel sobre o ritmo do samba, elencando ainda algumas hipóteses que alimentarão estudos futuros.
+
+### Apresentações em congressos
+
+#### La armonía en Jobim: Análisis estadístico
+Carlos Almada, Hugo Carvalho e Frederico Garcia
+
+XXV Congreso Argentino de Musicologia
+
+**Resumo** (em Espanhol): Desde 2022, un equipo liderado por Carlos Almada y Hugo Carvalho ha compilado el comportamiento armónico de un corpus de 50 canciones de Antonio Jobim (1927-1994) en un formato digital, generando una base de datos con la información completa de las progresiones bicordales presentes en ese repertorio. La presente ponencia da cuenta de la adaptación mutua entre ese base de datos y la herramienta de análisis computacional *Harmonic Profile Project* ([www.hpp pythonanywhere.com](www.hpp.pythonanywhere.com)), desarrollada por Federico García desde 2020, que genera visualizaciones, en 3 dimensiones e interactivas, del comportamiento arm ́onico de un corpus dado.
+
+Los análisis estadísticos de la armonía aparecidos a la fecha (p.ej. los citados en la bibliografía) se han enfocado en tablas de dos dimensiones, clasificando las armonías en términos de una tónica central, usualmente a través de números romanos. Esto introduce sesgos estadísticos en pasajes con ultracromatismo, modulaciones intermitentes, y otras modalidades de ambigüedad tonal, lo cual hace que resulte problemático aplicar esos modelos a la música del Siglo XIX y a los lenguajes del Jazz, incluido por supuesto Jobim.
+
+En vista de estas deficiencias, los presentes autores han investigado la armonía sin referencia a una tónica central, documentando y analizando las progresiones como información de tres (no sólo dos) parámetros: acorde de partida, acorde de llegada, y -- dado que ya no aparece codificada por los números romanos -- distancia interválica. La base de datos de Almada y Carvalho está diseñada en este sentido, y así mismo el HPP de García persigue justamente la manipulación y el análisis de información en las tres dimensiones, sin necesidad de forzar la clasificación de la cualidad y las distancias entre acordes dentro de una tonalidad.
+
+La presente ponencia ofrece los primeros resultados del análisis estadístico de la armonía de Jobim (compilada en una base de datos que incluye 2320 acordes de 75 tipos distintos, y un total de 438 relaciones binarias en 56 categorías funcionales), así como una discusión teórica más general sobre las similitudes y diferencias entre el léxico y la sintaxis del jazz y los de la armonía tonal clásica, a partir de las adaptaciones que fueron necesarias en la interpretación de la armonía de Jobim dentro el sistema del *Harmonic Profile Project*.
+
+#### Mapeamento de estilo na Prática Comum da MPB
+de Carlos Almada, Hugo Carvalho e Cecília Saraiva
+
+V Encontro da Associação Brasileira de Teoria e Análise Musical
+
+#### Mapeamento de estruturas melódicas da MPB
+Gabriel Barbosa
+
+12ª Semana de Integração Acadêmica da UFRJ – SIAC 2023
+
+## 2022
+
+### Livros
+#### A harmonia de Jobim
+
+Carlos Almada
+
+Editora da Unicamp
+
+**Resumo**: A música de Antonio Carlos Jobim é mundialmente reconhecida por sua extraordinária beleza e originalidade. No entanto, sua estrutura ainda hoje carece de estudos técnicos que a examinem com os devidos detalhamento e profundidade. A harmonia de Jobim busca contribuir para suprir essa lacuna, propondo um estudo teórico-analítico sobre a construção harmônica desse grande compositor. O livro apresenta, em sua primeira parte, dois modelos teóricos originais, elaborados a partir do exame dos dados coletados em uma análise de 145 canções de Jobim e parceiros. A segunda parte é dedicada à funcionalidade harmônica dos campos tonais e das relações entre regiões, bem como ao peculiar modalismo jobiniano, alternando formulações conceituais e análises. Algumas abordagens específicas formam a terceira parte do volume, considerando aspectos textuais, melódicos e alguns tópicos especiais (acordes com sexta, a estética blues, acordes híbridos etc.).
+
+### Artigos
+#### Entropia, o Espaço Harmônico Probabilístico e a harmonia de Antonio Carlos Jobim
+Carlos de Lemos Almada e Hugo Carvalho
+
+Musica Theorica, v. 8 n. 1 (DOI: [https://doi.org/10.52930/mt.v7i1.202](https://doi.org/10.52930/mt.v7i1.202))
+
+**Resumo**: Este artigo introduz um arcabouço teórico derivado de uma profunda e detalhada análise harmônica da integral de canções de Antonio Carlos Jobim, considerando aspectos "semânticos" (relacionado à ideia de tipos acordais) e "sintáticos" (envolvendo relações binárias entre acordes contíguos). O foco do estudo concentra-se na investigação das correlações existentes entre estilo composicional (no caso, relacionado à construção harmônica) e os conceitos de probabilidade, expectativa e, especialmente, entropia, definida como a medida da incerteza de eventos decorrentes no tempo. Após uma revisão bibliográfica sobre tais tópicos e de suas aplicações em música, uma seção dedicada a Cadeias de Markov prepara o exame central do objeto de estudo, a saber, as relações harmônicas “semântico-sintáticas” levantadas estatisticamente no repertório analisado das canções jobinianas. A formalização de um espaço harmônico probabilístico e do conceito de índice probabilístico, diretamente associados à entropia medida referente ao comportamento dos acordes das canções abrem uma perspectiva analítica original, permitindo ainda a generalização do aparato teórico-metodológico para o exame de outros repertórios e posterior comparação, apresentando-se, portanto, como um novo meio de investigação sobre a natureza do estilo.
+
+### Apresentações em congressos

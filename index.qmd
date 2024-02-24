@@ -1,18 +1,18 @@
 ---
 title: "Projeto MPB"
 subtitle: "Um estudo sistemático sobre a estrutura da Música Popular Brasileira"
-page-layout: full
 ---
 
-**COMPLETAR ESSE INÍCIO**
+O Projeto MPB, vinculado ao [Grupo de Pesquisa MusMat](https://musmat.org/), tem como propósito determinar de modo sistemático os contornos do contexto estético-musical que informalmente é denominado Música Popular Brasileira, mais conhecido como MPB. De modo mais específico, a abordagem aqui adotada é multidisciplinar, através da criação de *corpora* de composições representativas da estética em questão seguida de uma minuciosa análise estatística e musical.
 
 A estrutura deste projeto foi pensada como uma sequência de artigos (ou capítulos) relativamente autônomos a serem publicados gradual e periodicamente, de modo a tornar mais palatável aos leitores a considerável quantidade de informação produzida ao longo da pesquisa. Em linhas gerais, são os seguintes os tópicos a serem publicados:
-* Introdução
-* A "nossa" MPB
-* Uma breve discussão sobre estilo musical
-* Hipóteses
-* Os *corpora* de análise
-* Modeos teóricos
+
+* [Introdução](capitulos/intro.qmd)
+* [A "nossa" MPB](capitulos/nossa-mpb.qmd)
+* [Uma breve discussão sobre estilo musical](capitulos/estilo-musical.qmd)
+* [Hipóteses](capitulos/hipoteses.qmd)
+* [Os *corpora* de análise](capitulos/corpora-mpb.qmd)
+* [Modelos teóricos](capitulos/modelos-teoricos.qmd)
 * O processo analítico
 * Parâmetros e métricas
 * Entropia e probabilidade
@@ -20,7 +20,24 @@ A estrutura deste projeto foi pensada como uma sequência de artigos (ou capítu
 * Aplicações composicionais
 * Análise e discussão dos resultados
 
-## Membros
+Antes de começar a leitura, veja [aqui](capitulos/logo.qmd) o nosso logotipo em tamanho maior! Aproveite e faça o teste para ver quantos compositores(as) você consegue identificar.
+
+## Coordenadores
 **Carlos Almada** teve o privilégio de estar próximo ao epicentro temporal do maremoto da MPB, em meados dos anos 1970, justamente quando cursava o Ginasial (como na época se chamava o atual Ensino Médio), o que consistiu em um fator decisivo para sua formação musical e intelectual, numa relação afetiva profunda que se mantém intensa até hoje. Após graduar-se em Engenharia Mecânica, Almada direcionou sua vida profissional para o campo da música popular, tonando-se flautista, arranjador e compositor, nesta ordem, com atuação especialmente em samba e choro. Bem mais tarde, obteve graus de Mestre e Doutor em Música pela UNIRIO, a partir de uma pesquisa analítico-teórica sobre a *Primeira Sinfonia de Câmara* de Schoenberg, ingressando assim na vida acadêmica. Posteriormente, tornou-se professor da Escola de Música da UFRJ, onde leciona nos níveis de graduação e pós-graduação. Seus interesses de pesquisa atuais são a variação musical e os estudos sistemáticos em música popular, um campo de estudos, aliás, que nunca abandonou. É autor dos livros *Arranjo* (Editora da Unicamp, 2001), *A estrutura do choro* (Da Fonseca, 2006), *Harmonia funcional* (Editora da Unicamp, 2009), *Contraponto em música popular* (Editora da UFRJ, 2013), *Nas fronteiras da tonalidade* (Prisma, 2016), *A harmonia de Jobim* (Editora da Unicamp, 2022) e *Musical Variation: Toward a Transformational Perspective* (Springer, no prelo). Almada é membro fundador da Associação Brasileira de Teoria e Análise Musical (TeMa), líder do grupo de pesquisa MusMat e editor-chefe do periódico *MusMat: Brazilian Journal of Music and Mathematics*. Recentemente foi contemplado com uma Bolsa de Produtividade PQ-2, outorgada pelo Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq), referente ao projeto intitulado "Um mapeamento sistemático da estruturação melódico-harmônica na música popular brasileira no período entre 1950 e 1990", ao qual se vincula a presente pesquisa.
 
-**Hugo Carvalho** ..........
+**Hugo Carvalho** é paulistano de nascença (1989), e mora no Rio de Janeiro desde 2004, já tendo se tornado carioca de coração. Aprendeu a tocar violão clássico aos 8 anos de idade, quando morava com sua família no Paraguai, e ganhou assim um grande apreço pela música latinoamericana, especialmente Agustín Barrios, Antonio Lauro e Heitor Villa-Lobos. Contudo, sua paixão pela MPB só veio anos depois, mais ou menos após terminar o seu doutorado (2017), tendo sido apresentado a músicas incríveis pelo seu orientador e pela sua companheira. No ano de 2020 foi convidado pelo professor e compositor Liduino Pitombeira para ingressar no Grupo de Pesquisa MusMat, onde tem a oportunidade de trabalhar e conviver cotidianamente com pessoas maravilhosas. Quanto à sua trajetória acadêmica, Hugo é formado em Matemática Aplicada (UFRJ, 2011), tem Mestrado em Matemática Aplicada (UFRJ, 2013, dissertação em Português: [Uma introdução às singularidades em Relatividade Geral](http://objdig.ufrj.br/11/dissert/795029.pdf)) e tem Doutorado em Engenharia Elétrica, na área de Processamento de Sinais, tendo sido orientado por Luiz Wagner Pereira Biscainho e Flávio Rainho Ávila (UFRJ, 2017, tese em Inglês - [Bayes Meets Bach: Applications of Bayesian Statistics to Audio Restoration](http://www.pee.ufrj.br/index.php/pt/producao-academica/teses-de-doutorado/2017-1/2016033153-bayes-meets-bach-applications-of-bayesian-statistics-to-audio-restoration/file)). No momento, Hugo é professor adjunto no Departamento de Métodos Estatísticos da UFRJ, membro do Grupo de Pesquisa MusMat e membro do corpo editorial do periódico *MusMat: Brazilian Journal of Music and Mathematics*. Em seu tempo livre, Hugo faz cerveja caseira com sua amada companheira, toca violão clássico, estuda composição e faz pinturas em aquarela. Hugo é também um grande entusiasta de ficção científica (especialmente Star Trek) e do *legendarium* de J. R. R. Tolkien.
+
+## Equipe
+**Pedro Zisels Ramos** .....
+
+**Felipe Defensor Martins** .....
+
+**Matheus Xavier Forli** .....
+
+## Apoio
+
+[![](logos/ufrj.png){width=150}](https://ufrj.br/) [![](logos/im-ufrj.png){width=200}](https://www.im.ufrj.br/) [![](logos/ppge-ufrj.png){width=150}](https://www.dme.ufrj.br/)
+
+[![](logos/em-ufrj.png){width=200}](https://musica.ufrj.br/) [![](logos/ppgm-ufrj.png){width=150}](https://ppgm.musica.ufrj.br/) [![](logos/cnpq.png){width=150}](https://www.gov.br/cnpq/pt-br)
+
+[![](logos/musmat.png){width=200}](https://musmat.org/)

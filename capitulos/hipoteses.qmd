@@ -1,0 +1,24 @@
+---
+title: Hipóteses
+---
+
+Neste breve capítulo, listaremos um conjunto de hipóteses, levantadas a partir de um conhecimento informal sobre a MPB. Essas hipóteses de trabalho embasarão a formalização dos atributos estilísticos, a serem descritos oportunamente.
+
+## Hipóteses relacionadas ao domínio da harmonia
+Considerando diversos aspectos e níveis associados às questões harmônicas, peças musicais da MPB tendem a:
+
+* Apresentar relações tonais internas inusitadas (se comparadas aos padrões mais convencionais, ou seja, modulações para tonalidades relativas, homônimas ou para as regiões dominante e subdominante). Assim, esperamos que as relações tonais MPB fujam, em certa medida, desses padrões.
+* Possuir grande diversidade de tipos acordais distintos.
+* Apresentar um espectro amplo de categorias funcionais, com um destaque relativamente acentuado àquelas não diatônicas.
+
+Além destas, investigaremos a hipótese de que tais características harmônicas possam ter sido, por assim dizer, herdadas da prática jazzística. Essa conjectura é suportada não apenas pela constatação informal (através de análises superficiais de partituras e da própria apreciação auditiva das peças emepebísticas), mas também pela literatura sobre aspectos históricos e estéticos da MPB e por depoimentos de alguns compositores.^[Ver, por exemplo, @tinhorao-samba, @tinhorao-historia-musica-popular, entre outros.]
+
+## Hipóteses relacionadas ao domínio da melodia
+Dividimos as hipóteses melódicas em dois grupos, de acordo com os subdomínios das alturas e do ritmo. Quanto às alturas, hipotetizamos que linhas melódicas de peças emepebísticas tendem a:
+
+* Apresentar relações relativamente complexas com as harmonias que as suportam, ou seja, serem intensamente baseadas em notas-estruturais "superiores" (sextas, sétimas e tensões), especialmente em pontos de destaque. Tal hipótese, caso confirmada, também estaria associada a uma origem jazzística.
+* Apresentar contornos predominantemente descendentes e movimentos em grau conjunto (em oposição, saltos seriam raros). Hipotetizamos que tais características seriam herdadas de gêneros brasileiros "antecessores", em especial, da prática do samba e do choro.^[Cumpre acrescentar que, ao contrário daquelas que sugerem uma herança jazzística, esta hipótese tem bases bem frágeis, calcadas apenas na impressão informal.]
+
+No caso do subdomínio do ritmo, de acordo com nossas hipóteses, as peças da MPB tenderiam, em geral, a empregar configurações características da música brasileira (em especial, mas não somente, do samba). Isso se evidenciaria nos níveis das r-letras (com uma preferência, em maior ou menor medida, por aquelas contramétricas) e dos r-dissíbolos e r-trissílabos, nos quais se sobressaiam unidades proto-motívicas.
+
+Outras hipóteses, novas ou derivadas das acima listadas poderão ser explicitadas ao longo do projeto.

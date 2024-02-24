@@ -1,0 +1,66 @@
+---
+title: Os *corpora* MPB
+---
+
+Neste capítulo são apresentados, descritos e discutidos os *corpora* de obras que formam a essência material do projeto MPB.
+
+### Estudo de *corpus*
+Os chamados estudos de *corpus* vêm se tornando, especialmente nos últimos anos, uma das mais fortes tendências nas abordagens musicológicas sistemáticas. Impulsionados pelos crescentes avanços na tecnologia computacional e na formação de enormes bancos de dados sobre música (especialmente em partituras, arquivos de áudio e arquivos MIDI), tais estudos abrangem uma vasta gama de repertórios, sendo geralmente aliados a hipóteses de trabalho, modelos teóricos e metodologias especificamente elaborados para as análises e um sólido suporte estatístico.^[Ver, por exemplo, @moss-etal-beethoven-2019 considerando aspectos da harmonia na integral dos quartetos de corda de Beethoven.] Estudos de *corpus* em música popular também vêm surgindo em relativa profusão nos últimos anos.^[Para alguns exemplos, ver @declercq-temperley-2011, @mauch-etal-2015, @serra-etal-2012, @white-quinn-2018 e @moss-etal-choro-2020, este último considerando o gênero choro. Importante acrescentar que todos esses artigos se concentram apenas em questões harmônicas.]
+
+O Projeto MPB se enquadra nas linhas gerais dessa tendência, porém, um tanto inusitadamente, tem como objeto de estudo não apenas um *corpus*, mas um amplo conjunto deles, subdividido em dois grandes grupos: (1) o principal -- o centro da atenção analítica -- abrangendo *corpora* de *compositores* individuais de idênticas extensões (50 peças cada), e (2) o secundário -- o grupo de controle --, formado por três *corpora* de *gêneros*, cada qual igualmente com 50 peças. Além disso, o projeto considera, além da harmonia (em várias perspectivas), elementos da estrutura melódica: alturas, ritmos e relações entre notas e acordes.
+
+Como apontado por @covach-2023, a despeito de sua proeminência atual, os estudos de *corpus* em música popular não são, de modo algum, imunes a problemas. Uma das mais pertinentes críticas feitas pelo autor diz respeito aos critérios de seleção de peças para a formação de um *corpus*.....................
+
+[@huron-2013, p. 4] ..............estudos históricos (finitos) x prospectivos [PARECE QUE O MPB É AS 2 COISAS]..............
+
+HUGO, PENSEI QUE TALVEZ VC PUDESSE INCLUIR ALGUMA ARGUMENTAÇÃO EM FAVOR DOS NOSSOS CRITÉRIOS DE SELEÇÃO DE CORPUS, O QUE ACHA?
+
+## Informações básicas sobre os *corpora*
+### Grupo de controle
+A principal distinção entre o grupo de controle (formado pelo trio Jazz-Choro-Samba) e o principal (ou seja, dos *corpora* MPB) reside no fato de que seus repertórios não terem sido selecionados a partir de obras de compositores específicos, mas sim considerando os respectivos *gêneros*.^[A bem da verdade, enquanto as peças dos *corpora* Jazz e Samba proveem de diferentes compositores, as do Choro, por decisão metodológica, são todos da autoria de Pixinguinha (e, eventualmente, de seu parceiro Benedito Lacerda). Tal decisão se justifica pelo fato de Pixinguinha ser, reconhecidamente, o maior compositor do gênero de todos os tempos. Assim, ele se torna uma espécie de representante máximo do estilo do choro, que quase, por assim dizer, se confunde com seu próprio estilo composicional, em nosso entender.] As fontes adotadas para as transcrições foram as seguintes:
+
+* Jazz -- Todas as 50 peças foram transcritas de composições contidas no volume (muito conhecido pelos músicos) intitulado *Real book*.^[Para maiores informações, ver sua descrição na sua respectiva página da [Wikipedia](https://en.wikipedia.org/wiki/Real_Book).]
+* Choro -- A fonte adotada para a transcrição dos choros foi o livro de partituras *O melhor de Pixinguinha*, publicado pela editora Irmãos Vitale.
+* Samba -- Ao contrário dos outros repertórios, os 50 sambas selecionados foram transcritos a partir de suas gravações principais, trabalho realizado por Pedro Zisels.
+
+### Repertórios MPB
+Nesta primeira fase do projeto, decidimos selecionar 10 compositores para integrar o grupo principal e, desse modo, dar início ao processo analítico. Trata-se de uma espécie de "Seleção Canarinho" da MPB, dentro de nosso entendimento particular, é claro, mas, provavelmente, a maior parte desse escrete coincidirá com alternativas que possam ser propostas (como toda seleção já escalada, cada brasileiro tem o ideal de seu próprio time).
+
+Os 10 compositores selecionados para a formação dos *corpora* que integram grupo principal na fase 1 são os seguintes (dispostos na ordem de análise):
+
+* Antonio Carlos (Tom) Jobim (1927--1994)
+* Ivan Lins (1945)
+* Chico Buarque de Hollanda (1944)
+* Edu Lobo (1943)
+* Caetano Veloso (1942)
+* Djavan (1949)
+* Milton Nascimento (1942)
+* João Bosco (1946)
+* Gilberto Gil (1942)
+* Rita Lee (1947--2023)
+
+Em relação à escolha das obras para integrarem os 10 *corpora* MPB consideramos songbooks de partituras à disposição no mercado editorial brasileiro. Vale acrescentar que, a despeito das origens das partituras, todas são cuidadosamente revisadas antes de suas transcrições, fase na qual erros eventuais são corrigidos. As fontes adotadas são as seguintes:
+
+* Tom Jobim -- *Cancioneiro Jobim*, em cinco volumes, publicado pelo Instituto Antonio Carlos Jobim.^[As partituras em arquivo pdf também estão disponíveis no [site do Instituto](https://www.jobim.org/jobim/handle/2010/4135).]
+* Ivan Lins -- *Songbook Ivan Lins*, em dois volumes publicado pela editora Lumiar.
+* Chico Buarque -- *Cancioneiro Chico*, em dois volumes, publicado pelo Instituto Antonio Carlos Jobim.
+* Edu Lobo -- *Songbook Edu*, publicado pela editora Lumiar.
+* Caetano Veloso -- *Songbook Caetano Veloso*, em dois volumes publicado pela editora Lumiar.  
+* Djavan -- *Songbook Djavan*, em três volumes, publicado pela editora Lumiar. 
+* João Bosco -- *Songbook João Bosco*, em dois volumes, publicado pela editora Lumiar. 
+* Milton Nascimento -- *Songbook Milton Nascimento*, publicado pela editora Neutral.^[Algumas canções do *corpus* foram transcritas de gravações.]   
+* Gilberto Gil -- *Songbook Gilberto Gil*, em dois volumes, publicado pela editora Lumiar.  
+* Rita Lee -- *Songbook Rita Lee*, em dois volumes publicado pela editora Lumiar.
+
+Após a conclusão desta primeira, uma segunda fase incluirá mais 10 compositores, e assim por diante, tornando cada vez mais sólido e abrangente o projeto. Como uma ilustração do potencial de expansão do projeto, nesse sentido, a @fig-corpora01 apresenta as linhas de vida dos 10 compositores selecionados para a fase 1 (em destaque) e outras sugestões de nomes (entre vários outros possíveis) para futuras fases.
+
+![Linha do tempo abarcando 100 anos (1920--2020) sobre a qual se projetam os períodos de vida de 20 conhecidos compositores. A área em cinza informa aproximadamente o período da Prática Comum da MPB. Barras ativas correspondem aos 10 compositores selecionados para a primeira fase do projeto.](../figs/corpora-mpb-01.jpg){#fig-corpora01}
+
+## Critérios de transcrição
+
+As transcrições das informações musicais melódicas e harmônicas seguem alguns critérios básicos:
+
+* Apenas os trechos melódicos principais são transcritos (ou seja, são omitidas eventuais introduções, interlúdios e codas instrumentais).
+* Ritornelos e repetições *da capo* são desconsiderados, ou seja, interessa-nos a *forma nominal* das composições (seu material essencial), ao contrário da *forma de realização* (o arranjo definitivo).
+* Os mesmos critérios se aplicam à dimensão harmônica (que são transcritas em uma matriz de dados especiais, cuja descrição será apresentada em um capítulo futuro).
+* Em relação à transcrição de *notas-funções* (ver capítulo sobre os modelos teóricos adotados), que também se dá em uma matriz de dados específica, o critério é não considerar a composição por inteiro (como nos demais casos), mas apenas uma amostragem, variando de 20 a 50 notas contíguas.
