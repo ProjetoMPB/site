@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.4.550">
@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -29,7 +49,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../capitulos/listagem-corpora.html" rel="next">
+<link href="../capitulos/hipoteses.html" rel="next">
 <link href="../capitulos/nossa-mpb.html" rel="prev">
 <link href="../favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
@@ -57,17 +77,17 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
   }
 }</script>
 
@@ -109,11 +129,11 @@ window.Quarto = {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../capitulos/estilo-musical.html">Uma breve discussão sobre estilo musical</a></li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
@@ -127,17 +147,17 @@ window.Quarto = {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
       <a href="../index.html" class="sidebar-logo-link">
-      <img src="../figs/logo_projeto.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <img src="../logos/logo-projeto.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main tools-wide">
     <a href="https://projetompb.github.io/site/" title="Projeto MPB" class="quarto-navigation-tool px-1" aria-label="Projeto MPB"><i class="bi bi-globe"></i></a>
     <a href="https://github.com/ProjetoMPB/site" title="Projeto MPB (repositório)" class="quarto-navigation-tool px-1" aria-label="Projeto MPB (repositório)"><i class="bi bi-github"></i></a>
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo escuro"><i class="bi"></i></a>
 </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
+        <div id="quarto-search" class="" title="Procurar"></div>
         </div>
         </div>
     <div class="sidebar-menu-container"> 
@@ -145,7 +165,7 @@ window.Quarto = {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Início</span></a>
+ <span class="menu-text">Página inicial</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -168,8 +188,33 @@ window.Quarto = {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../capitulos/hipoteses.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Hipóteses</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/corpora-mpb.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Os <em>corpora</em> MPB</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/modelos-teoricos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Modelos teóricos</span></a>
+  </div>
+</li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../capitulos/listagem-corpora.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Listagem dos <em>corpora</em></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/producao-bibliografica.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Produção bibliográfica</span></a>
   </div>
 </li>
     </ul>
@@ -179,7 +224,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
+    <h2 id="toc-title">Nesta página</h2>
    
   <ul>
   <li><a href="#contextos-estilísticos" id="toc-contextos-estilísticos" class="nav-link active" data-scroll-target="#contextos-estilísticos">Contextos estilísticos</a></li>
@@ -187,7 +232,7 @@ window.Quarto = {
   <li><a href="#regras-e-estratégias" id="toc-regras-e-estratégias" class="nav-link" data-scroll-target="#regras-e-estratégias">Regras e estratégias</a></li>
   <li><a href="#marcadores-estilísticos" id="toc-marcadores-estilísticos" class="nav-link" data-scroll-target="#marcadores-estilísticos">Marcadores estilísticos</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/capitulos/estilo-musical.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/capitulos/estilo-musical.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/capitulos/estilo-musical.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/capitulos/estilo-musical.qmd" class="toc-action"><i class="bi empty"></i>Ver o código fonte</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -322,13 +367,13 @@ Figura&nbsp;9: Representação esquemática das distintas estratégias praticada
 </section>
 <section id="regras-e-estratégias" class="level2">
 <h2 class="anchored" data-anchor-id="regras-e-estratégias">Regras e estratégias</h2>
-<p>Provavelmente, Leonard Meyer foi o pioneiro nos estudos sistemáticos sobre o estilo musical, a partir do que apresenta em seu influente livro <em>Style and Music</em>.<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a> Dos vários conceitos e formulações propostos por Meyer, a dualidade <em>regras/estratégias</em> apresenta-se como um ótimo ponto de conexão com o desenvolvimento que é proposto neste capítulo.</p>
-<p>Basicamente, as normas de estruturação musical tacitamente compartilhadas entre os compositores que habitam o mesmo contexto estético-temporal (por exemplo, uma sintaxe funcional específica, configurações rítmicas características, alternativas de estruturação formal etc.) formariam o conjunto de regras (<em>rules</em>)<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a> que, em última instância, estabelece as fronteiras estilísticas desse contexto. Nos termos apresentados nas notas introdutórias do projeto, as regras compartilhadas pelos compositores definiriam justamente os contornos da Prática Comum da MPB. A evidenciação desse comjunto de procedimentos e técnicas é, como já dito, um dos principais objetivos do projeto.</p>
-<p>Por outro lado, o conjunto de <em>preferências</em> idiossincráticas de um determinado compositor em relação àquelas adotadas por outros membros do mesmo contexto, referentes a determinados aspectos musicais, constituiria, no entendimento de Meyer, um grupo de <em>estratégias</em> (<em>strategies</em>). Entenda-se que uma escolha composicional fortuita não caracterizará, por si só, uma estratégia, o que se daria apenas através de sua cristalização por recorrência. Isso nos traz um ponto de enorme importância para o estudo do estilo, que é justamente a dimensão <em>estatística</em>, aspecto também enfatizado por Meyer em seu livro.<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a></p>
+<p>Provavelmente, Leonard Meyer foi o pioneiro nos estudos sistemáticos sobre o estilo musical, a partir do que apresenta em seu influente livro <em>Style and Music</em> <span class="citation" data-cites="meyer-style">(<a href="#ref-meyer-style" role="doc-biblioref">Meyer 1989</a>)</span>. Dos vários conceitos e formulações propostos por Meyer, a dualidade <em>regras/estratégias</em> apresenta-se como um ótimo ponto de conexão com o desenvolvimento que é proposto neste capítulo.</p>
+<p>Basicamente, as normas de estruturação musical tacitamente compartilhadas entre os compositores que habitam o mesmo contexto estético-temporal (por exemplo, uma sintaxe funcional específica, configurações rítmicas características, alternativas de estruturação formal etc.) formariam o conjunto de regras (<em>rules</em>)<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a> que, em última instância, estabelece as fronteiras estilísticas desse contexto. Nos termos apresentados nas notas introdutórias do projeto, as regras compartilhadas pelos compositores definiriam justamente os contornos da Prática Comum da MPB. A evidenciação desse comjunto de procedimentos e técnicas é, como já dito, um dos principais objetivos do projeto.</p>
+<p>Por outro lado, o conjunto de <em>preferências</em> idiossincráticas de um determinado compositor em relação àquelas adotadas por outros membros do mesmo contexto, referentes a determinados aspectos musicais, constituiria, no entendimento de Meyer, um grupo de <em>estratégias</em> (<em>strategies</em>). Entenda-se que uma escolha composicional fortuita não caracterizará, por si só, uma estratégia, o que se daria apenas através de sua cristalização por recorrência. Isso nos traz um ponto de enorme importância para o estudo do estilo, que é justamente a dimensão <em>estatística</em>, aspecto também enfatizado por Meyer em seu livro.<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a></p>
 </section>
 <section id="marcadores-estilísticos" class="level2">
 <h2 class="anchored" data-anchor-id="marcadores-estilísticos">Marcadores estilísticos</h2>
-<p>Outro conceito de Meyer com grande importância para o presente trabalho é o de <em>marcadores estilísticos</em> (<em>stylistic markers</em>).<a href="#fn12" class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a> Basicamente, os marcadores são aspectos da estrutura musical com a propriedade de definir –- ou ajudar a definir, juntamente com outros marcadores – um determinado estilo.</p>
+<p>Outro conceito de Meyer com grande importância para o presente trabalho é o de <em>marcadores estilísticos</em> (<em>stylistic markers</em>).<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a> Basicamente, os marcadores são aspectos da estrutura musical com a propriedade de definir –- ou ajudar a definir, juntamente com outros marcadores – um determinado estilo.</p>
 <p>Em nosso entendimento sobre o conceito, devidamente adaptado aos objetivos e condições do projeto, um marcador estilístico pode sugerir dois tipos de relação, considerando um determinado <em>ator</em> (digamos, o estilo de Caetano Veloso) e um contexto (seja ele o subconjunto-alvo, o superconjunto da “música popular do Brasil”, ou os subconjuntos de controle, “JAZZ”, “SAMBA” ou “CHORO”.): <em>centrípeta</em>, que sugere a existência de uma <em>tendência</em> razoável de que o ator <em>pertença</em> ao contexto em questão, ou então <em>centrífuga</em>, neste caso, sugerindo que a tendência de pertencimento é baixa ou virtualmente desprezível.</p>
 <p>A <a href="#fig-estilo10" class="quarto-xref">Figura&nbsp;10</a> propõe uma ilustração genérica da ação desses conceitos considerando um ator hipotético <span class="math inline">\(x\)</span> e um contexto <span class="math inline">\(C\)</span> de referência. Dois marcadores estilísticos – <span class="math inline">\(m_1\)</span> e <span class="math inline">\(m_2\)</span> – apresentam comportamentos distintos: enquanto o primeiro tende a manter <span class="math inline">\(x\)</span> em <span class="math inline">\(C\)</span> (portanto, um marcador centrípeto), a tendência de <span class="math inline">\(m_2\)</span> é oposta, sugerindo uma ação centrífuga.</p>
 <div id="fig-estilo10" class="quarto-figure quarto-figure-center quarto-float anchored">
@@ -341,8 +386,8 @@ Figura&nbsp;10: Representação esquemática da ação centrípeta e centrífuga
 </figcaption>
 </figure>
 </div>
-<p>De modo prático, marcadores estilísticos são associados a <em>atributos</em> específicos, melódicos ou harmônicos (por exemplo, número de tonalidades distintas empregadas no <em>corpus</em>, presença de classes de acordes de empréstimo modal, configurações rítmicas predominantes etc.).<a href="#fn13" class="footnote-ref" id="fnref13" role="doc-noteref"><sup>13</sup></a> Os marcadores são avaliados qualitativa ou quantitativamente (neste caso, considerando grandezas percentuais).</p>
-<p>Além da natureza qualitativa ou qualitativa, os marcadores podem ser classificados de acordo com a intensidade (ou impacto) com que atuam na tarefa de determinar o pertencimento de um ator a um determinado contexto.<a href="#fn14" class="footnote-ref" id="fnref14" role="doc-noteref"><sup>14</sup></a> Ou seja, um marcador pode ser considerado como “forte”, “fraco” ou mesmo irrelevante nesse sentido. De todo modo, é possível combinar atributos pertencentes a um determinado domínio estrutural (por exemplo, associados a tipos acordais) e acioná-los numa única avaliação (ver <a href="#fig-estilo11" class="quarto-xref">Figura&nbsp;11</a>). Observe-se que as tendências podem se reforçar ou conflitar (como no caso do exemplo), resultando dessa ação combinada um único marcador estilístico.<a href="#fn15" class="footnote-ref" id="fnref15" role="doc-noteref"><sup>15</sup></a></p>
+<p>De modo prático, marcadores estilísticos são associados a <em>atributos</em> específicos, melódicos ou harmônicos (por exemplo, número de tonalidades distintas empregadas no <em>corpus</em>, presença de classes de acordes de empréstimo modal, configurações rítmicas predominantes etc.).<a href="#fn12" class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a> Os marcadores são avaliados qualitativa ou quantitativamente (neste caso, considerando grandezas percentuais).</p>
+<p>Além da natureza qualitativa ou qualitativa, os marcadores podem ser classificados de acordo com a intensidade (ou impacto) com que atuam na tarefa de determinar o pertencimento de um ator a um determinado contexto.<a href="#fn13" class="footnote-ref" id="fnref13" role="doc-noteref"><sup>13</sup></a> Ou seja, um marcador pode ser considerado como “forte”, “fraco” ou mesmo irrelevante nesse sentido. De todo modo, é possível combinar atributos pertencentes a um determinado domínio estrutural (por exemplo, associados a tipos acordais) e acioná-los numa única avaliação (ver <a href="#fig-estilo11" class="quarto-xref">Figura&nbsp;11</a>). Observe-se que as tendências podem se reforçar ou conflitar (como no caso do exemplo), resultando dessa ação combinada um único marcador estilístico.<a href="#fn14" class="footnote-ref" id="fnref14" role="doc-noteref"><sup>14</sup></a></p>
 <div id="fig-estilo11" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-estilo11-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -355,27 +400,43 @@ Figura&nbsp;11: Ação de um conjunto de marcadores estilísticos sobre <span cl
 </div>
 
 
+
 </section>
 
 
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referências</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-huron-anticipation" class="csl-entry" role="listitem">
+Huron, David. 2006. <em>Sweet Anticipation: Music and the Psychology of Expectation</em>. Cambridge: The MIT Press.
+</div>
+<div id="ref-meyer-style" class="csl-entry" role="listitem">
+Meyer, Leonard. 1989. <em>Style and Music: Theory, History, and Ideology</em>. Philadelphia: University of Pennsylvania Press.
+</div>
+<div id="ref-snyder-music-memory" class="csl-entry" role="listitem">
+Snyder, Robert. 2001. <em>Music and Memory: An Introduction</em>. Cambridge: The MIT Press.
+</div>
+<div id="ref-tinhorao-samba" class="csl-entry" role="listitem">
+Tinhorão, José Ramos. 2015/1969. <em>O samba agora vai...: A farsa da música popular no exterior</em>. São Paulo: Editora 34.
+</div>
+<div id="ref-tinhorao-historia-musica-popular" class="csl-entry" role="listitem">
+———. 2013/1990. <em>Pequena história da música popular: segundo seus gêneros</em>. São Paulo: Editora 34.
+</div>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Notas de rodapé</h2>
 
 <ol>
 <li id="fn1"><p>Como um fenômeno bem mais recente, a produção composicional de vários setores da música popular passou a ser também registrada em partituras, o que decorreu principalmente do aumento da complexidade e da necessidade de incremento da disseminação das obras, através de publicação e comercialização. É o caso, por exemplo, do que observamos com os gêneros que viriam a formar o choro brasileiro (como a polca e o maxixe) e o jazz norte-americano (como o ragtime), já a partir da segunda metade do século XIX (fenômeno semelhante ocorreu, claro, também em outros contextos, como o do tango argentino ou de canções italianas, francesas etc.).<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn2"><p>Ver a discussão apresentada na seção Introdução deste livro.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn3"><p>Tais designações trazem à tona uma questão problemática, a saber, uma diferenciação precisa e sistemática entre conceitos não inteiramente congruentes e distintos, como <em>movimento estético</em>, <em>gênero/subgênero</em>, <em>contexto histórico</em> etc. Dada a complexidade que adviria de uma tal investigação, optamos por elaborar um capítulo específico sobre essa questão (que se segue ao presente), no qual apresentaremos nossa visão peculiar sobre essa questão e a discutiremos com maior propriedade e profundidade.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn4"><p>Ver, entre outros autores, Tinhorão XXXX, XXXXX, ………..<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Ver, entre outros autores, <span class="citation" data-cites="tinhorao-samba">Tinhorão (<a href="#ref-tinhorao-samba" role="doc-biblioref">2015/1969</a>)</span> e <span class="citation" data-cites="tinhorao-historia-musica-popular">Tinhorão (<a href="#ref-tinhorao-historia-musica-popular" role="doc-biblioref">2013/1990</a>)</span>.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn5"><p>As diversas hipóteses serão formalmente definidas no momento oportuno.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn6"><p>A partir deste ponto, o subconjunto “MPB”, considerando sua importância para o presente trabalho, passa a ser alternativamente denominado <em>subconjunto-alvo</em>, abreviado como SA.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn7"><p>Evidentemente, a figura exemplifica apenas parte do conteúdo do subconjunto, que se subentende como bem mais extenso e com mais (e, certamente, muito mais complicadas) demarcações internas.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn8"><p>O processo será detalhado mais adiante.<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn9"><p>Meyer (1989).<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn10"><p>Ver Meyer (1989, pp.&nbsp;20-21).<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn11"><p>Ver Meyer (1989, p.&nbsp;57). Esse aspecto também se associa a questões mais profundas relacionadas a processos cognitivos, como a noção de <em>aprendizado estatístico</em> (ver, por exemplo, Huron, 2006) e as estruturas e funcionalidades dos diferentes tipos de memória que operam no reconhecimento do discurso musical (ver Snyder, 2001). Em outro ponto de seu livro, Snyder trata ainda do conceito denominado “efeitos subjetivos de agrupamento”, que são aprendidos culturalmente (<em>subjective learned grouping effects</em>). De acordo com esse autor, tais efeitos são estabelecidos a partir da audição de muitas peças de mesmo estilo. Assim, “tradições formam molduras dentro das quais desvios de normas estilísticas podem ser apreciados e lembrados” (SNYDER, 2001, p.&nbsp;52). Devido à complexidade desses temas e ao escopo limitado deste capítulo, passamos ao largo de um exame mais detalhado dessas abordagens, porém destacando suas importâncias e grande relevância para um entendimento pleno do estilo musical.<a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn12"><p>Ver Meyer (1989, p.61).<a href="#fnref12" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn13"><p>Os atributos, classificados como primários e secundários, serão apresentados em detalhes oportunamente.<a href="#fnref13" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn14"><p>Ambos os aspectos – natureza e impacto – serão discutidos em detalhe num capítulo futuro.<a href="#fnref14" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn15"><p>Importante ressaltar que a resultante não é normalmente calculada pela diferença de tendências centrípetas e centrífugas, mas depende das <em>qualidades</em> dos marcadores (algo a ser especificamente discutido nas análises), o que torna sua determinação complexa e algo subjetiva.<a href="#fnref15" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p>Ver <span class="citation" data-cites="meyer-style">(<a href="#ref-meyer-style" role="doc-biblioref">Meyer 1989, 20–21</a>)</span>.<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10"><p>Ver <span class="citation" data-cites="meyer-style">Meyer (<a href="#ref-meyer-style" role="doc-biblioref">1989, 57</a>)</span>. Esse aspecto também se associa a questões mais profundas relacionadas a processos cognitivos, como a noção de <em>aprendizado estatístico</em> (ver, por exemplo, <span class="citation" data-cites="huron-anticipation">Huron (<a href="#ref-huron-anticipation" role="doc-biblioref">2006</a>)</span>) e as estruturas e funcionalidades dos diferentes tipos de memória que operam no reconhecimento do discurso musical (ver <span class="citation" data-cites="snyder-music-memory">Snyder (<a href="#ref-snyder-music-memory" role="doc-biblioref">2001</a>)</span>). Em outro ponto de seu livro, Snyder trata ainda do conceito denominado “efeitos subjetivos de agrupamento”, que são aprendidos culturalmente (<em>subjective learned grouping effects</em>). De acordo com esse autor, tais efeitos são estabelecidos a partir da audição de muitas peças de mesmo estilo. Assim, “tradições formam molduras dentro das quais desvios de normas estilísticas podem ser apreciados e lembrados” <span class="citation" data-cites="snyder-music-memory">(<a href="#ref-snyder-music-memory" role="doc-biblioref">Snyder 2001, 52</a>)</span>. Devido à complexidade desses temas e ao escopo limitado deste capítulo, passamos ao largo de um exame mais detalhado dessas abordagens, porém destacando suas importâncias e grande relevância para um entendimento pleno do estilo musical.<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn11"><p>Ver <span class="citation" data-cites="meyer-style">Meyer (<a href="#ref-meyer-style" role="doc-biblioref">1989, 61</a>)</span>.<a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn12"><p>Os atributos, classificados como primários e secundários, serão apresentados em detalhes oportunamente.<a href="#fnref12" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn13"><p>Ambos os aspectos – natureza e impacto – serão discutidos em detalhe num capítulo futuro.<a href="#fnref13" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn14"><p>Importante ressaltar que a resultante não é normalmente calculada pela diferença de tendências centrípetas e centrífugas, mas depende das <em>qualidades</em> dos marcadores (algo a ser especificamente discutido nas análises), o que torna sua determinação complexa e algo subjetiva.<a href="#fnref14" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -576,12 +637,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
+    button.setAttribute("title", "Copiada");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
+      button.setAttribute("data-bs-title", "Copiada");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",
@@ -916,8 +977,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../capitulos/listagem-corpora.html" class="pagination-link" aria-label="Listagem dos *corpora*">
-        <span class="nav-page-text">Listagem dos <em>corpora</em></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../capitulos/hipoteses.html" class="pagination-link" aria-label="Hipóteses">
+        <span class="nav-page-text">Hipóteses</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -929,7 +990,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/capitulos/estilo-musical.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/capitulos/estilo-musical.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/capitulos/estilo-musical.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/capitulos/estilo-musical.qmd" class="toc-action"><i class="bi empty"></i>Ver o código fonte</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Página construída em <a href="https://quarto.org/">Quarto</a>.</p>
 </div>

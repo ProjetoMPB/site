@@ -1,23 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://projetompb.github.io/site/capitulos/intro.html</loc>
-    <lastmod>2024-02-24T22:38:34.875Z</lastmod>
-  </url>
-  <url>
-    <loc>https://projetompb.github.io/site/capitulos/nossa-mpb.html</loc>
-    <lastmod>2024-02-24T22:38:34.875Z</lastmod>
-  </url>
-  <url>
-    <loc>https://projetompb.github.io/site/index.html</loc>
-    <lastmod>2024-02-24T22:38:34.883Z</lastmod>
-  </url>
-  <url>
-    <loc>https://projetompb.github.io/site/capitulos/estilo-musical.html</loc>
-    <lastmod>2024-02-24T22:38:34.875Z</lastmod>
+    <loc>https://projetompb.github.io/site/capitulos/hipoteses.html</loc>
+    <lastmod>2024-02-24T22:56:48.261Z</lastmod>
   </url>
   <url>
     <loc>https://projetompb.github.io/site/capitulos/listagem-corpora.html</loc>
-    <lastmod>2024-02-24T22:38:34.875Z</lastmod>
+    <lastmod>2024-02-24T22:56:48.261Z</lastmod>
+  </url>
+  <url>
+    <loc>https://projetompb.github.io/site/capitulos/corpora-mpb.html</loc>
+    <lastmod>2024-02-24T22:56:48.261Z</lastmod>
+  </url>
+  <url>
+    <loc>https://projetompb.github.io/site/capitulos/nossa-mpb.html</loc>
+    <lastmod>2024-02-24T22:56:48.261Z</lastmod>
+  </url>
+  <url>
+    <loc>https://projetompb.github.io/site/capitulos/modelos-teoricos.html</loc>
+    <lastmod>2024-02-24T22:56:48.261Z</lastmod>
+  </url>
+  <url>
+    <loc>https://projetompb.github.io/site/index.html</loc>
+    <lastmod>2024-02-24T22:56:48.277Z</lastmod>
+  </url>
+  <url>
+    <loc>https://projetompb.github.io/site/tutorial.html</loc>
+    <lastmod>2024-02-24T22:56:48.281Z</lastmod>
+  </url>
+  <url>
+    <loc>https://projetompb.github.io/site/capitulos/estilo-musical.html</loc>
+    <lastmod>2024-02-24T22:56:48.261Z</lastmod>
+  </url>
+  <url>
+    <loc>https://projetompb.github.io/site/capitulos/producao-bibliografica.html</loc>
+    <lastmod>2024-02-24T22:56:48.261Z</lastmod>
+  </url>
+  <url>
+    <loc>https://projetompb.github.io/site/capitulos/logo.html</loc>
+    <lastmod>2024-02-24T22:56:48.261Z</lastmod>
+  </url>
+  <url>
+    <loc>https://projetompb.github.io/site/capitulos/intro.html</loc>
+    <lastmod>2024-02-24T22:56:48.261Z</lastmod>
   </url>
 </urlset>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.4.550">
@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -57,17 +77,17 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
   }
 }</script>
 
@@ -80,11 +100,11 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../capitulos/intro.html">Introdução</a></li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
@@ -98,17 +118,17 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
       <a href="../index.html" class="sidebar-logo-link">
-      <img src="../figs/logo_projeto.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <img src="../logos/logo-projeto.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main tools-wide">
     <a href="https://projetompb.github.io/site/" title="Projeto MPB" class="quarto-navigation-tool px-1" aria-label="Projeto MPB"><i class="bi bi-globe"></i></a>
     <a href="https://github.com/ProjetoMPB/site" title="Projeto MPB (repositório)" class="quarto-navigation-tool px-1" aria-label="Projeto MPB (repositório)"><i class="bi bi-github"></i></a>
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo escuro"><i class="bi"></i></a>
 </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
+        <div id="quarto-search" class="" title="Procurar"></div>
         </div>
         </div>
     <div class="sidebar-menu-container"> 
@@ -116,7 +136,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Início</span></a>
+ <span class="menu-text">Página inicial</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -139,8 +159,33 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../capitulos/hipoteses.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Hipóteses</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/corpora-mpb.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Os <em>corpora</em> MPB</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/modelos-teoricos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Modelos teóricos</span></a>
+  </div>
+</li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../capitulos/listagem-corpora.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Listagem dos <em>corpora</em></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/producao-bibliografica.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Produção bibliográfica</span></a>
   </div>
 </li>
     </ul>
@@ -176,7 +221,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Diversificada, sofisticada, surpreendente e, principalmente, bela são adjetivos que podem ser atribuídos em termos gerais à música popular praticada no Brasil, em suas incontáveis expressões, compositores, gêneros e épocas. Trata-se de um patrimônio cultural de valor incalculável que não tem paralelos no planeta, uma enorme riqueza que traz aos brasileiros muito orgulho e carinho.</p>
 <p>Isso posto, é natural – e, claro, bastante oportuno – que a música popular do Brasil seja tomada como um atraente e rico objeto de estudo. Especialmente nos tempos mais recentes, muitos trabalhos acadêmicos têm sido publicados com as mais diversas abordagens, não apenas sintonizadas a importantes questões contextuais, históricas, biográficas, estéticas, sociais, políticas, raciais, de gênero etc., mas também, claro, musicológicas e/ou etnomusicológicas, trazendo luzes cada vez mais abrangentes, precisas e detalhadas sobre esse fascinante tema.</p>
 <p>Entretanto, considerando especificamente o escopo no qual se insere a presente iniciativa – ou seja, dos estudos sistemáticos em música –, embora observe-se o despertar recente de um grande interesse acadêmico por temas associados, o quadro ainda é incipiente, se comparado à situação das demais abordagens. Este projeto tem, justamente, como principal motivação contribuir para diminuir essa lacuna. Associa-se a uma pesquisa de amplo âmbito, iniciada em 2017 e vinculada ao Programa de Pós-Graduação em Música da Universidade Federal do Rio de Janeira, dentro da linha de pesquisa Poéticas da Criação Musical, subordinada à área de Processos Criativos.</p>
-<p>Em termos mais específicos, este projeto tem um propósito bastante ambicioso, a saber, determinar de modo sistemático os contornos do contexto estético-musical que informalmente é denominado Música Popular Brasileira, mais conhecido pelo acrônimo MPB. O principal obstáculo dessa tarefa se apresenta já na clara definição do <em>que seria</em> de fato a MPB. Tendo nosso intuito um caráter primordialmente técnico, estrutural, não desejamos nos embrenhar a fundo em questões complexas (especialmente relacionadas a aspectos sociais, históricos e políticos) na busca de definições, mesmo porque não cremos que haja perfeito consenso na estrutura especializada sobre os limites históricos-estéticos da MPB. Entretanto, não podemos – nem devemos – ignorar aspectos extramusicais em nossa investigação, sob a pena de realizarmos um estudo (na melhor das hipóteses) musicalmente ``correto’’, porém frio, descontextualizado e desplugado dos acontecimentos e pensamentos que contribuíram em muito para moldar os rumos tomados pelos compositores e compositoras do período, cujos reflexos foram profundamentos esculpidos em suas respectivas obras.</p>
+<p>Em termos mais específicos, este projeto tem um propósito bastante ambicioso, a saber, determinar de modo sistemático os contornos do contexto estético-musical que informalmente é denominado Música Popular Brasileira, mais conhecido pelo acrônimo MPB. O principal obstáculo dessa tarefa se apresenta já na clara definição do <em>que seria</em> de fato a MPB. Tendo nosso intuito um caráter primordialmente técnico, estrutural, não desejamos nos embrenhar a fundo em questões complexas (especialmente relacionadas a aspectos sociais, históricos e políticos) na busca de definições, mesmo porque não cremos que haja perfeito consenso na estrutura especializada sobre os limites históricos-estéticos da MPB. Entretanto, não podemos – nem devemos – ignorar aspectos extramusicais em nossa investigação, sob a pena de realizarmos um estudo (na melhor das hipóteses) musicalmente “correto”, porém frio, descontextualizado e desplugado dos acontecimentos e pensamentos que contribuíram em muito para moldar os rumos tomados pelos compositores e compositoras do período, cujos reflexos foram profundamentos esculpidos em suas respectivas obras.</p>
 <p>Por outro lado, a MPB não é, de modo algum, para nós como um fóssil recentemente descoberto ou um objeto distante no espaço ou no tempo. Nós a vivemos, admiramos, amamos, a tornamos virtualmente parte importante de nossas vidas. Em outros termos, é possível dizer que nós, como coordenadores e pesquisadores desse projeto, na qualidade de habitantes e, por que não, atores do contexto em questão, sentimo-nos habilitados e qualificados para estudá-lo. Ainda que seja difícil definir com a devida precisão a essência e os limites temporais desse período para alguém que não teve a mesma vivência (digamos, uma adolescente roqueira, um amigo estrangeiro, por exemplo), de um modo geral, <em>sabemos</em> razoavelmente bem do que se trata quando conversamos ou ouvimos falar sobre o assunto. É, ao menos, um bom ponto de partida.</p>
 <p>Mas, afinal, <em>o que é</em> a MPB? Podemos começar a examinar essa questão considerando o que ela <em>não</em> é. A MPB certamente não é um gênero musical, mas abarca uma enorme diversidade deles, por exemplo, samba, bossa-nova, afoxé, baião, bolero, xote, choro, rock, blues etc., etc. Mais relevante, compositores da MPB não atuam exclusivamente em um determinado gênero, pelo contrário, a regra é que experimentem diversos deles em suas obras. Considere, como exemplo, a grande diversidade que existe nesse aspecto na música de Tom Jobim, Caetano Veloso e Gilberto Gil, entre muitos outros. Mesmo aqueles e aquelas que atuam mais caracteristicamente num nicho do espectro de gêneros (Rita Lee, Alceu Valença, Paulinho da Viola etc.), não compõem unicamente peças de seus gêneros preferenciais.</p>
 <p>Consequentemente, a MPB também não é um estilo. Mais precisamente, ela resulta da combinação de um formidável número de preferências estilísticas pessoais/composicionais que apresentam tanto características idiossincráticas quanto notáveis pontos de contato entre si. Determinar de maneira precisa e sistemática esses elementos corresponde exatamente ao cerne deste projeto. Em outros termos, nosso propósito é investigar profundamente o que denominaremos a <em>Prática Comum da MPB</em>.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> Tal investigação tem como base um sólido e complexo aparato teórico-metodológico, elaborado, desenvolvido e aperfeiçoado em estágios precedentes da pesquisa, que podem ser sucintamente descritos como se segue:<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
@@ -185,7 +230,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <ul>
 <li><p><strong>Fase 2</strong> – realizada entre 2018 e 2019, cobrindo o mesmo repertório e tendo os mesmos objetivos da Fase 1. Na verdade, consistiu basicamente na reaplicação do processo analítico anterior a partir de um importante aperfeiçoamento que capacitou o sistema a reconhecer qualquer qualidade acordal empregada pelo compositor em suas canções, eliminando uma das fragilidades da pesquisa. <strong>Limitação:</strong> o sistema manteve-se apto para analisar apenas as relações de baixo nível, ou seja, entre acordes contíguos, não levando em conta as organizações funcionais e tonais das peças em análise.</p></li>
-<li><p><strong>Fase 3</strong> – realizada entre 2021 e 2022, consolidando as etapas anteriores e incorporando importantes aperfeiçoamentos: (1) abordagens analíticas harmônicas contemplando as organizações funcional (nível médio) e tonal (nível alto) das peças analisadas e (2) a ampliação do processo analítico de modo a englobar também o mapeamento da dimensão melódica, subdividida em alturas e ritmo.<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> A estrutura e os principais resultados da pesquisa dessa fase foram documentados em dois livros voltados para as construções harmônica e melódica de Jobim (ALMADA, 2022; 2023).</p></li>
+<li><p><strong>Fase 3</strong> – realizada entre 2021 e 2022, consolidando as etapas anteriores e incorporando importantes aperfeiçoamentos: (1) abordagens analíticas harmônicas contemplando as organizações funcional (nível médio) e tonal (nível alto) das peças analisadas e (2) a ampliação do processo analítico de modo a englobar também o mapeamento da dimensão melódica, subdividida em alturas e ritmo.<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> A estrutura e os principais resultados da pesquisa dessa fase foram documentados em dois livros voltados para as construções harmônica e melódica de Jobim <span class="citation" data-cites="almada-harmonia-jobim almada-melodia-jobim">(<a href="#ref-almada-harmonia-jobim" role="doc-biblioref">Almada 2022</a>, <a href="#ref-almada-melodia-jobim" role="doc-biblioref">2023</a>)</span>.</p></li>
 </ul>
 <ul>
 <li><strong>Fase 4</strong> – iniciada em 2022 e em andamento, trata-se justamente do presente projeto. Tem como meta a aplicação da tecnologia teórico-metodológica desenvolvida na Fase 3 (focada na música de Jobim) no estudo de um grupo de 10 compositores de reconhecida atuação no cenário musical brasileiro, de modo a iniciar uma investigação sistemática sobre uma possível fundamentação de uma Prática Comum da MPB, bem como, possivelmente, identificar características estilísticas individuais desses compositores. Além dos anteriores, novos modelos teóricos (acompanhados das respectivas ferramentas analíticas) foram elaborados, de modo a tornar o processo analítico mais acurado e abrangente. Tais modelos e métodos serão minuciosamente comentados e descritos em capítulos posteriores.</li>
@@ -194,10 +239,21 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referências</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-almada-harmonia-jobim" class="csl-entry" role="listitem">
+Almada, Carlos. 2022. <em>A Harmonia de Jobim</em>. Campinas: Editora da Unicamp.
+</div>
+<div id="ref-almada-melodia-jobim" class="csl-entry" role="listitem">
+———. 2023. <em>A Melodia de Jobim</em>. Campinas: Editora da Unicamp.
+</div>
+<div id="ref-tymoczko-geometry" class="csl-entry" role="listitem">
+Tymoczko, Dmitri. 2011. <em>A Geometry of Music: Harmony and Counterpoint in the Extended Common Practice</em>. Oxford: Oxford University Press.
+</div>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Notas de rodapé</h2>
 
 <ol>
-<li id="fn1"><p>O termo mantém uma relação de analogia com o conceito conhecido como Prática Comum (<em>Common Practice</em>), associado ao período composicional no qual a tonalidade foi o elemento invariante na criação musical, a despeito das diferenças específicas entre compositores e épocas, considerando um arco temporal de aproximadamente 300 anos, 1600-1900. Recentemente, Dmitri Tymoczko (2011) propôs a ideia de uma Prática Comum Estendida (<em>Extended Common Practice</em>), abarcando tanto obras renascentistas quanto aquelas pós-tonais e mesmo parte da música popular (especialmente, o jazz e o rock).<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>O termo mantém uma relação de analogia com o conceito conhecido como Prática Comum (<em>Common Practice</em>), associado ao período composicional no qual a tonalidade foi o elemento invariante na criação musical, a despeito das diferenças específicas entre compositores e épocas, considerando um arco temporal de aproximadamente 300 anos, 1600-1900. Recentemente, <span class="citation" data-cites="tymoczko-geometry">Tymoczko (<a href="#ref-tymoczko-geometry" role="doc-biblioref">2011</a>)</span> propôs a ideia de uma Prática Comum Estendida (<em>Extended Common Practice</em>), abarcando tanto obras renascentistas quanto aquelas pós-tonais e mesmo parte da música popular (especialmente, o jazz e o rock).<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn2"><p>As etapas iniciais contaram com a ajuda de uma excelente equipe de estudantes, graduandos e pós-graduandos da Escola de Música da UFRJ (em ordem alfabética): Ana Miccolis, Claudia Usai, Eduardo Cabral, Igor Chagas, Max Kühn e Vinicius Braga. Atualmente, o grupo conta com a participação de Gabriel Barbosa, como bolsista de Iniciação Científica.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn3"><p>Mais precisamente, os 10 <em>genera</em> atualmente considerados na pesquisa. Esse tópico será descrito em detalhes oportunamente.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn4"><p>O que é regido pelo modelo teórico da Filtragem Melódica, a ser oportunamente descrito.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
@@ -401,12 +457,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
+    button.setAttribute("title", "Copiada");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
+      button.setAttribute("data-bs-title", "Copiada");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",
@@ -736,8 +792,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../index.html" class="pagination-link" aria-label="Início">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Início</span>
+      <a href="../index.html" class="pagination-link" aria-label="Página inicial">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Página inicial</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
@@ -754,7 +810,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/capitulos/intro.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/capitulos/intro.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/capitulos/intro.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/capitulos/intro.qmd" class="toc-action"><i class="bi empty"></i>Ver o código fonte</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Página construída em <a href="https://quarto.org/">Quarto</a>.</p>
 </div>

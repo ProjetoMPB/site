@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Projeto MPB - A “nossa” MPB</title>
+<title>Projeto MPB - Modelos teóricos</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -29,8 +49,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../capitulos/estilo-musical.html" rel="next">
-<link href="../capitulos/intro.html" rel="prev">
+<link href="../capitulos/corpora-mpb.html" rel="prev">
 <link href="../favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -71,6 +90,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -83,7 +131,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../capitulos/nossa-mpb.html">A “nossa” MPB</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../capitulos/modelos-teoricos.html">Modelos teóricos</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -127,7 +175,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../capitulos/nossa-mpb.html" class="sidebar-item-text sidebar-link active">
+  <a href="../capitulos/nossa-mpb.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">A “nossa” MPB</span></a>
   </div>
 </li>
@@ -151,7 +199,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../capitulos/modelos-teoricos.html" class="sidebar-item-text sidebar-link">
+  <a href="../capitulos/modelos-teoricos.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Modelos teóricos</span></a>
   </div>
 </li>
@@ -174,14 +222,24 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Nesta página</h2>
+   
+  <ul>
+  <li><a href="#harmonia" id="toc-harmonia" class="nav-link active" data-scroll-target="#harmonia">Harmonia</a>
+  <ul class="collapse">
+  <li><a href="#genera-de-tipos-acordais" id="toc-genera-de-tipos-acordais" class="nav-link" data-scroll-target="#genera-de-tipos-acordais">Genera de Tipos Acordais</a></li>
+  <li><a href="#relações-binárias" id="toc-relações-binárias" class="nav-link" data-scroll-target="#relações-binárias">Relações Binárias</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/capitulos/modelos-teoricos.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/capitulos/modelos-teoricos.qmd" class="toc-action"><i class="bi empty"></i>Ver o código fonte</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">A “nossa” MPB</h1>
+<h1 class="title">Modelos teóricos</h1>
 </div>
 
 
@@ -198,45 +256,285 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Parece paradoxal o fato de a presente proposta – cuja essência e principal finalidade envolvem um tratamento profundamente objetivo dos dados analíticos – ser desenvolvida sobre um terreno tão fluido e incerto quanto é o contexto da MPB. Como previamente comentado, a tarefa de estabelecer as fronteiras históricas desse conceito esbarra em inúmeros problemas. A bem da verdade, nem ao menos a pura “existência” da MPB pode ser considerada um fato consensual: não rara é a opinião de que trata-se de um mero constructo cultural, criado num determinado contexto político, com objetivos comerciais. Não, não pretendemos entrar nesses pormenores, muito menos debater questões tão básicas e existencialistas como essa.</p>
-<p>Se por um lado, tais indefinições promovem uma certa insegurança sobre o próprio objeto de estudo, por outro, podemos aproveitar justamente dessa inerente fluidez e multiplicidade interpretativa para nos posicionarmos, por assim dizer, de um modo relativamente confortável. Ou seja, propomos aqui neste capítulo o estabelecimento de uma perspectiva particular sobre a MPB, o que nos levará, entre outras coisas, a definir as fronteiras que consideramos adequadas a tal viés: em outros termos, este capítulo apresentará a “nossa” MPB. Enfatizamos aqui que não é, de modo algum, nossa intenção contrariar quaisquer versões distintas e/ou conflitantes sobre o assunto. Muito menos nossa proposta baseia-se em novos elementos, descobertas ou pesquisas acadêmicas especializadas (musicológicas, historiográficas, sociológicas etc.). Trata-se, sim, de uma visão por certo idiossincrática, porém não desprovida de lógica ou desvinculada dos fatos e contextos envolvidos.</p>
-<p>Antes de partir propriamente para uma definição, no entanto, vale a pena relembrar alguns pontos levantados na introdução do projeto. Talvez o mais importante deles seja o quão culturalmente compartilhada é a noção do que seria uma composição <em>emepebística</em>: com base no que conhecemos, é possível pensar que uma pessoa que tenha nascido e/ou que vive no Brasil seja razoavelmente capaz de reconhecer informalmente se uma determinada canção, que ouve pela primeira vez, seria ou não “de MPB”, caso essas opções sejam oferecidas. É claro que a maior ou menor eficácia desse “experimento” informal flutuaria de acordo com a época, a idade, os níveis sócio-econômico e de escolaridade da pessoa testada, mas é perfeitamente viável crer que essa noção ainda se mantenha razoavelmente estável em nossa cultura a despeito dessas flutuações, o que denota que, mesmo sem conhecer (ou poder identificar) aspectos específicos estruturais da construção musical dessas peças, em média, sabemos intimamente (ou, pelo menos, temos uma boa ideia de) o que elas têm de diferente em relação às demais músicas, “não-emepebísticas”, enfim.</p>
-<p>Outro ponto importante levantado na introdução – e que merece ser aqui retomado – diz respeito à extraordinária diversidade do “meio-ambiente” da MPB, um aspecto notável que contribui para dificultar a definição de suas fronteiras. O nosso subconjunto-alvo (adiantando, sem prejuízo, um termo do próximo capítulo) é um amálgama extremamente amplo de personalidades e estilos composicionais, gêneros musicais e movimentos estéticos, formando um quadro de grande complexidade. Reiteramos, portanto, que a MPB não pode ser chamada de um estilo (é uma combinação de um número incalculável deles), muito menos de um gênero (que convivem, em grande quantidade, harmoniosamente debaixo do “guarda-chuva” emepebístico). O que talvez seja um aspecto inovador de nossa proposta é sustentar que a MPB também não é uma estética ou um movimento: ela <em>abarca</em> estéticas e movimentos que, não necessariamente se alternam; na verdade, também observamos que diversas correntes estéticas, ainda que apresentem maior ou menor proeminência em determinados momentos ao longo do tempo, formam nichos que seguem sem maiores disputas ou conflitos sob o mesmo “teto”.</p>
-<p>Essa perspectiva nos leva a uma questão central da proposta, que é o estabelecimento do território de estudo. Afinal, a que período histórico está associada a MPB? No excelente e completíssimo <em>A história da música popular brasileira</em> (volume I), Rodrigo Faour tem o cuidado de, ao se referir à MPB, sempre grafar o termo entre aspas, de modo a diferenciar esse conceito específico do que considera como as Músicas Populares Brasileiras, uma acepção globalizante da produção musical no Brasil, uma tese que de algum modo se assemelha à nossa, ao menos em linhas gerais. Faour dedica um capítulo à descrição pormenorizada de sua “MPB”, circunscrevendo-a na década de 1970 (1970-78, mais precisamente), ainda que implicitamente reconheça sua sobrevida em períodos posteriores.</p>
-<p>Nesse viés, a “MPB” de Faour é tratada como um movimento – aqui, portanto, distinguindo-se de nossa visão –, equiparando-se a outros, como a “Era do rádio”, a “Bossa nova”, a “Jovem guarda” etc. Depreende-se de seu texto que o movimento teve sua origem associada ao turbulento contexto político da época, com uma produção marcada, ao menos inicialmente, por canções de protesto e de resistência à ditadura. De acordo com nossa argumentação, entendemos a MPB como uma noção num nível mais elevado em relação aos movimentos e estéticas, o que nos faz considerar seus limites temporais de uma maneira mais flexível.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
-<p>Talvez o aspecto mais saliente de nossa ótica se refira justamente à questão que envolve o gênero (ou subgênero, derivado do samba) e/ou a estética da bossa nova. Para nós, a bossa nova <em>integra</em> o subconjunto-alvo da MPB, entre outros membros de mesma magnitude (sejam gêneros, como blues, baião, frevo, samba etc.; sejam estéticas, como a do “Clube da Esquina”, por exemplo) uma opinião que provavelmente fará levantar as sobrancelhas de alguns leitores. Nesse sentido, a obra de Tom Jobim parece nos dar razão. Normalmente identificado como “o principal compositor de bossa nova” (o que não deixa de ser verdade), Jobim raramente é também lembrado por ter composto em um grande número de estéticas e gêneros. De fato, a partir de 1968, com sua obra-prima <em>Sabiá</em> (em coautoria de Chico Buarque), Jobim claramente começou a se distanciar da estética bossanovista (intenção que, aliás, expressou claramente em vários depoimentos). Afinal, faz sentido classificar, por exemplo, <em>Luiza</em>, <em>Passarim</em>, <em>Chovendo na roseira</em>, <em>Matita Perê</em>, entre tantos outros títulos como bossas? Apenas a acomodação às facilidades da rotulação poderia explicar essas imprecisões, que infelizmente se perpetuam na crítica musical e mesmo no meio acadêmico.</p>
-<p>Pois bem, a trajetória de Jobim, ou melhor, de seu <em>estilo composicional</em>, é um perfeito representante da ideia que temos sobre os membros do subconjunto MPB e, principalmente, de seu âmbito temporal dentro da música brasileira. Se tomarmos o ano de 1973 como ponto de referência – fazendo uma pertinente alusão a outro ótimo livro recentemente publicado (2015) sobre o tema, intitulado <em>1973: o ano que inventou a MPB</em>, de Célio Albuquerque – e traçarmos um círculo com raio de 20 anos, obteremos aproximadamente o período criativo de Jobim, entre 1953 e 1993, abarcando 40 anos de produção composicional. Parece-nos um recorte bastante adequado a nossos propósitos analíticos, especialmente pelo fato de alçar o nosso grande mestre (o maior de todos, sem qualquer dúvida, dentro do riquíssimo universo da música brasileira) à posição privilegiada de eixo sobre o qual se constrói nossa ideia particular sobre o período da Prática Comum da MPB, como sugere a <a href="#fig-nossampb" class="quarto-xref">Figura&nbsp;1</a>:</p>
-<div id="fig-nossampb" class="quarto-figure quarto-figure-center quarto-float anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-nossampb-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="../figs/mpb-periodo.jpg" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-nossampb-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;1: Limites temporais de nossa proposta sobre o período de Prática comum da MPB, em concordância com a trajetória criativa de Jobim.
+<p>Este capítulo é dedicado a uma descrição sucinta dos modelos teóricos elaborados durante a pesquisa, considerando seus objetivos, escopos e conceitos.</p>
+<section id="harmonia" class="level2">
+<h2 class="anchored" data-anchor-id="harmonia">Harmonia</h2>
+<p>A teoria associada ao domínio da harmonia dentro do projeto considera dois ramos principais – “semântico” e “sintático” –, nomeados numa relação metafórica com conceitos oriundos da Linguística. O ramo “semântico” dá conta especialmente das estruturas dos <em>tipos acordais</em> (ou TAs)<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> considerados, mas também de acordes específicos, enquanto o ramo “sintático” se refere às relações entre acordes e tipos acordais, considerando vários níveis de organização. As próximas subseções descrevem em linhas gerais dois modelos criados e desenvolvidos especialmente para a pesquisa: o dos <em>Genera de Tipos Acordais</em> (“semântico”) e o das <em>Relações Binárias</em> (“sintático”).</p>
+<section id="genera-de-tipos-acordais" class="level3">
+<h3 class="anchored" data-anchor-id="genera-de-tipos-acordais">Genera de Tipos Acordais</h3>
+<p>O modelo teórico denominado <em>Genera de Tipos Acordais</em> (doravante identificado pelo acrônimo GTA) toma como base a existência de 10 tipos acordais arquetípicos, denominados <em>protoacordes</em>. De acordo com os pressupostos teóricos adotados, cada um destes tipos encabeça um conjunto (ou <em>genus</em>) de tipos acordais de mesma qualidade genérica, cujos membros são o próprio protoacorde e todos suas possíveis variantes. A derivação dos TAs, de acordo com o modelo, é regida por um conjunto de regras de produção e pela aplicação recursiva de três tipos de transformação: <strong>adição</strong> (inclusão de uma nota-função a um tipo acordal, como por exemplo, uma “nona” numa tríade maior), <strong>substituição</strong> (p.&nbsp;ex., a “terça” pela “quarta” no tipo acordal “dominante sus4”) e <strong>alteração</strong> (cromatização de uma nota-função referencial, resultando, p.&nbsp;ex., em uma “décima terceira” bemolizada). Os 10 genera são nomeados com letras finais do alfabeto em ordem inversa, maiúsculas referentes a protoacordes em modo maior, minúsculas para os protoacordes com terça menor.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
+<p>Protoacordes e variantes que integram um mesmo <em>genus</em> são identificados no sistema através de dois tipos de notação: (a) alfanumérica, baseada em uma simbologia aproximadamente consensual entre compositores e instrumentistas,<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> e (b) genealógica, construída como uma fórmula que congrega o símbolo do <em>genus</em> e um código numérico que identifica a linhagem do TA em questão. Por convenção, todos os protoacordes são numerados com um “zero” à direita da letra-símbolo correspondente, como mostra a <a href="#tbl-4-1" class="quarto-xref">Tabela&nbsp;1</a>.</p>
+<div id="tbl-4-1" class="hover quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-4-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabela&nbsp;1: Os 10 protoacordes do modelo GTA, considerando as notações genealógica e alfanumérica (com a fundamental “Dó” como referencial).
 </figcaption>
+<div aria-describedby="tbl-4-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="table-hover table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Genera</th>
+<th style="text-align: center;">Notação genealógica</th>
+<th style="text-align: center;">Notação alfanumérica</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Z</td>
+<td style="text-align: center;">Z0</td>
+<td style="text-align: center;">CM7</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Y</td>
+<td style="text-align: center;">Y0</td>
+<td style="text-align: center;">C7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">X0</td>
+<td style="text-align: center;">C(♭5)7</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">W</td>
+<td style="text-align: center;">W0</td>
+<td style="text-align: center;">C(♯5)7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">V</td>
+<td style="text-align: center;">V0</td>
+<td style="text-align: center;">C</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">z</td>
+<td style="text-align: center;">z0</td>
+<td style="text-align: center;">Cm7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">y</td>
+<td style="text-align: center;">y0</td>
+<td style="text-align: center;">C<sup>ø</sup></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">x</td>
+<td style="text-align: center;">x0</td>
+<td style="text-align: center;">C°7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">w</td>
+<td style="text-align: center;">w0</td>
+<td style="text-align: center;">Cm(M7)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">v</td>
+<td style="text-align: center;">v0</td>
+<td style="text-align: center;">Cm</td>
+</tr>
+</tbody>
+</table>
+</div>
 </figure>
 </div>
-<p>Desejamos também deixar claro que mesmo tais limites mais amplos em relação ao que é normalmente entendido como o escopo da MPB não devem ser vistos tão rigidamente. Imaginemos que o grafite de nosso compasso metafórico seja tão macio que torne quase imperceptível os contornos do círculo da <a href="#fig-nossampb" class="quarto-xref">Figura&nbsp;1</a>, fazendo com que compositores atuantes antes de 1953 e depois de 1993 possam também ser considerados. Essa maleabilidade permitiria, por exemplo, abranger várias canções pré-bossanovistas de temática e harmonia sofisticadas, como algumas das composições mencionadas por Ruy Castro em seu seminal livro <em>A noite de meu bem</em>. Afinal, não teriam Canhoto, Custódio Mesquita, Dorival Caymmi e mesmo Noel Rosa – ao menos, em parte de sua produção – características claramente emepebísticas? De mesmo modo, não continuam a atuar firmemente em seus estilos consolidados craques como João Bosco, Caetano Veloso, Djavan (e etc., etc.) nos dias atuais? E o que dizer de compositores cujas carreiras se desenvolveram especialmente após 1990, como Cazuza, Lenine, Zélia Duncan, Chico César, Zeca Baleiro (dentre vários outros)?</p>
-<p>Feita essa importante ressalva, por questões de foco e praticidade, retornemos ao círculo MPB, pois ele é o núcleo do projeto.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> Ainda que pareça limitador, esse recorte compreende um número incalculável de obras que poderiam ser levadas em conta em nossas análises. De modo a tornar exequível a (inerentemente bastante trabalhosa) tarefa que nos dispusemos a empreender, torna-se imprescindível trabalhar com um número de peças ao mesmo tempo representativo e mínimo necessário, o que nos permitirá realizar o processo analítico (em todas suas etapas) num tempo finito e produzir conclusões coerentes e sólidas. Por essas razões, selecionaremos uma quantidade relativamente pequena de obras (diante do universo de possibilidades) de um número também relativamente reduzido de compositores, formando <em>corpora</em> de iguais extensões.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p>
-<p>É importante, por último, acrescentar que a seleção dos 10 compositores que integram a fase inicial da pesquisa resulta da percepção de sua grande relevância dentro do cenário da MPB. Assim como escalações de seleções brasileiras de futebol dificilmente têm a concordância de todos, por certo, cada leitor poderia ter a sua própria lista dos 10 compositores (mesmo que alguns deles possam figurar na maior parte dessas listas) – e é natural que seja assim. Lembramos que outro grupo de 10 será selecionado para a segunda fase e assim por diante. Não temos pressa nem prazos para finalização dessa pesquisa que, a cada rodada, certamente se tornará mais robusta e precisa.</p>
-<p>Dito isso, fechando este capítulo, nada mais justo e pertinente do que citar alguns nomes dos habitantes desse extraordinariamente rico mundo da MPB (neste tipo de listagem, é inevitável que tenhamos esquecido de alguns nomes – aos quais, desde já, pedimos sinceras desculpas):<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></p>
-<p><strong>Compositores(as)</strong>: Alberto Rosenblit, Alceu Valença, Aluisio Didier, Ângela Ro Ro, Antonio Adolfo, Antonio Carlos, Antonio Carlos Jobim, Antônio Nóbrega, Arnaldo Baptista, Baden Powell, Belchior, Beto Guedes, Biafra, Caetano Veloso, Carlinhos Vergueiro, Carlos Lyra, Cartola, Cátia de França, Célia Vaz, Chico Buarque, Cláudio Nucci, Diana Pequeno, Djavan, Dolores Duran, Dori Caymmi, Ednardo, Edu Lobo, Egberto Gismonti, Elomar, Fagner, Fátima Guedes, Flávio Venturini, Francis Hime, Geraldo Azevedo, Geraldo Vandré, Gilberto Gil, Gonzaguinha, Guarabyra, Guilherme Arantes, Guinga, Hermeto Pachoal, Hyldon, Ivan Lins, Jards Macalé, Jaime Alem, João Bosco, João Donato, João Ricardo, Jocafi, Johnny Alf, Jorge Benjor, Jorge Mautner, Joyce, Kledir, Kleyton, Lobão, Lô Borges, Luiz Bonfá, Luiz Carlos Sá, Luiz Eça, Luiz Melodia, Lulu Santos, Marcos Sabino, Marcos Valle, Marina Lima, Mario Adnet, Marlui Miranda, Maurício Tapajós, Milton Nascimento, Moacir Santos, Moraes Moreira, Nelson Ângelo, Newton Mendonça, Nonato Buzar, Oswaldo Montenegro, Paulo Sérgio Valle, Paulinho da Viola, Raul Seixas, Rita Lee, Roberto Menescal, Sérgio Mendes, Sérgio Ricardo, Sérgio Sampaio, Sidney Miller, Sivuca, Sueli Costa, Taiguara, Tavinho Moura, Théo de Barros, Tibério Gaspar, Tim Maia, Tom Zé, Toninho Horta, Toquinho, Tunai, Túlio Mourão, Vital Faria, Walter Franco, Xangai, Zé Renato e Zé Rodrix.</p>
-<p><strong>Letristas</strong>: Abel Silva, Aldir Blanc, Aloysio de Oliveira, Ana Terra, Antônio Cícero, Billy Blanco, Cacaso, Capinam, César Costa Filho, Chico Feitosa, Fausto Nilo, Fernando Brant, Galvão, Geraldo Carneiro, Gianfrancesco Guarnieri, Hermínio Bello de Carvalho, Márcio Borges, Nelson Motta, Paulo César Feital, Paulo César Pinheiro, Péricles Cavalcanti, Petrúcio Maia, Ronaldo Bastos, Ronaldo Bôscoli, Ruy Guerra, Sérgio Natureza, Tibério Gaspar, Torquato Neto, Vinicius de Moraes, Vitor Martins e Waly Salomão.</p>
-<p><strong>Cantores(as)</strong>: Alaíde Costa, Amelinha, Astrud Gilberto, Baby Consuelo, Biafra, Dóris Monteiro, Dick Farney, Elba Ramalho, Eliana Pittman, Elis Regina, Elizeth Cardoso, Elza Soares, Fafá de Belém, Flora Purim, Gal Costa, Jair Rodrigues, Jane Duboc, Jorge Goulart, Leila Pinheiro, Lúcio Alves, Maria Bethânia, Maria Creuza, Marília Medalha, Marisa Gata Mansa, Maysa, Miltinho, Miúcha, Nana Caymmi, Nara Leão, Ney Matogrosso, Olívia Byington, Olívia Hime, Paulinho Boca de Cantor, Pery Ribeiro, Silvio César, Simone, Sylvia Telles, Teca Calazans, Tito Madi, Tony Tornardo, Wilson Simonal, Wanda Sá, Zezé Motta e Zizi Possi.</p>
-<p><strong>Instrumentistas</strong>: Airto Moreira, Alex Malheiros, Armandinho, Arthur Maia, Barrosinho, Carlos Malta, César Camargo Mariano, Chico Batera, Cláudio Roditi, Dadi, Danilo Caymmi, Djalma Correia, Dominguinhos, Ed Lincoln, Edison Machado, Edu da Gaita, Fernando Leporace, Flavio Goulart, Franklin da Flauta, Gilson Peranzzetta, Heitor TP, Hélio Delmiro, Heraldo do Monte, Itiberê, João Gilberto, Jovino, Jacques Morelembaum, Jamil Joanes, José Roberto Bertrami, Jota Moraes, J. T. Meirelles, Laurindo de Almeida, Luis Carlos Vinhas, Luisão Maia, Luiz Alves, Luiz Avellar, Márcio Montarroyos, Mario Sève, Maurício Einhorn, Mauro Senise, Naná Vasconcelos, Nico Assumpção, Nivaldo Ornellas, Novelli, Oberdan Magalhães, Oscar Bolão, Oscar de Castro Neves, Osmar Milito, Pascoal Meirelles, Paulinho Braga, Paulinho Nogueira, Paulo Moura, Pepeu Gomes, Perinho Santana, Rafael Rabelo, Raul de Souza, Raul Macarenhas, Ricardo Silveira, Robertinho do Recife, Robertinho Silva, Roberto Guima, Rodrigo Lessa, Rosinha de Valença, Sebastião Tapajós, Tenório Júnior, Tião Neto, Tomás Improta, Victor Assis Brasil, Yamandu Costa, Zeca Assumpção e Zeca do Trombone.</p>
-<p><strong>Arranjadores(as)</strong> Aécio Flávio, Arthur Verocai, Chiquinho de Moraes, Claus Ogerman, Cristóvão Bastos, Erlon Chaves, Eumir Deodato, Gaya, Geraldo Vespar, Ian Guest, Laércio de Freitas, Lincoln Olivetti, Luiz Cláudio Ramos, Maurício Maestro, Paulo Jobim, Radamés Gnatalli, Rildo Hora, Rogério Duprat, Wagner Tiso e Waltel Blanco.</p>
-<p><strong>Bandas</strong>: A Barca do Sol, A Cor do Som, As Frenéticas, Azimuth, Banda Black Rio, Banda Mantiqueira, Banda Veneno, Bebdegó, Boca Livre, Bossa Três, Brasil 66, Cama de Gato, Coisas Nossas, Doces Bárbaros, Grupo D’Alma, Grupo Um, Jongo Trio, Milton Banana Trio, Momento Quatro, MPB4, Nó em Pingo D’Água, Os Cariocas, Os Mutantes, Os Novos Baianos, Os Tincoãs, O Terço, Pau Brasil, Quarteto em Cy, Quarteto Novo, Quinteto Violado, Secos e Molhados, Som Imaginário, Tamba Trio, Trio Esperança, Trio Ternura, Tutti-Frutti e Zimbo Trio.</p>
+<p>A aplicação das transformações sobre os protoacordes, condicionada pelas regras pré-estabelecidas (que incluem limites e restrições para evitar construções redundantes e “superpopulação” de TAs), permite a produção total de 161 variantes, distribuídas pelos <em>genera</em> em diferentes gerações (a geração “zero” corresponde ao nível dos protoacordes) como apresentado na <a href="#tbl-4-2" class="quarto-xref">Tabela&nbsp;2</a>.</p>
+<div id="tbl-4-2" class="hover quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-4-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabela&nbsp;2: Distribuição dos TAs pelos 10 <em>genera</em>.
+</figcaption>
+<div aria-describedby="tbl-4-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="table-hover table">
+<thead>
+<tr class="header">
+<th style="text-align: center;"><em>Genera</em></th>
+<th style="text-align: center;">0</th>
+<th style="text-align: center;">1</th>
+<th style="text-align: center;">2</th>
+<th style="text-align: center;">3</th>
+<th style="text-align: center;">4</th>
+<th style="text-align: center;">5</th>
+<th style="text-align: center;">6</th>
+<th style="text-align: center;">Total</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Z</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">16</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Y</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">14</td>
+<td style="text-align: center;">16</td>
+<td style="text-align: center;">13</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">59</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">19</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">W</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">10</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">V</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">12</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">z</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">11</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">y</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">8</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">x</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">15</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">w</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">v</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Total</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">33</td>
+<td style="text-align: center;">46</td>
+<td style="text-align: center;">36</td>
+<td style="text-align: center;">22</td>
+<td style="text-align: center;">13</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">161</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>Como se observa nessa distribuição, enquanto alguns <em>genera</em> são bastante rarefeitos (como v, com apenas sete membros) outros apresentam alta densidade, notavelmente o <em>genus</em> “dominante” Y, com 59 elementos, o que se explica especialmente pela disponibilidade e possibilidades combinatórias decorrentes de um rico cardápio de tensões (e de suas possíveis alterações).</p>
+<p>A notação genealógica de variantes descreve sua posição derivativa dentro do <em>genus</em> respectivo através de uma sequência numérica. Por exemplo, o rótulo Y1321 representa o TA variante do <em>genus</em> Y de quarta geração (o que se depreende pelo número de algarismos que se seguem à letra identificadora). Sua posição genealógica (lida da direita para a esquerda) é: primeira variante (4ª geração) da segunda variante (3ª geração) da terceira variante (2ª geração) da primeira variante (1ª geração) de Y0.</p>
+</section>
+<section id="relações-binárias" class="level3">
+<h3 class="anchored" data-anchor-id="relações-binárias">Relações Binárias</h3>
+<p>O segundo modelo corresponde à Teoria das Relações Binárias (TRB), sendo destinado à quantificação e qualificação dos encadeamentos entre pares de “atores harmônicos” contíguos. Entenda-se este termo como uma designação genérica que pode representar diversos níveis de informação harmônica. Assim, o modelo comporta não apenas tipos acordais (como foi concebido originalmente), mas também acordes específicos, categorias funcionais e mesmo relações tonais. Os quatro níveis de relações binárias considerados são os seguintes:</p>
+<ol type="1">
+<li><p><strong>Relações binárias acordais específicas</strong> (RBs) – é o nível mais baixo, correspondendo à descrição da relação entre dois TAs específicos contíguos. Devido ao gigantesco número de possibilidades,<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> esse tipo não é contabilizado nas análises, embora seja importante seu registro, pois cria a base sobre a qual os demais níveis se apresentam. As relações binárias (por simplicidade, RBs) podem ser denotadas tanto em notação convencional por cifras alfanuméricas – por exemplo, C7.9.13 | Am6.9 – quanto em notação genealógica, de acordo com o modelo GTA. Neste caso, é adotada a fórmula <span class="math display">\[Q_1(i Q_2),\]</span> onde <span class="math inline">\(Q_1\)</span> e <span class="math inline">\(Q_2\)</span> são os símbolos genealógicos referentes aos TAs que formam a relação e <span class="math inline">\(i\)</span> é o intervalo entre suas fundamentais, em módulo 12 (<span class="math inline">\(0 \leq i \leq 11\)</span>). Assim, o exemplo acima apresentado da RB em cifras (C7.9.13 | Am6.9), é notado genealogicamente como Y22(9z11), de acordo com a classificação lexical dos TAs.</p></li>
+<li><p><strong>Relações binárias acordais abstratas</strong> (RBAs) – este nível filtra do anterior apenas as informações essenciais da relação binária acordal, ou seja, o intervalo entre as fundamentais dos dois tipos acordais contíguos e seus respectivos <em>genera</em>, daí a designação “abstrata”. Posto de outra maneira, uma RBA retira de uma relação binária acordal específica as identificações das variantes dos TAs envolvidos. Considerando o exemplo anterior, sua notação como RBA passa a ser Y(9z). Essa filtragem permite que o número de alternativas seja drasticamente reduzido, tornando as RBAs adequadas para mapeamentos e manipulações estatísticas.</p></li>
+<li><p><strong>Relações binárias funcionais</strong> (RBFs) – neste caso, os aspectos harmônicos considerados da relação binária são as categorias funcionais associadas aos tipos acordais. Em outros termos, o tipo identifica o <em>contexto</em> em que se dá a relação, considerando um nível “sintático” mais alto do que o das RBs e RBAs. Há 69 categorias funcionais (codificadas numericamente) mapeadas no sistema, agrupadas em 11 classes.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> Uma RBF é notada de acordo com a fórmula <span class="math display">\[F_1(iF_2),\]</span> onde <span class="math inline">\(F_1\)</span> e <span class="math inline">\(F_2\)</span> são os símbolos funcionais referentes aos TAs que formam a relação e <span class="math inline">\(i\)</span> é o intervalo entre suas fundamentais, em módulo 12 (<span class="math inline">\(0 \leq i \leq 11\)</span>). Por exemplo: V(5I), SubV/IV(11IV) etc.</p></li>
+<li><p><strong>Relações binárias tonais</strong> (RBTs) – informam as relações de mais alto nível, ou seja, aquelas que envolvem tonalidades contíguas em uma única peça musical em análise. Considerando que há 12 tônicas (as 12 classes de altura) e dois modos (maior e menor), o número de combinações possíveis é 48. Adotamos para designação das RBTs uma fórmula adaptada daquela proposta por <span class="citation" data-cites="murphy-2006">Murphy (<a href="#ref-murphy-2006" role="doc-biblioref">2006</a>)</span> : <span class="math display">\[T_1iT_2,\]</span> onde <span class="math inline">\(T_1\)</span> e <span class="math inline">\(T_2\)</span> são os símbolos que representam os modos das tonalidades formam a relação (“M” é usado para modo maior e “m” para modo menor) e <span class="math inline">\(i\)</span> é o intervalo entre suas tônicas, em módulo 12 (<span class="math inline">\(0 \leq i \leq 11\)</span>). Por exemplo: M7m, m0M etc. As RBTs são agrupadas em classes:<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a></p>
+<ul>
+<li>RBTs <em>notáveis</em> – congregam as modulações mais comuns. Suas subclasses são:
+<ul>
+<li>REL (relativas) – entre tonalidades relativas: M9m e m3M;</li>
+<li>D/SD (dominantes/subdominantes) – entre tonalidades de mesmo modo distanciadas por quartas justas: M5M, M7M, m5m e m7m;</li>
+<li>HOM (homônimas) – entre tonalidades de modos distintos e mesma tônica: m0M e M0m.</li>
+</ul></li>
+<li>Demais RBTs – cujas subclasses são:
+<ul>
+<li>Mediânticas (MED) – entre tonalidades distanciadas por terça:<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> M3M, M4M, M8M, M9M, M3m, M4m, M8m, m4M, m8M, m9M, m3m, m4m, m8m e m9m;</li>
+<li>Quartais (QUA) – entre tonalidades distanciadas por quarta justa:<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a> M5m, M7m, m5M e m7M;</li>
+<li>Contíguas por semitom (STM) – entre tonalidades distanciadas por um semitom: M1M, M11M, M1m, M11m, m1M, m11M, m1m e m11m;</li>
+<li>Contíguas por tom (TOM) – entre tonalidades distanciadas por um tom: M2M, M10M, M2m, M10m, m2M, m10M, m2m e m10m;</li>
+<li>Tritônicas (TRI) – entre tonalidades distanciadas por trítono: M6M, M6m, m6M e m6m.</li>
+</ul></li>
+</ul></li>
+</ol>
 
 
 
+</section>
+</section>
 
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Notas de rodapé</h2>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referências</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-almada-harmonia-jobim" class="csl-entry" role="listitem">
+Almada, Carlos. 2022. <em>A Harmonia de Jobim</em>. Campinas: Editora da Unicamp.
+</div>
+<div id="ref-murphy-2006" class="csl-entry" role="listitem">
+Murphy, Scott. 2006. <span>«<span>The Major Tritone Progression in Recent Hollywood Science Fiction Films</span>»</span>. <em>Music Theory Online</em> 12 (2).
+</div>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Notas de rodapé</h2>
 
 <ol>
-<li id="fn1"><p>A bem da verdade, o entendimento sobre a “MPB” por Faour se aproxima do nosso, o que se evidencia especialmente no volume II de seu livro (que parte dos anos 1970 e alcança 2020). Em quase todos os capítulos, a herança emepebística é posta em destaque, em hibridação com diversas estéticas ao longo das décadas cobertas (por exemplo, considerando o forte movimento do rock no Brasil, nos anos 1990).<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>As regiões da prática estendida podem ser exploradas, evidentemente, em fases futuras da pesquisa.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3"><p>Tais conjuntos de obras serão detalhados num dos próximos capítulos.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn4"><p>Em casos em que alguém atua em mais de uma categoria (por exemplo, compositor/letrista), optamos por aquela em que mais se notabilizou.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>Entende-se este conceito como uma versão abstrata da ideia de um acorde, na qual sua fundamental específica passa a ser irrelevante. Num tipo acordal (doravante, TA) é filtrada a <em>qualidade</em> do acorde, manifestada principalmente pela estrutura intervalar entre seus componentes. Assim, por exemplo, a qualidade “dominante-com-nona-maior” de um acorde específico A7.9 é, em suma, seu tipo acordal associado, consistindo na sequência intervalar &lt;2233&gt; (em número de semitons), resultante da disposição compactada das classes de alturas &lt;A-B-C♯-E-G&gt;.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Para uma descrição mais detalhada do modelo GTA, ver <span class="citation" data-cites="almada-harmonia-jobim">Almada (<a href="#ref-almada-harmonia-jobim" role="doc-biblioref">2022</a>)</span>.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Os modelos adotam um sistema de cifragem próprio, cuja principal distinção se refere ao ordenamento dos símbolos numéricos eventualmente empregados no rótulo e o uso de pontos de separação dos símbolos (além de parênteses, nos casos em que há alteração de notas-funções). Por exemplo: C6.M7.9, E4.7(♭9)13, F(♯5)7 etc. Para maiores detalhes sobre o sistema de notação alfanumérica, ver <span class="citation" data-cites="almada-harmonia-jobim">Almada (<a href="#ref-almada-harmonia-jobim" role="doc-biblioref">2022</a>)</span>.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Considerando a estrutura teórica que fundamenta a pesquisa, o total possível de RBs é 311.052 (161 <span class="math inline">\(\times\)</span> 12 <span class="math inline">\(\times\)</span> 12).<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>A listagem das categorias e classes funcionais é apresentada em XXXX<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>Duas categorias são consideradas triviais e deixadas de fora da classificação: M0M e m0m.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>Excluindo-se aqui, evidentemente, as relativas (REL) M9m e m3M, já contabilizadas entre as relações notáveis.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>Excluindo-se aqui, evidentemente, as modulações dominante/subdominante (D/SD) M5M, M7M, m5m e m7m, já contabilizadas entre as relações notáveis.<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -772,14 +1070,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../capitulos/intro.html" class="pagination-link" aria-label="Introdução">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Introdução</span>
+      <a href="../capitulos/corpora-mpb.html" class="pagination-link" aria-label="Os *corpora* MPB">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Os <em>corpora</em> MPB</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../capitulos/estilo-musical.html" class="pagination-link" aria-label="Uma breve discussão sobre estilo musical">
-        <span class="nav-page-text">Uma breve discussão sobre estilo musical</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
@@ -790,7 +1085,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/capitulos/nossa-mpb.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/capitulos/nossa-mpb.qmd" class="toc-action"><i class="bi empty"></i>Ver o código fonte</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/capitulos/modelos-teoricos.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/capitulos/modelos-teoricos.qmd" class="toc-action"><i class="bi empty"></i>Ver o código fonte</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Página construída em <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
