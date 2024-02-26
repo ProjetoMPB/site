@@ -2,11 +2,13 @@
 
 **Anti-SubV** (aSubV) -- **subclasse de categoria funcional** (membro da *classe aPRE*) formada por acordes SubV com "polaridade invertida", ou seja, resolvem em alvos com fundamentais posicionadas um semitom acima, em vez de um semitom abaixo.
 
+**Categorias funcionais** -- identificação lexical da propriedade funcional de um determinado acorde contextualizado em um campo tonal (por exemplo: I, III, V/VI, SubV/IV, IVm7 etc.).
+
+**Classes e subclasses funcionais** -- 
+
 **Coeficiente de afinidade acordal** (c) -- valor real (entre 0 e 1) correspondendo ao grau de semelhança entre dois tipos acordais} que integram uma **relação binária**. É calculado como a razão entre o dobro do número de classes de alturas em comum entre os dois acordes e a soma de suas cardinalidades.
 
 **Empréstimos de segunda ordem** (E2) -- **classe de categoria funcional**  formada por acordes que podem ser considerados como empréstimos modais (no sentido proposto pela teoria convencional) de empréstimos convencionais (ou seja, da **classe E1**). Por exemplo, a categoria bVIIm7 seria, por essa lógica, empréstimo do empréstimo IVm7 (=IVm7/IVm7).
-
-
 
 **Genus** (plural *genera*) -- conjunto que agrega um **protoacorde** e todos os possíveis **tipos acordais** derivados por meio de aplicação de transformações, dentro do modelo teórico dos **Genera de Tipos Acordais**. O modelo considera dez *genera* que reunem 161 protoacordes e variantes, formando o **léxico de tipos acordais** adotado no sistema.
 
@@ -24,11 +26,11 @@
 
 **Relação binária abstrata** (RBA) -- versão essencial de uma **relação binária** que considera apenas o intervalo entre as fundamentais e os respectivos **genera** de procedência dos **tipos acordais** que a formam.
 
-**Relação binária funcional** (RBF) -- 
+**Relação binária funcional** (RBF) -- uma relação entre acordes contíguos que considera suas respectivas **categorias funcionais** (por exemplo, V|I).
 
-**Relação binária funcional de alto nível** (RBFa) -- 
+**Relação binária funcional de alto nível** (RBFa) -- filtragem de uma **relação binária funcional** considerando apenas as **classes funcionais** que integram (por exemplo, DIA|DIA, PRE|DIA, DT|E1 etc.)
 
-**Relação binária tonal** (RBF) -- 
+**Relação binária tonal** (RBF) -- relação entre tonalidades contíguas considerando apenas seus modos (maior ou menor) e a distância intervalar entre suas tônicas (por exemplo, M5m, significando relação entre uma tonalidade maior e uma menor distanciadas por cinco semitons, o que engloba diversas possibilidades, como Dó maior|Fá menor, Mi maior|Lá menor etc.)
 
 
 **Tipo acordal** (TA) -- configuração abstrata de um acorde, desconsiderando fundamental e notas específicas. Equivalente à ideia de qualidade acordal. Um TA pode ser representado como bloco ou sequência de intervalos (em formação compacta, dentro de uma oitava), em cifragem alfanumérica (com fundamental em Dó, por convenção) ou em **notação genealógica**. 
