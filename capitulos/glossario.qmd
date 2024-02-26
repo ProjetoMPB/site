@@ -1,14 +1,25 @@
-**Antinapolitanos** (aNp) -- **subclasse de categoria funcional** (membro da *classe aPRE*) formada por acordes napolitanos com "polaridade invertida", ou seja, resolvem em alvos com fundamentais posicionadas um semitom acima, em vez de um semitom abaixo.
 
-**Anti-SubV** (aSubV) -- **subclasse de categoria funcional** (membro da *classe aPRE*) formada por acordes SubV com "polaridade invertida", ou seja, resolvem em alvos com fundamentais posicionadas um semitom acima, em vez de um semitom abaixo.
+**Alfabetos** --  conjuntos formados por **c/r letras**. No caso do subdomínio das alturas, o conjunto é denotado por Ac, tendo por membros as sete c-letras: A, a, P, p, S, s, u. Já o alfabeto rítmico, denotado por Ar, é formado por 26 r-letras: a, b, c, d, ..., x, y, z.
+
+**Antinapolitanos** (aNp) -- **subclasse de categoria funcional** (membro da classe aPRE) formada por acordes napolitanos com "polaridade invertida", ou seja, resolvem em alvos com fundamentais posicionadas um semitom acima, em vez de um semitom abaixo.
+
+**Anti-SubV** (aSubV) -- **subclasse de categoria funcional** (membro da classe aPRE) formada por acordes SubV com "polaridade invertida", ou seja, resolvem em alvos com fundamentais posicionadas um semitom acima, em vez de um semitom abaixo.
+
+**c/r letra* -- unidade considerada no modelo de **Filtragem Melódica**. Podem ser associadas aos subdomínios das alturas (prefixo "c") ou dos ritmos (prefixo "r"). As c/r letras compõem **alfabetos** específicos.
 
 **Categorias funcionais** -- identificação lexical da propriedade funcional de um determinado acorde contextualizado em um campo tonal (por exemplo: I, III, V/VI, SubV/IV, IVm7 etc.).
 
 **Classes e subclasses funcionais** -- 
 
+**Classes de regiões tonais** --
+
 **Coeficiente de afinidade acordal** (c) -- valor real (entre 0 e 1) correspondendo ao grau de semelhança entre dois tipos acordais} que integram uma **relação binária**. É calculado como a razão entre o dobro do número de classes de alturas em comum entre os dois acordes e a soma de suas cardinalidades.
 
 **Empréstimos de segunda ordem** (E2) -- **classe de categoria funcional**  formada por acordes que podem ser considerados como empréstimos modais (no sentido proposto pela teoria convencional) de empréstimos convencionais (ou seja, da **classe E1**). Por exemplo, a categoria bVIIm7 seria, por essa lógica, empréstimo do empréstimo IVm7 (=IVm7/IVm7).
+
+**Filtragem Melódica** --
+
+**Genera de Tipos Acordais** -- 
 
 **Genus** (plural *genera*) -- conjunto que agrega um **protoacorde** e todos os possíveis **tipos acordais** derivados por meio de aplicação de transformações, dentro do modelo teórico dos **Genera de Tipos Acordais**. O modelo considera dez *genera* que reunem 161 protoacordes e variantes, formando o **léxico de tipos acordais** adotado no sistema.
 
