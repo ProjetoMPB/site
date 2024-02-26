@@ -50,7 +50,8 @@ website:
         text: Listagem dos *corpora*
       - href: capitulos/producao-bibliografica.qmd
         text: Produção bibliográfica
-
+      - href: glossario.qmd
+        text: "Glossário"
 crossref:
   fig-title: Figura
   tbl-title: Tabela
