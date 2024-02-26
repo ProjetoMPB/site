@@ -51,7 +51,7 @@ website:
       - href: capitulos/producao-bibliografica.qmd
         text: Produção bibliográfica
       - href: glossario.qmd
-        text: "Glossário"
+        text: Glossário
 crossref:
   fig-title: Figura
   tbl-title: Tabela
