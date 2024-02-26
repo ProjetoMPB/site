@@ -69,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -186,6 +215,22 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<p><strong>Antinapolitanos</strong> (aNp) – <strong>subclasse de categoria funcional</strong> (membro da <em>classe aPRE</em>) formada por acordes napolitanos com “polaridade invertida”, ou seja, resolvem em alvos com fundamentais posicionadas um semitom acima, em vez de um semitom abaixo.</p>
+<p><strong>Anti-SubV</strong> (aSubV) – <strong>subclasse de categoria funcional</strong> (membro da <em>classe aPRE</em>) formada por acordes SubV com “polaridade invertida”, ou seja, resolvem em alvos com fundamentais posicionadas um semitom acima, em vez de um semitom abaixo.</p>
+<p><strong>Coeficiente de afinidade acordal</strong> (c) – valor real (entre 0 e 1) correspondendo ao grau de semelhança entre dois tipos acordais} que integram uma <strong>relação binária</strong>. É calculado como a razão entre o dobro do número de classes de alturas em comum entre os dois acordes e a soma de suas cardinalidades.</p>
+<p><strong>Empréstimos de segunda ordem</strong> (E2) – <strong>classe de categoria funcional</strong> formada por acordes que podem ser considerados como empréstimos modais (no sentido proposto pela teoria convencional) de empréstimos convencionais (ou seja, da <strong>classe E1</strong>). Por exemplo, a categoria bVIIm7 seria, por essa lógica, empréstimo do empréstimo IVm7 (=IVm7/IVm7).</p>
+<p><strong>Genus</strong> (plural <em>genera</em>) – conjunto que agrega um <strong>protoacorde</strong> e todos os possíveis <strong>tipos acordais</strong> derivados por meio de aplicação de transformações, dentro do modelo teórico dos <strong>Genera de Tipos Acordais</strong>. O modelo considera dez <em>genera</em> que reunem 161 protoacordes e variantes, formando o <strong>léxico de tipos acordais</strong> adotado no sistema.</p>
+<p><strong>Léxico de tipos acordais</strong> – lista com os 161 <strong>tipos acordais</strong> considerados neste projeto, envolvendo <strong>protoacordes</strong> e suas variantes disponíveis.</p>
+<p><strong>Nota-função</strong> – refere-se a uma nota contextualizada em um determinado acorde. Uma nota-função expressa não a classe de altura a que está associada (Mi, Dó<span class="math inline">\(\sharp\)</span> etc.), mas a função que exerce no acorde que a contém: fundamental, terça, sexta, nona menor etc.</p>
+<p><strong>Notação genealógica</strong> – representação descritiva de um <strong>tipo acordal</strong> de modo a evidenciar sua origem como <strong>protoacorde</strong> ou variante em relação a um determinado <strong>genus</strong>.</p>
+<p><strong>Protoacorde</strong> – <strong>tipo acordal</strong> básico associado a um <strong>genus</strong>. Existem dez protoacordes no modelo GTA, identificados pelas letras do genus com um zero em subscrito: “maior com sétima maior” (Z0 = CM7), “dominante” (Y0 = C7), “sexta francesa” (X0 = C(b5)7), “dominante aumentado” (W0 = C(#5)7), “tríade maior” (V0 = C), “menor com sétima menor” (z0 = Cm7), “meio diminuto” (y0 = Cm7(b5)), “sétima diminuta” (x0 = C°), “menor com sétima maior” (w0 = Cm(M7)) e “tríade menor” (v0 = Cm).</p>
+<p><strong>Regiões mediânticas cromáticas</strong> – denominação genérica atribuída às regiões tonais posicionadas a intervalos de terça (ascendente e descendente, maior e menor) da tônica referencial, excluindo-se aquelas regiões vizinhas (mediante e submediante), consideradas mediânticas diatônicas.</p>
+<p><strong>Relação binária</strong> (RB) – relação funcional entre dois <strong>tipos acordais</strong> contíguos. Sua notação informa o intervalo entre as fundamentais dos dois TAs e suas qualidades, podendo ser representada em cifras ou, mais formalmente, em <strong>notação genealógica</strong>. É a mais específica das relações binárias e, portanto, a de menor potencial de generalização.</p>
+<p><strong>Relação binária abstrata</strong> (RBA) – versão essencial de uma <strong>relação binária</strong> que considera apenas o intervalo entre as fundamentais e os respectivos <strong>genera</strong> de procedência dos <strong>tipos acordais</strong> que a formam.</p>
+<p><strong>Relação binária funcional</strong> (RBF) –</p>
+<p><strong>Relação binária funcional de alto nível</strong> (RBFa) –</p>
+<p><strong>Relação binária tonal</strong> (RBF) –</p>
+<p><strong>Tipo acordal</strong> (TA) – configuração abstrata de um acorde, desconsiderando fundamental e notas específicas. Equivalente à ideia de qualidade acordal. Um TA pode ser representado como bloco ou sequência de intervalos (em formação compacta, dentro de uma oitava), em cifragem alfanumérica (com fundamental em Dó, por convenção) ou em <strong>notação genealógica</strong>.</p>
 
 
 
