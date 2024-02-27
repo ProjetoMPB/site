@@ -52,6 +52,8 @@ website:
         text: Produção bibliográfica
       - href: capitulos/glossario.qmd
         text: Glossário
+      - href: capitulos/metodologia.qmd
+        text: Metodologia        
 crossref:
   fig-title: Figura
   tbl-title: Tabela
