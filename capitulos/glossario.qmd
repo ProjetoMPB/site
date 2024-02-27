@@ -33,13 +33,23 @@
 
 **Grade micrométrica** -- estrutura abstrata resultante da divisão de um tempo (semínima) por um **divisor métrico**, sobre a qual são estabelecidas as **r-letras**. No projeto, a grade micrométrica é segmentada em 12 posições, o que permite a criação de um **alfabeto** rítmico com 26 componentes.
 
-**Índice de contrametricidade** (ic) -- valor real que busca estabelecer uma medida para a contrametricidade [@sandroni-feitiço] de dada **r-palavra**, sendo calculado algoritmicamente.
+**Índice de contrametricidade** (ic) -- valor real (entre 0 e 1) que busca estabelecer uma medida para a contrametricidade [@sandroni-feitiço] de dada **r-palavra**, sendo calculado algoritmicamente.
+
+**Índice de economia intervalar** (iE) -- métrica que busca avaliar o perfil de contornos de uma **c-palavra** de acordo com a maior ou menor ocorrência de movimentos intervalares «econômicos». As **c-letras** se dividem, quanto ao grau de economia intervalar, em quatro categorias: máxima (u), alta (P, p), média (A, a) e baixa (S, s). O iE é expresso como um número real entre 0 e 1.
+
+**Índice de economia intervalar compensada** (iEc) -- versão complementar do **índice de economia intervalar**, que leva em conta as direções das **c-letras** na avaliação das **c-palavras**.  O iEc é expresso como um número real entre 0 e 1.
+
+**Inter-onset intervals** (IOI) -- ou "intervalos entre ataques", em uma tradução livre do original inglês. Refere-se a classes de sequências rítmicas que são equivalentes pelas posições métricas de suas articulações, independentemente das durações de som ou silêncio entre elas.
 
 **Léxico de tipos acordais** -- lista com os  161 **tipos acordais** considerados neste projeto, envolvendo **protoacordes** e suas variantes disponíveis. 
+
+**Locução dominante** -- uma das possíveis denominações para fórmulas cadenciais que se caracterizam pelo desdobramento do acorde dominante (V) em uma **relação binária funcional** II|V, mantendo a função original. Pode ser primária (quando o V é o dominante primário, diatônico) ou secundária (no caso de dominantes secundários, V/II, V/III etc.). A fórmula integra a **subclasse funcional** LOC, dentro da classe PRE.
 
 **Nota-função** -- refere-se a uma nota contextualizada em um determinado acorde. Uma nota-função expressa não a classe de altura a que está associada (Mi, Dó$\sharp$ etc.), mas a função que exerce no acorde que a contém: fundamental, terça, sexta, nona menor etc.
 
 **Notação genealógica** -- representação descritiva de um **tipo acordal** de modo a evidenciar sua origem como **protoacorde** ou variante em relação a um determinado **genus**.
+
+**Perfil métrico** -- gráfico de barras usado para apresentação da distribuição dos ataques rítmicos correspondentes à **grade micrométrica** referente a uma peça ou repertório analisado no projeto.
 
 **Protoacorde** -- **tipo acordal** básico associado a um **genus**. Existem dez protoacordes no modelo GTA, identificados pelas letras do genus com um zero em subscrito: "maior com sétima maior" (Z0 = CM7), "dominante" (Y0 = C7), "sexta francesa" (X0 = C(b5)7), "dominante aumentado" (W0 = C(#5)7), "tríade maior" (V0 = C), "menor com sétima menor" (z0 = Cm7), "meio diminuto" (y0 = Cm7(b5)), "sétima diminuta" (x0 = C°),  "menor com sétima maior" (w0 = Cm(M7)) e "tríade menor" (v0 = Cm).
 
@@ -55,6 +65,7 @@
 
 **Relação binária tonal** (RBF) -- relação entre tonalidades contíguas considerando apenas seus modos (maior ou menor) e a distância intervalar entre suas tônicas (por exemplo, M5m, significando relação entre uma tonalidade maior e uma menor distanciadas por cinco semitons, o que engloba diversas possibilidades, como Dó maior|Fá menor, Mi maior|Lá menor etc.)
 
+**Subdivisor métrico** -- número que divide um **divisor métrico**. No contexto do projeto, são subdivisores os números 1, 2, 3, 4, 6 e 12, porém, na prática são considerados apenas 3 e 4.
 
 **Tipo acordal** (TA) -- configuração abstrata de um acorde, desconsiderando fundamental e notas específicas. Equivalente à ideia de qualidade acordal. Um TA pode ser representado como bloco ou sequência de intervalos (em formação compacta, dentro de uma oitava), em cifragem alfanumérica (com fundamental em Dó, por convenção) ou em **notação genealógica**. 
 
