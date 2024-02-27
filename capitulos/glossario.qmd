@@ -15,6 +15,8 @@
 
 **Classes e subclasses funcionais** -- conjuntos que abarcam **categoriam funcionais** afins. No contexto do projeto, existem sete classes (que contêm, eventualmente, subclasses): (1) Diatônica (DIA) -- Principais (PRI) e Secundárias (SEC); (2) Preparatórias (PRE) -- Dominantes secundárias (DS), Locuções (LOC), Substitutas tritônicas (SUB), Diminutas (DIM); (3) Empréstimos de primeira ordem (E1) -- Regiões afins (RA), Subdominantes menores (sd); (4) Napolitanas secundárias (NPS); (5) Antipreparatórias (aPRE) -- Anti-subVs (aSUB), Antinapolitanas (aNP); (6) Dominantes terciárias (DT); (7) Empréstimos de segunda ordem (E2).
 
+**Classes de notas-funções** -- conjuntos que agregam as **notas-funções** de acordo com suas relações com os acordes que as harmonizam. São as seguintes: Inflexões; Básicas (notas-funções 1, 3 e 5); Tetrádicas (6 e 7); Tensões simples (9, 11, 13 e 14); Tensões alteradas (b9, #9, #11 e b13).
+
 **Classes de regiões tonais** -- englobam regiões tonais por graus de maior ou menor afinidades (não necessariamente proporcionais às suas mútuas proximidades). São elas: (1) Vizinhas (VIZ); (2) Vizinho-relativas (R/VIZ); (3) Mediânticas cromárticas (MED); (4) Medinte-relativas (R/MED); (5) Adjacentes (ADJ); (6) Cromáticas (CRO) e (7) Tritonais. Por sua vez, as classes podem ser agrupadas em dois superconjuntos, o das relações Notáveis (classes 1, 2 e 4) e o das demais relações (classes 3, 5, 6 e 7). A ideia de classe é intimamente associada ao conceito de **relações binárias tonais**.
 
 **Coeficiente de afinidade acordal** (c) -- valor real (entre 0 e 1) correspondendo ao grau de semelhança entre dois tipos acordais} que integram uma **relação binária**. É calculado como a razão entre o dobro do número de classes de alturas em comum entre os dois acordes e a soma de suas cardinalidades.
@@ -33,6 +35,8 @@
 
 **Grade micrométrica** -- estrutura abstrata resultante da divisão de um tempo (semínima) por um **divisor métrico**, sobre a qual são estabelecidas as **r-letras**. No projeto, a grade micrométrica é segmentada em 12 posições, o que permite a criação de um **alfabeto** rítmico com 26 componentes.
 
+**Índice de ancoragem** (ia) -- métrica que busca avaliar o nível de complexidade entre uma determinada **nota-função** e o acorde que a harmoniza. É expresso como um valor entre 0 (complexidade mínima ou ancoragem máxima) e 1 (complexidade máxima ou ancoragem mínima). 
+
 **Índice de contrametricidade** (ic) -- valor real (entre 0 e 1) que busca estabelecer uma medida para a contrametricidade [@sandroni-feitiço] de dada **r-palavra**, sendo calculado algoritmicamente.
 
 **Índice de economia intervalar** (iE) -- métrica que busca avaliar o perfil de contornos de uma **c-palavra** de acordo com a maior ou menor ocorrência de movimentos intervalares «econômicos». As **c-letras** se dividem, quanto ao grau de economia intervalar, em quatro categorias: máxima (u), alta (P, p), média (A, a) e baixa (S, s). O iE é expresso como um número real entre 0 e 1.
@@ -45,7 +49,7 @@
 
 **Locução dominante** -- uma das possíveis denominações para fórmulas cadenciais que se caracterizam pelo desdobramento do acorde dominante (V) em uma **relação binária funcional** II|V, mantendo a função original. Pode ser primária (quando o V é o dominante primário, diatônico) ou secundária (no caso de dominantes secundários, V/II, V/III etc.). A fórmula integra a **subclasse funcional** LOC, dentro da classe PRE.
 
-**Nota-função** -- refere-se a uma nota contextualizada em um determinado acorde. Uma nota-função expressa não a classe de altura a que está associada (Mi, Dó$\sharp$ etc.), mas a função que exerce no acorde que a contém: fundamental, terça, sexta, nona menor etc.
+**Nota-função** -- refere-se a uma nota contextualizada em um determinado acorde. Uma nota-função expressa não a classe de altura a que está associada (Mi, Dó$\sharp$ etc.), mas a função que exerce no acorde que a contém: fundamental, terça, sexta, nona menor etc. 
 
 **Notação genealógica** -- representação descritiva de um **tipo acordal** de modo a evidenciar sua origem como **protoacorde** ou variante em relação a um determinado **genus**.
 
@@ -66,6 +70,8 @@
 **Relação binária tonal** (RBF) -- relação entre tonalidades contíguas considerando apenas seus modos (maior ou menor) e a distância intervalar entre suas tônicas (por exemplo, M5m, significando relação entre uma tonalidade maior e uma menor distanciadas por cinco semitons, o que engloba diversas possibilidades, como Dó maior|Fá menor, Mi maior|Lá menor etc.)
 
 **Subdivisor métrico** -- número que divide um **divisor métrico**. No contexto do projeto, são subdivisores os números 1, 2, 3, 4, 6 e 12, porém, na prática são considerados apenas 3 e 4.
+
+**Teia de notas-funções** -- representação geométrica das relações entre notas melódicas e os acordes que as harmonizam. Seu nome deriva de seu formato, com cínco círculos concêntricos (correspondendo às **classes de notas-funções** considerados) cortados por 12 raios, representando graus escalares diatônicos e cromátic0s.
 
 **Tipo acordal** (TA) -- configuração abstrata de um acorde, desconsiderando fundamental e notas específicas. Equivalente à ideia de qualidade acordal. Um TA pode ser representado como bloco ou sequência de intervalos (em formação compacta, dentro de uma oitava), em cifragem alfanumérica (com fundamental em Dó, por convenção) ou em **notação genealógica**. 
 
