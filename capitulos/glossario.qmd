@@ -5,7 +5,7 @@
 
 **Anti-SubV** (aSubV) -- **subclasse de categoria funcional** (membro da classe aPRE) formada por acordes SubV com "polaridade invertida", ou seja, resolvem em alvos com fundamentais posicionadas um semitom acima, em vez de um semitom abaixo.
 
-**c/r letra* -- unidade considerada no modelo de **Filtragem Melódica**. Podem ser associadas aos subdomínios das alturas (prefixo "c") ou dos ritmos (prefixo "r"). As c/r letras compõem **alfabetos** específicos.
+**c/r letra** -- unidade considerada no modelo de **Filtragem Melódica**. Podem ser associadas aos subdomínios das alturas (prefixo "c") ou dos ritmos (prefixo "r"). As c/r letras compõem **alfabetos** específicos.
 
 **c/r palavra** -- estrutura resultante da concatenação de **c/r letras**, a partir da codificação em símbolos (de acordo com as convenções do modelo de **Filtragem Melódica** de trechos melódicos previamente segmentados.
 
@@ -13,9 +13,9 @@
 
 **Categorias funcionais** -- identificação lexical da propriedade funcional de um determinado acorde contextualizado em um campo tonal (por exemplo: I, III, V/VI, SubV/IV, IVm7 etc.).
 
-**Classes e subclasses funcionais** -- 
+**Classes e subclasses funcionais** -- conjuntos que abarcam **categoriam funcionais** afins. No contexto do projeto, existem sete classes (que contêm, eventualmente, subclasses): (1) Diatônica (DIA) -- Principais (PRI) e Secundárias (SEC); (2) Preparatórias (PRE) -- Dominantes secundárias (DS), Locuções (LOC), Substitutas tritônicas (SUB), Diminutas (DIM); (3) Empréstimos de primeira ordem (E1) -- Regiões afins (RA), Subdominantes menores (sd); (4) Napolitanas secundárias (NPS); (5) Antipreparatórias (aPRE) -- Anti-subVs (aSUB), Antinapolitanas (aNP); (6) Dominantes terciárias (DT); (7) Empréstimos de segunda ordem (E2).
 
-**Classes de regiões tonais** --
+**Classes de regiões tonais** -- englobam regiões tonais por graus de maior ou menor afinidades (não necessariamente proporcionais às suas mútuas proximidades). São elas: (1) Vizinhas (VIZ); (2) Vizinho-relativas (R/VIZ); (3) Mediânticas cromárticas (MED); (4) Medinte-relativas (R/MED); (5) Adjacentes (ADJ); (6) Cromáticas (CRO) e (7) Tritonais. Por sua vez, as classes podem ser agrupadas em dois superconjuntos, o das relações Notáveis (classes 1, 2 e 4) e o das demais relações (classes 3, 5, 6 e 7). A ideia de classe é intimamente associada ao conceito de **relações binárias tonais**.
 
 **Coeficiente de afinidade acordal** (c) -- valor real (entre 0 e 1) correspondendo ao grau de semelhança entre dois tipos acordais} que integram uma **relação binária**. É calculado como a razão entre o dobro do número de classes de alturas em comum entre os dois acordes e a soma de suas cardinalidades.
 
@@ -27,7 +27,7 @@
 
 **Filtragem Melódica** -- processo de conversão de uma melodia, adotado no modelo homônimo, com o intuito de gerar classes de padrões de alturas e de ritmo para subsequente análise comparativa. A filtragem de uma melodia é realizada a partir de três fases sequenciais e complementares: segmentação, abstração e codificação.
 
-**Genera de Tipos Acordais** -- 
+**Genera de Tipos Acordais** -- conjuntos formados por **protoacordes** e suas variantes, reunidos por afinidades construtivas. São 10 os genera considerados, nomeados com as letras finais do alfabeto latino, em ordem inversa: Z ("maior com sétima maior"), Y ("dominante"), W ("sexta francesa"), X ("dominante aumentado"), V ("tríade maior"), z ("menor com sétima"), y ("meio-diminuto"), x ("diminuto"), w ("menor com sétima maior"), v ("tríade menor").
 
 **Genus** (plural *genera*) -- conjunto que agrega um **protoacorde** e todos os possíveis **tipos acordais** derivados por meio de aplicação de transformações, dentro do modelo teórico dos **Genera de Tipos Acordais**. O modelo considera dez *genera* que reunem 161 protoacordes e variantes, formando o **léxico de tipos acordais** adotado no sistema.
 
