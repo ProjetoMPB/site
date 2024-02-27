@@ -10,7 +10,7 @@ Este capítulo descreve sucintamente como é efetivado o processo de análise es
 
 A [Figura @fig-metodologia01] apresenta uma visão geral do sistema de análise dos *corpora*, considerando suas três fases.
 
-![Representação esquemática das três fases do processo analítico.](../figs/metodologia-01.png){width=80%}{#fig-metodologia01}
+![Representação esquemática das três fases do processo analítico.](../figs/metodologia-01.png){#fig-metodologia01}
 
 Um detalhamento da fase humana (1) é apresentado na [Figura @fig-metodologia02]. 
 
