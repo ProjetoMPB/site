@@ -7,6 +7,10 @@
 
 **c/r letra* -- unidade considerada no modelo de **Filtragem Melódica**. Podem ser associadas aos subdomínios das alturas (prefixo "c") ou dos ritmos (prefixo "r"). As c/r letras compõem **alfabetos** específicos.
 
+**c/r palavra** -- estrutura resultante da concatenação de **c/r letras**, a partir da codificação em símbolos (de acordo com as convenções do modelo de **Filtragem Melódica** de trechos melódicos previamente segmentados.
+
+**c/r sentença** -- estrutura resultante da concatenação de **c/r palavras**. Uma c/r sentença corresponde à transcrição de uma melodia em análise nos termos do modelo de **Filtragem Melódica**.
+
 **Categorias funcionais** -- identificação lexical da propriedade funcional de um determinado acorde contextualizado em um campo tonal (por exemplo: I, III, V/VI, SubV/IV, IVm7 etc.).
 
 **Classes e subclasses funcionais** -- 
@@ -15,13 +19,21 @@
 
 **Coeficiente de afinidade acordal** (c) -- valor real (entre 0 e 1) correspondendo ao grau de semelhança entre dois tipos acordais} que integram uma **relação binária**. É calculado como a razão entre o dobro do número de classes de alturas em comum entre os dois acordes e a soma de suas cardinalidades.
 
+**Divisor métrico** -- no contexto do modelo de **Filtragem Melódica**, é o número que divide a unidade temporal, de modo a formar uma **grade micrométrica** adequada para um determinado repertório de análise. No caso presente, adota-se o divisor 12. Ver também o tópico **subdivisor métrico**.
+
 **Empréstimos de segunda ordem** (E2) -- **classe de categoria funcional**  formada por acordes que podem ser considerados como empréstimos modais (no sentido proposto pela teoria convencional) de empréstimos convencionais (ou seja, da **classe E1**). Por exemplo, a categoria bVIIm7 seria, por essa lógica, empréstimo do empréstimo IVm7 (=IVm7/IVm7).
 
-**Filtragem Melódica** --
+**Entropia** -- conceito originado da Teoria da Informação, representa uma medida da incerteza de um determinado evento, considerando suas possíveis continuações. A entropia é quantificada em bits.
+
+**Filtragem Melódica** -- processo de conversão de uma melodia, adotado no modelo homônimo, com o intuito de gerar classes de padrões de alturas e de ritmo para subsequente análise comparativa. A filtragem de uma melodia é realizada a partir de três fases sequenciais e complementares: segmentação, abstração e codificação.
 
 **Genera de Tipos Acordais** -- 
 
 **Genus** (plural *genera*) -- conjunto que agrega um **protoacorde** e todos os possíveis **tipos acordais** derivados por meio de aplicação de transformações, dentro do modelo teórico dos **Genera de Tipos Acordais**. O modelo considera dez *genera* que reunem 161 protoacordes e variantes, formando o **léxico de tipos acordais** adotado no sistema.
+
+**Grade micrométrica** -- estrutura abstrata resultante da divisão de um tempo (semínima) por um **divisor métrico**, sobre a qual são estabelecidas as **r-letras**. No projeto, a grade micrométrica é segmentada em 12 posições, o que permite a criação de um **alfabeto** rítmico com 26 componentes.
+
+**Índice de contrametricidade** (ic) -- valor real que busca estabelecer uma medida para a contrametricidade [@sandroni-feitiço] de dada **r-palavra**, sendo calculado algoritmicamente.
 
 **Léxico de tipos acordais** -- lista com os  161 **tipos acordais** considerados neste projeto, envolvendo **protoacordes** e suas variantes disponíveis. 
 
