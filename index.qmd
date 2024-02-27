@@ -13,7 +13,7 @@ A estrutura deste projeto foi pensada como uma sequência de artigos (ou capítu
 * [Hipóteses](capitulos/hipoteses.qmd)
 * [Os *corpora* de análise](capitulos/corpora-mpb.qmd)
 * [Modelos teóricos](capitulos/modelos-teoricos.qmd)
-* O processo analítico
+* [Metodologia](capitulos/metodologia.qmd)
 * Parâmetros e métricas
 * Entropia e probabilidade
 * Cadeias de Markov
