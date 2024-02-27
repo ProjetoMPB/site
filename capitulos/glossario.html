@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -233,7 +253,7 @@ window.Quarto = {
 <p><strong>Genera de Tipos Acordais</strong> –</p>
 <p><strong>Genus</strong> (plural <em>genera</em>) – conjunto que agrega um <strong>protoacorde</strong> e todos os possíveis <strong>tipos acordais</strong> derivados por meio de aplicação de transformações, dentro do modelo teórico dos <strong>Genera de Tipos Acordais</strong>. O modelo considera dez <em>genera</em> que reunem 161 protoacordes e variantes, formando o <strong>léxico de tipos acordais</strong> adotado no sistema.</p>
 <p><strong>Grade micrométrica</strong> – estrutura abstrata resultante da divisão de um tempo (semínima) por um <strong>divisor métrico</strong>, sobre a qual são estabelecidas as <strong>r-letras</strong>. No projeto, a grade micrométrica é segmentada em 12 posições, o que permite a criação de um <strong>alfabeto</strong> rítmico com 26 componentes.</p>
-<p><strong>Índice de contrametricidade</strong> (ic) – valor real que busca estabelecer uma medida para a contrametricidade <span class="citation" data-cites="sandroni-feitiço">(<a href="#ref-sandroni-feitiço" role="doc-biblioref"><strong>sandroni-feitiço?</strong></a>)</span> de dada <strong>r-palavra</strong>, sendo calculado algoritmicamente.</p>
+<p><strong>Índice de contrametricidade</strong> (ic) – valor real que busca estabelecer uma medida para a contrametricidade <span class="citation" data-cites="sandroni-feitiço">(<a href="#ref-sandroni-feitiço" role="doc-biblioref">Sandroni 2001</a>)</span> de dada <strong>r-palavra</strong>, sendo calculado algoritmicamente.</p>
 <p><strong>Léxico de tipos acordais</strong> – lista com os 161 <strong>tipos acordais</strong> considerados neste projeto, envolvendo <strong>protoacordes</strong> e suas variantes disponíveis.</p>
 <p><strong>Nota-função</strong> – refere-se a uma nota contextualizada em um determinado acorde. Uma nota-função expressa não a classe de altura a que está associada (Mi, Dó<span class="math inline">\(\sharp\)</span> etc.), mas a função que exerce no acorde que a contém: fundamental, terça, sexta, nona menor etc.</p>
 <p><strong>Notação genealógica</strong> – representação descritiva de um <strong>tipo acordal</strong> de modo a evidenciar sua origem como <strong>protoacorde</strong> ou variante em relação a um determinado <strong>genus</strong>.</p>
@@ -248,7 +268,12 @@ window.Quarto = {
 
 
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referências</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-sandroni-feitiço" class="csl-entry" role="listitem">
+Sandroni, Carlos. 2001. <em>Feitiço decente</em>. Rio de Janeiro: Zahar/UFRJ.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
