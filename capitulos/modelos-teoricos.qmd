@@ -73,22 +73,22 @@ O segundo modelo corresponde à Teoria das Relações Binárias (TRB), sendo des
 ### Filtragem Melódica
 As bases para a construção deste modelo foram definidas a partir de três princípios: *segmentação*, *abstração* e *codificação*. O primeiro deles se fundamenta na ideia de que o entendimento de uma informação sequencial requer que esta seja segmentada em unidades de menor extensão cada qual exercendo uma relativa autonomia (como pequenas "frases" musicais ou, de uma maneira mais neutra, como pequenos grupos).^[Para um suporte a essa argumentação, ver @snyder-music-memory.] No modelo, tais grupos são denominados *palavras*.^[O que denota mais uma correlação metafórica com conceitos linguísticos.] Já a abstração é um estágio imprescindível para qualquer processo analítico, pois permite que estruturas distintas possam ser agrupadas em classes de equivalência em relação a algum parâmetro de comparação. No modelo de Filtragem Melódica (abreviado como FM), as estruturas de alturas e rítmica são isoladas das melodias em análise, transformando-se em descrições abstratas desses domínios. Desse modo, as alturas são transcritas como sequências de sete *gestos básicos de contorno* (repetições de nota, graus conjuntos, arpejos e saltos, ascendentes e descendentes) -- formando um alfabeto de *c-letras* (@fig-modelos01).
 
-![Alfabeto de c-letras.](../figs/modelos-teoricos-01.jpg){#fig-modelos01}
+![Alfabeto de c-letras.](../figs/modelos-teoricos-01.png){#fig-modelos01}
 
 Para o ritmo, a estratégia consiste em subdividir um tempo (semínima) em 12 unidades e associar as possíveis  configurações de IOIs^[Na sigla em inglês, *Inter-Onset Intervals* (intervalos entre ataques). Em sequências de IOIs, as durações não são levadas em conta, apenas as distâncias entre pontos de ataque.]  que ocorrem dentro dessa janela temporal a unidades-padrão, denominadas no modelo r-letras, o que permite a formação de um alfabeto com 26 elementos (@fig-modelos02).
 
-![Alfabeto de r-letras.](../figs/modelos-teoricos-02.jpg){#fig-modelos02}
+![Alfabeto de r-letras.](../figs/modelos-teoricos-02.png){#fig-modelos02}
 
 Finalmente, a codificação associa as c- e r-letras a símbolos alfabéticos, que passam a ser usados na tradução computacional das estruturas de alturas e rítmicas, transformando melodias em sequências segmentadas de *c-palavras* e *r-palavras* (@fig-modelos03).
 
-![Exemplo de uma c/r-palavra.](../figs/modelos-teoricos-03.jpg){#fig-modelos03}
+![Exemplo de uma c/r-palavra.](../figs/modelos-teoricos-03.png){#fig-modelos03}
 
 Recentemente, um novo conceito foi incorporado ao modelo, o de *r-sílabas*.^[$almada-zisels-2023] Tratam-se de unidades rítmicas de nível intermediário em relação às r-letras e r-palavras, que trazem pontencialmente ao entendimento do ritmo uma carga "semântica", já que podem ser associadas a pequenos motivos rítmicos. Embora r-sílabas possam em tese apresentar diferentes cardinalidades, consideramos como as categorias ótimas para análise os *r-dissílabos* (r-sílaba com duas r-letras, por exemplo, nc) e os *r-trissílabos*, (jjl, por exemplo). Cada um dos níveis (letra, sílaba e palavra) será base para alguns atributos estilísticos, como será apresentado oportunamente.
 
 ### Teia de Notas-Funções
 Essencialmente, tal modelo associa a cada acorde dentro de um campo tonal -- ou, mais acuradamente, para cada *categoria funcional* possível -- uma hierarquia para as notas estruturais de uma melodia que porventura harmonize. O ponto de partida para a construção desse modelo é o conceito conhecido pelos músicos como "escala de acordes". Na perspectiva que nos é adequada, a escala de um acorde apresenta-se como uma maneira conveniente de dispor suas possibilidades de harmonização. A @fig-modelos04 ilustra essa argumentação, considerando a escala referente ao acorde tônico (I) em Dó maior, cifrado, em sua versão tetrádica, como CM7.^[As escalas dos sete acordes diatônicos recebem nomes associados com os chamados modos gregos: Jônica (I), Dórica (II), Frígia (III), Lídia (IV), Mixolídia (V), Eólia (VI) e Lócria (VII), cada qual com uma configuração intervalar distinta, o que se reflete nos respectivos conjuntos de notas-estruturais disponíveis.]
 
-![Estrutura da escala de CM7 (I em Dó maior) e identificação de suas notas-estruturais.](../figs/modelos-teoricos-04.jpg){#fig-modelos04}
+![Estrutura da escala de CM7 (I em Dó maior) e identificação de suas notas-estruturais.](../figs/modelos-teoricos-04.png){#fig-modelos04}
 
 À esquerda da figura são apresentadas as notas-funções, dispostas em ordem escalar. As notas brancas correspondem às notas-estruturais básicas (identificadas abaixo da pauta), que formam o arpejo da tétrade -- fundamental (1), terça (3), quinta (5) e a sétima maior (M7) --, incluindo a sexta (6), que eventualmente pode substituir a sétima.^[Para uma explanação sobre notas-estruturais substitutas, ver @almada-harmonia-jobim.] Para a avaliação das tensões elegíveis a integrar o grupo das notas-estruturais (acima da pauta) segue-se a regra prática dos "dois semitons". Tal regra determina que uma nota-função não pertencente ao arpejo básico se candidataria a se tornar uma tensão harmonizável (portanto, uma nota-estrutural) para um acorde se, na escala, estiver a *dois semitons acima* da nota do arpejo imediatamente à sua esquerda.  Em caso negativo (ou seja, se a distância for de apenas um semitom), a nota não é considerada para integrar o grupo das notas-estruturais, sendo denominada normalmente uma nota "evitada".^[Como em toda regra, há algumas exceções. Para sua apresentação e discussão, ver @almada-harmonia-jobim.]
 
@@ -100,7 +100,7 @@ Além da classificação de notas como estruturais ou inflexões, relacionadas a
 
 A partir desses conceitos, é possível propor uma metodologia de análise de melodias, considerando ambos os níveis -- global e local. Como uma tentativa preliminar para formalizar um modelo analítico, a @fig-modelos05 examina o exemplo de uma melodia hipotética.
 
-![Exemplo de análise melódica (considerando contextos local e global) de uma melodia hipotética.](../figs/modelos-teoricos-05.jpg){#fig-modelos05}
+![Exemplo de análise melódica (considerando contextos local e global) de uma melodia hipotética.](../figs/modelos-teoricos-05.png){#fig-modelos05}
 
 Os dois níveis são contemplados na análise: abaixo da pauta são indicados os graus escalares associados a cada nota melódica através de números com circunflexos (contexto global), enquanto acima da pauta as notas-funções são evidenciadas, em relação aos acordes (contexto local). Inflexões são representadas pelo símbolo "$\times$".
 
@@ -108,7 +108,7 @@ Observe-se que o método adotado promove normalização das melodias, ou seja, n
 
 O modelo analítico contempla um processo algorítmico de análise das notas-funções, cuja entrada de dados é formatada como uma matriz de dimensões $5 \times n$ ($n$ é o número de notas da melodia, 36 no exemplo da @fig-modelos05), denominada *mapa de notas-funções* (ou *mapa NF*). O quadro da @fig-modelos06 apresenta o mapa NF referente aos três compassos iniciais da melodia da @fig-modelos05.
 
-![Mapa de notas-funções referente ao exemplo da @fig-modelos05, c. 1-3.](../figs/modelos-teoricos-06.jpg){#fig-modelos06}
+![Mapa de notas-funções referente ao exemplo da @fig-modelos05, c. 1-3.](../figs/modelos-teoricos-06.png){#fig-modelos06}
 
 A coluna 1 do mapa identifica os níveis considerados:
 
@@ -122,11 +122,11 @@ Com objetivos operacionais, facilitando a implementação computacional, um mapa
 
 A computação da matriz NF pelo algoritmo de análise retorna uma matriz que dispõe as ocorrências de notas-funções em relação aos graus escalares, ou seja, combinando os contextos global e local. O quadro da @fig-modelos07 apresenta a matriz-resultado referente ao exemplo da @fig-modelos05.
 
-![Matriz de notas-funções referente ao exemplo da @fig-modelos05.](../figs/modelos-teoricos-07.jpg){#fig-modelos07}
+![Matriz de notas-funções referente ao exemplo da @fig-modelos05.](../figs/modelos-teoricos-07.png){#fig-modelos07}
 
 Uma versão mais concisa desse esquema considera apenas as cinco classes de notas-funções, ou seja, inflexões, notas-estruturais da tríade básica, notas-estruturais da tétrade, notas-estruturais correspondentes a tensões simples e notas-estruturais correspondentes a tensões alteradas (@fig-modelos08). Assim, as categorias individuais colapsam nessas classes, o que facilita a plotagem gráfica (ver adiante) e proporciona um exame mais global da distribuição das notas-funções.
 
-![Matriz de classes de notas-funções referente ao exemplo da @fig-modelos05.](../figs/modelos-teoricos-08.jpg){#fig-modelos08}
+![Matriz de classes de notas-funções referente ao exemplo da @fig-modelos05.](../figs/modelos-teoricos-08.png){#fig-modelos08}
 
 Uma das representações gráficas disponíveis no escopo do modelo é apresentada na @fig-modelos09. Denominado *Teia NF* (a partir de seu formato, que lembra vagamente uma teia de aranha), o gráfico é formado por cinco círculos concêntricos cortados por 12 raios dispostos em incrementos angulares de 30°, com cada um desses eixos correspondendo a uma das notas da escala cromática. Os graus escalares (no caso da figura, considerando a escala diatônica maior) são identificados com algarismos arábicos (1 a 7), revelando sua superioridade hierárquica em relação aos graus escalares não diatônicos, os eixos intermediários.
 
