@@ -54,7 +54,7 @@ Em relação à escolha das obras para integrarem os 10 *corpora* MPB consideram
 
 Após a conclusão desta primeira, uma segunda fase incluirá mais 10 compositores, e assim por diante, tornando cada vez mais sólido e abrangente o projeto. Como uma ilustração do potencial de expansão do projeto, nesse sentido, a @fig-corpora01 apresenta as linhas de vida dos 10 compositores selecionados para a fase 1 (em destaque) e outras sugestões de nomes (entre vários outros possíveis) para futuras fases.
 
-![Linha do tempo abarcando 100 anos (1920--2020) sobre a qual se projetam os períodos de vida de 20 conhecidos compositores. A área em cinza informa aproximadamente o período da Prática Comum da MPB. Barras ativas correspondem aos 10 compositores selecionados para a primeira fase do projeto.](../figs/corpora-mpb-01.jpg){#fig-corpora01}
+![Linha do tempo abarcando 100 anos (1920--2020) sobre a qual se projetam os períodos de vida de 20 conhecidos compositores. A área em cinza informa aproximadamente o período da Prática Comum da MPB. Barras ativas correspondem aos 10 compositores selecionados para a primeira fase do projeto.](../figs/corpora-mpb-01.png){#fig-corpora01}
 
 ## Critérios de transcrição
 
