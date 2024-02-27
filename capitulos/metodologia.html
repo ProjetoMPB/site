@@ -245,28 +245,37 @@ window.Quarto = {
 <li>Computacional – efetivada por uma série de algoritmos e programas especialmente elaborados, que formam o <em>complexo computacional</em> de análise. A operação da fase consiste basicamente em, a cada peça analisada, abrir o respectivo suporte (formatado de acordo com as convenções adotadas), realizar o processamento de seu conteúdo e atualizar as <em>matrizes de dados</em>. A tarefa é aplicada por quatro vezes (correspondendo aos quatro eixos estruturais considerados), a cada rodada de análise;</li>
 <li>Estatística – efetivada também computacionalmente por programas especificamente criados, tem como entrada as matrizes de dados que acumularam as informações processadas ao longo das análises individuais. Essa fase é acionada apenas após a análise da última peça de um determinado <em>corpus</em>.</li>
 </ul>
-<p>A <strong>?@fig-metodologia01</strong> apresenta uma visão geral do sistema de análise dos <em>corpora</em>, considerando suas três fases.</p>
-<p><img src="../figs/metodologia-01.png" class="img-fluid" style="width:80.0%" alt="Representação esquemática das três fases do processo analítico.">{#fig-metodologia01}</p>
-<p>Um detalhamento da fase humana (1) é apresentado na <a href="#fig-metodologia02" class="quarto-xref">Figura&nbsp;1</a>.</p>
+<p>A <a href="#fig-metodologia01" class="quarto-xref">Figura&nbsp;1</a> apresenta uma visão geral do sistema de análise dos <em>corpora</em>, considerando suas três fases.</p>
+<div id="fig-metodologia01" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-metodologia01-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../figs/metodologia-01.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-metodologia01-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;1: Representação esquemática das três fases do processo analítico.
+</figcaption>
+</figure>
+</div>
+<p>Um detalhamento da fase humana (1) é apresentado na <a href="#fig-metodologia02" class="quarto-xref">Figura&nbsp;2</a>.</p>
 <div id="fig-metodologia02" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-metodologia02-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="../figs/metodologia-02.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-metodologia02-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;1: Detalhamento do processo analítico da fase 1, humana.
+Figura&nbsp;2: Detalhamento do processo analítico da fase 1, humana.
 </figcaption>
 </figure>
 </div>
 <p>Os quatro suportes analíticos adotados são:</p>
-<p><strong>MIDI segmentado</strong> – partitura da melodia da peça, transcrita como arquivo XML em versão concisa (ou seja, omitindo-se repetições, introduções e interlúdios instrumentais), tendo sido aplicados os sinais de segmentação formais, de acordo com o Modelo de Filtragem Melódica (ver “Modelos teóricos”). A <a href="#fig-metodologia03" class="quarto-xref">Figura&nbsp;2</a> apresenta um exemplo do um trecho melódico segmentado pelo analista.</p>
+<p><strong>MIDI segmentado</strong> – partitura da melodia da peça, transcrita como arquivo XML em versão concisa (ou seja, omitindo-se repetições, introduções e interlúdios instrumentais), tendo sido aplicados os sinais de segmentação formais, de acordo com o Modelo de Filtragem Melódica (ver “Modelos teóricos”). A <a href="#fig-metodologia03" class="quarto-xref">Figura&nbsp;3</a> apresenta um exemplo do um trecho melódico segmentado pelo analista.</p>
 <div id="fig-metodologia03" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-metodologia03-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="../figs/metodologia-03.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-metodologia03-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;2: Exemplo de trecho de um MIDI segmentado.
+Figura&nbsp;3: Exemplo de trecho de um MIDI segmentado.
 </figcaption>
 </figure>
 </div>
@@ -276,14 +285,14 @@ Figura&nbsp;2: Exemplo de trecho de um MIDI segmentado.
 <p><img src="../figs/metodologia-05.png" class="img-fluid" data-widt="30%" alt="Exemplo de trecho de uma matriz NF.">{#fig-metodologia05}</p>
 <p><strong>Matriz H</strong> – arquivo em formato XLS no qual diversos aspectos da estrutura harmônica de uma peça são coletadas e codificadas pelo analista. Para cada acorde da peça, são registrados: (a) fundamental; (b) baixo; (c) tipo acordal; (d) função; (e) contexto tonal; (f) localização métrica. O arquivo se apresenta como uma matriz de dimensões 8 <span class="math inline">\(\times\)</span> n, onde é o número de acordes presente na peça (<strong>?@fig-metodologia06</strong>).</p>
 <p><img src="../figs/metodologia-06.png" class="img-fluid" style="width:30.0%" alt="Exemplo de trecho de uma matriz H.">{#fig-metodologia06}</p>
-<p>Os dados formatados nos quatro suportes analíticos são então inseridos no complexo computacional, formado pelos respectivos algoritmos de análise, que desempenha a fase 2 do processo (<a href="#fig-metodologia07" class="quarto-xref">Figura&nbsp;3</a>). Além da computação dos dados específicos da peça analisada, o complexo é também responsável pela atualização das matrizes de dados, que armazenam as informações estruturais acumuladas referentes ao <em>corpus</em> em questão.</p>
+<p>Os dados formatados nos quatro suportes analíticos são então inseridos no complexo computacional, formado pelos respectivos algoritmos de análise, que desempenha a fase 2 do processo (<a href="#fig-metodologia07" class="quarto-xref">Figura&nbsp;4</a>). Além da computação dos dados específicos da peça analisada, o complexo é também responsável pela atualização das matrizes de dados, que armazenam as informações estruturais acumuladas referentes ao <em>corpus</em> em questão.</p>
 <div id="fig-metodologia07" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-metodologia07-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="../figs/metodologia-07.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-metodologia07-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;3: Detalhamento do processo analítico da fase 2, computacional.
+Figura&nbsp;4: Detalhamento do processo analítico da fase 2, computacional.
 </figcaption>
 </figure>
 </div>
