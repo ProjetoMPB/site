@@ -239,7 +239,12 @@ window.Quarto = {
 </header>
 
 
-<p>Este capítulo descreve sucintamente como é efetivado o processo de análise estrutural dos <em>corpora</em> (de controle e MPB) selecionados. Basicamente, a análise se divide em três fases, nomeadas como se segue: * Humana – operada por um analista, que toma as decisões em relação às diferentes classificações dos eventos musicais em análise. São quatro os eixos musicais básicos considerados: estrutura de alturas, estrutura rítmica, estrutura de notas-funções e estrutura harmônica (que, por sua vez, levam em conta diversos aspectos associados). O analista é responsável pela transcrição dos dados para os respectivos suportes de análise; * Computacional – efetivada por uma série de algoritmos e programas especialmente elaborados, que formam o <em>complexo computacional</em> de análise. A operação da fase consiste basicamente em, a cada peça analisada, abrir o respectivo suporte (formatado de acordo com as convenções adotadas), realizar o processamento de seu conteúdo e atualizar as <em>matrizes de dados</em>. A tarefa é aplicada por quatro vezes (correspondendo aos quatro eixos estruturais considerados), a cada rodada de análise; * Estatística – efetivada também computacionalmente por programas especificamente criados, tem como entrada as matrizes de dados que acumularam as informações processadas ao longo das análises individuais. Essa fase é acionada apenas após a análise da última peça de um determinado <em>corpus</em>.</p>
+<p>Este capítulo descreve sucintamente como é efetivado o processo de análise estrutural dos <em>corpora</em> (de controle e MPB) selecionados. Basicamente, a análise se divide em três fases, nomeadas como se segue:</p>
+<ul>
+<li>Humana – operada por um analista, que toma as decisões em relação às diferentes classificações dos eventos musicais em análise. São quatro os eixos musicais básicos considerados: estrutura de alturas, estrutura rítmica, estrutura de notas-funções e estrutura harmônica (que, por sua vez, levam em conta diversos aspectos associados). O analista é responsável pela transcrição dos dados para os respectivos suportes de análise;</li>
+<li>Computacional – efetivada por uma série de algoritmos e programas especialmente elaborados, que formam o <em>complexo computacional</em> de análise. A operação da fase consiste basicamente em, a cada peça analisada, abrir o respectivo suporte (formatado de acordo com as convenções adotadas), realizar o processamento de seu conteúdo e atualizar as <em>matrizes de dados</em>. A tarefa é aplicada por quatro vezes (correspondendo aos quatro eixos estruturais considerados), a cada rodada de análise;</li>
+<li>Estatística – efetivada também computacionalmente por programas especificamente criados, tem como entrada as matrizes de dados que acumularam as informações processadas ao longo das análises individuais. Essa fase é acionada apenas após a análise da última peça de um determinado <em>corpus</em>.</li>
+</ul>
 <p>A <a href="#fig-metodologia01" class="quarto-xref">Figura&nbsp;1</a> apresenta uma visão geral do sistema de análise dos <em>corpora</em>, considerando suas três fases.</p>
 <div id="fig-metodologia01" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -262,7 +267,8 @@ Figura&nbsp;2: Detalhamento do processo analítico da fase 1, humana.
 </figcaption>
 </figure>
 </div>
-<p>Os quatro suportes analíticos adotados são: *<strong>MIDI segmentado</strong> – partitura da melodia da peça, transcrita como arquivo XML em versão concisa (ou seja, omitindo-se repetições, introduções e interlúdios instrumentais), tendo sido aplicados os sinais de segmentação formais, de acordo com o Modelo de Filtragem Melódica (ver “Modelos teóricos”). A <a href="#fig-metodologia03" class="quarto-xref">Figura&nbsp;3</a> apresenta um exemplo do um trecho melódico segmentado pelo analista.</p>
+<p>Os quatro suportes analíticos adotados são:</p>
+<p><strong>MIDI segmentado</strong> – partitura da melodia da peça, transcrita como arquivo XML em versão concisa (ou seja, omitindo-se repetições, introduções e interlúdios instrumentais), tendo sido aplicados os sinais de segmentação formais, de acordo com o Modelo de Filtragem Melódica (ver “Modelos teóricos”). A <a href="#fig-metodologia03" class="quarto-xref">Figura&nbsp;3</a> apresenta um exemplo do um trecho melódico segmentado pelo analista.</p>
 <div id="fig-metodologia03" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-metodologia03-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -273,7 +279,7 @@ Figura&nbsp;3: Exemplo de trecho de um MIDI segmentado.
 </figcaption>
 </figure>
 </div>
-<p><em><strong>Vetor R</strong> – arquivo em formato CSV no qual as configurações rítmicas da peça analisada são transcritas como sequências de r-letras separadas por sinais de segmentação, de acordo com o Modelo de Filtragem Melódica. O vetor R se apresenta como uma matriz de dimensões 1 <span class="math inline">\(\times\)</span> n, onde </em>n* é o número de r-letras (e sinais de segmentação) encontrados na peça (<a href="#fig-metodologia04" class="quarto-xref">Figura&nbsp;4</a>).</p>
+<p><strong>Vetor R</strong> – arquivo em formato CSV no qual as configurações rítmicas da peça analisada são transcritas como sequências de r-letras separadas por sinais de segmentação, de acordo com o Modelo de Filtragem Melódica. O vetor R se apresenta como uma matriz de dimensões 1 <span class="math inline">\(\times\)</span> n, onde <em>n</em> é o número de r-letras (e sinais de segmentação) encontrados na peça (<a href="#fig-metodologia04" class="quarto-xref">Figura&nbsp;4</a>).</p>
 <div id="fig-metodologia04" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-metodologia04-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -284,7 +290,7 @@ Figura&nbsp;4: Exemplo de trecho de um vetor R.
 </figcaption>
 </figure>
 </div>
-<p><em><strong>Matriz NF</strong> – arquivo em formato XLS no qual as funções desempenhadas pelas notas da melodia em relação ao contexto harmônico no qual está inserida (como inflexões ou notas-estruturais) são identificadas pelo analista. O arquivo se apresenta como uma matriz de dimensões 5 <span class="math inline">\(\times\)</span> n, onde </em>n* é o número de notas-funções encontradas na peça (<a href="#fig-metodologia05" class="quarto-xref">Figura&nbsp;5</a>). Cada linha da matriz NF corresponde a um dos cinco níveis considerados: (A) graus escalares (nível do contexto global); (B) componentes triádicos (fundamental, terça e quinta); (C) componentes tetrádicos (sexta e sétima); (D) tensões simples (nona maior, décima primeira justa, décima terceira maior e décima quarta maior); (E) tensões alteradas (nona menor, nona aumentada, décima primeira aumentada e décima terceira menor).</p>
+<p><strong>Matriz NF</strong> – arquivo em formato XLS no qual as funções desempenhadas pelas notas da melodia em relação ao contexto harmônico no qual está inserida (como inflexões ou notas-estruturais) são identificadas pelo analista. O arquivo se apresenta como uma matriz de dimensões 5 <span class="math inline">\(\times\)</span> n, onde <em>n</em> é o número de notas-funções encontradas na peça (<a href="#fig-metodologia05" class="quarto-xref">Figura&nbsp;5</a>). Cada linha da matriz NF corresponde a um dos cinco níveis considerados: (A) graus escalares (nível do contexto global); (B) componentes triádicos (fundamental, terça e quinta); (C) componentes tetrádicos (sexta e sétima); (D) tensões simples (nona maior, décima primeira justa, décima terceira maior e décima quarta maior); (E) tensões alteradas (nona menor, nona aumentada, décima primeira aumentada e décima terceira menor).</p>
 <div id="fig-metodologia05" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-metodologia05-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -295,7 +301,7 @@ Figura&nbsp;5: Exemplo de trecho de uma matriz NF.
 </figcaption>
 </figure>
 </div>
-<p>*<strong>Matriz H</strong> – arquivo em formato XLS no qual diversos aspectos da estrutura harmônica de uma peça são coletadas e codificadas pelo analista. Para cada acorde da peça, são registrados: (a) fundamental; (b) baixo; (c) tipo acordal; (d) função; (e) contexto tonal; (f) localização métrica. O arquivo se apresenta como uma matriz de dimensões 8 <span class="math inline">\(\times\)</span> n, onde é o número de acordes presente na peça (<a href="#fig-metodologia06" class="quarto-xref">Figura&nbsp;6</a>).</p>
+<p><strong>Matriz H</strong> – arquivo em formato XLS no qual diversos aspectos da estrutura harmônica de uma peça são coletadas e codificadas pelo analista. Para cada acorde da peça, são registrados: (a) fundamental; (b) baixo; (c) tipo acordal; (d) função; (e) contexto tonal; (f) localização métrica. O arquivo se apresenta como uma matriz de dimensões 8 <span class="math inline">\(\times\)</span> n, onde é o número de acordes presente na peça (<a href="#fig-metodologia06" class="quarto-xref">Figura&nbsp;6</a>).</p>
 <div id="fig-metodologia06" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-metodologia06-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
