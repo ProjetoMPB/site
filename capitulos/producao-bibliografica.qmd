@@ -64,4 +64,51 @@ Musica Theorica, v. 8 n. 1 (DOI: [https://doi.org/10.52930/mt.v7i1.202](https://
 
 **Resumo**: Este artigo introduz um arcabouço teórico derivado de uma profunda e detalhada análise harmônica da integral de canções de Antonio Carlos Jobim, considerando aspectos "semânticos" (relacionado à ideia de tipos acordais) e "sintáticos" (envolvendo relações binárias entre acordes contíguos). O foco do estudo concentra-se na investigação das correlações existentes entre estilo composicional (no caso, relacionado à construção harmônica) e os conceitos de probabilidade, expectativa e, especialmente, entropia, definida como a medida da incerteza de eventos decorrentes no tempo. Após uma revisão bibliográfica sobre tais tópicos e de suas aplicações em música, uma seção dedicada a Cadeias de Markov prepara o exame central do objeto de estudo, a saber, as relações harmônicas “semântico-sintáticas” levantadas estatisticamente no repertório analisado das canções jobinianas. A formalização de um espaço harmônico probabilístico e do conceito de índice probabilístico, diretamente associados à entropia medida referente ao comportamento dos acordes das canções abrem uma perspectiva analítica original, permitindo ainda a generalização do aparato teórico-metodológico para o exame de outros repertórios e posterior comparação, apresentando-se, portanto, como um novo meio de investigação sobre a natureza do estilo.
 
+#### DCnet: Uma representação espacial de cadeias de dominantes consecutivos
+Carlos de Lemos Almada e Max Kühn
+
+Vórtex, v. 10 n. 2 (DOI: [https://doi.org/10.52930/mt.v7i1.202](https://doi.org/10.33871/23179937.2022.10.2.7122))
+
+**Resumo**: O presente artigo, derivado de uma pesquisa mais ampla, examina detalhada e sistematicamente o emprego de variantes de cadeias de dominantes consecutivos em um corpus de obras compostas por Antonio Carlos Jobim. A elaboração de um modelo teórico formado por um conjunto de premissas, conceitos, tipologias e ferramentas analíticas permite a classificação das variantes e sua plotagem em um esquema gráfico planar denominado DCnet, no qual retângulos representam acordes de qualidade “dominante com sétima”, dispostos de acordo com três eixos básicos. Tal estratégia evidencia a considerável multiplicidade de alternativas (especialmente aquelas não normativas) presentes no repertório. Estudos futuros derivados da presente proposta estão nos planos, tanto para investigar as razões dessa diversidade, quanto para generalizar o modelo, considerando outros repertórios.
+
 ### Apresentações em congressos
+
+## 2021
+
+### Artigos
+#### Relações de simetria na estrutura de Eu te amo, de Antonio Carlos Jobim e Chico Buarque de Holanda
+Carlos de Lemos Almada
+
+Orfeu, v. 6 n. 1-3 (DOI: [https://doi.org/10.52930/mt.v7i1.202](https://doi.org/10.5965/2525530406032021080))
+
+**Resumo**: Este artigo propõe uma análise detalhada
+da estrutura de alturas da canção Eu te amo,
+de Antonio Carlos Jobim e Chico Buarque
+de Holanda, através de uma adaptação da
+metodologia schenkeriana com ferramentas
+originadas na chamada Teoria PósTonal. Busca-se evidenciar as complexas
+relações de simetria que caracterizam a
+peça, baseadas na interação das classes
+intervalares 1, 5 e 6. Após uma avaliação
+analítica do texto da canção e de sua forma
+poética, o que estabelece uma base para o
+subsequente exame das correlações entre
+música e poesia, o artigo apresenta uma
+discussão sobre os problemas associados
+ao emprego da teoria schenkeriana nas
+músicas pós-tonal e popular, suportada pela
+literatura sobre o assunto (STRAUS , 1987;
+LERDAHL, 1989; FORTE, 1995; McGOWAN,
+2008; LARSON, 1998; 2009, entre outros). A
+análise que se segue revela a extraordinária
+infraestrutura simétrica (que se projeta em
+diversos níveis de organização) sobre a qual é
+construída a canção, o que inclui interações
+com o argumento poético. Conclui-se
+que, embora não perfeitamente ajustada
+aos modelos da Ursatz schenkeriana, a
+estrutura complexa e estratificada de Eu
+te amo deriva de uma lógica particular,
+consistente em relação a exemplares
+de similar natureza da obra jobiniana.
+
