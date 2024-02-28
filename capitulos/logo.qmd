@@ -2,6 +2,8 @@
 title: Logotipo do Projeto MPB
 ---
 
-![](../logos/logo-projeto.png)
+![](../figs/colmeia.png)
 
-Logotipo do Projeto MPB. Você consegue identificar todos(as) os(as) 40 compositores(as)? 😁 Faça o teste aqui!
+Logotipo do Projeto MPB, carinhosamente apelidado de "colméia". Você consegue identificar todos(as) os(as) 40 compositores(as)? 😁 Faça o teste [aqui](https://www.flexiquiz.com/SC/N/76f08d8a-11de-4170-b613-d651bd6ba012)! O objetivo é corresponder os(as) compositores(as) cada célula da "colméia" acima com seus respectivos nomes. O código numérico para cada célula está na figura abaixo.
+
+![](../figs/colmeia-gabarito.png)
