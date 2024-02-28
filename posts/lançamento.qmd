@@ -1,0 +1,10 @@
+---
+title: "Bem-vindos ao Projeto MPB!"
+description: "Lançamento oficial do projeto"
+author: "Hugo Carvalho"
+date: "28/2/2024"
+categories:
+  - noticias
+---
+
+É lançado oficialmente o site do Projeto MPB!
