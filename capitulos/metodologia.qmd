@@ -29,7 +29,7 @@ O vetor R se apresenta como uma matriz de dimensões 1 $\times$ n, onde *n* é o
 
 **Matriz NF** -- arquivo em formato XLS no qual as funções desempenhadas pelas notas da melodia em relação ao contexto harmônico no qual está inserida (como inflexões ou notas-estruturais)  são identificadas pelo analista. O arquivo se apresenta como uma matriz de dimensões 5 $\times$ n, onde *n* é o número de notas-funções encontradas na peça ([@fig-metodologia05]). Cada linha da matriz NF corresponde a um dos cinco níveis considerados: (A) graus escalares (nível do contexto global); (B) componentes triádicos (fundamental, terça e quinta); (C) componentes tetrádicos (sexta e sétima); (D) tensões simples (nona maior, décima primeira justa, décima terceira maior e décima quarta maior); (E) tensões alteradas (nona menor, nona aumentada, décima primeira aumentada e décima terceira menor).
 
-![Exemplo de trecho de uma matriz NF.](../figs/metodologia-05.png){width=30%}{#fig-metodologia05}
+![Exemplo de trecho de uma matriz NF.](../figs/metodologia-05.png){width=30% #fig-metodologia05}
 
 **Matriz H** -- arquivo em formato XLS no qual diversos aspectos da estrutura harmônica de uma peça são coletadas e codificadas pelo analista. Para cada acorde da peça, são registrados: (a) fundamental; (b) baixo; (c) tipo acordal; (d) função; (e) contexto tonal; (f) localização métrica. O arquivo se apresenta como uma matriz de dimensões 8 $\times$ n, onde \textit{n} é o número de acordes presente na peça ([@fig-metodologia06]).
 
