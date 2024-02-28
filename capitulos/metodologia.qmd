@@ -33,7 +33,7 @@ O vetor R se apresenta como uma matriz de dimensões 1 $\times$ n, onde *n* é o
 
 **Matriz H** -- arquivo em formato XLS no qual diversos aspectos da estrutura harmônica de uma peça são coletadas e codificadas pelo analista. Para cada acorde da peça, são registrados: (a) fundamental; (b) baixo; (c) tipo acordal; (d) função; (e) contexto tonal; (f) localização métrica. O arquivo se apresenta como uma matriz de dimensões 8 $\times$ n, onde \textit{n} é o número de acordes presente na peça ([@fig-metodologia06]).
 
-![Exemplo de trecho de uma matriz H.](../figs/metodologia-06.png){width=30%}{#fig-metodologia06}
+![Exemplo de trecho de uma matriz H.](../figs/metodologia-05.png){width=30% #fig-metodologia06}
 
 
 Os dados formatados nos quatro suportes analíticos são então inseridos no complexo computacional, formado pelos respectivos algoritmos de análise, que desempenha a fase 2 do processo ([@fig-metodologia07]). Além da computação dos dados específicos da peça analisada, o complexo é também responsável pela atualização das  matrizes de dados, que armazenam as informações estruturais acumuladas referentes ao *corpus* em questão.
