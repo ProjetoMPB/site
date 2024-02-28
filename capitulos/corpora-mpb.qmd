@@ -9,11 +9,13 @@ Os chamados estudos de *corpus* vêm se tornando, especialmente nos últimos ano
 
 O Projeto MPB se enquadra nas linhas gerais dessa tendência, porém, um tanto inusitadamente, tem como objeto de estudo não apenas um *corpus*, mas um amplo conjunto deles, subdividido em dois grandes grupos: (1) o principal -- o centro da atenção analítica -- abrangendo *corpora* de *compositores* individuais de idênticas extensões (50 peças cada), e (2) o secundário -- o grupo de controle --, formado por três *corpora* de *gêneros*, cada qual igualmente com 50 peças. Além disso, o projeto considera, além da harmonia (em várias perspectivas), elementos da estrutura melódica: alturas, ritmos e relações entre notas e acordes.
 
+<!--
 Como apontado por @covach-2023, a despeito de sua proeminência atual, os estudos de *corpus* em música popular não são, de modo algum, imunes a problemas. Uma das mais pertinentes críticas feitas pelo autor diz respeito aos critérios de seleção de peças para a formação de um *corpus*.....................
 
 [@huron-2013, p. 4] ..............estudos históricos (finitos) x prospectivos [PARECE QUE O MPB É AS 2 COISAS]..............
 
 HUGO, PENSEI QUE TALVEZ VC PUDESSE INCLUIR ALGUMA ARGUMENTAÇÃO EM FAVOR DOS NOSSOS CRITÉRIOS DE SELEÇÃO DE CORPUS, O QUE ACHA?
+-->
 
 ## Informações básicas sobre os *corpora*
 ### Grupo de controle
