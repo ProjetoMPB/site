@@ -1,3 +1,6 @@
+---
+title: Glossário
+---
 
 **Alfabetos** --  conjuntos formados por **c/r letras**. No caso do subdomínio das alturas, o conjunto é denotado por Ac, tendo por membros as sete c-letras: A, a, P, p, S, s, u. Já o alfabeto rítmico, denotado por Ar, é formado por 26 r-letras: a, b, c, d, ..., x, y, z.
 
