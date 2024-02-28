@@ -2,7 +2,7 @@
 title: "Bem-vindos ao Projeto MPB!"
 description: "Lançamento oficial do projeto"
 author: "Hugo Carvalho"
-date: "28/2/2024"
+date: "2/28/2024"
 categories:
   - noticias
 ---
