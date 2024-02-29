@@ -112,3 +112,22 @@ te amo deriva de uma lógica particular,
 consistente em relação a exemplares
 de similar natureza da obra jobiniana.
 
+#### Composição algorítmica de progressões harmônicas ao estilo de Antonio Carlos Jobim através de processos markovianos
+Ana Miccolis, Claudia Usai, Eduardo Cabral, João Penchel, Igor Chagas, Max Kühn, Vinicius Braga e Carlos de Lemos Almada
+
+Musica Theorica, v. 6 n. 1 (DOI: [https://doi.org/10.52930/mt.v6i1.175](https://doi.org/10.52930/mt.v6i1.175))
+
+**Resumo**: O presente artigo é vinculado a uma pesquisa recentemente concluída, destinada
+à análise da obra de Antonio Carlos Jobim (1927–1994) focando nas relações harmônicas. O
+desenvolvimento metodológico da pesquisa foi efetivado em dois estágios: análise assistida
+por computador e coleta estatística dos dados analisados. O processo analítico foi
+estabelecido em um quadro teórico-metodológico (denominado *Sistema J*), cujas bases são
+descritas em detalhes em trabalho recente (Almada *et al.* 2019a). Princípios, procedimentos
+e conceitos originais, entre os quais qualidade-classe e relação binária, embasaram a
+produção de dados. O principal objetivo deste trabalho é apresentar uma das aplicações
+composicionais advindas do processamento e discussão dos dados obtidos ao longo do
+mapeamento estatístico. Trata-se de JobKov, um software destinado à composição algorítmica
+de progressões acordais originais estilisticamente jobinianas por intermédio de processos
+estocásticos markovianos. O artigo apresenta e descreve os algoritmos criados e a estrutura
+do programa, discutindo ainda como fatores estatísticos são cruciais para a determinação de
+estilos composicionais.
