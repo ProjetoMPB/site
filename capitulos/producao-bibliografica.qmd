@@ -126,7 +126,7 @@ descritas em detalhes em trabalho recente (Almada *et al.* 2019a). Princípios, 
 e conceitos originais, entre os quais qualidade-classe e relação binária, embasaram a
 produção de dados. O principal objetivo deste trabalho é apresentar uma das aplicações
 composicionais advindas do processamento e discussão dos dados obtidos ao longo do
-mapeamento estatístico. Trata-se de JobKov, um software destinado à composição algorítmica
+mapeamento estatístico. Trata-se de *JobKov*, um software destinado à composição algorítmica
 de progressões acordais originais estilisticamente jobinianas por intermédio de processos
 estocásticos markovianos. O artigo apresenta e descreve os algoritmos criados e a estrutura
 do programa, discutindo ainda como fatores estatísticos são cruciais para a determinação de
