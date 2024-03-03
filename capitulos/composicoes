@@ -1,1 +1,5 @@
-Neste capítulo discutiremos uma das ramificações do Projeto MPB em 
+---
+title: Abordagens composicionais
+---
+
+Neste capítulo discutiremos uma das mais interessantes e promissoras ramificações do Projeto MPB. Essencialmente, a composição dentro do sistema opera em uma lógica de "engenharia reversa", ou seja, tomando como base dados estatísticos compilados do processo de análise dos *corpora*. 
