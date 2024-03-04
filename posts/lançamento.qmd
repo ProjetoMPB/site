@@ -1,10 +1,13 @@
 ---
-title: "Bem-vindos ao Projeto MPB!"
-description: "Lançamento oficial do projeto"
+title: "Lançamento oficial do site"
+description: "Bem-vindos ao Projeto MPB!"
 author: "Hugo Carvalho"
-date: "2/28/2024"
+date: "3/04/2024"
+image: "../fotos/lancamento-livro-almada-e-site.jpeg"
 categories:
-  - noticias
+  - noticias do projeto
 ---
 
-É lançado oficialmente o site do Projeto MPB!
+No exótico dia de 29 de fevereiro de 2024, foi lançado oficialmente o site do Projeto MPB, juntamente com a cerimônia de lançamento do livro *A Melodia de Jobim* [@almada-melodia-jobim]. O evento aconteceu no Instituto Antonio Carlos Jobim, no bairo Jardim Botânico da cidade do Rio de Janeiro. Não poderia haver local mais pertinente para tal evento: o maestro já morou no bairro, e era um apaixonado pela região. Na foto abaixo, parte da equipe e convidados celebram ambos os lançamentos em um jantar no restaurante Braseiro da Gávea.
+
+![](../fotos/lancamento-livro-almada-e-site.jpeg)

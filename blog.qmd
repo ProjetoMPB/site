@@ -7,3 +7,4 @@ listing:
   categories: true
 ---
 
+No blog do Projeto MPB você encontrará notícias sobre o projeto, como: lançamentos de novos capítulos, publicações de artigos, apresentações, composições, e outras informações pertinentes.

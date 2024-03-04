@@ -33,6 +33,8 @@ website:
     contents:
       - href: index.qmd
         text: Página inicial
+      - href: blog.qmd
+        text: Blog do projeto
       - text: "---"
       - href: capitulos/intro.qmd
         text: Introdução
