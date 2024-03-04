@@ -2,4 +2,4 @@
 title: Abordagens composicionais
 ---
 
-Neste capítulo discutiremos uma das mais interessantes e promissoras ramificações do Projeto MPB. Essencialmente, a composição dentro do sistema opera em uma lógica de "engenharia reversa", ou seja, tomando como base dados estatísticos compilados do processo de análise dos *corpora*. 
+Neste capítulo discutiremos uma das mais interessantes e promissoras ramificações do Projeto MPB: a composição assistida. Em termos bem sucintos, compor dentro sistema se dá através uma lógica em "engenharia reversa", ou seja, tomando como base dados estatísticos compilados do processo de análise dos *corpora*. Importante frisar que não se trata de *composição algorítmica* (pelo menos em seu sentido mais conhecido), ou seja, um processo automatizado (ou semiautomatizado). Na verdade, poderíamos pensar que o sistema atuaria -- em estágios específicos do processo composicional -- apenas como um *fornecedor* de um espectro alternativas estatisticamente embasadas em relações a aspectos estruturais previamente mapeados (associados a alturas, ritmo e/ou harmonia) nas análises dos *corpora*.
