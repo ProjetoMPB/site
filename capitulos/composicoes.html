@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Projeto MPB - Metodologia</title>
+<title>Projeto MPB - Abordagens composicionais</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,7 +29,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../capitulos/modelos-teoricos.html" rel="prev">
 <link href="../favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -70,35 +69,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -111,7 +81,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../capitulos/metodologia.html">Metodologia</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Abordagens composicionais</li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -192,7 +162,7 @@ window.Quarto = {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../capitulos/metodologia.html" class="sidebar-item-text sidebar-link active">
+  <a href="../capitulos/metodologia.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Metodologia</span></a>
   </div>
 </li>
@@ -228,8 +198,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Metodologia</h1>
-<p class="subtitle lead">Uma visão geral</p>
+<h1 class="title">Abordagens composicionais</h1>
 </div>
 
 
@@ -246,90 +215,7 @@ window.Quarto = {
 </header>
 
 
-<p>Este capítulo descreve sucintamente como é efetivado o processo de análise estrutural dos <em>corpora</em> (de controle e MPB) selecionados. Basicamente, a análise se divide em três fases, nomeadas como se segue:</p>
-<ul>
-<li>Humana – operada por um analista, que toma as decisões em relação às diferentes classificações dos eventos musicais em análise. São quatro os eixos musicais básicos considerados: estrutura de alturas, estrutura rítmica, estrutura de notas-funções e estrutura harmônica (que, por sua vez, levam em conta diversos aspectos associados). O analista é responsável pela transcrição dos dados para os respectivos suportes de análise;</li>
-<li>Computacional – efetivada por uma série de algoritmos e programas especialmente elaborados, que formam o <em>complexo computacional</em> de análise. A operação da fase consiste basicamente em, a cada peça analisada, abrir o respectivo suporte (formatado de acordo com as convenções adotadas), realizar o processamento de seu conteúdo e atualizar as <em>matrizes de dados</em>. A tarefa é aplicada por quatro vezes (correspondendo aos quatro eixos estruturais considerados), a cada rodada de análise;</li>
-<li>Estatística – efetivada também computacionalmente por programas especificamente criados, tem como entrada as matrizes de dados que acumularam as informações processadas ao longo das análises individuais. Essa fase é acionada apenas após a análise da última peça de um determinado <em>corpus</em>.</li>
-</ul>
-<p>A <a href="#fig-metodologia01" class="quarto-xref">Figura&nbsp;1</a> apresenta uma visão geral do sistema de análise dos <em>corpora</em>, considerando suas três fases.</p>
-<div id="fig-metodologia01" class="quarto-figure quarto-figure-center quarto-float anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-metodologia01-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="../figs/metodologia-01.png" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-metodologia01-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;1: Representação esquemática das três fases do processo analítico.
-</figcaption>
-</figure>
-</div>
-<p>Um detalhamento da fase humana (1) é apresentado na <a href="#fig-metodologia02" class="quarto-xref">Figura&nbsp;2</a>.</p>
-<div id="fig-metodologia02" class="quarto-figure quarto-figure-center quarto-float anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-metodologia02-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="../figs/metodologia-02.png" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-metodologia02-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;2: Detalhamento do processo analítico da fase 1, humana.
-</figcaption>
-</figure>
-</div>
-<p>Os quatro suportes analíticos adotados são:</p>
-<p><strong>MIDI segmentado</strong> – partitura da melodia da peça, transcrita como arquivo XML em versão concisa (ou seja, omitindo-se repetições, introduções e interlúdios instrumentais), tendo sido aplicados os sinais de segmentação formais, de acordo com o Modelo de Filtragem Melódica (ver “Modelos teóricos”). A <a href="#fig-metodologia03" class="quarto-xref">Figura&nbsp;3</a> apresenta um exemplo do um trecho melódico segmentado pelo analista.</p>
-<div id="fig-metodologia03" class="quarto-figure quarto-figure-center quarto-float anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-metodologia03-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="../figs/metodologia-03.png" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-metodologia03-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;3: Exemplo de trecho de um MIDI segmentado.
-</figcaption>
-</figure>
-</div>
-<p><strong>Vetor R</strong> – arquivo em formato CSV no qual as configurações rítmicas da peça analisada são transcritas como sequências de r-letras separadas por sinais de segmentação, de acordo com o Modelo de Filtragem Melódica. O vetor R se apresenta como uma matriz de dimensões 1 <span class="math inline">\(\times\)</span> n, onde <em>n</em> é o número de r-letras (e sinais de segmentação) encontrados na peça (<a href="#fig-metodologia04" class="quarto-xref">Figura&nbsp;4</a>).</p>
-<div id="fig-metodologia04" class="quarto-figure quarto-figure-center quarto-float anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-metodologia04-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="../figs/metodologia-04.png" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-metodologia04-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;4: Exemplo de trecho de um vetor R.
-</figcaption>
-</figure>
-</div>
-<p><strong>Matriz NF</strong> – arquivo em formato XLS no qual as funções desempenhadas pelas notas da melodia em relação ao contexto harmônico no qual está inserida (como inflexões ou notas-estruturais) são identificadas pelo analista. O arquivo se apresenta como uma matriz de dimensões 5 <span class="math inline">\(\times\)</span> n, onde <em>n</em> é o número de notas-funções encontradas na peça (<a href="#fig-metodologia05" class="quarto-xref">Figura&nbsp;5</a>). Cada linha da matriz NF corresponde a um dos cinco níveis considerados: (A) graus escalares (nível do contexto global); (B) componentes triádicos (fundamental, terça e quinta); (C) componentes tetrádicos (sexta e sétima); (D) tensões simples (nona maior, décima primeira justa, décima terceira maior e décima quarta maior); (E) tensões alteradas (nona menor, nona aumentada, décima primeira aumentada e décima terceira menor).</p>
-<div id="fig-metodologia05" class="quarto-figure quarto-figure-center quarto-float anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-metodologia05-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="../figs/metodologia-05.png" class="img-fluid figure-img" style="width:30.0%">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-metodologia05-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;5: Exemplo de trecho de uma matriz NF.
-</figcaption>
-</figure>
-</div>
-<p><strong>Matriz H</strong> – arquivo em formato XLS no qual diversos aspectos da estrutura harmônica de uma peça são coletadas e codificadas pelo analista. Para cada acorde da peça, são registrados: (a) fundamental; (b) baixo; (c) tipo acordal; (d) função; (e) contexto tonal; (f) localização métrica. O arquivo se apresenta como uma matriz de dimensões 8 <span class="math inline">\(\times\)</span> n, onde é o número de acordes presente na peça (<a href="#fig-metodologia06" class="quarto-xref">Figura&nbsp;6</a>).</p>
-<div id="fig-metodologia06" class="quarto-figure quarto-figure-center quarto-float anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-metodologia06-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="../figs/metodologia-06.png" class="img-fluid figure-img" style="width:30.0%">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-metodologia06-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;6: Exemplo de trecho de uma matriz H.
-</figcaption>
-</figure>
-</div>
-<p>Os dados formatados nos quatro suportes analíticos são então inseridos no complexo computacional, formado pelos respectivos algoritmos de análise, que desempenha a fase 2 do processo (<a href="#fig-metodologia07" class="quarto-xref">Figura&nbsp;7</a>). Além da computação dos dados específicos da peça analisada, o complexo é também responsável pela atualização das matrizes de dados, que armazenam as informações estruturais acumuladas referentes ao <em>corpus</em> em questão.</p>
-<div id="fig-metodologia07" class="quarto-figure quarto-figure-center quarto-float anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-metodologia07-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="../figs/metodologia-07.png" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-metodologia07-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;7: Detalhamento do processo analítico da fase 2, computacional.
-</figcaption>
-</figure>
-</div>
+<p>Neste capítulo discutiremos uma das mais interessantes e promissoras ramificações do Projeto MPB: a composição assistida. Em termos bem sucintos, compor dentro sistema se dá através uma lógica em “engenharia reversa”, ou seja, tomando como base dados estatísticos compilados do processo de análise dos <em>corpora</em>. Importante frisar que não se trata de <em>composição algorítmica</em> (pelo menos em seu sentido mais conhecido), ou seja, um processo automatizado (ou semiautomatizado). Na verdade, poderíamos pensar que o sistema atuaria – em estágios específicos do processo composicional – apenas como um <em>fornecedor</em> de um espectro alternativas estatisticamente embasadas em relações a aspectos estruturais previamente mapeados (associados a alturas, ritmo e/ou harmonia) nas análises dos <em>corpora</em>.</p>
 
 
 
@@ -865,15 +751,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="../capitulos/modelos-teoricos.html" class="pagination-link" aria-label="Modelos teóricos">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Modelos teóricos</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -884,7 +761,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/capitulos/metodologia.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/capitulos/metodologia.qmd" class="toc-action"><i class="bi empty"></i>Ver o código fonte</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></div>
+    <div class="toc-actions"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/capitulos/composicoes.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/capitulos/composicoes.qmd" class="toc-action"><i class="bi empty"></i>Ver o código fonte</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Página construída em <a href="https://quarto.org/">Quarto</a>.</p>
 </div>

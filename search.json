@@ -4,7 +4,10 @@
     "href": "blog.html",
     "title": "Blog do Projeto MPB",
     "section": "",
-    "text": "Bem-vindos ao Projeto MPB!\n\n\n\n\n\n\nnoticias\n\n\n\nLançamento oficial do projeto\n\n\n\n\n\n28 de fev. de 2024\n\n\nHugo Carvalho\n\n\n\n\n\n\nNenhum item correspondente"
+    "text": "No blog do Projeto MPB você encontrará notícias sobre o projeto, como: lançamentos de novos capítulos, publicações de artigos, apresentações, composições, e outras informações pertinentes.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLançamento oficial do site\n\n\n\n\n\n\nnoticias do projeto\n\n\n\nBem-vindos ao Projeto MPB!\n\n\n\n\n\n4 de mar. de 2024\n\n\nHugo Carvalho\n\n\n\n\n\n\nNenhum item correspondente",
+    "crumbs": [
+      "Blog do projeto"
+    ]
   },
   {
     "objectID": "capitulos/hipoteses.html",
@@ -75,6 +78,13 @@
     "crumbs": [
       "Listagem dos *corpora*"
     ]
+  },
+  {
+    "objectID": "capitulos/logo.html",
+    "href": "capitulos/logo.html",
+    "title": "Logotipo do Projeto MPB",
+    "section": "",
+    "text": "Logotipo do Projeto MPB, carinhosamente apelidado de “colméia”. Você consegue identificar todos(as) os(as) 50 compositores(as)? 😁 Na imagem abaixo há um código numérico para cada célula. Tente descobrir todo mundo! Em breve, teremos um quiz online para testar seus conhecimentos MPBísticos."
   },
   {
     "objectID": "capitulos/corpora-mpb.html",
@@ -219,9 +229,9 @@
   {
     "objectID": "posts/lançamento.html",
     "href": "posts/lançamento.html",
-    "title": "Bem-vindos ao Projeto MPB!",
+    "title": "Lançamento oficial do site",
     "section": "",
-    "text": "É lançado oficialmente o site do Projeto MPB!"
+    "text": "No exótico dia de 29 de fevereiro de 2024, foi lançado oficialmente o site do Projeto MPB, juntamente com a cerimônia de lançamento do livro A Melodia de Jobim (Almada 2023). O evento aconteceu no Instituto Antonio Carlos Jobim, no bairo Jardim Botânico da cidade do Rio de Janeiro. Não poderia haver local mais pertinente para tal evento: o maestro já morou no bairro, e era um apaixonado pela região. Na foto abaixo, parte da equipe e convidados celebram ambos os lançamentos em um jantar no restaurante Braseiro da Gávea.\n\n\n\n\n\nReferências\n\nAlmada, Carlos. 2023. A Melodia de Jobim. Campinas: Editora da Unicamp."
   },
   {
     "objectID": "index.html",
@@ -369,11 +379,18 @@
     ]
   },
   {
-    "objectID": "capitulos/logo.html",
-    "href": "capitulos/logo.html",
-    "title": "Logotipo do Projeto MPB",
+    "objectID": "capitulos/atributos-primarios.html",
+    "href": "capitulos/atributos-primarios.html",
+    "title": "Atributos primários de avaliação",
     "section": "",
-    "text": "Logotipo do Projeto MPB, carinhosamente apelidado de “colméia”. Você consegue identificar todos(as) os(as) 50 compositores(as)? 😁 Na imagem abaixo há um código numérico para cada célula. Tente descobrir todo mundo! Em breve, teremos um quiz online para testar seus conhecimentos MPBísticos."
+    "text": "Os atributos (e métricas) que adotamos para a avaliação das análises podem ter natureza quantitativa ou qualitativa, bem como podem ser associados a marcadores estilísticos (ver o capítulo sobre estilo musical).\nBuscando um refinamento, classificamos os atributos em duas categorias básicas, primários e secundários. A principal diferença entre essas categorias reside no fato de que, enquanto os atributos secundários são potenciais definidores de estilo, os primários, ainda que importantes, não apresentam, individualmente, essa capacidade (apenas se vistos em conjunto). Na verdade, os atributos secundários, por assim dizer, “revisam” atributos primários a eles correspondentes, examinando-os de outras perspectivas, em geral mais amplas e, ao mesmo tempo, detalhadas. Podemos ainda considerar, de um modo um pouco mais livre, que os atributos secundários detalham os contextos nos quais os atributos primários se inserem."
+  },
+  {
+    "objectID": "capitulos/composicoes.html",
+    "href": "capitulos/composicoes.html",
+    "title": "Abordagens composicionais",
+    "section": "",
+    "text": "Neste capítulo discutiremos uma das mais interessantes e promissoras ramificações do Projeto MPB: a composição assistida. Em termos bem sucintos, compor dentro sistema se dá através uma lógica em “engenharia reversa”, ou seja, tomando como base dados estatísticos compilados do processo de análise dos corpora. Importante frisar que não se trata de composição algorítmica (pelo menos em seu sentido mais conhecido), ou seja, um processo automatizado (ou semiautomatizado). Na verdade, poderíamos pensar que o sistema atuaria – em estágios específicos do processo composicional – apenas como um fornecedor de um espectro alternativas estatisticamente embasadas em relações a aspectos estruturais previamente mapeados (associados a alturas, ritmo e/ou harmonia) nas análises dos corpora."
   },
   {
     "objectID": "capitulos/intro.html",
