@@ -11,11 +11,35 @@ As duas classes de atributos, por sua vez, segmentam-se internamente em relaçã
 
 Por hipótese, os **atributos primários** evidenciam especialmente (mas não apenas) elementos estruturais compartilhados por compositores pertencentes a um determinado superconjunto estilístico. Foram definidos 35 atributos primários ao longo deste estudo, 19 associados ao domínio harmônico e 16 ao domínio melódico. São as seguintes suas descrições básicas:
 
-### HARMONIA
-**1H1** -- nível das tonalidades (contém cinco atributos):
+### ATRIBUTOS PRIMÁRIOS HARMÔNICOS
+**1H1** -- nível das tonalidades (contém cinco aspectos):
 
 - 1H1a -- informa o número de tonalidades distintas empregadas dentro de cada *corpus* (bem como o percentual diante do total possível -- 24), incluindo principais e secundárias (ou seja, aquelas obtidas por modulação interna).
 - 1H1b -- identifica a tônica mais recorrente. Por convenção, maiúsculas indicam tonalidades maiores (DÓ, SOL etc.) e minúsculas as menores (ré, sib etc.). O atributo indica ainda o percentual de sua ocorrência.  
 - 1H1c -- informa a distribuição percentual das tonalidades principais em modo maior.         
 - 1H1d -- informa a distribuição percentual de peças monotônicas (em oposição às pluritônicas).             
 - 1H1e -- identifica a relação binária tonal (RBT) mais recorrente, incluindo sua frequência percentual. 
+
+---
+
+**1H2** -- nível das funções (contém dois aspectos):
+
+- 1H2a -- identifica a categoria funcional mais recorrente, incluindo sua distribuição percentual.  
+- 1H2b -- identifica a relação binária funcional (RBF) mais recorrente, incluindo sua distribuição percentual.    
+
+---
+
+**1H3** -- nível dos tipos acordais (contém três aspectos):
+
+- 1H3a -- informa o *genus* de tipos acordais mais recorrente, incluindo sua distribuição percentual.  
+- 1H3b -- identifica o tipo acordal mais recorrente, incluindo sua distribuição percentual.         
+- 1H3c -- identifica a relação binária abstrata (RBA) mais recorrente, incluindo sua distribuição percentual.
+
+---
+
+**1H4** -- nível dos acordes específicos (contém quatro aspectos):
+
+- 1H4a -- informa a distribuição percentual de acordes em estado fundamental (em relação aos invertidos). 
+- 1H4b -- informa o número de acordes específicos distintos empregados.     
+- 1H4c -- identifica o acorde específico mais recorrente, incluindo sua distribuição percentual.        
+- 1H4d -- identifica o movimento intervalar de baixos mais recorrente entre acordes contíguos, incluindo sua distribuição percentual.   
