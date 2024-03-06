@@ -12,4 +12,12 @@ Em outros termos, a composição dentro desse sistema não é, de modo algum, re
 
 ** Flexibilidade rítmica** -- as sequências de r-letras, ou seja, as *r-palavras* geradas pelo algoritmo-compositor específico (ver mais à frente) são "agnósticas" em relação à métrica, o que significa que devem ser consideradas como unidades autônomas que podem ser posicionadas metricamente a critério do(a) compositor(a). Isso inclui também a liberdade de poder distanciar livremente unidades contíguas. 
 
+---
 
+** ALGORITMOS-COMPOSITORES**
+
+(1) *corporaKov2.py* --
+
+([@ffig-comp01]).
+
+![Esquema básico do algoritmo *corparoKov2.py* e um exemplo.](../figs/composição-01.png){#fig-comp01}
