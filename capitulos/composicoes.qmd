@@ -20,4 +20,16 @@ Em outros termos, a composição dentro desse sistema não é, de modo algum, re
 
 ([@ffig-comp01]).
 
-![Esquema básico do algoritmo *corparoKov2.py* e um exemplo.](../figs/composição-01.png){#fig-comp01}
+![Esquema básico do algoritmo *corparoKov2.py* e um exemplo.](../figs/composição-01.png){width=60% #fig-comp01}
+
+(2) *corporaKov_ritmo.py* --
+
+([@ffig-comp02]).
+
+![Esquema básico do algoritmo *corparoKov_ritmo.py* e um exemplo.](../figs/composição-02.png){width=60% #fig-comp02}
+
+(3) *corporaKov_contorno.py* --
+
+([@ffig-comp03]).
+
+![Esquema básico do algoritmo *corparoKov_contorno.py* e um exemplo.](../figs/composição-03.png){width=60% #fig-comp03}
