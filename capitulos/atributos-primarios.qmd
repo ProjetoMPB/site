@@ -43,3 +43,30 @@ Por hipótese, os **atributos primários** evidenciam especialmente (mas não ap
 - 1H4b -- informa o número de acordes específicos distintos empregados.     
 - 1H4c -- identifica o acorde específico mais recorrente, incluindo sua distribuição percentual.        
 - 1H4d -- identifica o movimento intervalar de baixos mais recorrente entre acordes contíguos, incluindo sua distribuição percentual.   
+
+------
+
+### ATRIBUTOS PRIMÁRIOS MELÓDICOS
+**1M1** -- nível das notas-funções (contém quatro aspectos):
+
+- 1M1a -- identifica o grau escalar mais recorrente, considerando os modos maior e menor, informando seus percentuais em relação ao total de casos.
+- 1M1b -- identifica a categoria de nota-função mais recorrente (neste caso, englobando ambos os modos), informando sua distribuição percentual.           
+- 1M1c -- identifica a nota-estrutural mais recorrente (englobando ambos os modos), informando sua distribuição percentual.           
+- 1M1d -- informa o índice de ancoragem (ia) médio do *corpus*.   
+
+---
+
+**1M2** -- nível do contorno melódico (contém cinco aspectos):
+- 1M2a -- identifica a c-letra mais recorrente, informando sua distribuição percentual.     
+- 1M2b -- identifica a c-palavra mais recorrente, informando sua distribuição percentual. 
+- 1M2c -- identifica a cardinalidade de c/r palavra mais recorrente, informando sua distribuição percentual.  
+- 1M2d -- informa o índice de economia intervalar (iE) médio do *corpus*. .
+- 1M2e -- informa o índice de economia intervalar compensada (iEc) médio do *corpus*. . 
+
+---
+
+**1M3** -- nível do ritmo (contém quatro aspectos):
+- 1M3a -- identifica o ponto de ataque mais recorrente do perfil métrico, informando sua distribuição percentual.    
+- 1M3b -- identifica a r-letra mais recorrente, informando sua distribuição percentual. 
+- 1M3c -- identifica a r-palavra mais recorrente, informando sua distribuição percentual.  
+- 1M3d -- informa o índice de contrametricidade (ic) médio do *corpus*. .
