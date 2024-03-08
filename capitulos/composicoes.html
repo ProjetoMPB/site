@@ -191,7 +191,13 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Nesta página</h2>
+   
+  <ul>
+  <li><a href="#algoritmos-compositores" id="toc-algoritmos-compositores" class="nav-link active" data-scroll-target="#algoritmos-compositores">ALGORITMOS-COMPOSITORES</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/capitulos/composicoes.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/capitulos/composicoes.qmd" class="toc-action"><i class="bi empty"></i>Ver o código fonte</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -221,7 +227,9 @@ ul.task-list li input[type="checkbox"] {
 <p>** Flexibilidade melódica** – as sequências de c-letras, ou seja, as <em>c-palavras</em> geradas pelo algoritmo-compositor específico (ver mais à frente) indicam apenas “gestos de contorno” básicos, que podem ser realizados de modos consideravelmente distintos.</p>
 <p>** Flexibilidade rítmica** – as sequências de r-letras, ou seja, as <em>r-palavras</em> geradas pelo algoritmo-compositor específico (ver mais à frente) são “agnósticas” em relação à métrica, o que significa que devem ser consideradas como unidades autônomas que podem ser posicionadas metricamente a critério do(a) compositor(a). Isso inclui também a liberdade de poder distanciar livremente unidades contíguas.</p>
 <hr>
-<p>** ALGORITMOS-COMPOSITORES** Em sua versão atual, o processo composicional dentro do sistema é baseado em três algoritmos-compositores, cada qual associado a um domínio estrutural-musical, a saber, harmonia, ritmo e alturas. Os três algoritmos são alimentados por dados estatísticos referentes a transições entre eventos contíguos, registrados nas <em>matrizes de transição probabilística</em> (ver capítulo sobre processos markovianos) dos 10 <em>corpora</em> analisados. De um modo geral, os algoritmos operam da seguinte maneira: o usuário informa o <em>corpus</em> de referência, o evento-semente (que, dependendo do domínio selecionado, pode ser uma categoria funcional, uma r-letra ou uma c-letra) e o número de iterações desejado. O algoritmo então retorna uma estrutura completa (uma sequência de acordes, uma r-palavra ou uma c-palavra) que guarda – ao menos em termos probabilísticos – estreitos vínculos com o <em>corpus</em> selecionado.</p>
+<section id="algoritmos-compositores" class="level3">
+<h3 class="anchored" data-anchor-id="algoritmos-compositores">ALGORITMOS-COMPOSITORES</h3>
+<p>Em sua versão atual, o processo composicional dentro do sistema é baseado em três algoritmos-compositores, cada qual associado a um domínio estrutural-musical, a saber, harmonia, ritmo e alturas. Os três algoritmos são alimentados por dados estatísticos referentes a transições entre eventos contíguos, registrados nas <em>matrizes de transição probabilística</em> (ver capítulo sobre processos markovianos) dos 10 <em>corpora</em> analisados. De um modo geral, os algoritmos operam da seguinte maneira: o usuário informa o <em>corpus</em> de referência, o evento-semente (que, dependendo do domínio selecionado, pode ser uma categoria funcional, uma r-letra ou uma c-letra) e o número de iterações desejado. O algoritmo então retorna uma estrutura completa (uma sequência de acordes, uma r-palavra ou uma c-palavra) que guarda – ao menos em termos probabilísticos – estreitos vínculos com o <em>corpus</em> selecionado.</p>
 <ol type="1">
 <li><em>corporaKov2.py</em> –</li>
 </ol>
@@ -271,6 +279,7 @@ Figura&nbsp;3: Esquema básico do algoritmo <em>corparoKov_contorno.py</em> e um
 </ol>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -836,7 +845,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/capitulos/composicoes.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/capitulos/composicoes.qmd" class="toc-action"><i class="bi empty"></i>Ver o código fonte</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/capitulos/composicoes.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/capitulos/composicoes.qmd" class="toc-action"><i class="bi empty"></i>Ver o código fonte</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Página construída em <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
