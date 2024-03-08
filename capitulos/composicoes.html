@@ -221,7 +221,7 @@ ul.task-list li input[type="checkbox"] {
 <p>** Flexibilidade melódica** – as sequências de c-letras, ou seja, as <em>c-palavras</em> geradas pelo algoritmo-compositor específico (ver mais à frente) indicam apenas “gestos de contorno” básicos, que podem ser realizados de modos consideravelmente distintos.</p>
 <p>** Flexibilidade rítmica** – as sequências de r-letras, ou seja, as <em>r-palavras</em> geradas pelo algoritmo-compositor específico (ver mais à frente) são “agnósticas” em relação à métrica, o que significa que devem ser consideradas como unidades autônomas que podem ser posicionadas metricamente a critério do(a) compositor(a). Isso inclui também a liberdade de poder distanciar livremente unidades contíguas.</p>
 <hr>
-<p>** ALGORITMOS-COMPOSITORES**</p>
+<p>** ALGORITMOS-COMPOSITORES** Em sua versão atual, o processo composicional dentro do sistema é baseado em três algoritmos-compositores, cada qual associado a um domínio estrutural-musical, a saber, harmonia, ritmo e alturas. Os três algoritmos são alimentados por dados estatísticos referentes a transições entre eventos contíguos, registrados nas <em>matrizes de transição probabilística</em> (ver capítulo sobre processos markovianos) dos 10 <em>corpora</em> analisados. De um modo geral, os algoritmos operam da seguinte maneira: o usuário informa o <em>corpus</em> de referência, o evento-semente (que, dependendo do domínio selecionado, pode ser uma categoria funcional, uma r-letra ou uma c-letra) e o número de iterações desejado. O algoritmo então retorna uma estrutura completa (uma sequência de acordes, uma r-palavra ou uma c-palavra) que guarda – ao menos em termos probabilísticos – estreitos vínculos com o <em>corpus</em> selecionado.</p>
 <ol type="1">
 <li><em>corporaKov2.py</em> –</li>
 </ol>
@@ -264,6 +264,11 @@ Figura&nbsp;3: Esquema básico do algoritmo <em>corparoKov_contorno.py</em> e um
 </figcaption>
 </figure>
 </div>
+<hr>
+<p><strong>ESTRATÉGIAS COMPOSICIONAIS</strong></p>
+<ol type="1">
+<li></li>
+</ol>
 
 
 
