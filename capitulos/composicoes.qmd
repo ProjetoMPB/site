@@ -37,6 +37,9 @@ Em sua versão atual, o processo composicional dentro do sistema é baseado em t
 
 ---
 
-**ESTRATÉGIAS COMPOSICIONAIS**
+### ESTRATÉGIAS COMPOSICIONAIS
+Até o presente momento, duas estratégias composicionais dentro do sistema foram idealizadas. Cada qual tem suas características, o que implica ..............
 
 (1) 
+
+(2)
