@@ -15,6 +15,7 @@ Em outros termos, a composição dentro desse sistema não é, de modo algum, re
 ---
 
 ** ALGORITMOS-COMPOSITORES**
+Em sua versão atual, o processo composicional dentro do sistema é baseado em três algoritmos-compositores, cada qual associado a um domínio estrutural-musical, a saber, harmonia, ritmo e alturas. Os três algoritmos são alimentados por dados estatísticos referentes a transições entre eventos contíguos, registrados nas *matrizes de transição probabilística* (ver capítulo sobre processos markovianos) dos 10 *corpora* analisados. De um modo geral, os algoritmos operam da seguinte maneira: o usuário informa o *corpus* de referência, o evento-semente (que, dependendo do domínio selecionado, pode ser uma categoria funcional, uma r-letra ou uma c-letra) e o número de iterações desejado. O algoritmo então retorna uma estrutura completa (uma sequência de acordes, uma r-palavra ou uma c-palavra) que guarda -- ao menos em termos probabilísticos -- estreitos vínculos com o *corpus* selecionado.
 
 (1) *corporaKov2.py* --
 
@@ -33,3 +34,9 @@ Em outros termos, a composição dentro desse sistema não é, de modo algum, re
 ([@ffig-comp03]).
 
 ![Esquema básico do algoritmo *corparoKov_contorno.py* e um exemplo.](../figs/composição-03.png){width=60% #fig-comp03}
+
+---
+
+**ESTRATÉGIAS COMPOSICIONAIS**
+
+(1) 
