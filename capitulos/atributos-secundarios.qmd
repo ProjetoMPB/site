@@ -3,3 +3,14 @@ title: Atributos secundários de avaliação
 ---
 
 Os atributos secundários são essencialmente revisões (ou detalhamentos) de alguns atributos primários, de maneira a permitir a evidenciação de características peculiares de um determinado compositor (ou de um pequeno grupo de compositores) em relação a um contexto estilístico mais amplo. Posto de outro modo, enquanto atributos primários tendem a agrupar *corpora* (e os estilos composicionais a eles associados) formando superconjuntos, os secundários agem principalmente na segregação desses subconjuntos, tendendo a promover fronteiras estilísticas entre compositores. Além dessa diferença, ao contrário do que acontece com os primários, os atributos secundários geralmente são vinculados a hipóteses, a partir de conhecimentos informais pré-existentes.
+
+### ATRIBUTOS SECUNDÁRIOS HARMÔNICOS
+**2H1** -- nível das relações tonais (contém três aspectos):
+
+- 2H1a -- informa a quantidade de relações binárias tonais (RBTs) distintas em cada *corpus*. A princípio, não é associado objetivamente a uma hipótese, tendo em vista que uma diversidade de RBTs não implica necessariamente maior complexidade. Os próximos atributos atuam nesse sentido, na busca de qualificar os tipos de relações e apresentar hipóteses mais consistentes.   
+
+- 2H1b -- compara a distribuição das relações binárias tonais da superclasse "notáveis" com o restante do universo. Por hipótese, RBTs "não notáveis" são mais empregadas no contexto estilístico da MPB do que as "notáveis". Assim, uma predominância de RBTs "notáveis" em um determinado *corpus* tenderia, potencialmente, a "afastá-lo"  do subconjunto-alvo.
+
+- 2H1c -- examina em maiores detalhes os conteúdos das superclasses, considerando a distribuição de sete classes de RBTs, as "notáveis" HOM, REL, D/SD e as "não notáveis" MED, QUA, STM, TOM, TRI. Por hipótese, a predominância da classe MED é um indicativo de pertencimento ao subconjunto-alvo.
+
+
