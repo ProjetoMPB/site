@@ -6,11 +6,11 @@ Neste capítulo discutiremos uma das mais interessantes e promissoras ramificaç
 
 Em outros termos, a composição dentro desse sistema não é, de modo algum, regida pelo determinismo, já que encontra a cada etapa uma considerável margem de flexibilidade. Isso pode ser constatado nos três principais eixos musicais alimentados pelos dados analíticos, a saber, harmonia, melodia e ritmo, como se segue: 
 
-** Flexibilidade harmônica** -- as sequências de acordes geradas pelo algoritmo-compositor específico (ver mais à frente) são desvinculadas de quaisquer referências a posições métricas e durações. 
+**Flexibilidade harmônica** -- as sequências de acordes geradas pelo algoritmo-compositor específico (ver mais à frente) são desvinculadas de quaisquer referências a posições métricas e durações. 
 
-** Flexibilidade melódica** -- as sequências de c-letras, ou seja, as *c-palavras* geradas pelo algoritmo-compositor específico (ver mais à frente) indicam apenas "gestos de contorno" básicos, que podem ser realizados de modos consideravelmente distintos.
+**Flexibilidade melódica** -- as sequências de c-letras, ou seja, as *c-palavras* geradas pelo algoritmo-compositor específico (ver mais à frente) indicam apenas "gestos de contorno" básicos, que podem ser realizados de modos consideravelmente distintos.
 
-** Flexibilidade rítmica** -- as sequências de r-letras, ou seja, as *r-palavras* geradas pelo algoritmo-compositor específico (ver mais à frente) são "agnósticas" em relação à métrica, o que significa que devem ser consideradas como unidades autônomas que podem ser posicionadas metricamente a critério do(a) compositor(a). Isso inclui também a liberdade de poder distanciar livremente unidades contíguas. 
+**Flexibilidade rítmica** -- as sequências de r-letras, ou seja, as *r-palavras* geradas pelo algoritmo-compositor específico (ver mais à frente) são "agnósticas" em relação à métrica, o que significa que devem ser consideradas como unidades autônomas que podem ser posicionadas metricamente a critério do(a) compositor(a). Isso inclui também a liberdade de poder distanciar livremente unidades contíguas. 
 
 ---
 
@@ -19,19 +19,19 @@ Em sua versão atual, o processo composicional dentro do sistema é baseado em t
 
 (1) *corporaKov2.py* -- 
 
-([@ffig-comp01]).
+([@fig-comp01]).
 
 ![Esquema básico do algoritmo *corparoKov2.py* e um exemplo.](../figs/composição-01.png){width=60% #fig-comp01}
 
 (2) *corporaKov_ritmo.py* --
 
-([@ffig-comp02]).
+([@fig-comp02]).
 
 ![Esquema básico do algoritmo *corparoKov_ritmo.py* e um exemplo.](../figs/composição-02.png){width=60% #fig-comp02}
 
 (3) *corporaKov_contorno.py* --
 
-([@ffig-comp03]).
+([@fig-comp03]).
 
 ![Esquema básico do algoritmo *corparoKov_contorno.py* e um exemplo.](../figs/composição-03.png){width=60% #fig-comp03}
 
