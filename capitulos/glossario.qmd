@@ -14,6 +14,8 @@ title: Glossário
 
 **c/r sentença** -- estrutura resultante da concatenação de **c/r palavras**. Uma c/r sentença corresponde à transcrição de uma melodia em análise nos termos do modelo de **Filtragem Melódica**.
 
+**Cardinalidade** -- no contexto do projeto, refere-se ao número de pontos de ataque (ou articulações) de uma **c-palavra** ou de uma **r-palavra**.
+
 **Categorias funcionais** -- identificação lexical da propriedade funcional de um determinado acorde contextualizado em um campo tonal (por exemplo: I, III, V/VI, SubV/IV, IVm7 etc.).
 
 **Classes e subclasses funcionais** -- conjuntos que abarcam **categorias funcionais** afins. No contexto do projeto, existem sete classes (que contêm, eventualmente, subclasses): (1) Diatônica (DIA) -- Principais (PRI) e Secundárias (SEC); (2) Preparatórias (PRE) -- Dominantes secundárias (DS), Locuções (LOC), Substitutas tritônicas (SUB), Diminutas (DIM); (3) Empréstimos de primeira ordem (E1) -- Regiões afins (RA), Subdominantes menores (sd); (4) Napolitanas secundárias (NPS); (5) Antipreparatórias (aPRE) -- Anti-subVs (aSUB), Antinapolitanas (aNP); (6) Dominantes terciárias (DT); (7) Empréstimos de segunda ordem (E2).
