@@ -72,6 +72,8 @@ title: Glossário
 
 **Relação binária tonal** (RBF) -- relação entre tonalidades contíguas considerando apenas seus modos (maior ou menor) e a distância intervalar entre suas tônicas (por exemplo, M5m, significando relação entre uma tonalidade maior e uma menor distanciadas por cinco semitons, o que engloba diversas possibilidades, como Dó maior|Fá menor, Mi maior|Lá menor etc.)
 
+**Subconjunto-alvo** -- designação eventual para o conjunto dos *corpora* MPB. Em mesmo nível se apresentam os repertórios de controle, também como subconjuntos: SAMBA, CHORO e JAZZ. O subconjunto-alvo (assim como os subconjuntos SAMBA e CHORO) mantém uma relação de pertencimento ao que é aqui denominado superconjunto da "música popular urbana do Brasil". Este, por sua vez e evidentemente, estaria inserido em conjuntos ainda mais abrangentes, como: "música popular urbana", "música tonal" etc.
+
 **Subdivisor métrico** -- número que divide um **divisor métrico**. No contexto do projeto, são subdivisores os números 1, 2, 3, 4, 6 e 12, porém, na prática são considerados apenas 3 e 4.
 
 **Teia de notas-funções** -- representação geométrica das relações entre notas melódicas e os acordes que as harmonizam. Seu nome deriva de seu formato, com cínco círculos concêntricos (correspondendo às **classes de notas-funções** considerados) cortados por 12 raios, representando graus escalares diatônicos e cromátic0s.
