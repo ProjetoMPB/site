@@ -17,21 +17,18 @@ Em outros termos, a composição dentro desse sistema não é, de modo algum, re
 ### ALGORITMOS-COMPOSITORES
 Em sua versão atual, o processo composicional dentro do sistema é baseado em três algoritmos-compositores, cada qual associado a um domínio estrutural-musical, a saber, harmonia, ritmo e alturas. Os três algoritmos são alimentados por dados estatísticos referentes a transições entre eventos contíguos, registrados nas *matrizes de transição probabilística* (ver capítulo sobre processos markovianos) dos 10 *corpora* analisados. De um modo geral, os algoritmos operam da seguinte maneira: o usuário informa o *corpus* de referência, o evento-semente (que, dependendo do domínio selecionado, pode ser uma categoria funcional, uma r-letra ou uma c-letra) e o número de iterações desejado. O algoritmo então retorna uma estrutura completa (uma sequência de acordes, uma r-palavra ou uma c-palavra) que guarda -- ao menos em termos probabilísticos -- estreitos vínculos com o *corpus* selecionado.
 
-(1) *corporaKov2.py* -- 
+(1) *corporaKov2.py* -- código implementado em linguagem Python, recebe como *input* informações sobre o *corpus* considerado, o "acorde-semente" (uma categoria funcional a partir da qual o usuário pretende construir uma sequência harmônica) e o número de iterações desejado (ou seja, a extensão da sequência). O algoritmo retorna a sequência em três versões: (a) em categorias funcionais; (b) em cifras alfanuméricas e (c) em notação genealógica (ver glossário), como tipos acordais registrados no modelo GTA (ver capítulo sobre os modelos teóricos adotados no projeto). A [@fig-comp01] apresenta o fluxograma referente ao algoritmo e um exemplo de sua aplicação.
 
-([@fig-comp01]).
+![Esquema básico do algoritmo *corparoKov2.py* e um exemplo.](../figs/composição-01.png){width=75% #fig-comp01}
 
-![Esquema básico do algoritmo *corparoKov2.py* e um exemplo.](../figs/composição-01.png){width=60% #fig-comp01}
-
-(2) *corporaKov_ritmo.py* --
+(2) *corporaKov_ritmo.py* --  código implementado em linguagem Python, recebe como *input* informações sobre o *corpus* considerado, a "r-letra-semente" (uma r-letra a partir da qual o usuário pretende construir r-palavra) e o número de iterações desejado (ou seja, a extensão da sequência). A [@fig-comp02] apresenta o fluxograma referente ao algoritmo e um exemplo de sua aplicação.
 
 ([@fig-comp02]).
 
 ![Esquema básico do algoritmo *corparoKov_ritmo.py* e um exemplo.](../figs/composição-02.png){width=60% #fig-comp02}
 
-(3) *corporaKov_contorno.py* --
+(3) *corporaKov_contorno.py* -- código implementado em linguagem Python, recebe como *input* informações sobre o *corpus* considerado, a "c-letra-semente" (uma c-letra a partir da qual o usuário pretende construir c-palavra) e o número de iterações desejado (ou seja, a extensão da sequência). A [@fig-comp03] apresenta o fluxograma referente ao algoritmo e um exemplo de sua aplicação.
 
-([@fig-comp03]).
 
 ![Esquema básico do algoritmo *corparoKov_contorno.py* e um exemplo.](../figs/composição-03.png){width=60% #fig-comp03}
 
