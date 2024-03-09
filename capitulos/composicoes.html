@@ -245,7 +245,7 @@ Figura&nbsp;1: Esquema básico do algoritmo <em>corparoKov2.py</em> e um exemplo
 </figure>
 </div>
 <ol start="2" type="1">
-<li><em>corporaKov_ritmo.py</em> – código implementado em linguagem Python, recebe como <em>input</em> informações sobre o <em>corpus</em> considerado, a “r-letra-semente” (uma r-letra a partir da qual o usuário pretende construir r-palavra) e o número de iterações desejado (ou seja, a extensão da sequência). A <a href="#fig-comp02" class="quarto-xref">Figura&nbsp;2</a> apresenta o fluxograma referente ao algoritmo e um exemplo de sua aplicação.</li>
+<li><em>corporaKov_ritmo.py</em> – código implementado em linguagem Python, recebe como <em>input</em> informações sobre o <em>corpus</em> considerado, a “r-letra-semente” (uma r-letra a partir da qual o usuário pretende construir r-palavra) e o número de iterações desejado (ou seja, a extensão da sequência em número de r-letras). O algoritmo retorna como <em>output</em> uma r-palavra original (e probabilisticamente vinculada ao <em>corpus</em> em questão), juntamente com sua <em>cardinalidade</em> # (neste caso, o número total de ataques da r-palavra). A <a href="#fig-comp02" class="quarto-xref">Figura&nbsp;2</a> apresenta o fluxograma referente ao algoritmo e um exemplo de sua aplicação.</li>
 </ol>
 <p>(<a href="#fig-comp02" class="quarto-xref">Figura&nbsp;2</a>).</p>
 <div id="fig-comp02" class="quarto-figure quarto-figure-center quarto-float anchored">
@@ -259,7 +259,7 @@ Figura&nbsp;2: Esquema básico do algoritmo <em>corparoKov_ritmo.py</em> e um ex
 </figure>
 </div>
 <ol start="3" type="1">
-<li><em>corporaKov_contorno.py</em> – código implementado em linguagem Python, recebe como <em>input</em> informações sobre o <em>corpus</em> considerado, a “c-letra-semente” (uma c-letra a partir da qual o usuário pretende construir c-palavra) e o número de iterações desejado (ou seja, a extensão da sequência). A <a href="#fig-comp03" class="quarto-xref">Figura&nbsp;3</a> apresenta o fluxograma referente ao algoritmo e um exemplo de sua aplicação.</li>
+<li><em>corporaKov_contorno.py</em> – código implementado em linguagem Python, recebe como <em>input</em> informações sobre o <em>corpus</em> considerado, a “c-letra-semente” (uma c-letra a partir da qual o usuário pretende construir c-palavra) e cardinalidade (que deverá coerente à cardinalidade de uma r-palavra correspondente, previamente construída). A <a href="#fig-comp03" class="quarto-xref">Figura&nbsp;3</a> apresenta o fluxograma referente ao algoritmo e um exemplo de sua aplicação.</li>
 </ol>
 <div id="fig-comp03" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
