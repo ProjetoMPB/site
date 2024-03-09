@@ -5,60 +5,79 @@ title: Atributos secundários de avaliação
 Os atributos secundários são essencialmente revisões (ou detalhamentos) de alguns atributos primários, de maneira a permitir a evidenciação de características peculiares de um determinado compositor (ou de um pequeno grupo de compositores) em relação a um contexto estilístico mais amplo. Posto de outro modo, enquanto atributos primários tendem a agrupar *corpora* (e os estilos composicionais a eles associados) formando superconjuntos, os secundários agem principalmente na segregação desses subconjuntos, tendendo a promover fronteiras estilísticas entre compositores. Além dessa diferença, ao contrário do que acontece com os primários, os atributos secundários geralmente são vinculados a hipóteses, a partir de conhecimentos informais pré-existentes.
 
 ### ATRIBUTOS SECUNDÁRIOS HARMÔNICOS
+
 **2H1** -- nível das relações tonais (contém três aspectos):
 
 - 2H1a -- informa a quantidade de relações binárias tonais (RBTs) distintas em cada *corpus*. A princípio, não é associado objetivamente a uma hipótese, tendo em vista que uma diversidade de RBTs não implica necessariamente maior complexidade. Os próximos atributos atuam nesse sentido, na busca de qualificar os tipos de relações e apresentar hipóteses mais consistentes.   
 
 - 2H1b -- compara a distribuição das relações binárias tonais da superclasse "notáveis" com o restante do universo. Por hipótese, RBTs "não notáveis" são mais empregadas no contexto estilístico da MPB do que as "notáveis". Assim, uma predominância de RBTs "notáveis" em um determinado *corpus* tenderia, potencialmente, a "afastá-lo"  do subconjunto-alvo.
 
-- 2H1c -- examina em maiores detalhes os conteúdos das superclasses, considerando a distribuição de sete classes de RBTs, as "notáveis" HOM, REL, D/SD e as "não notáveis" MED, QUA, STM, TOM, TRI. Por hipótese, a predominância da classe MED é um indicativo de pertencimento ao subconjunto-alvo.
+- 2H1c -- examina em maiores detalhes os conteúdos das superclasses, considerando a distribuição de sete classes de RBTs, as "notáveis" HOM, REL, D/SD e as "não notáveis" MED, QUA, STM, TOM, TRI. Por hipótese, a predominância da classe MED é um indicativo de pertencimento ao subconjunto-alvo, ou seja, um *marcador estilístico centrípeto* (ver capítulo sobre o estilo).
 
+---
 
-===================
+**2H2** -- nível dos tipos acordais (contém quatro aspectos):
 
-        \item \textbf{2H2} -- nível dos tipos acordais.
-    \begin{itemize}
-        \item \textbf{2H2a} -- informa a quantidade de tipos acordais (TAs) distintos em cada \textit{corpus}, bem como seu percentual em relação ao total, de acordo com o modelo GTA (ver cap. XXX). Por hipótese, a  diversidade de TAs sugeriria pertencimento ao SA (bem como ao subconjunto ``JAZZ'').
-        \item \textbf{2H2b} -- compara a distribuição dos conteúdos dos 10 \textit{genera} de tipos acordais. Por hipótese, uma alta recorrência dos \textit{genera} triádicos V, v em relação aos demais exerce pressão para a exclusão de SA. Inversamente, uma distribuição mais significativa dos \textit{genera} Z, z (independentemente dos demais) seria indicativo de pertencimento ao subconjunto-alvo. No entanto, este aspecto também seria característico do subconjunto ``JAZZ'', demandando observações complementares para o refinamento da análise.
-        \item \textbf{2H2c} -- compara as distribuições relativas de protoacordes e variantes acordais, agrupados. Por hipótese, o estilo de SA se caracterizam por uma significativa presença de tipos acordais variantes, em relação aos protoacordes, o que não se observa tão intensamente no subconjunto ``JAZZ'', constituindo , portanto, um possível fator diferenciador entre os dois contextos.
-        \item \textbf{2H2d} -- refina o atributo 2H2c, diferenciando protoacordes e variantes de acordo com os respectivos \textit{genera}.   
-    \end{itemize}
+- 2H2a -- informa a quantidade de tipos acordais (TAs) distintos em cada *corpus*, bem como seu percentual em relação ao total, de acordo com o modelo GTA (ver capítulo dos modelos teóricos). Por hipótese, a  diversidade de TAs seria um possível marcador centrípeto (também em relação ao subconjunto JAZZ).
 
-    \item \textbf{2H3} -- nível das funções.
-    \begin{itemize}
-        \item \textbf{2H3a} -- informa a quantidade de categorias funcionais distintas em cada \textit{corpus} e o respectivo percentual considerando o total de categorias adotadas (69). Por hipótese, a  diversidade de categorias sugeriria pertencimento ao SA (bem como ao subconjunto ``JAZZ'').
-        \item \textbf{2H3b} -- compara a distribuição das 12 classes de categorias funcionais (DIA,  DS, IIs, SubV, D-dom, D-pte, D-bor, EM1, EM2, NPs, aNP, aSubV).
-        \item \textbf{2H3c} -- refina o atributo 2H3b, examinando os conteúdos de cada classe, em separado.
-        \item \textbf{2H3d} -- compara as classes de relações binárias funcionais (DIA|DIA, CR|DIA, DIA|CR, CR|CR). Por hipótese, integrantes de SA e do subconjunto ``JAZZ'' apresentariam distribuições significativas das classes que envolvam a categoria ''CR''. A separação dos dois subconjuntos neste atributo requererá exames e discussões suplementares.     
-        \item \textbf{2H3e} -- examina um dos subconjuntos da classe CR|DIA, a saber, DS|DIA. Não há hipóteses previamente associadas a este atributo.
-         \item \textbf{2H3f} -- examina um dos subconjuntos da classe CR|DIA, a saber, LOC(DS/SubV)|DIA, em comparação com o atributo 2H3d. Por hipótese, a presença significativa de locuções representaria um elemento da interseção SA/subconjunto ``JAZZ''. A separação dos dois subconjuntos neste atributo requererá exames e discussões suplementares.  
-         \item \textbf{2H3g} -- examina um dos subconjuntos da classe DIA|CR, a saber, SD|sd, considerando ser esta uma das fórmulas harmônicas mais relevantes do idioma compartilhado. Não há hipóteses previamente associadas a este atributo.           
-    \end{itemize}
- \end{itemize}   
+- 2H2b -- compara a distribuição dos conteúdos dos 10 *genera* de tipos acordais. Por hipótese, uma alta recorrência dos *genera* triádicos V, v em relação aos demais se torna um marcador estilístico *centrífugo*. Inversamente, uma distribuição mais significativa dos *genera* Z, z (independentemente dos demais) indicaria um marcador centrípeto. No entanto, este aspecto também seria característico do subconjunto JAZZ, demandando observações complementares para o refinamento da análise.
 
-% ...........................
+- 2H2c -- compara as distribuições relativas de protoacordes e variantes acordais, agrupados. Por hipótese, o estilo MPB se caracteriza por uma significativa presença de tipos acordais variantes, em relação aos protoacordes, o que não se observaria tão intensamente no subconjunto JAZZ, constituindo , portanto, um possível fator diferenciador entre os dois contextos.
 
-\subsection{Melodia}
+- 2H2d -- refina o atributo 2H2c, diferenciando protoacordes e variantes de acordo com os respectivos *genera*.   
 
-    \begin{itemize}
-    \item \textbf{2M1} -- âmbito das notas-funções.
-    \begin{itemize}
-         \item \textbf{2M1a} -- informa a distribuição das notas diatônicas em cada \textit{corpus}, considerando os modos maior e menor. Não há hipóteses previamente associadas a este atributo.       
-         \item \textbf{2M1b} -- informa a distribuição das inflexões melódicas em relação às notas-estruturais. Não há hipóteses previamente associadas a este atributo.         
-        \item \textbf{2M1c} -- compara as distribuições das superclasses de notas-estruturais (básicas $\times$ tensões). Por hipótese, a presença significativa de tensões é um indicativo de pertencimento aos subconjuntos ``MPB'' e ``JAZZ''.
-        \item \textbf{2M1d} -- detalha o atributo 2M1c, considerando as classes de notas-estruturais (tríade, tétrade, tensões simples e tensões alteradas). Por hipótese, melodias de SA apoiam-se, em média, mais em tensões do que aquelas provenientes do subconjunto ``JAZZ'' e, significativamente, mais ainda do que as do superconjunto.
-    \end{itemize}
-    \item \textbf{2M2} -- âmbito das alturas.
-    \begin{itemize}
-        \item \textbf{2M2a} -- compara as distribuições das classes básicas de c-letras (u, P/p, A/a, S/s) em cada \textit{corpus}. Não há hipóteses previamente associadas a este atributo.           
-        \item \textbf{2M2b} -- detalha o atributo 2M2a, comparando as distribuições das c-letras em cada \textit{corpus }. Não há hipóteses previamente associadas a este atributo.           
-    \end{itemize}
-    \item \textbf{2M3} -- âmbito do ritmo.
-    \begin{itemize}
-         \item \textbf{2M3a} -- compara as distribuições dos perfis métricos dos \textit{corpora}. Por hipótese, membros de SA se diferenciarão dos membros do subconjunto ``JAZZ'' por ocorrências de ataques mais significativa nos pontos 4 e 10.   
-        \item \textbf{2M3b} -- informa as distribuições de r-letras contramétricas (c, e, g, m, n, p, u) em cada \textit{corpus}, incluindo sua presença percentual em relação ao todo das r-letras. Por hipótese, membros de SA se diferenciarão dos membros do subconjunto ``JAZZ'' pela massiva ococrrência de r-letras contramétricas.  
-        \item \textbf{2M3c} -- informa as distribuições de r-letras tercinas (d, f, i, k, o, s) em cada \textit{corpus}, incluindo sua presença percentual em relação ao todo das r-letras. Não há hipóteses previamente associadas a este atributo.       
-        \item \textbf{2M3d} -- destaca de cada \textit{corpus} os 10 mais recorrentes r-dissílabos. Não há hipóteses previamente associadas a este atributo.
-         \item \textbf{2M3e} -- destaca de cada \textit{corpus} os 10 mais recorrentes r-trissílabos, detectados a partir de \textbf{2M3d}. Não há hipóteses previamente associadas a este atributo.  
+---
+
+**2H3** -- nível das funções (contém sete aspectos):
+
+- 2H3a -- informa a quantidade de categorias funcionais distintas em cada *corpus* e o respectivo percentual considerando o total de categorias adotadas (73). Por hipótese, a  diversidade de categorias seria um marcador estilístico centrípeto (também em relação ao subconjunto JAZZ).
+
+- 2H3b -- compara a distribuição de 12 classes (e/ou subclasses) de categorias funcionais selecionadas (DIA,  DS, IIs, SubV, D-dom, D-pte, D-bor, EM1, EM2, NPs, aNP, aSubV).
+
+- 2H3c -- refina o atributo 2H3b, examinando os conteúdos de cada classe, em separado.
+
+- 2H3d -- compara as classes de relações binárias funcionais, ou RBFs de alto-nível (DIA|DIA, CR|DIA, DIA|CR, CR|CR). Por hipótese, integrantes do subconjunto-alvo e do subconjunto JAZZ apresentariam distribuições significativas das classes que envolvam a categoria CR. A separação dos dois subconjuntos neste atributo requererá, por certo, exames e discussões suplementares.     
+
+- 2H3e -- examina um dos subconjuntos da classe CR|DIA, a saber, DS|DIA. Não há hipóteses previamente associadas a este atributo.
+
+- 2H3f -- examina um dos subconjuntos da classe CR|DIA, a saber, LOC(DS/SubV)|DIA, em comparação com o atributo 2H3d. Por hipótese, a presença significativa de locuções representaria um elemento da interseção MPB/JAZZ. A separação dos dois subconjuntos neste atributo requererá, provavelmente, exames e discussões suplementares.  
+
+- 2H3g -- examina um dos subconjuntos da classe DIA|CR, a saber, SD|sd, considerando ser esta uma das fórmulas harmônicas mais relevantes do idioma compartilhado. Não há hipóteses previamente associadas a este atributo.          
+
+---------------
+
+### ATRIBUTOS SECUNDÁRIOS MELÓDICOS
+
+**2M1** -- nível das notas-funções (contém quatro aspectos):
+
+- 2M1a -- informa a distribuição das notas diatônicas em cada *corpus*, considerando os modos maior e menor. Não há hipóteses previamente associadas a este atributo.   
+
+- 2M1b -- informa a distribuição das inflexões melódicas em relação às notas-estruturais. Não há hipóteses previamente associadas a este atributo.    
+
+- 2M1c -- compara as distribuições das superclasses de notas-estruturais (básicas $\times$ tensões). Por hipótese, a presença significativa de tensões é um forte marcador centrípeto para os subconjuntos MPB e JAZZ.
+
+- 2M1d -- detalha o atributo 2M1c, considerando as classes de notas-estruturais (tríade, tétrade, tensões simples e tensões alteradas). Por hipótese, melodias do subconjunto-alvo apoiam-se, em média, mais em tensões do que aquelas provenientes do subconjunto JAZZ e, significativamente, mais ainda do que as do superconjunto.
+
+---
+
+**2M2** -- nível das alturas (contém dois aspectos):
+
+- 2M2a -- compara as distribuições das classes básicas de c-letras (u, P/p, A/a, S/s) em cada *corpus*. Não há hipóteses previamente associadas a este atributo. 
+
+- 2M2b -- detalha o atributo 2M2a, comparando as distribuições das c-letras em cada *corpus*. Não há hipóteses previamente associadas a este atributo.   
+
+---
+
+**2M3** -- nível do ritmo (contém cinco aspectos):
+
+- 2M3a -- compara as distribuições dos perfis métricos dos *corpora*. Por hipótese, membros do subconjunto-alvo (especialmente aqueles que apresentam, em maior ou menor medida, influências do gênero SAMBA) se diferenciarão dos membros do subconjunto JAZZ por ocorrências de ataques mais significativa nos pontos 4 e 10.
+
+- 2M3b -- informa as distribuições de r-letras *contramétricas* (c, e, g, m, n, p, u) em cada *corpus*, incluindo sua presença percentual em relação ao todo das r-letras. Por hipótese, membros do subconjunto-alvo (especialmente aqueles que apresentam, em maior ou menor medida, influências do gênero SAMBA) se diferenciarão dos membros do subconjunto JAZZ pela massiva ococrrência de r-letras contramétricas.  
+
+- 2M3c -- informa as distribuições de r-letras "tercinais" (d, f, i, k, o, s) em cada *corpus*, incluindo sua presença percentual em relação ao todo das r-letras. Não há hipóteses previamente associadas a este atributo.    
+
+- 2M3d -- destaca de cada *corpus* os 10 mais recorrentes *r-dissílabos*. Não há hipóteses previamente associadas a este atributo.
+
+- 2M3e -- destaca de cada *corpus* os 10 mais recorrentes r-trissílabos, detectados a partir do atributo 2M3d. Não há hipóteses previamente associadas a este atributo.  
 
 
