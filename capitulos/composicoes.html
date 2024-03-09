@@ -232,13 +232,12 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="algoritmos-compositores">ALGORITMOS-COMPOSITORES</h3>
 <p>Em sua versão atual, o processo composicional dentro do sistema é baseado em três algoritmos-compositores, cada qual associado a um domínio estrutural-musical, a saber, harmonia, ritmo e alturas. Os três algoritmos são alimentados por dados estatísticos referentes a transições entre eventos contíguos, registrados nas <em>matrizes de transição probabilística</em> (ver capítulo sobre processos markovianos) dos 10 <em>corpora</em> analisados. De um modo geral, os algoritmos operam da seguinte maneira: o usuário informa o <em>corpus</em> de referência, o evento-semente (que, dependendo do domínio selecionado, pode ser uma categoria funcional, uma r-letra ou uma c-letra) e o número de iterações desejado. O algoritmo então retorna uma estrutura completa (uma sequência de acordes, uma r-palavra ou uma c-palavra) que guarda – ao menos em termos probabilísticos – estreitos vínculos com o <em>corpus</em> selecionado.</p>
 <ol type="1">
-<li><em>corporaKov2.py</em> –</li>
+<li><em>corporaKov2.py</em> – código implementado em linguagem Python, recebe como <em>input</em> informações sobre o <em>corpus</em> considerado, o “acorde-semente” (uma categoria funcional a partir da qual o usuário pretende construir uma sequência harmônica) e o número de iterações desejado (ou seja, a extensão da sequência). O algoritmo retorna a sequência em três versões: (a) em categorias funcionais; (b) em cifras alfanuméricas e (c) em notação genealógica (ver glossário), como tipos acordais registrados no modelo GTA (ver capítulo sobre os modelos teóricos adotados no projeto). A <a href="#fig-comp01" class="quarto-xref">Figura&nbsp;1</a> apresenta o fluxograma referente ao algoritmo e um exemplo de sua aplicação.</li>
 </ol>
-<p>(<a href="#fig-comp01" class="quarto-xref">Figura&nbsp;1</a>).</p>
 <div id="fig-comp01" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-comp01-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="../figs/composição-01.png" class="img-fluid figure-img" style="width:60.0%">
+<img src="../figs/composição-01.png" class="img-fluid figure-img" style="width:75.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-comp01-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figura&nbsp;1: Esquema básico do algoritmo <em>corparoKov2.py</em> e um exemplo.
@@ -246,7 +245,7 @@ Figura&nbsp;1: Esquema básico do algoritmo <em>corparoKov2.py</em> e um exemplo
 </figure>
 </div>
 <ol start="2" type="1">
-<li><em>corporaKov_ritmo.py</em> –</li>
+<li><em>corporaKov_ritmo.py</em> – código implementado em linguagem Python, recebe como <em>input</em> informações sobre o <em>corpus</em> considerado, a “r-letra-semente” (uma r-letra a partir da qual o usuário pretende construir r-palavra) e o número de iterações desejado (ou seja, a extensão da sequência). A <a href="#fig-comp02" class="quarto-xref">Figura&nbsp;2</a> apresenta o fluxograma referente ao algoritmo e um exemplo de sua aplicação.</li>
 </ol>
 <p>(<a href="#fig-comp02" class="quarto-xref">Figura&nbsp;2</a>).</p>
 <div id="fig-comp02" class="quarto-figure quarto-figure-center quarto-float anchored">
@@ -260,9 +259,8 @@ Figura&nbsp;2: Esquema básico do algoritmo <em>corparoKov_ritmo.py</em> e um ex
 </figure>
 </div>
 <ol start="3" type="1">
-<li><em>corporaKov_contorno.py</em> –</li>
+<li><em>corporaKov_contorno.py</em> – código implementado em linguagem Python, recebe como <em>input</em> informações sobre o <em>corpus</em> considerado, a “c-letra-semente” (uma c-letra a partir da qual o usuário pretende construir c-palavra) e o número de iterações desejado (ou seja, a extensão da sequência). A <a href="#fig-comp03" class="quarto-xref">Figura&nbsp;3</a> apresenta o fluxograma referente ao algoritmo e um exemplo de sua aplicação.</li>
 </ol>
-<p>(<a href="#fig-comp03" class="quarto-xref">Figura&nbsp;3</a>).</p>
 <div id="fig-comp03" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-comp03-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
