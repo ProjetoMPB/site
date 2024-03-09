@@ -21,13 +21,13 @@ Em sua versão atual, o processo composicional dentro do sistema é baseado em t
 
 ![Esquema básico do algoritmo *corparoKov2.py* e um exemplo.](../figs/composição-01.png){width=75% #fig-comp01}
 
-(2) *corporaKov_ritmo.py* --  código implementado em linguagem Python, recebe como *input* informações sobre o *corpus* considerado, a "r-letra-semente" (uma r-letra a partir da qual o usuário pretende construir r-palavra) e o número de iterações desejado (ou seja, a extensão da sequência). A [@fig-comp02] apresenta o fluxograma referente ao algoritmo e um exemplo de sua aplicação.
+(2) *corporaKov_ritmo.py* --  código implementado em linguagem Python, recebe como *input* informações sobre o *corpus* considerado, a "r-letra-semente" (uma r-letra a partir da qual o usuário pretende construir r-palavra) e o número de iterações desejado (ou seja, a extensão da sequência em número de r-letras). O algoritmo retorna como *output* uma r-palavra original (e probabilisticamente vinculada ao *corpus* em questão), juntamente com sua *cardinalidade* # (neste caso, o número total de ataques da r-palavra). A [@fig-comp02] apresenta o fluxograma referente ao algoritmo e um exemplo de sua aplicação.
 
 ([@fig-comp02]).
 
 ![Esquema básico do algoritmo *corparoKov_ritmo.py* e um exemplo.](../figs/composição-02.png){width=60% #fig-comp02}
 
-(3) *corporaKov_contorno.py* -- código implementado em linguagem Python, recebe como *input* informações sobre o *corpus* considerado, a "c-letra-semente" (uma c-letra a partir da qual o usuário pretende construir c-palavra) e o número de iterações desejado (ou seja, a extensão da sequência). A [@fig-comp03] apresenta o fluxograma referente ao algoritmo e um exemplo de sua aplicação.
+(3) *corporaKov_contorno.py* -- código implementado em linguagem Python, recebe como *input* informações sobre o *corpus* considerado, a "c-letra-semente" (uma c-letra a partir da qual o usuário pretende construir c-palavra) e cardinalidade (que deverá coerente à cardinalidade de uma r-palavra correspondente, previamente construída). A [@fig-comp03] apresenta o fluxograma referente ao algoritmo e um exemplo de sua aplicação.
 
 
 ![Esquema básico do algoritmo *corparoKov_contorno.py* e um exemplo.](../figs/composição-03.png){width=60% #fig-comp03}
