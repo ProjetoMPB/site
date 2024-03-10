@@ -12,24 +12,24 @@ Em outros termos, a composição dentro desse sistema não é, de modo algum, re
 
 **Flexibilidade rítmica** -- as sequências de r-letras, ou seja, as *r-palavras* geradas pelo algoritmo-compositor específico (ver mais à frente) são "agnósticas" em relação à métrica, o que significa que devem ser consideradas como unidades autônomas que podem ser posicionadas metricamente a critério do(a) compositor(a). Isso inclui também a liberdade de poder distanciar livremente unidades contíguas. 
 
-**Flexibilidade de conexões** -- as *c/r palavras* (isto é, a conjunção de c- e r-palavras) devem ser vistas como unidades autônomas, sem relações mútuas de conexão. Isso significa que são irrelevantes tanto as distâncias temporais entre o último ataque de uma determinada c/r palavra e o primeiro da c/r palavra seguinte, quanto os intervalos melódicos entre esses dois pontos de articulação.
+**Flexibilidade de conexões** -- as *c/r palavras* (isto é, a conjunção de c- e r-palavras) devem ser vistas como unidades autônomas, sem relações mútuas de conexão.^[Isso significa que são irrelevantes tanto as distâncias temporais entre o último ataque de uma determinada c/r palavra e o primeiro da c/r palavra seguinte, quanto os intervalos melódicos entre esses dois pontos de articulação.]
 
 ---
 
 ### ALGORITMOS-COMPOSITORES
-Em sua versão atual, o processo composicional dentro do sistema é baseado em três algoritmos-compositores, cada qual associado a um domínio estrutural-musical, a saber, harmonia, ritmo e alturas. Os três algoritmos são alimentados por dados estatísticos referentes a transições entre eventos contíguos, registrados nas *matrizes de transição probabilística* (ver capítulo sobre processos markovianos) dos 10 *corpora* analisados. De um modo geral, os algoritmos operam da seguinte maneira: o usuário informa o *corpus* de referência, o evento-semente (que, dependendo do domínio selecionado, pode ser uma categoria funcional, uma r-letra ou uma c-letra) e o número de iterações desejado. O algoritmo então retorna uma estrutura completa (uma sequência de acordes, uma r-palavra ou uma c-palavra) que guarda -- ao menos em termos probabilísticos -- estreitos vínculos com o *corpus* selecionado.
+Em sua versão atual, o processo composicional dentro do sistema é baseado em três algoritmos-compositores, cada qual associado a um domínio estrutural-musical, a saber, harmonia, ritmo e alturas. Os três algoritmos são alimentados por dados estatísticos referentes a transições entre eventos contíguos, registrados nas *matrizes de transição probabilística*^[Ver capítulo sobre processos markovianos] dos 10 *corpora* analisados. De um modo geral, os algoritmos operam da seguinte maneira: o usuário informa o *corpus* de referência, o evento-semente (que, dependendo do domínio selecionado, pode ser uma categoria funcional, uma r-letra ou uma c-letra) e o número de iterações desejado. O algoritmo então retorna uma estrutura completa (uma sequência de acordes, uma r-palavra ou uma c-palavra) que guarda -- ao menos em termos probabilísticos -- estreitos vínculos com o *corpus* selecionado.
 
-(1) *corporaKov2.py* -- código implementado em linguagem Python, recebe como *input* informações sobre o *corpus* considerado, o "acorde-semente" (uma categoria funcional a partir da qual o usuário pretende construir uma sequência harmônica) e o número de iterações desejado (ou seja, a extensão da sequência). O algoritmo retorna a sequência em três versões: (a) em categorias funcionais; (b) em cifras alfanuméricas e (c) em notação genealógica (ver glossário), como tipos acordais registrados no modelo GTA (ver capítulo sobre os modelos teóricos adotados no projeto). A [@fig-comp01] apresenta o fluxograma referente ao algoritmo e um exemplo de sua aplicação.
+(1) *corporaKov2.py* -- código implementado em linguagem Python, recebe como *input* informações sobre o *corpus* considerado, o "acorde-semente"^[Ou seja, uma categoria funcional a partir da qual o usuário pretende construir uma sequência harmônica] e o número de iterações desejado (ou seja, a extensão da sequência). O algoritmo retorna a sequência em três versões: (a) em categorias funcionais; (b) em cifras alfanuméricas e (c) em notação genealógica (ver glossário), como tipos acordais registrados no modelo GTA (ver capítulo sobre os modelos teóricos adotados no projeto). A [@fig-comp01] apresenta o fluxograma referente ao algoritmo e um exemplo de sua aplicação.
 
 ![Esquema básico do algoritmo *corparoKov2.py* e um exemplo.](../figs/composição-01.png){width=75% #fig-comp01}
 
-(2) *corporaKov_ritmo.py* --  código implementado em linguagem Python, recebe como *input* informações sobre o *corpus* considerado, a "r-letra-semente" (uma r-letra a partir da qual o usuário pretende construir r-palavra) e o número de iterações desejado (ou seja, a extensão da sequência em número de r-letras). O algoritmo retorna como *output* uma r-palavra original (e probabilisticamente vinculada ao *corpus* em questão), juntamente com sua *cardinalidade* # (neste caso, o número total de ataques da r-palavra). A [@fig-comp02] apresenta o fluxograma referente ao algoritmo e um exemplo de sua aplicação.
+(2) *corporaKov_ritmo.py* --  código implementado em linguagem Python, recebe como *input* informações sobre o *corpus* considerado, a "r-letra-semente" (análoga à ideia do "acorde-semente) e o número de iterações desejado (ou seja, a extensão da sequência em número de r-letras). O algoritmo retorna como *output* uma r-palavra original (e probabilisticamente vinculada ao *corpus* em questão), juntamente com sua *cardinalidade* # (neste caso, o número total de ataques da r-palavra). A [@fig-comp02] apresenta o fluxograma referente ao algoritmo e um exemplo de sua aplicação.
 
 ([@fig-comp02]).
 
 ![Esquema básico do algoritmo *corparoKov_ritmo.py* e um exemplo.](../figs/composição-02.png){width=60% #fig-comp02}
 
-(3) *corporaKov_contorno.py* -- código implementado em linguagem Python, recebe como *input* informações sobre o *corpus* considerado, a "c-letra-semente" (uma c-letra a partir da qual o usuário pretende construir c-palavra) e cardinalidade (que deverá coerente à cardinalidade de uma r-palavra correspondente, previamente construída). A [@fig-comp03] apresenta o fluxograma referente ao algoritmo e um exemplo de sua aplicação.
+(3) *corporaKov_contorno.py* -- código implementado em linguagem Python, recebe como *input* informações sobre o *corpus* considerado, a "c-letra-semente" e a cardinalidade (que deverá coerente à cardinalidade de uma r-palavra correspondente, previamente construída). A [@fig-comp03] apresenta o fluxograma referente ao algoritmo e um exemplo de sua aplicação.
 
 
 ![Esquema básico do algoritmo *corparoKov_contorno.py* e um exemplo.](../figs/composição-03.png){width=60% #fig-comp03}
@@ -39,25 +39,35 @@ Em sua versão atual, o processo composicional dentro do sistema é baseado em t
 ### ESTRATÉGIAS COMPOSICIONAIS
 Até o presente momento, duas estratégias de composição assistida dentro do sistema foram idealizadas, descritas sucintamente como se segue:
 
-**Estratégia 1** -- é a que mais se utiliza dos dados estatísticos analisados. Sua principal limitação é ausência de controle para construções de estruturas relativamente complexas. Assim, é idealmente empregada em composições aforísticas. 
+**Estratégia 1** -- é a que mais se utiliza dos dados estatísticos analisados. Sua principal limitação é ausência de controle para construções de estruturas relativamente complexas. Assim, é idealmente empregada em composições aforísticas, ou seja de curta duração.^[Recentente, a composição com essa estratégia foi usada como atividade de avaliação para os alunos de uma disciplina da grade do Pós-Graduação em Música da UFRJ, ministrada por Carlos Almada, Hugo Carvalho e Cecília Saraiva. Os resultados foram extremamente satisfatórios.]
 Um possível protocolo composicional com essa estratégia é descrito a seguir (imaginamos que outras possibilidades possam ser eventualmente propostas):
 (1) Selecionar o *corpus* de interesse (seja, por exemplo, JOBIM).
 
 (2) Determinar o número de c/r palavras que formará a peça a ser composta (consideremos, como uma breve ilustração, que a peça terá cinco c/r palavras).
 
-(3) Usar o algoritmo-compositor *corporaKov_ritmo.py* para gerar (cinco, no caso de nosso exemplo) r-palavras (observação importante: o usuário pode, claro, descartar as r-palavras que considerar inadequadas para sua peça. Ou seja, o sistema é também flexível em relação a esse aspecto).
+(3) Usar o algoritmo-compositor *corporaKov_ritmo.py* para gerar (cinco, no caso de nosso exemplo) r-palavras.^[Vale aqui trazer uma observação importante: o usuário pode, claro, descartar as r-palavras que considerar inadequadas para sua peça e rodar o algoritmo quantas vezes forem necessárias, tendo em vista, claro, a qualidade do produto musical que se pretende criar. Ou seja, além das quatro características acima apresentadas, podemo dizer que o sistema é também flexível em relação a este aspecto]
 
-(4) "Montar" as r-palavras em alguma sequência lógica. Em outros termos, as r-palavras devem ser vistas como blocos autônomos que podem ser posicionados metricamente a critério do usuário (sugere-se apenas evitar sobreposições ou elisões, de modo que a estrutura dos segmentos fique evidente). Tem-se assim, em termos bem básicos, a estrutura formal da peça, cuja principal implicação é a definição do seu número de compassos.
+![Exemplo de aplicação da Estratégia 1: geração de cinco r-palavras no *corpus* JOBIM.](../figs/composição-04.png){width=60% #fig-comp04}
+
+(4) "Montar" as r-palavras em alguma sequência lógica. Em outros termos, as r-palavras devem ser vistas como blocos autônomos que podem ser posicionados metricamente a critério do usuário (sugere-se apenas evitar sobreposições ou elisões, de modo que a estrutura dos segmentos fique evidente). Obtem-se assim, em termos bem básicos, a estrutura formal da peça, cuja principal implicação é a definição do seu número de compassos.
+
+![Exemplo de aplicação da Estratégia 1: posicionamento métrico das cinco r-palavras.](../figs/composição-05.png){width=60% #fig-comp05}
 
 (5) Usar o algoritmo-compositor *corporaKov_contorno.py* para gerar c-palavras devidamente *compatíveis em cardinalidade* em relação às r-palavras previamente geradas (a mesma observação feita em (3) sobre a seleção de resultados aplica-se aqui). Como a estrutura métrica da peça foi definida na etapa (4), as c-palavras geradas se integram àquelas, formando c/r palavras.
 
-(6) Definir o ritmo harmônico desejado para a peça, o que será dependente do número de compassos previamente estabelecido em (4). Consequentemente, o número de acordes da estrutura harmônica é definido. Por simplicidade, consideremos no nosso exemplo um acorde por compasso, ou seja, um total de cinco acordes.
+![Exemplo de aplicação da Estratégia 1: geração de cinco c-palavras no *corpus* JOBIM.](../figs/composição-06.png){width=60% #fig-comp06}
 
-(7) Usar o algoritmo-compositor *corporaKov2.py* para gerar a sequência de acordes (cinco, no exemplo) que harmonizará a peça. Como nos outros casos, o usuário poderá fazer diversas tentativas até encontrar a sequência que mais lhe agrade (uma alternativa é subdividir o número total de acordes a se gerar em segmentos menos -- como "frases harmônicas" -- de maneira a se ter mais controle sobre as relações de coerência e melhor adaptar a harmonia criada às intenções composicionais).
+(6) Definir o ritmo harmônico desejado para a peça, o que será dependente do número de compassos previamente estabelecido em (4). Consequentemente, o número de acordes da estrutura harmônica é assim definido. Por simplicidade, consideremos no nosso exemplo um acorde por compasso, ou seja, um total de cinco acordes.
+
+(7) Usar o algoritmo-compositor *corporaKov2.py* para gerar a sequência de acordes (cinco, no exemplo) que harmonizará a peça. Como nos outros casos, o usuário poderá fazer diversas tentativas até encontrar a sequência que mais lhe agrade. ^[Uma possível alternativa a esta etapa (em caso de grandes sequências, com 10 ou mais acordes) poderia ser subdividir o número total de acordes a se gerar em segmentos de menor extensão -- como "frases harmônicas" -- de maneira a se ter mais controle sobre as relações de coerência e, assim, favorecer uma melhor adaptação da harmonia criada às intenções composicionais]
+
+![Exemplo de aplicação da Estratégia 1: geração de uma sequência de cinco acordes no *corpus* JOBIM..](../figs/composição-07.png){width=60% #fig-comp07}
 
 (8) Tomando as c-letras de cada c/r palavra como guia e mantendo uma coerência com o(s) acorde(s) que a sustenta(m), definir as alturas da linha melódica.
 
-(9) Fazer, se necessário, pequenos ajustes na melodia composta, tais como: substituição de pausas por notas sustentadas (ou vice-versa), incluir ornamentos (ou mesmo breves conexões melódicas), trocas de registros em c-palavras etc.
+![Exemplo de aplicação da Estratégia 1: geração de uma possível linha melódica a partir dos dados pré-estabelecidos.](../figs/composição-08.png){width=60% #fig-comp08}
+
+(9) Fazer, se necessário, pequenos ajustes na melodia composta, tais como: substituição de pausas por notas sustentadas (ou vice-versa), incluir ornamentos (ou mesmo breves conexões melódicas), trocas de registros em c-palavras etc.^[Uma etapa adicional -- optativa, claro -- poderia ser a criação de um arranjo (ou seja, uma *concretização*) da melodia harmonizada. Assim, a alternância de texturas diversas, a inclusão de linhas secundárias, de dinâmica, sinais de agógica e expressão etc. podem ser acionados em prol de um resultado esteticamente mais próximo de uma composição "convencional".] 
 
 
 
