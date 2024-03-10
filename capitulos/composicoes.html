@@ -248,7 +248,6 @@ Figura&nbsp;1: Esquema básico do algoritmo <em>corparoKov2.py</em> e um exemplo
 <ol start="2" type="1">
 <li><em>corporaKov_ritmo.py</em> – código implementado em linguagem Python, recebe como <em>input</em> informações sobre o <em>corpus</em> considerado, a “r-letra-semente” (análoga à ideia do “acorde-semente) e o número de iterações desejado (ou seja, a extensão da sequência em número de r-letras). O algoritmo retorna como <em>output</em> uma r-palavra original (e probabilisticamente vinculada ao <em>corpus</em> em questão), juntamente com sua <em>cardinalidade</em> # (neste caso, o número total de ataques da r-palavra). A <a href="#fig-comp02" class="quarto-xref">Figura&nbsp;2</a> apresenta o fluxograma referente ao algoritmo e um exemplo de sua aplicação.</li>
 </ol>
-<p>(<a href="#fig-comp02" class="quarto-xref">Figura&nbsp;2</a>).</p>
 <div id="fig-comp02" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-comp02-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -279,13 +278,13 @@ Figura&nbsp;3: Esquema básico do algoritmo <em>corparoKov_contorno.py</em> e um
 <p>Até o presente momento, duas estratégias de composição assistida dentro do sistema foram idealizadas, descritas sucintamente como se segue:</p>
 <p><strong>Estratégia 1</strong> – é a que mais se utiliza dos dados estatísticos analisados. Sua principal limitação é ausência de controle para construções de estruturas relativamente complexas. Assim, é idealmente empregada em composições aforísticas, ou seja de curta duração.<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> Um possível protocolo composicional com essa estratégia é descrito a seguir (imaginamos que outras possibilidades possam ser eventualmente propostas): (1) Selecionar o <em>corpus</em> de interesse (seja, por exemplo, JOBIM).</p>
 <ol start="2" type="1">
-<li><p>Determinar o número de c/r palavras que formará a peça a ser composta (consideremos, como uma breve ilustração, que a peça terá cinco c/r palavras).</p></li>
-<li><p>Usar o algoritmo-compositor <em>corporaKov_ritmo.py</em> para gerar (cinco, no caso de nosso exemplo) r-palavras.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></p></li>
+<li><p>Determinar o número de c/r palavras que formará a peça a ser composta (consideremos, como uma breve ilustração, que a peça de nosso exemplo terá cinco c/r palavras).</p></li>
+<li><p>Usar o algoritmo-compositor <em>corporaKov_ritmo.py</em> para gerar (cinco, no caso do exemplo) r-palavras.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> A <a href="#fig-comp04" class="quarto-xref">Figura&nbsp;4</a> esquematiza a produção das cinco r-palavras, a partir da aplicação sequencial do algoritmo, considerando as r-letras {g, n, e, g, o} e os respectivos números de iterações {3, 2, 4, 3, 2}.</p></li>
 </ol>
 <div id="fig-comp04" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-comp04-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="../figs/composição-04.png" class="img-fluid figure-img" style="width:60.0%">
+<img src="../figs/composição-04.png" class="img-fluid figure-img" style="width:80.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-comp04-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figura&nbsp;4: Exemplo de aplicação da Estratégia 1: geração de cinco r-palavras no <em>corpus</em> JOBIM.
@@ -293,7 +292,7 @@ Figura&nbsp;4: Exemplo de aplicação da Estratégia 1: geração de cinco r-pal
 </figure>
 </div>
 <ol start="4" type="1">
-<li>“Montar” as r-palavras em alguma sequência lógica. Em outros termos, as r-palavras devem ser vistas como blocos autônomos que podem ser posicionados metricamente a critério do usuário (sugere-se apenas evitar sobreposições ou elisões, de modo que a estrutura dos segmentos fique evidente). Obtem-se assim, em termos bem básicos, a estrutura formal da peça, cuja principal implicação é a definição do seu número de compassos.</li>
+<li>“Montar” as r-palavras na sequência do processo gerativo, distanciando-as livremente, fornecendo assim uma espécie de “esqueleto” rítmico-métrico para a composição.<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> Em outros termos, as r-palavras devem ser vistas como blocos autônomos que podem ser posicionados metricamente a critério do usuário (sugere-se apenas evitar sobreposições ou elisões, de modo que a estrutura dos segmentos fique evidente). Obtem-se assim, em termos bem básicos, a estrutura formal da peça, cuja principal implicação é a definição do seu número de compassos. A <a href="#fig-comp05" class="quarto-xref">Figura&nbsp;5</a> propõe uma possível montagem das cinco r-palavras geradas no exemplo, resultando numa extensão total de sete compassos para a peça planejada.</li>
 </ol>
 <div id="fig-comp05" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -306,7 +305,7 @@ Figura&nbsp;5: Exemplo de aplicação da Estratégia 1: posicionamento métrico 
 </figure>
 </div>
 <ol start="5" type="1">
-<li>Usar o algoritmo-compositor <em>corporaKov_contorno.py</em> para gerar c-palavras devidamente <em>compatíveis em cardinalidade</em> em relação às r-palavras previamente geradas (a mesma observação feita em (3) sobre a seleção de resultados aplica-se aqui). Como a estrutura métrica da peça foi definida na etapa (4), as c-palavras geradas se integram àquelas, formando c/r palavras.</li>
+<li>Usar o algoritmo-compositor <em>corporaKov_contorno.py</em> para gerar c-palavras devidamente <em>compatíveis em cardinalidade</em> em relação às r-palavras previamente geradas (a mesma observação feita em (3) sobre a seleção de resultados aplica-se aqui). Como a estrutura métrica da peça foi definida na etapa (4), as c-palavras geradas se integram automaticamente àquelas, formando assim c/r palavras.</li>
 </ol>
 <div id="fig-comp06" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -319,8 +318,8 @@ Figura&nbsp;6: Exemplo de aplicação da Estratégia 1: geração de cinco c-pal
 </figure>
 </div>
 <ol start="6" type="1">
-<li><p>Definir o ritmo harmônico desejado para a peça, o que será dependente do número de compassos previamente estabelecido em (4). Consequentemente, o número de acordes da estrutura harmônica é assim definido. Por simplicidade, consideremos no nosso exemplo um acorde por compasso, ou seja, um total de cinco acordes.</p></li>
-<li><p>Usar o algoritmo-compositor <em>corporaKov2.py</em> para gerar a sequência de acordes (cinco, no exemplo) que harmonizará a peça. Como nos outros casos, o usuário poderá fazer diversas tentativas até encontrar a sequência que mais lhe agrade. <a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a></p></li>
+<li><p>Definir o ritmo harmônico desejado para a peça, o que será dependente do número de compassos previamente estabelecido em (4). Consequentemente, o número de acordes da estrutura harmônica é definido. Por simplicidade, consideremos no nosso exemplo um acorde por compasso, totalizando assim sete.</p></li>
+<li><p>Usar o algoritmo-compositor <em>corporaKov2.py</em> para gerar a sequência de acordes (sete, no exemplo) que formará a estrutura harmônica da peça. Como nos outros casos, o usuário poderá fazer diversas tentativas até encontrar a sequência que mais lhe agrade. <a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> A <a href="#fig-comp07" class="quarto-xref">Figura&nbsp;7</a> apresenta uma sequência harmônica gerada e selecionada para a peça do exemplo.</p></li>
 </ol>
 <div id="fig-comp07" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -333,7 +332,7 @@ Figura&nbsp;7: Exemplo de aplicação da Estratégia 1: geração de uma sequên
 </figure>
 </div>
 <ol start="8" type="1">
-<li>Tomando as c-letras de cada c/r palavra como guia e mantendo uma coerência com o(s) acorde(s) que a sustenta(m), definir as alturas da linha melódica.</li>
+<li>Tomando as c-letras de cada c/r palavra como guia e mantendo uma coerência com o(s) acorde(s) que a sustenta(m), definir as alturas da linha melódica. Uma das muitas alternativas possíveis é proposta na <a href="#fig-comp08" class="quarto-xref">Figura&nbsp;8</a>.</li>
 </ol>
 <div id="fig-comp08" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -346,8 +345,10 @@ Figura&nbsp;8: Exemplo de aplicação da Estratégia 1: geração de uma possív
 </figure>
 </div>
 <ol start="9" type="1">
-<li>Fazer, se necessário, pequenos ajustes na melodia composta, tais como: substituição de pausas por notas sustentadas (ou vice-versa), incluir ornamentos (ou mesmo breves conexões melódicas), trocas de registros em c-palavras etc.<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a></li>
+<li>Fazer, se necessário, pequenos ajustes na melodia composta, tais como: substituição de pausas por notas sustentadas (ou vice-versa), incluir ornamentos (ou mesmo breves conexões melódicas), trocas de registros em c-palavras etc.<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a></li>
 </ol>
+<hr>
+<p><strong>Estratégia 2</strong> –</p>
 
 
 </section>
@@ -360,9 +361,10 @@ Figura&nbsp;8: Exemplo de aplicação da Estratégia 1: geração de uma possív
 <li id="fn2"><p>Ver capítulo sobre processos markovianos<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn3"><p>Ou seja, uma categoria funcional a partir da qual o usuário pretende construir uma sequência harmônica<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn4"><p>Recentente, a composição com essa estratégia foi usada como atividade de avaliação para os alunos de uma disciplina da grade do Pós-Graduação em Música da UFRJ, ministrada por Carlos Almada, Hugo Carvalho e Cecília Saraiva. Os resultados foram extremamente satisfatórios.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn5"><p>Vale aqui trazer uma observação importante: o usuário pode, claro, descartar as r-palavras que considerar inadequadas para sua peça e rodar o algoritmo quantas vezes forem necessárias, tendo em vista, claro, a qualidade do produto musical que se pretende criar. Ou seja, além das quatro características acima apresentadas, podemo dizer que o sistema é também flexível em relação a este aspecto<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn6"><p>Uma possível alternativa a esta etapa (em caso de grandes sequências, com 10 ou mais acordes) poderia ser subdividir o número total de acordes a se gerar em segmentos de menor extensão – como “frases harmônicas” – de maneira a se ter mais controle sobre as relações de coerência e, assim, favorecer uma melhor adaptação da harmonia criada às intenções composicionais<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn7"><p>Uma etapa adicional – optativa, claro – poderia ser a criação de um arranjo (ou seja, uma <em>concretização</em>) da melodia harmonizada. Assim, a alternância de texturas diversas, a inclusão de linhas secundárias, de dinâmica, sinais de agógica e expressão etc. podem ser acionados em prol de um resultado esteticamente mais próximo de uma composição “convencional”.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Vale aqui trazer uma observação importante: o usuário pode, claro, descartar as r-palavras que considerar inadequadas para sua peça e rodar o algoritmo quantas vezes forem necessárias, tendo em vista, claro, a qualidade do produto musical que se pretende criar. Ou seja, podemos acrescentar esta possibilidade às quatro flexibilizações acima apresentadas.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>O que inclui determinar a fórmula de compasso para a peça.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>Uma possível alternativa a esta etapa (em caso de grandes sequências, com 10 ou mais acordes) poderia ser subdividir o número total de acordes a se gerar em segmentos de menor extensão – como “frases harmônicas” – de maneira a se ter mais controle sobre as relações de coerência e, assim, favorecer uma melhor adaptação da harmonia criada às intenções composicionais<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>Uma etapa adicional – optativa, claro – poderia ser a criação de um arranjo (ou seja, uma <em>concretização</em>) da melodia harmonizada. Assim, a alternância de texturas diversas, a inclusão de linhas secundárias, de dinâmica, sinais de agógica e expressão etc. podem ser acionados em prol de um resultado esteticamente mais próximo de uma composição “convencional”.<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
