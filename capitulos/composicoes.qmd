@@ -37,6 +37,7 @@ Em sua versão atual, o processo composicional dentro do sistema é baseado em t
 ---
 
 ### ESTRATÉGIAS COMPOSICIONAIS
+
 Até o presente momento, duas estratégias de composição assistida dentro do sistema foram idealizadas, descritas sucintamente como se segue:
 
 **Estratégia 1** -- é a que mais se utiliza dos dados estatísticos analisados. Sua principal limitação é ausência de controle para construções de estruturas relativamente complexas. Assim, é idealmente empregada em composições aforísticas, ou seja de curta duração.^[Recentente, a composição com essa estratégia foi usada como atividade de avaliação para os alunos de uma disciplina da grade do Pós-Graduação em Música da UFRJ, ministrada por Carlos Almada, Hugo Carvalho e Cecília Saraiva. Os resultados foram extremamente satisfatórios.]
