@@ -12,6 +12,8 @@ Em outros termos, a composição dentro desse sistema não é, de modo algum, re
 
 **Flexibilidade rítmica** -- as sequências de r-letras, ou seja, as *r-palavras* geradas pelo algoritmo-compositor específico (ver mais à frente) são "agnósticas" em relação à métrica, o que significa que devem ser consideradas como unidades autônomas que podem ser posicionadas metricamente a critério do(a) compositor(a). Isso inclui também a liberdade de poder distanciar livremente unidades contíguas. 
 
+**Flexibilidade de conexões** -- as *c/r palavras* (isto é, a conjunção de c- e r-palavras) devem ser vistas como unidades autônomas, sem relações mútuas de conexão. Isso significa que são irrelevantes tanto as distâncias temporais entre o último ataque de uma determinada c/r palavra e o primeiro da c/r palavra seguinte, quanto os intervalos melódicos entre esses dois pontos de articulação.
+
 ---
 
 ### ALGORITMOS-COMPOSITORES
@@ -35,8 +37,29 @@ Em sua versão atual, o processo composicional dentro do sistema é baseado em t
 ---
 
 ### ESTRATÉGIAS COMPOSICIONAIS
-Até o presente momento, duas estratégias composicionais dentro do sistema foram idealizadas. Cada qual tem suas características, o que implica ..............
+Até o presente momento, duas estratégias de composição assistida dentro do sistema foram idealizadas, descritas sucintamente como se segue:
 
-(1) 
+**Estratégia 1** -- é a que mais se utiliza dos dados estatísticos analisados. Sua principal limitação é ausência de controle para construções de estruturas relativamente complexas. Assim, é idealmente empregada em composições aforísticas. 
+Um possível protocolo composicional com essa estratégia é descrito a seguir (imaginamos que outras possibilidades possam ser eventualmente propostas):
+(1) Selecionar o *corpus* de interesse (seja, por exemplo, JOBIM).
 
-(2)
+(2) Determinar o número de c/r palavras que formará a peça a ser composta (consideremos, como uma breve ilustração, que a peça terá cinco c/r palavras).
+
+(3) Usar o algoritmo-compositor *corporaKov_ritmo.py* para gerar (cinco, no caso de nosso exemplo) r-palavras (observação importante: o usuário pode, claro, descartar as r-palavras que considerar inadequadas para sua peça. Ou seja, o sistema é também flexível em relação a esse aspecto).
+
+(4) "Montar" as r-palavras em alguma sequência lógica. Em outros termos, as r-palavras devem ser vistas como blocos autônomos que podem ser posicionados metricamente a critério do usuário (sugere-se apenas evitar sobreposições ou elisões, de modo que a estrutura dos segmentos fique evidente). Tem-se assim, em termos bem básicos, a estrutura formal da peça, cuja principal implicação é a definição do seu número de compassos.
+
+(5) Usar o algoritmo-compositor *corporaKov_contorno.py* para gerar c-palavras devidamente *compatíveis em cardinalidade* em relação às r-palavras previamente geradas (a mesma observação feita em (3) sobre a seleção de resultados aplica-se aqui). Como a estrutura métrica da peça foi definida na etapa (4), as c-palavras geradas se integram àquelas, formando c/r palavras.
+
+(6) Definir o ritmo harmônico desejado para a peça, o que será dependente do número de compassos previamente estabelecido em (4). Consequentemente, o número de acordes da estrutura harmônica é definido. Por simplicidade, consideremos no nosso exemplo um acorde por compasso, ou seja, um total de cinco acordes.
+
+(7) Usar o algoritmo-compositor *corporaKov2.py* para gerar a sequência de acordes (cinco, no exemplo) que harmonizará a peça. Como nos outros casos, o usuário poderá fazer diversas tentativas até encontrar a sequência que mais lhe agrade (uma alternativa é subdividir o número total de acordes a se gerar em segmentos menos -- como "frases harmônicas" -- de maneira a se ter mais controle sobre as relações de coerência e melhor adaptar a harmonia criada às intenções composicionais).
+
+(8) Tomando as c-letras de cada c/r palavra como guia e mantendo uma coerência com o(s) acorde(s) que a sustenta(m), definir as alturas da linha melódica.
+
+(9) Fazer, se necessário, pequenos ajustes na melodia composta, tais como: substituição de pausas por notas sustentadas (ou vice-versa), incluir ornamentos (ou mesmo breves conexões melódicas), trocas de registros em c-palavras etc.
+
+
+
+
+
