@@ -227,6 +227,7 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Flexibilidade harmônica</strong> – as sequências de acordes geradas pelo algoritmo-compositor específico (ver mais à frente) são desvinculadas de quaisquer referências a posições métricas e durações.</p>
 <p><strong>Flexibilidade melódica</strong> – as sequências de c-letras, ou seja, as <em>c-palavras</em> geradas pelo algoritmo-compositor específico (ver mais à frente) indicam apenas “gestos de contorno” básicos, que podem ser realizados de modos consideravelmente distintos.</p>
 <p><strong>Flexibilidade rítmica</strong> – as sequências de r-letras, ou seja, as <em>r-palavras</em> geradas pelo algoritmo-compositor específico (ver mais à frente) são “agnósticas” em relação à métrica, o que significa que devem ser consideradas como unidades autônomas que podem ser posicionadas metricamente a critério do(a) compositor(a). Isso inclui também a liberdade de poder distanciar livremente unidades contíguas.</p>
+<p><strong>Flexibilidade de conexões</strong> – as <em>c/r palavras</em> (isto é, a conjunção de c- e r-palavras) devem ser vistas como unidades autônomas, sem relações mútuas de conexão. Isso significa que são irrelevantes tanto as distâncias temporais entre o último ataque de uma determinada c/r palavra e o primeiro da c/r palavra seguinte, quanto os intervalos melódicos entre esses dois pontos de articulação.</p>
 <hr>
 <section id="algoritmos-compositores" class="level3">
 <h3 class="anchored" data-anchor-id="algoritmos-compositores">ALGORITMOS-COMPOSITORES</h3>
@@ -275,10 +276,17 @@ Figura&nbsp;3: Esquema básico do algoritmo <em>corparoKov_contorno.py</em> e um
 </section>
 <section id="estratégias-composicionais" class="level3">
 <h3 class="anchored" data-anchor-id="estratégias-composicionais">ESTRATÉGIAS COMPOSICIONAIS</h3>
-<p>Até o presente momento, duas estratégias composicionais dentro do sistema foram idealizadas. Cada qual tem suas características, o que implica …………..</p>
-<ol type="1">
-<li></li>
-<li></li>
+<p>Até o presente momento, duas estratégias de composição assistida dentro do sistema foram idealizadas, descritas sucintamente como se segue:</p>
+<p><strong>Estratégia 1</strong> – é a que mais se utiliza dos dados estatísticos analisados. Sua principal limitação é ausência de controle para construções de estruturas relativamente complexas. Assim, é idealmente empregada em composições aforísticas. Um possível protocolo composicional com essa estratégia é descrito a seguir (imaginamos que outras possibilidades possam ser eventualmente propostas): (1) Selecionar o <em>corpus</em> de interesse (seja, por exemplo, JOBIM).</p>
+<ol start="2" type="1">
+<li><p>Determinar o número de c/r palavras que formará a peça a ser composta (consideremos, como uma breve ilustração, que a peça terá cinco c/r palavras).</p></li>
+<li><p>Usar o algoritmo-compositor <em>corporaKov_ritmo.py</em> para gerar (cinco, no caso de nosso exemplo) r-palavras (observação importante: o usuário pode, claro, descartar as r-palavras que considerar inadequadas para sua peça. Ou seja, o sistema é também flexível em relação a esse aspecto).</p></li>
+<li><p>“Montar” as r-palavras em alguma sequência lógica. Em outros termos, as r-palavras devem ser vistas como blocos autônomos que podem ser posicionados metricamente a critério do usuário (sugere-se apenas evitar sobreposições ou elisões, de modo que a estrutura dos segmentos fique evidente). Tem-se assim, em termos bem básicos, a estrutura formal da peça, cuja principal implicação é a definição do seu número de compassos.</p></li>
+<li><p>Usar o algoritmo-compositor <em>corporaKov_contorno.py</em> para gerar c-palavras devidamente <em>compatíveis em cardinalidade</em> em relação às r-palavras previamente geradas (a mesma observação feita em (3) sobre a seleção de resultados aplica-se aqui). Como a estrutura métrica da peça foi definida na etapa (4), as c-palavras geradas se integram àquelas, formando c/r palavras.</p></li>
+<li><p>Definir o ritmo harmônico desejado para a peça, o que será dependente do número de compassos previamente estabelecido em (4). Consequentemente, o número de acordes da estrutura harmônica é definido. Por simplicidade, consideremos no nosso exemplo um acorde por compasso, ou seja, um total de cinco acordes.</p></li>
+<li><p>Usar o algoritmo-compositor <em>corporaKov2.py</em> para gerar a sequência de acordes (cinco, no exemplo) que harmonizará a peça. Como nos outros casos, o usuário poderá fazer diversas tentativas até encontrar a sequência que mais lhe agrade (uma alternativa é subdividir o número total de acordes a se gerar em segmentos menos – como “frases harmônicas” – de maneira a se ter mais controle sobre as relações de coerência e melhor adaptar a harmonia criada às intenções composicionais).</p></li>
+<li><p>Tomando as c-letras de cada c/r palavra como guia e mantendo uma coerência com o(s) acorde(s) que a sustenta(m), definir as alturas da linha melódica.</p></li>
+<li><p>Fazer, se necessário, pequenos ajustes na melodia composta, tais como: substituição de pausas por notas sustentadas (ou vice-versa), incluir ornamentos (ou mesmo breves conexões melódicas), trocas de registros em c-palavras etc.</p></li>
 </ol>
 
 
