@@ -60,11 +60,11 @@ Um possível protocolo composicional com essa estratégia é descrito a seguir (
 
 (7) Usar o algoritmo-compositor *corporaKov2.py* para gerar a sequência de acordes (sete, no exemplo) que formará a estrutura harmônica da peça. Como nos outros casos, o usuário poderá fazer diversas tentativas até encontrar a sequência que mais lhe agrade. ^[Uma possível alternativa a esta etapa (em caso de grandes sequências, com 10 ou mais acordes) poderia ser subdividir o número total de acordes a se gerar em segmentos de menor extensão -- como "frases harmônicas" -- de maneira a se ter mais controle sobre as relações de coerência e, assim, favorecer uma melhor adaptação da harmonia criada às intenções composicionais] A [@fig-comp07] apresenta uma sequência harmônica gerada e selecionada para a peça do exemplo.
 
-![Exemplo de aplicação da Estratégia 1: geração de uma sequência de cinco acordes no *corpus* JOBIM..](../figs/composição-07.png){width=60% #fig-comp07}
+![Exemplo de aplicação da Estratégia 1: geração de uma sequência de cinco acordes no *corpus* JOBIM..](../figs/composição-07.png){width=80% #fig-comp07}
 
 (8) Tomando as c-letras de cada c/r palavra como guia e mantendo uma coerência com o(s) acorde(s) que a sustenta(m), definir as alturas da linha melódica. Uma das muitas alternativas possíveis é proposta na [@fig-comp08]. 
 
-![Exemplo de aplicação da Estratégia 1: geração de uma possível linha melódica a partir dos dados pré-estabelecidos.](../figs/composição-08.png){width=60% #fig-comp08}
+![Exemplo de aplicação da Estratégia 1: geração de uma possível linha melódica a partir dos dados pré-estabelecidos.](../figs/composição-08.png){width=80% #fig-comp08}
 
 (9) Fazer, se necessário, pequenos ajustes na melodia composta, tais como: substituição de pausas por notas sustentadas (ou vice-versa), incluir ornamentos (ou mesmo breves conexões melódicas), trocas de registros em c-palavras etc.^[Uma etapa adicional -- optativa, claro -- poderia ser a criação de um arranjo (ou seja, uma *concretização*) da melodia harmonizada. Assim, a alternância de texturas diversas, a inclusão de linhas secundárias, de dinâmica, sinais de agógica e expressão etc. podem ser acionados em prol de um resultado esteticamente mais próximo de uma composição "convencional".] 
 
