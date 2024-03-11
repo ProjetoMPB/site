@@ -81,7 +81,7 @@ Um vídeo dessa obra, na interpretação da pianista Tamara Ujakova, encontra-se
 
 ----
 
-**Estratégia 2** -- o "problema" da ausência de controle sobre a estrutura musical em alto nível foi recentemente equacionado com a idealização da segunda estratégia de composição assistida. Podendo também ser denominada uma "modelagem derivativa-estilística", envolve, além dos processos markovianos da estratégia 1 (em menor escala, como veremos), uma concepção evolutiva-musical, a partir de adaptações de um modelo analítico voltado para descrição de variações. Tal modelo, 
+**Estratégia 2** -- o "problema" da ausência de controle sobre a estrutura musical em alto nível foi recentemente equacionado com a idealização da segunda estratégia de composição assistida. Podendo também ser denominada uma "modelagem derivativa-estilística", envolve, além dos processos markovianos da estratégia 1 (em menor escala, como veremos), uma concepção evolutiva-musical. Isso se dá a partir de uma adptação simplificadora do Modelo de Análise Derivativa (MDA, na sigla em inglês) -- idealizado por Carlos Almada --, adaptação essa identificada pelo acrônimo MDA*^[Para descrições e maiores detalhes sobre MDA e MDA*, ver @almada-mda.] 
 
 
 
