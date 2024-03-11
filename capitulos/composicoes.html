@@ -232,46 +232,33 @@ ul.task-list li input[type="checkbox"] {
 <section id="algoritmos-compositores" class="level3">
 <h3 class="anchored" data-anchor-id="algoritmos-compositores">ALGORITMOS-COMPOSITORES</h3>
 <p>Em sua versão atual, o processo composicional dentro do sistema é baseado em três algoritmos-compositores, cada qual associado a um domínio estrutural-musical, a saber, harmonia, ritmo e alturas. Os três algoritmos são alimentados por dados estatísticos referentes a transições entre eventos contíguos, registrados nas <em>matrizes de transição probabilística</em><a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> dos 10 <em>corpora</em> analisados. De um modo geral, os algoritmos operam da seguinte maneira: o usuário informa o <em>corpus</em> de referência, o evento-semente (que, dependendo do domínio selecionado, pode ser uma categoria funcional, uma r-letra ou uma c-letra) e o número de iterações desejado. O algoritmo então retorna uma estrutura completa (uma sequência de acordes, uma r-palavra ou uma c-palavra) que guarda – ao menos em termos probabilísticos – estreitos vínculos com o <em>corpus</em> selecionado.</p>
-<p>Um simples exemplo ilustrará a lógica básica por trás do funcionamento dos três algoritmos. Considere uma matriz de transição probabilística com apenas quatro estados – w, x, y, z – e suas respectivas probabilidades de transição computadas (<a href="#fig-comp00" class="quarto-xref">Figura&nbsp;1</a>). Assumamos agora que desejamos gerar uma sequência de três símbolos a partir da “semente” y, através da lógica básica dos algoritmos-compositores. Isso significa que precisaremos aplicar duas iterações (já que a “semente” y será o primeiro símbolo da sequência). Na primeira iteração, o algoritmo faz um sorteio <em>ponderado</em> das probabilidades de transição referentes à linha “y”.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> A transição escolhida (“x” no exemplo) se torna a nova “semente” para uma reaplicação do algoritmo, que retorna desta vez “z”, completando a extensão previamente estabelecida de três símbolos para a sequência (evidentemente, o processo poderia se estender indefinidamente, a depender do número de iterações desejado).</p>
-<div id="fig-comp00" class="quarto-figure quarto-figure-center quarto-float anchored">
+<p>Um simples exemplo ilustrará a lógica básica por trás do funcionamento dos três algoritmos. Considere uma matriz de transição probabilística com apenas quatro estados – w, x, y, z – e suas respectivas probabilidades de transição computadas (<a href="#fig-comp01" class="quarto-xref">Figura&nbsp;1</a>). Assumamos agora que desejamos gerar uma sequência de três símbolos a partir da “semente” y, através da lógica básica dos algoritmos-compositores. Isso significa que precisaremos aplicar duas iterações (já que a “semente” y será o primeiro símbolo da sequência). Na primeira iteração, o algoritmo faz um sorteio <em>ponderado</em> das probabilidades de transição referentes à linha “y”.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> A transição escolhida (“x” no exemplo) se torna a nova “semente” para uma reaplicação do algoritmo, que retorna desta vez “z”, completando a extensão previamente estabelecida de três símbolos para a sequência (evidentemente, o processo poderia se estender indefinidamente, a depender do número de iterações desejado).</p>
+<div id="fig-comp01" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-comp00-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="../figs/composição-00.png" class="img-fluid figure-img" style="width:75.0%">
+<div aria-describedby="fig-comp01-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../figs/composição-01.png" class="img-fluid figure-img" style="width:60.0%">
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-comp00-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-comp01-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figura&nbsp;1: Exemplo simplifficado da lógica dos algoritmos-compositores.
 </figcaption>
 </figure>
 </div>
 <p>Os algoritomos-compositores empregados no sistema são descritos sucintamente a seguir:</p>
 <ol type="1">
-<li><em>corporaKov2.py</em> – código implementado em linguagem Python, recebe como <em>input</em> informações sobre o <em>corpus</em> considerado, o “acorde-semente”<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> e o número de iterações desejado (ou seja, a extensão da sequência). O algoritmo retorna a sequência em três versões: (a) em categorias funcionais; (b) em cifras alfanuméricas e (c) em notação genealógica (ver glossário), como tipos acordais registrados no modelo GTA (ver capítulo sobre os modelos teóricos adotados no projeto). A <a href="#fig-comp01" class="quarto-xref">Figura&nbsp;2</a> apresenta o fluxograma referente ao algoritmo e um exemplo de sua aplicação.</li>
+<li><em>corporaKov2.py</em> – código implementado em linguagem Python, recebe como <em>input</em> informações sobre o <em>corpus</em> considerado, o “acorde-semente”<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> e o número de iterações desejado (ou seja, a extensão da sequência). O algoritmo retorna a sequência em três versões: (a) em categorias funcionais; (b) em cifras alfanuméricas e (c) em notação genealógica (ver glossário), como tipos acordais registrados no modelo GTA (ver capítulo sobre os modelos teóricos adotados no projeto). A <a href="#fig-comp02" class="quarto-xref">Figura&nbsp;2</a> apresenta o fluxograma referente ao algoritmo e um exemplo de sua aplicação.</li>
 </ol>
-<div id="fig-comp01" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-comp02" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-comp01-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="../figs/composição-01.png" class="img-fluid figure-img" style="width:75.0%">
+<div aria-describedby="fig-comp02-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../figs/composição-02.png" class="img-fluid figure-img" style="width:75.0%">
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-comp01-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-comp02-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figura&nbsp;2: Esquema básico do algoritmo <em>corparoKov2.py</em> e um exemplo.
 </figcaption>
 </figure>
 </div>
 <ol start="2" type="1">
-<li><em>corporaKov_ritmo.py</em> – código implementado em linguagem Python, recebe como <em>input</em> informações sobre o <em>corpus</em> considerado, a “r-letra-semente” (análoga à ideia do “acorde-semente) e o número de iterações desejado (ou seja, a extensão da sequência em número de r-letras). O algoritmo retorna como <em>output</em> uma r-palavra original (e probabilisticamente vinculada ao <em>corpus</em> em questão), juntamente com sua <em>cardinalidade</em> # (neste caso, o número total de ataques da r-palavra). A <a href="#fig-comp02" class="quarto-xref">Figura&nbsp;3</a> apresenta o fluxograma referente ao algoritmo e um exemplo de sua aplicação.</li>
-</ol>
-<div id="fig-comp02" class="quarto-figure quarto-figure-center quarto-float anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-comp02-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="../figs/composição-02.png" class="img-fluid figure-img" style="width:60.0%">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-comp02-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;3: Esquema básico do algoritmo <em>corparoKov_ritmo.py</em> e um exemplo.
-</figcaption>
-</figure>
-</div>
-<ol start="3" type="1">
-<li><em>corporaKov_contorno.py</em> – código implementado em linguagem Python, recebe como <em>input</em> informações sobre o <em>corpus</em> considerado, a “c-letra-semente” e a cardinalidade (que deverá coerente à cardinalidade de uma r-palavra correspondente, previamente construída). A <a href="#fig-comp03" class="quarto-xref">Figura&nbsp;4</a> apresenta o fluxograma referente ao algoritmo e um exemplo de sua aplicação.</li>
+<li><em>corporaKov_ritmo.py</em> – código implementado em linguagem Python, recebe como <em>input</em> informações sobre o <em>corpus</em> considerado, a “r-letra-semente” (análoga à ideia do “acorde-semente) e o número de iterações desejado (ou seja, a extensão da sequência em número de r-letras). O algoritmo retorna como <em>output</em> uma r-palavra original (e probabilisticamente vinculada ao <em>corpus</em> em questão), juntamente com sua <em>cardinalidade</em> # (neste caso, o número total de ataques da r-palavra). A <a href="#fig-comp03" class="quarto-xref">Figura&nbsp;3</a> apresenta o fluxograma referente ao algoritmo e um exemplo de sua aplicação.</li>
 </ol>
 <div id="fig-comp03" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -279,6 +266,19 @@ Figura&nbsp;3: Esquema básico do algoritmo <em>corparoKov_ritmo.py</em> e um ex
 <img src="../figs/composição-03.png" class="img-fluid figure-img" style="width:60.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-comp03-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;3: Esquema básico do algoritmo <em>corparoKov_ritmo.py</em> e um exemplo.
+</figcaption>
+</figure>
+</div>
+<ol start="3" type="1">
+<li><em>corporaKov_contorno.py</em> – código implementado em linguagem Python, recebe como <em>input</em> informações sobre o <em>corpus</em> considerado, a “c-letra-semente” e a cardinalidade (que deverá coerente à cardinalidade de uma r-palavra correspondente, previamente construída). A <a href="#fig-comp04" class="quarto-xref">Figura&nbsp;4</a> apresenta o fluxograma referente ao algoritmo e um exemplo de sua aplicação.</li>
+</ol>
+<div id="fig-comp04" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-comp04-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../figs/composição-04.png" class="img-fluid figure-img" style="width:60.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-comp04-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figura&nbsp;4: Esquema básico do algoritmo <em>corparoKov_contorno.py</em> e um exemplo.
 </figcaption>
 </figure>
@@ -292,33 +292,20 @@ Figura&nbsp;4: Esquema básico do algoritmo <em>corparoKov_contorno.py</em> e um
 <ol type="1">
 <li><p>Selecionar o <em>corpus</em> de interesse (seja, por exemplo, JOBIM).</p></li>
 <li><p>Determinar o número de c/r palavras que formará a peça a ser composta (consideremos, como uma breve ilustração, que a peça de nosso exemplo terá cinco c/r palavras).</p></li>
-<li><p>Usar o algoritmo-compositor <em>corporaKov_ritmo.py</em> para gerar (cinco, no caso do exemplo) r-palavras.<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> A <a href="#fig-comp04" class="quarto-xref">Figura&nbsp;5</a> esquematiza a produção das cinco r-palavras, a partir da aplicação sequencial do algoritmo, considerando as r-letras {g, n, e, g, o} e os respectivos números de iterações {3, 2, 4, 3, 2}.</p></li>
+<li><p>Usar o algoritmo-compositor <em>corporaKov_ritmo.py</em> para gerar (cinco, no caso do exemplo) r-palavras.<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> A <a href="#fig-comp05" class="quarto-xref">Figura&nbsp;5</a> esquematiza a produção das cinco r-palavras, a partir da aplicação sequencial do algoritmo, considerando as r-letras {g, n, e, g, o} e os respectivos números de iterações {2, 1, 3, 2, 1}.</p></li>
 </ol>
-<div id="fig-comp04" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-comp05" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-comp04-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="../figs/composição-04.png" class="img-fluid figure-img" style="width:80.0%">
+<div aria-describedby="fig-comp05-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../figs/composição-05.png" class="img-fluid figure-img" style="width:80.0%">
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-comp04-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-comp05-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figura&nbsp;5: Exemplo de aplicação da Estratégia 1: geração de cinco r-palavras no <em>corpus</em> JOBIM.
 </figcaption>
 </figure>
 </div>
 <ol start="4" type="1">
-<li>“Montar” as r-palavras na sequência do processo gerativo, distanciando-as livremente, fornecendo assim uma espécie de “esqueleto” rítmico-métrico para a composição.<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> Em outros termos, as r-palavras devem ser vistas como blocos autônomos que podem ser posicionados metricamente a critério do usuário (sugere-se apenas evitar sobreposições ou elisões, de modo que a estrutura dos segmentos fique evidente). Obtem-se assim, em termos bem básicos, a estrutura formal da peça, cuja principal implicação é a definição do seu número de compassos. A <a href="#fig-comp05" class="quarto-xref">Figura&nbsp;6</a> propõe uma possível montagem das cinco r-palavras geradas no exemplo, resultando numa extensão total de sete compassos para a peça planejada.</li>
-</ol>
-<div id="fig-comp05" class="quarto-figure quarto-figure-center quarto-float anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-comp05-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="../figs/composição-05.png" class="img-fluid figure-img" style="width:60.0%">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-comp05-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;6: Exemplo de aplicação da Estratégia 1: posicionamento métrico das cinco r-palavras.
-</figcaption>
-</figure>
-</div>
-<ol start="5" type="1">
-<li>Usar o algoritmo-compositor <em>corporaKov_contorno.py</em> para gerar c-palavras devidamente <em>compatíveis em cardinalidade</em> em relação às r-palavras previamente geradas (a mesma observação feita em (3) sobre a seleção de resultados aplica-se aqui). Como a estrutura métrica da peça foi definida na etapa (4), as c-palavras geradas se integram automaticamente àquelas, formando assim c/r palavras.</li>
+<li>“Montar” as r-palavras na sequência do processo gerativo, distanciando-as livremente, fornecendo assim uma espécie de “esqueleto” rítmico-métrico para a composição.<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> Em outros termos, as r-palavras devem ser vistas como blocos autônomos que podem ser posicionados metricamente a critério do usuário (sugere-se apenas evitar sobreposições ou elisões, de modo que a estrutura dos segmentos fique evidente). Obtem-se assim, em termos bem básicos, a estrutura formal da peça, cuja principal implicação é a definição do seu número de compassos. A <a href="#fig-comp06" class="quarto-xref">Figura&nbsp;6</a> propõe uma possível montagem das cinco r-palavras geradas no exemplo, resultando numa extensão total de sete compassos para a peça planejada.</li>
 </ol>
 <div id="fig-comp06" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -326,26 +313,26 @@ Figura&nbsp;6: Exemplo de aplicação da Estratégia 1: posicionamento métrico 
 <img src="../figs/composição-06.png" class="img-fluid figure-img" style="width:60.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-comp06-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;6: Exemplo de aplicação da Estratégia 1: posicionamento métrico das cinco r-palavras.
+</figcaption>
+</figure>
+</div>
+<ol start="5" type="1">
+<li>Usar o algoritmo-compositor <em>corporaKov_contorno.py</em> para gerar c-palavras devidamente <em>compatíveis em cardinalidade</em> em relação às r-palavras previamente geradas (<a href="#fig-comp07" class="quarto-xref">Figura&nbsp;7</a>).<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a> Como a estrutura métrica da peça foi definida na etapa (4), as c-palavras geradas se integram automaticamente àquelas, formando assim c/r palavras.</li>
+</ol>
+<div id="fig-comp07" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-comp07-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../figs/composição-07.png" class="img-fluid figure-img" style="width:60.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-comp07-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figura&nbsp;7: Exemplo de aplicação da Estratégia 1: geração de cinco c-palavras no <em>corpus</em> JOBIM.
 </figcaption>
 </figure>
 </div>
 <ol start="6" type="1">
 <li><p>Definir o ritmo harmônico desejado para a peça, o que será dependente do número de compassos previamente estabelecido em (4). Consequentemente, o número de acordes da estrutura harmônica é definido. Por simplicidade, consideremos no nosso exemplo um acorde por compasso, totalizando assim sete.</p></li>
-<li><p>Usar o algoritmo-compositor <em>corporaKov2.py</em> para gerar a sequência de acordes (em seis iterações, no exemplo) que formará a estrutura harmônica da peça. Como nos outros casos, o usuário poderá fazer diversas tentativas até encontrar a sequência que mais lhe agrade. <a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a> A <a href="#fig-comp07" class="quarto-xref">Figura&nbsp;8</a> apresenta uma sequência harmônica gerada e selecionada para a peça do exemplo.</p></li>
-</ol>
-<div id="fig-comp07" class="quarto-figure quarto-figure-center quarto-float anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-comp07-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="../figs/composição-07.png" class="img-fluid figure-img" style="width:80.0%">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-comp07-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;8: Exemplo de aplicação da Estratégia 1: geração de uma sequência de cinco acordes no <em>corpus</em> JOBIM..
-</figcaption>
-</figure>
-</div>
-<ol start="8" type="1">
-<li>Tomando as c-letras de cada c/r palavra como guia e mantendo uma coerência com o(s) acorde(s) que a sustenta(m), definir as alturas da linha melódica. Uma das muitas alternativas possíveis é proposta na <a href="#fig-comp08" class="quarto-xref">Figura&nbsp;9</a>.</li>
+<li><p>Usar o algoritmo-compositor <em>corporaKov2.py</em> para gerar a sequência de acordes (em seis iterações, no exemplo) que formará a estrutura harmônica da peça. Como nos outros casos, o usuário poderá fazer diversas tentativas até encontrar a sequência que mais lhe agrade. <a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a> A <a href="#fig-comp08" class="quarto-xref">Figura&nbsp;8</a> apresenta uma sequência harmônica gerada e selecionada para a peça do exemplo.</p></li>
 </ol>
 <div id="fig-comp08" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -353,12 +340,25 @@ Figura&nbsp;8: Exemplo de aplicação da Estratégia 1: geração de uma sequên
 <img src="../figs/composição-08.png" class="img-fluid figure-img" style="width:80.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-comp08-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;8: Exemplo de aplicação da Estratégia 1: geração de uma sequência de cinco acordes no <em>corpus</em> JOBIM..
+</figcaption>
+</figure>
+</div>
+<ol start="8" type="1">
+<li>Tomando as c-letras de cada c/r palavra como guia e mantendo uma coerência com o(s) acorde(s) que a sustenta(m), definir as alturas da linha melódica. Uma das muitas alternativas possíveis é proposta na <a href="#fig-comp09" class="quarto-xref">Figura&nbsp;9</a>.</li>
+</ol>
+<div id="fig-comp09" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-comp09-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../figs/composição-09.png" class="img-fluid figure-img" style="width:80.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-comp09-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figura&nbsp;9: Exemplo de aplicação da Estratégia 1: geração de uma possível linha melódica a partir dos dados pré-estabelecidos.
 </figcaption>
 </figure>
 </div>
 <ol start="9" type="1">
-<li>Fazer, se necessário, pequenos ajustes na melodia composta, tais como: substituição de pausas por notas sustentadas (ou vice-versa), incluir ornamentos (ou mesmo breves conexões melódicas), trocas de registros em c-palavras etc.<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a></li>
+<li>Fazer, se necessário, pequenos ajustes na melodia composta, tais como: substituição de pausas por notas sustentadas (ou vice-versa), incluir ornamentos (ou mesmo breves conexões melódicas), trocas de registros em c-palavras etc.<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a></li>
 </ol>
 <hr>
 <p><strong>Estratégia 2</strong> –</p>
@@ -371,14 +371,15 @@ Figura&nbsp;9: Exemplo de aplicação da Estratégia 1: geração de uma possív
 
 <ol>
 <li id="fn1"><p>Isso significa que são irrelevantes tanto as distâncias temporais entre o último ataque de uma determinada c/r palavra e o primeiro da c/r palavra seguinte, quanto os intervalos melódicos entre esses dois pontos de articulação.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>Ver capítulo sobre processos markovianos<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Ver capítulo sobre processos markovianos.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn3"><p>Isto é, os valores maiores de probabilidade terão maior “chance” de serem escolhidos do que os menores. Contudo, isso <em>não</em> significa que uma probabilidade maior <em>sempre</em> será selecionada. Eventualmente, “supresas” nesse sentido podem ocorrer, o que é saudável para os propósitos composicionais e evita o determinismo do processo, algo que seria bastante indesejável em termos musicais.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn4"><p>Ou seja, uma categoria funcional a partir da qual o usuário pretende construir uma sequência harmônica<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn5"><p>Recentente, a composição com essa estratégia foi usada como atividade de avaliação para os alunos de uma disciplina da grade do Pós-Graduação em Música da UFRJ, ministrada por Carlos Almada, Hugo Carvalho e Cecília Saraiva. Os resultados foram extremamente satisfatórios.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn6"><p>Vale aqui trazer uma observação importante: o usuário pode, claro, descartar as r-palavras que considerar inadequadas para sua peça e rodar o algoritmo quantas vezes forem necessárias, tendo em vista, claro, a qualidade do produto musical que se pretende criar. Ou seja, podemos acrescentar esta possibilidade às quatro flexibilizações acima apresentadas.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn7"><p>O que inclui determinar a fórmula de compasso para a peça.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn8"><p>Uma possível alternativa a esta etapa (em caso de grandes sequências, com 10 ou mais acordes) poderia ser subdividir o número total de acordes a se gerar em segmentos de menor extensão – como “frases harmônicas” – de maneira a se ter mais controle sobre as relações de coerência e, assim, favorecer uma melhor adaptação da harmonia criada às intenções composicionais<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn9"><p>Uma etapa adicional – optativa, claro – poderia ser a criação de um arranjo (ou seja, uma <em>concretização</em>) da melodia harmonizada. Assim, a alternância de texturas diversas, a inclusão de linhas secundárias, de dinâmica, sinais de agógica e expressão etc. podem ser acionados em prol de um resultado esteticamente mais próximo de uma composição “convencional”.<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>A mesma observação feita em (3) sobre a seleção de resultados aplica-se aqui<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p>Uma possível alternativa a esta etapa (em caso de grandes sequências, com 10 ou mais acordes) poderia ser subdividir o número total de acordes a se gerar em segmentos de menor extensão – como “frases harmônicas” – de maneira a se ter mais controle sobre as relações de coerência e, assim, favorecer uma melhor adaptação da harmonia criada às intenções composicionais<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10"><p>Uma etapa adicional – optativa, claro – poderia ser a criação de um arranjo (ou seja, uma <em>concretização</em>) da melodia harmonizada. Assim, a alternância de texturas diversas, a inclusão de linhas secundárias, de dinâmica, sinais de agógica e expressão etc. podem ser acionados em prol de um resultado esteticamente mais próximo de uma composição “convencional”.<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
