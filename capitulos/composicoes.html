@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -363,13 +383,18 @@ Figura&nbsp;9: Exemplo de aplicação da Estratégia 1: geração de uma possív
 <p>A estratégia 1 foi empregada pela primeira vez sistematicamente por Carlos Almada, em 2021, na composição de um ciclo de 14 pequenas peças para piano intitulado <em>Jobiniaturas</em>. Como o título sugere, a obra se referencia ao <em>corpus</em> Jobim (o primeiro a ser analisado no Projeto MPB). As 14 miniaturas evocam, cada qual à sua maneira, aspectos do universo jobiniano, na concepção particular de Almada. As peças alternam centros tonais (ou modais) maiores e menores, descrevendo uma trajetória escalar diatônica: Dó, Ré, Mi, Fá, Sol, Lá e Si.</p>
 <p>Um vídeo dessa obra, na interpretação da pianista Tamara Ujakova, encontra-se disponível em https://www.youtube.com/watch?v=nhcpmUxKeKI.</p>
 <hr>
-<p><strong>Estratégia 2</strong> – o “problema” da ausência de controle sobre a estrutura musical em alto nível foi recentemente equacionado com a idealização da segunda estratégia de composição assistida. Podendo também ser denominada uma “modelagem derivativa-estilística”, envolve, além dos processos markovianos da estratégia 1 (em menor escala, como veremos), uma concepção evolutiva-musical, a partir de adaptações de um modelo analítico voltado para descrição de variações. Tal modelo,</p>
+<p><strong>Estratégia 2</strong> – o “problema” da ausência de controle sobre a estrutura musical em alto nível foi recentemente equacionado com a idealização da segunda estratégia de composição assistida. Podendo também ser denominada uma “modelagem derivativa-estilística”, envolve, além dos processos markovianos da estratégia 1 (em menor escala, como veremos), uma concepção evolutiva-musical. Isso se dá a partir de uma adptação simplificadora do Modelo de Análise Derivativa (MDA, na sigla em inglês) – idealizado por Carlos Almada –, adaptação essa identificada pelo acrônimo MDA*<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a></p>
+
 
 
 </section>
 
 
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Notas de rodapé</h2>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referências</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-almada-mda" class="csl-entry" role="listitem">
+Almada, Carlos. 2023. <em>Musical Variation: Toward a Transformational Perspective</em>. Cham: Springer Verlag.
+</div>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Notas de rodapé</h2>
 
 <ol>
 <li id="fn1"><p>Isso significa que são irrelevantes tanto as distâncias temporais entre o último ataque de uma determinada c/r palavra e o primeiro da c/r palavra seguinte, quanto os intervalos melódicos entre esses dois pontos de articulação.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
@@ -382,6 +407,7 @@ Figura&nbsp;9: Exemplo de aplicação da Estratégia 1: geração de uma possív
 <li id="fn8"><p>A mesma observação feita em (3) sobre a seleção de resultados aplica-se aqui<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn9"><p>Uma possível alternativa a esta etapa (em caso de grandes sequências, com 10 ou mais acordes) poderia ser subdividir o número total de acordes a se gerar em segmentos de menor extensão – como “frases harmônicas” – de maneira a se ter mais controle sobre as relações de coerência e, assim, favorecer uma melhor adaptação da harmonia criada às intenções composicionais<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn10"><p>Uma etapa adicional – optativa, claro – poderia ser a criação de um arranjo (ou seja, uma <em>concretização</em>) da melodia harmonizada. Assim, a alternância de texturas diversas, a inclusão de linhas secundárias, de dinâmica, sinais de agógica e expressão etc. podem ser acionados em prol de um resultado esteticamente mais próximo de uma composição “convencional”.<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn11"><p>Para descrições e maiores detalhes sobre MDA e MDA*, ver <span class="citation" data-cites="almada-mda">Almada (<a href="#ref-almada-mda" role="doc-biblioref">2023</a>)</span>.<a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
