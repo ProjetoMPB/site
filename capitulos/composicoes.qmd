@@ -81,9 +81,11 @@ Um vídeo dessa obra, na interpretação da pianista Tamara Ujakova, encontra-se
 
 ----
 
-**Estratégia 2** -- o "problema" da ausência de controle sobre a estrutura musical em alto nível foi recentemente equacionado com a idealização da segunda estratégia de composição assistida. Podendo também ser denominada uma "modelagem derivativa-estilística", envolve, além dos processos markovianos da estratégia 1 (em menor escala, como veremos), uma concepção evolutiva-musical. Isso se dá a partir de uma adptação simplificadora do Modelo de Análise Derivativa (MDA, na sigla em inglês), adaptação essa identificada pelo acrônimo MDA*.^[Para descrições e maiores detalhes sobre MDA e MDA*, ver @almada-mda.] 
+**Estratégia 2** -- o "problema" da ausência de controle sobre a estrutura musical em alto nível foi recentemente equacionado com a idealização da segunda estratégia de composição assistida. Podendo também ser denominada uma "modelagem derivativa-estilística", envolve, além dos processos markovianos da estratégia 1 (em menor escala, como veremos), uma concepção evolutiva-musical. Isso se dá a partir de uma adptação simplificada do Modelo de Análise Derivativa (MDA, na sigla em inglês), adaptação esta identificada pelo acrônimo MDA*.^[Para descrições e maiores detalhes sobre MDA e MDA*, ver @almada-mda.] As bases dessa ideia são apresentadas a seguir.
 
-Essencialmente, a estratégia 2 é baseada na ideia de *microtransformações parcimoniosas* (MTP). Definimos uma MTP como uma espécie de "edição" aplicada a um dos componentes de uma dada c- ou  r-palavra a partir de alguma operação transformacional. Em outros termos, a MTP afeta uma r-letra ou uma c-letra isolada da estrutura referencial, sem 
+**Microtransformações parcimoniosas** (MTP)
 
+O conceito de *microtransformação parcimoniosa (doravante abreviado como MTP) pode ser definido como uma espécie de "edição" aplicada a um dos componentes de uma dada c- ou  r-palavra, deixando os demais componentes inalterados. O prefixo "micro" se refere assim ao fato de que a transformação age no *interior* da palavra em questão e afeta um elemento isolado. Por outro lado, o adjetivo "parcimonioso" informa que a transformação operada é mínima, o que faz com que a palavra variante seja minimamente distinta da referencial. O sistema registra cerca de 20 MTPs (distribuídas pelos domínios das alturas e do ritmo), cujo detalhamente omitiremos neste capítulo.^[Planeja-se para um futuro próximo a produção de um artigo com a descrição detalhada dessas operações.] Para os presentes propósitos, basta apresentar sua ideia geral. A [@fig-comp10] traz dois simples exemplos de MTPs.
 
+![Exemplos de MTPs aplicadas em c-palavra (esquerda) e r-palavra (direita).](../figs/composição-10.png){width=80% #fig-comp10}
 
