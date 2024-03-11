@@ -21,7 +21,7 @@ Em sua versão atual, o processo composicional dentro do sistema é baseado em t
 
 Um simples exemplo ilustrará a lógica básica por trás do funcionamento dos três algoritmos. Considere uma matriz de transição probabilística com apenas quatro estados -- w, x, y, z -- e suas respectivas probabilidades de transição computadas ([@fig-comp01]). Assumamos agora que desejamos gerar uma sequência de três símbolos a partir da "semente" y, através da lógica básica dos algoritmos-compositores. Isso significa que precisaremos aplicar duas iterações (já que a "semente" y será o primeiro símbolo da sequência). Na primeira iteração, o algoritmo faz um sorteio *ponderado* das probabilidades de transição referentes à linha "y".^[Isto é, os valores maiores de probabilidade terão maior "chance" de serem escolhidos do que os menores. Contudo, isso *não* significa que uma probabilidade maior *sempre* será selecionada. Eventualmente, "supresas" nesse sentido podem ocorrer, o que é saudável para os propósitos composicionais e evita o determinismo do processo, algo que seria bastante indesejável em termos musicais.] A transição escolhida ("x" no exemplo) se torna a nova "semente" para uma reaplicação do algoritmo, que retorna desta vez "z", completando a extensão previamente estabelecida de três símbolos para a sequência (evidentemente, o processo poderia se estender indefinidamente, a depender do número de iterações desejado). 
 
-![Exemplo simplifficado da lógica dos algoritmos-compositores.](../figs/composição-01.png){width=60% #fig-comp01}
+![Exemplo simplifficado da lógica dos algoritmos-compositores.](../figs/composição-01.png){width=50% #fig-comp01}
 
 Os algoritomos-compositores empregados no sistema são descritos sucintamente a seguir:
 
