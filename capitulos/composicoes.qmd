@@ -77,7 +77,7 @@ Um possível protocolo composicional com essa estratégia é descrito a seguir (
 
 A estratégia 1 foi empregada pela primeira vez sistematicamente por Carlos Almada, em 2021, na composição de um ciclo de 14 pequenas peças para piano intitulado *Jobiniaturas*. Como o título sugere, a obra se referencia ao *corpus* Jobim (o primeiro a ser analisado no Projeto MPB). As 14 miniaturas evocam, cada qual à sua maneira, aspectos do universo jobiniano, na concepção particular de Almada. As peças alternam centros tonais (ou modais) maiores e menores, descrevendo uma trajetória escalar diatônica: Dó, Ré, Mi, Fá, Sol, Lá e Si. 
 
-Um vídeo dessa obra, na interpretação da pianista Tamara Ujakova, encontra-se disponível em https://www.youtube.com/watch?v=nhcpmUxKeKI.
+Um vídeo dessa obra, na interpretação da pianista Tamara Ujakova, encontra-se disponível em [https://www.youtube.com/watch?v=nhcpmUxKeKI](utl)
 
 ----
 
@@ -85,7 +85,10 @@ Um vídeo dessa obra, na interpretação da pianista Tamara Ujakova, encontra-se
 
 **Microtransformações parcimoniosas** (MTP)
 
-O conceito de *microtransformação parcimoniosa (doravante abreviado como MTP) pode ser definido como uma espécie de "edição" aplicada a um dos componentes de uma dada c- ou  r-palavra, deixando os demais componentes inalterados. O prefixo "micro" se refere assim ao fato de que a transformação age no *interior* da palavra em questão e afeta um elemento isolado. Por outro lado, o adjetivo "parcimonioso" informa que a transformação operada é mínima, o que faz com que a palavra variante seja minimamente distinta da referencial. O sistema registra cerca de 20 MTPs (distribuídas pelos domínios das alturas e do ritmo), cujo detalhamente omitiremos neste capítulo.^[Planeja-se para um futuro próximo a produção de um artigo com a descrição detalhada dessas operações.] Para os presentes propósitos, basta apresentar sua ideia geral. A [@fig-comp10] traz dois simples exemplos de MTPs.
+O conceito de *microtransformação parcimoniosa* (doravante abreviado como MTP) pode ser definido como uma espécie de "edição" aplicada a um dos componentes de uma dada c- ou  r-palavra, deixando os demais componentes inalterados. O prefixo "micro" se refere assim ao fato de que a transformação age no *interior* da palavra em questão e afeta um elemento isolado. Por outro lado, o adjetivo "parcimonioso" informa que a transformação operada é mínima, o que faz com que a palavra variante seja minimamente distinta da referencial. O sistema registra cerca de 20 MTPs (distribuídas pelos domínios das alturas e do ritmo), cujo detalhamente omitiremos neste capítulo.^[Planeja-se para um futuro próximo a produção de um artigo com a descrição detalhada dessas operações.] Para os presentes propósitos, basta apresentar sua ideia geral. A [@fig-comp10] traz dois simples exemplos de MTPs.
 
 ![Exemplos de MTPs aplicadas em c-palavra (esquerda) e r-palavra (direita).](../figs/composição-10.png){width=80% #fig-comp10}
 
+Um algoritmo específico, intitulado *SeleArt.py*, aplica diversas MTPs a uma c- ou r-palavra referencial, produzindo variantes próximas (ou parcimoniosas). A ideia desse programa é fazer com que o usuário aja como um agricultor que seleciona a cada geração de sua criação animal/vegetal os espécimes mais vantajosos para seus propósitos (sabores, cores, tamanhos etc.). Em outros termos, o algoritmo busca replicar, no âmbito das c/r palavras, a lógica subjacente da *seleção artificial* biológica. Assim, a cada geração, o usuário/compositor seleciona a variante mais favorável (para seus propósitos, sejam quais forem), retendo-a para uma reaplicação do algoritmo, e assim por diante, criando assim verdadeiras linhagens "direcionadas" a algum objetivo composicional. A [@fig-comp11] esquematiza o processo. 
+
+![Exemplos de MTPs aplicadas em c-palavra (esquerda) e r-palavra (direita).](../figs/composição-11.png){width=80% #fig-comp11}
