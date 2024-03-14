@@ -45,6 +45,7 @@ Os algoritomos-compositores empregados no sistema são descritos sucintamente a 
 Até o presente momento, duas estratégias de composição assistida dentro do sistema foram idealizadas, descritas sucintamente como se segue:
 
 **Estratégia 1** -- é a que mais se utiliza dos dados estatísticos analisados. Sua principal limitação é ausência de controle para construções de estruturas relativamente complexas. Assim, é idealmente empregada em composições aforísticas, ou seja de curta duração.^[Recentente, a composição com essa estratégia foi usada como atividade de avaliação para os alunos de uma disciplina da grade do Pós-Graduação em Música da UFRJ, ministrada por Carlos Almada, Hugo Carvalho e Cecília Saraiva. Os resultados foram extremamente satisfatórios.]
+
 Um possível protocolo composicional com essa estratégia é descrito a seguir (imaginamos que outras possibilidades possam ser eventualmente propostas):
 
 (1) Selecionar o *corpus* de interesse (seja, por exemplo, JOBIM).
@@ -89,6 +90,15 @@ O conceito de *microtransformação parcimoniosa* (doravante abreviado como MTP)
 
 ![Exemplos de MTPs aplicadas em c-palavra (esquerda) e r-palavra (direita).](../figs/composicao-10.png){width=80% #fig-comp10}
 
-Um algoritmo específico, intitulado *SeleArt.py*, aplica diversas MTPs a uma c- ou r-palavra referencial, produzindo variantes próximas (ou parcimoniosas). A ideia desse programa é fazer com que o usuário aja como um agricultor que seleciona a cada geração de sua criação animal/vegetal os espécimes mais vantajosos para seus propósitos (sabores, cores, tamanhos etc.). Em outros termos, o algoritmo busca replicar, no âmbito das c/r palavras, a lógica subjacente da *seleção artificial* biológica. Assim, a cada geração, o usuário/compositor seleciona a variante mais favorável (para seus propósitos, sejam quais forem), retendo-a para uma reaplicação do algoritmo, e assim por diante, criando assim verdadeiras linhagens "direcionadas" a algum objetivo composicional. A [@fig-comp11] esquematiza o processo. 
+Um algoritmo específico, intitulado *SeleArt.py*, aplica diversas MTPs a uma c- ou r-palavra referencial, produzindo variantes próximas (ou parcimoniosas). A ideia desse programa é fazer com que o usuário aja como um agricultor que seleciona a cada geração de sua criação animal/vegetal os espécimes mais vantajosos para seus propósitos (sabores, cores, tamanhos etc.). Em outros termos, o algoritmo busca replicar, no âmbito das c/r palavras, a lógica subjacente da *seleção artificial* biológica. Assim, a cada geração, o usuário/compositor seleciona a variante mais favorável (para seus propósitos, sejam eles quais forem), retendo-a para uma reaplicação do algoritmo, e assim por diante, criando assim verdadeiras linhagens "direcionadas" a algum objetivo composicional. A [@fig-comp11] esquematiza o processo. 
 
 ![Exemplos de MTPs aplicadas em c-palavra (esquerda) e r-palavra (direita).](../figs/composicao-11.png){width=80% #fig-comp11}
+
+Como o que foi feito com a estratégia 1, um protocolo para composição assistida pode ser aqui também definido:
+
+(1) Selecionar o *corpus* de interesse.
+
+(2) Selecionar uma peça desse *corpus* que se deseje modelar. Considere o trecho hipotético apresentado na [@fig-comp12] como um exemplo.
+
+![Exemplo hipotético de uma melodia-modelo.](../figs/composicao-12.png){width=80% #fig-comp12}
+
