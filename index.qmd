@@ -44,3 +44,11 @@ Antes de começar a leitura, veja [aqui](capitulos/logo.qmd) o nosso logotipo em
 [![](logos/em-ufrj.png){width=200}](https://musica.ufrj.br/) [![](logos/ppgm-ufrj.png){width=150}](https://ppgm.musica.ufrj.br/) [![](logos/cnpq.png){width=150}](https://www.gov.br/cnpq/pt-br)
 
 [![](logos/musmat.png){width=200}](https://musmat.org/)
+
+## Visitantes
+Gerado por [RevolverMaps](https://www.revolvermaps.com/)
+
+<div style="display:inline-block;width:300px;">
+<script type="text/javascript" src="//rf.revolvermaps.com/0/0/7.js?i=58pp6ntn8ww&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;br=10&amp;sx=0" async="async">
+</script>
+</div>
