@@ -308,7 +308,8 @@ Figura&nbsp;4: Esquema básico do algoritmo <em>corparoKov_contorno.py</em> e um
 <section id="estratégias-composicionais" class="level3">
 <h3 class="anchored" data-anchor-id="estratégias-composicionais">ESTRATÉGIAS COMPOSICIONAIS</h3>
 <p>Até o presente momento, duas estratégias de composição assistida dentro do sistema foram idealizadas, descritas sucintamente como se segue:</p>
-<p><strong>Estratégia 1</strong> – é a que mais se utiliza dos dados estatísticos analisados. Sua principal limitação é ausência de controle para construções de estruturas relativamente complexas. Assim, é idealmente empregada em composições aforísticas, ou seja de curta duração.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> Um possível protocolo composicional com essa estratégia é descrito a seguir (imaginamos que outras possibilidades possam ser eventualmente propostas):</p>
+<p><strong>Estratégia 1</strong> – é a que mais se utiliza dos dados estatísticos analisados. Sua principal limitação é ausência de controle para construções de estruturas relativamente complexas. Assim, é idealmente empregada em composições aforísticas, ou seja de curta duração.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></p>
+<p>Um possível protocolo composicional com essa estratégia é descrito a seguir (imaginamos que outras possibilidades possam ser eventualmente propostas):</p>
 <ol type="1">
 <li><p>Selecionar o <em>corpus</em> de interesse (seja, por exemplo, JOBIM).</p></li>
 <li><p>Determinar o número de c/r palavras que formará a peça a ser composta (consideremos, como uma breve ilustração, que a peça de nosso exemplo terá cinco c/r palavras).</p></li>
@@ -396,7 +397,7 @@ Figura&nbsp;10: Exemplos de MTPs aplicadas em c-palavra (esquerda) e r-palavra (
 </figcaption>
 </figure>
 </div>
-<p>Um algoritmo específico, intitulado <em>SeleArt.py</em>, aplica diversas MTPs a uma c- ou r-palavra referencial, produzindo variantes próximas (ou parcimoniosas). A ideia desse programa é fazer com que o usuário aja como um agricultor que seleciona a cada geração de sua criação animal/vegetal os espécimes mais vantajosos para seus propósitos (sabores, cores, tamanhos etc.). Em outros termos, o algoritmo busca replicar, no âmbito das c/r palavras, a lógica subjacente da <em>seleção artificial</em> biológica. Assim, a cada geração, o usuário/compositor seleciona a variante mais favorável (para seus propósitos, sejam quais forem), retendo-a para uma reaplicação do algoritmo, e assim por diante, criando assim verdadeiras linhagens “direcionadas” a algum objetivo composicional. A <a href="#fig-comp11" class="quarto-xref">Figura&nbsp;11</a> esquematiza o processo.</p>
+<p>Um algoritmo específico, intitulado <em>SeleArt.py</em>, aplica diversas MTPs a uma c- ou r-palavra referencial, produzindo variantes próximas (ou parcimoniosas). A ideia desse programa é fazer com que o usuário aja como um agricultor que seleciona a cada geração de sua criação animal/vegetal os espécimes mais vantajosos para seus propósitos (sabores, cores, tamanhos etc.). Em outros termos, o algoritmo busca replicar, no âmbito das c/r palavras, a lógica subjacente da <em>seleção artificial</em> biológica. Assim, a cada geração, o usuário/compositor seleciona a variante mais favorável (para seus propósitos, sejam eles quais forem), retendo-a para uma reaplicação do algoritmo, e assim por diante, criando assim verdadeiras linhagens “direcionadas” a algum objetivo composicional. A <a href="#fig-comp11" class="quarto-xref">Figura&nbsp;11</a> esquematiza o processo.</p>
 <div id="fig-comp11" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-comp11-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -404,6 +405,21 @@ Figura&nbsp;10: Exemplos de MTPs aplicadas em c-palavra (esquerda) e r-palavra (
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-comp11-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figura&nbsp;11: Exemplos de MTPs aplicadas em c-palavra (esquerda) e r-palavra (direita).
+</figcaption>
+</figure>
+</div>
+<p>Como o que foi feito com a estratégia 1, um protocolo para composição assistida pode ser aqui também definido:</p>
+<ol type="1">
+<li><p>Selecionar o <em>corpus</em> de interesse.</p></li>
+<li><p>Selecionar uma peça desse <em>corpus</em> que se deseje modelar. Considere o trecho hipotético apresentado na <a href="#fig-comp12" class="quarto-xref">Figura&nbsp;12</a> como um exemplo.</p></li>
+</ol>
+<div id="fig-comp12" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-comp12-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../figs/composicao-12.png" class="img-fluid figure-img" style="width:80.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-comp12-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;12: Exemplo hipotético de uma melodia-modelo.
 </figcaption>
 </figure>
 </div>
