@@ -94,7 +94,9 @@ Um algoritmo específico, intitulado *SeleArt.py*, aplica diversas MTPs a uma c-
 
 ![Exemplos de MTPs aplicadas em c-palavra (esquerda) e r-palavra (direita).](../figs/composicao-11.png){width=80% #fig-comp11}
 
-Como o que foi feito com a estratégia 1, um protocolo para composição assistida pode ser aqui também definido:
+Como o que foi feito com a estratégia 1, protocolos podem ser ser também definidos. No entanto, dadas as características especiais da segunda estratégia, consideraremos duas fases: (a) modelagem da estrutura; (b) composição propriamente dita.
+
+O protocolo de modelagem considera a estrutura formal e as relações derivativas da melodia (englobando alturas e ritmo).^[A modelagem da estrutura harmônica está atualmente em estudos e provavelmente será em breve implementada. Assim, provisoriamente, o tratamento da harmonia se processa na estratégia 2 de maneira consideravelmente mais livre do que na primeira estratégia composicional, como veremos.] Envolve as seguintes etapas:
 
 (1) Selecionar o *corpus* de interesse.
 
@@ -108,4 +110,6 @@ Como o que foi feito com a estratégia 1, um protocolo para composição assisti
 
 (4) Codificar a melodia (alturas e ritmos) de acordo com o modelo de Filtragem Melódica,^[Ver capítulo sobre os modelos teóricos do projeto.] criando assim, respectivamente, uma c-palavra e uma r-palavra para cada segmento ([@fig-comp14]).
 
-![Codificação dos segmentos da [@fig-comp13].](../figs/composicao-14.png){width=80% #fig-comp14}
+![Codificação dos segmentos da [@fig-comp13], formando c/r palavras.](../figs/composicao-14.png){width=80% #fig-comp14}
+
+
