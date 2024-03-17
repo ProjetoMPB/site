@@ -102,3 +102,10 @@ Como o que foi feito com a estratégia 1, um protocolo para composição assisti
 
 ![Exemplo hipotético de uma melodia-modelo.](../figs/composicao-12.png){width=80% #fig-comp12}
 
+(3) Segmentar o trecho selecionado de modo a estabelecer uma estrutura de c/r palavras ([@fig-comp13]).
+
+![Segmentação do exemplo da [@fig-comp12].](../figs/composicao-13.png){width=80% #fig-comp13}
+
+(4) Codificar a melodia (alturas e ritmos) de acordo com o modelo de Filtragem Melódica,^[Ver capítulo sobre os modelos teóricos do projeto.] criando assim, respectivamente, uma c-palavra e uma r-palavra para cada segmento ([@fig-comp14]).
+
+![Codificação dos segmentos da [@fig-comp13].](../figs/composicao-14.png){width=80% #fig-comp14}
