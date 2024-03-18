@@ -464,7 +464,7 @@ Figura&nbsp;15: Exemplos hipotéticos de replicações “fenotípicas”.
 </figure>
 </div>
 <ol start="6" type="1">
-<li>Finalmente, considerar as c-palavras e r-palavras como unidades autônomas que, eventualmente, “evoluem” de maneiras independentes umas das outras. Tomando como metáfora os fenômenos biológicos (assim como foi feito na etapa anterior), denominamos o mapeamento das transformações nesse nível de derivações “genotípicas” (que eventualmente também indicarão replicações). A representação dessas relações se dá por intermédio de um esquema em árvore genealógica (uma para cada domínio, <em>c</em> e <em>r</em>), identificando as relações derivativas e replicativas. A <a href="#fig-comp16" class="quarto-xref">Figura&nbsp;16</a> apresenta um breve exemplo das duas árvores.</li>
+<li>Finalmente, considerar as c-palavras e r-palavras como unidades autônomas que, eventualmente, “evoluem” de maneiras independentes em relação a outras. Tomando como metáfora os fenômenos biológicos (assim como foi feito na etapa anterior), denominamos o mapeamento das transformações nesse nível de derivações “genotípicas” (que eventualmente também indicarão replicações). A representação dessas relações se dá por intermédio de um esquema em árvore genealógica (uma para cada domínio, <em>c</em> e <em>r</em>), identificando as relações derivativas e replicativas. A <a href="#fig-comp16" class="quarto-xref">Figura&nbsp;16</a> apresenta um breve exemplo das duas árvores. Os números entre parênteses ao lado de cada seta indicam os números de “edições” necessárias para transformar uma dada palavra “pai” em seu “filho”.<a href="#fn15" class="footnote-ref" id="fnref15" role="doc-noteref"><sup>15</sup></a> Nesse sentido, a indicação (0) significa que não houve transformação, e sim replicação da c/r palavra referencial.</li>
 </ol>
 <div id="fig-comp16" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -477,10 +477,10 @@ Figura&nbsp;16: Exemplos hipotéticos de relações “genotípicas”.
 </figure>
 </div>
 <hr>
-<p>Concluída a primeira fase (modelagem), passa-se então à segunda, a da composição assistida. O protocolo dessa fase consiste nas seguintes etapas:</p>
+<p>Concluída a primeira fase (modelagem), passa-se então à segunda, a composição assistida. O protocolo dessa fase consiste nas seguintes etapas:</p>
 <ol type="1">
-<li><p>Gerar uma r-palavra-semente para todo o processo<a href="#fn15" class="footnote-ref" id="fnref15" role="doc-noteref"><sup>15</sup></a> por intermédio do algoritmo-compositor <em>corporakov_ritmo.py</em>. O <em>corpus</em> referencial deverá ser, evidentemente, o mesmo da obra selecionada para modelagem. O usuário pode escolher livrevemente o número de r-letras de sua palavra-semente, bem como descartar r-palavras produzidas pelo algoritmo que porventura não lhe convenham, até a obtenção de uma unidade ideal.</p></li>
-<li></li>
+<li><p>Gerar uma r-palavra-semente para todo o processo<a href="#fn16" class="footnote-ref" id="fnref16" role="doc-noteref"><sup>16</sup></a> por intermédio do algoritmo-compositor <em>corporakov_ritmo.py</em>. O <em>corpus</em> referencial deverá ser, evidentemente, o mesmo da obra selecionada para modelagem. O usuário pode escolher livrevemente o número de r-letras de sua palavra-semente, bem como descartar r-palavras produzidas pelo algoritmo que porventura não lhe convenham, até a obtenção de uma unidade ideal.</p></li>
+<li><p>Gerar uma c-palavra correspondente à r-palavra-semente com a qual – importante – deve compartilhar a cardinalidade.</p></li>
 </ol>
 
 
@@ -509,7 +509,8 @@ Almada, Carlos. 2023. <em>Musical Variation: Toward a Transformational Perspecti
 <li id="fn12"><p>Planeja-se para um futuro próximo a produção de um artigo com a descrição detalhada dessas operações.<a href="#fnref12" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn13"><p>A modelagem da estrutura harmônica está atualmente em estudos e provavelmente será em breve implementada. Assim, provisoriamente, o tratamento da harmonia se processa na estratégia 2 de maneira consideravelmente mais livre do que na primeira estratégia composicional, como veremos.<a href="#fnref13" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn14"><p>Ver capítulo sobre os modelos teóricos do projeto.<a href="#fnref14" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn15"><p>Formando uma unidade referencial que pode ser aproximadamente associada à ideia de <em>Grundgestalt</em>, de Arnold Schoenberg. Para maiores detalhes sobre o conceito, ver, entre outras fontes, <span class="citation" data-cites="almada-mda">Almada (<a href="#ref-almada-mda" role="doc-biblioref">2023</a>)</span>.<a href="#fnref15" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn15"><p>A partir, claro, de hipóteses estabelecidas por quem analisa.<a href="#fnref15" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn16"><p>Formando uma unidade referencial que pode ser aproximadamente associada à ideia de <em>Grundgestalt</em>, de Arnold Schoenberg. Para maiores detalhes sobre o conceito, ver, entre outras fontes, <span class="citation" data-cites="almada-mda">Almada (<a href="#ref-almada-mda" role="doc-biblioref">2023</a>)</span>.<a href="#fnref16" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
