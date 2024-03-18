@@ -114,11 +114,11 @@ O protocolo de modelagem considera a estrutura formal e as relações derivativa
 
 (5) Com a definição das c/r palavras, mapear as replicações "fenotípicas" que por ventura existam na peça modelada. Nos termos da estratégia, isso significa identificar c/r palavras idênticas (considerando, claro, o nível das codificações realizadas). Ou seja, as unidades melódico-rítmicas são aqui tratadas como vinculadas em um todo homogêneo.  A [@fig-comp15] exemplifica como a análise das replicações é feita, considerando hipoteticamente as identidades entre as unidades 1/2 e 4/6.
 
-![Exemplos hipotéticos de replicações "fenotípicas".](../figs/composicao-15.png){width=40% #fig-comp15}
+![Exemplos hipotéticos de replicações "fenotípicas".](../figs/composicao-15.png){width=30% #fig-comp15}
 
 (6) Finalmente, considerar as c-palavras e r-palavras como unidades autônomas que, eventualmente, "evoluem" de maneiras independentes umas das outras. Tomando como metáfora os fenômenos biológicos (assim como foi feito na etapa anterior), denominamos o mapeamento das transformações nesse nível de derivações "genotípicas" (que eventualmente também indicarão replicações). A representação dessas relações se dá por intermédio de um esquema em árvore genealógica (uma para cada domínio, *c* e *r*), identificando as relações derivativas e replicativas. A [@fig-comp16] apresenta um breve exemplo das duas árvores.
 
-![Exemplos hipotéticos de relações "genotípicas".](../figs/composicao-16.png){width=60% #fig-comp16}
+![Exemplos hipotéticos de relações "genotípicas".](../figs/composicao-16.png){width=50% #fig-comp16}
 
 ---
 
