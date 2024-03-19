@@ -124,6 +124,10 @@ O protocolo de modelagem considera a estrutura formal e as relações derivativa
 
 Concluída a primeira fase (modelagem), passa-se então à segunda, a composição assistida. O protocolo dessa fase consiste nas seguintes etapas:
 
-(1) Gerar uma r-palavra-semente para todo o processo^[Formando uma unidade referencial que pode ser aproximadamente associada à ideia de *Grundgestalt*, de Arnold Schoenberg. Para maiores detalhes sobre o conceito, ver, entre outras fontes, @almada-mda.] por intermédio do algoritmo-compositor *corporakov_ritmo.py*. O *corpus* referencial deverá ser, evidentemente, o mesmo da obra selecionada para modelagem. O usuário pode escolher livrevemente o número de r-letras de sua palavra-semente, bem como descartar r-palavras produzidas pelo algoritmo que porventura não lhe convenham, até a obtenção de uma unidade ideal.
+(1) Gerar uma r-palavra-semente -- a unidade rítmica referencial para o processo composicional-derivativo -- por intermédio do algoritmo-compositor *corporakov_ritmo.py*. O *corpus* de *input* deverá ser, evidentemente, o mesmo da obra selecionada para modelagem. O usuário pode escolher livremente o número de r-letras de sua palavra-semente, bem como descartar r-palavras produzidas pelo algoritmo que porventura não lhe convenham, até a obtenção de uma unidade ideal. Seja o exemplo da [@fig-comp17].
+
+![Exemplo de geração de uma r-palavra referencial.](../figs/composicao-17.png){width=50% #fig-comp17}
 
 (2) Gerar uma c-palavra correspondente à r-palavra-semente com a qual -- importante -- deve compartilhar a cardinalidade.
+
+^[Formando uma unidade referencial que pode ser aproximadamente associada à ideia de *Grundgestalt*, de Arnold Schoenberg. Para maiores detalhes sobre o conceito, ver, entre outras fontes, @almada-mda.]
