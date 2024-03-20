@@ -134,8 +134,8 @@ Concluída a primeira fase (modelagem), passa-se então à segunda, a composiç�
 
 (3) Contextualizar metricamente a unidade referencial "1" (por exemplo, como mostra a [@fig-comp19]).
 
-![Exemplo de contextualização métrica da unidade "1".](../figs/composicao-19.png){width=60% #fig-comp19}
+![Exemplo de contextualização métrica da unidade "1".](../figs/composicao-19.png){width=40% #fig-comp19}
 
 (4) Gerar uma "progressão-semente", ou seja, uma breve progressão (com dois a cinco acordes) de maneira a dar suporte harmônico para o trecho correspondente à unidade "1" e que também possa servir de base para a estrutura harmônica da peça a ser composta. Essa progressão deverá ser criada por intermédio do algoritmo-compositor *corporaKov2.py*, tomando como *input* o *corpus* ao qual pertence à peça modelada. A escolha do acorde-semente pelo usuário é, claro, livre. De modo semelhante ao que se observa nas etapas anteriores, a geração da progressão-semente poderá ocorrer após um número indefinido de tentativas, até que o resultado seja adequado às intenções composicionais. A [@fig-comp20] ilustra essa etapa com um exemplo, o que inclui a contextualização métrica da progressão criada.
 
-![Exemplo de contextualização métrica da unidade "1".](../figs/composicao-20.png){width=60% #fig-comp20}
+![Exemplo de geração de progressão-semente.](../figs/composicao-20.png){width=70% #fig-comp20}
