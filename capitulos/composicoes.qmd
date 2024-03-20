@@ -128,6 +128,14 @@ Concluída a primeira fase (modelagem), passa-se então à segunda, a composiç�
 
 ![Exemplo de geração de uma r-palavra referencial.](../figs/composicao-17.png){width=80% #fig-comp17}
 
-(2) Gerar, por intermédio do algoritmo-compositor *corporakov_contorno.py*, uma c-palavra correspondente à r-palavra-semente com a qual -- importante destacar -- deve compartilhar a cardinalidade, de maneira que ambas possam se integrar em uma unidade referencial "fenotípica".^[Tal unidade pode ser aproximadamente associada à ideia de *Grundgestalt*, de Arnold Schoenberg. Para maiores detalhes sobre o conceito, ver, entre outras fontes, @almada-mda.] A [@fig-comp18] propõe uma alternativa para o exemplo da [@fig-comp17], incluindo a acoplagem das duas palavras referenciais.
+(2) Gerar, por intermédio do algoritmo-compositor *corporakov_contorno.py*, uma c-palavra correspondente à r-palavra-semente com a qual -- importante destacar -- deve compartilhar a cardinalidade, de maneira que ambas possam se integrar em uma unidade referencial "fenotípica", que será numerada com "1".^[Tal unidade pode ser aproximadamente associada à ideia de *Grundgestalt*, de Arnold Schoenberg. Para maiores detalhes sobre o conceito, ver, entre outras fontes, @almada-mda.] A [@fig-comp18] propõe uma alternativa para o exemplo da [@fig-comp17], incluindo a acoplagem das duas palavras referenciais.
 
-![Exemplo de geração de uma c-palavra referencial compatível com a r-palavra da [@fig-comp17], com a qual é acoplada, formando a "Grundgestalt" da peça a ser composta.](../figs/composicao-18.png){width=80% #fig-comp18}
+![Exemplo de geração de uma c-palavra referencial compatível com a r-palavra da [@fig-comp17], com a qual é acoplada, formando a "Grundgestalt" abstrata da peça a ser composta.](../figs/composicao-18.png){width=80% #fig-comp18}
+
+(3) Contextualizar metricamente a unidade referencial "1" (por exemplo, como mostra a [@fig-comp19]).
+
+![Exemplo de contextualização métrica da unidade "1".](../figs/composicao-19.png){width=60% #fig-comp19}
+
+(4) Gerar uma "progressão-semente", ou seja, uma breve progressão (com dois a cinco acordes) de maneira a dar suporte harmônico para o trecho correspondente à unidade "1" e que também possa servir de base para a estrutura harmônica da peça a ser composta. Essa progressão deverá ser criada por intermédio do algoritmo-compositor *corporaKov2.py*, tomando como *input* o *corpus* ao qual pertence à peça modelada. A escolha do acorde-semente pelo usuário é, claro, livre. De modo semelhante ao que se observa nas etapas anteriores, a geração da progressão-semente poderá ocorrer após um número indefinido de tentativas, até que o resultado seja adequado às intenções composicionais. A [@fig-comp20] ilustra essa etapa com um exemplo, o que inclui a contextualização métrica da progressão criada.
+
+![Exemplo de contextualização métrica da unidade "1".](../figs/composicao-20.png){width=60% #fig-comp20}
