@@ -14,7 +14,9 @@ A estrutura deste projeto foi pensada como uma sequência de artigos (ou capítu
 * [Os *corpora* de análise](capitulos/corpora-mpb.qmd)
 * [Modelos teóricos](capitulos/modelos-teoricos.qmd)
 * [Metodologia](capitulos/metodologia.qmd)
-* Parâmetros e métricas
+* Atributos primários 
+* Atributos secundários
+* Atributos terciários
 * Entropia e probabilidade
 * Cadeias de Markov
 * Aplicações composicionais
