@@ -142,4 +142,6 @@ Concluída a primeira fase (modelagem), passa-se então à segunda, a composiç�
 
 (5) Construir uma linha melódica concreta para a unidade "1", escolhendo notas que sejam coerentes com os respectivos acordes da progressão-semente e que obedeçam à sequência pré-estabelecidade c-letras. Um possível exemplo é apresentado na [@fig-comp21].
 
-![Uma possível linha melódica para o exemplo da [@fig-comp20].](../figs/composicao-21.png){width=70% #fig-comp21}
+![Uma possível linha melódica para o exemplo da [@fig-comp20].](../figs/composicao-21.png){width=50% #fig-comp21}
+
+(6) A partir daí, seguir linearmente com a composição das demais unidades. Nesse processo, 
