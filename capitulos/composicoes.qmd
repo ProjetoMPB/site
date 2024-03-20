@@ -126,8 +126,8 @@ Concluída a primeira fase (modelagem), passa-se então à segunda, a composiç�
 
 (1) Gerar uma r-palavra-semente -- a unidade rítmica referencial para o processo composicional-derivativo -- por intermédio do algoritmo-compositor *corporakov_ritmo.py*. O *corpus* de *input* deverá ser, evidentemente, o mesmo da obra selecionada para modelagem. O usuário pode escolher livremente o número de r-letras de sua palavra-semente, bem como descartar r-palavras produzidas pelo algoritmo que porventura não lhe convenham, até a obtenção de uma unidade ideal. Seja o exemplo da [@fig-comp17].
 
-![Exemplo de geração de uma r-palavra referencial.](../figs/composicao-17.png){width=50% #fig-comp17}
+![Exemplo de geração de uma r-palavra referencial.](../figs/composicao-17.png){width=80% #fig-comp17}
 
-(2) Gerar uma c-palavra correspondente à r-palavra-semente com a qual -- importante -- deve compartilhar a cardinalidade.
+(2) Gerar, por intermédio do algoritmo-compositor *corporakov_contorno.py*, uma c-palavra correspondente à r-palavra-semente com a qual -- importante destacar -- deve compartilhar a cardinalidade, de maneira que ambas possam se integrar em uma unidade referencial "fenotípica".^[Tal unidade pode ser aproximadamente associada à ideia de *Grundgestalt*, de Arnold Schoenberg. Para maiores detalhes sobre o conceito, ver, entre outras fontes, @almada-mda.] A [@fig-comp18] propõe uma alternativa para o exemplo da [@fig-comp17], incluindo a acoplagem das duas palavras referenciais.
 
-^[Formando uma unidade referencial que pode ser aproximadamente associada à ideia de *Grundgestalt*, de Arnold Schoenberg. Para maiores detalhes sobre o conceito, ver, entre outras fontes, @almada-mda.]
+![Exemplo de geração de uma c-palavra referencial compatível com a r-palavra da [@fig-comp17], com a qual é acoplada, formando a "Grundgestalt" da peça a ser composta.](../figs/composicao-18.png){width=80% #fig-comp18}
