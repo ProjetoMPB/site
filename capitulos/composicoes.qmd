@@ -140,8 +140,11 @@ Concluída a primeira fase (modelagem), passa-se então à segunda, a composiç�
 
 ![Exemplo de geração de progressão-semente.](../figs/composicao-20.png){width=70% #fig-comp20}
 
-(5) Construir uma linha melódica concreta para a unidade "1", escolhendo notas que sejam coerentes com os respectivos acordes da progressão-semente e que obedeçam à sequência pré-estabelecidade c-letras. Um possível exemplo é apresentado na [@fig-comp21].
+(5) Construir uma linha melódica concreta para a unidade "1", escolhendo notas que sejam coerentes com os respectivos acordes da progressão-semente e que obedeçam à sequência pré-estabelecidade c-letras. Um possível exemplo é apresentado na [@fig-comp21].^[Observe que, como as r-palavras definem apenas os pontos de ataque, a escolha por ligaduras ou pausas entre eles -- como já foi enfatizado -- é livre, a critério dos usuários/compositores.]
 
 ![Uma possível linha melódica para o exemplo da [@fig-comp20].](../figs/composicao-21.png){width=40% #fig-comp21}
 
-(6) A partir daí, seguir linearmente com a composição das demais unidades. Nesse processo, 
+(6) A partir daí, seguir linearmente com a composição das demais unidades. Esse processo deve ser guiado pelo mapa de derivações previamente estabelecido na primeira fase da estratégia, produzindo as devidas variações das r- e c-palavras do "pai" imediato (ou replicando-as, se for o caso). Após geradas a r-palavra e, em seguida, a c-palavra referente à unidade (seguindo o procedimento-padrão), ela deve ser metricamente contextualizada (como na etapa 2). O suário/compositor deve então, para harmonizar a nova unidade, escolher livremente uma progressão acordal para o segmento.^[Como já mencionado, um aperfeiçoamento desse processo -- denominado *modelagem harmônica* -- encontra-se en fase de desenvolvimento e irá substituir a prática atual.] Com base nessa harmonia, a unidade variante/replicante pode ser concretizada, com a construção da linha melódica específica, nos moldes do que é apresentado na etapa 5. Repetir o processo construtivo até o último segmento. A [@fig-comp22] resume as instruções desta etapa, considerando informações hipotéticas.
+
+![Resumo do processo composicional na estratégia 2 a partir da unidade referencial 1.](../figs/composicao-22.png){width=40% #fig-comp21}
+
