@@ -77,4 +77,4 @@ Por hipótese, os **atributos primários** evidenciam especialmente (mas não ap
 
 (falar sobre os quadros) ......................
 
-![Exemplo simplificado da lógica dos algoritmos-compositores.](../figs/atri-pri-01.png){width=50%}
+![Atributos primários por *corpus*.](../figs/atri-pri-01.png){width=100%}
