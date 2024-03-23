@@ -77,4 +77,4 @@ Por hipótese, os **atributos primários** evidenciam especialmente (mas não ap
 
 (falar sobre os quadros) ......................
 
-![Atributos primários por *corpus*.](../figs/atri-pri-01.png){width=100%}
+![Atributos primários por *corpus* (percentuais entre parênteses).](../figs/atri-pri-01.png){width=100%}
