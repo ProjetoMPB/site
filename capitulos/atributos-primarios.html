@@ -69,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -198,6 +227,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#atributos-primários-harmônicos" id="toc-atributos-primários-harmônicos" class="nav-link active" data-scroll-target="#atributos-primários-harmônicos">ATRIBUTOS PRIMÁRIOS HARMÔNICOS</a></li>
   <li><a href="#atributos-primários-melódicos" id="toc-atributos-primários-melódicos" class="nav-link" data-scroll-target="#atributos-primários-melódicos">ATRIBUTOS PRIMÁRIOS MELÓDICOS</a></li>
   <li><a href="#resultados---fase-1-compositores-1-a-10" id="toc-resultados---fase-1-compositores-1-a-10" class="nav-link" data-scroll-target="#resultados---fase-1-compositores-1-a-10">RESULTADOS - Fase 1 (compositores 1 a 10)</a></li>
+  <li><a href="#discussão" id="toc-discussão" class="nav-link" data-scroll-target="#discussão">Discussão</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/capitulos/atributos-primarios.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/capitulos/atributos-primarios.qmd" class="toc-action"><i class="bi empty"></i>Ver o código fonte</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
     </div>
@@ -299,7 +329,28 @@ ul.task-list li input[type="checkbox"] {
 <figcaption>Atributos harmônicos primários por <em>corpus</em> (percentuais entre parênteses).</figcaption>
 </figure>
 </div>
-<p>blablabla………….</p>
+</section>
+<section id="discussão" class="level1">
+<h1>Discussão</h1>
+<p>RELAÇÕES TONAIS (1H1)</p>
+<p><strong>1H1a</strong> – Com a exceção dos <em>corpora</em> Choro e João Bosco (respectivamente, com 37.5 e 41.7 %), os demais são consideravelmente semelhantes na diversidade de tonalidades empregadas (variando entre 50 e 75 % do total possível), incluindo tônicas principais e secundárias, o que sugere ser tal atributo um marcador centrípeto em relação ao superconjunto “Música Popular Urbana do Brasil”. Reforça-se assim a noção de que a exploração de um espectro amplo de alternativas tonais é uma regra compartilhada.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<p><strong>1H1b</strong> – A preferência por uma tônica específica num determinado <em>corpus</em> pode ser explicada por tantas razões (e idiossincrasias) que o atributo é certamente inócuo para os propósitos de marcação estilística. A despeito disso, chama bastante a atenção o fato de que o <em>corpus</em> Milton Nascimento é o único em que a predominância recai sobre uma tonalidade menor (ré), o que se apresenta, provavelmente, como uma característica individual marcante do compositor.</p>
+<p><strong>1H1c</strong> – Aqui vemos novamente a provável ação de uma regra compartilhada por membros do superconjunto “Música Popular”, que congrega todos os <em>corpora</em> (e, provavelmente, também do conjunto superordenado a este, “Música Tonal”). No entanto, parece ser significativo o relativo alto percentual do modo menor nos <em>corpora</em> Edu Lobo, João Bosco e Milton Nascimento (beirando a metade do total nos três casos), um fato que requer estudos futuros.</p>
+<p><strong>1H1d</strong> – É necessário, inicialmente, diferenciar o caso do <em>corpus</em> Choro dos demais, já que nesse gênero, ao contrário do que acontece no Jazz e no Samba, é idiomático o emprego de modulações <em>seccionais</em> (ou seja, assocadas às delimitações entre seções, uma característica herdada pela forma rondó.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> Portanto, tal característica implica a inexistência de peças monotônicas nesse <em>corpus</em>, tornando-o incomparável aos demais em relação a tal aspecto, no sentido de se extrair informações estilísticas significativas, bem entendido. No caso do <em>corpus</em> Samba, por outro lado, chama a atenção a alta proporção de peças monotônicas, o que não apenas pode ser um reflexo da seleção livre do repertório: de fato, pela experiência adquirida na audição de uma grande quantidade de sambas, parece-nos que de fato que o emprego de modulações como estratégia para contraste tonal é menos comum do que em outros gêneros, algo que pode ser investigado com mais propriedade em trabalhos futuros.</p>
+<p><strong>1H1e</strong> – Temos aqui uma clara diferenciação entre os de análise e os de controle samba e choro (representantes do superconjunto <code>Música popular no Brasil''), um fato que vem reforçar duas das hipóteses inicialmente elencadas: enquanto que nos dois gêneros observa-se a preponderância de relações binárias tonais</code>notáveis’’ (respectivamente, M5M e M9m), os Jobim, Ivan Lins e Edu Lobo têm como mais recorrente RBTs do tipo <code>mediântica'' (respectivamente, M3M, M3M, M9M e M4M), o que também acontece no \textit{corpus} Jazz (neste caso, M4M), sugerindo uma afinidade estilística neste aspecto, como foi hipotetizado. Os \textit{corpora} Caetano Veloso e Djavan, embora apresente relações mediânticas com certo destaque, têm a RBT M10M como predominante (além de M9m e m8M, no caso de Djavan). Já no \textit{corpus} João Bosco, destoando mais intensamente dos demais, observa-se a predominância de uma RBT</code>notável’’, M0m, o que também se observa no Milton. Esse tópico será retomado em maiores detalhes na discussão sobre atributos harmônicos secundários.</p>
+<p>FUNÇÕES (1H2)</p>
+<p><strong>1H2a</strong> – Como no atributo 1H1c, a quase por completa sintonia de todos os <em>corpora</em> em relação à categoria funcional mais comum – o I grau – favorece a interpretação de termos aqui uma nova evidência de regra geral.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> Certamente, o fato mais significativo de todos seja a relativamente alta presença da categoria I no <em>corpus</em> Milton (35.4 %), a maior de todas (bem acima, aliás, do que se observa no grupo de controle), o que, provavelmente, é mais um sintoma da preponderância modal na música do compositor.</p>
+<p><strong>1H2b</strong> – Algo semelhante ocorre em relação a este atributo, desta vez com uma total convergência: como seria esperado em ambientes tonais, a fórmula funcional V|I é predominante. Novamente, numa leitura um pouco mais fina, podemos observar que, a despeito dessa predominância, o peso estatístico dessa RBF é consideravelmente menor nos <em>corpora</em> de análise do que no grupo de controle (destacando-se, neste caso, o <em>corpus</em> Jobim, com apenas 5.6 % para o encadeamento), o que sugeriria igualmente uma maior diversidade funcional. No caso de Milton Nascimento, entretanto, a comparação com o atributo 1H2a parece, indiretamente, corroborar o esvaziamento do uso de forças tonais, já que, a despeito da forte presença de I em seu repertório, em apenas 7.7 % das RBFs analisadas ele é precedido por V.</p>
+<p>TIPOS ACORDAIS (1H3)</p>
+<p><strong>1H3a</strong> – Neste aspecto, há uma quase uniformidade das preferências dos <em>corpora</em> (incluindo a perspectiva quantitativa) pelo <em>genus</em> Y.<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> A única e notável exceção acontece no <em>corpus</em> Milton Nascimento, no qual a tríade maior (V) ocupa a posição de maior destaque, reforçando o caráter predominantemente modal dessa música.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></p>
+<p><strong>1H3b</strong> – Em relação ao tipo acordal mais comum dos repertórios, observamos quatro preferências divergentes: (1) o protoacorde dominante Y0 (em reforço aos resultados do atributo 1H3a), nos <em>corpora</em> Jazz, Samba, Chico Buarque, João Bosco e Gilberto Gil; (2) acordes menores com sétima, nos <em>corpora</em> Jobim, Edu Lobo, Djavan (com o protoacorde z0) e Ivan Lins (aqui, a variante com nona z2); (3) a tríade menor v0, no <em>corpus</em> Choro e (4) a tríade maior (V0), nos repertórios de Caetano Veloso, Milton Nascimento e Rita Lee, talvez o resultado mais surpreendente da análise deste atributo, por serem estes os únicos <em>corpora</em> analíticos com maior peso em tríades do que em acordes mais densos.<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a></p>
+<p><strong>1H3c</strong> – Em relação a este atributo, podemos observar cinco tipos básicos de RBAs, quatro delas envolvendo a qualidade Y: (1) modelando a relação “dominante | alvo” (tríade maior – V – no <em>corpus</em> Samba e tríade menor – v – no Choro); (2) z|5Y, que modela a conhecida fórmula “<em>two-five</em>”, nos <em>corpora</em> Jazz, Jobim, Chico Buarque, Edu Lobo, Caetano Veloso, Djavan e Rita Lee; (3) modelando a fórmula de “dominantes consecutivos” (Y|5Y), nos <em>corpora</em> João Bosco e Gilberto Gil; (4) a RBA “estacionária” Y|0Y, no <em>corpus</em> Ivan Lins, associada a transformações internas (de tensões, especialmente) em preparações dominantes (por exemplo, 9–$$9 etc.); e (5) a relação V|7V, em destaque apenas no <em>corpus</em> Milton, que parece modelar a fórmula cadencial mixolídia IV-I, mais um elemento idiossincrático na harmonia do compositor (em relação a seus pares).</p>
+<p>ACORDES ESPECÍFICOS (1H4)</p>
+<p><strong>1H4a</strong> – Trata-se de um atributo potencialmente inconclusivo, pois a maior ou menor presença de inversões de acordes, embora possa ser associado a certas preferências composicionais, depende também da fonte em que foram coletadas as partituras (que podem ter sido, por alguma razão, originalmente transcritas de maneira simplificada, omitindo possíveis movimentos de baixos). De todo modo, é digno mencionar a relativa alta percentagem (acima de 20 %) de inversões nos <em>corpora</em> (nesta ordem): Milton Nascimento, Samba, Choro e Chico Buarque.</p>
+<p><strong>1H4b</strong> – Neste atributo parece haver convergência em dois grandes grupos: os <em>corpora</em> Choro e Samba apresentam relativamente poucos acordes específicos distintos (87, em média) se comparados aos <em>corpora</em> de análise e Jazz (média de 306). Nesse quadro, os <em>corpora</em> Caetano Veloso e Rita Lee se situam num nível mais ou menos equidistante dos dois extremos com, respectivamente, 167 e 147 acordes distintos. Embora não explicitamente, os resultados parecem sugerir a existência de uma correlação entre a quantidade de acordes específicos distintos e a complexidade harmônica, algo que poderá ser refinado com a avaliação dos atributos secundários.</p>
+<p><strong>1H4c</strong> – Apenas indiretamente a identificação de acordes específicos mais recorrentes em um <em>corpus</em> pode contribuir para evidenciar um traço estilístico, dada sua fragilidade como atributo e à dispersão com que se manifesta (as preferências nos <em>corpora</em> se apresentam, em geral, taxas variando entre 2 e 7 %).</p>
+<p><strong>1H4d</strong> – Como em outros casos (por exemplo, 1H1c, 1H2a e 1H2b), este atributo evidencia uma regra compartilhada por quase todos os <em>corpora</em>, que na verdade emana da própria prática harmônica funcional-tonal, na qual a movimentação de fundamentais por intervalo de quarta ascendente.<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> Mais uma vez, o <em>corpus</em> Milton Nascimento se apresenta como uma notável exceção, já que o uníssono (repetição de baixo em acordes contíguos) é sensivelmente mais comum nesse repertorio (quase 1/3 dos casos). Isso, ao enfraquecer, por assim dizer, uma norma básica tonal, reforça indiretamente a evidenciação do caráter modal predominante nesse <em>corpus</em>, também destacado na avaliação de outros atributos.</p>
+<hr>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../figs/atri-pri-02.png" class="img-fluid figure-img" style="width:100.0%"></p>
@@ -310,7 +361,19 @@ ul.task-list li input[type="checkbox"] {
 
 </section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Notas de rodapé</h2>
+
+<ol>
+<li id="fn1"><p>Nesse sentido, a relativa menor expansão que se observa nos choros pode ser talvez explicada pela combinação de dois fatores: (a) uma preferência acentuada por tonalidades que otimizam o número de cordas soltas nos instrumentos típicos do gênero (violão, bandolim e cavaquinho), diminuindo o número de alternativas disponíveis; (b) um esquema relativamente rígido de modulações, que faz com que escolhida a tonalidade principal, na seção A (por exemplo Fá maior), as tonalidades das partes secundárias sejam praticamente definidas. No caso do exemplo, há duas possibilidades para as seções B e C: Ré menor e Si<span class="math inline">\(\flat\)</span> maior ou Dó maior e Si<span class="math inline">\(\flat\)</span> maior. Para maiores informações, ver <span class="citation" data-cites="almada-choro">(<a href="#ref-almada-choro" role="doc-biblioref"><strong>almada-choro?</strong></a>)</span>.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Ver Almada <span class="citation" data-cites="almada-choro">(<a href="#ref-almada-choro" role="doc-biblioref"><strong>almada-choro?</strong></a>)</span>. Tanto nos demais <em>corpora</em> de controle, quanto nos de análise, modulações seccionais, ainda que eventualmente existentes, são bem mais raras. Nesses contextos, modulações internas a seções (de diferentes tipos) são mais comuns (e quase inexistentes em choros).<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>A única divergência – o V no <em>corpus</em> Chico Buarque – não causa impacto nessa conclusão, já que ambas as categorias ocupariam provavelmente as posições mais altas, independentemente do repertório analisado, dentro do contexto da música tonal.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Isso sugere que esse dado pode também ser associado a uma regra geral (ou seja, como um marcador centrípeto em relação ao superconjunto). No caso do <em>corpus</em> Rita Lee, o <em>genus</em> Y apresenta um percentual relativamente alto, considerando os demais casos, o que por certo se deve à alta presença de uma lógica harmônica baseada no gênero <em>rhythm and blues</em>, caracterizado pelo uso de qualidades dominantes “não funcionais”.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>A segunda posição é ocupada pelo <em>genus</em> z, tendo Y apenas no terceiro posto.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>Isso pode ser talvez parcialmente explicado pelas características gerais das harmonias de cada compositor: Caetano, em sua estética pessoal, tropicalista, em essência, parece ser menos permeável à influência jazzística (ao contrário de vários de seus pares da MPB), e mais ligado ao rock e a gêneros brasileiros de origem não urbana, como o afoxé, o samba-de-roda etc. No caso de Milton, como já apontado nas avaliações de atributos anteriores, a preferência por tríades maiores (mas, interessantemente, não exatamente pelas menores), parece bem mais fortemente associada à natureza essencialmente modal de sua música.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>Schoenberg <span class="citation" data-cites="schoenberg-structural-functions">(<a href="#ref-schoenberg-structural-functions" role="doc-biblioref"><strong>schoenberg-structural-functions?</strong></a>)</span> identifica o intervalo como o principal movimento para a concatenação dos acordes, classificando-o como um “movimento forte entre fundamentais”. A necessidade de precisão nos obriga a ressaltar que, embora o atributo 1H4d seja dedicado a medir movimentos entre os <em>baixos</em> de acordes contíguos, captura também os movimentos entre suas fundamentais. Se considerarmos a relativamente baixa ocorrência de inversões, em modo geral, ficará claro que o atributo também pode ser entendido, com uma certa flexibilidade, como um medidor das distâncias entre fundamentais.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
