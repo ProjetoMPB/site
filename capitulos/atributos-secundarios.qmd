@@ -80,23 +80,7 @@ Os atributos secundários são essencialmente revisões (ou detalhamentos) de al
 
 - 2M3e -- destaca de cada *corpus* os 10 mais recorrentes r-trissílabos, detectados a partir do atributo 2M3d. Não há hipóteses previamente associadas a este atributo.  
 
-----
 
-| Corpus            | u    | P/p   | A/a  | S/s  |
-|-------------------|------|-------|------|------|
-| Jazz              | 11.6 | 52.8  | 21.2 | 14.4 |
-| Choro             | 5.1  | 50.2} | 36.2 | 8.5  |
-| Samba             | 25.0 | 46.9  | 23.1 | 4.9  |
-| Tom Jobim         | 16.6 | 58.3  | 21.3 | 3.9  |
-| Ivan Lins         | 22.5 | 48.1  | 21.3 | 8.1  |
-| Chico Buarque     | 24.7 | 51.6  | 16.9 | 6.7  |
-| Edu Lobo          | 19.9 | 49.1  | 20.6 | 10.4 |
-| Caetano Veloso    | 17.7 | 52.2  | 27.0 | 3.1  |
-| Djavan            | 19.4 | 45.3  | 29.3 | 6.0  |
-| João Bosco        | 25.8 | 48.1  | 20.4 | 5.7  |
-| Milton Nascimento | 39.8 | 42.4  | 15.1 | 2.7  |
-| Gilberto Gil      | 22.4 | 47.3  | 27.8 | 2.4  |
-| Rita Lee          | 29.9 | 47.3  | 19.5 | 3.3  |
 
 
 
