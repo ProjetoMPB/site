@@ -6,4 +6,4 @@
 
 [@fig-graf01]
 
-![Comparação das distribuições das c-letras nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-01.png){width=60% #fig-graf01}
+![Comparação das distribuições das c-letras nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-01.png){width=100% #fig-graf01}
