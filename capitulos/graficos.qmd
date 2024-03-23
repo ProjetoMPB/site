@@ -16,7 +16,7 @@ DISTRIBUIÇÃO DE C-LETRAS
 
 [@fig-graf01c]
 
-![Distribuiição de c-letras no *corpus* Samba.](../figs/grafico-01c.png){width=100% #fig-graf01c}
+![Distribuiição de c-letras no *corpus* Samba.](../figs/grafico-01c.png){width=50% #fig-graf01c}
 
 [@fig-graf01d]
 
@@ -40,7 +40,7 @@ DISTRIBUIÇÃO DE C-LETRAS
 
 [@fig-graf01i]
 
-![Distribuiição de c-letras no *corpus* Djavan.](../figs/grafico-01i.png){width=100% #fig-graf01i}
+![Distribuiição de c-letras no *corpus* Djavan.](../figs/grafico-01i.png){width=50% #fig-graf01i}
 
 [@fig-graf01j]
 
