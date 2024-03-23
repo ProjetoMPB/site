@@ -77,4 +77,8 @@ Por hipótese, os **atributos primários** evidenciam especialmente (mas não ap
 
 (falar sobre os quadros) ......................
 
-![Atributos primários por *corpus* (percentuais entre parênteses).](../figs/atri-pri-01.png){width=100%}
+![Atributos harmônicos primários por *corpus* (percentuais entre parênteses).](../figs/atri-pri-01.png){width=100%}
+
+blablabla.............
+
+![Atributos melódicos primários por *corpus* (percentuais entre parênteses).](../figs/atri-pri-02.png){width=100%}
