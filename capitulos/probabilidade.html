@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.551">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Projeto MPB - Probabilidade e entropia</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../favicon.ico" rel="icon">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
+  }
+}</script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Probabilidade e entropia</li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-center sidebar-header">
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="../logos/logo-projeto.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      <div class="sidebar-tools-main tools-wide">
+    <a href="https://projetompb.github.io/site/" title="Projeto MPB" class="quarto-navigation-tool px-1" aria-label="Projeto MPB"><i class="bi bi-globe"></i></a>
+    <a href="https://github.com/ProjetoMPB/site" title="Projeto MPB (repositório)" class="quarto-navigation-tool px-1" aria-label="Projeto MPB (repositório)"><i class="bi bi-github"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo escuro"><i class="bi"></i></a>
+</div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Procurar"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Página inicial</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../blog.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Blog do projeto</span></a>
+  </div>
+</li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introdução</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/nossa-mpb.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">A “nossa” MPB</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/estilo-musical.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Uma breve discussão sobre estilo musical</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/hipoteses.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Hipóteses</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/corpora-mpb.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Os <em>corpora</em> MPB</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/modelos-teoricos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Modelos teóricos</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/metodologia.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Metodologia</span></a>
+  </div>
+</li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/listagem-corpora.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Listagem dos <em>corpora</em></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/producao-bibliografica.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Produção bibliográfica</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/glossario.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Glossário</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Nesta página</h2>
+   
+  <ul>
+  <li><a href="#introdução" id="toc-introdução" class="nav-link active" data-scroll-target="#introdução">Introdução</a></li>
+  <li><a href="#probabilidade" id="toc-probabilidade" class="nav-link" data-scroll-target="#probabilidade">Probabilidade</a></li>
+  <li><a href="#entropia-de-variáveis-aleatórias" id="toc-entropia-de-variáveis-aleatórias" class="nav-link" data-scroll-target="#entropia-de-variáveis-aleatórias">Entropia de variáveis aleatórias</a>
+  <ul class="collapse">
+  <li><a href="#surpresa-associada-a-eventos" id="toc-surpresa-associada-a-eventos" class="nav-link" data-scroll-target="#surpresa-associada-a-eventos">Surpresa associada a eventos</a></li>
+  <li><a href="#entropia-de-variáveis-aleatórias-1" id="toc-entropia-de-variáveis-aleatórias-1" class="nav-link" data-scroll-target="#entropia-de-variáveis-aleatórias-1">Entropia de variáveis aleatórias</a></li>
+  </ul></li>
+  <li><a href="#um-exemplo-em-música" id="toc-um-exemplo-em-música" class="nav-link" data-scroll-target="#um-exemplo-em-música">Um exemplo em Música</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/capitulos/probabilidade.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/capitulos/probabilidade.qmd" class="toc-action"><i class="bi empty"></i>Ver o código fonte</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Probabilidade e entropia</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="hidden">
+<p><span class="math display">\[
+\def \PP {\mathbb{P}}
+\def \RR {\mathbb{R}}
+\def \Hcal {\mathcal{H}}
+\def \ds {\displaystyle}
+\newcommand{\V}[1]{{\bf #1}}
+\newcommand{\Vg}[1]{\boldsymbol{#1}}
+\]</span></p>
+</div>
+<section id="introdução" class="level2">
+<h2 class="anchored" data-anchor-id="introdução">Introdução</h2>
+<p>A Teoria das Probabilidades é um fascinante ramo da Matemática que, juntamente com a Estatística, fundamenta as bases do método científico e, portanto, permeia toda a Ciência. Seu surgimento – ao menos no conhecimento matemático derivado da cultura européia – remota ao Séc. XVI, quando o polímata (e apostador) italiano Gerolamo Cardano tentava calcular chances de eventos em jogos de azar. Por muitos séculos esse foi o pano de fundo para o estudo da Probabilidade (cuja fascinante história pode ser lida em <span class="citation" data-cites="uma-senhora-toma-cha">(<a href="#ref-uma-senhora-toma-cha" role="doc-biblioref">Salsburg 2009</a>)</span> e <span class="citation" data-cites="ciencia-da-sorte">(<a href="#ref-ciencia-da-sorte" role="doc-biblioref">Kucharski 2017</a>)</span>, dentre outros), mas após sua formalização no início do Séc. XX pelo matemático russo Andrey Kolmogorov e com o advento dos computadores eletrônicos, modelagens probabilísticas fizeram-se presentes em diversos ramos do conhecimento.</p>
+<p>A quase onipresença de tais modelos pode nos fazer questionar até que ponto o mundo que nos rodeia é de fato aleatório, ou se estamos utilizando incertezas para “mascarar” ignorâncias nossas em relação a fenômenos complexos. Tomando um exemplo simples, o lançamento de um dado é de fato um fenômeno totalmente determinístico, pois conhecendo precisamente a posição e a velocidade inicial do objeto e sua geometria, bem como a geometria da superfície onde ele será arremessado, as leis da Mecânica Clássica nos permitem prever precisamente o valor da face observada. Porém, uma vez que esse sistema é extremamente sensível em relação às condições iniciais (ou seja, uma pequena mudança nas condições do problema alteram completamente o resultado observado), torna-se mais “cômodo” optar por uma modelagem probabilística.</p>
+<p>A discussão sobre aleatoriedade na natureza foi um tema bem acalorado no início do Séc. XX, especialmente após o advento da Mecânica Quântica, e de fato pode-se provar matematicamente que nessa escala existem fenômenos inerentemente aleatórios. Para mais detalhes, veja os excelentes vídeos de divulgação científica <span class="citation" data-cites="what-is-random">(<a href="#ref-what-is-random" role="doc-biblioref">Vsauce 2014</a>)</span> e <span class="citation" data-cites="what-is-not-random">(<a href="#ref-what-is-not-random" role="doc-biblioref">Veritasium 2014</a>)</span> sobre aleatoriedade.</p>
+<p>No presente texto, o principal interesse é utilizar modelos probabilísticos para descrever fenômenos musicais que, conforme esperado, não são de fato aleatórios. Assim, a Probabilidade mostra-se como uma ferramenta extremamente útil para modelar as <em>forças volitivas</em> de alguém que escreve uma peça musical. Mais especificamente, supõe-se que certas escolhas estéticas de um(a) compositor(a) – ou até mesmo de um determinado estilo ou estética musical – possam ser capturadas por uma análise probabilística de um conjunto suficientemente grande de suas peças. De fato, apesar da natureza ser majoritariamente determinística, há evidências de que nossa cognição toma decisões com base em modelos probabilísticos e estimativas de risco <span class="citation" data-cites="bayesian-brain">(<a href="#ref-bayesian-brain" role="doc-biblioref">Doya et al. 2006</a>)</span>, de modo que é natural supor que isso se estenda também à cognição musical. David Temperley formaliza e faz experimentos computacionais nessa direção em <span class="citation" data-cites="temperley-cognition-music-structures">(<a href="#ref-temperley-cognition-music-structures" role="doc-biblioref">Temperley 2001</a>)</span> e <span class="citation" data-cites="temperley-music-probability">(<a href="#ref-temperley-music-probability" role="doc-biblioref">Temperley 2006</a>)</span>.</p>
+<p>A fim de ilustrar o ponto acima, segue um exemplo retirado de <span class="citation" data-cites="almada-carvalho-entropia">(<a href="#ref-almada-carvalho-entropia" role="doc-biblioref">Almada e Carvalho 2023</a>)</span>. Na <a href="#fig-probabilidade01" class="quarto-xref">Figura&nbsp;1</a>, ao escutar o primeiro trecho, um ouvinte hipotético tem alta incerteza em relação ao que se seguirá, pois como esse é o trecho inicial, não há nenhuma informação específica na qual ele(a) possa se pautar para realizar “previsões” acerca do futuro musical. Porém, ao escutar o segundo trecho, a incerteza do(a) ouvinte em relação ao que virá adiante diminui, pois ele(a) espera que algo semelhante aconteça no próximo trecho. Com efeito, havendo essa confirmação no terceiro trecho, cria-se uma alta expectativa de manutenção do padrão para o futuro, diminuindo ainda mais a incerteza do(a) ouvinte. Porém, o quarto trecho frustra essa expectativa, trazendo um novo padrão à tona, e reiniciando o ciclo de expectativas do(a) ouvinte.</p>
+<div id="fig-probabilidade01" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-probabilidade01-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../figs/probabilidade-01.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-probabilidade01-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;1: Exemplo de descrição probabilística (em alto nível) na compreensão cognitiva de um pequeno trecho musical (Figura 3 de <span class="citation" data-cites="almada-carvalho-entropia">(<a href="#ref-almada-carvalho-entropia" role="doc-biblioref">Almada e Carvalho 2023</a>)</span>).
+</figcaption>
+</figure>
+</div>
+<p>Esse ciclo de <em>criação de expectativas e sua respectiva confirmação ou frustração</em> pode ser modelada probabilisticamente, conforme apontado por <span class="citation" data-cites="meyer-style">Meyer (<a href="#ref-meyer-style" role="doc-biblioref">1989</a>)</span>. Mais especificamente, a ferramenta probabilística fundamental para formalizar essa ideia é o conceito de <em>entropia</em>, que é qualificada no topo da <a href="#fig-probabilidade01" class="quarto-xref">Figura&nbsp;1</a>. Informalmente, a entropia de um evento está associado ao <em>grau de surpresa que um observador tem ao observar a ocorrência de tal evento</em>. O restante desse capítulo tem por objetivo formalizar os conceitos de probabilidade e entropia, para futuramente o aplicarmos na análise da base de dados gerada pelo projeto e na produção de materiais composicionais.</p>
+</section>
+<section id="probabilidade" class="level2">
+<h2 class="anchored" data-anchor-id="probabilidade">Probabilidade</h2>
+<p>Para introduzir os conceitos básicos referentes à Teoria das Probabilidades de uma forma mais acessível, iremos omitir grande parte da formalização matemática que diz respeito a espaços amostrais, tratamento de eventos do ponto de vista da teoria dos conjuntos, e outras tecnicalidades. Partiremos direto para o conceito de <em>variáveis aleatórias</em>, e para uma introdução rigorosa à Teoria de Probabilidades veja <span class="citation" data-cites="ross-probabilidade">(<a href="#ref-ross-probabilidade" role="doc-biblioref">Ross 2010</a>)</span>.</p>
+<p>Usualmente em Matemática utilizamos o conceito de <em>variável</em> para representar um determinado valor numérico ou para denotar uma incógnita em uma equação: por exemplo, ao escrevermos a função <span class="math inline">\(f(x) = x^2 - 4\)</span> estamos dizendo que o valor numérico a ser dado como entrada para a função <span class="math inline">\(f\)</span> está armazenado na variável <span class="math inline">\(x\)</span>, e se fizermos <span class="math inline">\(x = 4\)</span> teremos que <span class="math inline">\(f(x) = f(4) = 4^2 - 4 = 12\)</span>; no segundo caso podemos querer encontrar os valores de <span class="math inline">\(x\)</span> que satisfazem à igualdade <span class="math inline">\(x^2 - 4 = 0\)</span>, e nesse caso temos que <span class="math inline">\(x = 2\)</span> ou <span class="math inline">\(x = -2\)</span>. Note que em ambos os casos os valores representados pela variável <span class="math inline">\(x\)</span> são <em>determinísticos</em>, ou seja, não estão sujeitos a nenhuma aleatoriedade. O conceito de <em>variável aleatória</em> nasce justamente para acrescentar esse efeito.</p>
+<div id="def-variavel-aleatoria" class="theorem definition">
+<p><span class="theorem-title"><strong>Definição 1 (Variável aleatória – definição informal)</strong></span> Uma <em>variável aleatória</em> é um resultado – qualitativo ou quantitativo – de determinado experimento aleatório. Podemos pensar também que uma variável aleatória é uma variável numérica usual, mas cujo valor específico depende de algum evento aleatório.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+</div>
+<p>Para ilustrar essa definição, retornemos ao exemplo do lançamento de um dado de seis faces. Usualmente adota-se letras maiúsculas do final do alfabeto para denotar variávels aleatórias, de modo que o valor observado após lançar o dado é codificado na variável <span class="math inline">\(X\)</span>, que pode assumir os valores 1, 2, 3, 4, 5 e 6. Como há incerteza em qual valor será observado, pode-se falar na <em>probabilidade</em> de se observar, digamos, <span class="math inline">\(X\)</span> igual à 3. Matematicamente, essa sentença é abreviada por <span class="math inline">\(\PP(X = 3)\)</span>, e no caso de um dado honesto,<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> temos que <span class="math display">\[\PP(X = 1) = \PP(X = 2) = \dots = \PP(X = 6) = \frac{1}{6}.\]</span></p>
+<p>O conjunto de valores que uma variável aleatória <span class="math inline">\(X\)</span> pode assumir é denotado por <span class="math inline">\(\Omega_X\)</span>, e o chamaremos de <em>espaço amostral associado à variável aleatória <span class="math inline">\(X\)</span></em>. Aqui estaremos interessados somente nas variáveis aleatórias que podem assumir apenas um conjunto finito de valores, ou seja, cujo conjunto <span class="math inline">\(\Omega_X\)</span> seja finito. No exemplo do lançamento de um dado de seis faces (honesto ou não) temos que <span class="math inline">\(\Omega_X = \{1, 2, 3, 4, 5, 6\}\)</span>. A função <span class="math inline">\(\PP\)</span> é chamada de <em>probabilidade</em> ou <em>medida de probabilidade</em>, e ela deve satisfazer necessariamente às duas propriedades abaixo:</p>
+<ol type="1">
+<li><span class="math inline">\(\PP(X = x) \geq 0\)</span>, para todo <span class="math inline">\(x \in \Omega_X\)</span>;</li>
+<li><span class="math inline">\(\ds \sum_{x \in \Omega_X} \PP(X = x) = 1\)</span>.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></li>
+</ol>
+<p>A primeira propriedade nos diz que probabilidades devem ser sempre valores não-negativos, o que é totalmente razoável dado a interpretação de tal conceito. Já a segunda propriedade garante um valor máximo para qualquer probabilidade, dizendo que em um dado cenário (descrito pela variável aleatória <span class="math inline">\(X\)</span>) a soma de todas as probabilidades possíveis deve dar 1. Dessa forma, unindo as duas propriedades temos que qualquer probabilidade deverá ser um valor entre 0 e 1. Também é comum multiplicarmos tal valor por 100 e medirmos uma probabilidade em <em>porcentagem</em>.</p>
+<p>Tendo introduzido o básico sobre probabilidade e variáveis aleatórias, trataremos a seguir do conceito de <em>entropia de variáveis aleatórias</em>.</p>
+</section>
+<section id="entropia-de-variáveis-aleatórias" class="level2">
+<h2 class="anchored" data-anchor-id="entropia-de-variáveis-aleatórias">Entropia de variáveis aleatórias</h2>
+<section id="surpresa-associada-a-eventos" class="level3">
+<h3 class="anchored" data-anchor-id="surpresa-associada-a-eventos">Surpresa associada a eventos</h3>
+<p>A fim de motivar o conceito de entropia de variáveis aleatórias, vejamos um exemplo.</p>
+<div id="exm-motivacao-entropia" class="theorem example">
+<p><span class="theorem-title"><strong>Exemplo 1 (Entropia – motivação)</strong></span> Considere uma variável aleatória <span class="math inline">\(X\)</span> que pode assumir valores no conjunto <span class="math inline">\(\Omega_X = \{0, 1\}\)</span>, com <span class="math inline">\(\PP(X = 1) = p\)</span> e <span class="math inline">\(\PP(X = 0) = 1 - p\)</span>, onde <span class="math inline">\(0 \leq p \leq 1\)</span>. Se pensarmos que <span class="math inline">\(X = 1\)</span> representa “observar cara no lançamento de uma moeda honesta” e <span class="math inline">\(X = 0\)</span> representa “observar coroa no lançamento de uma moeda honesta”, temos que <span class="math inline">\(\PP(X = 0) = \PP(X = 1) = 1/2\)</span>, de modo que é “igualmente surpreendente” observar qualquer um dos dois resultados. Agora, se <span class="math inline">\(X = 1\)</span> representa “ganhar na Mega Sena” e <span class="math inline">\(X = 0\)</span> representa “não ganhar na Mega Sena”, a probabilidade <span class="math inline">\(p = \PP(X = 1)\)</span> é muito baixa, de modo que observar esse evento é “extremamente surpreendente”.</p>
+</div>
+<p>Seria conveniente, portanto, ter uma maneira de formalizar a “surpresa” ao observar determinado evento, em função de sua probabilidade de ocorrência. Essa é uma das ideias centrais no trabalho seminal de <span class="citation" data-cites="shannon-weaver">Shannon e Weaver (<a href="#ref-shannon-weaver" role="doc-biblioref">1949</a>)</span>, onde é proposta a <em>Teoria da Informação</em>, um estudo sistemático de como enviar e receber informações de modo eficiente através de canais de comunicação, da qual o conceito de entropia de variáveis aleatórias é central. Replicando o que é apresentado em <span class="citation" data-cites="shannon-weaver">(<a href="#ref-shannon-weaver" role="doc-biblioref">Shannon e Weaver 1949</a>)</span>,<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> gostaríamos de ter uma função <span class="math inline">\(S: (0, 1] \to \RR\)</span> satisfazendo às seguintes propriedades abaixo:<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></p>
+<ol type="1">
+<li><p><span class="math inline">\(S\)</span> deve ser uma <em>função contínua</em>. Informalmente, se <span class="math inline">\(p\)</span> e <span class="math inline">\(q\)</span> são números próximos no intervalo <span class="math inline">\((0, 1]\)</span>, então <span class="math inline">\(S(p)\)</span> e <span class="math inline">\(S(q)\)</span> também devem ser números reais próximos. Mais intuitivamente, eventos com probabilidade parecida de serem observados devem ter uma surpresa semelhante, algo que faz bastante sentido.</p></li>
+<li><p>A função <span class="math inline">\(S\)</span> calculada em <span class="math inline">\(1\)</span> deve dar zero, ou seja, <span class="math inline">\(S(1) = 0\)</span>. Essa propriedade também é razoável, pois um evento que certamente acontece<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> carrega consigo uma surpresa nula.</p></li>
+<li><p>Se <span class="math inline">\(p &lt; q\)</span>, então <span class="math inline">\(S(p) &gt; S(q)\)</span>. Ou seja, eventos mais prováveis devem carregar consigo menos surpresa, algo também intuitivo. Note que essa propriedade parece um “refinamento” da propriedade 2 e do fato de não considerarmos <span class="math inline">\(0\)</span> como uma possível entrada para a função <span class="math inline">\(S\)</span>.</p></li>
+<li><p>Finalmente, exige-se que <em>a surpresa de observar dois eventos independentes simultaneamente seja a soma das surpresas individuais</em>. Matematicamente, isso significa que, para <span class="math inline">\(0 &lt; p, q \leq 1\)</span> a função <span class="math inline">\(S\)</span> deve satisfazer <span class="math inline">\(S(pq) = S(p) + S(q)\)</span>. Essa propriedade pode parecer um pouco mais complexa que as outras, porém façamos uma análise através do seguinte exemplo: ao lançar uma moeda (honesta ou não) e um dado (honesto ou não), experimentos que podem ser considerados independentes, a surpresa de se observar “cara” na moeda e a face “três” no dado, simultaneamente, é a soma das surpresas individuais.<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a></p></li>
+</ol>
+<p>Pode-se provar que existe essencialmente uma única função satisfazendo tais propriedades, conforme enunciado no <a href="#thm-surpresa-log" class="quarto-xref">Teorema&nbsp;1</a> abaixo:</p>
+<div id="thm-surpresa-log" class="theorem">
+<p><span class="theorem-title"><strong>Teorema 1</strong></span> Se a função <span class="math inline">\(S\)</span> satisfaz aos axiomas 1 até 4 acima, então <span class="math display">\[S(p) = -\log_b(p),\]</span> para alguma base <span class="math inline">\(b &gt; 1\)</span>.<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a></p>
+</div>
+<p>A mudança de base na função logarítmica é dada pela multiplicação por uma constante: <span class="math display">\[\log_a(p) = \frac{\log_b(p)}{\log_b(a)},\]</span> o que justifica o fato de, apesar de infinitos valores de <span class="math inline">\(b\)</span> “servirem” para medir a surpresa, todos eles levam a medições equivalentes. A <a href="#fig-surpresa" class="quarto-xref">Figura&nbsp;2</a> ilustra o gráfico da função <span class="math inline">\(S\)</span>, considerando a base <span class="math inline">\(b = 2\)</span>.</p>
+<div id="cell-fig-surpresa" class="cell" data-execution_count="1">
+<div class="cell-output cell-output-display">
+<div id="fig-surpresa" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-surpresa-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="probabilidade_files/figure-html/fig-surpresa-output-1.png" width="361" height="356" class="figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-surpresa-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;2: Gráfico da função <span class="math inline">\(S\)</span>, com <span class="math inline">\(b = 2\)</span>.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Quando a surpresa é medida na base <span class="math inline">\(b = 2\)</span> dizemos que sua unidade é <em>bits</em>. Essa escolha é extremamente importante dentro do escopo da Teoria da Informação, pois permite uma interpretação muito clara dentro do contexto de compressão, envio e recepção de informações codificadas em dígitos binários, conforme será ilustrado no <a href="#exm-entropia-codificacao" class="quarto-xref">Exemplo&nbsp;4</a> mais adiante. Para mais detalhes sobre Teoria da Informação veja <span class="citation" data-cites="thomas-cover">(<a href="#ref-thomas-cover" role="doc-biblioref">Cover e Thomas 2005</a>)</span>.</p>
+</section>
+<section id="entropia-de-variáveis-aleatórias-1" class="level3">
+<h3 class="anchored" data-anchor-id="entropia-de-variáveis-aleatórias-1">Entropia de variáveis aleatórias</h3>
+<p>Vimos então como se calcula a surpresa de um único evento. Porém, relembrando o <a href="#exm-motivacao-entropia" class="quarto-xref">Exemplo&nbsp;1</a>, uma variável aleatória é composta por diversos eventos, de modo que gostaríamos de sumarizar uma <em>surpresa média</em> associada à variável aleatória, e não elencar uma lista de surpresas associadas a cada possível valor que essa variável aleatória pode assumir. Uma ideia é fazer uma média ponderada das surpresas associadas a cada valor que ela pode assumir, cujo peso é justamente a probabilidade de se obsertar tal valor. Isso é justamente a definição da <em>entropia de uma variável aleatória</em>, formalizada na <a href="#def-entropia-va" class="quarto-xref">Definição&nbsp;2</a>:</p>
+<div id="def-entropia-va" class="theorem definition">
+<p><span class="theorem-title"><strong>Definição 2 (Entropia – definição)</strong></span> A entropia de uma variável aleatória discreta <span class="math inline">\(X\)</span> que assume seus valores no conjunto <span class="math inline">\(\Omega_X\)</span> é dada por <span id="eq-entropia-va"><span class="math display">\[\Hcal(X) = -\sum_{x \in \Omega_X} \PP(X = x) \log_b (\PP(X = x)). \tag{1}\]</span></span></p>
+</div>
+<div id="rem-entropia-termodinamica" class="proof remark">
+<p><span class="proof-title"><em>Comentário 1</em>. </span>Existe uma íntima relação desse conceito com o seu análogo em Termodinâmica, que está fora do escopo deste texto. Quem apontou esse paralelo para Shannon foi John von Neumann, quando perguntado de sugestões para como nomear a quantidade recém-definida: <em>“You should call it entropy, for two reasons. In the first place your uncertainty function has been used in statistical mechanics under that name, so it already has a name. In the second place, and more important, no one really knows what entropy really is, so in a debate you will always have the advantage.”</em> <span class="citation" data-cites="wikipedia-history-entropy">(<a href="#ref-wikipedia-history-entropy" role="doc-biblioref">Wikipedia 2023</a>)</span></p>
+</div>
+<p>Para melhor ilustrar o conceito de entropia de uma variável aleatória, retornemos ao <a href="#exm-motivacao-entropia" class="quarto-xref">Exemplo&nbsp;1</a> e calculemos a entropia de uma moeda.</p>
+<div id="exm-entropia-moeda" class="theorem example">
+<p><span class="theorem-title"><strong>Exemplo 2 (Entropia de uma moeda)</strong></span> Seja agora <span class="math inline">\(X\)</span> uma variável aleatória codificando o lançamento de uma moeda, que pode dar “cara” com probabilidade <span class="math inline">\(0 \leq p \leq 1\)</span> ou “coroa” com probabilidade <span class="math inline">\(0 \leq 1 - p \leq 1\)</span>. Associamos “coroa” ao valor <span class="math inline">\(0\)</span> e “cara” ao valor <span class="math inline">\(1\)</span>. Aplicando a fórmula na <a href="#eq-entropia-va" class="quarto-xref">Equação&nbsp;1</a> e considerando a base <span class="math inline">\(b = 2\)</span>, temos que: <span class="math display">\[
+\begin{align*}
+\Hcal(X) &amp;= -\sum_{x \in \Omega_X} \PP(X = x) \log_b (\PP(X = x)) \\
+&amp;= - \left[(1 - p)\log_2(1 - p) + p\log_2(p)\right],
+\end{align*}
+\]</span> cujo gráfico pode ser visto na <a href="#fig-entropia-moeda" class="quarto-xref">Figura&nbsp;3</a>:</p>
+<div id="cell-fig-entropia-moeda" class="cell" data-execution_count="2">
+<div class="cell-output cell-output-display">
+<div id="fig-entropia-moeda" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-entropia-moeda-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="probabilidade_files/figure-html/fig-entropia-moeda-output-1.png" width="366" height="356" class="figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-entropia-moeda-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;3: Entropia de uma moeda.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<p>À luz da interpretação da entropia representar a “surpresa média” de uma variável aleatória <span class="math inline">\(X\)</span>, podemos interpretar o gráfico na <a href="#fig-entropia-moeda" class="quarto-xref">Figura&nbsp;3</a> da seguinte forma: uma moeda que tem alta chance de dar cara ou coroa (<span class="math inline">\(p\)</span> próximo a <span class="math inline">\(1\)</span> ou <span class="math inline">\(0\)</span>, respectivamente) tem uma “baixa surpresa média”, pois espera-se observar algum desses dois eventos com muito mais frequência do que o outro, tornando a moeda altamente “previsível”; por outro lado, a moeda com maior entropia é justamente a moeda honesta, com <span class="math inline">\(p = 1/2\)</span>, pois como não há nenhum evento preferencial, a moeda é, de certa forma, “o mais aleatória possível”.</p>
+<p>Vejamos agora um exemplo do cálculo de entropia com uma variável aleatória que assume mais de dois valores.</p>
+<div id="exm-entropia-dado" class="theorem example">
+<p><span class="theorem-title"><strong>Exemplo 3 (Entropia de um dado honesto)</strong></span> Seja agora <span class="math inline">\(Y\)</span> a variável aleatória que codifica o valor observado no lançamento de um dado honesto de seis faces. Aplicando a fórmula na <a href="#eq-entropia-va" class="quarto-xref">Equação&nbsp;1</a> e considerando a base <span class="math inline">\(b = 2\)</span>, temos que: <span class="math display">\[
+\begin{align*}
+\Hcal(Y) &amp;= -\sum_{y \in \Omega_Y} \PP(Y = y) \log_b (\PP(Y = y)) \\
+&amp;= -\sum_{i = 1}^{6} \frac{1}{6} \log_2\left(\frac{1}{6}\right) \\
+&amp;= -\log_2\left(\frac{1}{6}\right) \\
+&amp;= \log_2(6) \\
+&amp;\approx 2,\!585~bits,
+\end{align*}
+\]</span> após aplicar propriedades básicas da função logarítmica.</p>
+</div>
+<p>Para melhor entender o valor obtido no <a href="#exm-entropia-dado" class="quarto-xref">Exemplo&nbsp;3</a>, o analisemos à luz do <a href="#thm-maxima-entropia" class="quarto-xref">Teorema&nbsp;2</a>:</p>
+<div id="thm-maxima-entropia" class="theorem">
+<p><span class="theorem-title"><strong>Teorema 2 (Máxima entropia)</strong></span> Seja <span class="math inline">\(X\)</span> uma variável aleatória discreta que assume valores no conjunto <span class="math inline">\(\Omega_X = \{1, \dots, n\}\)</span>. A entropia de <span class="math inline">\(X\)</span> é máxima quando todos os valores em <span class="math inline">\(\Omega_X\)</span> são equiprováveis (sendo atingidos com probabilidade <span class="math inline">\(1/n\)</span>) e tal entropia é dada por <span class="math inline">\(\log_b(n)\)</span>.</p>
+</div>
+<p>Dessa forma, a entropia de uma variável aleatória é capaz de capturar conjuntamente a quantidade de valores que tal variável aleatória é capaz de assumir, bem como a forma como as probabilidades se distribuem sobre esses valores. No exemplo do dado, se tivéssemos probabilidade <span class="math inline">\(1/2\)</span> de observar a face <span class="math inline">\(1\)</span> e <span class="math inline">\(1/10\)</span> de observar qualquer outra face de <span class="math inline">\(2\)</span> até <span class="math inline">\(6\)</span>, denotando o novo valor observado por <span class="math inline">\(\widetilde{Y}\)</span>, sua nova entropia (em bits) seria dada por: <span class="math display">\[
+\begin{align*}
+\Hcal(\widetilde{Y}) &amp;= -\sum_{y \in \Omega_Y} \PP(\widetilde{Y} = y) \log_b (\PP(\widetilde{Y} = y)) \\
+&amp;= -\left[\frac{1}{2}\log_2\left(\frac{1}{2}\right) + \sum_{i = 2}^{6} \frac{1}{10} \log_2\left(\frac{1}{10}\right)\right] \\
+&amp;= -\left[\frac{1}{2}\log_2\left(\frac{1}{2}\right) + 5 \times \frac{1}{10} \log_2\left(\frac{1}{10}\right)\right] \\
+&amp;\approx 2,\!160~bits,
+\end{align*}
+\]</span> indicando que esse dado é “mais previsível” do que um dado honesto, visto que <span class="math inline">\(\Hcal(\widetilde{Y}) &lt; \Hcal(Y)\)</span>. Porém, note que ao comparar somente os valores das entropias de <span class="math inline">\(\widetilde{Y}\)</span> e <span class="math inline">\(Y\)</span> não temos nenhum indício de <em>como</em> se dá essa maior previsibilidade de <span class="math inline">\(\widetilde{Y}\)</span>. Para obter essa informação é necessário examinar como se dá de fato a distribuição das probabilidades associadas a ambas as variáveis aleatórias sobre os valores em <span class="math inline">\(\Omega_Y\)</span>.</p>
+<p>Para melhor compreender a relação entre a unidade de “bits” e ideias de codificação e transmissão de informações, vejamos um exemplo, retirado de <span class="citation" data-cites="ross-probabilidade">(<a href="#ref-ross-probabilidade" role="doc-biblioref">Ross 2010</a>)</span>.</p>
+<div id="exm-entropia-codificacao" class="theorem example">
+<p><span class="theorem-title"><strong>Exemplo 4 (Codificação de dados)</strong></span> Considere uma <em>fonte de informação</em> (por exemplo, um arquivo de texto em um computador), formado somente pelos símbolos <span class="math inline">\(x_1\)</span>, <span class="math inline">\(x_2\)</span>, <span class="math inline">\(x_3\)</span> e <span class="math inline">\(x_4\)</span>, que são sorteados aleatoriamente e independentemente de acordo com a variável aleatória <span class="math inline">\(Z\)</span> que dá a tais valores as respectivas probabilidades de <span class="math inline">\(1/2\)</span>, <span class="math inline">\(1/4\)</span>, <span class="math inline">\(1/8\)</span> e <span class="math inline">\(1/8\)</span>. Suponha que gostaríamos de codificar esses símbolos em dígitos binários de forma <em>ótima</em>, ou seja, de modo que o comprimento médio de uma sequência proveniente de tal fonte seja o mínimo possível. Dentre diversas possibilidades de codificação, considere a correspondência abaixo: <span class="math display">\[
+\begin{equation}
+    \begin{split}
+        x_1 &amp;\leftrightarrow 0 \\
+        x_2 &amp;\leftrightarrow 10 \\
+        x_3 &amp;\leftrightarrow 110 \\
+        x_4 &amp;\leftrightarrow 111.
+    \end{split}
+\end{equation}
+\]</span> Em média, esse esquema de codificação irá utilizar <span class="math inline">\(\frac{1}{2} \times 1 + \frac{1}{4} \times 2 + \frac{1}{8} \times 3 + \frac{1}{8} \times 3 = 1,\!75\)</span> bits por símbolo para codificar uma mensagem dessa fonte. Ao se calcular a entropia da variável aleatória <span class="math inline">\(Z\)</span>, utilizando a fórmula na <a href="#eq-entropia-va" class="quarto-xref">Equação&nbsp;1</a> com a base <span class="math inline">\(b = 2\)</span>, encontra-se, não coincidentemente, exatamente o mesmo valor.</p>
+</div>
+<p>Dessa forma, conforme ilustrado pelo <a href="#exm-entropia-codificacao" class="quarto-xref">Exemplo&nbsp;4</a>, a entropia de uma variável aleatória está intimamente ligada com uma forma de “codificar” essa variável aleatória de modo a economizar o máximo de informação possível. Assim, fica claro qual a grande importância do conceito de entropia para a Teoria da Informação.</p>
+</section>
+</section>
+<section id="um-exemplo-em-música" class="level2">
+<h2 class="anchored" data-anchor-id="um-exemplo-em-música">Um exemplo em Música</h2>
+<p>Para fechar este capítulo sobre Probabilidade, vejamos um exemplo em Música, também retirado de <span class="citation" data-cites="almada-carvalho-entropia">(<a href="#ref-almada-carvalho-entropia" role="doc-biblioref">Almada e Carvalho 2023</a>)</span>. A <a href="#fig-probabilidade02" class="quarto-xref">Figura&nbsp;4</a> compara a entropia (à direita, medida em bits) e o número de possíveis continuações (à esquerda) do tipo acordal mais povoado (Y, formado por acordes dominantes – veja o Capítulo <a href="../capitulos/modelos-teoricos.html">Modelos teóricos</a> para mais detalhes) dentro do corpus JOBIM, e cada linha representa um dos possíveis membros do <em>genus</em> Y (cifrados com fundamental Dó, para maior clareza).</p>
+<div id="fig-probabilidade02" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-probabilidade02-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../figs/probabilidade-02.png" class="img-fluid figure-img" style="width:75.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-probabilidade02-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;4: Entropia (medida em bits) e número de possíveis continuações do tipo acordal “dominante” (Y), dentro do <em>corpus</em> JOBIM (Figura 11 de <span class="citation" data-cites="almada-carvalho-entropia">Almada e Carvalho (<a href="#ref-almada-carvalho-entropia" role="doc-biblioref">2023</a>)</span>).
+</figcaption>
+</figure>
+</div>
+<p>Note que, apesar de haver uma certa correlação positiva entre ambas as quantidades ilustradas (ou seja, quanto maior o número de continuações, maior tende a ser a entropia), conforme justificado pelo <a href="#thm-maxima-entropia" class="quarto-xref">Teorema&nbsp;2</a>, isso nem sempre é verificado, pois a entropia também captura a distribuição da massa de probabilidade sobre as possíveis continuações. Compare, por exemplo, os tipos acordais “C4.7” e “C7(♭9.♯11)”, destacados na <a href="#fig-probabilidade02" class="quarto-xref">Figura&nbsp;4</a>: apesar da discrepância entre os números de possíveis continuações (133 e 11, respectivamente) suas entropias são consideravelmente similares (3,311 e 3,279 bits, respectivamente).</p>
+<p>Ao analisarmos a distribuição de probabilidade referente às continuações de ambos os tipos acordais, parcialmente explicitadas na <a href="#fig-probabilidade03" class="quarto-xref">Figura&nbsp;5</a>, consegue-se compreender melhor essa discrepância. Note que a distribuição para as continuações do tipo acordal “C4.7” é muito mais assimétrica, visto que a continuação mais provável (“C7”) concentra quase metade da massa de probabilidade total, estando os outros 56% distribuídos em outras 132 possibilidades. Por outro lado, as probabilidades das 11 possíveis continuações do tipo acordal “C7(♭9.♯11)” são muito mais uniformemente distribuídas, o que contribui para aumentar a entropia associada a ele. De fato, a máxima entropia com 11 continuações possíveis é dada por <span class="math inline">\(\log_2(11) \approx 3,\!459\)</span> bits, conforme o <a href="#thm-maxima-entropia" class="quarto-xref">Teorema&nbsp;2</a>, enquanto que o valor observado para a entropia das continuações do tipo acordal “C7(♭9.♯11)” dentro do <em>corpus</em> JOBIM foi de 3,279 bits, um valor próximo ao máximo. Note que com um total de 133 continuações, a máxima entropia é dada por <span class="math inline">\(\log_2(133) \approx 7,\!055\)</span> bits, um valor bem acima do observado no <em>corpus</em> JOBIM para o tipo acordal “C4.7”, 3,331 bits.</p>
+<div id="fig-probabilidade03" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-probabilidade03-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../figs/probabilidade-03.png" class="img-fluid figure-img" style="width:75.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-probabilidade03-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;5: Comparação entre as continuações dos tipos acordais “C4.7” e “C7(♭9.♯11)”, dentro do <em>corpus</em> JOBIM, onde as probabilidades de cada continuação estão listadas da mais provável para a menos provável (Tabela 3 de <span class="citation" data-cites="almada-carvalho-entropia">(<a href="#ref-almada-carvalho-entropia" role="doc-biblioref">Almada e Carvalho 2023</a>)</span>).
+</figcaption>
+</figure>
+</div>
+
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referências</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-prob-0-not-impossible" class="csl-entry" role="listitem">
+3Blue1Brown. 2020. <span>«Why "probability of 0" does not mean "impossible" | Probabilities of probabilities, part 2»</span>. <a href="https://www.youtube.com/watch?v=ZA4JkHKZM50" class="uri">https://www.youtube.com/watch?v=ZA4JkHKZM50</a>.
+</div>
+<div id="ref-almada-carvalho-entropia" class="csl-entry" role="listitem">
+Almada, Carlos, e Hugo Carvalho. 2023. <span>«Entropy, Probabilistic Harmonic Space, and the Harmony of Antonio Carlos Jobim»</span>. <em>Musica Theorica</em> 7 (1).
+</div>
+<div id="ref-thomas-cover" class="csl-entry" role="listitem">
+Cover, Thomas, e Joy Thomas. 2005. <em>Elements of Information Theory</em>. 2.ª ed. New Jersey: Wiley.
+</div>
+<div id="ref-bayesian-brain" class="csl-entry" role="listitem">
+Doya, Kenji, Shin Ishii, Alexandre Pouget, e Rajesh P. N. Rao. 2006. <em>Bayesian Brain: Probabilistic Approaches to Neural Coding</em>. Cambridge: The MIT Press.
+</div>
+<div id="ref-ciencia-da-sorte" class="csl-entry" role="listitem">
+Kucharski, Adam. 2017. <em>A ciência da sorte - A matemática e o mundo das apostas: de loterias e cassinos ao mercado financeiro</em>. Rio de Janeiro: Zahar.
+</div>
+<div id="ref-meyer-style" class="csl-entry" role="listitem">
+Meyer, Leonard. 1989. <em>Style and Music: Theory, History, and Ideology</em>. Philadelphia: University of Pennsylvania Press.
+</div>
+<div id="ref-ross-probabilidade" class="csl-entry" role="listitem">
+Ross, Sheldon. 2010. <em>Probabilidade: Um Curso Moderno com Aplicações</em>. 8.ª ed. Porto Alegre: Bookman.
+</div>
+<div id="ref-uma-senhora-toma-cha" class="csl-entry" role="listitem">
+Salsburg, David. 2009. <em>Uma senhora toma chá... Como a estatística revolucionou a ciência no século XX</em>. Rio de Janeiro: Zahar.
+</div>
+<div id="ref-shannon-weaver" class="csl-entry" role="listitem">
+Shannon, Claude, e Warren Weaver. 1949. <em>The Mathematical Theory of Communication</em>. Champaign: University of Illinois Press.
+</div>
+<div id="ref-temperley-cognition-music-structures" class="csl-entry" role="listitem">
+Temperley, David. 2001. <em>The Cognition of Basic Music Structures</em>. Cambridge: The MIT Press.
+</div>
+<div id="ref-temperley-music-probability" class="csl-entry" role="listitem">
+———. 2006. <em>Music and Probability</em>. Cambridge: The MIT Press.
+</div>
+<div id="ref-what-is-not-random" class="csl-entry" role="listitem">
+Veritasium. 2014. <span>«What is NOT random?»</span> <a href="https://www.youtube.com/watch?v=sMb00lz-IfE" class="uri">https://www.youtube.com/watch?v=sMb00lz-IfE</a>.
+</div>
+<div id="ref-what-is-random" class="csl-entry" role="listitem">
+Vsauce. 2014. <span>«What is random?»</span> <a href="https://www.youtube.com/watch?v=9rIy0xY99a0" class="uri">https://www.youtube.com/watch?v=9rIy0xY99a0</a>.
+</div>
+<div id="ref-wikipedia-history-entropy" class="csl-entry" role="listitem">
+Wikipedia. 2023. <span>«History of entropy – Information Theory»</span>. <a href="https://en.wikipedia.org/wiki/History_of_entropy#Information_theory" class="uri">https://en.wikipedia.org/wiki/History_of_entropy#Information_theory</a>.
+</div>
+<div id="ref-wikipedia-log" class="csl-entry" role="listitem">
+———. 2024. <span>«Logarithm»</span>. <a href="https://en.wikipedia.org/wiki/Logarithm" class="uri">https://en.wikipedia.org/wiki/Logarithm</a>.
+</div>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Notas de rodapé</h2>
+
+<ol>
+<li id="fn1"><p>Vale lembrar que essa definição está longe de ser rigorosa, e que aqui estamos prezando por uma maior compreensibilidade em detrimento de um maior rigor matemático. Para uma definição rigorosa, veja <span class="citation" data-cites="ross-probabilidade">(<a href="#ref-ross-probabilidade" role="doc-biblioref">Ross 2010</a>)</span>.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Pode-se partir do pressuposto que essa é a <em>definição</em> de um dado honesto, e utilizando a <em>Lei dos Grandes Números</em>, um resultado extremamente importante da Teoria das Probabilidades, pode-se provar que essa definição implica na interpretação usual de um dado honesto: “ao lançá-lo um número suficientemente grande de vezes, observaremos cada face aproximadamente o mesmo número de vezes”.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>O símbolo <span class="math inline">\(\ds \sum\)</span> significa “somatório”, e a expressão <span class="math inline">\(\ds \sum_{x \in \Omega_X} \PP(X = x)\)</span> significa “a soma das probabilidades <span class="math inline">\(\PP(X = x)\)</span> para todo valor <span class="math inline">\(x\)</span> em <span class="math inline">\(\Omega_X\)</span>”, ou seja, somar <span class="math inline">\(\PP(X = x)\)</span> para todo valor <span class="math inline">\(x\)</span> que a variável aleatória <span class="math inline">\(X\)</span> pode assumir”.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Essa derivação é apresentada em uma linguagem matemática moderna, juntamente com as devidas demonstrações, em <span class="citation" data-cites="ross-probabilidade">(<a href="#ref-ross-probabilidade" role="doc-biblioref">Ross 2010</a>)</span>.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>A notação <span class="math inline">\(S: (0, 1] \to \RR\)</span> significa que a função <span class="math inline">\(S\)</span> recebe como entrada números reais entre 0 (exclusive) e 1 (inclusive) e nos retorna um outro número real. Não consideramos <span class="math inline">\(0\)</span> como uma possível entrada para a função <span class="math inline">\(S\)</span> pois, intuitivamente, eventos de probabilidade zero seriam “infinitamente surpreendentes”, de modo que <span class="math inline">\(S(0)\)</span> não seria um número real.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>Rigorosamente, na Teoria de Probabilidades, um evento com probabilidade <span class="math inline">\(1\)</span> de ocorrência é dito um <em>evento quase-certo</em>, uma nomenclatura que parece fortemente não-intuitiva. Porém, em determinados contextos, eventos de probabilidade <span class="math inline">\(0\)</span> <em>podem</em> acontecer. Para mais detalhes, veja <span class="citation" data-cites="ross-probabilidade">(<a href="#ref-ross-probabilidade" role="doc-biblioref">Ross 2010</a>)</span> e o excelente vídeo de divulgação científica <span class="citation" data-cites="prob-0-not-impossible">(<a href="#ref-prob-0-not-impossible" role="doc-biblioref">3Blue1Brown 2020</a>)</span>.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>Intuitivamente, dois eventos <span class="math inline">\(A\)</span> e <span class="math inline">\(B\)</span> são ditos <em>independentes</em> se: ter conhecimento sobre a ocorrência ou não do evento <span class="math inline">\(A\)</span> nada informa sobre a ocorrência ou não do evento <span class="math inline">\(B\)</span>, e vice-versa. O exemplo do lançamento de um dado de uma moeda é bastante utilizado para ilustrar esse conceito, porém existem exemplos mais interessantes e menos intuitivos de eventos independentes. Por exemplo, ao se lançar um dado honesto, seja <span class="math inline">\(A\)</span> o evento “o número observado é par” e <span class="math inline">\(B\)</span> o evento “o número observado é 5 ou 6”. Esses eventos são independentes, pois a chance de se observar o evento <span class="math inline">\(B\)</span> é dada por <span class="math inline">\(\PP(B) = 2/6 = 1/3\)</span>; e sabendo da ocorrência do evento <span class="math inline">\(A\)</span>, a nova chance de observar o evento <span class="math inline">\(B\)</span> é dada por <span class="math inline">\(\PP(B | A) = \PP(B \cap A)/\PP(A) = (1/6)/(1/2) = 1/3\)</span>. Esse último conceito é chamado de <em>probabilidade condicional</em>, e para mais detalhes sobre ele e sobre independência entre eventos, veja <span class="citation" data-cites="ross-probabilidade">(<a href="#ref-ross-probabilidade" role="doc-biblioref">Ross 2010</a>)</span>.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>Relembremos que a função logarítmica captura, essencialmente, a “ordem de grandeza” de determinado número, em uma determinada base: se <span class="math inline">\(c = \log_b(p)\)</span> então <span class="math inline">\(b^c = p\)</span>. Para mais detalhes veja <span class="citation" data-cites="wikipedia-log">(<a href="#ref-wikipedia-log" role="doc-biblioref">Wikipedia 2024</a>)</span>.<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copiada");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copiada");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/projetompb\.github\.io\/site\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
+<a property="dct:title" rel="cc:attributionURL" href="https://projetompb.github.io/site/">Projeto MPB</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a>
+</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/capitulos/probabilidade.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/capitulos/probabilidade.qmd" class="toc-action"><i class="bi empty"></i>Ver o código fonte</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>Página construída em <a href="https://quarto.org/">Quarto</a>.</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
