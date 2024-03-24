@@ -78,7 +78,7 @@ Por hipótese, os **atributos primários** evidenciam especialmente (mas não ap
 Antes de iniciarmos propriamente o exame dos resultados das análises dos atributos primários harmônicos e melódicos, cumpre apresentar algumas informações gerais básicas compiladas nos *corpora*, como mostra o quadro abaixo:
 
 ![Totais de acordes, ataques, notas-funções e valores médios
-de clímax e nadir por *corpus*.](../figs/atri-pri-00.png){width=100%}
+de clímax e nadir por *corpus*.](../figs/atri-pri-00.png){width=60%}
 
 (falar sobre os quadros) ......................
 
