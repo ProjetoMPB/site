@@ -73,4 +73,31 @@ DISTRIBUIÇÃO DE CARDINALIDADES DE C/R PALAVRAS
 
 DISTRIBUIÇÃO DE R-LETRAS
 
+![Distribuição de r-letras no *corpus* Jazz.](../figs/grafico-03a.png){width=50% #fig-graf03a}
+
+![Distribuição de r-letras no *corpus* Choro.](../figs/grafico-03b.png){width=50% #fig-graf03b}
+
+![Distribuição de r-letras no *corpus* Samba.](../figs/grafico-03c.png){width=50% #fig-graf03c}
+
+![Distribuição de r-letras no *corpus* Jobim.](../figs/grafico-03d.png){width=50% #fig-graf03d}
+
+![Distribuição de r-letras no *corpus* Lins.](../figs/grafico-03e.png){width=50% #fig-graf03e}
+
+![Distribuição de r-letras no *corpus* Chico.](../figs/grafico-03f.png){width=50% #fig-graf03f}
+
+![Distribuição de r-letras no *corpus* Edu.](../figs/grafico-03g.png){width=50% #fig-graf03g}
+
+![Distribuição de r-letras no *corpus* Caetano.](../figs/grafico-03h.png){width=50% #fig-graf03h}
+
+![Distribuição de r-letras no *corpus* Djavan.](../figs/grafico-03i.png){width=50% #fig-graf03i}
+
+![Distribuição de r-letras no *corpus* Bosco.](../figs/grafico-03j.png){width=50% #fig-graf03j}
+
+![Distribuição de r-letras no *corpus* Milton.](../figs/grafico-03k.png){width=50% #fig-graf03k}
+
+![Distribuição de r-letras no *corpus* Gil.](../figs/grafico-03l.png){width=50% #fig-graf03l}
+
+![Distribuição de r-letras no *corpus* Rita.](../figs/grafico-03m.png){width=50% #fig-graf03m}
+
+![Comparação das distribuições de r-letras nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-03.png){width=100% #fig-graf03}
 
