@@ -1,17 +1,23 @@
 ---
 title: Atributos primários de avaliação
 ---
+### DESCRIÇÃO GERAL DOS ATRIBUTOS ESTILÍSTICOS
+
 Os atributos (e métricas) que adotamos para a avaliação das análises podem ter natureza quantitativa ou qualitativa, bem como podem ser associados a *marcadores estilísticos* (ver o capítulo sobre estilo musical). 
 
-Buscando um refinamento, classificamos os atributos em duas categorias básicas, *primários* e *secundários*. A principal diferença entre essas categorias reside no fato de que, enquanto os atributos secundários são *potenciais* definidores de estilo, os primários, ainda que importantes, não apresentam, individualmente, essa capacidade (apenas se vistos em conjunto). Na verdade, os atributos secundários, por assim dizer, "revisam" atributos primários a eles correspondentes, examinando-os de outras perspectivas, em geral mais amplas e, ao mesmo tempo, detalhadas. Podemos ainda considerar, de um modo um pouco mais livre, que os atributos secundários detalham os *contextos* nos quais os atributos primários se inserem.
+Buscando um refinamento, classificamos os atributos em três categorias básicas, *primários* (apresentados neste capítulo), *secundários* e *terciários* (contemplados em capítulos específicos). As principais diferenças entre essas categorias se encontram nos seus respectivos graus de complexidade e detalhamento, bem como no quanto contribuem para evidenciar questões e demarcações estilísticas. Assim, enquanto os atributos secundários são *potenciais* definidores de estilo, os primários, ainda que importantes, não apresentam, tão marcadamente essa capacidade (apenas se vistos em conjunto). Na verdade, os atributos secundários, por assim dizer, "revisam" atributos primários a eles correspondentes, examinando-os de outras perspectivas, em geral mais amplas e, ao mesmo tempo, detalhadas. Podemos ainda considerar, de um modo um pouco mais livre, que os atributos secundários evidenciam os *contextos* nos quais os atributos primários se inserem. Por sua vez, atributos terciários podem ser vistos como uma espécie de sintonia fina dos secundários, tendo como principais características a natureza eminente quantitativa e o fato de considerarem todo o conjunto de cada um de seus atributos (enquanto os secundários envolvem mais seus aspectos qualitativos).
 
-As duas classes de atributos, por sua vez, segmentam-se internamente em relação aos *domínios* (harmonia e melodia), a *níveis* de organização e a *aspectos* específicos desses níveis. Para uma mais rápida identificação, os aspectos são rotulados de acordo com a fórmula "mXnp", onde *m* é o número que indica o nível do atributo -- primário (m = 1) ou secundário (m = 2) --, *X* é a letra que representa o domínio considerado (H, para harmonia, M, para melodia), *n* é o número do nível em questão (n = 1, 2, 3 ou 4) e *p* é uma letra sequencial em caixa baixa identificadora do aspecto específico (p = a, b, c, d, ...). Assim, por exemplo, o rótulo 1H3b corresponde a um atributo estilístico primário (1) associado ao domínio da harmonia (H) associado ao terceiro nível (3, que é referente aos tipos acordais), considerando o segundo aspecto (b, que se refere à categoria funcional mais recorrente dentro do *corpus* em análise).
+### CRITÉRIOS DE ROTULAÇÃO DOS ATRIBUTOS PRIMÁRIOS E SECUNDÁRIOS^[Os atributos terciários são identificados com uma simbologia distinta.] 
+
+Os atributos primários e secundários são agrupadas internamente em relação aos *domínios* (harmonia e melodia),^[O domínio melódico, por sua vez, subdivide-se em subdomínios: notas-funções, alturas e ritmo.] a *níveis* de organização e a *aspectos* específicos desses níveis. Para uma rápida identificação, os aspectos são rotulados de acordo com a fórmula "mXnp", onde *m* é o número que indica o nível do atributo -- primário (m = 1) ou secundário (m = 2) --, *X* é a letra que representa o domínio considerado (H, para harmonia, M, para melodia), *n* é o número do nível em questão (n = 1, 2, 3 ou 4) e *p* é uma letra sequencial em caixa baixa identificadora do aspecto específico (p = a, b, c, d, ...). Assim, por exemplo, o rótulo 1H3b corresponde a um atributo estilístico *primário* (1) vinculado ao domínio da *harmonia* (H) associado ao *terceiro nível* (3, que é referente aos tipos acordais), considerando o *segundo aspecto* (b, que se refere à categoria funcional mais recorrente dentro do *corpus* em análise).
 
 ---
 
-Por hipótese, os **atributos primários** evidenciam especialmente (mas não apenas) elementos estruturais compartilhados por compositores pertencentes a um determinado superconjunto estilístico. Foram definidos 35 atributos primários ao longo deste estudo, 19 associados ao domínio harmônico e 16 ao domínio melódico. São as seguintes suas descrições básicas:
+### ATRIBUTOS PRIMÁRIOS
 
-### ATRIBUTOS PRIMÁRIOS HARMÔNICOS
+Por hipótese, os atributos primários evidenciam especialmente (mas não apenas) elementos estruturais compartilhados por compositores pertencentes a um determinado superconjunto estilístico. Foram definidos 35 atributos primários, 19 associados ao domínio harmônico e 16 ao domínio melódico. São as seguintes suas descrições básicas:
+
+## ATRIBUTOS PRIMÁRIOS HARMÔNICOS
 **1H1** -- nível das tonalidades (contém cinco aspectos):
 
 - 1H1a -- informa o número de tonalidades distintas empregadas dentro de cada *corpus* (bem como o percentual diante do total possível -- 24), incluindo principais e secundárias (ou seja, aquelas obtidas por modulação interna).
@@ -46,7 +52,8 @@ Por hipótese, os **atributos primários** evidenciam especialmente (mas não ap
 
 ------
 
-### ATRIBUTOS PRIMÁRIOS MELÓDICOS
+## ATRIBUTOS PRIMÁRIOS MELÓDICOS
+
 **1M1** -- nível das notas-funções (contém quatro aspectos):
 
 - 1M1a -- identifica o grau escalar mais recorrente, considerando os modos maior e menor, informando seus percentuais em relação ao total de casos.
@@ -73,16 +80,18 @@ Por hipótese, os **atributos primários** evidenciam especialmente (mas não ap
 
 ---------------------------------
 
-## RESULTADOS - Fase 1 (compositores 1 a 10)
+### RESULTADOS - Fase 1 (compositores 1 a 10)
 
-Antes de iniciarmos propriamente o exame dos resultados das análises dos atributos primários harmônicos e melódicos, cumpre apresentar alguns dados básicos compilados referente aos 13 *corpora*, como mostra a tabela abaixo:
+Antes de iniciarmos propriamente o exame dos resultados das análises dos atributos primários harmônicos e melódicos, convém apresentar alguns dados básicos compilados referente aos 13 *corpora*, como mostra a tabela abaixo:
 
 ![Totais de acordes, ataques, notas-funções e valores médios
 de clímax e nadir por *corpus*.](../figs/atri-pri-00.png){width=60%}
 
-# ATRIBUTOS HARMÔNICOS PRIMÁRIOS
+---
 
-(falar sobre os quadros) ......................
+## ATRIBUTOS HARMÔNICOS PRIMÁRIOS
+
+As duas tabelas que informam os resultados das análises sob a ótica dos atributos primários (harmônicos e melódicos) trazem, para cada *corpus* (os de controle e os analíticos) informações de diversas naturezas: símbólica (por exemplo, c-letras, cifras acordais etc.), numérica (índices de ancoragem, de contrametricidade etc.) e percentuais (quase sempre entre parênteses e muitas vezes complementando dados simbólicos ou numéricos). Após cada tabela, discussões de cada atributo isolado, baseadas em avaliações das estruturas musicais (e estéticas) envolvidas, são apresentadas.^[Avaliações estatísticas desses resultados serão oportunamente apresentadas.]
 
 ![Atributos harmônicos primários por *corpus* (percentuais entre parênteses).](../figs/atri-pri-01.png){width=100%}
 
@@ -127,7 +136,7 @@ ACORDES ESPECÍFICOS (1H4)
 
 
 ----------------------------
-# ATRIBUTOS MELÓDICOS PRIMÁRIOS
+## ATRIBUTOS MELÓDICOS PRIMÁRIOS
 
 ![Atributos melódicos primários por *corpus* (percentuais entre parênteses).](../figs/atri-pri-02.png){width=100%}
 
