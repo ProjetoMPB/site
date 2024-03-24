@@ -2,7 +2,7 @@
 
 ## DOMÍNIO MELÓDICO
 
-# Subdomínio das alturas
+### Subdomínio das alturas
 
 DISTRIBUIÇÃO DE C-LETRAS
 
@@ -66,4 +66,11 @@ DISTRIBUIÇÃO DE CARDINALIDADES DE C/R PALAVRAS
 
 ![Distribuição de cardinalidades no *corpus* Rita.](../figs/grafico-02m.png){width=50% #fig-graf02m}
 
-![Comparação das distribuições das cardinalidades nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-02.png){width=100% #fig-graf02}
+![Comparação das distribuições das cardinalidades de c/r palavras nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-02.png){width=100% #fig-graf02}
+
+
+### Subdomínio do ritmo
+
+DISTRIBUIÇÃO DE R-LETRAS
+
+
