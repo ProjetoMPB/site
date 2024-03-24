@@ -83,7 +83,7 @@ Por hipótese, os atributos primários evidenciam especialmente (mas não apenas
 
 ### RESULTADOS - Fase 1 (compositores 1 a 10)
 
-Antes de iniciarmos propriamente o exame dos resultados das análises dos atributos primários harmônicos e melódicos, convém apresentar alguns dados básicos compilados referente aos 13 *corpora*, como mostra a tabela abaixo:
+Antes de iniciarmos propriamente o exame dos resultados das análises dos atributos primários harmônicos e melódicos, convém apresentar alguns dados básicos compilados referente aos 13 *corpora*, como mostra a tabela abaixo:^[Não deve ter passado despercebida a maior discrepância referente aos números de acordes e, especialmente, de ataques no Choro comparado à média dos demais *corpora*: isso deriva do fato de que cada peça de choro considerada compreende três seções (em geral com 16 compassos cada), o que faz com que os "territórios" cobertos nesse repertório pela análise correspondam a quase o dobro em relação a qualquer outro. Por outro lado, é bem interessante constatar , por assim dizer,o "conservadorismo" estilístico que foi detectado no gênero, mantendo uma considerável consistência e regularidade.]
 
 ![Totais de acordes, ataques, notas-funções e valores médios
 de clímax e nadir por *corpus*.](../figs/atri-pri-00.png){width=60%}
