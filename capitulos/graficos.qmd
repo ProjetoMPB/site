@@ -6,62 +6,64 @@
 
 DISTRIBUIÇÃO DE C-LETRAS
 
-[@fig-graf01a]
+![Distribuição de c-letras no *corpus* Jazz.](../figs/grafico-01a.png){width=50% #fig-graf01a}
 
-![Distribuiição de c-letras no *corpus* Jazz.](../figs/grafico-01a.png){width=50% #fig-graf01a}
+![Distribuição de c-letras no *corpus* Choro.](../figs/grafico-01b.png){width=50% #fig-graf01b}
 
-[@fig-graf01b]
+![Distribuição de c-letras no *corpus* Samba.](../figs/grafico-01c.png){width=50% #fig-graf01c}
 
-![Distribuiição de c-letras no *corpus* Choro.](../figs/grafico-01b.png){width=50% #fig-graf01b}
+![Distribuição de c-letras no *corpus* Tom Jobim.](../figs/grafico-01d.png){width=50% #fig-graf01d}
 
-[@fig-graf01c]
+![Distribuição de c-letras no *corpus* Ivan Lins.](../figs/grafico-01e.png){width=50% #fig-graf01e}
 
-![Distribuiição de c-letras no *corpus* Samba.](../figs/grafico-01c.png){width=50% #fig-graf01c}
+![Distribuição de c-letras no *corpus* Chico Buarque.](../figs/grafico-01f.png){width=50% #fig-graf01f}
 
-[@fig-graf01d]
+![Distribuição de c-letras no *corpus* Edu Lobo.](../figs/grafico-01g.png){width=50% #fig-graf01g}
 
-![Distribuiição de c-letras no *corpus* Tom Jobim.](../figs/grafico-01d.png){width=50% #fig-graf01d}
+![Distribuição de c-letras no *corpus* Caetano Veloso.](../figs/grafico-01h.png){width=50% #fig-graf01h}
 
-[@fig-graf01e]
+![Distribuição de c-letras no *corpus* Djavan.](../figs/grafico-01i.png){width=50% #fig-graf01i}
 
-![Distribuiição de c-letras no *corpus* Ivan Lins.](../figs/grafico-01e.png){width=50% #fig-graf01e}
+![Distribuição de c-letras no *corpus* João Bosco.](../figs/grafico-01j.png){width=50% #fig-graf01j}
 
-[@fig-graf01f]
+![Distribuição de c-letras no *corpus* Milton Nascimento.](../figs/grafico-01k.png){width=50% #fig-graf01k}
 
-![Distribuiição de c-letras no *corpus* Chico Buarque.](../figs/grafico-01f.png){width=50% #fig-graf01f}
+![Distribuição de c-letras no *corpus* Gilberto Gil.](../figs/grafico-01l.png){width=50% #fig-graf01l}
 
-[@fig-graf01g]
+![Distribuição de c-letras no *corpus* Rita Lee.](../figs/grafico-01m.png){width=50% #fig-graf01m}
 
-![Distribuiição de c-letras no *corpus* Edu Lobo.](../figs/grafico-01g.png){width=50% #fig-graf01g}
-
-[@fig-graf01h]
-
-![Distribuiição de c-letras no *corpus* Caetano Veloso.](../figs/grafico-01h.png){width=50% #fig-graf01h}
-
-[@fig-graf01i]
-
-![Distribuiição de c-letras no *corpus* Djavan.](../figs/grafico-01i.png){width=50% #fig-graf01i}
-
-[@fig-graf01j]
-
-![Distribuiição de c-letras no *corpus* João Bosco.](../figs/grafico-01j.png){width=50% #fig-graf01j}
-
-[@fig-graf01k]
-
-![Distribuiição de c-letras no *corpus* Milton Nascimento.](../figs/grafico-01k.png){width=50% #fig-graf01k}
-
-[@fig-graf01l]
-
-![Distribuiição de c-letras no *corpus* Gilberto Gil.](../figs/grafico-01l.png){width=50% #fig-graf01l}
-
-[@fig-graf01m]
-
-![Distribuiição de c-letras no *corpus* Rita Lee.](../figs/grafico-01m.png){width=50% #fig-graf01m}
-
-[@fig-graf01n]
-
-![Distribuiição de c-letra no conjunto MPB (compositores 1 a 10).](../figs/grafico-01n.png){width=50% #fig-graf01n}
-
-[@fig-graf01]
+![Distribuição de c-letra no conjunto MPB (compositores 1 a 10).](../figs/grafico-01n.png){width=50% #fig-graf01n}
 
 ![Comparação das distribuições das c-letras nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-01.png){width=100% #fig-graf01}
+
+---
+
+DISTRIBUIÇÃO DE CARDINALIDADES DE C/R PALAVRAS
+
+![Distribuição de cardinalidades no *corpus* Jazz.](../figs/grafico-02a.png){width=50% #fig-graf02a}
+
+![Distribuição de cardinalidades no *corpus* Choro.](../figs/grafico-02b.png){width=50% #fig-graf02b}
+
+![Distribuição de cardinalidades no *corpus* Samba.](../figs/grafico-02c.png){width=50% #fig-graf02c}
+
+![Distribuição de cardinalidades no *corpus* Jobim.](../figs/grafico-02d.png){width=50% #fig-graf02d}
+
+![Distribuição de cardinalidades no *corpus* Lins.](../figs/grafico-02e.png){width=50% #fig-graf02e}
+
+![Distribuição de cardinalidades no *corpus* Chico.](../figs/grafico-02f.png){width=50% #fig-graf02f}
+
+![Distribuição de cardinalidades no *corpus* Edu.](../figs/grafico-02g.png){width=50% #fig-graf02g}
+
+![Distribuição de cardinalidades no *corpus* Caetano.](../figs/grafico-02h.png){width=50% #fig-graf02h}
+
+![Distribuição de cardinalidades no *corpus* Djavan.](../figs/grafico-02i.png){width=50% #fig-graf02i}
+
+![Distribuição de cardinalidades no *corpus* Bosco.](../figs/grafico-02j.png){width=50% #fig-graf02j}
+
+![Distribuição de cardinalidades no *corpus* Milton.](../figs/grafico-02k.png){width=50% #fig-graf02k}
+
+![Distribuição de cardinalidades no *corpus* Gil.](../figs/grafico-02l.png){width=50% #fig-graf02l}
+
+![Distribuição de cardinalidades no *corpus* Rita.](../figs/grafico-02m.png){width=50% #fig-graf02m}
+
+![Comparação das distribuições das cardinalidades nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-02.png){width=100% #fig-graf02}
