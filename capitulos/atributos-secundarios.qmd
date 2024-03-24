@@ -92,13 +92,18 @@ Ao contrário do que é feito com os atributos primários, os secundários são 
 
 2H1a
 
-![Total de relações binárias tonais distintas por *corpus*..](../figs/atri-pri-01.png){width=60%}
+![Total de relações binárias tonais distintas por *corpus*..](../figs/atri-sec-01.png){width=60%}
 
 ### Discussão
 
-RELAÇÕES TONAIS (1H1)
+Observa-se na tabela acima uma certa tendência de que os *corpora* MPB apresentem uma relativa alta diversidade de RBTs, em sintonia com o que acontece no *corpus* Jazz, o que sugere uma possível influência, ainda que vaga, no sentido de uma maior exuberância de soluções modulatórias. Nesse sentido, chama especialmente atenção a baixa quantidade de relações distintas no Samba, o que talvez reflita o fato de que modulações não sejam tão comuns como em outros gêneros e, consequentemente, a estabilidade tonal possa ser uma característica distinguidora.^[Num patamar intermediário, em torno de 15 %, encontram-se os *corpora* Chico Buarque, João Bosco, Gilberto Gil e Rita Lee.] Essa conjectura abre uma via de pesquisa para estudos futuros.
 
+2H1b
 
+![Distribuição das relações binárias tonais notáveis por *corpus*..](../figs/atri-sec-02.png){width=60%}
 
+### Discussão
+
+Nota-se aqui também um possível definidor de fronteira entre a Prática Comum da MPB e o superconjunto representado pelos gêneros Samba e Choro, pois parece ser um marcador estilístico desse subconjunto uma maior presença de RBTs não notáveis. Entretanto, os repertórios de análise podem ser segmentados em dois grupos bem definidos: um envolvendo uma relativa baixa frequência de RBTs notáveis, em torno de 1/5 ou 1/4 dos casos (Jobim, Ivan Lins, Edu Lobo e Caetano Veloso) e o outro no qual tais relações abrangem de 40 % (Djavan) a 63 % (João Bosco), incluindo valores mais próximos à metade das ocorrências (Chico Buarque, Milton Nascimento, Gilberto Gil e Rita Lee).
 
 
