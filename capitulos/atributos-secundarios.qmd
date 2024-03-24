@@ -80,6 +80,24 @@ Os atributos secundários são essencialmente revisões (ou detalhamentos) de al
 
 - 2M3e -- destaca de cada *corpus* os 10 mais recorrentes r-trissílabos, detectados a partir do atributo 2M3d. Não há hipóteses previamente associadas a este atributo.  
 
+---------------------------------
+
+## RESULTADOS - Fase 1 (compositores 1 a 10)
+
+Ao contrário do que é feito com os atributos primários, os secundários são apresentados em tabelas individuais e discutidos em seguida.
+
+## Atributos secundários harmônicos
+
+**2H1** (RELAÇÕES TONAIS)
+
+2H1a
+
+![Total de relações binárias tonais distintas por *corpus*..](../figs/atri-pri-01.png){width=60%}
+
+### Discussão
+
+RELAÇÕES TONAIS (1H1)
+
 
 
 
