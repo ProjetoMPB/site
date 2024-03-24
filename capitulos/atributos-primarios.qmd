@@ -75,14 +75,17 @@ Por hipótese, os **atributos primários** evidenciam especialmente (mas não ap
 
 ## RESULTADOS - Fase 1 (compositores 1 a 10)
 
-Antes de iniciarmos propriamente o exame dos resultados das análises dos atributos primários harmônicos e melódicos, cumpre apresentar algumas informações gerais básicas compiladas nos *corpora*, como mostra o quadro abaixo:
+Antes de iniciarmos propriamente o exame dos resultados das análises dos atributos primários harmônicos e melódicos, cumpre apresentar alguns dados básicos compilados referente aos 13 *corpora*, como mostra a tabela abaixo:
 
 ![Totais de acordes, ataques, notas-funções e valores médios
 de clímax e nadir por *corpus*.](../figs/atri-pri-00.png){width=60%}
 
+# ATRIBUTOS HARMÔNICOS PRIMÁRIOS
+
 (falar sobre os quadros) ......................
 
 ![Atributos harmônicos primários por *corpus* (percentuais entre parênteses).](../figs/atri-pri-01.png){width=100%}
+
 
 # Discussão
 
@@ -124,6 +127,7 @@ ACORDES ESPECÍFICOS (1H4)
 
 
 ----------------------------
+# ATRIBUTOS MELÓDICOS PRIMÁRIOS
 
 ![Atributos melódicos primários por *corpus* (percentuais entre parênteses).](../figs/atri-pri-02.png){width=100%}
 
