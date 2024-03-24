@@ -92,7 +92,7 @@ Ao contrário do que é feito com os atributos primários, os secundários são 
 
 2H1a
 
-![Total de relações binárias tonais distintas por *corpus*..](../figs/atri-sec-01.png){width=60%}
+![Total de relações binárias tonais distintas por *corpus* (percentuais entre parênteses).](../figs/atri-sec-01.png){width=30%}
 
 ### Discussão
 
