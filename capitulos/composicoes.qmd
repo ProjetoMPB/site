@@ -152,5 +152,5 @@ Concluída a primeira fase (modelagem), passa-se então à segunda, a composiç�
 
 Por ser ainda bastante recente, a estratégia composicional 2 foi aplicada apenas experimentalmente. A modelagem de duas canções (uma composta por Jobim e a outra por Ivan Lins e Vitor Martins) resultaram em duas pequenas peças (também em formato de canções, porém sem texto), compostas e arranjadas para piano por Carlos Almada.^[Planeja-se formar um ciclo de 10 canções para piano, com peças modeladas provenientes de obras dos *corpora* analisados.] A título de exemplificação, eis a versão digitalizada (mp3) da peça intitulada *O mar de Johanna* (que modelou *Joana dos barcos*, de Lins e Martins):
 
-{{video composicao-23.mp3 height = "68", width = "300">}}
+{{video /..figs/composicao-23.mp3 height = "68", width = "300">}}
 
