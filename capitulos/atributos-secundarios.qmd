@@ -100,7 +100,7 @@ Observa-se na tabela acima uma certa tendência de que os *corpora* MPB apresent
 
 2H1b
 
-![Distribuição das relações binárias tonais notáveis por *corpus*..](../figs/atri-sec-02.png){width=60%}
+![Distribuição das relações binárias tonais notáveis por *corpus*..](../figs/atri-sec-02.png){width=40%}
 
 ### Discussão
 
