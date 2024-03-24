@@ -13,11 +13,11 @@ Os atributos primários e secundários são agrupadas internamente em relação 
 
 ---
 
-## ATRIBUTOS PRIMÁRIOS
+# ATRIBUTOS PRIMÁRIOS
 
 Por hipótese, os atributos primários evidenciam especialmente (mas não apenas) elementos estruturais compartilhados por compositores pertencentes a um determinado superconjunto estilístico. Foram definidos 35 atributos primários, 19 associados ao domínio harmônico e 16 ao domínio melódico. São as seguintes suas descrições básicas:
 
-# Atributos primários harmônicos
+### Atributos primários harmônicos
 
 **1H1** -- nível das tonalidades (contém cinco aspectos):
 
@@ -53,7 +53,7 @@ Por hipótese, os atributos primários evidenciam especialmente (mas não apenas
 
 ------
 
-# Atributos primários melódicos
+### Atributos primários melódicos
 
 **1M1** -- nível das notas-funções (contém quatro aspectos):
 
@@ -90,14 +90,14 @@ de clímax e nadir por *corpus*.](../figs/atri-pri-00.png){width=60%}
 
 ---
 
-# Atributos primários harmônicos
+## Atributos primários harmônicos
 
 As duas tabelas que informam os resultados das análises sob a ótica dos atributos primários (harmônicos e melódicos) trazem, para cada *corpus* (os de controle e os analíticos) informações de diversas naturezas: símbólica (por exemplo, c-letras, cifras acordais etc.), numérica (índices de ancoragem, de contrametricidade etc.) e percentuais (quase sempre entre parênteses e muitas vezes complementando dados simbólicos ou numéricos). Após cada tabela, discussões de cada atributo isolado, baseadas em avaliações das estruturas musicais (e estéticas) envolvidas, são apresentadas.^[Avaliações estatísticas desses resultados serão oportunamente apresentadas.]
 
 ![Atributos harmônicos primários por *corpus* (percentuais entre parênteses).](../figs/atri-pri-01.png){width=100%}
 
 
-## Discussão
+### Discussão
 
 RELAÇÕES TONAIS (1H1)
 
@@ -137,11 +137,11 @@ ACORDES ESPECÍFICOS (1H4)
 
 
 ----------------------------
-# Atributos primários melódicos
+## Atributos primários melódicos
 
 ![Atributos melódicos primários por *corpus* (percentuais entre parênteses).](../figs/atri-pri-02.png){width=100%}
 
-## Discussão
+### Discussão
 
 NOTAS-FUNÇÕES (1M1)
 
