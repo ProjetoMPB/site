@@ -131,7 +131,7 @@ PERFIL MÉTRICO
 
 ![Perfil métrico do *corpus* Gil.](../figs/grafico-04l.png){width=50% #fig-graf04l}
 
-![Perfil métrico do *corpus* Rita.](../figs/grafico-04m.png){width=50% #fig-graf04jm
+![Perfil métrico do *corpus* Rita.](../figs/grafico-04m.png){width=50% #fig-graf04m}
 
 ![Perfil métrico do conjunto MPB (compositores 1 a 10).](../figs/grafico-04n.png){width=50% #fig-graf04n}
 
