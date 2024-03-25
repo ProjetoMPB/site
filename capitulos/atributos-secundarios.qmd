@@ -100,7 +100,7 @@ Observa-se na tabela acima uma certa tendência de que os *corpora* MPB apresent
 
 2H1b
 
-![Distribuição das relações binárias tonais notáveis por *corpus*..](../figs/atri-sec-02.png){width=40%}
+![Distribuição das relações binárias tonais notáveis por *corpus*.](../figs/atri-sec-02.png){width=40%}
 
 ### Discussão
 
@@ -108,7 +108,7 @@ Nota-se aqui também um possível definidor de fronteira entre a Prática Comum 
 
 2H1c
 
-![Distribuição das classes de relações binárias tonais por *corpus*..](../figs/atri-sec-03.png){width=40%}
+![Distribuição das classes de relações binárias tonais por *corpus* (números indicam percentuais).](../figs/atri-sec-03.png){width=60%}
 
 ### Discussão
 
