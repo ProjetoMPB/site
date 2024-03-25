@@ -106,4 +106,11 @@ Observa-se na tabela acima uma certa tendência de que os *corpora* MPB apresent
 
 Nota-se aqui também um possível definidor de fronteira entre a Prática Comum da MPB e o superconjunto representado pelos gêneros Samba e Choro, pois parece ser um marcador estilístico desse subconjunto uma maior presença de RBTs não notáveis. Entretanto, os repertórios de análise podem ser segmentados em dois grupos bem definidos: um envolvendo uma relativa baixa frequência de RBTs notáveis, em torno de 1/5 ou 1/4 dos casos (Jobim, Ivan Lins, Edu Lobo e Caetano Veloso) e o outro no qual tais relações abrangem de 40 % (Djavan) a 63 % (João Bosco), incluindo valores mais próximos à metade das ocorrências (Chico Buarque, Milton Nascimento, Gilberto Gil e Rita Lee).
 
+2H1c
+
+![Distribuição das classes de relações binárias tonais por *corpus*..](../figs/atri-sec-03.png){width=40%}
+
+### Discussão
+
+Como sugerem os dados, este atributo refina o anterior, evidenciando a distribuição das classes de RBTs. A respeito às classes de relações predominantes em cada repertório, podemos considerar quatro grupos: (1) MED, nos *corpora* Jazz, Jobim, Ivan Lins, Edu Lobo (acima de 40 % do total) e, um pouco menos, Djavan e João Bosco; (2) REL, nos *corpora* Samba e, bem mais abaixo, Chico Buarque, Gilberto Gil e Rita Lee; (3) TOM: nos *corpora* Caetano Veloso e Milton Nascimento;^[O que poderia ser visto como um interessante marcador estilístico compartilhado, embora, provavelmente, a força dessa classe não em ambos os repertórios não advenha das mesmas razões. Afinal, as obras desses compositores divergem consideravelmente em relação ao aspecto estético e, também, em respeito à construção harmônica, tendo em vista o fato de que a música de Milton é fortemente modal, ao contrário do que se observa nas composições de Caetano. Subjacentemente, salta aos olhos a extraordinária semelhança dos percentuais apurados referente a esse atributo específico.] (4) (D/SD): apenas no *corpus* Choro.
 
