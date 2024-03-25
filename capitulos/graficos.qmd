@@ -40,31 +40,33 @@ DISTRIBUIÇÃO DE C-LETRAS
 
 DISTRIBUIÇÃO DE CARDINALIDADES DE C/R PALAVRAS
 
-![Distribuição de cardinalidades no *corpus* Jazz.](../figs/grafico-02a.png){width=50% #fig-graf02a}
+![Distribuição de cardinalidades de c/r palavras no *corpus* Jazz.](../figs/grafico-02a.png){width=50% #fig-graf02a}
 
-![Distribuição de cardinalidades no *corpus* Choro.](../figs/grafico-02b.png){width=50% #fig-graf02b}
+![Distribuição de cardinalidades de c/r palavras no *corpus* Choro.](../figs/grafico-02b.png){width=50% #fig-graf02b}
 
-![Distribuição de cardinalidades no *corpus* Samba.](../figs/grafico-02c.png){width=50% #fig-graf02c}
+![Distribuição de cardinalidades de c/r palavras no *corpus* Samba.](../figs/grafico-02c.png){width=50% #fig-graf02c}
 
-![Distribuição de cardinalidades no *corpus* Jobim.](../figs/grafico-02d.png){width=50% #fig-graf02d}
+![Distribuição de cardinalidades de c/r palavras no *corpus* Jobim.](../figs/grafico-02d.png){width=50% #fig-graf02d}
 
-![Distribuição de cardinalidades no *corpus* Lins.](../figs/grafico-02e.png){width=50% #fig-graf02e}
+![Distribuição de cardinalidades de c/r palavras no *corpus* Lins.](../figs/grafico-02e.png){width=50% #fig-graf02e}
 
-![Distribuição de cardinalidades no *corpus* Chico.](../figs/grafico-02f.png){width=50% #fig-graf02f}
+![Distribuição de cardinalidades de c/r palavras no *corpus* Chico.](../figs/grafico-02f.png){width=50% #fig-graf02f}
 
-![Distribuição de cardinalidades no *corpus* Edu.](../figs/grafico-02g.png){width=50% #fig-graf02g}
+![Distribuição de cardinalidades de c/r palavras no *corpus* Edu.](../figs/grafico-02g.png){width=50% #fig-graf02g}
 
-![Distribuição de cardinalidades no *corpus* Caetano.](../figs/grafico-02h.png){width=50% #fig-graf02h}
+![Distribuição de cardinalidades de c/r palavras no *corpus* Caetano.](../figs/grafico-02h.png){width=50% #fig-graf02h}
 
-![Distribuição de cardinalidades no *corpus* Djavan.](../figs/grafico-02i.png){width=50% #fig-graf02i}
+![Distribuição de cardinalidades de c/r palavras no *corpus* Djavan.](../figs/grafico-02i.png){width=50% #fig-graf02i}
 
-![Distribuição de cardinalidades no *corpus* Bosco.](../figs/grafico-02j.png){width=50% #fig-graf02j}
+![Distribuição de cardinalidades de c/r palavras no *corpus* Bosco.](../figs/grafico-02j.png){width=50% #fig-graf02j}
 
-![Distribuição de cardinalidades no *corpus* Milton.](../figs/grafico-02k.png){width=50% #fig-graf02k}
+![Distribuição de cardinalidades de c/r palavras no *corpus* Milton.](../figs/grafico-02k.png){width=50% #fig-graf02k}
 
-![Distribuição de cardinalidades no *corpus* Gil.](../figs/grafico-02l.png){width=50% #fig-graf02l}
+![Distribuição de cardinalidades de c/r palavras no *corpus* Gil.](../figs/grafico-02l.png){width=50% #fig-graf02l}
 
-![Distribuição de cardinalidades no *corpus* Rita.](../figs/grafico-02m.png){width=50% #fig-graf02m}
+![Distribuição de cardinalidades de c/r palavras no *corpus* Rita.](../figs/grafico-02m.png){width=50% #fig-graf02m}
+
+![Distribuição  de cardinalidades de c/r palavras no conjunto MPB (compositores 1 a 10).](../figs/grafico-02n.png){width=50% #fig-graf02n}
 
 ![Comparação das distribuições das cardinalidades de c/r palavras nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-02.png){width=100% #fig-graf02}
 
@@ -99,5 +101,39 @@ DISTRIBUIÇÃO DE R-LETRAS
 
 ![Distribuição de r-letras no *corpus* Rita.](../figs/grafico-03m.png){width=50% #fig-graf03m}
 
+![Distribuição de r-letras no conjunto MPB (compositores 1 a 10).](../figs/grafico-03n.png){width=50% #fig-graf03n}
+
 ![Comparação das distribuições de r-letras nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-03.png){width=100% #fig-graf03}
+
+PERFIL MÉTRICO
+
+![Perfil métrico do *corpus* Jazz.](../figs/grafico-04a.png){width=50% #fig-graf04a}
+
+![Perfil métrico do *corpus* Choro.](../figs/grafico-04b.png){width=50% #fig-graf04b}
+
+![Perfil métrico do *corpus* Samba.](../figs/grafico-04c.png){width=50% #fig-graf04c}
+
+![Perfil métrico do *corpus* Jobim.](../figs/grafico-04d.png){width=50% #fig-graf04d}
+
+![Perfil métrico do *corpus* Lins.](../figs/grafico-04e.png){width=50% #fig-graf04e}
+
+![Perfil métrico do *corpus* Chico.](../figs/grafico-04f.png){width=50% #fig-graf04f}
+
+![Perfil métrico do *corpus* Edu.](../figs/grafico-04g.png){width=50% #fig-graf04g}
+
+![Perfil métrico do *corpus* Caetano.](../figs/grafico-04h.png){width=50% #fig-graf04h}
+
+![Perfil métrico do *corpus* Djavan.](../figs/grafico-04i.png){width=50% #fig-graf04i}
+
+![Perfil métrico do *corpus* Bosco.](../figs/grafico-04j.png){width=50% #fig-graf04j}
+
+![Perfil métrico do *corpus* Milton.](../figs/grafico-04k.png){width=50% #fig-graf04k}
+
+![Perfil métrico do *corpus* Gil.](../figs/grafico-04l.png){width=50% #fig-graf04l}
+
+![Perfil métrico do *corpus* Rita.](../figs/grafico-04m.png){width=50% #fig-graf04jm
+
+![Perfil métrico do conjunto MPB (compositores 1 a 10).](../figs/grafico-04n.png){width=50% #fig-graf04n}
+
+![Comparação dos perfis métricos dos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-04.png){width=100% #fig-graf04}
 
