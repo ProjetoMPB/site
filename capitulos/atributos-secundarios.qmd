@@ -12,13 +12,13 @@ Os atributos secundários são essencialmente revisões (ou detalhamentos) de al
 
 - 2H1b -- compara a distribuição das relações binárias tonais da superclasse "notáveis" com o restante do universo. Por hipótese, RBTs "não notáveis" são mais empregadas no contexto estilístico da MPB do que as "notáveis". Assim, uma predominância de RBTs "notáveis" em um determinado *corpus* tenderia, potencialmente, a "afastá-lo"  do subconjunto-alvo.
 
-- 2H1c -- examina em maiores detalhes os conteúdos das superclasses, considerando a distribuição de sete classes de RBTs, as "notáveis" HOM, REL, D/SD e as "não notáveis" MED, QUA, STM, TOM, TRI. Por hipótese, a predominância da classe MED é um indicativo de pertencimento ao subconjunto-alvo, ou seja, um *marcador estilístico centrípeto* (ver capítulo sobre o estilo).
+- 2H1c -- examina em maiores detalhes os conteúdos das superclasses, considerando a distribuição de sete classes de RBTs, as "notáveis" HOM, REL, D/SD e as "não notáveis" MED, QUA, STM, TOM, TRI. Por hipótese, a predominância da classe MED é um indicativo de pertencimento ao subconjunto-alvo, ou seja, um *marcador estilístico centrípeto* (ver [capítulo sobre estilo musical](estilo-musical.qmd)).
 
 ---
 
 **2H2** -- nível dos tipos acordais (contém quatro aspectos):
 
-- 2H2a -- informa a quantidade de tipos acordais (TAs) distintos em cada *corpus*, bem como seu percentual em relação ao total, de acordo com o modelo GTA (ver capítulo dos modelos teóricos). Por hipótese, a  diversidade de TAs seria um possível marcador centrípeto (também em relação ao subconjunto JAZZ).
+- 2H2a -- informa a quantidade de tipos acordais (TAs) distintos em cada *corpus*, bem como seu percentual em relação ao total, de acordo com o modelo GTA (ver [capítulo sobre os modelos teóricos](modelos-teoricos.qmd)). Por hipótese, a  diversidade de TAs seria um possível marcador centrípeto (também em relação ao subconjunto JAZZ).
 
 - 2H2b -- compara a distribuição dos conteúdos dos 10 *genera* de tipos acordais. Por hipótese, uma alta recorrência dos *genera* triádicos V, v em relação aos demais se torna um marcador estilístico *centrífugo*. Inversamente, uma distribuição mais significativa dos *genera* Z, z (independentemente dos demais) indicaria um marcador centrípeto. No entanto, este aspecto também seria característico do subconjunto JAZZ, demandando observações complementares para o refinamento da análise.
 
@@ -114,3 +114,4 @@ Nota-se aqui também um possível definidor de fronteira entre a Prática Comum 
 
 Como sugerem os dados, este atributo refina o anterior, evidenciando a distribuição das classes de RBTs. A respeito às classes de relações predominantes em cada repertório, podemos considerar quatro grupos: (1) MED, nos *corpora* Jazz, Jobim, Ivan Lins, Edu Lobo (acima de 40 % do total) e, um pouco menos, Djavan e João Bosco; (2) REL, nos *corpora* Samba e, bem mais abaixo, Chico Buarque, Gilberto Gil e Rita Lee; (3) TOM: nos *corpora* Caetano Veloso e Milton Nascimento;^[O que poderia ser visto como um interessante marcador estilístico compartilhado, embora, provavelmente, a força dessa classe não em ambos os repertórios não advenha das mesmas razões. Afinal, as obras desses compositores divergem consideravelmente em relação ao aspecto estético e, também, em respeito à construção harmônica, tendo em vista o fato de que a música de Milton é fortemente modal, ao contrário do que se observa nas composições de Caetano. Subjacentemente, salta aos olhos a extraordinária semelhança dos percentuais apurados referente a esse atributo específico.] (4) (D/SD): apenas no *corpus* Choro.
 
+![Total de tipos acordais distintos por por *corpus* (percentagens entre parênteses).](../figs/atri-sec-04.png){width=60%}
