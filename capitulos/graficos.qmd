@@ -137,6 +137,7 @@ PERFIL MÉTRICO
 
 ![Comparação dos perfis métricos dos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-04.png){width=100% #fig-graf04}
 
+
 ### Subdomínio das notas-funções
 
 TEIAS GLOBAIS DE NOTAS-FUNÇÕES
@@ -170,4 +171,41 @@ TEIAS GLOBAIS DE NOTAS-FUNÇÕES
 ![Teia global de notas-funções (valores médios) do conjunto MPB (compositores 1 a 10).](../figs/grafico-05n.png){width=50% #fig-graf05n}
 
 ![Comparação das teias globais de notas-funções (valores médios) dos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-05.png){width=100% #fig-graf05}
+
+------------
+
+## DOMÍNIO HARMÔNICO
+
+DISTRIBUIÇÃO DE TONALIDADES
+
+![Distribuição de tonalidades principais no *corpus* Jazz.](../figs/grafico-06a.png){width=50% #fig-graf06a}
+
+![Distribuição de tonalidades principais no *corpus* Choro.](../figs/grafico-06b.png){width=50% #fig-graf06b}
+
+![Distribuição de tonalidades principais no *corpus* Samba.](../figs/grafico-06c.png){width=50% #fig-graf06c}
+
+![Distribuição de tonalidades principais no *corpus* Jobim.](../figs/grafico-06d.png){width=50% #fig-graf06d}
+
+![Distribuição de tonalidades principais no *corpus* Lins.](../figs/grafico-06e.png){width=50% #fig-graf06e}
+
+![Distribuição de tonalidades principais no *corpus* Chico.](../figs/grafico-06f.png){width=50% #fig-graf06f}
+
+![Distribuição de tonalidades principais no *corpus* Edu.](../figs/grafico-06g.png){width=50% #fig-graf06g}
+
+![Distribuição de tonalidades principais no *corpus* Caetano.](../figs/grafico-06h.png){width=50% #fig-graf06h}
+
+![Distribuição de tonalidades principais no *corpus* Djavan.](../figs/grafico-06i.png){width=50% #fig-graf06i}
+
+![Distribuição de tonalidades principais no *corpus* Bosco.](../figs/grafico-06j.png){width=50% #fig-graf06j}
+
+![Distribuição de tonalidades principais no *corpus* Milton.](../figs/grafico-06k.png){width=50% #fig-graf06k}
+
+![Distribuição de tonalidades principais no *corpus* Gil.](../figs/grafico-06l.png){width=50% #fig-graf06l}
+
+![Distribuição de tonalidades principais no *corpus* Rita.](../figs/grafico-06m.png){width=50% #fig-graf06m}
+
+![Distribuição de tonalidades principais no conjunto MPB (compositores 1 a 10).](../figs/grafico-06n.png){width=50% #fig-graf06n}
+
+![Comparação das distribuições de tonalidades principais nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-06.png){width=100% #fig-graf06}
+
 
