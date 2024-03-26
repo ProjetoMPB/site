@@ -136,7 +136,7 @@ Um primeiro dado interessante na avaliação deste atributo é a convergência d
 
 2H2c
 
-![Distribuição de protoacordes e variantes por *corpus* (em percentuais).](../figs/atri-sec-06.png){width=100%}
+![Distribuição de protoacordes e variantes por *corpus* (em percentuais).](../figs/atri-sec-06.png){width=40%}
 
 ### Discussão
 
