@@ -184,7 +184,7 @@ Nada de muito surpreendente surge nos dados apresentados na tabela acima: quase 
 
 Neste caso, há uma divisão das preferências em três grupos: pelo V/V (Choro, Jobim, Edu Lobo, Milton Nascimento e Rita Lee),^[À parte a recorrência dessa categoria funcional -- diríamos, quase "normal", em comparação aos demais -- o repertório de Milton Nascimento se notabiliza pela raridade dos demais dominantes secundários, o que é novamente um fator que sugere uma preferência pelo modalismo.] pelo II cadencial (Jazz, Ivan Lins, Chico Buarque, Caetano Veloso, Djavan e Gilberto Gil) e V/II (Samba e João Bosco). Nenhuma conclusão sólida referente a estilo pode ser extraída desses resultados isoladamente. 
 
-![Distribuição das categorias funcionais da subclasse "SubV" (SUBV) por *corpus* (em percentuais).](../figs/atri-sec-12.png){width=100%}
+![Distribuição das categorias funcionais da subclasse "SubV" (SUBV) por *corpus* (em percentuais).](../figs/atri-sec-12.png){width=60%}
 
 ### Discussão
 
