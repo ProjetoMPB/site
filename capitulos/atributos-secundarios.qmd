@@ -154,7 +154,9 @@ O detalhamento do atributo anterior traz, embora em magnitudes diferentes, uma c
 
 **2H3** (FUNÇÕES)
 
-![Total de categorias funcionais distintas por *corpus* e respectivos percentuais, considerando o total de 73 possibilidades identificadas (percentuais entre parênteses).](../figs/atri-sec-08.png){width=25%}
+2H3a
+
+![Total de categorias funcionais distintas por *corpus* e respectivos percentuais, considerando o total de 73 possibilidades identificadas (percentuais entre parênteses).](../figs/atri-sec-08.png){width=30%}
 
 ### Discussão
 
