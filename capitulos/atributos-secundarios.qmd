@@ -116,7 +116,7 @@ Como sugerem os dados, este atributo refina o anterior, evidenciando a distribui
 
 ---
 
-**2H1** (TIPOS ACORDAIS)
+**2H2** (TIPOS ACORDAIS)
 
 2H2a
 
@@ -149,3 +149,13 @@ A presença maciça de variantes de tipos acordais é também um marcador estil�
 ### Discussão
 
 O detalhamento do atributo anterior traz, embora em magnitudes diferentes, uma convergência dos três repertórios de controle para o protoacorde Y0.^[O que é acompanhado pelos *corpora* Gilberto Gil e Rita Lee.] Já na maior parte dos repertórios de análise, a proeminência recai sobre variantes do mesmo *genus* (que se apresentam caracteristicamente em grande diversidade), o que pode se constituir um interessante e sutil marcador estilístico, a depender de futuros estudos para sua confirmação. Interessantemente, o *genus* mais recorrente de Caetano Veloso (V) não apresenta variantes, apenas protoacordes, o que parece ser uma faceta estilística pessoal significativa.
+
+---
+
+**2H3** (FUNÇÕES)
+
+![Total de categorias funcionais distintas por *corpus* e respectivos percentuais, considerando o total de possibilidades (73 categorias).](../figs/atri-sec-08.png){width=40%}
+
+### Discussão
+
+Neste atributo os *corpora* MPB mais uma vez se mostram em sintonia com o repertório jazzístico, apresentando uma alta diversidade de categorias funcionais (com um especial destaque ao *corpus* Jobim, abarcando cerca de 3/4 do total possível preconizado pelo modelo teórico adotado[ver capítulo (modelos-teoricos.qmd)]).^[Jobim é seguido bem de perto por Gilberto Gil e Djavan. Por outro lado, Milton Nascimento é o *corpus* que apresenta a menor quantidade de categorias funcionais, o que parece consistente com sua linguagem predominantemente modal.] Novamente, os repertórios de controle Samba e Choro apresentam diversidade semelhante, em níveis sensivelmente mais baixos em relação ao outro grupo, reforçando a separação dos dois conjuntos também no aspecto do vocabulário das categorias funcionais.
