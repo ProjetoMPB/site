@@ -239,7 +239,7 @@ DISTRIBUIÇÃO DE RELAÇÕES BINÁRIAS TONAIS
 
 ![Distribuição de RBTs no conjunto MPB (compositores 1 a 10).](../figs/grafico-07n.png){width=50% #fig-graf07n}
 
-![Comparação das distribuições de RBTs nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-06.png){width=100% #fig-graf07}
+![Comparação das distribuições de RBTs nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-07.png){width=100% #fig-graf07}
 
 DISTRIBUIÇÃO DE ACORDES ESPECÍFICOS
 
@@ -271,4 +271,4 @@ DISTRIBUIÇÃO DE ACORDES ESPECÍFICOS
 
 ![Distribuição de acordes específicos (considerando os 40 mais recorrentes) no conjunto MPB (compositores 1 a 10).](../figs/grafico-08n.png){width=50% #fig-graf08n}
 
-![Comparação das distribuições de acordes específicos (considerando os 40 mais recorrentes) nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-06.png){width=100% #fig-graf07}
+![Comparação das distribuições de acordes específicos (considerando os 40 mais recorrentes) nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-08.png){width=100% #fig-graf08}
