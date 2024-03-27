@@ -161,3 +161,11 @@ O detalhamento do atributo anterior traz, embora em magnitudes diferentes, uma c
 ### Discussão
 
 Neste atributo os *corpora* MPB mais uma vez se mostram em sintonia com o repertório jazzístico, apresentando uma alta diversidade de categorias funcionais (com um especial destaque ao *corpus* Jobim, abarcando cerca de 3/4 do total possível preconizado pelo modelo teórico adotado (ver [capítulo sobre os modelos teóricos](modelos-teoricos.qmd)).^[Jobim é seguido bem de perto por Gilberto Gil e Djavan. Por outro lado, Milton Nascimento é o *corpus* que apresenta a menor quantidade de categorias funcionais, o que parece consistente com sua linguagem predominantemente modal.] Novamente, os repertórios de controle Samba e Choro apresentam diversidade semelhante, em níveis sensivelmente mais baixos em relação ao outro grupo, reforçando a separação dos dois conjuntos também no aspecto do vocabulário das categorias funcionais.
+
+2H3b
+
+![Distribuição de classes (e/ou subclasses) de categorias funcionais por *corpus* (em percentuais).](../figs/atri-sec-09.png){width=100%}
+
+### Discussão
+
+ Em relação a classes (ou subclasses significativas) de categorias funcionais, observa-se inicialmente, como seria de se esperar, uma preponderância absoluta da classe DIA (com destaque especial do *corpus* Samba), o que apenas é reflexo de uma característica geral compartilhada por repertórios de música tonal. A especificidade funcional da MPB (em conjunção com a do *corpus* Jazz, como em outros atributos harmônicos) se evidencia na distribuição de outras classes, especialmente SubV e EC1, que apresentam relativamente maior peso do que nos *corpora* de controle Samba e Choro. No contexto dos repertórios de análise, o caso do *corpus* Milton Nascimento deve ser observado à parte, já que os dados associados a este atributo revelam inequivocamente as profundas diferenças na construção harmônica em comparação aos demais *corpora*. É, em especial, marcante os sensivelmente baixos valores das subclasses que compõem a classe funcional de acordes preparadores (DS, IIs, SubV, DIM), o que é fortemente sintomático de um tratamento eminentemente modal (veja especialmente a discrepância entre os percentuais envolvidos).
