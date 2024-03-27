@@ -172,7 +172,7 @@ Neste atributo os *corpora* MPB mais uma vez se mostram em sintonia com o repert
 
 2H3c
 
-![Distribuição das categorias funcionais da classe "Diatônica" (DIA) por *corpus* (em percentuais).](../figs/atri-sec-09.png){width=100%}
+![Distribuição das categorias funcionais da classe "Diatônica" (DIA) por *corpus* (em percentuais).](../figs/atri-sec-10.png){width=40%}
 
 ### Discussão
 
