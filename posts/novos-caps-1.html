@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Hugo Carvalho">
+<meta name="description" content="‘Atributos primários’ e ‘Probabilidade e entropia’">
 
-<title>Projeto MPB - Tutorial</title>
+<title>Projeto MPB - Publicação de novos capítulos</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./favicon.ico" rel="icon">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../favicon.ico" rel="icon">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -81,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Tutorial</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Publicação de novos capítulos</li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -95,8 +97,8 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
-      <a href="./index.html" class="sidebar-logo-link">
-      <img src="./logos/logo-projeto.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="../logos/logo-projeto.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main tools-wide">
     <a href="https://projetompb.github.io/site/" title="Projeto MPB" class="quarto-navigation-tool px-1" aria-label="Projeto MPB"><i class="bi bi-globe"></i></a>
@@ -113,111 +115,169 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Página inicial</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./blog.html" class="sidebar-item-text sidebar-link">
+  <a href="../blog.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Blog do projeto</span></a>
   </div>
 </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
-        <li class="sidebar-item">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
+ <span class="menu-text">Introdução</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Alternar seção">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./capitulos/intro.html" class="sidebar-item-text sidebar-link">
+  <a href="../capitulos/intro.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Introdução</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./capitulos/nossa-mpb.html" class="sidebar-item-text sidebar-link">
+  <a href="../capitulos/nossa-mpb.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">A “nossa” MPB</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./capitulos/estilo-musical.html" class="sidebar-item-text sidebar-link">
+  <a href="../capitulos/estilo-musical.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Uma breve discussão sobre estilo musical</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./capitulos/hipoteses.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Hipóteses</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./capitulos/corpora-mpb.html" class="sidebar-item-text sidebar-link">
+  <a href="../capitulos/corpora-mpb.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Os <em>corpora</em> MPB</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
+ <span class="menu-text">Fundamentos teóricos e metodológicos</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Alternar seção">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./capitulos/modelos-teoricos.html" class="sidebar-item-text sidebar-link">
+  <a href="../capitulos/modelos-teoricos.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Modelos teóricos</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./capitulos/metodologia.html" class="sidebar-item-text sidebar-link">
+  <a href="../capitulos/metodologia.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Metodologia</span></a>
   </div>
 </li>
-        <li class="px-0"><hr class="sidebar-divider hi "></li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./capitulos/listagem-corpora.html" class="sidebar-item-text sidebar-link">
+  <a href="../capitulos/probabilidade.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Probabilidade e entropia</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
+ <span class="menu-text">Métricas e resultados</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false" aria-label="Alternar seção">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/atributos-primarios.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Atributos primários</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">
+ <span class="menu-text">Material suplementar</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false" aria-label="Alternar seção">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/listagem-corpora.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Listagem dos <em>corpora</em></span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./capitulos/producao-bibliografica.html" class="sidebar-item-text sidebar-link">
+  <a href="../capitulos/producao-bibliografica.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Produção bibliográfica</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./capitulos/glossario.html" class="sidebar-item-text sidebar-link">
+  <a href="../capitulos/glossario.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Glossário</span></a>
   </div>
 </li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Nesta página</h2>
-   
-  <ul>
-  <li><a href="#acessando-o-repositório" id="toc-acessando-o-repositório" class="nav-link active" data-scroll-target="#acessando-o-repositório">Acessando o repositório</a></li>
-  <li><a href="#organização-do-repositório" id="toc-organização-do-repositório" class="nav-link" data-scroll-target="#organização-do-repositório">Organização do repositório</a>
-  <ul class="collapse">
-  <li><a href="#o-arquivo-.yml" id="toc-o-arquivo-.yml" class="nav-link" data-scroll-target="#o-arquivo-.yml">O arquivo <code>.yml</code></a></li>
-  </ul></li>
-  <li><a href="#editando-um-arquivo" id="toc-editando-um-arquivo" class="nav-link" data-scroll-target="#editando-um-arquivo">Editando um arquivo</a></li>
-  <li><a href="#sobre-a-linguagem-markdown" id="toc-sobre-a-linguagem-markdown" class="nav-link" data-scroll-target="#sobre-a-linguagem-markdown">Sobre a linguagem Markdown</a></li>
-  </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/tutorial.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/tutorial.qmd" class="toc-action"><i class="bi empty"></i>Ver o código fonte</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Tutorial</h1>
-</div>
+<h1 class="title">Publicação de novos capítulos</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">noticias do projeto</div>
+    <div class="quarto-category">novos capitulos</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    ‘Atributos primários’ e ‘Probabilidade e entropia’
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Autor</div>
+    <div class="quarto-title-meta-contents">
+             <p>Hugo Carvalho </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Data de Publicação</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">27 de março de 2024</p>
+    </div>
+  </div>
   
     
   </div>
@@ -227,125 +287,10 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="acessando-o-repositório" class="level2">
-<h2 class="anchored" data-anchor-id="acessando-o-repositório">Acessando o repositório</h2>
-<ul>
-<li>Entre em <a href="https://github.com/ProjetoMPB/"><code>github.com/ProjetoMPB/</code></a>.</li>
-<li>Clique em <code>Repositories</code>, no canto superior esquerdo da tela</li>
-<li>Na lista de repositórios, clique no repositório chamado <code>site</code>.</li>
-<li>Você deverá ver a tela abaixo. Note que você deverá estar vendo o ramo <code>main</code> (circulado em vermelho na figura). Se você estiver no outro ramo (chamado <code>gh-pages</code>), clique na setinha do lado do nome e selecione o ramo <code>main</code>. <img src="figs-tutorial/tutorial-01.png" class="img-fluid"></li>
-</ul>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Nota
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Um <em>repositório</em> é todo o seu projeto (diretórios e arquivos), no nosso caso, o site editável e a sua versão pública. Um <em>ramo</em> (<em>branch</em>) é uma versão do seu repositório.</p>
-<p>No nosso caso, o ramo <em>main</em> contém os arquivos editáveis do site, e o ramo <em>gh-pages</em> é uma versão compilada do site, que é o que é acessado externamente.</p>
-<p>Todas as alterações devem ser feitas sempre no ramo <em>main</em>. Elas são transportadas automaticamente para o ramo <em>gh-pages</em>, pelo arquivo da pasta <code>.github/workflows</code>.</p>
-</div>
-</div>
-</section>
-<section id="organização-do-repositório" class="level2">
-<h2 class="anchored" data-anchor-id="organização-do-repositório">Organização do repositório</h2>
-<ul>
-<li>A organização do ramo <em>main</em> é bem intuitiva. Somente nos precisamos importar com os arquivos <code>_quarto.yml</code>, <code>index.qmd</code> e os arquivos dentro das pastas <code>capitulos</code> e <code>figuras</code>. Todos os outros arquivos são importantes para a formatação do site e sua compilação automática. Por enquanto, nenhuma edição neles precisa ser feita.</li>
-</ul>
-<p><img src="figs-tutorial/tutorial-02.png" class="img-fluid"></p>
-<ul>
-<li><p>Note que o arquivo <code>index.qmd</code> é o único que não está dentro da pasta <code>capitulos</code>. Ele deve estar no diretório principal do repositório pois ele irá gerar a primeira página a ser lida quando se entra no site. É o arquivo que contém nossas bios e a primeira apresentação do site.</p></li>
-<li><p>Não é obrigatório, mas por questão de organização coloquei todos os arquivos contendo capítulos dentro da pasta <code>capitulos</code>, e as figuras na pasta <code>figs</code>. A única exceção é o <code>index.qmd</code>.</p></li>
-</ul>
-<section id="o-arquivo-.yml" class="level3">
-<h3 class="anchored" data-anchor-id="o-arquivo-.yml">O arquivo <code>.yml</code></h3>
-<ul>
-<li>O arquivo <code>_quarto.yml</code> é importante para a diagramação do site, incluindo título, logotipo, informações de <em>copyright</em>, dentre outros.</li>
-</ul>
-<p><img src="figs-tutorial/tutorial-03.png" class="img-fluid"></p>
-<ul>
-<li>No momento, somente a parcela abaixo do arquivo <code>_quarto.yml</code> é importante, pois é nela que iremos adicionar novas páginas ao menu lateral do site. A sintaxe é bem simples: a tag <code>href</code> indica onde está o arquivo a ser incluído, e a tag <code>text</code> indica como essa página será listada no menu lateral.</li>
-</ul>
-<p><img src="figs-tutorial/tutorial-04.png" class="img-fluid"></p>
-<ul>
-<li>Note que para os capítulos é necessário indicar que estão dentro da pasta <code>capitulos</code>.</li>
-</ul>
-</section>
-</section>
-<section id="editando-um-arquivo" class="level2">
-<h2 class="anchored" data-anchor-id="editando-um-arquivo">Editando um arquivo</h2>
-<ul>
-<li>Vamos simular que queremos editar o capítulo sobre estilo musical. Para isso, entre na pasta <code>capitulos</code> e clique no arquivo <code>estilo-musical.qmd</code>. Você deverá ver a tela abaixo:</li>
-</ul>
-<p><img src="figs-tutorial/tutorial-05.png" class="img-fluid"></p>
-<p>*Um arquivo <code>.qmd</code> é um arquivo de texto bem simples, que será convertido em HTML pelo Quarto. Sua edição é bem simples, e para editá-lo, clique no lápis indicado em verde na figura acima.</p>
-<ul>
-<li>Pronto! Agora a parte da tela exibindo o arquivo funciona como um editor de texto. Se você ainda estiver vendo o texto sem quebra de linhas, no menu marcado em verde na figura abaixo, selecione <code>Soft wrap</code>.</li>
-</ul>
-<p><img src="figs-tutorial/tutorial-06.png" class="img-fluid"></p>
-<ul>
-<li>Após fazer qualquer modificação no arquivo, o botão verde <code>Commit changes...</code>, no canto superior direito da tela, ficará clicável.</li>
-</ul>
-<p><img src="figs-tutorial/tutorial-07.png" class="img-fluid"></p>
-<ul>
-<li>Ao clicar nele para salvar as alterações, irá aparecer a janela a seguir. O git é uma ferramenta criada originalmente para controle de versão de código, especialmente quando muita gente trabalha no mesmo projeto. Assim, qualquer modificação “definitiva” no projeto (chamada de <em>commit</em>), pode ter uma justificativa, para que outros colaboradores consigam entender a edição do amiguinho. No nosso caso, somos só nós dois trabalhando na página, então não é grave deixar de lado essa descrição. Para finalizar, clique novamente em <code>Commit changes</code>.</li>
-</ul>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Aviso
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>É importante que a opção “Commit directly to the <code>main</code> branch” esteja selecionada! É justamente isso que queremos fazer, para que o site seja automaticamente compilado. A alternativa apresentada é importante no mesmo cenário acima, caso alguém queira fazer uma modificação experimental no código antes de colocá-la no projeto principal.</p>
-</div>
-</div>
-<p><img src="figs-tutorial/tutorial-08.png" class="img-fluid"></p>
-<ul>
-<li>Para voltar para a página principal, clique em <code>&lt;&gt; Code</code> no canto superior esquerdo. Note que do lado do seu nome de usuário vai ter uma bolinha agora amarela (indicada em verde na figura). Ao clicar nela, irá aparecer a janela mostrada na figura. Ela está indicando que o processo de compilação do site está em andamento. Para ver os detalhes da compilação, clique em <code>Details</code> (não obrigatório).</li>
-</ul>
-<p><img src="figs-tutorial/tutorial-09.png" class="img-fluid"></p>
-<ul>
-<li>Ao clicar em <code>Details</code>, você verá algo como a figura abaixo. É essencialmente um terminal com um monte de códigos rodando nos servidores do GitHub, essencialmente baixando o Quarto e o LaTeX (e também Python e pacotes, quando colocarmos código na página), e fazendo a compilação de tudo.</li>
-</ul>
-<p><img src="figs-tutorial/tutorial-10.png" class="img-fluid"></p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Nota
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Repare que toda vez que um arquivo é editado internamente no GitHub e salvo, como mostrado acima, esse processo de compilação é automaticamente ativado. Por isso é bom pegar um capítulo, fazer todas as edições desejáveis, e salvar somente ao final. Editar o site no GitHub é uma tremenda mão na roda, mas tem esse pequeno custo.</p>
-<p>É possível desativar a compilação automática do site a cada arquivo salvo, mas acho que por enquanto não será necessário.</p>
-</div>
-</div>
-<ul>
-<li>Ao voltar para a página principal (pode ser usando o botão de voltar do navegador), se você ver um <em>check</em> verde ao lado do nome do usuário, então a compilação deu certo!</li>
-</ul>
-<p><img src="figs-tutorial/tutorial-11.png" class="img-fluid"></p>
-</section>
-<section id="sobre-a-linguagem-markdown" class="level2">
-<h2 class="anchored" data-anchor-id="sobre-a-linguagem-markdown">Sobre a linguagem Markdown</h2>
-<ul>
-<li><p>Os arquivos <code>.qmd</code> são escritos em Markdown, que é essencialmente um HTML simplificado: o que está nele é de bem simples escrita e leitura, e é traduzido em HTML por algum software (no nosso caso, o Quarto).</p></li>
-<li><p>O próprio site do Quarto tem um <a href="https://quarto.org/docs/authoring/markdown-basics.html">breve tutorial</a> sobre como escrever em Markdown. Essencialmente tudo que eu sei de Markdown, aprendi daí e de umas poucas buscas no Google. É MUITO mais simples e amigável do que LaTeX! O site do Markdown Guide também tem um <a href="https://www.markdownguide.org/basic-syntax/">guia legal</a>, mas eu gosto mais do tutorial do próprio Quarto.</p></li>
-<li><p>Acho que pra começar a brincar, é isso! Qualquer outra coisa que você precisar, eu adiciono aqui! Tem bastante coisa que não falei, por exemplo: como inserir imagens, inserir links, fazer referência cruzada, etc., mas acho que tudo isso você vai inferir rapidamente examinando algum arquivo que queira editar e com os links de tutoriais acima. O que você precisar e achar pertinente, adiciono aqui no tutorial.</p></li>
-</ul>
-<p><img src="figs-tutorial/llap.png" class="img-fluid"></p>
+<p>Temos o prazer de anunciar o lançamento de dois novos capítulos do projeto, <a href="../capitulos/atributos-primarios.html">Atributos primários</a> e <a href="../capitulos/probabilidade.html">Probabilidade e entropia</a>: o primeiro inaugura a seção de “Métricas e resultados” do projeto, discutindo atributos mais básicos sobre os <em>corpora</em> analisados; o segundo traz conteúdos básicos de Teoria de Probabilidades e entropia de variáveis aleatórias, de grande importância para a quantificação estilística desejada, bem como em aplicações composicionais, a serem futuramente divulgadas.</p>
+<p>Boa leitura!</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -911,7 +856,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/tutorial.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/tutorial.qmd" class="toc-action"><i class="bi empty"></i>Ver o código fonte</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></div>
+    <div class="toc-actions"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/posts/novos-caps-1.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/posts/novos-caps-1.qmd" class="toc-action"><i class="bi empty"></i>Ver o código fonte</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Página construída em <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
