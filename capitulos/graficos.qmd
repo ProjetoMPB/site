@@ -209,3 +209,34 @@ DISTRIBUIÇÃO DE TONALIDADES
 ![Comparação das distribuições de tonalidades principais nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-06.png){width=100% #fig-graf06}
 
 
+DISTRIBUIÇÃO DE RELAÇÕES BINÁRIAS TONAIS
+
+![Distribuição de RBTs no *corpus* Jazz.](../figs/grafico-07a.png){width=50% #fig-graf07a}
+
+![Distribuição de RBTs no *corpus* Jazz.](../figs/grafico-07b.png){width=50% #fig-graf07b}
+
+![Distribuição de RBTs no *corpus* Jazz.](../figs/grafico-07c.png){width=50% #fig-graf07c}
+
+![Distribuição de RBTs no *corpus* Jazz.](../figs/grafico-07d.png){width=50% #fig-graf07d}
+
+![Distribuição de RBTs no *corpus* Jazz.](../figs/grafico-07e.png){width=50% #fig-graf07e}
+
+![Distribuição de RBTs no *corpus* Jazz.](../figs/grafico-07f.png){width=50% #fig-graf07f}
+
+![Distribuição de RBTs no *corpus* Jazz.](../figs/grafico-07g.png){width=50% #fig-graf07g}
+
+![Distribuição de RBTs no *corpus* Jazz.](../figs/grafico-07h.png){width=50% #fig-graf07h}
+
+![Distribuição de RBTs no *corpus* Jazz.](../figs/grafico-07i.png){width=50% #fig-graf07i}
+
+![Distribuição de RBTs no *corpus* Jazz.](../figs/grafico-07j.png){width=50% #fig-graf07j}
+
+![Distribuição de RBTs no *corpus* Jazz.](../figs/grafico-07k.png){width=50% #fig-graf07k}
+
+![Distribuição de RBTs no *corpus* Jazz.](../figs/grafico-07l.png){width=50% #fig-graf07l}
+
+![Distribuição de RBTs no *corpus* Jazz.](../figs/grafico-07m.png){width=50% #fig-graf07m}
+
+![Distribuição de RBTs no *corpus* Jazz.](../figs/grafico-07n.png){width=50% #fig-graf07n}
+
+![Comparação das distribuições de RBTs nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-06.png){width=100% #fig-graf07}
