@@ -2,6 +2,18 @@
 title: Produção bibliográfica
 ---
 
+## 2024
+
+### Monografias, teses e dissertações
+#### Identificação de Acordes via Modelos de Markov Ocultos Musicalmente Informados
+Rodrigo Côrtes Nogueira da Rocha Pita
+
+Trabalho de Conclusão de Curso -- Bacharelado em Ciência da Computação
+
+**Resumo**: Este projeto visa abordar o problema da identificação de acordes através de modelos de Markov ocultos (HMM) musicalmente informados. Para que seja um projeto autocontido, serão explicados três grandes tópicos. Primeiramente, as noções básicas de teoria musical, como intervalos e progressão harmônica. Em segundo lugar, o processamento de sinais de áudio, abordando transformadas de Fourier para em seguida poder apresentar a transformada de Fourier de tempo curto (STFT) e também cromagramas, que empenham um papel fundamental para o funcionamento do modelo HMM. Por fim, em terceiro, as cadeias de Markov, que são a base para o entendimento de HMMs. Para embutir a informação musical no modelo, será utilizada uma matriz de transição gerada a partir de uma base de músicas da MPB. Os experimentos realizados serão feitos inicialmente num contexto geral, com músicas de gêneros diversos com o intuito de comparar os modelos HMM e *template-based* assim como os diferentes tipos de cromagrama. Depois serão realizados somente no contexto da MPB, onde os resultados provarão a eficácia da proposta.
+
+Códigos disponíveis no [GitHub do autor](https://github.com/RodrigoPita/TCC).
+
 ## 2023
 
 ### Livros

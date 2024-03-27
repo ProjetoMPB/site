@@ -36,27 +36,36 @@ website:
       - href: blog.qmd
         text: Blog do projeto
       - text: "---"
-      - href: capitulos/intro.qmd
-        text: Introdução
-      - href: capitulos/nossa-mpb.qmd
-        text: A "nossa" MPB
-      - href: capitulos/estilo-musical.qmd
-        text: Uma breve discussão sobre estilo musical
-      - href: capitulos/hipoteses.qmd
-        text: Hipóteses
-      - href: capitulos/corpora-mpb.qmd
-        text: Os *corpora* MPB
-      - href: capitulos/modelos-teoricos.qmd
-        text: Modelos teóricos
-      - href: capitulos/metodologia.qmd
-        text: Metodologia          
-      - text: "---"
-      - href: capitulos/listagem-corpora.qmd
-        text: Listagem dos *corpora*
-      - href: capitulos/producao-bibliografica.qmd
-        text: Produção bibliográfica
-      - href: capitulos/glossario.qmd
-        text: Glossário
+      - section: Introdução
+        contents:
+          - href: capitulos/intro.qmd
+            text: Introdução
+          - href: capitulos/nossa-mpb.qmd
+            text: A "nossa" MPB
+          - href: capitulos/estilo-musical.qmd
+            text: Uma breve discussão sobre estilo musical
+          - href: capitulos/corpora-mpb.qmd
+            text: Os *corpora* MPB
+      - section: Fundamentos teóricos e metodológicos
+        contents:
+          - href: capitulos/modelos-teoricos.qmd
+            text: Modelos teóricos
+          - href: capitulos/metodologia.qmd
+            text: Metodologia
+          - href: capitulos/probabilidade.qmd
+            text: Probabilidade e entropia
+      - section: Métricas e resultados
+        contents:
+          - href: capitulos/atributos-primarios.qmd
+            text: Atributos primários
+      - section: Material suplementar
+        contents:
+          - href: capitulos/listagem-corpora.qmd
+            text: Listagem dos *corpora*
+          - href: capitulos/producao-bibliografica.qmd
+            text: Produção bibliográfica
+          - href: capitulos/glossario.qmd
+            text: Glossário
       
 crossref:
   fig-title: Figura

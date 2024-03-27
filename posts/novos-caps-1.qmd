@@ -1,0 +1,14 @@
+---
+title: "Publicação de novos capítulos"
+description: "'Atributos primários' e 'Probabilidade e entropia'"
+author: "Hugo Carvalho"
+date: "3/27/2024"
+image: "../figs/probabilidade-01.png"
+categories:
+  - noticias do projeto
+  - novos capitulos
+---
+
+Temos o prazer de anunciar o lançamento de dois novos capítulos do projeto, [Atributos primários](../capitulos/atributos-primarios.qmd) e [Probabilidade e entropia](../capitulos/probabilidade.qmd): o primeiro inaugura a seção de "Métricas e resultados" do projeto, discutindo atributos mais básicos sobre os *corpora* analisados; o segundo traz conteúdos básicos de Teoria de Probabilidades e entropia de variáveis aleatórias, de grande importância para a quantificação estilística desejada, bem como em aplicações composicionais, a serem futuramente divulgadas.
+
+Boa leitura!

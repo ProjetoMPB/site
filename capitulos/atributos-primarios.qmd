@@ -1,10 +1,11 @@
 ---
 title: Atributos primários de avaliação
+number-sections: true
 ---
 
 ## Introdução
 
-Os atributos (e métricas) que adotamos para a avaliação das análises podem ter natureza quantitativa ou qualitativa, bem como podem ser associados a *marcadores estilísticos* (ver o [capítulo sobre estilo musical](estilo-musical.qmd). 
+Os atributos (e métricas) que adotamos para a avaliação das análises podem ter natureza quantitativa ou qualitativa, bem como podem ser associados a *marcadores estilísticos* (ver Capítulo sobre [Estilo Musical](estilo-musical.qmd)). 
 
 Buscando um refinamento, classificamos os atributos em três categorias básicas, *primários* (apresentados neste capítulo), *secundários* e *terciários* (contemplados em capítulos específicos). As principais diferenças entre essas categorias se encontram nos seus respectivos graus de complexidade e detalhamento, bem como no quanto contribuem para evidenciar questões e demarcações estilísticas. Assim, enquanto os atributos secundários são *potenciais* definidores de estilo, os primários, ainda que importantes, não apresentam, tão marcadamente essa capacidade (apenas se vistos em conjunto). Na verdade, os atributos secundários, por assim dizer, "revisam" atributos primários a eles correspondentes, examinando-os de outras perspectivas, em geral mais amplas e, ao mesmo tempo, detalhadas. Podemos ainda considerar, de um modo um pouco mais livre, que os atributos secundários evidenciam os *contextos* nos quais os atributos primários se inserem. Por sua vez, atributos terciários podem ser vistos como uma espécie de sintonia fina dos secundários, tendo como principais características a natureza eminente quantitativa e o fato de considerarem todo o conjunto de cada um de seus atributos (enquanto os secundários envolvem mais seus aspectos qualitativos).
 
