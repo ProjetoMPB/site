@@ -237,6 +237,38 @@ DISTRIBUIÇÃO DE RELAÇÕES BINÁRIAS TONAIS
 
 ![Distribuição de RBTs no *corpus* Rita.](../figs/grafico-07m.png){width=50% #fig-graf07m}
 
-![Distribuição de RBTs no *corpus* Jazz.](../figs/grafico-07n.png){width=50% #fig-graf07n}
+![Distribuição de RBTs no conjunto MPB (compositores 1 a 10).](../figs/grafico-07n.png){width=50% #fig-graf07n}
 
 ![Comparação das distribuições de RBTs nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-06.png){width=100% #fig-graf07}
+
+DISTRIBUIÇÃO DE ACORDES ESPECÍFICOS
+
+![Distribuição de acordes específicos (considerando os 40 mais recorrentes) no *corpus* Jazz.](../figs/grafico-08a.png){width=50% #fig-graf08a}
+
+![Distribuição de acordes específicos (considerando os 40 mais recorrentes) no *corpus* Choro.](../figs/grafico-08b.png){width=50% #fig-graf08b}
+
+![Distribuição de acordes específicos (considerando os 40 mais recorrentes) no *corpus* Samba.](../figs/grafico-08c.png){width=50% #fig-graf08c}
+
+![Distribuição de acordes específicos (considerando os 40 mais recorrentes) no *corpus* Jobim.](../figs/grafico-08d.png){width=50% #fig-graf08d}
+
+![Distribuição de acordes específicos (considerando os 40 mais recorrentes) no *corpus* Lins.](../figs/grafico-08e.png){width=50% #fig-graf08e}
+
+![Distribuição de acordes específicos (considerando os 40 mais recorrentes) no *corpus* Chico.](../figs/grafico-08f.png){width=50% #fig-graf08f}
+
+![Distribuição de acordes específicos (considerando os 40 mais recorrentes) no *corpus* Edu.](../figs/grafico-08g.png){width=50% #fig-graf08g}
+
+![Distribuição de acordes específicos (considerando os 40 mais recorrentes) no *corpus* Caetano.](../figs/grafico-08h.png){width=50% #fig-graf08h}
+
+![Distribuição de acordes específicos (considerando os 40 mais recorrentes) no *corpus* Djavan.](../figs/grafico-08i.png){width=50% #fig-graf08i}
+
+![Distribuição de acordes específicos (considerando os 40 mais recorrentes) no *corpus* Bosco.](../figs/grafico-08j.png){width=50% #fig-graf08j}
+
+![Distribuição de acordes específicos (considerando os 40 mais recorrentes) no *corpus* Milton.](../figs/grafico-08k.png){width=50% #fig-graf08k}
+
+![Distribuição de acordes específicos (considerando os 40 mais recorrentes) no *corpus* Gil.](../figs/grafico-08l.png){width=50% #fig-graf08l}
+
+![Distribuição de acordes específicos (considerando os 40 mais recorrentes) no *corpus* Rita.](../figs/grafico-08m.png){width=50% #fig-graf08m}
+
+![Distribuição de acordes específicos (considerando os 40 mais recorrentes) no conjunto MPB (compositores 1 a 10).](../figs/grafico-08n.png){width=50% #fig-graf08n}
+
+![Comparação das distribuições de acordes específicos (considerando os 40 mais recorrentes) nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-06.png){width=100% #fig-graf07}
