@@ -201,3 +201,9 @@ Em relação a este atributo, não há, como acima, evidências estilísticas a 
 ### Discussão
 
 Com a exceção do *corpus* Milton Nascimento, todos os repertórios apresentam ocorrências do diminuto-ponte bIII° (ainda que nos *corpora* João Bosco, Rita Lee, Gilberto Gil e, especialmente, Ivan Lins isso se dê em um nível bastante baixo), o que faz dessa categoria uma característica funcional compartilhada como opção de acesso ao II grau.
+
+![Distribuição das categorias funcionais da subclasse "Diminuto-bordadura" (D-bord) por *corpus* (em percentuais).](../figs/atri-sec-15.png){width=40%}
+
+### Discussão
+
+Como esperado, os diminutos-bordadura mostram-se como a mais raros da subclasse DIM. Em relação às categorias componentes, como se observa na acima, todos os *corpora* (com a exceção de Ivan Lins e Milton Nascimento, nos quais diminutos-bordadura são inexistentes) apresentam relativamente maior ocorrência do I°. Apenas no repertório Jazz são registradas presenças das três categorias.
