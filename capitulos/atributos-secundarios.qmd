@@ -189,3 +189,15 @@ Neste caso, há uma divisão das preferências em três grupos: pelo V/V (Choro,
 ### Discussão
 
 Os dados revelam que acordes da classe SUBV, embora menos comuns do que dominantes secundários, estão presentes em todos os repertórios (em menor frequência nos *corpora* Choro e Milton Nascimento -- que mais uma vez destoa de seus pares em um atributo harmônico), com maior proeminência daqueles cujos alvos são o I (Jazz, Jobim e Edu Lobo) e o V graus (Choro, Samba, Ivan Lins, Chico Buarque, Caetano Veloso, Djavan, João Bosco, Gilberto Gil e Rita Lee). Tal situação não permite conclusões consistentes em relação a características estilísticas.^[Um dado especialmente interessante é a ausência de manifestações do SubV primário no \textit{corpus} Rita Lee.]
+
+![Distribuição das categorias funcionais da subclasse "Diminuto-dominante" (D-dom) por *corpus* (em percentuais).](../figs/atri-sec-13.png){width=40%}
+
+### Discussão
+
+Em relação a este atributo, não há, como acima, evidências estilísticas a destacar. Contudo, é digno de nota o fato de que apenas os *corpora* Jobim, Chico Buarque e Djavan apresentam ocorrências de todos as seis categorias de diminutos-dominantes.
+
+![Distribuição das categorias funcionais da subclasse "Diminuto-ponte" (D-pte) por *corpus* (em percentuais).](../figs/atri-sec-14.png){width=40%}
+
+### Discussão
+
+Com a exceção do *corpus* Milton Nascimento, todos os repertórios apresentam ocorrências do diminuto-ponte bIII° (ainda que nos *corpora* João Bosco, Rita Lee, Gilberto Gil e, especialmente, Ivan Lins isso se dê em um nível bastante baixo), o que faz dessa categoria uma característica funcional compartilhada como opção de acesso ao II grau.
