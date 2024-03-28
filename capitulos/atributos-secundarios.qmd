@@ -190,7 +190,7 @@ Neste caso, há uma divisão das preferências em três grupos: pelo V/V (Choro,
 
 Os dados revelam que acordes da classe SUBV, embora menos comuns do que dominantes secundários, estão presentes em todos os repertórios (em menor frequência nos *corpora* Choro e Milton Nascimento -- que mais uma vez destoa de seus pares em um atributo harmônico), com maior proeminência daqueles cujos alvos são o I (Jazz, Jobim e Edu Lobo) e o V graus (Choro, Samba, Ivan Lins, Chico Buarque, Caetano Veloso, Djavan, João Bosco, Gilberto Gil e Rita Lee). Tal situação não permite conclusões consistentes em relação a características estilísticas.^[Um dado especialmente interessante é a ausência de manifestações do SubV primário no \textit{corpus} Rita Lee.]
 
-![Distribuição das categorias funcionais da subclasse "Diminuto-dominante" (D-dom) por *corpus* (em percentuais).](../figs/atri-sec-13.png){width=40%}
+![Distribuição das categorias funcionais da subclasse "Diminuto-dominante" (D-dom) por *corpus* (em percentuais).](../figs/atri-sec-13.png){width=60%}
 
 ### Discussão
 
