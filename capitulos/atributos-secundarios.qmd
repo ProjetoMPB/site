@@ -219,3 +219,9 @@ A relativa presença de empréstimos é certamente um forte marcador estilístic
 ### Discussão
 
 Apesar de sua relativa raridade, os empréstimos de segunda ordem contribuem ainda com mais intensidade para a marcação das fronteiras da MPB em relação ao superconjunto no qual se insere. Como mostram os dados, o *corpus* Jobim é o que mais se destaca nesse atributo, sendo o único no qual todas as categorias mapeadas estão presentes. Observe-se também a proeminência em todos os repertórios da categoria IV7.^[Especialmente nos *corpora* Rita Lee (5.4 %) e Gilberto Gil (4.0 %), o que denota uma provável influência do gênero *rhythm and blues* na música de ambos os compositores. Acrescente-se que no repertório de Jobim a categoria IV7 pode ser vista como um elemento característico proveniente da incorporação de aspectos da prática harmônica do jazz e do blues-jazz, como discutido em [@almada-harmonia-jobim, pp. 260-268].]
+
+![Distribuição das categorias funcionais da classe "Napolitanos secundários" (NPS) por *corpus* (em percentuais).](../figs/atri-sec-18.png){width=60%}
+
+![Distribuição das categorias funcionais da subclasse "Anti-napolitanos" (aNP) por *corpus* (em percentuais).](../figs/atri-sec-19.png){width=60%}
+
+![Distribuição das categorias funcionais da subclasse "Anti-subV" (aSUB) por *corpus* (em percentuais).](../figs/atri-sec-19.png){width=100%}
