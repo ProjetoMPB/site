@@ -4,6 +4,7 @@ title: Léxico de tipos acordais (TAs)
 
 *Genus* Z
 
+n°	Código genealógico	Cifra (ex. em Dó)
 1	Z0 	 CM7
 2	Z1 	 C6
 3	Z1.1 	 C6.9
@@ -25,3 +26,5 @@ title: Léxico de tipos acordais (TAs)
 14	Z5.1 	 C6.M7.9
 15	Z5.1.1 	 C6.M7.9(#11)
 16	Z5.2 	 C6.M7(#11)
+
+
