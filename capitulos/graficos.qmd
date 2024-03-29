@@ -304,4 +304,4 @@ DISTRIBUIÇÃO DE TIPOS ACORDAIS
 
 ![Distribuição de TAs (considerando os 40 mais recorrentes) no conjunto MPB (compositores 1 a 10)..](../figs/grafico-09n.png){width=50% #fig-graf09n}
 
-![Comparação das distribuições de TAs (considerando os 40 mais recorrentes) nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-08.png){width=100% #fig-graf09}
+![Comparação das distribuições de TAs (considerando os 40 mais recorrentes) nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-09.png){width=100% #fig-graf09}
