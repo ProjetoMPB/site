@@ -222,6 +222,10 @@ Apesar de sua relativa raridade, os empréstimos de segunda ordem contribuem ain
 
 ![Distribuição das categorias funcionais da classe "Napolitanos secundários" (NPS) por *corpus* (em percentuais).](../figs/atri-sec-18.png){width=60%}
 
-![Distribuição das categorias funcionais da subclasse "Anti-napolitanos" (aNP) por *corpus* (em percentuais).](../figs/atri-sec-19.png){width=60%}
+![Distribuição das categorias funcionais da subclasse "Anti-napolitanos" (aNP) por *corpus* (em percentuais).](../figs/atri-sec-19.png){width=70%}
 
-![Distribuição das categorias funcionais da subclasse "Anti-subV" (aSUB) por *corpus* (em percentuais).](../figs/atri-sec-19.png){width=100%}
+![Distribuição das categorias funcionais da subclasse "Anti-subV" (aSUB) por *corpus* (em percentuais).](../figs/atri-sec-19.png){width=80%}
+
+### Discussão
+
+As distribuições referentes à classe NPS e às subclasses (da classe aPRE) aNP e aSubV, mostradas nas três tabelas anteriores, são tão rarefeitas -- em todos os repertórios -- que não constituem uma base consistente para qualquer discussão significativa sobre estilo e, portanto, não serão aqui comentadas.
