@@ -272,3 +272,36 @@ DISTRIBUIÇÃO DE ACORDES ESPECÍFICOS
 ![Distribuição de acordes específicos (considerando os 40 mais recorrentes) no conjunto MPB (compositores 1 a 10).](../figs/grafico-08n.png){width=50% #fig-graf08n}
 
 ![Comparação das distribuições de acordes específicos (considerando os 40 mais recorrentes) nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-08.png){width=100% #fig-graf08}
+
+
+DISTRIBUIÇÃO DE TIPOS ACORDAIS
+
+![Distribuição de TAs (considerando os 40 mais recorrentes) no *corpus* Jazz.](../figs/grafico-09a.png){width=50% #fig-graf09a}
+
+![Distribuição de TAs (considerando os 40 mais recorrentes) no *corpus* Choro.](../figs/grafico-09b.png){width=50% #fig-graf09b}
+
+![Distribuição de TAs (considerando os 40 mais recorrentes) no *corpus* Samba.](../figs/grafico-09c.png){width=50% #fig-graf09c}
+
+![Distribuição de TAs (considerando os 40 mais recorrentes) no *corpus* Jobim.](../figs/grafico-09d.png){width=50% #fig-graf09d}
+
+![Distribuição de TAs (considerando os 40 mais recorrentes) no *corpus* Lins.](../figs/grafico-09e.png){width=50% #fig-graf09e}
+
+![Distribuição de TAs (considerando os 40 mais recorrentes) no *corpus* Chico.](../figs/grafico-09f.png){width=50% #fig-graf09f}
+
+![Distribuição de TAs (considerando os 40 mais recorrentes) no *corpus* Edu.](../figs/grafico-09g.png){width=50% #fig-graf09g}
+
+![Distribuição de TAs (considerando os 40 mais recorrentes) no *corpus* Caetano.](../figs/grafico-09h.png){width=50% #fig-graf09h}
+
+![Distribuição de TAs (considerando os 40 mais recorrentes) no *corpus* Djavan.](../figs/grafico-09i.png){width=50% #fig-graf09i}
+
+![Distribuição de TAs (considerando os 40 mais recorrentes) no *corpus* Bosco.](../figs/grafico-09j.png){width=50% #fig-graf09j}
+
+![Distribuição de TAs (considerando os 40 mais recorrentes) no *corpus* Milton.](../figs/grafico-09k.png){width=50% #fig-graf09k}
+
+![Distribuição de TAs (considerando os 40 mais recorrentes) no *corpus* Gil.](../figs/grafico-09l.png){width=50% #fig-graf09l}
+
+![Distribuição de TAs (considerando os 40 mais recorrentes) no *corpus* Rita.](../figs/grafico-09m.png){width=50% #fig-graf09m}
+
+![Distribuição de TAs (considerando os 40 mais recorrentes) no conjunto MPB (compositores 1 a 10)..](../figs/grafico-09n.png){width=50% #fig-graf09n}
+
+![Comparação das distribuições de TAs (considerando os 40 mais recorrentes) nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-08.png){width=100% #fig-graf09}
