@@ -60,7 +60,7 @@ title: Léxico de categorias funcionais
 |           | III(#5)M7 | -        | Eb(#5)M7 |
 |           | #VI∅      | -        | A∅       |
 | sd        | bIIM7     | DbM7     | DbM7     |
-|           | II        | D        | -        |
+|           | II∅       | D∅       | -        |
 |           | IVm7      | Fm7      | -        |
 |           | bVIM7     | AbM7     | -        |
 |           | bVII7}    | Bb7      | Bb7      |
