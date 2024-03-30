@@ -229,3 +229,21 @@ Apesar de sua relativa raridade, os empréstimos de segunda ordem contribuem ain
 ### Discussão
 
 As distribuições referentes à classe NPS e às subclasses (da classe aPRE) aNP e aSubV, mostradas nas três tabelas anteriores, são tão rarefeitas -- em todos os repertórios -- que não constituem uma base consistente para qualquer discussão significativa sobre estilo e, portanto, não serão aqui comentadas.
+
+---
+
+2H3d
+
+![Total de relações binárias funcionais distintas por *corpus* (em percentuais).](../figs/atri-sec-21.png){width=40%}
+
+### Discussão
+
+O número de RBFs distintas varia consideravelmente -- de 178 (Samba) a 438 (Jobim). Como em outros atributos, percebemos no subconjunto MPB uma subdivisão em dois blocos: um deles (incluindo aqui o *corpus* Jazz), composto pela maioria dos repertórios, mantém, em média, 310 RBFs distintas. O segundo bloco é ocupado pelos *corpora* Caetano Veloso e, especialmente, Rita Lee, com números de relações consideravelmente menores, respectivamente, 222 e 205  (enquanto, em comparação, o Choro congrega 285 RBFs). Mais uma vez, distinções internas entre os compositores MPB na esfera harmônica se evidenciam, o que suscita avaliações complementares futuras.
+
+2H3e
+
+![Distribuição de relações binárias funcionais em alto nível por *corpus* (n = quantidade de RBFs; p = percentagem em relação ao todo).](../figs/atri-sec-22.png){width=60%}
+
+### Discussão
+
+Há, em termos percentuais, uma convergência geral pelas RBFs em alto nível DIA|DIA,^[Destacando-se o peso expressivo dessa RBF nos *corpora* Rita Lee (46.2 %) e Caetano Veloso (44.2 %), os mais altos percentuais de todos, incluindo os repertórios de controle.] excetuando-se os *corpora* Jobim e Chico Buarque, nos quais a predominância recai sobre, respectivamente, DIA|CR, CR|CR.^[Este atributo mais uma vez contribui para reforçar a impressão de ser a harmonia jobiniana mais complexa e excêntrica do que as de seus pares.]
