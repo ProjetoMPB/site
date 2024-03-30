@@ -2,38 +2,48 @@
 title: Léxico de tipos acordais (TAs)
 ---
 
-## GENERA MAIORES
+## *Genera* maiores
 
-# *Genus* Z ("Maior com sétima maior")
+### *Genus* Z ("Maior com sétima maior")
 
 ![Léxico dos tipos acordais do *genus* Z, em notações genealógica e alfanumérica (tomando Dó como fundamental dos acordes).](../figs/lex-ta-01.png){width=30%}
 
-# *Genus* Y ("Maior com sétima menor" ou "Dominante")
+### *Genus* Y ("Maior com sétima menor" ou "Dominante")
 
+![Léxico dos tipos acordais do *genus* Y, em notações genealógica e alfanumérica (tomando Dó como fundamental dos acordes).](../figs/lex-ta-02.png){width=30%}
 
-# *Genus* X ("Dominante com quinta diminuta" ou "Sexta francesa")
+### *Genus* X ("Dominante com quinta diminuta" ou "Sexta francesa")
 
+![Léxico dos tipos acordais do *genus* X, em notações genealógica e alfanumérica (tomando Dó como fundamental dos acordes).](../figs/lex-ta-03.png){width=30%}
 
-# *Genus* W ("Dominante com quinta aumentada")
+### *Genus* W ("Dominante com quinta aumentada")
 
+![Léxico dos tipos acordais do *genus* W, em notações genealógica e alfanumérica (tomando Dó como fundamental dos acordes).](../figs/lex-ta-04.png){width=30%}
 
-# *Genus* V ("Tríade maior")
+### *Genus* V ("Tríade maior")
+
+![Léxico dos tipos acordais do *genus* V, em notações genealógica e alfanumérica (tomando Dó como fundamental dos acordes).](../figs/lex-ta-05.png){width=30%}
 
 ---
 
-## GENERA MENORES
+## *Genera* maiores
 
-# *Genus* z ("Menor com sétima menor")
+### *Genus* z ("Menor com sétima menor")
 
+![Léxico dos tipos acordais do *genus* z, em notações genealógica e alfanumérica (tomando Dó como fundamental dos acordes).](../figs/lex-ta-06.png){width=30%}
 
-# *Genus* y ("Meio diminuto")
+### *Genus* y ("Meio diminuto")
 
+![Léxico dos tipos acordais do *genus* y, em notações genealógica e alfanumérica (tomando Dó como fundamental dos acordes).](../figs/lex-ta-07.png){width=30%}
 
-# *Genus* x ("Sétima diminuta")
+### *Genus* x ("Sétima diminuta")
 
+![Léxico dos tipos acordais do *genus* x, em notações genealógica e alfanumérica (tomando Dó como fundamental dos acordes).](../figs/lex-ta-08.png){width=30%}
 
-# *Genus* w ("Menor com sétima maior")
+### *Genus* w ("Menor com sétima maior")
 
+![Léxico dos tipos acordais do *genus* w, em notações genealógica e alfanumérica (tomando Dó como fundamental dos acordes).](../figs/lex-ta-09.png){width=30%}
 
-# *Genus* v ("Tríade menor")
+### *Genus* v ("Tríade menor")
 
+![Léxico dos tipos acordais do *genus* v, em notações genealógica e alfanumérica (tomando Dó como fundamental dos acordes).](../figs/lex-ta-010.png){width=30%}
