@@ -224,7 +224,7 @@ Apesar de sua relativa raridade, os empréstimos de segunda ordem contribuem ain
 
 ![Distribuição das categorias funcionais da subclasse "Anti-napolitanos" (aNP) por *corpus* (em percentuais).](../figs/atri-sec-19.png){width=70%}
 
-![Distribuição das categorias funcionais da subclasse "Anti-subV" (aSUB) por *corpus* (em percentuais).](../figs/atri-sec-19.png){width=80%}
+![Distribuição das categorias funcionais da subclasse "Anti-subV" (aSUB) por *corpus* (em percentuais).](../figs/atri-sec-20.png){width=80%}
 
 ### Discussão
 
