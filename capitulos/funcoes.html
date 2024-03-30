@@ -69,35 +69,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -274,6 +245,7 @@ window.Quarto = {
    
   <ul>
   <li><a href="#classe-diatônicos-dia-subclasses-primários-pri-e-secundários-sec" id="toc-classe-diatônicos-dia-subclasses-primários-pri-e-secundários-sec" class="nav-link active" data-scroll-target="#classe-diatônicos-dia-subclasses-primários-pri-e-secundários-sec">Classe “Diatônicos” (DIA) / Subclasses “Primários” (PRI) e “Secundários” (SEC)</a></li>
+  <li><a href="#classe-preparatórios-pre-subclasses-dominantes-secundários-ds-substitutos-tritônicos-subv-e-diminutos-dim" id="toc-classe-preparatórios-pre-subclasses-dominantes-secundários-ds-substitutos-tritônicos-subv-e-diminutos-dim" class="nav-link" data-scroll-target="#classe-preparatórios-pre-subclasses-dominantes-secundários-ds-substitutos-tritônicos-subv-e-diminutos-dim">Classe “Preparatórios” (PRE) / Subclasses “Dominantes secundários” (DS), “Substitutos tritônicos” (SUBV) e “Diminutos” (DIM)</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/capitulos/funcoes.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/capitulos/funcoes.qmd" class="toc-action"><i class="bi empty"></i>Ver o código fonte</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
     </div>
@@ -302,12 +274,6 @@ window.Quarto = {
 <section id="classe-diatônicos-dia-subclasses-primários-pri-e-secundários-sec" class="level3">
 <h3 class="anchored" data-anchor-id="classe-diatônicos-dia-subclasses-primários-pri-e-secundários-sec">Classe “Diatônicos” (DIA) / Subclasses “Primários” (PRI) e “Secundários” (SEC)</h3>
 <table class="table">
-<colgroup>
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 37%">
-<col style="width: 37%">
-</colgroup>
 <thead>
 <tr class="header">
 <th>Subclasse</th>
@@ -337,7 +303,59 @@ window.Quarto = {
 </tr>
 </tbody>
 </table>
-<p>………………………………………………………………………………. | SEC | II | Dm7 | D∅ | | | III | Em7 | E<span class="math inline">\(\flat\)</span>M7 | | | VI | Am7 | A<span class="math inline">\(\flat\)</span>M7 | | | VII | B∅ | B° |</p>
+<p>……………………………………….. | SEC | II | Dm7 | D | | | III | Em7 | EbM7 | | | VI | Am7 | AbM7 | | | VII | B∅ | B° |</p>
+</section>
+<section id="classe-preparatórios-pre-subclasses-dominantes-secundários-ds-substitutos-tritônicos-subv-e-diminutos-dim" class="level3">
+<h3 class="anchored" data-anchor-id="classe-preparatórios-pre-subclasses-dominantes-secundários-ds-substitutos-tritônicos-subv-e-diminutos-dim">Classe “Preparatórios” (PRE) / Subclasses “Dominantes secundários” (DS), “Substitutos tritônicos” (SUBV) e “Diminutos” (DIM)</h3>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Subclasse</th>
+<th>categoria</th>
+<th>Dó maior</th>
+<th>Dó menor</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>DS</td>
+<td>V/II</td>
+<td>A7</td>
+<td>A7</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>V/III</td>
+<td>B7</td>
+<td>Bb7</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>V/IV</td>
+<td>C7</td>
+<td>C7</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>V/V</td>
+<td>D7</td>
+<td>D7</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>V/VI</td>
+<td>E7</td>
+<td>Eb7</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>V/VI</td>
+<td>-</td>
+<td>F7</td>
+</tr>
+</tbody>
+</table>
+<p>……………………………………….. | SUBV | SubV | Db7 | Db7 | | | SubV/II | Eb7 | Eb7 | | | SubV/III | F7 | Fb7 | | | SubV/VI | Gb7 | Gb7 | | | SubV/V | Ab7 | Ab7 | | | SubV/VI | Bb7 | A7 | | | SubV/VII | - | B7 | ……………………………………….. | DIM | V° | B7 | B7 | | | V°/II | C#° | C#° | | | V°/III | D#° | D° | | | V°/IV | E° | E° | | | V°/V | F#° | F#° | | | V°/VI | G#° | G° | | | V°/VII | - | A7 | | | I° | C° | - | | | bIII° | Eb° | - | | | IV° | F° | - | | | V° | G° | - | | | bVII° | Bb° | - |</p>
 
 
 </section>
