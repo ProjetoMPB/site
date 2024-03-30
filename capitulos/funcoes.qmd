@@ -49,7 +49,7 @@ title: Léxico de categorias funcionais
 |           | bVII°     | Bb°      | -        |
 
 
-### Classe "Empréstimos 1" (E1) / Subclasses "Regiões afinss" (RA), "Empréstimos diatônicos" (ED) e "Subdominantes menores" (sd)
+### Classe "Empréstimos de primeira ordem" (E1) / Subclasses "Regiões afins" (RA), "Empréstimos diatônicos" (ED) e "Subdominantes menores" (sd)
 
 | Subclasse | categoria | Dó maior | Dó menor |
 |-----------|-----------|----------|----------|
@@ -70,4 +70,53 @@ title: Léxico de categorias funcionais
 |           | bVIM7     | AbM7     | -        |
 |           | bVII7}    | Bb7      | Bb7      |
 
+### Classe "Napolitanos secundários" (NPS) 
+
+| categoria | Dó maior | Dó menor |
+|-----------|----------|----------|
+| Np/II     | EbM7     | EbM7     |
+| Np/III    | FM7      | FbM7     |
+| Np/IV     | GbM7     | GbM7     |
+| Np/V      | AbM7     | AbM7     |
+| Np/VI     | BbM7     | AM7      |
+
+### Classe "Anti-preparatórios" (aPRE) / Subclasses "Anti-Napolitanos" (aNP) e "Anti-Substitutos tritônicos" (aSUBV) 
+
+| Subclasse | categoria | Dó maior | Dó menor |
+|-----------|-----------|----------|----------|
+| aNP       | aNp       | BM7      | BM7      |
+|           | aNp/II    | C#M7     | C#M7     |
+|           | aNp/III   | D#M7     | DM7      |
+|           | aNp/IV    | EM7      | EM7      |
+|           | aNp/V     | F#M7     | F#M7     |
+|           | aNp/VI    | G#M7     | GM7      |
+...............................................
+| aSUBV     | aSubV     | B7       | B7       |
+|           | aSubV/II  | C#7      | C#7      |
+|           | aSubV/III | D#7      | D7       |
+|           | aSubV/IV  | E7       | E7       |
+|           | aSubV/V   | F#7      | F#7      |
+|           | aSubV/VI  | G#7      | G7       |
+
+### Classe "Dominantes terciários" (DT) 
+
+| categoria | Dó maior | Dó menor |
+|-----------|----------|----------|
+| V/bII     | Ab7      | Ab7      |
+| V/bIII    | Bb7      | -        |
+| V/bVI     | Eb7      | -        |
+| V/bVII    | F7       | -        |
+
+### Classe "Empréstimos de segunda ordem" (E2) 
+
+| categoria       | Dó maior | Dó menor |
+|-----------------|----------|----------|
+| bIIm7           | Dbm7     | -        |
+| bIIIm7 (≡ IIIm7)| Ebm7     | Ebm7     |
+| bVIm7 (≡ VIm7)  | Abm7     | Abm7     |
+| bVIIm7          | Bbm7     | Bbm7     |
+| IIIM7           | EM7      | -        |
+| bVM7            | GbM7     | GbM7     |
+| VIM7            | AM7      | -        |
+| VIIM7           | BM7      | -        |
 
