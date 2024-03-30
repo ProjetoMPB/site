@@ -302,6 +302,38 @@ DISTRIBUIÇÃO DE TIPOS ACORDAIS
 
 ![Distribuição de TAs (considerando os 40 mais recorrentes) no *corpus* Rita.](../figs/grafico-09m.png){width=50% #fig-graf09m}
 
-![Distribuição de TAs (considerando os 40 mais recorrentes) no conjunto MPB (compositores 1 a 10)..](../figs/grafico-09n.png){width=50% #fig-graf09n}
+![Distribuição de TAs (considerando os 40 mais recorrentes) no conjunto MPB (compositores 1 a 10).](../figs/grafico-09n.png){width=50% #fig-graf09n}
 
 ![Comparação das distribuições de TAs (considerando os 40 mais recorrentes) nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-09.png){width=100% #fig-graf09}
+
+DISTRIBUIÇÃO DAS CATEGORIAS FUNCIONAIS
+
+![Distribuição de categorias funcionais (considerando os 40 mais recorrentes) no *corpus* Jazz.](../figs/grafico-10a.png){width=50% #fig-graf10a}
+
+![Distribuição de categorias funcionais (considerando os 40 mais recorrentes) no *corpus* Choro.](../figs/grafico-10b.png){width=50% #fig-graf10b}
+
+![Distribuição de categorias funcionais (considerando os 40 mais recorrentes) no *corpus* Samba.](../figs/grafico-10c.png){width=50% #fig-graf10c}
+
+![Distribuição de categorias funcionais (considerando os 40 mais recorrentes) no *corpus* Jobim.](../figs/grafico-10d.png){width=50% #fig-graf10d}
+
+![Distribuição de categorias funcionais (considerando os 40 mais recorrentes) no *corpus* Lins.](../figs/grafico-10e.png){width=50% #fig-graf10e}
+
+![Distribuição de categorias funcionais (considerando os 40 mais recorrentes) no *corpus* Chico.](../figs/grafico-10f.png){width=50% #fig-graf10f}
+
+![Distribuição de categorias funcionais (considerando os 40 mais recorrentes) no *corpus* Edu.](../figs/grafico-10g.png){width=50% #fig-graf10g}
+
+![Distribuição de categorias funcionais (considerando os 40 mais recorrentes) no *corpus* Caetano.](../figs/grafico-10h.png){width=50% #fig-graf10h}
+
+![Distribuição de categorias funcionais (considerando os 40 mais recorrentes) no *corpus* Djavan.](../figs/grafico-10i.png){width=50% #fig-graf10i}
+
+![Distribuição de categorias funcionais (considerando os 40 mais recorrentes) no *corpus* Bosco.](../figs/grafico-10j.png){width=50% #fig-graf10j}
+
+![Distribuição de categorias funcionais (considerando os 40 mais recorrentes) no *corpus* Milton.](../figs/grafico-10k.png){width=50% #fig-graf10k}
+
+![Distribuição de categorias funcionais (considerando os 40 mais recorrentes) no *corpus* Gil.](../figs/grafico-10l.png){width=50% #fig-graf10l}
+
+![Distribuição de categorias funcionais (considerando os 40 mais recorrentes) no *corpus* Rita.](../figs/grafico-10m.png){width=50% #fig-graf10m}
+
+![Distribuição de categorias funcionais (considerando os 40 mais recorrentes) no conjunto MPB (compositores 1 a 10).](../figs/grafico-10n.png){width=50% #fig-graf10n}
+
+![Comparação das distribuições de categorias funcionais (considerando os 40 mais recorrentes) nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-10.png){width=100% #fig-graf10}
