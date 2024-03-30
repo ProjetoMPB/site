@@ -6,6 +6,7 @@ title: Léxico de tipos acordais (TAs)
 
 ## *Genus* Z ("Maior com sétima maior")
 
+![Léxico dos tipos acordais do *genus* Z, em notações genealógica e alfanumérica (tomando Dó como fundamental dos acordes).](../figs/lex-ta-01.png){width=60%}
 
 ## *Genus* Y ("Maior com sétima menor" ou "Dominante")
 
