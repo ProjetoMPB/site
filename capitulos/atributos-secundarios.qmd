@@ -234,7 +234,7 @@ As distribuições referentes à classe NPS e às subclasses (da classe aPRE) aN
 
 2H3d
 
-![Total de relações binárias funcionais distintas por *corpus* (em percentuais).](../figs/atri-sec-21.png){width=40%}
+![Total de relações binárias funcionais distintas por *corpus*.](../figs/atri-sec-21.png){width=25%}
 
 ### Discussão
 
