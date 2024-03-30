@@ -2,38 +2,38 @@
 title: Léxico de tipos acordais (TAs)
 ---
 
-# GENERA MAIORES
+## GENERA MAIORES
 
-## *Genus* Z ("Maior com sétima maior")
+# *Genus* Z ("Maior com sétima maior")
 
-![Léxico dos tipos acordais do *genus* Z, em notações genealógica e alfanumérica (tomando Dó como fundamental dos acordes).](../figs/lex-ta-01.png){width=60%}
+![Léxico dos tipos acordais do *genus* Z, em notações genealógica e alfanumérica (tomando Dó como fundamental dos acordes).](../figs/lex-ta-01.png){width=30%}
 
-## *Genus* Y ("Maior com sétima menor" ou "Dominante")
-
-
-## *Genus* X ("Dominante com quinta diminuta" ou "Sexta francesa")
+# *Genus* Y ("Maior com sétima menor" ou "Dominante")
 
 
-## *Genus* W ("Dominante com quinta aumentada")
+# *Genus* X ("Dominante com quinta diminuta" ou "Sexta francesa")
 
 
-## *Genus* V ("Tríade maior")
+# *Genus* W ("Dominante com quinta aumentada")
+
+
+# *Genus* V ("Tríade maior")
 
 ---
 
-# GENERA MENORES
+## GENERA MENORES
 
-## *Genus* z ("Menor com sétima menor")
-
-
-## *Genus* y ("Meio diminuto")
+# *Genus* z ("Menor com sétima menor")
 
 
-## *Genus* x ("Sétima diminuta")
+# *Genus* y ("Meio diminuto")
 
 
-## *Genus* w ("Menor com sétima maior")
+# *Genus* x ("Sétima diminuta")
 
 
-## *Genus* v ("Tríade menor")
+# *Genus* w ("Menor com sétima maior")
+
+
+# *Genus* v ("Tríade menor")
 
