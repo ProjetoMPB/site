@@ -26,7 +26,7 @@ title: Léxico de tipos acordais (TAs)
 
 ---
 
-## *Genera* maiores
+## *Genera* menores
 
 ### *Genus* z ("Menor com sétima menor")
 
@@ -46,4 +46,4 @@ title: Léxico de tipos acordais (TAs)
 
 ### *Genus* v ("Tríade menor")
 
-![Léxico dos tipos acordais do *genus* v, em notações genealógica e alfanumérica (tomando Dó como fundamental dos acordes).](../figs/lex-ta-010.png){width=30%}
+![Léxico dos tipos acordais do *genus* v, em notações genealógica e alfanumérica (tomando Dó como fundamental dos acordes).](../figs/lex-ta-10.png){width=30%}
