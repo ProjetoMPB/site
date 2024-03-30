@@ -10,10 +10,10 @@ title: Léxico de categorias funcionais
 |           | IV        | FM7      | Fm7      |
 |           | V         | G7       | G7       |
 ...............................................
-| SEC       | II        | Dm7      | D        |
+| SEC       | II        | Dm7      | D∅       |
 |           | III       | Em7      | EbM7     |
 |           | VI        | Am7      | AbM7     |
-|           | VII       | B∅        | B°      |
+|           | VII       | B∅       | B°       |
 
 
 ### Classe "Preparatórios" (PRE) / Subclasses "Dominantes secundários" (DS), "Substitutos tritônicos" (SUBV) e "Diminutos" (DIM)
@@ -47,4 +47,27 @@ title: Léxico de categorias funcionais
 |           | IV°       | F°       | -        |
 |           | V°        | G°       | -        |
 |           | bVII°     | Bb°      | -        |
+
+
+### Classe "Empréstimos 1" (E1) / Subclasses "Regiões afinss" (RA), "Empréstimos diatônicos" (ED) e "Subdominantes menores" (sd)
+
+| Subclasse | categoria | Dó maior | Dó menor |
+|-----------|-----------|----------|----------|
+| RA        | Im7       | Cm7      | -        |
+|           | bIIIM7    | EbM7     | -        |
+|           | IV7       | F7       | F7       |
+|           | bIIIM7    | EbM7     | -        |
+|           | Vm7       | Gm7      | Gm7      |
+|           | bVIIM7    | BbM7     | -        |
+...............................................
+| ED        | IIm7      | -        | Dm7      |
+|           | III(#5)M7 | -        | Eb(#5)M7 |
+|           | #VI∅      | -        | A∅       |
+...............................................
+| sd        | bIIM7     | DbM7     | DbM7     |
+|           | II        | D        | -        |
+|           | IVm7      | Fm7      | -        |
+|           | bVIM7     | AbM7     | -        |
+|           | bVII7}    | Bb7      | Bb7      |
+
 
