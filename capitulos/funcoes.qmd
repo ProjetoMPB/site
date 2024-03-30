@@ -2,7 +2,7 @@
 title: Léxico de categorias funcionais
 ---
 
-### Classe "Diatônicos" (DIA) / Subclasses "Primários" (PRI) e "Secundários" (SEC)
+### Classe "Diatônicas" (DIA) / Subclasses "Primárias" (PRI) e "Secundárias" (SEC)
 
 | Subclasse | categoria | Dó maior | Dó menor |
 |-----------|-----------|----------|----------|
@@ -15,7 +15,7 @@ title: Léxico de categorias funcionais
 |           | VII       | B∅       | B°       |
 
 
-### Classe "Preparatórios" (PRE) / Subclasses "Dominantes secundários" (DS), "Substitutos tritônicos" (SUBV) e "Diminutos" (DIM)
+### Classe "Preparatórias" (PRE) / Subclasses "Dominantes secundárias" (DS), "Substitutos tritônicos" (SUBV) e "Diminutos" (DIM)
 
 | Subclasse | categoria | Dó maior | Dó menor |
 |-----------|-----------|----------|----------|
@@ -75,7 +75,7 @@ title: Léxico de categorias funcionais
 | Np/V      | AbM7     | AbM7     |
 | Np/VI     | BbM7     | AM7      |
 
-### Classe "Anti-preparatórios" (aPRE) / Subclasses "Anti-Napolitanos" (aNP) e "Anti-Substitutos tritônicos" (aSUBV) 
+### Classe "Anti-preparatórias" (aPRE) / Subclasses "Anti-Napolitanos" (aNP) e "Anti-Substitutos tritônicos" (aSUBV) 
 
 | Subclasse | categoria | Dó maior | Dó menor |
 |-----------|-----------|----------|----------|
