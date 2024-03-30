@@ -2,6 +2,8 @@
 title: Léxico de categorias funcionais
 ---
 
+### Classe "Diatônicos" (DIA) / Subclasses "Primários" (PRI) e "Secundários" (SEC)
+
 | Subclasse | categoria | Dó maior                       | Dó menor                       |
 |-----------|-----------|--------------------------------|--------------------------------|
 | PRI       | I         | CM7                            | Cm7                            |
