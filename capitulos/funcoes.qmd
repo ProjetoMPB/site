@@ -9,6 +9,7 @@ title: Léxico de categorias funcionais
 | PRI       | I         | CM7                            | Cm7                            |
 |           | IV        | FM7                            | Fm7                            |
 |           | V         | G7                             | G7                             |
+...........................................................................................
 | SEC       | II        | Dm7                            | D∅                             |
 |           | III       | Em7                            | E$\flat$M7                     |
 |           | VI        | Am7                            | A$\flat$M7                     |
