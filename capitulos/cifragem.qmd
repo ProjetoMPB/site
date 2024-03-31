@@ -2,7 +2,7 @@
 title: Critérios adotados para cifragem alfanumérica
 ---
 
-Esta proposta de notação de cifras alfanuméricas foi elaborada a partir dos critérios de lógica, clareza, concisão e simplicidade, buscando a minimizar a incoerência da simbologia (o que favorece eventualmente à implementação computacional). Acrescente-se que tal proposta não tem a pretensão de substituir outros sistemas em uso geral, especialmente os mais estáveis, por assim dizer. Pelo contrário, ela vem juntar-se a eles como mais uma alternativa disponível, apenas mais lógica, talvez.
+Esta proposta de notação de cifras alfanuméricas foi elaborada a partir dos critérios de lógica, clareza, concisão e simplicidade, buscando a minimizar a incoerência da simbologia (o que favorece eventualmente à implementação computacional).^[Esta proposta sintetiza e adapta a seção "2.1 Cifragem alfanumérica", publicada originalmente em [@almada-harmonia-jobim, pp. 27-28].] Acrescente-se que tal proposta não tem a pretensão de substituir outros sistemas em uso geral, especialmente os mais estáveis, por assim dizer. Pelo contrário, ela vem juntar-se a eles como mais uma alternativa disponível, apenas mais lógica, talvez.
 
 As convenções adotadas são as seguintes:
 
