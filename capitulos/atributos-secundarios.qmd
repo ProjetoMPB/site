@@ -269,3 +269,11 @@ A presença de notas diatônicas em peças em modo maior é, como se esperaria e
 ### Discussão
 
 Observamos também uma certa uniformidade no que se refere à distribuição das inflexões, que correspondem, em média a 1/5 das notas melódicas (confirmando aproximadamente o senso comum analítico). Num olhar mais detalhado, percebemos como o *corpus* Choro é o que apresenta a maior percentagem dessa categoria de nota-função (24.3 %), o que é também uma informação consistente em relação ao que se conhece informalmente obre o comportamento da melodia nesse gênero.^[Dos *corpora* de análise, João Bosco é o que possui maior percentual de inflexões (23.0 %).]
+
+2M1c
+
+![Distribuição das superclasses de notas-estruturais por *corpus* (em percentuais).](../figs/atri-sec-25.png){width=60%}
+
+### Discussão
+
+Ao contrário dos anteriores, este atributo permite delinear mais claramente as fronteiras da MPB em relação aos repertórios de controle Samba e Choro, já que a superclasse das tensões mostram uma considerável presença nos *corpora* analíticos (em congruência com o repertório jazzístico). No entanto, os *corpora* Tom Jobim (especialmente), Ivan Lins, Edu Lobo e Djavan apresentam um percentual mais elevado de tensões do que os demais repertórios, o que sugere que possam integrar um subgrupo especial, com relações melodia/harmonia mais complexas.^[Novamente, as diferenças internas se acentuam, pois nos *corpora* Milton Nascimento, Caetano Veloso, Gilberto Gil e, especialmente, Rita Lee a presença de tensões é consideravelmente menor do outro subgrupo.]  
