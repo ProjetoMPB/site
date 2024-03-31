@@ -1,5 +1,5 @@
 ---
-title: Critérios adotados para cifragem alfanumérica^[Este capítulo é uma adaptação da seção "1.2 Cifragem alfanumérica" publicada originalmente em [@almada-harmonia-jobim, p. 27-28]]
+title: Critérios adotados para cifragem alfanumérica^[Este capítulo é uma adaptação da seção "1.2 Cifragem alfanumérica" publicada originalmente em [@almada-harmonia-jobim, p. 27-28].]
 ---
 
 Esta proposta de notação de cifras alfanuméricas foi elaborada a partir dos critérios de lógica, clareza, concisão e simplicidade, buscando a minimizar a incoerência da simbologia (o que favorece eventualmente à implementação computacional). Acrescente-se que tal proposta não tem a pretensão de substituir outros sistemas em uso geral, especialmente os mais estáveis, por assim dizer. Pelo contrário, ela vem juntar-se a eles como mais uma alternativa disponível, apenas mais lógica, talvez.
@@ -20,4 +20,3 @@ As convenções adotadas são as seguintes:
 ---
 - A inclusão de outras notas-funções (sextas, nonas, décimas primeiras e décimas terceiras) deve ser feita obedecendo à ordem de magnitude dos números envolvidos, separando as entradas por pontos, se necessário. Exemplos: C6, A6.9, Fm7.11, Bb4.7.9, E6.M7, F#7.9.13, B∅.11.13 etc.
 - Notas-funções alteradas (quintas ou tensões) são sempre incluídas dentro de parênteses. Em caso de haver duas ou mais alterações de magnitudes sequenciais em um mesmo acorde, elas são inseridas nos mesmos parênteses e separadas por pontos. Exemplos: C(b5)7.9, GM7(#11), Db4.7(b13), A7(b9.#9), Eb4.7.9(#11).13 etc.   
-
