@@ -264,7 +264,7 @@ A presença de notas diatônicas em peças em modo maior é, como se esperaria e
 
 2M1b
 
-![Distribuição das inflexões por *corpus* (em percentuais).](../figs/atri-sec-24.png){width=60%}
+![Distribuição das inflexões por *corpus* (em percentuais).](../figs/atri-sec-24.png){width=30%}
 
 ### Discussão
 
@@ -272,8 +272,16 @@ Observamos também uma certa uniformidade no que se refere à distribuição das
 
 2M1c
 
-![Distribuição das superclasses de notas-estruturais por *corpus* (em percentuais).](../figs/atri-sec-25.png){width=60%}
+![Distribuição das superclasses de notas-estruturais por *corpus* (em percentuais).](../figs/atri-sec-25.png){width=30%}
 
 ### Discussão
 
 Ao contrário dos anteriores, este atributo permite delinear mais claramente as fronteiras da MPB em relação aos repertórios de controle Samba e Choro, já que a superclasse das tensões mostram uma considerável presença nos *corpora* analíticos (em congruência com o repertório jazzístico). No entanto, os *corpora* Tom Jobim (especialmente), Ivan Lins, Edu Lobo e Djavan apresentam um percentual mais elevado de tensões do que os demais repertórios, o que sugere que possam integrar um subgrupo especial, com relações melodia/harmonia mais complexas.^[Novamente, as diferenças internas se acentuam, pois nos *corpora* Milton Nascimento, Caetano Veloso, Gilberto Gil e, especialmente, Rita Lee a presença de tensões é consideravelmente menor do outro subgrupo.]  
+
+2M1d
+
+![Distribuição das classes de notas-estruturais por *corpus* (em percentuais).](../figs/atri-sec-26.png){width=40%}
+
+### Discussão
+
+A Tabela acima detalha o atributo anterior, mostrando como as distribuições classes de notas-estruturais tornam ainda mais claras as diferenças entre a MPB (mais uma vez, associada ao *corpus* Jazz) e o superconjunto Choro-Samba. Considerando as classes em separado: (a) tríades -- o Choro se destaca pelo alta percentagem (64 %) nesta classe, seguido pelo Samba, em contraste aos demais repertórios;^[Embora Chico Buarque, Milton Nascimento, Gilberto Gil, Caetano Veloso e Rita Lee apresentem valores próximos.] (b) tétrades -- neste caso, percebe-se uma relativa homogeneidade de todos os repertórios (com o Choro se distanciando um pouco da média), o que provavelmente deve ser reputado à frequência de TAs Y, como já apresentado na avaliação dos atributos secundários harmônicos; (c) tensões simples -- nesta classe de notas-estruturais, a distância em relação ao superconjunto aumenta, o que se evidencia como um marcador estilístico importante (é interessante perceber a forte similaridade das distribuições dos *corpora* Jazz e Ivan Lins, os com maior porcentagem da classe (acima de 16 % do total);^[Por outro lado, Chico Buarque, Caetano Veloso, Milton Nascimento, Gilberto Gil e João Bosco apresentam percentuais mais baixos e próximos entre si.] (d) tensões alteradas -- ao contrário da classe das tensões simples, a das tensões alteradas é menos distinguidora, apresentando distribuições relativamente próximas de todos os repertórios (destacando as altas percentagens dos *corpora* Jobim e Edu Lobo).^[O repertório de Rita Lee é o que apresenta a menor percentagem desta categoria dentre todos os analisados (menos de 2 %).]
