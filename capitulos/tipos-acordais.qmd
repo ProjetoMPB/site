@@ -1,7 +1,7 @@
 ---
 title: Léxico de tipos acordais (TAs)
 ---
-Neste capítulo são detalhados os 10 *genera* de tipos acordais considerados no projeto [ver capítulo Modelos Teóricos](modelos-teoricos.qmd), num total de 161 qualidades distintas.
+Neste capítulo são detalhados os 10 *genera* de tipos acordais considerados no projeto ([ver capítulo Modelos Teóricos](modelos-teoricos.qmd)), num total de 161 qualidades distintas.
 
 ## *Genera* maiores
 
