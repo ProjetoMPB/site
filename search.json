@@ -331,14 +331,14 @@
     "href": "capitulos/cifragem.html",
     "title": "Critérios adotados para cifragem alfanumérica",
     "section": "",
-    "text": "Esta proposta de notação de cifras alfanuméricas foi elaborada a partir dos critérios de lógica, clareza, concisão e simplicidade, buscando a minimizar a incoerência da simbologia (o que favorece eventualmente à implementação computacional). Acrescente-se que tal proposta não tem a pretensão de substituir outros sistemas em uso geral, especialmente os mais estáveis, por assim dizer. Pelo contrário, ela vem juntar-se a eles como mais uma alternativa disponível, apenas mais lógica, talvez.\nAs convenções adotadas são as seguintes:"
+    "text": "Esta proposta de notação de cifras alfanuméricas foi elaborada a partir dos critérios de lógica, clareza, concisão e simplicidade, buscando a minimizar a incoerência da simbologia (o que favorece eventualmente à implementação computacional).1 Acrescente-se que tal proposta não tem a pretensão de substituir outros sistemas em uso geral, especialmente os mais estáveis, por assim dizer. Pelo contrário, ela vem juntar-se a eles como mais uma alternativa disponível, apenas mais lógica, talvez.\nAs convenções adotadas são as seguintes:"
   },
   {
     "objectID": "capitulos/cifragem.html#footnotes",
     "href": "capitulos/cifragem.html#footnotes",
     "title": "Critérios adotados para cifragem alfanumérica",
     "section": "Notas de rodapé",
-    "text": "Notas de rodapé\n\n\nÉ mais comum que a notação desse tipo acordal seja abreviada para apenas “X°”, já que a forma triádica diminuta é extremamente rara em contextos da música popular. Adotaremos, assim, preferencialmente, a forma abreviada.↩︎"
+    "text": "Notas de rodapé\n\n\nEsta proposta sintetiza e adapta a seção “2.1 Cifragem alfanumérica”, publicada originalmente em (Almada 2022, 27–28).↩︎\nÉ mais comum que a notação desse tipo acordal seja abreviada para apenas “X°”, já que a forma triádica diminuta é extremamente rara em contextos da música popular. Adotaremos, assim, preferencialmente, a forma abreviada.↩︎"
   },
   {
     "objectID": "capitulos/atributos-secundarios.html",

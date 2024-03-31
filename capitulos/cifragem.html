@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -264,7 +284,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Esta proposta de notação de cifras alfanuméricas foi elaborada a partir dos critérios de lógica, clareza, concisão e simplicidade, buscando a minimizar a incoerência da simbologia (o que favorece eventualmente à implementação computacional). Acrescente-se que tal proposta não tem a pretensão de substituir outros sistemas em uso geral, especialmente os mais estáveis, por assim dizer. Pelo contrário, ela vem juntar-se a eles como mais uma alternativa disponível, apenas mais lógica, talvez.</p>
+<p>Esta proposta de notação de cifras alfanuméricas foi elaborada a partir dos critérios de lógica, clareza, concisão e simplicidade, buscando a minimizar a incoerência da simbologia (o que favorece eventualmente à implementação computacional).<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> Acrescente-se que tal proposta não tem a pretensão de substituir outros sistemas em uso geral, especialmente os mais estáveis, por assim dizer. Pelo contrário, ela vem juntar-se a eles como mais uma alternativa disponível, apenas mais lógica, talvez.</p>
 <p>As convenções adotadas são as seguintes:</p>
 <ul>
 <li><strong>Tríades maiores</strong> são indicadas apenas pelas letras que representa suas fundamentais (C, F, Db etc.)</li>
@@ -280,7 +300,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
 <li>A <strong>tétrade menor com sétima e quinta diminuta</strong>, também conhecida como acorde <em>meio diminuto</em>, é escrita acrescentando-se o símbolo “∅” à direita da letra-fundamental (C∅, Db∅ etc.)<br>
 </li>
-<li>A <strong>tétrade menor com quinta e sétima diminutas</strong>, também conhecida como <em>tétrade diminuta</em>, é escrita acrescentando-se o símbolo “°7” à direita da letra-fundamental (C°7, G#°7 etc.)<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></li>
+<li>A <strong>tétrade menor com quinta e sétima diminutas</strong>, também conhecida como <em>tétrade diminuta</em>, é escrita acrescentando-se o símbolo “°7” à direita da letra-fundamental (C°7, G#°7 etc.)<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></li>
 <li>A inclusão de outras notas-funções (sextas, nonas, décimas primeiras e décimas terceiras) deve ser feita obedecendo à ordem de magnitude dos números envolvidos, separando as entradas por pontos, se necessário. Exemplos: C6, A6.9, Fm7.11, Bb4.7.9, E6.M7, F#7.9.13, B∅.11.13 etc.</li>
 <li>Notas-funções alteradas (quintas ou tensões) são sempre incluídas dentro de parênteses. Em caso de haver duas ou mais alterações de magnitudes sequenciais em um mesmo acorde, elas são inseridas nos mesmos parênteses e separadas por pontos. Exemplos: C(b5)7.9, GM7(#11), Db4.7(b13), A7(b9.#9), Eb4.7.9(#11).13 etc.</li>
 </ul>
@@ -288,10 +308,16 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Notas de rodapé</h2>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referências</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-almada-harmonia-jobim" class="csl-entry" role="listitem">
+Almada, Carlos. 2022. <em>A Harmonia de Jobim</em>. Campinas: Editora da Unicamp.
+</div>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Notas de rodapé</h2>
 
 <ol>
-<li id="fn1"><p>É mais comum que a notação desse tipo acordal seja abreviada para apenas “X°”, já que a forma triádica diminuta é extremamente rara em contextos da música popular. Adotaremos, assim, preferencialmente, a forma abreviada.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>Esta proposta sintetiza e adapta a seção “2.1 Cifragem alfanumérica”, publicada originalmente em <span class="citation" data-cites="almada-harmonia-jobim">(<a href="#ref-almada-harmonia-jobim" role="doc-biblioref">Almada 2022, 27–28</a>)</span>.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>É mais comum que a notação desse tipo acordal seja abreviada para apenas “X°”, já que a forma triádica diminuta é extremamente rara em contextos da música popular. Adotaremos, assim, preferencialmente, a forma abreviada.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
