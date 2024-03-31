@@ -2,6 +2,8 @@
 title: Léxico de categorias funcionais
 ---
 
+Este capítulo explicita a estrutura estratificada de classes, subclasses e categorias funcionais que forma uma *taxonomia funcional* adotada no projeto. Privilegiando uma visão que abranja o vasto e complexo conteúdo funcional da Prática Comum da MPB (constatado nas análises) e nos atendo a critérios de economia e concisão (virtudes em si próprias, mas que também favorecem generalizações), optamos por propor uma organização *unificada* dessa taxonomia, isto é, que possa ser estendida a ambos os modos -- maior e menor. As classes e subclasses funcionais (e seus respectivos conteúdos) são dispostas abaixo, incluindo exemplos nos modos maior e menor (tomando Dó como centro referencial).
+
 ### Classe "Diatônicas" (DIA) / Subclasses "Primárias" (PRI) e "Secundárias" (SEC)
 
 | Subclasse | categoria | Dó maior | Dó menor |
