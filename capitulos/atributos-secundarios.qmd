@@ -272,7 +272,7 @@ Observamos também uma certa uniformidade no que se refere à distribuição das
 
 2M1c
 
-![Distribuição das superclasses de notas-estruturais por *corpus* (em percentuais).](../figs/atri-sec-25.png){width=30%}
+![Distribuição das superclasses de notas-estruturais por *corpus* (em percentuais).](../figs/atri-sec-25.png){width=40%}
 
 ### Discussão
 
