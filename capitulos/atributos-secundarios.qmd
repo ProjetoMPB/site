@@ -280,7 +280,7 @@ Ao contrário dos anteriores, este atributo permite delinear mais claramente as 
 
 2M1d
 
-![Distribuição das classes de notas-estruturais por *corpus* (em percentuais).](../figs/atri-sec-26.png){width=40%}
+![Distribuição das classes de notas-estruturais por *corpus* (em percentuais).](../figs/atri-sec-26.png){width=60%}
 
 ### Discussão
 
