@@ -329,16 +329,16 @@
   {
     "objectID": "capitulos/cifragem.html",
     "href": "capitulos/cifragem.html",
-    "title": "Critérios adotados para cifragem alfanumérica1.",
+    "title": "Critérios adotados para cifragem alfanumérica",
     "section": "",
-    "text": "Esta proposta de notação de cifras alfanuméricas foi elaborada a partir dos critérios de lógica, clareza, concisão e simplicidade, buscando a minimizar a incoerência da simbologia (o que favorece eventualmente à implementação computacional). Acrescente-se que tal proposta não tem a pretensão de substituir outros sistemas em uso geral, especialmente os mais estáveis, por assim dizer. Pelo contrário, ela vem juntar-se a eles como mais uma alternativa disponível, apenas mais lógica, talvez.\nAs convenções adotadas são as seguintes:\nComo se pode observar, os dois itens finais da listagem correspondem às principais contribuições da proposta, tornando as cifras de maior complexidade (bem comuns no repertório em questão) sequências (ou *strings}, no jargão da programação computacional) de símbolos ordenados numericamente."
+    "text": "Esta proposta de notação de cifras alfanuméricas foi elaborada a partir dos critérios de lógica, clareza, concisão e simplicidade, buscando a minimizar a incoerência da simbologia (o que favorece eventualmente à implementação computacional). Acrescente-se que tal proposta não tem a pretensão de substituir outros sistemas em uso geral, especialmente os mais estáveis, por assim dizer. Pelo contrário, ela vem juntar-se a eles como mais uma alternativa disponível, apenas mais lógica, talvez.\nAs convenções adotadas são as seguintes:"
   },
   {
     "objectID": "capitulos/cifragem.html#footnotes",
     "href": "capitulos/cifragem.html#footnotes",
-    "title": "Critérios adotados para cifragem alfanumérica1.",
+    "title": "Critérios adotados para cifragem alfanumérica",
     "section": "Notas de rodapé",
-    "text": "Notas de rodapé\n\n\nEste capítulo é uma adaptação da seção “1.2 Cifragem alfanumérica” publicada originalmente em (Almada 2022, 27–28)↩︎\nÉ mais comum que a notação seja abreviada para apenas X°, já que a forma triádica diminuta é extreemamente rara em contextos da música popular. Adotaremos, assim, preferencialmente, a forma abreviada.↩︎"
+    "text": "Notas de rodapé\n\n\nÉ mais comum que a notação desse tipo acordal seja abreviada para apenas “X°”, já que a forma triádica diminuta é extremamente rara em contextos da música popular. Adotaremos, assim, preferencialmente, a forma abreviada.↩︎"
   },
   {
     "objectID": "capitulos/atributos-secundarios.html",
@@ -439,14 +439,14 @@
     "href": "capitulos/tipos-acordais.html",
     "title": "Léxico de tipos acordais (TAs)",
     "section": "",
-    "text": "Léxico dos tipos acordais do genus Z, em notações genealógica e alfanumérica (tomando Dó como fundamental dos acordes).\n\n\n\n\n\n\n\n\nLéxico dos tipos acordais do genus Y, em notações genealógica e alfanumérica (tomando Dó como fundamental dos acordes).\n\n\n\n\n\n\n\n\nLéxico dos tipos acordais do genus X, em notações genealógica e alfanumérica (tomando Dó como fundamental dos acordes).\n\n\n\n\n\n\n\n\nLéxico dos tipos acordais do genus W, em notações genealógica e alfanumérica (tomando Dó como fundamental dos acordes).\n\n\n\n\n\n\n\n\nLéxico dos tipos acordais do genus V, em notações genealógica e alfanumérica (tomando Dó como fundamental dos acordes)."
+    "text": "Neste capítulo são detalhados os 10 genera de tipos acordais considerados no projeto [ver capítulo Modelos Teóricos]{modelos-teoricos.qmd), num total de 161 qualidades distintas."
   },
   {
     "objectID": "capitulos/tipos-acordais.html#genera-maiores",
     "href": "capitulos/tipos-acordais.html#genera-maiores",
     "title": "Léxico de tipos acordais (TAs)",
-    "section": "",
-    "text": "Léxico dos tipos acordais do genus Z, em notações genealógica e alfanumérica (tomando Dó como fundamental dos acordes).\n\n\n\n\n\n\n\n\nLéxico dos tipos acordais do genus Y, em notações genealógica e alfanumérica (tomando Dó como fundamental dos acordes).\n\n\n\n\n\n\n\n\nLéxico dos tipos acordais do genus X, em notações genealógica e alfanumérica (tomando Dó como fundamental dos acordes).\n\n\n\n\n\n\n\n\nLéxico dos tipos acordais do genus W, em notações genealógica e alfanumérica (tomando Dó como fundamental dos acordes).\n\n\n\n\n\n\n\n\nLéxico dos tipos acordais do genus V, em notações genealógica e alfanumérica (tomando Dó como fundamental dos acordes)."
+    "section": "Genera maiores",
+    "text": "Genera maiores\n\nGenus Z (“Maior com sétima maior”)\n\n\n\nLéxico dos tipos acordais do genus Z, em notações genealógica e alfanumérica (tomando Dó como fundamental dos acordes).\n\n\n\n\nGenus Y (“Maior com sétima menor” ou “Dominante”)\n\n\n\nLéxico dos tipos acordais do genus Y, em notações genealógica e alfanumérica (tomando Dó como fundamental dos acordes).\n\n\n\n\nGenus X (“Dominante com quinta diminuta” ou “Sexta francesa”)\n\n\n\nLéxico dos tipos acordais do genus X, em notações genealógica e alfanumérica (tomando Dó como fundamental dos acordes).\n\n\n\n\nGenus W (“Dominante com quinta aumentada”)\n\n\n\nLéxico dos tipos acordais do genus W, em notações genealógica e alfanumérica (tomando Dó como fundamental dos acordes).\n\n\n\n\nGenus V (“Tríade maior”)\n\n\n\nLéxico dos tipos acordais do genus V, em notações genealógica e alfanumérica (tomando Dó como fundamental dos acordes)."
   },
   {
     "objectID": "capitulos/tipos-acordais.html#genera-menores",
