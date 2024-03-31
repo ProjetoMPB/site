@@ -28,9 +28,6 @@ A estrutura deste projeto foi pensada como uma sequência de artigos (ou capítu
     * [Listagem dos *corpora*](capitulos/listagem-corpora.qmd)
     * [Produção bibliográfica](capitulos/producao-bibliografica.qmd)
     * [Glossário](capitulos/glossario.qmd)
-    * Critérios adotados para cifragem alfanumérica
-    * Léxico de tipos acordais
-    * Léxico de classes, subclasses e categorias funcionais
     
 
 Antes de começar a leitura, veja [aqui](capitulos/logo.qmd) o nosso logotipo em tamanho maior! Aproveite e faça o teste para ver quantos compositores(as) você consegue identificar.
