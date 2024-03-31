@@ -2,21 +2,19 @@
 title: Critérios adotados para cifragem alfanumérica
 ---
 
-Esta proposta^[Adaptada do conteúdo da seção "1.2 Cifragem alfanumérica" publicada originalmente em [@almada-harmonia-jobim, pp. 27-28].] de notação de cifras alfanuméricas foi elaborada a partir dos critérios de lógica, clareza, concisão e simplicidade, buscando a minimizar a incoerência da simbologia (o que favorece eventualmente à implementação computacional). Acrescente-se que tal proposta não tem a pretensão de substituir outros sistemas em uso geral, especialmente os mais estáveis, por assim dizer. Pelo contrário, ela vem juntar-se a eles como mais uma alternativa disponível, apenas mais lógica, talvez.
+Esta proposta de notação de cifras alfanuméricas foi elaborada a partir dos critérios de lógica, clareza, concisão e simplicidade, buscando a minimizar a incoerência da simbologia (o que favorece eventualmente à implementação computacional). Acrescente-se que tal proposta não tem a pretensão de substituir outros sistemas em uso geral, especialmente os mais estáveis, por assim dizer. Pelo contrário, ela vem juntar-se a eles como mais uma alternativa disponível, apenas mais lógica, talvez.
 
 As convenções adotadas são as seguintes:
 
 - **Tríades maiores** são indicadas apenas pelas letras que representa suas fundamentais (C, F, Db etc.)
-- Em **tríades menores** é acresentado um "m" à direita da letra-fundamental (Cm, Am etc.)
+- Em **tríades menores** é acrescentado um "m" à direita da letra-fundamental (Cm, Am etc.)
 - Em **tríades quartais** (quarta substituindo a terça maior) acrescenta-se um "4" à direita da letra-fundamental (C4, F#4  etc.)
-- Em **tríades diminutas** é acresentado o símbolo "°" à direita da letra-fundamental (C°, Eb° etc.)
-- Em **tríades aumentadas** é acresentado o símbolo "+" à direita da letra-fundamental (C+, G+ etc.)
----
+- Em **tríades diminutas** é acrescentado o símbolo "°" à direita da letra-fundamental (C°, Eb° etc.)
+- Em **tríades aumentadas** é acrescentado o símbolo "+" à direita da letra-fundamental (C+, G+ etc.)
 - A **tétrade maior com sétima maior** é escrita acrescentando-se o símbolo "M7" à direita da letra-fundamental (CM7, AbM7 etc.)   
 - A **tétrade maior com sétima (menor)**, também conhecida como tétrade *dominante*, é escrita acrescentando-se o símbolo "7" à direita da letra-fundamental (C7, E7 etc.)     
-- **A tétrade menor com sétima** é escrita acrescentando-se o símbolo "m7" à direita da letra-fundamental (Cm7, Bm7 etc.)        
+- A **tétrade menor com sétima** é escrita acrescentando-se o símbolo "m7" à direita da letra-fundamental (Cm7, Bm7 etc.)        
 - A **tétrade menor com sétima e quinta diminuta**, também conhecida como acorde *meio diminuto*, é escrita acrescentando-se o símbolo "∅" à direita da letra-fundamental (C∅, Db∅  etc.)   
-- A **tétrade menor com quinta e sétima diminutas**, também conhecida como *tétrade diminuta*, é escrita acrescentando-se o símbolo "°7" à direita da letra-fundamental (C°7, G#°7 etc.)^[É mais comum que a notação seja abreviada para apenas X°, já que a forma triádica diminuta é extreemamente rara em contextos da música popular. Adotaremos, assim, preferencialmente, a forma abreviada.]
----
+- A **tétrade menor com quinta e sétima diminutas**, também conhecida como *tétrade diminuta*, é escrita acrescentando-se o símbolo "°7" à direita da letra-fundamental (C°7, G#°7 etc.)^[É mais comum que a notação desse tipo acordal seja abreviada para apenas "X°", já que a forma triádica diminuta é extremamente rara em contextos da música popular. Adotaremos, assim, preferencialmente, a forma abreviada.]
 - A inclusão de outras notas-funções (sextas, nonas, décimas primeiras e décimas terceiras) deve ser feita obedecendo à ordem de magnitude dos números envolvidos, separando as entradas por pontos, se necessário. Exemplos: C6, A6.9, Fm7.11, Bb4.7.9, E6.M7, F#7.9.13, B∅.11.13 etc.
 - Notas-funções alteradas (quintas ou tensões) são sempre incluídas dentro de parênteses. Em caso de haver duas ou mais alterações de magnitudes sequenciais em um mesmo acorde, elas são inseridas nos mesmos parênteses e separadas por pontos. Exemplos: C(b5)7.9, GM7(#11), Db4.7(b13), A7(b9.#9), Eb4.7.9(#11).13 etc.   
