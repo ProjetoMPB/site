@@ -247,3 +247,17 @@ O número de RBFs distintas varia consideravelmente -- de 178 (Samba) a 438 (Job
 ### Discussão
 
 Há, em termos percentuais, uma convergência geral pelas RBFs em alto nível DIA|DIA,^[Destacando-se o peso expressivo dessa RBF nos *corpora* Rita Lee (46.2 %) e Caetano Veloso (44.2 %), os mais altos percentuais de todos, incluindo os repertórios de controle.] excetuando-se os *corpora* Jobim e Chico Buarque, nos quais a predominância recai sobre, respectivamente, DIA|CR, CR|CR.^[Este atributo mais uma vez contribui para reforçar a impressão de ser a harmonia jobiniana mais complexa e excêntrica do que as de seus pares.]
+
+---
+
+## Atributos secundários melódicos
+
+**2M1** (NOTAS-FUNÇÕES)
+
+2M1a
+
+![Distribuição das notas diatônicas por *corpus*, considerando modos maior e menor (em percentuais).](../figs/atri-sec-23.png){width=60%}
+
+### Discussão
+
+A presença de notas diatônicas em peças em modo maior é, como se esperaria em qualquer repertório, bastante alta: em média 90 %,^[Destacando-se o *corpus* Samba como o mais diatônico melodicamente, com impressionantes 97 %.] ficando Edu Lobo com a menor taxa (87 %). No modo menor, o diatonicismo também é bastante alto (por volta de 84 %, em média), porém não tanto em relação ao maior, devido às alternâncias de notas das escalas natural, harmônica e melódica. Como em outros atributos, os dados não trazem contribuições no sentido de evidenciar alguma fronteira da MPB, pelo contrário, são consistentes quanto às normas compartilhadas por repertórios tonais, de cunho geral, portanto.
