@@ -369,3 +369,37 @@ DISTRIBUIÇÃO DE RELAÇÕES BINÁRIAS FUNCIONAIS
 ![Distribuição de RBFs (considerando os 40 mais recorrentes) no conjunto MPB (compositores 1 a 10).](../figs/grafico-11n.png){width=50% #fig-graf11n}
 
 ![Comparação das distribuições de RBFs (considerando os 40 mais recorrentes) nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-11.png){width=100% #fig-graf11}
+
+
+DISTRIBUIÇÃO DE RELAÇÕES BINÁRIAS FUNCIONAIS EM ALTO NÍVEL (entre classes funcionais)
+
+![Distribuição de RBFs em alto nível no *corpus* Jazz.](../figs/grafico-12a.png){width=50% #fig-graf12a}
+
+![Distribuição de RBFs em alto nível no *corpus* Choro.](../figs/grafico-12b.png){width=50% #fig-graf12b}
+
+![Distribuição de RBFs em alto nível no *corpus* Samba.](../figs/grafico-12c.png){width=50% #fig-graf12c}
+
+![Distribuição de RBFs em alto nível no *corpus* Jobim.](../figs/grafico-12d.png){width=50% #fig-graf12d}
+
+![Distribuição de RBFs em alto nível no *corpus* Lins.](../figs/grafico-12e.png){width=50% #fig-graf12e}
+
+![Distribuição de RBFs em alto nível no *corpus* Chico.](../figs/grafico-12f.png){width=50% #fig-graf12f}
+
+![Distribuição de RBFs em alto nível no *corpus* Edu.](../figs/grafico-12g.png){width=50% #fig-graf12g}
+
+![Distribuição de RBFs em alto nível no *corpus* Caetano.](../figs/grafico-12h.png){width=50% #fig-graf12h}
+
+![Distribuição de RBFs em alto nível no *corpus* Djavan.](../figs/grafico-12i.png){width=50% #fig-graf12i}
+
+![Distribuição de RBFs em alto nível no *corpus* Bosco.](../figs/grafico-12j.png){width=50% #fig-graf12j}
+
+![Distribuição de RBFs em alto nível no *corpus* Milton.](../figs/grafico-12k.png){width=50% #fig-graf12k}
+
+![Distribuição de RBFs em alto nível no *corpus* Gil.](../figs/grafico-12l.png){width=50% #fig-graf12l}
+
+![Distribuição de RBFs em alto nível no *corpus* Rita.](../figs/grafico-12m.png){width=50% #fig-graf12m}
+
+![Distribuição de RBFs em alto nível no conjunto MPB (compositores 1 a 10).](../figs/grafico-12n.png){width=50% #fig-graf12n}
+
+![Comparação das distribuições de RBFs em alto nível nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-12.png){width=100% #fig-graf12}
+
