@@ -337,3 +337,35 @@ DISTRIBUIÇÃO DAS CATEGORIAS FUNCIONAIS
 ![Distribuição de categorias funcionais (considerando os 40 mais recorrentes) no conjunto MPB (compositores 1 a 10).](../figs/grafico-10n.png){width=50% #fig-graf10n}
 
 ![Comparação das distribuições de categorias funcionais (considerando os 40 mais recorrentes) nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-10.png){width=100% #fig-graf10}
+
+DISTRIBUIÇÃO DE RELAÇÕES BINÁRIAS FUNCIONAIS
+
+![Distribuição de RBFs (considerando os 40 mais recorrentes) no *corpus* Jazz.](../figs/grafico-11a.png){width=50% #fig-graf11a}
+
+![Distribuição de RBFs (considerando os 40 mais recorrentes) no *corpus* Choro.](../figs/grafico-11b.png){width=50% #fig-graf11b}
+
+![Distribuição de RBFs (considerando os 40 mais recorrentes) no *corpus* Samba.](../figs/grafico-11c.png){width=50% #fig-graf11c}
+
+![Distribuição de RBFs (considerando os 40 mais recorrentes) no *corpus* Jobim.](../figs/grafico-11d.png){width=50% #fig-graf11d}
+
+![Distribuição de RBFs (considerando os 40 mais recorrentes) no *corpus* Lins.](../figs/grafico-11e.png){width=50% #fig-graf11e}
+
+![Distribuição de RBFs (considerando os 40 mais recorrentes) no *corpus* Chico.](../figs/grafico-11f.png){width=50% #fig-graf11f}
+
+![Distribuição de RBFs (considerando os 40 mais recorrentes) no *corpus* Edu.](../figs/grafico-11g.png){width=50% #fig-graf11g}
+
+![Distribuição de RBFs (considerando os 40 mais recorrentes) no *corpus* Caetano.](../figs/grafico-11h.png){width=50% #fig-graf11h}
+
+![Distribuição de RBFs (considerando os 40 mais recorrentes) no *corpus* Djavan.](../figs/grafico-11i.png){width=50% #fig-graf11i}
+
+![Distribuição de RBFs (considerando os 40 mais recorrentes) no *corpus* Bosco.](../figs/grafico-11j.png){width=50% #fig-graf11j}
+
+![Distribuição de RBFs (considerando os 40 mais recorrentes) no *corpus* Milton.](../figs/grafico-11k.png){width=50% #fig-graf11k}
+
+![Distribuição de RBFs (considerando os 40 mais recorrentes) no *corpus* Gil.](../figs/grafico-11l.png){width=50% #fig-graf11l}
+
+![Distribuição de RBFs (considerando os 40 mais recorrentes) no *corpus* Rita.](../figs/grafico-11m.png){width=50% #fig-graf11m}
+
+![Distribuição de RBFs (considerando os 40 mais recorrentes) no conjunto MPB (compositores 1 a 10).](../figs/grafico-11n.png){width=50% #fig-graf11n}
+
+![Comparação das distribuições de RBFs (considerando os 40 mais recorrentes) nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-11.png){width=100% #fig-graf11}
