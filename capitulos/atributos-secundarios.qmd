@@ -261,3 +261,11 @@ Há, em termos percentuais, uma convergência geral pelas RBFs em alto nível DI
 ### Discussão
 
 A presença de notas diatônicas em peças em modo maior é, como se esperaria em qualquer repertório, bastante alta: em média 90 %,^[Destacando-se o *corpus* Samba como o mais diatônico melodicamente, com impressionantes 97 %.] ficando Edu Lobo com a menor taxa (87 %). No modo menor, o diatonicismo também é bastante alto (por volta de 84 %, em média), porém não tanto em relação ao maior, devido às alternâncias de notas das escalas natural, harmônica e melódica. Como em outros atributos, os dados não trazem contribuições no sentido de evidenciar alguma fronteira da MPB, pelo contrário, são consistentes quanto às normas compartilhadas por repertórios tonais, de cunho geral, portanto.
+
+2M1b
+
+![Distribuição das inflexões por *corpus* (em percentuais).](../figs/atri-sec-24.png){width=60%}
+
+### Discussão
+
+Observamos também uma certa uniformidade no que se refere à distribuição das inflexões, que correspondem, em média a 1/5 das notas melódicas (confirmando aproximadamente o senso comum analítico). Num olhar mais detalhado, percebemos como o *corpus* Choro é o que apresenta a maior percentagem dessa categoria de nota-função (24.3 %), o que é também uma informação consistente em relação ao que se conhece informalmente obre o comportamento da melodia nesse gênero.^[Dos *corpora* de análise, João Bosco é o que possui maior percentual de inflexões (23.0 %).]
