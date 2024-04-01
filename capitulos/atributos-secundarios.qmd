@@ -292,7 +292,7 @@ A Tabela acima detalha o atributo anterior, mostrando como as distribuições cl
 
 2M2a
 
-![Distribuição das classes de c-letras por *corpus* (em percentuais).](../figs/atri-sec-27.png){width=60%}
+![Distribuição das classes de c-letras por *corpus* (em percentuais).](../figs/atri-sec-27.png){width=30%}
 
 ### Discussão
 
@@ -300,7 +300,7 @@ A tabela acima nos informa que graus conjuntos são gestos preferenciais na cons
 
 2M2b
 
-![Distribuição das c-letras por *corpus* (em percentuais).](../figs/atri-sec-28.png){width=60%}
+![Distribuição das c-letras por *corpus* (em percentuais).](../figs/atri-sec-28.png){width=40%}
 
 ### Discussão
 
