@@ -312,7 +312,7 @@ O refinamento do atributo anterior aponta para a c-letra *p* (grau conjunto desc
 
 2M3a
 
-![Perfil métrico por *corpus* (em percentuais).](../figs/atri-sec-29.png){width=100%}
+![Perfil métrico por *corpus* (em percentuais).](../figs/atri-sec-29.png){width=80%}
 
 ### Discussão
 
@@ -320,7 +320,7 @@ O perfil métrico é um dos mais importantes atributos na evidenciação de uma 
 
 2M3b
 
-![Distribuição das r-letras contramétricas por *corpus* (em percentuais).](../figs/atri-sec-30.png){width=60%}
+![Distribuição das r-letras contramétricas por *corpus* (em percentuais).](../figs/atri-sec-30.png){width=70%}
 
 ### Discussão
 
