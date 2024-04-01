@@ -328,7 +328,7 @@ As relações de afinidade sugeridas no atributo anterior são, de certo modo, c
 
 2M3c
 
-![Distribuição das r-letras tercinas por *corpus* (em percentuais).](../figs/atri-sec-31.png){width=70%}
+![Distribuição das r-letras tercinas por *corpus* (em percentuais).](../figs/atri-sec-31.png){width=60%}
 
 ### Discussão
 
