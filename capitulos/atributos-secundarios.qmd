@@ -336,7 +336,7 @@ Embora menos importante do que os atributos rítmicos anteriores, a distribuiç�
 
 2M3d
 
-![Os 10 mais recorrentes r-dissílabos por *corpus*.](../figs/atri-sec-32.png){width=100%}
+![Os 10 mais recorrentes r-dissílabos por *corpus*.](../figs/atri-sec-32.png){width=90%}
 
 
 2M3e
