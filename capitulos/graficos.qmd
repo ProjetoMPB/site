@@ -409,33 +409,65 @@ Para cada aspecto examinado são apresentados 13 gráficos referentes aos *corpo
 
 #### DISTRIBUIÇÃO DOS *GENERA* DE TIPOS ACORDAIS
 
-![Distribuição dos *genera* de tipos acordais no *corpus* Jazz.](../figs/graficos-13a.png){width=50% #fig-graf13a}
+![Distribuição dos *genera* de tipos acordais no *corpus* Jazz.](../figs/grafico-13a.png){width=50% #fig-graf13a}
 
-![Distribuição dos *genera* de tipos acordais no *corpus* Choro.](../figs/graficos-13b.png){width=50% #fig-graf13b}
+![Distribuição dos *genera* de tipos acordais no *corpus* Choro.](../figs/grafico-13b.png){width=50% #fig-graf13b}
 
-![Distribuição dos *genera* de tipos acordais no *corpus* Samba.](../figs/graficos-13c.png){width=50% #fig-graf13c}
+![Distribuição dos *genera* de tipos acordais no *corpus* Samba.](../figs/grafico-13c.png){width=50% #fig-graf13c}
 
-![Distribuição dos *genera* de tipos acordais no *corpus* Jobim.](../figs/graficos-13d.png){width=50% #fig-graf13d}
+![Distribuição dos *genera* de tipos acordais no *corpus* Jobim.](../figs/grafico-13d.png){width=50% #fig-graf13d}
 
 ![Distribuição dos *genera* de tipos acordais no *corpus* Lins.](../figs/grafico-13e.png){width=50% #fig-graf13e}
 
 ![Distribuição dos *genera* de tipos acordais no *corpus* Chico.](../figs/grafico-13f.png){width=50% #fig-graf13f}
 
-![Distribuição dos *genera* de tipos acordais no *corpus* Edu.](../figs/graficos-13g.png){width=50% #fig-graf13g}
+![Distribuição dos *genera* de tipos acordais no *corpus* Edu.](../figs/grafico-13g.png){width=50% #fig-graf13g}
 
-![Distribuição dos *genera* de tipos acordais no *corpus* Caetano.](../figs/graficos-13h.png){width=50% #fig-graf13h}
+![Distribuição dos *genera* de tipos acordais no *corpus* Caetano.](../figs/grafico-13h.png){width=50% #fig-graf13h}
 
-![Distribuição dos *genera* de tipos acordais no *corpus* Djavan.](../figs/graficos-13i.png){width=50% #fig-graf13i}
+![Distribuição dos *genera* de tipos acordais no *corpus* Djavan.](../figs/grafico-13i.png){width=50% #fig-graf13i}
 
-![Distribuição dos *genera* de tipos acordais no *corpus* Bosco.](../figs/graficos-13j.png){width=50% #fig-graf13j}
+![Distribuição dos *genera* de tipos acordais no *corpus* Bosco.](../figs/grafico-13j.png){width=50% #fig-graf13j}
 
-![Distribuição dos *genera* de tipos acordais no *corpus* Milton.](../figs/graficos-13k.png){width=50% #fig-graf13k}
+![Distribuição dos *genera* de tipos acordais no *corpus* Milton.](../figs/grafico-13k.png){width=50% #fig-graf13k}
 
-![Distribuição dos *genera* de tipos acordais no *corpus* Gil.](../figs/graficos-13l.png){width=50% #fig-graf13l}
+![Distribuição dos *genera* de tipos acordais no *corpus* Gil.](../figs/grafico-13l.png){width=50% #fig-graf13l}
 
-![Distribuição dos *genera* de tipos acordais no *corpus* Rita.](../figs/graficos-13m.png){width=50% #fig-graf13m}
+![Distribuição dos *genera* de tipos acordais no *corpus* Rita.](../figs/grafico-13m.png){width=50% #fig-graf13m}
 
 ![Distribuição dos *genera* de tipos acordais no conjunto MPB (compositores 1 a 10).](../figs/graficos-13n.png){width=50% #fig-graf13n}
 
-
 ![Comparação das distribuições dos *genera* de tipos acordais nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-13.png){width=100% #fig-graf13}
+
+
+#### DISTRIBUIÇÃO DOS MOVIMENTOS DE BAIXOS ENTRE ACORDES CONTÍGUOS
+
+![Distribuição de movimentos de baixos entre acordes contíguos (números se referem a semitons) no *corpus* Jazz.](../figs/grafico-14a.png){width=50% #fig-graf14a}
+
+![Distribuição de movimentos de baixos entre acordes contíguos (números se referem a semitons) no *corpus* Choro.](../figs/grafico-14b.png){width=50% #fig-graf14b}
+
+![Distribuição de movimentos de baixos entre acordes contíguos (números se referem a semitons) no *corpus* Samba.](../figs/grafico-14c.png){width=50% #fig-graf14c}
+
+![Distribuição de movimentos de baixos entre acordes contíguos (números se referem a semitons) no *corpus* Jobim.](../figs/grafico-14d.png){width=50% #fig-graf14d}
+
+![Distribuição de movimentos de baixos entre acordes contíguos (números se referem a semitons) no *corpus* Lins.](../figs/grafico-14e.png){width=50% #fig-graf14e}
+
+![Distribuição de movimentos de baixos entre acordes contíguos (números se referem a semitons) no *corpus* Chico.](../figs/grafico-14f.png){width=50% #fig-graf14f}
+
+![Distribuição de movimentos de baixos entre acordes contíguos (números se referem a semitons) no *corpus* Edu.](../figs/grafico-14g.png){width=50% #fig-graf14g}
+
+![Distribuição de movimentos de baixos entre acordes contíguos (números se referem a semitons) no *corpus* Caetano.](../figs/grafico-14h.png){width=50% #fig-graf14h}
+
+![Distribuição de movimentos de baixos entre acordes contíguos (números se referem a semitons) no *corpus* Djavan.](../figs/grafico-14i.png){width=50% #fig-graf14i}
+
+![Distribuição de movimentos de baixos entre acordes contíguos (números se referem a semitons) no *corpus* Bosco.](../figs/grafico-14j.png){width=50% #fig-graf14j}
+
+![Distribuição de movimentos de baixos entre acordes contíguos (números se referem a semitons) no *corpus* Milton.](../figs/grafico-14k.png){width=50% #fig-graf14k}
+
+![Distribuição de movimentos de baixos entre acordes contíguos (números se referem a semitons) no *corpus* Gil.](../figs/grafico-14l.png){width=50% #fig-graf14l}
+
+![Distribuição de movimentos de baixos entre acordes contíguos (números se referem a semitons) no *corpus* Rita.](../figs/grafico-14m.png){width=50% #fig-graf14m}
+
+![Distribuição de movimentos de baixos entre acordes contíguos (números se referem a semitons) no conjunto MPB (compositores 1 a 10).](../figs/grafico-14n.png){width=50% #fig-graf14n}
+
+![Comparação das distribuições de movimentos de baixos entre acordes contíguos (números se referem a semitons) nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-14.png){width=100% #fig-graf14}
