@@ -49,6 +49,8 @@ div.csl-indent {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../capitulos/cifragem.html" rel="next">
+<link href="../capitulos/atributos-primarios.html" rel="prev">
 <link href="../favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -88,6 +90,17 @@ div.csl-indent {
     "search-label": "Procurar"
   }
 }</script>
+<script type="application/json" class="js-hypothesis-config">
+{
+  "showHighlights": "never"
+}
+</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
+<script>
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    document.body.classList.add('hypothesis-enabled');
+  });
+</script>
 
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -130,7 +143,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Atributos secundários de avaliação</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../capitulos/atributos-primarios.html">Métricas e resultados</a></li><li class="breadcrumb-item"><a href="../capitulos/atributos-secundarios.html">Atributos secundários</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -239,17 +252,23 @@ window.Quarto = {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
  <span class="menu-text">Métricas e resultados</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false" aria-label="Alternar seção">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Alternar seção">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../capitulos/atributos-primarios.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Atributos primários</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/atributos-secundarios.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Atributos secundários</span></a>
   </div>
 </li>
       </ul>
@@ -263,6 +282,24 @@ window.Quarto = {
           </a> 
       </div>
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/cifragem.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cifragem</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/funcoes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Funções</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/tipos-acordais.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Tipos acordais</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../capitulos/listagem-corpora.html" class="sidebar-item-text sidebar-link">
@@ -293,43 +330,16 @@ window.Quarto = {
     <h2 id="toc-title">Nesta página</h2>
    
   <ul>
-  <li><a href="#atributos-secundários-harmônicos" id="toc-atributos-secundários-harmônicos" class="nav-link active" data-scroll-target="#atributos-secundários-harmônicos">ATRIBUTOS SECUNDÁRIOS HARMÔNICOS</a></li>
-  <li><a href="#atributos-secundários-melódicos" id="toc-atributos-secundários-melódicos" class="nav-link" data-scroll-target="#atributos-secundários-melódicos">ATRIBUTOS SECUNDÁRIOS MELÓDICOS</a></li>
-  <li><a href="#resultados---fase-1-compositores-1-a-10" id="toc-resultados---fase-1-compositores-1-a-10" class="nav-link" data-scroll-target="#resultados---fase-1-compositores-1-a-10">RESULTADOS - Fase 1 (compositores 1 a 10)</a></li>
-  <li><a href="#atributos-secundários-harmônicos-1" id="toc-atributos-secundários-harmônicos-1" class="nav-link" data-scroll-target="#atributos-secundários-harmônicos-1">Atributos secundários harmônicos</a>
+  <li><a href="#introdução" id="toc-introdução" class="nav-link active" data-scroll-target="#introdução"><span class="header-section-number">1</span> Introdução</a></li>
+  <li><a href="#descrição-dos-atributos" id="toc-descrição-dos-atributos" class="nav-link" data-scroll-target="#descrição-dos-atributos"><span class="header-section-number">2</span> Descrição dos atributos</a>
   <ul class="collapse">
-  <li><a href="#discussão" id="toc-discussão" class="nav-link" data-scroll-target="#discussão">Discussão</a></li>
-  <li><a href="#discussão-1" id="toc-discussão-1" class="nav-link" data-scroll-target="#discussão-1">Discussão</a></li>
-  <li><a href="#discussão-2" id="toc-discussão-2" class="nav-link" data-scroll-target="#discussão-2">Discussão</a></li>
-  <li><a href="#discussão-3" id="toc-discussão-3" class="nav-link" data-scroll-target="#discussão-3">Discussão</a></li>
-  <li><a href="#discussão-4" id="toc-discussão-4" class="nav-link" data-scroll-target="#discussão-4">Discussão</a></li>
-  <li><a href="#discussão-5" id="toc-discussão-5" class="nav-link" data-scroll-target="#discussão-5">Discussão</a></li>
-  <li><a href="#discussão-6" id="toc-discussão-6" class="nav-link" data-scroll-target="#discussão-6">Discussão</a></li>
-  <li><a href="#discussão-7" id="toc-discussão-7" class="nav-link" data-scroll-target="#discussão-7">Discussão</a></li>
-  <li><a href="#discussão-8" id="toc-discussão-8" class="nav-link" data-scroll-target="#discussão-8">Discussão</a></li>
-  <li><a href="#discussão-9" id="toc-discussão-9" class="nav-link" data-scroll-target="#discussão-9">Discussão</a></li>
-  <li><a href="#discussão-10" id="toc-discussão-10" class="nav-link" data-scroll-target="#discussão-10">Discussão</a></li>
-  <li><a href="#discussão-11" id="toc-discussão-11" class="nav-link" data-scroll-target="#discussão-11">Discussão</a></li>
-  <li><a href="#discussão-12" id="toc-discussão-12" class="nav-link" data-scroll-target="#discussão-12">Discussão</a></li>
-  <li><a href="#discussão-13" id="toc-discussão-13" class="nav-link" data-scroll-target="#discussão-13">Discussão</a></li>
-  <li><a href="#discussão-14" id="toc-discussão-14" class="nav-link" data-scroll-target="#discussão-14">Discussão</a></li>
-  <li><a href="#discussão-15" id="toc-discussão-15" class="nav-link" data-scroll-target="#discussão-15">Discussão</a></li>
-  <li><a href="#discussão-16" id="toc-discussão-16" class="nav-link" data-scroll-target="#discussão-16">Discussão</a></li>
-  <li><a href="#discussão-17" id="toc-discussão-17" class="nav-link" data-scroll-target="#discussão-17">Discussão</a></li>
-  <li><a href="#discussão-18" id="toc-discussão-18" class="nav-link" data-scroll-target="#discussão-18">Discussão</a></li>
-  <li><a href="#discussão-19" id="toc-discussão-19" class="nav-link" data-scroll-target="#discussão-19">Discussão</a></li>
+  <li><a href="#atributos-secundários-harmônicos" id="toc-atributos-secundários-harmônicos" class="nav-link" data-scroll-target="#atributos-secundários-harmônicos"><span class="header-section-number">2.1</span> Atributos secundários harmônicos</a></li>
+  <li><a href="#atributos-secundários-melódicos" id="toc-atributos-secundários-melódicos" class="nav-link" data-scroll-target="#atributos-secundários-melódicos"><span class="header-section-number">2.2</span> Atributos secundários melódicos</a></li>
   </ul></li>
-  <li><a href="#atributos-secundários-melódicos-1" id="toc-atributos-secundários-melódicos-1" class="nav-link" data-scroll-target="#atributos-secundários-melódicos-1">Atributos secundários melódicos</a>
+  <li><a href="#resultados---fase-1-compositores-1-a-10" id="toc-resultados---fase-1-compositores-1-a-10" class="nav-link" data-scroll-target="#resultados---fase-1-compositores-1-a-10"><span class="header-section-number">3</span> Resultados - Fase 1 (compositores 1 a 10)</a>
   <ul class="collapse">
-  <li><a href="#discussão-20" id="toc-discussão-20" class="nav-link" data-scroll-target="#discussão-20">Discussão</a></li>
-  <li><a href="#discussão-21" id="toc-discussão-21" class="nav-link" data-scroll-target="#discussão-21">Discussão</a></li>
-  <li><a href="#discussão-22" id="toc-discussão-22" class="nav-link" data-scroll-target="#discussão-22">Discussão</a></li>
-  <li><a href="#discussão-23" id="toc-discussão-23" class="nav-link" data-scroll-target="#discussão-23">Discussão</a></li>
-  <li><a href="#discussão-24" id="toc-discussão-24" class="nav-link" data-scroll-target="#discussão-24">Discussão</a></li>
-  <li><a href="#discussão-25" id="toc-discussão-25" class="nav-link" data-scroll-target="#discussão-25">Discussão</a></li>
-  <li><a href="#discussão-26" id="toc-discussão-26" class="nav-link" data-scroll-target="#discussão-26">Discussão</a></li>
-  <li><a href="#discussão-27" id="toc-discussão-27" class="nav-link" data-scroll-target="#discussão-27">Discussão</a></li>
-  <li><a href="#discussão-28" id="toc-discussão-28" class="nav-link" data-scroll-target="#discussão-28">Discussão</a></li>
+  <li><a href="#atributos-secundários-harmônicos-1" id="toc-atributos-secundários-harmônicos-1" class="nav-link" data-scroll-target="#atributos-secundários-harmônicos-1"><span class="header-section-number">3.1</span> Atributos secundários harmônicos</a></li>
+  <li><a href="#atributos-secundários-melódicos-1" id="toc-atributos-secundários-melódicos-1" class="nav-link" data-scroll-target="#atributos-secundários-melódicos-1"><span class="header-section-number">3.2</span> Atributos secundários melódicos</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/capitulos/atributos-secundarios.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/capitulos/atributos-secundarios.qmd" class="toc-action"><i class="bi empty"></i>Ver o código fonte</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
@@ -337,7 +347,7 @@ window.Quarto = {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../capitulos/atributos-primarios.html">Métricas e resultados</a></li><li class="breadcrumb-item"><a href="../capitulos/atributos-secundarios.html">Atributos secundários</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Atributos secundários de avaliação</h1>
 </div>
@@ -356,9 +366,14 @@ window.Quarto = {
 </header>
 
 
+<section id="introdução" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="introdução"><span class="header-section-number">1</span> Introdução</h2>
 <p>Os atributos secundários são essencialmente revisões (ou detalhamentos) de alguns atributos primários, de maneira a permitir a evidenciação de características peculiares de um(a) determinado(a) compositor(a) (ou de um pequeno grupo de compositores) em relação a um contexto estilístico mais amplo. Exposto de outro modo, enquanto atributos primários tendem a agrupar <em>corpora</em> (e os estilos composicionais a eles associados) formando superconjuntos, os secundários agem principalmente na segregação desses subconjuntos, tendendo a promover fronteiras estilísticas entre compositores. Além dessa diferença, ao contrário do que acontece com os primários, os atributos secundários geralmente são vinculados a hipóteses, a partir de conhecimentos informais pré-existentes.</p>
-<section id="atributos-secundários-harmônicos" class="level3">
-<h3 class="anchored" data-anchor-id="atributos-secundários-harmônicos">ATRIBUTOS SECUNDÁRIOS HARMÔNICOS</h3>
+</section>
+<section id="descrição-dos-atributos" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="descrição-dos-atributos"><span class="header-section-number">2</span> Descrição dos atributos</h2>
+<section id="atributos-secundários-harmônicos" class="level3" data-number="2.1">
+<h3 data-number="2.1" class="anchored" data-anchor-id="atributos-secundários-harmônicos"><span class="header-section-number">2.1</span> Atributos secundários harmônicos</h3>
 <p><strong>2H1</strong> – nível das relações tonais (contém três aspectos):</p>
 <ul>
 <li><p>2H1a – informa a quantidade de relações binárias tonais (RBTs) distintas em cada <em>corpus</em>. A princípio, não é associado objetivamente a uma hipótese, tendo em vista que uma diversidade de RBTs não implica necessariamente maior complexidade. Os próximos atributos atuam nesse sentido, na busca de qualificar os tipos de relações e apresentar hipóteses mais consistentes.</p></li>
@@ -386,8 +401,8 @@ window.Quarto = {
 </ul>
 <hr>
 </section>
-<section id="atributos-secundários-melódicos" class="level3">
-<h3 class="anchored" data-anchor-id="atributos-secundários-melódicos">ATRIBUTOS SECUNDÁRIOS MELÓDICOS</h3>
+<section id="atributos-secundários-melódicos" class="level3" data-number="2.2">
+<h3 data-number="2.2" class="anchored" data-anchor-id="atributos-secundários-melódicos"><span class="header-section-number">2.2</span> Atributos secundários melódicos</h3>
 <p><strong>2M1</strong> – nível das notas-funções (contém quatro aspectos):</p>
 <ul>
 <li><p>2M1a – informa a distribuição das notas diatônicas em cada <em>corpus</em>, considerando os modos maior e menor. Não há hipóteses previamente associadas a este atributo.</p></li>
@@ -412,12 +427,12 @@ window.Quarto = {
 </ul>
 <hr>
 </section>
-<section id="resultados---fase-1-compositores-1-a-10" class="level2">
-<h2 class="anchored" data-anchor-id="resultados---fase-1-compositores-1-a-10">RESULTADOS - Fase 1 (compositores 1 a 10)</h2>
-<p>Ao contrário do que é feito com os atributos primários, os secundários são apresentados em tabelas individuais e discutidos em seguida.</p>
 </section>
-<section id="atributos-secundários-harmônicos-1" class="level2">
-<h2 class="anchored" data-anchor-id="atributos-secundários-harmônicos-1">Atributos secundários harmônicos</h2>
+<section id="resultados---fase-1-compositores-1-a-10" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="resultados---fase-1-compositores-1-a-10"><span class="header-section-number">3</span> Resultados - Fase 1 (compositores 1 a 10)</h2>
+<p>Ao contrário do que é feito com os atributos primários, os secundários são apresentados em tabelas individuais e discutidos em seguida.</p>
+<section id="atributos-secundários-harmônicos-1" class="level3" data-number="3.1">
+<h3 data-number="3.1" class="anchored" data-anchor-id="atributos-secundários-harmônicos-1"><span class="header-section-number">3.1</span> Atributos secundários harmônicos</h3>
 <p><strong>2H1</strong> (RELAÇÕES TONAIS)</p>
 <p>2H1a</p>
 <div class="quarto-figure quarto-figure-center">
@@ -426,8 +441,8 @@ window.Quarto = {
 <figcaption>Total de relações binárias tonais distintas por <em>corpus</em> (percentuais entre parênteses).</figcaption>
 </figure>
 </div>
-<section id="discussão" class="level3">
-<h3 class="anchored" data-anchor-id="discussão">Discussão</h3>
+<section id="discussão" class="level4" data-number="3.1.1">
+<h4 data-number="3.1.1" class="anchored" data-anchor-id="discussão"><span class="header-section-number">3.1.1</span> Discussão</h4>
 <p>Observa-se na tabela acima uma certa tendência de que os <em>corpora</em> MPB apresentem uma relativa alta diversidade de RBTs, em sintonia com o que acontece no <em>corpus</em> Jazz, o que sugere uma possível influência, ainda que vaga, no sentido de uma maior exuberância de soluções modulatórias. Nesse sentido, chama especialmente atenção a baixa quantidade de relações distintas no Samba, o que talvez reflita o fato de que modulações não sejam tão comuns como em outros gêneros e, consequentemente, a estabilidade tonal possa ser uma característica distinguidora.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> Essa conjectura abre uma via de pesquisa para estudos futuros.</p>
 <p>2H1b</p>
 <div class="quarto-figure quarto-figure-center">
@@ -437,8 +452,8 @@ window.Quarto = {
 </figure>
 </div>
 </section>
-<section id="discussão-1" class="level3">
-<h3 class="anchored" data-anchor-id="discussão-1">Discussão</h3>
+<section id="discussão-1" class="level4" data-number="3.1.2">
+<h4 data-number="3.1.2" class="anchored" data-anchor-id="discussão-1"><span class="header-section-number">3.1.2</span> Discussão</h4>
 <p>Nota-se aqui também um possível definidor de fronteira entre a Prática Comum da MPB e o superconjunto representado pelos gêneros Samba e Choro, pois parece ser um marcador estilístico desse subconjunto uma maior presença de RBTs não notáveis. Entretanto, os repertórios de análise podem ser segmentados em dois grupos bem definidos: um envolvendo uma relativa baixa frequência de RBTs notáveis, em torno de 1/5 ou 1/4 dos casos (Jobim, Ivan Lins, Edu Lobo e Caetano Veloso) e o outro no qual tais relações abrangem de 40 % (Djavan) a 63 % (João Bosco), incluindo valores mais próximos à metade das ocorrências (Chico Buarque, Milton Nascimento, Gilberto Gil e Rita Lee).</p>
 <p>2H1c</p>
 <div class="quarto-figure quarto-figure-center">
@@ -448,8 +463,8 @@ window.Quarto = {
 </figure>
 </div>
 </section>
-<section id="discussão-2" class="level3">
-<h3 class="anchored" data-anchor-id="discussão-2">Discussão</h3>
+<section id="discussão-2" class="level4" data-number="3.1.3">
+<h4 data-number="3.1.3" class="anchored" data-anchor-id="discussão-2"><span class="header-section-number">3.1.3</span> Discussão</h4>
 <p>Como sugerem os dados, este atributo refina o anterior, evidenciando a distribuição das classes de RBTs. A respeito às classes de relações predominantes em cada repertório, podemos considerar quatro grupos: (1) MED, nos <em>corpora</em> Jazz, Jobim, Ivan Lins, Edu Lobo (acima de 40 % do total) e, um pouco menos, Djavan e João Bosco; (2) REL, nos <em>corpora</em> Samba e, bem mais abaixo, Chico Buarque, Gilberto Gil e Rita Lee; (3) TOM: nos <em>corpora</em> Caetano Veloso e Milton Nascimento;<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> (4) (D/SD): apenas no <em>corpus</em> Choro.</p>
 <hr>
 <p><strong>2H2</strong> (TIPOS ACORDAIS)</p>
@@ -461,9 +476,9 @@ window.Quarto = {
 </figure>
 </div>
 </section>
-<section id="discussão-3" class="level3">
-<h3 class="anchored" data-anchor-id="discussão-3">Discussão</h3>
-<p>O número de tipos acordais distintos por <em>corpus</em> consiste em um dos mais fortes marcadores estilísticos harmônicos – mais uma vez, reforçando a hipótese da influência jazzística. Todos os repertórios MPB apresentam-se em patamares altos nesse atributo (com especial destaque para os <em>{corpora</em> Jobim e Edu Lobo com, respectivamente, 75 e 73 TAs distintos, de um total de 161 possíveis).<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p>
+<section id="discussão-3" class="level4" data-number="3.1.4">
+<h4 data-number="3.1.4" class="anchored" data-anchor-id="discussão-3"><span class="header-section-number">3.1.4</span> Discussão</h4>
+<p>O número de tipos acordais distintos por <em>corpus</em> consiste em um dos mais fortes marcadores estilísticos harmônicos – mais uma vez, reforçando a hipótese da influência jazzística. Todos os repertórios MPB apresentam-se em patamares altos nesse atributo (com especial destaque para os <em>corpora</em> Jobim e Edu Lobo com, respectivamente, 75 e 73 TAs distintos, de um total de 161 possíveis).<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p>
 <p>2H2b</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -472,8 +487,8 @@ window.Quarto = {
 </figure>
 </div>
 </section>
-<section id="discussão-4" class="level3">
-<h3 class="anchored" data-anchor-id="discussão-4">Discussão</h3>
+<section id="discussão-4" class="level4" data-number="3.1.5">
+<h4 data-number="3.1.5" class="anchored" data-anchor-id="discussão-4"><span class="header-section-number">3.1.5</span> Discussão</h4>
 <p>Um primeiro dado interessante na avaliação deste atributo é a convergência de quase todos os <em>corpora</em> em relação à proeminência do <em>genus</em> Y<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> (por volta de 40 % do total, em média), o que reflete indubitavelmente o compartilhamento de propriedades sintáticas tonais e, mais especificamente, a presença de preparações dominantes – primárias e secundárias – nesses repertórios.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> A partir disso, observamos como os <em>corpora</em> analíticos (juntamente com o <em>corpus</em> Jazz e com as notáveis exceções dos Caetano Veloso, Milton Nascimento, Gilberto Gil e Rita Lee, nos quais a qualidade V tem forte presença) formam um grupo coeso em oposição aos controles Samba e Choro, no que diz respeito à maior presença dos <em>genera</em> Z/z em oposição aos triádicos V/v, numa razão média, aproximada, de 8:1 (e o inverso se observa nos dois repertórios). Esses resultados, mais uma vez, contribuem para confirmar a hipótese da existência de uma relação de influência Jazz → MPB no domínio da harmonia, que se revela aqui a uma forte preferência por tipos acordais tetrádicos.</p>
 <p>2H2c</p>
 <div class="quarto-figure quarto-figure-center">
@@ -483,8 +498,8 @@ window.Quarto = {
 </figure>
 </div>
 </section>
-<section id="discussão-5" class="level3">
-<h3 class="anchored" data-anchor-id="discussão-5">Discussão</h3>
+<section id="discussão-5" class="level4" data-number="3.1.6">
+<h4 data-number="3.1.6" class="anchored" data-anchor-id="discussão-5"><span class="header-section-number">3.1.6</span> Discussão</h4>
 <p>A presença maciça de variantes de tipos acordais é também um marcador estilístico do subconjunto MPB. No entanto, os dados permitem estabelecer três grupos de situações: (a) os repertórios Choro e Samba são bastante convergentes neste atributo, ao apresentar um número quase irrelevante de TAs variantes; (b) ainda que em número maior, as variantes no <em>corpus</em> Jazz são superadas pelos protoacordes em uma razão 2:1; (c) nos <em>corpora</em> MPB observa-se, em média, uma paridade aproximada entre protoacordes e variantes (destacando-se o caso especial do <em>corpus</em> Ivan Lins, com as variantes representando quase 3/4 do total de TAs) e Edu Lobo (quase 2/3).<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> Os resultados contribuem para reforçar a hipótese sobre a influência harmônica do Jazz, porém, neste caso, sugerem uma intensificação na complexidade acordal (em relação ao modelo jazzístico) como uma possível característica da Prática Comum da MPB, o que pode ser detalhado no exame de outros atributos.</p>
 <p>2H2d</p>
 <div class="quarto-figure quarto-figure-center">
@@ -494,8 +509,8 @@ window.Quarto = {
 </figure>
 </div>
 </section>
-<section id="discussão-6" class="level3">
-<h3 class="anchored" data-anchor-id="discussão-6">Discussão</h3>
+<section id="discussão-6" class="level4" data-number="3.1.7">
+<h4 data-number="3.1.7" class="anchored" data-anchor-id="discussão-6"><span class="header-section-number">3.1.7</span> Discussão</h4>
 <p>O detalhamento do atributo anterior traz, embora em magnitudes diferentes, uma convergência dos três repertórios de controle para o protoacorde Y0.<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> Já na maior parte dos repertórios de análise, a proeminência recai sobre variantes do mesmo <em>genus</em> (que se apresentam caracteristicamente em grande diversidade), o que pode se constituir um interessante e sutil marcador estilístico, a depender de futuros estudos para sua confirmação. Interessantemente, o <em>genus</em> mais recorrente de Caetano Veloso (V) não apresenta variantes, apenas protoacordes, o que parece ser uma faceta estilística pessoal significativa.</p>
 <hr>
 <p><strong>2H3</strong> (FUNÇÕES)</p>
@@ -507,8 +522,8 @@ window.Quarto = {
 </figure>
 </div>
 </section>
-<section id="discussão-7" class="level3">
-<h3 class="anchored" data-anchor-id="discussão-7">Discussão</h3>
+<section id="discussão-7" class="level4" data-number="3.1.8">
+<h4 data-number="3.1.8" class="anchored" data-anchor-id="discussão-7"><span class="header-section-number">3.1.8</span> Discussão</h4>
 <p>Neste atributo os <em>corpora</em> MPB mais uma vez se mostram em sintonia com o repertório jazzístico, apresentando uma alta diversidade de categorias funcionais (com um especial destaque ao <em>corpus</em> Jobim, abarcando cerca de 3/4 do total possível preconizado pelo modelo teórico adotado (ver <a href="../capitulos/modelos-teoricos.html">capítulo sobre os modelos teóricos</a>).<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a> Novamente, os repertórios de controle Samba e Choro apresentam diversidade semelhante, em níveis sensivelmente mais baixos em relação ao outro grupo, reforçando a separação dos dois conjuntos também no aspecto do vocabulário das categorias funcionais.</p>
 <p>2H3b</p>
 <div class="quarto-figure quarto-figure-center">
@@ -518,8 +533,8 @@ window.Quarto = {
 </figure>
 </div>
 </section>
-<section id="discussão-8" class="level3">
-<h3 class="anchored" data-anchor-id="discussão-8">Discussão</h3>
+<section id="discussão-8" class="level4" data-number="3.1.9">
+<h4 data-number="3.1.9" class="anchored" data-anchor-id="discussão-8"><span class="header-section-number">3.1.9</span> Discussão</h4>
 <p>Em relação a classes (ou subclasses significativas) de categorias funcionais, observa-se inicialmente, como seria de se esperar, uma preponderância absoluta da classe DIA (com destaque especial do <em>corpus</em> Samba), o que apenas é reflexo de uma característica geral compartilhada por repertórios de música tonal. A especificidade funcional da MPB (em conjunção com a do <em>corpus</em> Jazz, como em outros atributos harmônicos) se evidencia na distribuição de outras classes, especialmente SubV e EC1, que apresentam relativamente maior peso do que nos <em>corpora</em> de controle Samba e Choro. No contexto dos repertórios de análise, o caso do <em>corpus</em> Milton Nascimento deve ser observado à parte, já que os dados associados a este atributo revelam inequivocamente as profundas diferenças na construção harmônica em comparação aos demais <em>corpora</em>. É, em especial, marcante os sensivelmente baixos valores das subclasses que compõem a classe funcional de acordes preparadores (DS, IIs, SubV, DIM), o que é fortemente sintomático de um tratamento eminentemente modal (veja especialmente a discrepância entre os percentuais envolvidos).</p>
 <p>2H3c</p>
 <div class="quarto-figure quarto-figure-center">
@@ -529,8 +544,8 @@ window.Quarto = {
 </figure>
 </div>
 </section>
-<section id="discussão-9" class="level3">
-<h3 class="anchored" data-anchor-id="discussão-9">Discussão</h3>
+<section id="discussão-9" class="level4" data-number="3.1.10">
+<h4 data-number="3.1.10" class="anchored" data-anchor-id="discussão-9"><span class="header-section-number">3.1.10</span> Discussão</h4>
 <p>Nada de muito surpreendente surge nos dados apresentados na tabela acima: quase todos os <em>corpora</em> convergem para o I grau, como a categoria funcional mais recorrente da classe DIA. A única exceção – no <em>corpus</em> Chico Buarque – o V é o mais comum,<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a> o que não deixa de ser uma informação coerente com o que se observaria em qualquer repertório essencialmente tonal. Num nível mais apurado de observação, torna-se mais uma vez sintomática a distinção entre o <em>corpus</em> Milton Nascimento e os demais, devido à magnitude da presença do I grau (cerca de 10 pontos percentuais a mais em relação ao valor médio demais repertórios) e também considerando que supera V quase pelo triplo (em contraste com o máximo de duas vezes, nos demais <em>corpora</em>). Tal proeminência reduz consequentemente a importância dos demais graus diatônicos nesse repertório, contribuindo mais uma vez para enfatizar seu caráter essencialmente modal (através da diminuição da diversidade diatônica).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -539,8 +554,8 @@ window.Quarto = {
 </figure>
 </div>
 </section>
-<section id="discussão-10" class="level3">
-<h3 class="anchored" data-anchor-id="discussão-10">Discussão</h3>
+<section id="discussão-10" class="level4" data-number="3.1.11">
+<h4 data-number="3.1.11" class="anchored" data-anchor-id="discussão-10"><span class="header-section-number">3.1.11</span> Discussão</h4>
 <p>Neste caso, há uma divisão das preferências em três grupos: pelo V/V (Choro, Jobim, Edu Lobo, Milton Nascimento e Rita Lee),<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a> pelo II cadencial (Jazz, Ivan Lins, Chico Buarque, Caetano Veloso, Djavan e Gilberto Gil) e V/II (Samba e João Bosco). Nenhuma conclusão sólida referente a estilo pode ser extraída desses resultados isoladamente.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -549,8 +564,8 @@ window.Quarto = {
 </figure>
 </div>
 </section>
-<section id="discussão-11" class="level3">
-<h3 class="anchored" data-anchor-id="discussão-11">Discussão</h3>
+<section id="discussão-11" class="level4" data-number="3.1.12">
+<h4 data-number="3.1.12" class="anchored" data-anchor-id="discussão-11"><span class="header-section-number">3.1.12</span> Discussão</h4>
 <p>Os dados revelam que acordes da classe SUBV, embora menos comuns do que dominantes secundários, estão presentes em todos os repertórios (em menor frequência nos <em>corpora</em> Choro e Milton Nascimento – que mais uma vez destoa de seus pares em um atributo harmônico), com maior proeminência daqueles cujos alvos são o I (Jazz, Jobim e Edu Lobo) e o V graus (Choro, Samba, Ivan Lins, Chico Buarque, Caetano Veloso, Djavan, João Bosco, Gilberto Gil e Rita Lee). Tal situação não permite conclusões consistentes em relação a características estilísticas.<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -559,8 +574,8 @@ window.Quarto = {
 </figure>
 </div>
 </section>
-<section id="discussão-12" class="level3">
-<h3 class="anchored" data-anchor-id="discussão-12">Discussão</h3>
+<section id="discussão-12" class="level4" data-number="3.1.13">
+<h4 data-number="3.1.13" class="anchored" data-anchor-id="discussão-12"><span class="header-section-number">3.1.13</span> Discussão</h4>
 <p>Em relação a este atributo, não há, como acima, evidências estilísticas a destacar. Contudo, é digno de nota o fato de que apenas os <em>corpora</em> Jobim, Chico Buarque e Djavan apresentam ocorrências de todos as seis categorias de diminutos-dominantes.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -569,8 +584,8 @@ window.Quarto = {
 </figure>
 </div>
 </section>
-<section id="discussão-13" class="level3">
-<h3 class="anchored" data-anchor-id="discussão-13">Discussão</h3>
+<section id="discussão-13" class="level4" data-number="3.1.14">
+<h4 data-number="3.1.14" class="anchored" data-anchor-id="discussão-13"><span class="header-section-number">3.1.14</span> Discussão</h4>
 <p>Com a exceção do <em>corpus</em> Milton Nascimento, todos os repertórios apresentam ocorrências do diminuto-ponte bIII° (ainda que nos <em>corpora</em> João Bosco, Rita Lee, Gilberto Gil e, especialmente, Ivan Lins isso se dê em um nível bastante baixo), o que faz dessa categoria uma característica funcional compartilhada como opção de acesso ao II grau.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -579,8 +594,8 @@ window.Quarto = {
 </figure>
 </div>
 </section>
-<section id="discussão-14" class="level3">
-<h3 class="anchored" data-anchor-id="discussão-14">Discussão</h3>
+<section id="discussão-14" class="level4" data-number="3.1.15">
+<h4 data-number="3.1.15" class="anchored" data-anchor-id="discussão-14"><span class="header-section-number">3.1.15</span> Discussão</h4>
 <p>Como esperado, os diminutos-bordadura mostram-se como a mais raros da subclasse DIM. Em relação às categorias componentes, como se observa na acima, todos os <em>corpora</em> (com a exceção de Ivan Lins e Milton Nascimento, nos quais diminutos-bordadura são inexistentes) apresentam relativamente maior ocorrência do I°. Apenas no repertório Jazz são registradas presenças das três categorias.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -589,8 +604,8 @@ window.Quarto = {
 </figure>
 </div>
 </section>
-<section id="discussão-15" class="level3">
-<h3 class="anchored" data-anchor-id="discussão-15">Discussão</h3>
+<section id="discussão-15" class="level4" data-number="3.1.16">
+<h4 data-number="3.1.16" class="anchored" data-anchor-id="discussão-15"><span class="header-section-number">3.1.16</span> Discussão</h4>
 <p>A relativa presença de empréstimos é certamente um forte marcador estilístico da Prática Comum da MPB, a partir de uma suposta herança jazzística. O quadro apresentado acima deixa, por si só, tal fato evidente. A distribuição das categorias funcionais dessa classe em quase todos os repertórios tende a convergir para o IVm7 como a mais proeminente, com três exceções: (1) nos casos do <em>corpora</em> Ivan Lins e Jazz, bVII7 é a categoria mais comum, porém diverge pouco em termos gerais de IVm7, já que ambas pertencem à mesma subclasse, “Subdominante menor” (sd); (2) no <em>corpus</em> Caetano Veloso, a preferência é pelo bVIM7, uma categoria, como as anteriores integrante do grupo “Subdominante menor” (o que torna as opções, na prática, equivalentes); (3) Por outro lado, nos <em>corpora</em> Edu Lobo e Gilberto Gil Vm7 é a categoria mais recorrente, talvez refletindo a presença de lógicas modais nos repertórios dos compositores,<a href="#fn12" class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a> ou seja, podendo representar uma característica estilística pessoal mais significativa; (4) Atribuímos a uma razão semelhante a recorrência da categoria bVIIM7 como a mais comum (e bem acima das demais) no <em>corpus</em> Milton Nascimento.<a href="#fn13" class="footnote-ref" id="fnref13" role="doc-noteref"><sup>13</sup></a></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -599,8 +614,8 @@ window.Quarto = {
 </figure>
 </div>
 </section>
-<section id="discussão-16" class="level3">
-<h3 class="anchored" data-anchor-id="discussão-16">Discussão</h3>
+<section id="discussão-16" class="level4" data-number="3.1.17">
+<h4 data-number="3.1.17" class="anchored" data-anchor-id="discussão-16"><span class="header-section-number">3.1.17</span> Discussão</h4>
 <p>Apesar de sua relativa raridade, os empréstimos de segunda ordem contribuem ainda com mais intensidade para a marcação das fronteiras da MPB em relação ao superconjunto no qual se insere. Como mostram os dados, o <em>corpus</em> Jobim é o que mais se destaca nesse atributo, sendo o único no qual todas as categorias mapeadas estão presentes. Observe-se também a proeminência em todos os repertórios da categoria IV7.<a href="#fn14" class="footnote-ref" id="fnref14" role="doc-noteref"><sup>14</sup></a></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -621,8 +636,8 @@ window.Quarto = {
 </figure>
 </div>
 </section>
-<section id="discussão-17" class="level3">
-<h3 class="anchored" data-anchor-id="discussão-17">Discussão</h3>
+<section id="discussão-17" class="level4" data-number="3.1.18">
+<h4 data-number="3.1.18" class="anchored" data-anchor-id="discussão-17"><span class="header-section-number">3.1.18</span> Discussão</h4>
 <p>As distribuições referentes à classe NPS e às subclasses (da classe aPRE) aNP e aSubV, mostradas nas três tabelas anteriores, são tão rarefeitas – em todos os repertórios – que não constituem uma base consistente para qualquer discussão significativa sobre estilo e, portanto, não serão aqui comentadas.</p>
 <hr>
 <p>2H3d</p>
@@ -633,8 +648,8 @@ window.Quarto = {
 </figure>
 </div>
 </section>
-<section id="discussão-18" class="level3">
-<h3 class="anchored" data-anchor-id="discussão-18">Discussão</h3>
+<section id="discussão-18" class="level4" data-number="3.1.19">
+<h4 data-number="3.1.19" class="anchored" data-anchor-id="discussão-18"><span class="header-section-number">3.1.19</span> Discussão</h4>
 <p>O número de RBFs distintas varia consideravelmente – de 178 (Samba) a 438 (Jobim). Como em outros atributos, percebemos no subconjunto MPB uma subdivisão em dois blocos: um deles (incluindo aqui o <em>corpus</em> Jazz), composto pela maioria dos repertórios, mantém, em média, 310 RBFs distintas. O segundo bloco é ocupado pelos <em>corpora</em> Caetano Veloso e, especialmente, Rita Lee, com números de relações consideravelmente menores, respectivamente, 222 e 205 (enquanto, em comparação, o Choro congrega 285 RBFs). Mais uma vez, distinções internas entre os compositores MPB na esfera harmônica se evidenciam, o que suscita avaliações complementares futuras.</p>
 <p>2H3e</p>
 <div class="quarto-figure quarto-figure-center">
@@ -644,14 +659,14 @@ window.Quarto = {
 </figure>
 </div>
 </section>
-<section id="discussão-19" class="level3">
-<h3 class="anchored" data-anchor-id="discussão-19">Discussão</h3>
+<section id="discussão-19" class="level4" data-number="3.1.20">
+<h4 data-number="3.1.20" class="anchored" data-anchor-id="discussão-19"><span class="header-section-number">3.1.20</span> Discussão</h4>
 <p>Há, em termos percentuais, uma convergência geral pelas RBFs em alto nível DIA|DIA,<a href="#fn15" class="footnote-ref" id="fnref15" role="doc-noteref"><sup>15</sup></a> excetuando-se os <em>corpora</em> Jobim e Chico Buarque, nos quais a predominância recai sobre, respectivamente, DIA|CR, CR|CR.<a href="#fn16" class="footnote-ref" id="fnref16" role="doc-noteref"><sup>16</sup></a></p>
 <hr>
 </section>
 </section>
-<section id="atributos-secundários-melódicos-1" class="level2">
-<h2 class="anchored" data-anchor-id="atributos-secundários-melódicos-1">Atributos secundários melódicos</h2>
+<section id="atributos-secundários-melódicos-1" class="level3" data-number="3.2">
+<h3 data-number="3.2" class="anchored" data-anchor-id="atributos-secundários-melódicos-1"><span class="header-section-number">3.2</span> Atributos secundários melódicos</h3>
 <p><strong>2M1</strong> (NOTAS-FUNÇÕES)</p>
 <p>2M1a</p>
 <div class="quarto-figure quarto-figure-center">
@@ -660,8 +675,8 @@ window.Quarto = {
 <figcaption>Distribuição das notas diatônicas por <em>corpus</em>, considerando modos maior e menor (em percentuais).</figcaption>
 </figure>
 </div>
-<section id="discussão-20" class="level3">
-<h3 class="anchored" data-anchor-id="discussão-20">Discussão</h3>
+<section id="discussão-20" class="level4" data-number="3.2.1">
+<h4 data-number="3.2.1" class="anchored" data-anchor-id="discussão-20"><span class="header-section-number">3.2.1</span> Discussão</h4>
 <p>A presença de notas diatônicas em peças em modo maior é, como se esperaria em qualquer repertório, bastante alta: em média 90 %,<a href="#fn17" class="footnote-ref" id="fnref17" role="doc-noteref"><sup>17</sup></a> ficando Edu Lobo com a menor taxa (87 %). No modo menor, o diatonicismo também é bastante alto (por volta de 84 %, em média), porém não tanto em relação ao maior, devido às alternâncias de notas das escalas natural, harmônica e melódica. Como em outros atributos, os dados não trazem contribuições no sentido de evidenciar alguma fronteira da MPB, pelo contrário, são consistentes quanto às normas compartilhadas por repertórios tonais, de cunho geral, portanto.</p>
 <p>2M1b</p>
 <div class="quarto-figure quarto-figure-center">
@@ -671,8 +686,8 @@ window.Quarto = {
 </figure>
 </div>
 </section>
-<section id="discussão-21" class="level3">
-<h3 class="anchored" data-anchor-id="discussão-21">Discussão</h3>
+<section id="discussão-21" class="level4" data-number="3.2.2">
+<h4 data-number="3.2.2" class="anchored" data-anchor-id="discussão-21"><span class="header-section-number">3.2.2</span> Discussão</h4>
 <p>Observamos também uma certa uniformidade no que se refere à distribuição das inflexões, que correspondem, em média a 1/5 das notas melódicas (confirmando aproximadamente o senso comum analítico). Num olhar mais detalhado, percebemos como o <em>corpus</em> Choro é o que apresenta a maior percentagem dessa categoria de nota-função (24.3 %), o que é também uma informação consistente em relação ao que se conhece informalmente obre o comportamento da melodia nesse gênero.<a href="#fn18" class="footnote-ref" id="fnref18" role="doc-noteref"><sup>18</sup></a></p>
 <p>2M1c</p>
 <div class="quarto-figure quarto-figure-center">
@@ -682,8 +697,8 @@ window.Quarto = {
 </figure>
 </div>
 </section>
-<section id="discussão-22" class="level3">
-<h3 class="anchored" data-anchor-id="discussão-22">Discussão</h3>
+<section id="discussão-22" class="level4" data-number="3.2.3">
+<h4 data-number="3.2.3" class="anchored" data-anchor-id="discussão-22"><span class="header-section-number">3.2.3</span> Discussão</h4>
 <p>Ao contrário dos anteriores, este atributo permite delinear mais claramente as fronteiras da MPB em relação aos repertórios de controle Samba e Choro, já que a superclasse das tensões mostram uma considerável presença nos <em>corpora</em> analíticos (em congruência com o repertório jazzístico). No entanto, os <em>corpora</em> Tom Jobim (especialmente), Ivan Lins, Edu Lobo e Djavan apresentam um percentual mais elevado de tensões do que os demais repertórios, o que sugere que possam integrar um subgrupo especial, com relações melodia/harmonia mais complexas.<a href="#fn19" class="footnote-ref" id="fnref19" role="doc-noteref"><sup>19</sup></a></p>
 <p>2M1d</p>
 <div class="quarto-figure quarto-figure-center">
@@ -693,8 +708,8 @@ window.Quarto = {
 </figure>
 </div>
 </section>
-<section id="discussão-23" class="level3">
-<h3 class="anchored" data-anchor-id="discussão-23">Discussão</h3>
+<section id="discussão-23" class="level4" data-number="3.2.4">
+<h4 data-number="3.2.4" class="anchored" data-anchor-id="discussão-23"><span class="header-section-number">3.2.4</span> Discussão</h4>
 <p>A Tabela acima detalha o atributo anterior, mostrando como as distribuições classes de notas-estruturais tornam ainda mais claras as diferenças entre a MPB (mais uma vez, associada ao <em>corpus</em> Jazz) e o superconjunto Choro-Samba. Considerando as classes em separado: (a) tríades – o Choro se destaca pelo alta percentagem (64 %) nesta classe, seguido pelo Samba, em contraste aos demais repertórios;<a href="#fn20" class="footnote-ref" id="fnref20" role="doc-noteref"><sup>20</sup></a> (b) tétrades – neste caso, percebe-se uma relativa homogeneidade de todos os repertórios (com o Choro se distanciando um pouco da média), o que provavelmente deve ser reputado à frequência de TAs Y, como já apresentado na avaliação dos atributos secundários harmônicos; (c) tensões simples – nesta classe de notas-estruturais, a distância em relação ao superconjunto aumenta, o que se evidencia como um marcador estilístico importante (é interessante perceber a forte similaridade das distribuições dos <em>corpora</em> Jazz e Ivan Lins, os com maior porcentagem da classe (acima de 16 % do total);<a href="#fn21" class="footnote-ref" id="fnref21" role="doc-noteref"><sup>21</sup></a> (d) tensões alteradas – ao contrário da classe das tensões simples, a das tensões alteradas é menos distinguidora, apresentando distribuições relativamente próximas de todos os repertórios (destacando as altas percentagens dos <em>corpora</em> Jobim e Edu Lobo).<a href="#fn22" class="footnote-ref" id="fnref22" role="doc-noteref"><sup>22</sup></a></p>
 <hr>
 <p><strong>2M2</strong> (ALTURAS)</p>
@@ -706,8 +721,8 @@ window.Quarto = {
 </figure>
 </div>
 </section>
-<section id="discussão-24" class="level3">
-<h3 class="anchored" data-anchor-id="discussão-24">Discussão</h3>
+<section id="discussão-24" class="level4" data-number="3.2.5">
+<h4 data-number="3.2.5" class="anchored" data-anchor-id="discussão-24"><span class="header-section-number">3.2.5</span> Discussão</h4>
 <p>A tabela acima nos informa que graus conjuntos são gestos preferenciais na construção melódica (em média, correspondendo à cerca de metade dos movimentos intervalares),<a href="#fn23" class="footnote-ref" id="fnref23" role="doc-noteref"><sup>23</sup></a> independentemente do repertório considerado (embora com diferentes flutuações), o que não deixa de ser uma informação relevante, embora não diretamente associada aos presentes objetivos. Por outro lado, saltos são bem menos comuns em todos os repertórios (com um destaque especial na música de Edu Lobo, com cerca de 10 % dos movimentos melódicos).</p>
 <p>2M2b</p>
 <div class="quarto-figure quarto-figure-center">
@@ -717,8 +732,8 @@ window.Quarto = {
 </figure>
 </div>
 </section>
-<section id="discussão-25" class="level3">
-<h3 class="anchored" data-anchor-id="discussão-25">Discussão</h3>
+<section id="discussão-25" class="level4" data-number="3.2.6">
+<h4 data-number="3.2.6" class="anchored" data-anchor-id="discussão-25"><span class="header-section-number">3.2.6</span> Discussão</h4>
 <p>O refinamento do atributo anterior aponta para a c-letra <em>p</em> (grau conjunto descendente) como a mais recorrente em quase todos os repertórios.<a href="#fn24" class="footnote-ref" id="fnref24" role="doc-noteref"><sup>24</sup></a> Outras observações secundárias (porém não conclusivas) podem ser acrescentadas: (1) a repetição de nota (u) é significativamente forte (acima de 20 %) nos <em>corpora</em> Samba, Ivan Lins, Chico Buarque, João Bosco e Gilberto Gil (e, claro, em Rita Lee e Milton Nascimento, repertório no qual alcança quase 40 % das ocorrências); (2) gestos arpejados ascendentes (A) se apresentam em uma razão aproximada 2/1 no Choro em relação à maior parte dos demais repertórios (a distância é menor com respeito ao <em>corpus</em> Djavan e quase nula em Rita Lee). O movimento em arpejo descendente (a), embora menos expressivo, é também mais comum no gênero do que nos demais repertórios. Ambas as informações são consistentes com o que conhecemos informalmente sobre a construção melódica em choros, quanto à característica presença de preenchimentos arpejados; (3) saltos são muito mais comuns no Jazz do que nos demais <em>corpora</em>, especialmente os ascendentes. Chama a atenção a relativa raridade de saltos descendentes nos <em>corpora</em> Jobim (1.4 %), Caetano Veloso (1.3 %), Gilberto Gil (0.9 %) e, principalmente, em Milton Nascimento e Rita Lee (cerca de 0.6 %), o que os torna ainda mais notáveis quando aparecem, geralmente com função expressiva.<a href="#fn25" class="footnote-ref" id="fnref25" role="doc-noteref"><sup>25</sup></a></p>
 <hr>
 <p><strong>2M3</strong> (RITMO)</p>
@@ -730,8 +745,8 @@ window.Quarto = {
 </figure>
 </div>
 </section>
-<section id="discussão-26" class="level3">
-<h3 class="anchored" data-anchor-id="discussão-26">Discussão</h3>
+<section id="discussão-26" class="level4" data-number="3.2.7">
+<h4 data-number="3.2.7" class="anchored" data-anchor-id="discussão-26"><span class="header-section-number">3.2.7</span> Discussão</h4>
 <p>O perfil métrico é um dos mais importantes atributos na evidenciação de uma “linhagem” musical brasileira na MPB, pois trata da essência de sua rítmica. Diversos aspectos merecem ser comentados: (1) Como era esperado, quase todos os repertórios têm a posição 1 como o ponto de maior recorrência, com as notáveis exceções de Rita Lee (ponto 7 como o mais comum) e do Samba (cuja posição predominante é 10, a essência da sincopação desse gênero);<a href="#fn26" class="footnote-ref" id="fnref26" role="doc-noteref"><sup>26</sup></a> (2) Nesse sentido, os <em>corpora</em> Choro, Jobim, Chico Buarque, Djavan, João Bosco e Gilberto Gil são os que poderiam ser considerados mais próximos do Samba, dadas suas distribuições nessa posição (mais do que 1/5 de ocorrências). O <em>corpus</em> Jazz (também como esperado) é o que apresenta a mais baixa percentagem na posição 10, quase desprezível (são também especialmente baixos os percentuais de Milton Nascimento e Rita Lee em relação a essa posição micrométrica); (3) Por outro lado, a posição 7 (que divide o tempo na metade) apresenta alta concentração de ataques nos <em>corpora</em> Jazz, Milton Nascimento (os dois muito próximos e bem acima dos demais) e, especialmente, Rita Lee (o mais alto valor de todos, 48.3 %); (4) As posições que contribuem para dividir o tempo em três partes iguais (5 e 9) apresentam alta distribuição em Milton Nascimento e Ivan Lins (em média, respectivamente, 12 e 11 %), bem acima do que nos demais repertórios.<a href="#fn27" class="footnote-ref" id="fnref27" role="doc-noteref"><sup>27</sup></a> Tais posições são raramente ocupadas no Samba (menos de 1 %) e no Choro (em média, 1.5 %).</p>
 <p>2M3b</p>
 <div class="quarto-figure quarto-figure-center">
@@ -741,8 +756,8 @@ window.Quarto = {
 </figure>
 </div>
 </section>
-<section id="discussão-27" class="level3">
-<h3 class="anchored" data-anchor-id="discussão-27">Discussão</h3>
+<section id="discussão-27" class="level4" data-number="3.2.8">
+<h4 data-number="3.2.8" class="anchored" data-anchor-id="discussão-27"><span class="header-section-number">3.2.8</span> Discussão</h4>
 <p>As relações de afinidade sugeridas no atributo anterior são, de certo modo, confirmadas na tabela acima, com o detalhamento das r-letras contramétricas.<a href="#fn28" class="footnote-ref" id="fnref28" role="doc-noteref"><sup>28</sup></a> Nos <em>corpora</em> nos quais a proeminência recai sobre a contramétrica r-letra <em>e</em>, podemos especular se Ivan Lins e Edu Lobo apresentariam uma influência jazzística no aspecto da organização melódico-rítmica. Por outro lado, Milton Nascimento também apresenta uma forte recorrência dessa r-letra, porém, certamente, não devido apenas a uma influência jazzística (que existe, de fato), mas, certamente, também de outras possíveis fontes (como as músicas folclórica, música sacra, ou mesmo canções dos Beatles). No caso de Caetano Veloso e Rita Lee (especialmente), podemos talvez atribuir os resultados obtidos à ligação que suas músicas apresentam com os gêneros do rock e do <em>rhythm and blues</em>. Já os <em>corpora</em> Jobim, Chico Buarque, João Bosco (e, um pouco menos, Djavan e Gilberto Gil) sugerem claramente uma maior aproximação ao Samba, denotada pela proeminência da r-letra <em>n</em>, o que reforça, em linhas gerais, nossas intuições sobre esses repertórios. Nesse quadro, o corpus} Choro se posiciona à parte, com alta presença da r-letra , uma das células características do gênero. De um modo geral, um emprego pronunciado de r-letras contramétricas (em média, por volta de 1/3 do total das configurações) denota um alto grau de sincopação rítmica.</p>
 <p>2M3c</p>
 <div class="quarto-figure quarto-figure-center">
@@ -752,8 +767,8 @@ window.Quarto = {
 </figure>
 </div>
 </section>
-<section id="discussão-28" class="level3">
-<h3 class="anchored" data-anchor-id="discussão-28">Discussão</h3>
+<section id="discussão-28" class="level4" data-number="3.2.9">
+<h4 data-number="3.2.9" class="anchored" data-anchor-id="discussão-28"><span class="header-section-number">3.2.9</span> Discussão</h4>
 <p>Embora menos importante do que os atributos rítmicos anteriores, a distribuições das r-letras tercinas contribui indiretamente para evidenciar particularidades estilísticas individuais. Inicialmente, considerando os percentuais dessas letras em relação ao Alfabeto-r, observamos que os <em>corpora</em> Ivan Lins, Tom Jobim e João Bosco se destacam como os de maior proeminência nesse quesito, seguidos – um pouco mais afastados – por Edu Lobo, Caetano Veloso e Milton Nascimento, deixando os demais bem mais distantes. No que se refere ao detalhamento das r-letras, é interessante perceber que, enquanto em Ivan Lins (e, um pouco menos, João Bosco, Gilberto Gil e Rita Lee) as r-letras <em>d</em> e <em>k</em> se destacam (são associadas às fórmulas de quiálteras de semínimas, de uso acentuado em várias canções do compositor), as preferências de Jobim recaem mais pela r-letra <em>s</em>, o grupo de quiálteras de colcheias, enquanto em Milton a presença de <em>o</em> (grupo de quiálteras de colcheias com pausa na primeira articulação) é mais expressiva.</p>
 <p>2M3d</p>
 <div class="quarto-figure quarto-figure-center">
@@ -772,6 +787,7 @@ window.Quarto = {
 
 
 
+</section>
 </section>
 </section>
 
@@ -1372,6 +1388,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../capitulos/atributos-primarios.html" class="pagination-link" aria-label="Atributos primários">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Atributos primários</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../capitulos/cifragem.html" class="pagination-link" aria-label="Cifragem">
+        <span class="nav-page-text">Cifragem</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

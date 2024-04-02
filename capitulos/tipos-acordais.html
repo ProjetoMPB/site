@@ -29,6 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../capitulos/listagem-corpora.html" rel="next">
+<link href="../capitulos/funcoes.html" rel="prev">
 <link href="../favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -68,6 +70,17 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Procurar"
   }
 }</script>
+<script type="application/json" class="js-hypothesis-config">
+{
+  "showHighlights": "never"
+}
+</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
+<script>
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    document.body.classList.add('hypothesis-enabled');
+  });
+</script>
 
 
 </head>
@@ -81,7 +94,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Léxico de tipos acordais (TAs)</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../capitulos/cifragem.html">Material suplementar</a></li><li class="breadcrumb-item"><a href="../capitulos/tipos-acordais.html">Tipos acordais</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -203,17 +216,41 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Atributos primários</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/atributos-secundarios.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Atributos secundários</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
  <span class="menu-text">Material suplementar</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false" aria-label="Alternar seção">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true" aria-label="Alternar seção">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/cifragem.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cifragem</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/funcoes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Funções</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/tipos-acordais.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Tipos acordais</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../capitulos/listagem-corpora.html" class="sidebar-item-text sidebar-link">
@@ -244,21 +281,21 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Nesta página</h2>
    
   <ul>
-  <li><a href="#genera-maiores" id="toc-genera-maiores" class="nav-link active" data-scroll-target="#genera-maiores"><em>Genera</em> maiores</a>
+  <li><a href="#genera-maiores" id="toc-genera-maiores" class="nav-link active" data-scroll-target="#genera-maiores"><span class="header-section-number">1</span> <em>Genera</em> maiores</a>
   <ul class="collapse">
-  <li><a href="#genus-z-maior-com-sétima-maior" id="toc-genus-z-maior-com-sétima-maior" class="nav-link" data-scroll-target="#genus-z-maior-com-sétima-maior"><em>Genus</em> Z (“Maior com sétima maior”)</a></li>
-  <li><a href="#genus-y-maior-com-sétima-menor-ou-dominante" id="toc-genus-y-maior-com-sétima-menor-ou-dominante" class="nav-link" data-scroll-target="#genus-y-maior-com-sétima-menor-ou-dominante"><em>Genus</em> Y (“Maior com sétima menor” ou “Dominante”)</a></li>
-  <li><a href="#genus-x-dominante-com-quinta-diminuta-ou-sexta-francesa" id="toc-genus-x-dominante-com-quinta-diminuta-ou-sexta-francesa" class="nav-link" data-scroll-target="#genus-x-dominante-com-quinta-diminuta-ou-sexta-francesa"><em>Genus</em> X (“Dominante com quinta diminuta” ou “Sexta francesa”)</a></li>
-  <li><a href="#genus-w-dominante-com-quinta-aumentada" id="toc-genus-w-dominante-com-quinta-aumentada" class="nav-link" data-scroll-target="#genus-w-dominante-com-quinta-aumentada"><em>Genus</em> W (“Dominante com quinta aumentada”)</a></li>
-  <li><a href="#genus-v-tríade-maior" id="toc-genus-v-tríade-maior" class="nav-link" data-scroll-target="#genus-v-tríade-maior"><em>Genus</em> V (“Tríade maior”)</a></li>
+  <li><a href="#genus-z-maior-com-sétima-maior" id="toc-genus-z-maior-com-sétima-maior" class="nav-link" data-scroll-target="#genus-z-maior-com-sétima-maior"><span class="header-section-number">1.1</span> <em>Genus</em> Z (“Maior com sétima maior”)</a></li>
+  <li><a href="#genus-y-maior-com-sétima-menor-ou-dominante" id="toc-genus-y-maior-com-sétima-menor-ou-dominante" class="nav-link" data-scroll-target="#genus-y-maior-com-sétima-menor-ou-dominante"><span class="header-section-number">1.2</span> <em>Genus</em> Y (“Maior com sétima menor” ou “Dominante”)</a></li>
+  <li><a href="#genus-x-dominante-com-quinta-diminuta-ou-sexta-francesa" id="toc-genus-x-dominante-com-quinta-diminuta-ou-sexta-francesa" class="nav-link" data-scroll-target="#genus-x-dominante-com-quinta-diminuta-ou-sexta-francesa"><span class="header-section-number">1.3</span> <em>Genus</em> X (“Dominante com quinta diminuta” ou “Sexta francesa”)</a></li>
+  <li><a href="#genus-w-dominante-com-quinta-aumentada" id="toc-genus-w-dominante-com-quinta-aumentada" class="nav-link" data-scroll-target="#genus-w-dominante-com-quinta-aumentada"><span class="header-section-number">1.4</span> <em>Genus</em> W (“Dominante com quinta aumentada”)</a></li>
+  <li><a href="#genus-v-tríade-maior" id="toc-genus-v-tríade-maior" class="nav-link" data-scroll-target="#genus-v-tríade-maior"><span class="header-section-number">1.5</span> <em>Genus</em> V (“Tríade maior”)</a></li>
   </ul></li>
-  <li><a href="#genera-menores" id="toc-genera-menores" class="nav-link" data-scroll-target="#genera-menores"><em>Genera</em> menores</a>
+  <li><a href="#genera-menores" id="toc-genera-menores" class="nav-link" data-scroll-target="#genera-menores"><span class="header-section-number">2</span> <em>Genera</em> menores</a>
   <ul class="collapse">
-  <li><a href="#genus-z-menor-com-sétima-menor" id="toc-genus-z-menor-com-sétima-menor" class="nav-link" data-scroll-target="#genus-z-menor-com-sétima-menor"><em>Genus</em> z (“Menor com sétima menor”)</a></li>
-  <li><a href="#genus-y-meio-diminuto" id="toc-genus-y-meio-diminuto" class="nav-link" data-scroll-target="#genus-y-meio-diminuto"><em>Genus</em> y (“Meio diminuto”)</a></li>
-  <li><a href="#genus-x-sétima-diminuta" id="toc-genus-x-sétima-diminuta" class="nav-link" data-scroll-target="#genus-x-sétima-diminuta"><em>Genus</em> x (“Sétima diminuta”)</a></li>
-  <li><a href="#genus-w-menor-com-sétima-maior" id="toc-genus-w-menor-com-sétima-maior" class="nav-link" data-scroll-target="#genus-w-menor-com-sétima-maior"><em>Genus</em> w (“Menor com sétima maior”)</a></li>
-  <li><a href="#genus-v-tríade-menor" id="toc-genus-v-tríade-menor" class="nav-link" data-scroll-target="#genus-v-tríade-menor"><em>Genus</em> v (“Tríade menor”)</a></li>
+  <li><a href="#genus-z-menor-com-sétima-menor" id="toc-genus-z-menor-com-sétima-menor" class="nav-link" data-scroll-target="#genus-z-menor-com-sétima-menor"><span class="header-section-number">2.1</span> <em>Genus</em> z (“Menor com sétima menor”)</a></li>
+  <li><a href="#genus-y-meio-diminuto" id="toc-genus-y-meio-diminuto" class="nav-link" data-scroll-target="#genus-y-meio-diminuto"><span class="header-section-number">2.2</span> <em>Genus</em> y (“Meio diminuto”)</a></li>
+  <li><a href="#genus-x-sétima-diminuta" id="toc-genus-x-sétima-diminuta" class="nav-link" data-scroll-target="#genus-x-sétima-diminuta"><span class="header-section-number">2.3</span> <em>Genus</em> x (“Sétima diminuta”)</a></li>
+  <li><a href="#genus-w-menor-com-sétima-maior" id="toc-genus-w-menor-com-sétima-maior" class="nav-link" data-scroll-target="#genus-w-menor-com-sétima-maior"><span class="header-section-number">2.4</span> <em>Genus</em> w (“Menor com sétima maior”)</a></li>
+  <li><a href="#genus-v-tríade-menor" id="toc-genus-v-tríade-menor" class="nav-link" data-scroll-target="#genus-v-tríade-menor"><span class="header-section-number">2.5</span> <em>Genus</em> v (“Tríade menor”)</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/capitulos/tipos-acordais.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/capitulos/tipos-acordais.qmd" class="toc-action"><i class="bi empty"></i>Ver o código fonte</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
@@ -266,7 +303,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../capitulos/cifragem.html">Material suplementar</a></li><li class="breadcrumb-item"><a href="../capitulos/tipos-acordais.html">Tipos acordais</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Léxico de tipos acordais (TAs)</h1>
 </div>
@@ -286,10 +323,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>Neste capítulo são detalhados os 10 <em>genera</em> de tipos acordais considerados no projeto (<a href="../capitulos/modelos-teoricos.html">ver capítulo Modelos Teóricos</a>), num total de 161 qualidades distintas.</p>
-<section id="genera-maiores" class="level2">
-<h2 class="anchored" data-anchor-id="genera-maiores"><em>Genera</em> maiores</h2>
-<section id="genus-z-maior-com-sétima-maior" class="level3">
-<h3 class="anchored" data-anchor-id="genus-z-maior-com-sétima-maior"><em>Genus</em> Z (“Maior com sétima maior”)</h3>
+<section id="genera-maiores" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="genera-maiores"><span class="header-section-number">1</span> <em>Genera</em> maiores</h2>
+<section id="genus-z-maior-com-sétima-maior" class="level3" data-number="1.1">
+<h3 data-number="1.1" class="anchored" data-anchor-id="genus-z-maior-com-sétima-maior"><span class="header-section-number">1.1</span> <em>Genus</em> Z (“Maior com sétima maior”)</h3>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../figs/lex-ta-01.png" class="img-fluid figure-img" style="width:30.0%"></p>
@@ -297,8 +334,8 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 </section>
-<section id="genus-y-maior-com-sétima-menor-ou-dominante" class="level3">
-<h3 class="anchored" data-anchor-id="genus-y-maior-com-sétima-menor-ou-dominante"><em>Genus</em> Y (“Maior com sétima menor” ou “Dominante”)</h3>
+<section id="genus-y-maior-com-sétima-menor-ou-dominante" class="level3" data-number="1.2">
+<h3 data-number="1.2" class="anchored" data-anchor-id="genus-y-maior-com-sétima-menor-ou-dominante"><span class="header-section-number">1.2</span> <em>Genus</em> Y (“Maior com sétima menor” ou “Dominante”)</h3>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../figs/lex-ta-02.png" class="img-fluid figure-img" style="width:30.0%"></p>
@@ -306,8 +343,8 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 </section>
-<section id="genus-x-dominante-com-quinta-diminuta-ou-sexta-francesa" class="level3">
-<h3 class="anchored" data-anchor-id="genus-x-dominante-com-quinta-diminuta-ou-sexta-francesa"><em>Genus</em> X (“Dominante com quinta diminuta” ou “Sexta francesa”)</h3>
+<section id="genus-x-dominante-com-quinta-diminuta-ou-sexta-francesa" class="level3" data-number="1.3">
+<h3 data-number="1.3" class="anchored" data-anchor-id="genus-x-dominante-com-quinta-diminuta-ou-sexta-francesa"><span class="header-section-number">1.3</span> <em>Genus</em> X (“Dominante com quinta diminuta” ou “Sexta francesa”)</h3>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../figs/lex-ta-03.png" class="img-fluid figure-img" style="width:30.0%"></p>
@@ -315,8 +352,8 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 </section>
-<section id="genus-w-dominante-com-quinta-aumentada" class="level3">
-<h3 class="anchored" data-anchor-id="genus-w-dominante-com-quinta-aumentada"><em>Genus</em> W (“Dominante com quinta aumentada”)</h3>
+<section id="genus-w-dominante-com-quinta-aumentada" class="level3" data-number="1.4">
+<h3 data-number="1.4" class="anchored" data-anchor-id="genus-w-dominante-com-quinta-aumentada"><span class="header-section-number">1.4</span> <em>Genus</em> W (“Dominante com quinta aumentada”)</h3>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../figs/lex-ta-04.png" class="img-fluid figure-img" style="width:30.0%"></p>
@@ -324,8 +361,8 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 </section>
-<section id="genus-v-tríade-maior" class="level3">
-<h3 class="anchored" data-anchor-id="genus-v-tríade-maior"><em>Genus</em> V (“Tríade maior”)</h3>
+<section id="genus-v-tríade-maior" class="level3" data-number="1.5">
+<h3 data-number="1.5" class="anchored" data-anchor-id="genus-v-tríade-maior"><span class="header-section-number">1.5</span> <em>Genus</em> V (“Tríade maior”)</h3>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../figs/lex-ta-05.png" class="img-fluid figure-img" style="width:30.0%"></p>
@@ -335,10 +372,10 @@ ul.task-list li input[type="checkbox"] {
 <hr>
 </section>
 </section>
-<section id="genera-menores" class="level2">
-<h2 class="anchored" data-anchor-id="genera-menores"><em>Genera</em> menores</h2>
-<section id="genus-z-menor-com-sétima-menor" class="level3">
-<h3 class="anchored" data-anchor-id="genus-z-menor-com-sétima-menor"><em>Genus</em> z (“Menor com sétima menor”)</h3>
+<section id="genera-menores" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="genera-menores"><span class="header-section-number">2</span> <em>Genera</em> menores</h2>
+<section id="genus-z-menor-com-sétima-menor" class="level3" data-number="2.1">
+<h3 data-number="2.1" class="anchored" data-anchor-id="genus-z-menor-com-sétima-menor"><span class="header-section-number">2.1</span> <em>Genus</em> z (“Menor com sétima menor”)</h3>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../figs/lex-ta-06.png" class="img-fluid figure-img" style="width:30.0%"></p>
@@ -346,8 +383,8 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 </section>
-<section id="genus-y-meio-diminuto" class="level3">
-<h3 class="anchored" data-anchor-id="genus-y-meio-diminuto"><em>Genus</em> y (“Meio diminuto”)</h3>
+<section id="genus-y-meio-diminuto" class="level3" data-number="2.2">
+<h3 data-number="2.2" class="anchored" data-anchor-id="genus-y-meio-diminuto"><span class="header-section-number">2.2</span> <em>Genus</em> y (“Meio diminuto”)</h3>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../figs/lex-ta-07.png" class="img-fluid figure-img" style="width:30.0%"></p>
@@ -355,8 +392,8 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 </section>
-<section id="genus-x-sétima-diminuta" class="level3">
-<h3 class="anchored" data-anchor-id="genus-x-sétima-diminuta"><em>Genus</em> x (“Sétima diminuta”)</h3>
+<section id="genus-x-sétima-diminuta" class="level3" data-number="2.3">
+<h3 data-number="2.3" class="anchored" data-anchor-id="genus-x-sétima-diminuta"><span class="header-section-number">2.3</span> <em>Genus</em> x (“Sétima diminuta”)</h3>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../figs/lex-ta-08.png" class="img-fluid figure-img" style="width:30.0%"></p>
@@ -364,8 +401,8 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 </section>
-<section id="genus-w-menor-com-sétima-maior" class="level3">
-<h3 class="anchored" data-anchor-id="genus-w-menor-com-sétima-maior"><em>Genus</em> w (“Menor com sétima maior”)</h3>
+<section id="genus-w-menor-com-sétima-maior" class="level3" data-number="2.4">
+<h3 data-number="2.4" class="anchored" data-anchor-id="genus-w-menor-com-sétima-maior"><span class="header-section-number">2.4</span> <em>Genus</em> w (“Menor com sétima maior”)</h3>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../figs/lex-ta-09.png" class="img-fluid figure-img" style="width:30.0%"></p>
@@ -373,8 +410,8 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 </section>
-<section id="genus-v-tríade-menor" class="level3">
-<h3 class="anchored" data-anchor-id="genus-v-tríade-menor"><em>Genus</em> v (“Tríade menor”)</h3>
+<section id="genus-v-tríade-menor" class="level3" data-number="2.5">
+<h3 data-number="2.5" class="anchored" data-anchor-id="genus-v-tríade-menor"><span class="header-section-number">2.5</span> <em>Genus</em> v (“Tríade menor”)</h3>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../figs/lex-ta-10.png" class="img-fluid figure-img" style="width:30.0%"></p>
@@ -940,6 +977,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../capitulos/funcoes.html" class="pagination-link" aria-label="Funções">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Funções</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../capitulos/listagem-corpora.html" class="pagination-link" aria-label="Listagem dos *corpora*">
+        <span class="nav-page-text">Listagem dos <em>corpora</em></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

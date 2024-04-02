@@ -69,6 +69,17 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Procurar"
   }
 }</script>
+<script type="application/json" class="js-hypothesis-config">
+{
+  "showHighlights": "never"
+}
+</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
+<script>
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    document.body.classList.add('hypothesis-enabled');
+  });
+</script>
 
 
 </head>
@@ -204,6 +215,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Atributos primários</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./capitulos/atributos-secundarios.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Atributos secundários</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -215,6 +232,24 @@ ul.task-list li input[type="checkbox"] {
           </a> 
       </div>
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./capitulos/cifragem.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cifragem</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./capitulos/funcoes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Funções</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./capitulos/tipos-acordais.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Tipos acordais</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./capitulos/listagem-corpora.html" class="sidebar-item-text sidebar-link">
@@ -245,10 +280,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Nesta página</h2>
    
   <ul>
-  <li><a href="#coordenadores" id="toc-coordenadores" class="nav-link active" data-scroll-target="#coordenadores">Coordenadores</a></li>
-  <li><a href="#equipe" id="toc-equipe" class="nav-link" data-scroll-target="#equipe">Equipe</a></li>
-  <li><a href="#apoio" id="toc-apoio" class="nav-link" data-scroll-target="#apoio">Apoio</a></li>
-  <li><a href="#visitantes" id="toc-visitantes" class="nav-link" data-scroll-target="#visitantes">Visitantes</a></li>
+  <li><a href="#coordenadores" id="toc-coordenadores" class="nav-link active" data-scroll-target="#coordenadores"><span class="header-section-number">1</span> Coordenadores</a></li>
+  <li><a href="#equipe" id="toc-equipe" class="nav-link" data-scroll-target="#equipe"><span class="header-section-number">2</span> Equipe</a></li>
+  <li><a href="#apoio" id="toc-apoio" class="nav-link" data-scroll-target="#apoio"><span class="header-section-number">3</span> Apoio</a></li>
+  <li><a href="#visitantes" id="toc-visitantes" class="nav-link" data-scroll-target="#visitantes"><span class="header-section-number">4</span> Visitantes</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/index.qmd" class="toc-action"><i class="bi empty"></i>Ver o código fonte</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
     </div>
@@ -275,6 +310,23 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+ATUALIZAÇÃO EM 01/04/2024
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Lançamento de seis novos capítulos!</li>
+<li>Possibilidade de comentar e fazer anotações privadas nas páginas.</li>
+</ul>
+<p>Para mais detalhes, veja as duas postagens mais recentes no <a href="./blog.html">blog do projeto</a>.</p>
+</div>
+</div>
 <p>O Projeto MPB, vinculado ao <a href="https://musmat.org/">Grupo de Pesquisa MusMat</a>, tem como propósito determinar de modo sistemático os contornos do contexto estético-musical que informalmente é denominado Música Popular Brasileira, mais conhecido como MPB. De modo mais específico, a abordagem aqui adotada é multidisciplinar, através da criação de <em>corpora</em> de composições representativas da estética em questão seguida de uma minuciosa análise estatística e musical.</p>
 <p>A estrutura deste projeto foi pensada como uma sequência de artigos (ou capítulos) relativamente autônomos a serem publicados gradual e periodicamente, de modo a tornar mais palatável aos leitores a considerável quantidade de informação produzida ao longo da pesquisa. Em linhas gerais, são os seguintes os tópicos a serem publicados:</p>
 <ul>
@@ -295,7 +347,7 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Métricas e resultados</strong>
 <ul>
 <li><a href="./capitulos/atributos-primarios.html">Atributos primários</a></li>
-<li>Atributos secundários</li>
+<li><a href="./capitulos/atributos-secundarios.html">Atributos secundários</a></li>
 <li>Atributos terciários</li>
 <li>Gráficos comparativos (fase 1)</li>
 </ul></li>
@@ -305,36 +357,38 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 <li><strong>Materiais suplementares</strong>
 <ul>
+<li><a href="./capitulos/cifragem.html">Cifragem</a></li>
+<li><a href="./capitulos/funcoes.html">Funções</a></li>
+<li><a href="./capitulos/tipos-acordais.html">Tipos acordais</a></li>
 <li><a href="./capitulos/listagem-corpora.html">Listagem dos <em>corpora</em></a></li>
 <li><a href="./capitulos/producao-bibliografica.html">Produção bibliográfica</a></li>
 <li><a href="./capitulos/glossario.html">Glossário</a></li>
 <li>Critérios de cifragem alfanumérica</li>
-<li>Léxico de tipos acordais<br>
-</li>
+<li>Léxico de tipos acordais</li>
 <li>Taxonomia funcional</li>
 </ul></li>
 </ul>
 <p>Antes de começar a leitura, veja <a href="./capitulos/logo.html">aqui</a> o nosso logotipo em tamanho maior! Aproveite e faça o teste para ver quantos compositores(as) você consegue identificar.</p>
-<section id="coordenadores" class="level2">
-<h2 class="anchored" data-anchor-id="coordenadores">Coordenadores</h2>
+<section id="coordenadores" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="coordenadores"><span class="header-section-number">1</span> Coordenadores</h2>
 <p><strong>Carlos Almada</strong> teve o privilégio de estar próximo ao epicentro temporal do maremoto da MPB, em meados dos anos 1970, justamente quando cursava o Ginasial (como na época se chamava o atual Ensino Médio), o que consistiu em um fator decisivo para sua formação musical e intelectual, numa relação afetiva profunda que se mantém intensa até hoje. Após graduar-se em Engenharia Mecânica, Almada direcionou sua vida profissional para o campo da música popular, tonando-se flautista, arranjador e compositor, nesta ordem, com atuação especialmente em samba e choro. Bem mais tarde, obteve graus de Mestre e Doutor em Música pela UNIRIO, a partir de uma pesquisa analítico-teórica sobre a <em>Primeira Sinfonia de Câmara</em> de Schoenberg, ingressando assim na vida acadêmica. Posteriormente, tornou-se professor da Escola de Música da UFRJ, onde leciona nos níveis de graduação e pós-graduação. Seus interesses de pesquisa atuais são a variação musical e os estudos sistemáticos em música popular, um campo de estudos, aliás, que nunca abandonou. É autor dos livros <em>Arranjo</em> (Editora da Unicamp, 2001), <em>A estrutura do choro</em> (Da Fonseca, 2006), <em>Harmonia funcional</em> (Editora da Unicamp, 2009), <em>Contraponto em música popular</em> (Editora da UFRJ, 2013), <em>Nas fronteiras da tonalidade</em> (Prisma, 2016), <em>A harmonia de Jobim</em> (Editora da Unicamp, 2022), <em>A melodia de Jobim</em> (Editora da Unicamp, 2023) e <em>Musical Variation: Toward a Transformational Perspective</em> (Springer, 2023). Almada é membro fundador da Associação Brasileira de Teoria e Análise Musical (TeMa), líder do grupo de pesquisa MusMat e editor-chefe do periódico <em>MusMat: Brazilian Journal of Music and Mathematics</em>. Recentemente foi contemplado com uma Bolsa de Produtividade PQ-2, outorgada pelo Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq), referente ao projeto intitulado “Um mapeamento sistemático da estruturação melódico-harmônica na música popular brasileira no período entre 1950 e 1990”, ao qual se vincula a presente pesquisa.</p>
 <p><strong>Hugo Carvalho</strong> é paulistano de nascença (1989), e mora no Rio de Janeiro desde 2004, já tendo se tornado carioca de coração. Aprendeu a tocar violão clássico aos 8 anos de idade, quando morava com sua família no Paraguai, e ganhou assim um grande apreço pela música latinoamericana, especialmente Agustín Barrios, Antonio Lauro e Heitor Villa-Lobos. Contudo, sua paixão pela MPB só veio anos depois, mais ou menos após terminar o seu doutorado (2017), tendo sido apresentado a músicas incríveis pelo seu orientador e pela sua companheira. No ano de 2020 foi convidado pelo professor e compositor Liduino Pitombeira para ingressar no Grupo de Pesquisa MusMat, onde tem a oportunidade de trabalhar e conviver cotidianamente com pessoas maravilhosas. Quanto à sua trajetória acadêmica, Hugo é formado em Matemática Aplicada (UFRJ, 2011), tem Mestrado em Matemática Aplicada (UFRJ, 2013, dissertação em Português: <a href="http://objdig.ufrj.br/11/dissert/795029.pdf">Uma introdução às singularidades em Relatividade Geral</a>) e tem Doutorado em Engenharia Elétrica, na área de Processamento de Sinais, tendo sido orientado por Luiz Wagner Pereira Biscainho e Flávio Rainho Ávila (UFRJ, 2017, tese em Inglês - <a href="http://www.pee.ufrj.br/index.php/pt/producao-academica/teses-de-doutorado/2017-1/2016033153-bayes-meets-bach-applications-of-bayesian-statistics-to-audio-restoration/file">Bayes Meets Bach: Applications of Bayesian Statistics to Audio Restoration</a>). No momento, Hugo é professor adjunto no Departamento de Métodos Estatísticos da UFRJ, membro do Grupo de Pesquisa MusMat e membro do corpo editorial do periódico <em>MusMat: Brazilian Journal of Music and Mathematics</em>. Em seu tempo livre, Hugo faz cerveja caseira com sua amada companheira, toca violão clássico, estuda composição e faz pinturas em aquarela. Hugo é também um grande entusiasta de ficção científica (especialmente Star Trek) e do <em>legendarium</em> de J. R. R. Tolkien.</p>
 </section>
-<section id="equipe" class="level2">
-<h2 class="anchored" data-anchor-id="equipe">Equipe</h2>
+<section id="equipe" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="equipe"><span class="header-section-number">2</span> Equipe</h2>
 <p><strong>Felipe Defensor Martins</strong> é um musicólogo que busca nutrir em igual medida seu interesse pela filosofia, programação e música. Felipe se formou em Administração pela FEA-USP, onde teve seu primeiro contato com programação. Músico tardio, fez o Curso Técnico em piano popular do Conservatório Musical Souza Lima, onde cultivou seu interesse pela música brasileira, especialmente pela MPB. Também lá teve o primeiro contato com a análise formal, que viria a se tornar sua especialidade. Cursou o Mestrado em Teoria e Análise Musical pela ECA-USP (2019-2021), tendo como tese uma análise formal do primeiro movimento da Sinfonia nº 2 de Camargo Guarnieri. Durante a elaboração da tese, sentiu a falta de um software que facilitasse a criação de análises formais. Juntou o pouco que sabia de programação e, com muito estudo, desenvolveu o TiLiA (TimeLine Annotator), uma interface gráfica em código aberto para anotar e analisar áudio e vídeo. Ao longo da formação da pós-graduação, participou de grupos de estudos em lógica, filosofia da ciência, estética, linguística e análise transformacional. Juntando o seu desejo de estudar a música popular e o interesse em forma musical, em 2023 iniciou o doutorado em na UFRJ, onde busca desenvolver uma teoria e uma análise da forma do samba.</p>
 <p><strong>Matheus Xavier Forli</strong>, músico carioca nascido em 1980, teve sua primeira experiência em performance musical em 1992, com doze anos de idade no Circo Voador/RJ, onde, na bateria, se apresentou com uma banda cover de rock nacional. A bateria é seu principal instrumento, tendo o violão como companheiro harmônico, melódico e um aliado para suas composições. Outros instrumentos também apareceram em sua vida, como o violoncelo, a percussão, o saxofone, a flauta doce e o piano, todos em épocas distintas. Sua curiosidade por qualquer instrumento musical sempre foi de vislumbre, pois se possível, tocaria todos. Músicas de Egberto Gismonti, Naná Vasconcelos, Gilberto Gil, Hermeto Pascoal, Joyce Moreno, Tom Jobim, Milton Nascimento, Elomar, Xangai, Antônio Nóbrega e muitos outros artistas da música brasileira sempre estiveram presentes em sua infância, pois faziam parte do gosto musical de seus pais. Com mais de 22 anos de experiência em performance musical, vem tocando em casas de show, bares, teatros, hotéis e festivais de música pelo Brasil com artistas populares de gêneros variados. Atualmente tem o privilégio de ser o baterista de Luiz Carlos Sá, compositor da MPB com mais de 50 anos de carreira, integrante da dupla Sá &amp; Guarabyra, consagrado pela autoria de canções como “Caçador de mim” “Sobradinho”, “Dona”, “Roque santeiro” e muito mais. Também faz parte do quinteto musical Trem Mineiro Uai com repertório exclusivamente mineiro. Em 2023 iniciou sua aventura no mundo acadêmico, e cursa, atualmente, o terceiro período da graduação em Licenciatura em Música pela UFRJ. Seu interesse pelos estudos formais sempre o acompanharam, tendo bateristas como Fernando Pereira, Xande Figueiredo, Cristiano Galvão, Alex Buck e Felipe Continentino como seus professores. Em 1994 estudou na Escola de Música Villa Lobos RJ e entre 2012 e 2014 cursou a Escola Portátil de Choro na Unirio, tendo experiências e mais contato com este gênero musical. Não poderia deixar de citar os cinco anos vividos com Bernardo Ramos em um laboratório musical na Pro-Arte, pode absorver na prática, uma experiência única com possibilidades no jeito de sentir e pensar música. Atualmente, na UFRJ , teve o privilégio de ser indicado por Carlos Almada para participar integrar uma pesquisa de iniciação científica (bolsa Pibic), que começa a desvendar-lhe novos horizontes.</p>
 <p><strong>Pedro Zisels Ramos</strong> teve o destino traçado na maternidade, quando foi recebido no quarto com a música de Bach. Desde criança apresentou especial interesse pela música, mas foi o tambor da capoeira que o fisgou definitivamente aos 8 anos de idade. A partir de então, mergulhou no universo musical, estudando guitarra elétrica na adolescência e, logo depois, descobrindo seu instrumento de vocação: o violão. Em casa adquiriu de seu pai o gosto pela música de concerto, standards de jazz, e sambas antigos, com a mãe aprendeu a apreciar a riqueza da MPB. A influência deste gênero foi determinante em sua formação criativa e, aos 16 anos, escreveu e compôs um espetáculo cênico-musical que mesclava elementos de samba, bossa-nova, rock e música circense. Cursou bacharelado em comunicação social com ênfase em cinema na PUC-Rio e, ao mesmo tempo, entrou para a graduação em composição musical na UFRJ. Nessa época integrou um grupo de iniciação científica liderado por Carlos Almada e descobriu o gosto pela pesquisa acadêmica. Cursou o mestrado em composição musical na UFRJ, apresentando um software para composição algorítmica de contracantos ao estilo de Pixinguinha, sendo orientado por Carlos Almada e coorientado por Pauxy Gentil-Nunes. Além da atuação acadêmica, sempre manteve particular interesse pela música brasileira, estudando de maneira livre alguns ritmos característicos da cultura popular como o jongo, ijexá, coco, congo, cabula, dentre outros. Atualmente cursa o doutorado em composição musical na UFRJ explorando modelos teóricos elaborados especificamente para a descrição e análise de melodias de samba carioca, com orientação de Carlos Almada.</p>
 <p><strong>Rafael Bezerra</strong> é compositor, arranjador, professor, produtor musical, Doutor e Mestre em Composição Musical pela Universidade Federal do Estado do Rio de Janeiro (UNIRIO) e Bacharel em Composição Musical pela Escola de Música da Universidade Federal do Rio de Janeiro (EM-UFRJ). Possui especializações em Música para Cinema e Televisão, e em Educação Musical, ambas pelo Conservatório Brasileiro de Música (CBM - Centro Universitário). Na mesma instituição se formou em Licenciatura em Música. Cursou Regência Coral nos Seminários de Música Pró-Arte. Exerceu a função de professor em diversas instituições no Rio de Janeiro, como na Secretaria Municipal de Educação, Colégio Pedro II, Conservatório Brasileiro de Música (graduação e curso técnico) e Academia de Música Lorenzo Fernandez. Desde 2018, é professor universitário no curso de licenciatura em música da Universidade Católica de Petrópolis (UCP). A partir de 2023, passa a se dedicar também ao estudo de programação e desenvolvimento de software. O fascínio de Rafael pela música teve início no colégio, acompanhado pelos primeiros acordes no violão, e perdurou ao longo de toda a sua vida. Além de frequentar a Escola Portátil de Música e outros locais de estudo de música popular, atuou como regente e arranjador de corais e grupos instrumentais em diversas instituições. Dedicou-se também à produção de arranjos, composições e trilhas sonoras inspiradas na música popular brasileira. Desde 2014, envolve-se em pesquisas relacionadas ao tema, desenvolvidas na UFRJ, UNIRIO e UCP. Dentre essas pesquisas, destacam-se sua dissertação, na qual compôs a partir da análise de canções de Guinga, e sua tese, na qual, após examinar composições de Tim Rescala, criou texto, libreto e música para uma obra cênico-musical com sólida conexão com a cultura e a música popular brasileiras.</p>
 </section>
-<section id="apoio" class="level2">
-<h2 class="anchored" data-anchor-id="apoio">Apoio</h2>
+<section id="apoio" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="apoio"><span class="header-section-number">3</span> Apoio</h2>
 <p><a href="https://ufrj.br/"><img src="logos/ufrj.png" class="img-fluid" width="150"></a> <a href="https://www.im.ufrj.br/"><img src="logos/im-ufrj.png" class="img-fluid" width="200"></a> <a href="https://www.dme.ufrj.br/"><img src="logos/ppge-ufrj.png" class="img-fluid" width="150"></a></p>
 <p><a href="https://musica.ufrj.br/"><img src="logos/em-ufrj.png" class="img-fluid" width="200"></a> <a href="https://ppgm.musica.ufrj.br/"><img src="logos/ppgm-ufrj.png" class="img-fluid" width="150"></a> <a href="https://www.gov.br/cnpq/pt-br"><img src="logos/cnpq.png" class="img-fluid" width="150"></a></p>
 <p><a href="https://musmat.org/"><img src="logos/musmat.png" class="img-fluid" width="200"></a></p>
 </section>
-<section id="visitantes" class="level2">
-<h2 class="anchored" data-anchor-id="visitantes">Visitantes</h2>
+<section id="visitantes" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="visitantes"><span class="header-section-number">4</span> Visitantes</h2>
 <p>Gerado por <a href="https://www.revolvermaps.com/">RevolverMaps</a></p>
 <div style="display:inline-block;width:300px;">
 <script type="text/javascript" src="//rf.revolvermaps.com/0/0/7.js?i=58pp6ntn8ww&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;br=10&amp;sx=0" async="async">

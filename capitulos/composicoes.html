@@ -90,6 +90,17 @@ div.csl-indent {
     "search-label": "Procurar"
   }
 }</script>
+<script type="application/json" class="js-hypothesis-config">
+{
+  "showHighlights": "never"
+}
+</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
+<script>
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    document.body.classList.add('hypothesis-enabled');
+  });
+</script>
 
 
 </head>
@@ -225,6 +236,12 @@ div.csl-indent {
  <span class="menu-text">Atributos primários</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/atributos-secundarios.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Atributos secundários</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -236,6 +253,24 @@ div.csl-indent {
           </a> 
       </div>
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/cifragem.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cifragem</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/funcoes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Funções</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/tipos-acordais.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Tipos acordais</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../capitulos/listagem-corpora.html" class="sidebar-item-text sidebar-link">
@@ -266,8 +301,8 @@ div.csl-indent {
     <h2 id="toc-title">Nesta página</h2>
    
   <ul>
-  <li><a href="#algoritmos-compositores" id="toc-algoritmos-compositores" class="nav-link active" data-scroll-target="#algoritmos-compositores">ALGORITMOS-COMPOSITORES</a></li>
-  <li><a href="#estratégias-composicionais" id="toc-estratégias-composicionais" class="nav-link" data-scroll-target="#estratégias-composicionais">ESTRATÉGIAS COMPOSICIONAIS</a></li>
+  <li><a href="#algoritmos-compositores" id="toc-algoritmos-compositores" class="nav-link active" data-scroll-target="#algoritmos-compositores"><span class="header-section-number">0.1</span> ALGORITMOS-COMPOSITORES</a></li>
+  <li><a href="#estratégias-composicionais" id="toc-estratégias-composicionais" class="nav-link" data-scroll-target="#estratégias-composicionais"><span class="header-section-number">0.2</span> ESTRATÉGIAS COMPOSICIONAIS</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/capitulos/composicoes.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/capitulos/composicoes.qmd" class="toc-action"><i class="bi empty"></i>Ver o código fonte</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
     </div>
@@ -300,8 +335,8 @@ div.csl-indent {
 <p><strong>Flexibilidade rítmica</strong> – as sequências de r-letras, ou seja, as <em>r-palavras</em> geradas pelo algoritmo-compositor específico (ver mais à frente) são “agnósticas” em relação à métrica, o que significa que devem ser consideradas como unidades autônomas que podem ser posicionadas metricamente a critério do(a) compositor(a). Isso inclui também a liberdade de poder distanciar livremente unidades contíguas.</p>
 <p><strong>Flexibilidade de conexões</strong> – as <em>c/r palavras</em> (isto é, a conjunção de c- e r-palavras) devem ser vistas como unidades autônomas, sem relações mútuas de conexão.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
 <hr>
-<section id="algoritmos-compositores" class="level3">
-<h3 class="anchored" data-anchor-id="algoritmos-compositores">ALGORITMOS-COMPOSITORES</h3>
+<section id="algoritmos-compositores" class="level3" data-number="0.1">
+<h3 data-number="0.1" class="anchored" data-anchor-id="algoritmos-compositores"><span class="header-section-number">0.1</span> ALGORITMOS-COMPOSITORES</h3>
 <p>Em sua versão atual, o processo composicional dentro do sistema é baseado em três algoritmos-compositores, cada qual associado a um domínio estrutural-musical, a saber, harmonia, ritmo e alturas. Os três algoritmos são alimentados por dados estatísticos referentes a transições entre eventos contíguos, registrados nas <em>matrizes de transição probabilística</em><a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> dos 10 <em>corpora</em> analisados. De um modo geral, os algoritmos operam da seguinte maneira: o usuário informa o <em>corpus</em> de referência, o evento-semente (que, dependendo do domínio selecionado, pode ser uma categoria funcional, uma r-letra ou uma c-letra) e o número de iterações desejado. O algoritmo então retorna uma estrutura completa (uma sequência de acordes, uma r-palavra ou uma c-palavra) que guarda – ao menos em termos probabilísticos – estreitos vínculos com o <em>corpus</em> selecionado.</p>
 <p>Um simples exemplo ilustrará a lógica básica por trás do funcionamento dos três algoritmos. Considere uma matriz de transição probabilística com apenas quatro estados – w, x, y, z – e suas respectivas probabilidades de transição computadas (<a href="#fig-comp01" class="quarto-xref">Figura&nbsp;1</a>). Assumamos agora que desejamos gerar uma sequência de três símbolos a partir da “semente” y, através da lógica básica dos algoritmos-compositores. Isso significa que precisaremos aplicar duas iterações (já que a “semente” y será o primeiro símbolo da sequência). Na primeira iteração, o algoritmo faz um sorteio <em>ponderado</em> das probabilidades de transição referentes à linha “y”.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> A transição escolhida (“x” no exemplo) se torna a nova “semente” para uma reaplicação do algoritmo, que retorna desta vez “z”, completando a extensão previamente estabelecida de três símbolos para a sequência (evidentemente, o processo poderia se estender indefinidamente, a depender do número de iterações desejado).</p>
 <div id="fig-comp01" class="quarto-figure quarto-figure-center quarto-float anchored">
@@ -356,8 +391,8 @@ Figura&nbsp;4: Esquema básico do algoritmo <em>corparoKov_contorno.py</em> e um
 </div>
 <hr>
 </section>
-<section id="estratégias-composicionais" class="level3">
-<h3 class="anchored" data-anchor-id="estratégias-composicionais">ESTRATÉGIAS COMPOSICIONAIS</h3>
+<section id="estratégias-composicionais" class="level3" data-number="0.2">
+<h3 data-number="0.2" class="anchored" data-anchor-id="estratégias-composicionais"><span class="header-section-number">0.2</span> ESTRATÉGIAS COMPOSICIONAIS</h3>
 <p>Até o presente momento, duas estratégias de composição assistida dentro do sistema foram idealizadas, descritas sucintamente como se segue:</p>
 <p><strong>Estratégia 1</strong> – é a que mais se utiliza dos dados estatísticos analisados. Sua principal limitação é ausência de controle para construções de estruturas relativamente complexas. Assim, é idealmente empregada em composições aforísticas, ou seja de curta duração.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></p>
 <p>Um possível protocolo composicional com essa estratégia é descrito a seguir (imaginamos que outras possibilidades possam ser eventualmente propostas):</p>

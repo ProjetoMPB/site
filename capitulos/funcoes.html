@@ -29,6 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../capitulos/tipos-acordais.html" rel="next">
+<link href="../capitulos/cifragem.html" rel="prev">
 <link href="../favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -68,6 +70,17 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Procurar"
   }
 }</script>
+<script type="application/json" class="js-hypothesis-config">
+{
+  "showHighlights": "never"
+}
+</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
+<script>
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    document.body.classList.add('hypothesis-enabled');
+  });
+</script>
 
 
 </head>
@@ -81,7 +94,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Taxonomia funcional</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../capitulos/cifragem.html">Material suplementar</a></li><li class="breadcrumb-item"><a href="../capitulos/funcoes.html">Funções</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -203,17 +216,41 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Atributos primários</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/atributos-secundarios.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Atributos secundários</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
  <span class="menu-text">Material suplementar</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false" aria-label="Alternar seção">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true" aria-label="Alternar seção">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/cifragem.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cifragem</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/funcoes.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Funções</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/tipos-acordais.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Tipos acordais</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../capitulos/listagem-corpora.html" class="sidebar-item-text sidebar-link">
@@ -244,20 +281,20 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Nesta página</h2>
    
   <ul>
-  <li><a href="#classe-diatônicas-dia-subclasses-primárias-pri-e-secundárias-sec" id="toc-classe-diatônicas-dia-subclasses-primárias-pri-e-secundárias-sec" class="nav-link active" data-scroll-target="#classe-diatônicas-dia-subclasses-primárias-pri-e-secundárias-sec">Classe “Diatônicas” (DIA) / Subclasses “Primárias” (PRI) e “Secundárias” (SEC)</a></li>
-  <li><a href="#classe-preparatórias-pre-subclasses-dominantes-secundárias-ds-substitutos-tritônicos-subv-e-diminutos-dim" id="toc-classe-preparatórias-pre-subclasses-dominantes-secundárias-ds-substitutos-tritônicos-subv-e-diminutos-dim" class="nav-link" data-scroll-target="#classe-preparatórias-pre-subclasses-dominantes-secundárias-ds-substitutos-tritônicos-subv-e-diminutos-dim">Classe “Preparatórias” (PRE) / Subclasses “Dominantes secundárias” (DS), “Substitutos tritônicos” (SUBV) e “Diminutos” (DIM)</a></li>
-  <li><a href="#classe-empréstimos-de-primeira-ordem-e1-subclasses-regiões-afins-ra-empréstimos-diatônicos-ed-e-subdominantes-menores-sd" id="toc-classe-empréstimos-de-primeira-ordem-e1-subclasses-regiões-afins-ra-empréstimos-diatônicos-ed-e-subdominantes-menores-sd" class="nav-link" data-scroll-target="#classe-empréstimos-de-primeira-ordem-e1-subclasses-regiões-afins-ra-empréstimos-diatônicos-ed-e-subdominantes-menores-sd">Classe “Empréstimos de primeira ordem” (E1) / Subclasses “Regiões afins” (RA), “Empréstimos diatônicos” (ED) e “Subdominantes menores” (sd)</a></li>
-  <li><a href="#classe-napolitanos-secundários-nps" id="toc-classe-napolitanos-secundários-nps" class="nav-link" data-scroll-target="#classe-napolitanos-secundários-nps">Classe “Napolitanos secundários” (NPS)</a></li>
-  <li><a href="#classe-anti-preparatórias-apre-subclasses-anti-napolitanos-anp-e-anti-substitutos-tritônicos-asubv" id="toc-classe-anti-preparatórias-apre-subclasses-anti-napolitanos-anp-e-anti-substitutos-tritônicos-asubv" class="nav-link" data-scroll-target="#classe-anti-preparatórias-apre-subclasses-anti-napolitanos-anp-e-anti-substitutos-tritônicos-asubv">Classe “Anti-preparatórias” (aPRE) / Subclasses “Anti-Napolitanos” (aNP) e “Anti-Substitutos tritônicos” (aSUBV)</a></li>
-  <li><a href="#classe-dominantes-terciários-dt" id="toc-classe-dominantes-terciários-dt" class="nav-link" data-scroll-target="#classe-dominantes-terciários-dt">Classe “Dominantes terciários” (DT)</a></li>
-  <li><a href="#classe-empréstimos-de-segunda-ordem-e2" id="toc-classe-empréstimos-de-segunda-ordem-e2" class="nav-link" data-scroll-target="#classe-empréstimos-de-segunda-ordem-e2">Classe “Empréstimos de segunda ordem” (E2)</a></li>
+  <li><a href="#classe-diatônicas-dia-subclasses-primárias-pri-e-secundárias-sec" id="toc-classe-diatônicas-dia-subclasses-primárias-pri-e-secundárias-sec" class="nav-link active" data-scroll-target="#classe-diatônicas-dia-subclasses-primárias-pri-e-secundárias-sec"><span class="header-section-number">1</span> Classe “Diatônicas” (DIA) / Subclasses “Primárias” (PRI) e “Secundárias” (SEC)</a></li>
+  <li><a href="#classe-preparatórias-pre-subclasses-dominantes-secundárias-ds-substitutos-tritônicos-subv-e-diminutos-dim" id="toc-classe-preparatórias-pre-subclasses-dominantes-secundárias-ds-substitutos-tritônicos-subv-e-diminutos-dim" class="nav-link" data-scroll-target="#classe-preparatórias-pre-subclasses-dominantes-secundárias-ds-substitutos-tritônicos-subv-e-diminutos-dim"><span class="header-section-number">2</span> Classe “Preparatórias” (PRE) / Subclasses “Dominantes secundárias” (DS), “Substitutos tritônicos” (SUBV) e “Diminutos” (DIM)</a></li>
+  <li><a href="#classe-empréstimos-de-primeira-ordem-e1-subclasses-regiões-afins-ra-empréstimos-diatônicos-ed-e-subdominantes-menores-sd" id="toc-classe-empréstimos-de-primeira-ordem-e1-subclasses-regiões-afins-ra-empréstimos-diatônicos-ed-e-subdominantes-menores-sd" class="nav-link" data-scroll-target="#classe-empréstimos-de-primeira-ordem-e1-subclasses-regiões-afins-ra-empréstimos-diatônicos-ed-e-subdominantes-menores-sd"><span class="header-section-number">3</span> Classe “Empréstimos de primeira ordem” (E1) / Subclasses “Regiões afins” (RA), “Empréstimos diatônicos” (ED) e “Subdominantes menores” (sd)</a></li>
+  <li><a href="#classe-napolitanos-secundários-nps" id="toc-classe-napolitanos-secundários-nps" class="nav-link" data-scroll-target="#classe-napolitanos-secundários-nps"><span class="header-section-number">4</span> Classe “Napolitanos secundários” (NPS)</a></li>
+  <li><a href="#classe-anti-preparatórias-apre-subclasses-anti-napolitanos-anp-e-anti-substitutos-tritônicos-asubv" id="toc-classe-anti-preparatórias-apre-subclasses-anti-napolitanos-anp-e-anti-substitutos-tritônicos-asubv" class="nav-link" data-scroll-target="#classe-anti-preparatórias-apre-subclasses-anti-napolitanos-anp-e-anti-substitutos-tritônicos-asubv"><span class="header-section-number">5</span> Classe “Anti-preparatórias” (aPRE) / Subclasses “Anti-Napolitanos” (aNP) e “Anti-Substitutos tritônicos” (aSUBV)</a></li>
+  <li><a href="#classe-dominantes-terciários-dt" id="toc-classe-dominantes-terciários-dt" class="nav-link" data-scroll-target="#classe-dominantes-terciários-dt"><span class="header-section-number">6</span> Classe “Dominantes terciários” (DT)</a></li>
+  <li><a href="#classe-empréstimos-de-segunda-ordem-e2" id="toc-classe-empréstimos-de-segunda-ordem-e2" class="nav-link" data-scroll-target="#classe-empréstimos-de-segunda-ordem-e2"><span class="header-section-number">7</span> Classe “Empréstimos de segunda ordem” (E2)</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/capitulos/funcoes.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/capitulos/funcoes.qmd" class="toc-action"><i class="bi empty"></i>Ver o código fonte</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../capitulos/cifragem.html">Material suplementar</a></li><li class="breadcrumb-item"><a href="../capitulos/funcoes.html">Funções</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Taxonomia funcional</h1>
 </div>
@@ -277,8 +314,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>Este capítulo explicita a estrutura estratificada de classes, subclasses e categorias funcionais que forma uma <em>taxonomia funcional</em> adotada no projeto. Privilegiando uma visão que abranja o vasto e complexo conteúdo funcional da Prática Comum da MPB (constatado nas análises) e nos atendo a critérios de economia e concisão (virtudes em si próprias, mas que também favorecem generalizações), optamos por propor uma organização <em>unificada</em> dessa taxonomia, isto é, que possa ser estendida a ambos os modos – maior e menor. As classes e subclasses funcionais (e seus respectivos conteúdos) são dispostas abaixo, incluindo exemplos nos modos maior e menor (tomando Dó como centro referencial).</p>
-<section id="classe-diatônicas-dia-subclasses-primárias-pri-e-secundárias-sec" class="level3">
-<h3 class="anchored" data-anchor-id="classe-diatônicas-dia-subclasses-primárias-pri-e-secundárias-sec">Classe “Diatônicas” (DIA) / Subclasses “Primárias” (PRI) e “Secundárias” (SEC)</h3>
+<section id="classe-diatônicas-dia-subclasses-primárias-pri-e-secundárias-sec" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="classe-diatônicas-dia-subclasses-primárias-pri-e-secundárias-sec"><span class="header-section-number">1</span> Classe “Diatônicas” (DIA) / Subclasses “Primárias” (PRI) e “Secundárias” (SEC)</h2>
 <table class="table">
 <thead>
 <tr class="header">
@@ -311,7 +348,7 @@ ul.task-list li input[type="checkbox"] {
 <td>SEC</td>
 <td>II</td>
 <td>Dm7</td>
-<td>D∅</td>
+<td>D<sup>ø</sup></td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -328,14 +365,14 @@ ul.task-list li input[type="checkbox"] {
 <tr class="odd">
 <td></td>
 <td>VII</td>
-<td>B∅</td>
+<td>B<sup>ø</sup></td>
 <td>B°</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="classe-preparatórias-pre-subclasses-dominantes-secundárias-ds-substitutos-tritônicos-subv-e-diminutos-dim" class="level3">
-<h3 class="anchored" data-anchor-id="classe-preparatórias-pre-subclasses-dominantes-secundárias-ds-substitutos-tritônicos-subv-e-diminutos-dim">Classe “Preparatórias” (PRE) / Subclasses “Dominantes secundárias” (DS), “Substitutos tritônicos” (SUBV) e “Diminutos” (DIM)</h3>
+<section id="classe-preparatórias-pre-subclasses-dominantes-secundárias-ds-substitutos-tritônicos-subv-e-diminutos-dim" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="classe-preparatórias-pre-subclasses-dominantes-secundárias-ds-substitutos-tritônicos-subv-e-diminutos-dim"><span class="header-section-number">2</span> Classe “Preparatórias” (PRE) / Subclasses “Dominantes secundárias” (DS), “Substitutos tritônicos” (SUBV) e “Diminutos” (DIM)</h2>
 <table class="table">
 <thead>
 <tr class="header">
@@ -499,8 +536,8 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 </section>
-<section id="classe-empréstimos-de-primeira-ordem-e1-subclasses-regiões-afins-ra-empréstimos-diatônicos-ed-e-subdominantes-menores-sd" class="level3">
-<h3 class="anchored" data-anchor-id="classe-empréstimos-de-primeira-ordem-e1-subclasses-regiões-afins-ra-empréstimos-diatônicos-ed-e-subdominantes-menores-sd">Classe “Empréstimos de primeira ordem” (E1) / Subclasses “Regiões afins” (RA), “Empréstimos diatônicos” (ED) e “Subdominantes menores” (sd)</h3>
+<section id="classe-empréstimos-de-primeira-ordem-e1-subclasses-regiões-afins-ra-empréstimos-diatônicos-ed-e-subdominantes-menores-sd" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="classe-empréstimos-de-primeira-ordem-e1-subclasses-regiões-afins-ra-empréstimos-diatônicos-ed-e-subdominantes-menores-sd"><span class="header-section-number">3</span> Classe “Empréstimos de primeira ordem” (E1) / Subclasses “Regiões afins” (RA), “Empréstimos diatônicos” (ED) e “Subdominantes menores” (sd)</h2>
 <table class="table">
 <thead>
 <tr class="header">
@@ -561,9 +598,9 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td></td>
-<td>#VI∅</td>
+<td>#VI<sup>ø</sup></td>
 <td>-</td>
-<td>A∅</td>
+<td>A<sup>ø</sup></td>
 </tr>
 <tr class="even">
 <td>sd</td>
@@ -573,8 +610,8 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td></td>
-<td>II∅</td>
-<td>D∅</td>
+<td>II<sup>ø</sup></td>
+<td>D<sup>ø</sup></td>
 <td>-</td>
 </tr>
 <tr class="even">
@@ -591,15 +628,15 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td></td>
-<td>bVII7}</td>
+<td>bVII7</td>
 <td>Bb7</td>
 <td>Bb7</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="classe-napolitanos-secundários-nps" class="level3">
-<h3 class="anchored" data-anchor-id="classe-napolitanos-secundários-nps">Classe “Napolitanos secundários” (NPS)</h3>
+<section id="classe-napolitanos-secundários-nps" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="classe-napolitanos-secundários-nps"><span class="header-section-number">4</span> Classe “Napolitanos secundários” (NPS)</h2>
 <table class="table">
 <thead>
 <tr class="header">
@@ -637,8 +674,8 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 </section>
-<section id="classe-anti-preparatórias-apre-subclasses-anti-napolitanos-anp-e-anti-substitutos-tritônicos-asubv" class="level3">
-<h3 class="anchored" data-anchor-id="classe-anti-preparatórias-apre-subclasses-anti-napolitanos-anp-e-anti-substitutos-tritônicos-asubv">Classe “Anti-preparatórias” (aPRE) / Subclasses “Anti-Napolitanos” (aNP) e “Anti-Substitutos tritônicos” (aSUBV)</h3>
+<section id="classe-anti-preparatórias-apre-subclasses-anti-napolitanos-anp-e-anti-substitutos-tritônicos-asubv" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="classe-anti-preparatórias-apre-subclasses-anti-napolitanos-anp-e-anti-substitutos-tritônicos-asubv"><span class="header-section-number">5</span> Classe “Anti-preparatórias” (aPRE) / Subclasses “Anti-Napolitanos” (aNP) e “Anti-Substitutos tritônicos” (aSUBV)</h2>
 <table class="table">
 <thead>
 <tr class="header">
@@ -724,8 +761,8 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 </section>
-<section id="classe-dominantes-terciários-dt" class="level3">
-<h3 class="anchored" data-anchor-id="classe-dominantes-terciários-dt">Classe “Dominantes terciários” (DT)</h3>
+<section id="classe-dominantes-terciários-dt" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="classe-dominantes-terciários-dt"><span class="header-section-number">6</span> Classe “Dominantes terciários” (DT)</h2>
 <table class="table">
 <thead>
 <tr class="header">
@@ -758,8 +795,8 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 </section>
-<section id="classe-empréstimos-de-segunda-ordem-e2" class="level3">
-<h3 class="anchored" data-anchor-id="classe-empréstimos-de-segunda-ordem-e2">Classe “Empréstimos de segunda ordem” (E2)</h3>
+<section id="classe-empréstimos-de-segunda-ordem-e2" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="classe-empréstimos-de-segunda-ordem-e2"><span class="header-section-number">7</span> Classe “Empréstimos de segunda ordem” (E2)</h2>
 <table class="table">
 <thead>
 <tr class="header">
@@ -1369,6 +1406,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../capitulos/cifragem.html" class="pagination-link" aria-label="Cifragem">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Cifragem</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../capitulos/tipos-acordais.html" class="pagination-link" aria-label="Tipos acordais">
+        <span class="nav-page-text">Tipos acordais</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
