@@ -1,0 +1,17 @@
+---
+title: "Publicação de novos capítulos e plataforma de comentários"
+description: "'Atributos secundários' e outras atualizações"
+author: "Hugo Carvalho"
+date: "4/01/2024"
+image: "../figs/atri-sec-03.png"
+categories:
+  - noticias do projeto
+  - novos capitulos
+---
+
+E mais capítulos foram lançados! A continuação da análise foi publicada, e você pode vê-la no capítulo [Atributos secundários](../capitulos/atributos-secundarios.qmd). Além disso, novos materiais suplementares também estão disponíveis: [Cifragem](../capitulos/cifragem.qmd), [Funções](../capitulos/funcoes.qmd) e [Tipos acordais](../capitulos/tipos-acordais.qmd).
+
+
+A outra novidade é que agora você pode fazer comentários na página do projeto, e também fazer anotações privadas para guiar a sua leitura. Abra a interface de comentários no botão "<" no canto superior direito da sua tela, e clique no ícone com um papel dobrado para deixar um comentário na página. Você também pode deixar um comentário em um local específico dentro de uma página, selecionando o texto desejado e clicando em "Annotate" na interface que irá aparecer -- essas anotações serão públicas, e qualquer leitor(a) conseguirá vê-las. Para fazer anotações privadas em sua leitura, selecione o texto desejado e clique em "Highlight". Para fazer qualquer comentário ou anotação é necessário um rápido cadastro na plataforma [Hypothes.is](https://web.hypothes.is/) -- assim evitamos comentários de *spam* e você consegue ter as suas anotações privadas de modo permanente, sem depender de *cookies* do navegador.
+
+Boa leitura!

@@ -1,6 +1,5 @@
 ---
 title: Atributos primários de avaliação
-number-sections: true
 ---
 
 ## Introdução

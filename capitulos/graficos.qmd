@@ -5,11 +5,11 @@ title: Gráficos dos resultados
 Neste capítulo são apresentados, em formato gráfico, vários dso resultados analíticos contemplando o grupo de controle (gêneros Jazz, Choro e Samba) e os compositores MPB -- fase 1 (Tom Jobim, Ivan Lins, Chico Buarque, Edu Lobo, Caetano Veloso, Djavan, João Bosco, Milton Nascimento, Gilberto Gil e Rita Lee). Os gráficos são organizados de acordo com domínios (melódico e harmônico) e subdomínios (alturas, ritmo e notas-funções), contemplando diversos aspectos considerados. A leitura dos gráficos é complementada pelas tabelas e discussões expostas nos capítulos dos [atributos primários](atributos-primarios.qmd),  [atributos secundários](atributos-secundarios.qmd) e atributos terciários.
 Para cada aspecto examinado são apresentados 13 gráficos referentes aos *corpora* individuais, um considerando a MPB como um todo (ou seja, abrangendo os 10 repertórios analíticos) e um final que os reúne os 14 gráficos anteriores, facilitando suas comparações. Cada gráfico poderá ser examinado em detalhes numa guia em separado (para isso, o usuário deverá selecioná-lo e acionar nessa opção com o botão direito do mouse).
 
-## DOMÍNIO MELÓDICO
+## Domínio melódico
 
 ### Subdomínio das alturas
 
-DISTRIBUIÇÃO DE C-LETRAS
+#### DISTRIBUIÇÃO DE C-LETRAS
 
 ![Distribuição de c-letras no *corpus* Jazz.](../figs/grafico-01a.png){width=50% #fig-graf01a}
 
@@ -43,7 +43,7 @@ DISTRIBUIÇÃO DE C-LETRAS
 
 ---
 
-DISTRIBUIÇÃO DE CARDINALIDADES DE C/R PALAVRAS
+#### DISTRIBUIÇÃO DE CARDINALIDADES DE C/R PALAVRAS
 
 ![Distribuição de cardinalidades de c/r palavras no *corpus* Jazz.](../figs/grafico-02a.png){width=50% #fig-graf02a}
 
@@ -78,7 +78,7 @@ DISTRIBUIÇÃO DE CARDINALIDADES DE C/R PALAVRAS
 
 ### Subdomínio do ritmo
 
-DISTRIBUIÇÃO DE R-LETRAS
+#### DISTRIBUIÇÃO DE R-LETRAS
 
 ![Distribuição de r-letras no *corpus* Jazz.](../figs/grafico-03a.png){width=50% #fig-graf03a}
 
@@ -110,7 +110,7 @@ DISTRIBUIÇÃO DE R-LETRAS
 
 ![Comparação das distribuições de r-letras nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-03.png){width=100% #fig-graf03}
 
-PERFIL MÉTRICO
+#### PERFIL MÉTRICO
 
 ![Perfil métrico do *corpus* Jazz.](../figs/grafico-04a.png){width=50% #fig-graf04a}
 
@@ -145,7 +145,7 @@ PERFIL MÉTRICO
 
 ### Subdomínio das notas-funções
 
-TEIAS GLOBAIS DE NOTAS-FUNÇÕES
+#### TEIAS GLOBAIS DE NOTAS-FUNÇÕES
 
 ![Teia global de notas-funções (valores médios) do *corpus* Jazz.](../figs/grafico-05a.png){width=50% #fig-graf05a}
 
@@ -179,9 +179,9 @@ TEIAS GLOBAIS DE NOTAS-FUNÇÕES
 
 ------------
 
-## DOMÍNIO HARMÔNICO
+## Domínio harmônico
 
-DISTRIBUIÇÃO DE TONALIDADES
+#### DISTRIBUIÇÃO DE TONALIDADES
 
 ![Distribuição de tonalidades principais no *corpus* Jazz.](../figs/grafico-06a.png){width=50% #fig-graf06a}
 
@@ -213,8 +213,7 @@ DISTRIBUIÇÃO DE TONALIDADES
 
 ![Comparação das distribuições de tonalidades principais nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-06.png){width=100% #fig-graf06}
 
-
-DISTRIBUIÇÃO DE RELAÇÕES BINÁRIAS TONAIS
+#### DISTRIBUIÇÃO DE RELAÇÕES BINÁRIAS TONAIS
 
 ![Distribuição de RBTs no *corpus* Jazz.](../figs/grafico-07a.png){width=50% #fig-graf07a}
 
@@ -246,7 +245,7 @@ DISTRIBUIÇÃO DE RELAÇÕES BINÁRIAS TONAIS
 
 ![Comparação das distribuições de RBTs nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-07.png){width=100% #fig-graf07}
 
-DISTRIBUIÇÃO DE ACORDES ESPECÍFICOS
+#### DISTRIBUIÇÃO DE ACORDES ESPECÍFICOS
 
 ![Distribuição de acordes específicos (considerando os 40 mais recorrentes) no *corpus* Jazz.](../figs/grafico-08a.png){width=50% #fig-graf08a}
 
@@ -278,8 +277,7 @@ DISTRIBUIÇÃO DE ACORDES ESPECÍFICOS
 
 ![Comparação das distribuições de acordes específicos (considerando os 40 mais recorrentes) nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-08.png){width=100% #fig-graf08}
 
-
-DISTRIBUIÇÃO DE TIPOS ACORDAIS
+#### DISTRIBUIÇÃO DE TIPOS ACORDAIS
 
 ![Distribuição de TAs (considerando os 40 mais recorrentes) no *corpus* Jazz.](../figs/grafico-09a.png){width=50% #fig-graf09a}
 
@@ -311,7 +309,7 @@ DISTRIBUIÇÃO DE TIPOS ACORDAIS
 
 ![Comparação das distribuições de TAs (considerando os 40 mais recorrentes) nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-09.png){width=100% #fig-graf09}
 
-DISTRIBUIÇÃO DAS CATEGORIAS FUNCIONAIS
+#### DISTRIBUIÇÃO DAS CATEGORIAS FUNCIONAIS
 
 ![Distribuição de categorias funcionais (considerando os 40 mais recorrentes) no *corpus* Jazz.](../figs/grafico-10a.png){width=50% #fig-graf10a}
 
@@ -343,7 +341,7 @@ DISTRIBUIÇÃO DAS CATEGORIAS FUNCIONAIS
 
 ![Comparação das distribuições de categorias funcionais (considerando os 40 mais recorrentes) nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-10.png){width=100% #fig-graf10}
 
-DISTRIBUIÇÃO DE RELAÇÕES BINÁRIAS FUNCIONAIS
+#### DISTRIBUIÇÃO DE RELAÇÕES BINÁRIAS FUNCIONAIS
 
 ![Distribuição de RBFs (considerando os 40 mais recorrentes) no *corpus* Jazz.](../figs/grafico-11a.png){width=50% #fig-graf11a}
 
@@ -376,7 +374,7 @@ DISTRIBUIÇÃO DE RELAÇÕES BINÁRIAS FUNCIONAIS
 ![Comparação das distribuições de RBFs (considerando os 40 mais recorrentes) nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-11.png){width=100% #fig-graf11}
 
 
-DISTRIBUIÇÃO DE RELAÇÕES BINÁRIAS FUNCIONAIS EM ALTO NÍVEL (entre classes funcionais)
+#### DISTRIBUIÇÃO DE RELAÇÕES BINÁRIAS FUNCIONAIS EM ALTO NÍVEL (entre classes funcionais)
 
 ![Distribuição de RBFs em alto nível no *corpus* Jazz.](../figs/grafico-12a.png){width=50% #fig-graf12a}
 
@@ -407,4 +405,3 @@ DISTRIBUIÇÃO DE RELAÇÕES BINÁRIAS FUNCIONAIS EM ALTO NÍVEL (entre classes 
 ![Distribuição de RBFs em alto nível no conjunto MPB (compositores 1 a 10).](../figs/grafico-12n.png){width=50% #fig-graf12n}
 
 ![Comparação das distribuições de RBFs em alto nível nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-12.png){width=100% #fig-graf12}
-

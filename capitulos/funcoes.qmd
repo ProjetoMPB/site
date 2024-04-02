@@ -4,20 +4,20 @@ title: Taxonomia funcional
 
 Este capítulo explicita a estrutura estratificada de classes, subclasses e categorias funcionais que forma uma *taxonomia funcional* adotada no projeto. Privilegiando uma visão que abranja o vasto e complexo conteúdo funcional da Prática Comum da MPB (constatado nas análises) e nos atendo a critérios de economia e concisão (virtudes em si próprias, mas que também favorecem generalizações), optamos por propor uma organização *unificada* dessa taxonomia, isto é, que possa ser estendida a ambos os modos -- maior e menor. As classes e subclasses funcionais (e seus respectivos conteúdos) são dispostas abaixo, incluindo exemplos nos modos maior e menor (tomando Dó como centro referencial).
 
-### Classe "Diatônicas" (DIA) / Subclasses "Primárias" (PRI) e "Secundárias" (SEC)
+## Classe "Diatônicas" (DIA) / Subclasses "Primárias" (PRI) e "Secundárias" (SEC)
 
 | Subclasse | categoria | Dó maior | Dó menor |
 |-----------|-----------|----------|----------|
 | PRI       | I         | CM7      | Cm7      |
 |           | IV        | FM7      | Fm7      |
 |           | V         | G7       | G7       |
-| SEC       | II        | Dm7      | D∅       |
+| SEC       | II        | Dm7      | D^ø^       |
 |           | III       | Em7      | EbM7     |
 |           | VI        | Am7      | AbM7     |
-|           | VII       | B∅       | B°       |
+|           | VII       | B^ø^       | B°       |
 
 
-### Classe "Preparatórias" (PRE) / Subclasses "Dominantes secundárias" (DS), "Substitutos tritônicos" (SUBV) e "Diminutos" (DIM)
+## Classe "Preparatórias" (PRE) / Subclasses "Dominantes secundárias" (DS), "Substitutos tritônicos" (SUBV) e "Diminutos" (DIM)
 
 | Subclasse | categoria | Dó maior | Dó menor |
 |-----------|-----------|----------|----------|
@@ -48,7 +48,7 @@ Este capítulo explicita a estrutura estratificada de classes, subclasses e cate
 |           | bVII°     | Bb°      | -        |
 
 
-### Classe "Empréstimos de primeira ordem" (E1) / Subclasses "Regiões afins" (RA), "Empréstimos diatônicos" (ED) e "Subdominantes menores" (sd)
+## Classe "Empréstimos de primeira ordem" (E1) / Subclasses "Regiões afins" (RA), "Empréstimos diatônicos" (ED) e "Subdominantes menores" (sd)
 
 | Subclasse | categoria | Dó maior | Dó menor |
 |-----------|-----------|----------|----------|
@@ -60,14 +60,14 @@ Este capítulo explicita a estrutura estratificada de classes, subclasses e cate
 |           | bVIIM7    | BbM7     | -        |
 | ED        | IIm7      | -        | Dm7      |
 |           | III(#5)M7 | -        | Eb(#5)M7 |
-|           | #VI∅      | -        | A∅       |
+|           | #VI^ø^      | -        | A^ø^       |
 | sd        | bIIM7     | DbM7     | DbM7     |
-|           | II∅       | D∅       | -        |
+|           | II^ø^       | D^ø^       | -        |
 |           | IVm7      | Fm7      | -        |
 |           | bVIM7     | AbM7     | -        |
-|           | bVII7}    | Bb7      | Bb7      |
+|           | bVII7     | Bb7      | Bb7      |
 
-### Classe "Napolitanos secundários" (NPS) 
+## Classe "Napolitanos secundários" (NPS) 
 
 | categoria | Dó maior | Dó menor |
 |-----------|----------|----------|
@@ -77,7 +77,7 @@ Este capítulo explicita a estrutura estratificada de classes, subclasses e cate
 | Np/V      | AbM7     | AbM7     |
 | Np/VI     | BbM7     | AM7      |
 
-### Classe "Anti-preparatórias" (aPRE) / Subclasses "Anti-Napolitanos" (aNP) e "Anti-Substitutos tritônicos" (aSUBV) 
+## Classe "Anti-preparatórias" (aPRE) / Subclasses "Anti-Napolitanos" (aNP) e "Anti-Substitutos tritônicos" (aSUBV) 
 
 | Subclasse | categoria | Dó maior | Dó menor |
 |-----------|-----------|----------|----------|
@@ -94,7 +94,7 @@ Este capítulo explicita a estrutura estratificada de classes, subclasses e cate
 |           | aSubV/V   | F#7      | F#7      |
 |           | aSubV/VI  | G#7      | G7       |
 
-### Classe "Dominantes terciários" (DT) 
+## Classe "Dominantes terciários" (DT) 
 
 | categoria | Dó maior | Dó menor |
 |-----------|----------|----------|
@@ -103,7 +103,7 @@ Este capítulo explicita a estrutura estratificada de classes, subclasses e cate
 | V/bVI     | Eb7      | -        |
 | V/bVII    | F7       | -        |
 
-### Classe "Empréstimos de segunda ordem" (E2) 
+## Classe "Empréstimos de segunda ordem" (E2) 
 
 | categoria       | Dó maior | Dó menor |
 |-----------------|----------|----------|
@@ -115,4 +115,3 @@ Este capítulo explicita a estrutura estratificada de classes, subclasses e cate
 | bVM7            | GbM7     | GbM7     |
 | VIM7            | AM7      | -        |
 | VIIM7           | BM7      | -        |
-

@@ -58,8 +58,16 @@ website:
         contents:
           - href: capitulos/atributos-primarios.qmd
             text: Atributos primários
+          - href: capitulos/atributos-secundarios.qmd
+            text: Atributos secundários
       - section: Material suplementar
         contents:
+          - href: capitulos/cifragem.qmd
+            text: Cifragem
+          - href: capitulos/funcoes.qmd
+            text: Funções
+          - href: capitulos/tipos-acordais.qmd
+            text: Tipos acordais
           - href: capitulos/listagem-corpora.qmd
             text: Listagem dos *corpora*
           - href: capitulos/producao-bibliografica.qmd
@@ -74,6 +82,12 @@ crossref:
 lang: pt
 
 bibliography: refs.bib
+
+number-sections: true
+
+comments:
+  hypothesis:
+    showHighlights: never
 
 # number-sections: true
 
