@@ -32,7 +32,7 @@ Os atributos secundários são essencialmente revisões (ou detalhamentos) de al
 
 ---
 
-**2H3** -- nível das funções (contém sete aspectos):
+**2H3** -- nível das funções (contém seis aspectos):
 
 - 2H3a -- informa a quantidade de categorias funcionais distintas em cada *corpus* e o respectivo percentual considerando o total de categorias adotadas (73). Por hipótese, a  diversidade de categorias seria um marcador estilístico centrípeto (também em relação ao subconjunto JAZZ).
 
@@ -40,13 +40,11 @@ Os atributos secundários são essencialmente revisões (ou detalhamentos) de al
 
 - 2H3c -- refina o atributo 2H3b, examinando os conteúdos de cada classe, em separado.
 
-- 2H3d -- compara as classes de relações binárias funcionais, ou RBFs de alto-nível (DIA|DIA, CR|DIA, DIA|CR, CR|CR). Por hipótese, integrantes do subconjunto-alvo e do subconjunto JAZZ apresentariam distribuições significativas das classes que envolvam a categoria CR. A separação dos dois subconjuntos neste atributo requererá, por certo, exames e discussões suplementares.     
+- 2H3d -- compara as classes de relações binárias funcionais, ou RBFs de alto-nível (DIA|DIA, CR|DIA, DIA|CR, CR|CR). Por hipótese, integrantes do subconjunto-alvo e do subconjunto JAZZ apresentariam distribuições significativas das classes que envolvam a categoria CR. A separação dos dois subconjuntos neste atributo requererá, por certo, exames e discussões suplementares.  
 
-- 2H3e -- examina um dos subconjuntos da classe CR|DIA, a saber, DS|DIA. Não há hipóteses previamente associadas a este atributo.
+- 2H3e -- dispõe a distribuição das relações binárias funcionais de alto nível (considerando as classes de RBFs [ver capítulo dos Modelos Teóricos](modelos-teoricos.qmd).
 
-- 2H3f -- examina um dos subconjuntos da classe CR|DIA, a saber, LOC(DS/SubV)|DIA, em comparação com o atributo 2H3d. Por hipótese, a presença significativa de locuções representaria um elemento da interseção MPB/JAZZ. A separação dos dois subconjuntos neste atributo requererá, provavelmente, exames e discussões suplementares.  
-
-- 2H3g -- examina um dos subconjuntos da classe DIA|CR, a saber, SD|sd, considerando ser esta uma das fórmulas harmônicas mais relevantes do idioma compartilhado. Não há hipóteses previamente associadas a este atributo.          
+- 2H3f -- compara os valores máximos e mínimos de entropia [ver capítulo Probabilidade e entropia](probabilidade.qmd) das categorias funcionais nos diferente *corpora*.
 
 ---------------
 
