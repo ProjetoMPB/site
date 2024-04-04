@@ -256,7 +256,7 @@ Há, em termos percentuais, uma convergência geral pelas RBFs em alto nível DI
 
 #### Discussão
 
-Há, em termos percentuais, uma convergência geral pelas RBFs em alto nível DIA|DIA,^[Destacando-se o peso expressivo dessa RBF nos *corpora* Rita Lee (46.2 %) e Caetano Veloso (44.2 %), os mais altos percentuais de todos, incluindo os repertórios de controle.] excetuando-se os *corpora* Jobim e Chico Buarque, nos quais a predominância recai sobre, respectivamente, DIA|CR, CR|CR.^[Este atributo mais uma vez contribui para reforçar a impressão de ser a harmonia jobiniana mais complexa e excêntrica do que as de seus pares.]
+De um modo geral, os valores são próximos, variando entre 0.3--0.8 bit (para H mínima) e por volta de 4 bits (H máxima). Há maior divergência entre os repertórios em relação às categorias funcionais nesses extremos, especialmente quanto à entropia mínima, embora em cinco deles (Jazz, Choro, Chico Buarque, Caetano Veloso e Gilberto Gil) o posto seja assumido por bIII°. Considerando a entropia máxima, a diversidade é menor, convergindo para três alternativas: I (em oito dos *corpora*), VI (Choro, Samba e Ivan Lins) e, um tanto surpreendentemente, IV (apenas João Bosco e Milton Nascimento).
 
 ---
 
