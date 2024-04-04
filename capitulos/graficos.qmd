@@ -471,3 +471,35 @@ Para cada aspecto examinado são apresentados 13 gráficos referentes aos *corpo
 ![Distribuição de movimentos de baixos entre acordes contíguos (números se referem a semitons) no conjunto MPB (compositores 1 a 10).](../figs/grafico-14n.png){width=50% #fig-graf14n}
 
 ![Comparação das distribuições de movimentos de baixos entre acordes contíguos (números se referem a semitons) nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-14.png){width=100% #fig-graf14}
+
+#### DISTRIBUIÇÃO DAS ENTROPIAS DAS CATEGORIAS FUNCIONAIS
+
+![Distribuição de entropias (em bits) das categorias funcionais no *corpus* Jazz.](../figs/grafico-15a.png){width=50% #fig-graf15a}
+
+![Distribuição de entropias (em bits) das categorias funcionais no *corpus* Choro.](../figs/grafico-15b.png){width=50% #fig-graf15b}
+
+![Distribuição de entropias (em bits) das categorias funcionais no *corpus* Samba.](../figs/grafico-15c.png){width=50% #fig-graf15c}
+
+![Distribuição de entropias (em bits) das categorias funcionais no *corpus* Jobim.](../figs/grafico-15d.png){width=50% #fig-graf15d}
+
+![Distribuição de entropias (em bits) das categorias funcionais no *corpus* Lins.](../figs/grafico-15e.png){width=50% #fig-graf15e}
+
+![Distribuição de entropias (em bits) das categorias funcionais no *corpus* Chico.](../figs/grafico-15f.png){width=50% #fig-graf15f}
+
+![Distribuição de entropias (em bits) das categorias funcionais no *corpus* Edu.](../figs/grafico-15g.png){width=50% #fig-graf15g}
+
+![Distribuição de entropias (em bits) das categorias funcionais no *corpus* Caetano.](../figs/grafico-15h.png){width=50% #fig-graf15h}
+
+![Distribuição de entropias (em bits) das categorias funcionais no *corpus* Djavan.](../figs/grafico-15i.png){width=50% #fig-graf15i}
+
+![Distribuição de entropias (em bits) das categorias funcionais no *corpus* Bosco.](../figs/grafico-15j.png){width=50% #fig-graf15j}
+
+![Distribuição de entropias (em bits) das categorias funcionais no *corpus* Milton.](../figs/grafico-15k.png){width=50% #fig-graf15k}
+
+![Distribuição de entropias (em bits) das categorias funcionais no *corpus* Gil.](../figs/grafico-15l.png){width=50% #fig-graf15l}
+
+![Distribuição de entropias (em bits) das categorias funcionais no conjunto MPB (compositores 1 a 10).](../figs/grafico-15m.png){width=50% #fig-graf15m}
+
+![Distribuição de entropias (em bits) das categorias funcionais no *corpus* Jazz.](../figs/grafico-15n.png){width=50% #fig-graf15n}
+
+![Comparação das distribuições de entropias (em bits) das categorias funcionais nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-15.png){width=100% #fig-graf15}
