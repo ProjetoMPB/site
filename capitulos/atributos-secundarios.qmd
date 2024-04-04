@@ -252,7 +252,7 @@ Há, em termos percentuais, uma convergência geral pelas RBFs em alto nível DI
 
 2H3f
 
-![Valores mínimo e máximo para entropia de categorias funcionais por *corpus* (entropia em bits entre parênteses).](../figs/atri-sec-22bis.png){width=60%}
+![Valores mínimo e máximo para entropia de categorias funcionais por *corpus* (entropia em bits entre parênteses).](../figs/atri-sec-22bis.png){width=50%}
 
 #### Discussão
 
