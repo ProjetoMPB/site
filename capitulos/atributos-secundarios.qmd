@@ -250,6 +250,14 @@ O número de RBFs distintas varia consideravelmente -- de 178 (Samba) a 438 (Job
 
 Há, em termos percentuais, uma convergência geral pelas RBFs em alto nível DIA|DIA,^[Destacando-se o peso expressivo dessa RBF nos *corpora* Rita Lee (46.2 %) e Caetano Veloso (44.2 %), os mais altos percentuais de todos, incluindo os repertórios de controle.] excetuando-se os *corpora* Jobim e Chico Buarque, nos quais a predominância recai sobre, respectivamente, DIA|CR, CR|CR.^[Este atributo mais uma vez contribui para reforçar a impressão de ser a harmonia jobiniana mais complexa e excêntrica do que as de seus pares.]
 
+2H3f
+
+![Valores mínimo e máximo para entropia de categorias funcionais por *corpus* (entropia em bits entre parênteses).](../figs/atri-sec-22bis.png){width=60%}
+
+#### Discussão
+
+Há, em termos percentuais, uma convergência geral pelas RBFs em alto nível DIA|DIA,^[Destacando-se o peso expressivo dessa RBF nos *corpora* Rita Lee (46.2 %) e Caetano Veloso (44.2 %), os mais altos percentuais de todos, incluindo os repertórios de controle.] excetuando-se os *corpora* Jobim e Chico Buarque, nos quais a predominância recai sobre, respectivamente, DIA|CR, CR|CR.^[Este atributo mais uma vez contribui para reforçar a impressão de ser a harmonia jobiniana mais complexa e excêntrica do que as de seus pares.]
+
 ---
 
 ### Atributos secundários melódicos
