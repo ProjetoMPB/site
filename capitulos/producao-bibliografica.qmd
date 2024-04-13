@@ -143,3 +143,15 @@ de progressões acordais originais estilisticamente jobinianas por intermédio d
 estocásticos markovianos. O artigo apresenta e descreve os algoritmos criados e a estrutura
 do programa, discutindo ainda como fatores estatísticos são cruciais para a determinação de
 estilos composicionais.
+
+## 2020
+
+### Artigos
+
+#### A Theory for Parsimonious Voice-Leading Classes
+Carlos de Lemos Almada
+
+Musica Theorica, v. 5 n. 2 (DOI: [https://doi.org/10.52930/mt.v5i2.139](https://doi.org/10.52930/mt.v5i2.139))
+
+**Resumo**: Este artigo apresenta um modelo teórico-analítico destinado ao exame de conduções de vozes em música popular, considerando especificamente progressões harmônicas caracterizadas por formações acordais densas e conexões melódicas econômicas, o que é perfeitamente epitomizado pelas composições de Antonio Carlos Jobim. Novos conceitos, tipologias, regras de preferência, terminologias e simbologias específicas, assim como um modelo analítico integrado fornece a fundamentação necessária para a elaboração de um sistema de classes de conduções de vozes parcimoniosas, o que forma o núcleo desta proposta. Aplicações analíticas são apresentadas na seção final do artigo, com o exame de excertos de composições de Jobim.
+
