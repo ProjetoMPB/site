@@ -16,7 +16,7 @@ O Projeto MPB, vinculado ao [Grupo de Pesquisa MusMat](https://musmat.org/), tem
 
 A estrutura deste projeto foi pensada como uma sequência de artigos (ou capítulos) relativamente autônomos a serem publicados gradual e periodicamente, de modo a tornar mais palatável aos leitores a considerável quantidade de informação produzida ao longo da pesquisa. Em linhas gerais, são os seguintes os tópicos a serem publicados:
 
-* **Introdução**
+* **Informações básicas**
     * [Introdução](capitulos/intro.qmd)
     * [A "nossa" MPB](capitulos/nossa-mpb.qmd)
     * [Uma breve discussão sobre estilo musical](capitulos/estilo-musical.qmd)
