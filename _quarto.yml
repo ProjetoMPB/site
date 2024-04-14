@@ -36,7 +36,7 @@ website:
       - href: blog.qmd
         text: Blog do projeto
       - text: "---"
-      - section: Introdução
+      - section: Informações básicas
         contents:
           - href: capitulos/intro.qmd
             text: Introdução
