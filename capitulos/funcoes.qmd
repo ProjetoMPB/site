@@ -26,7 +26,7 @@ Este capítulo explicita a estrutura estratificada de classes, subclasses e cate
 |           | V/IV      | C7       | C7       |
 |           | V/V       | D7       | D7       |
 |           | V/VI      | E7       | Eb7      |
-|           | V/VI      | -        | F7       |
+|           | V/VII     | -        | F7       |
 | SUBV      | SubV      | Db7      | Db7      |
 |           | SubV/II   | Eb7      | Eb7      |
 |           | SubV/III  | F7       | Fb7      |
