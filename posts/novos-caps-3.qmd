@@ -1,0 +1,18 @@
+---
+title: "Publicação de novos capítulos e encontro com Fabian Moss"
+description: "'Gráficos'"
+author: "Hugo Carvalho"
+date: "4/19/2024"
+image: "../figs/moss-ventura.jpeg"
+categories:
+  - noticias do projeto
+  - novos capitulos
+---
+
+Foi lançado mais um capítulo, [Gráficos](../capitulos/graficos.qmd), com diversas ilustrações de quantidades computadas sobre os compositores/as.
+
+Recentemente o pesquisador [Fabian Moss](https://fabian-moss.de/) esteve no Rio de Janeiro, e tivemos a oportunidade de conversar com ele sobre o projeto. Além disso, ele proferiu uma palestra no ciclo Palestras MusMat, disponível no [canal do YouTube do grupo MusMat](https://www.youtube.com/c/musmat). Confira abaixo algumas fotos que tiramos, na Escola de Música da UFRJ e claro, na Lapa!
+
+![](../figs/moss-ventura.jpeg)
+
+![](../figs/moss-lapa.jpeg)

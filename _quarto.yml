@@ -60,6 +60,8 @@ website:
             text: Atributos primários
           - href: capitulos/atributos-secundarios.qmd
             text: Atributos secundários
+          - href: capitulos/graficos.qmd
+            test: Gráficos
       - section: Material suplementar
         contents:
           - href: capitulos/cifragem.qmd

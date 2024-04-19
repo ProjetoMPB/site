@@ -181,7 +181,7 @@ Para cada aspecto examinado são apresentados 13 gráficos referentes aos *corpo
 
 ## Domínio harmônico
 
-#### DISTRIBUIÇÃO DE TONALIDADES
+### DISTRIBUIÇÃO DE TONALIDADES
 
 ![Distribuição de tonalidades principais no *corpus* Jazz.](../figs/grafico-06a.png){width=50% #fig-graf06a}
 
@@ -213,7 +213,7 @@ Para cada aspecto examinado são apresentados 13 gráficos referentes aos *corpo
 
 ![Comparação das distribuições de tonalidades principais nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-06.png){width=100% #fig-graf06}
 
-#### DISTRIBUIÇÃO DE RELAÇÕES BINÁRIAS TONAIS
+### DISTRIBUIÇÃO DE RELAÇÕES BINÁRIAS TONAIS
 
 ![Distribuição de RBTs no *corpus* Jazz.](../figs/grafico-07a.png){width=50% #fig-graf07a}
 
@@ -245,7 +245,7 @@ Para cada aspecto examinado são apresentados 13 gráficos referentes aos *corpo
 
 ![Comparação das distribuições de RBTs nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-07.png){width=100% #fig-graf07}
 
-#### DISTRIBUIÇÃO DE ACORDES ESPECÍFICOS
+### DISTRIBUIÇÃO DE ACORDES ESPECÍFICOS
 
 ![Distribuição de acordes específicos (considerando os 40 mais recorrentes) no *corpus* Jazz.](../figs/grafico-08a.png){width=50% #fig-graf08a}
 
@@ -277,7 +277,7 @@ Para cada aspecto examinado são apresentados 13 gráficos referentes aos *corpo
 
 ![Comparação das distribuições de acordes específicos (considerando os 40 mais recorrentes) nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-08.png){width=100% #fig-graf08}
 
-#### DISTRIBUIÇÃO DE TIPOS ACORDAIS
+### DISTRIBUIÇÃO DE TIPOS ACORDAIS
 
 ![Distribuição de TAs (considerando os 40 mais recorrentes) no *corpus* Jazz.](../figs/grafico-09a.png){width=50% #fig-graf09a}
 
@@ -309,7 +309,7 @@ Para cada aspecto examinado são apresentados 13 gráficos referentes aos *corpo
 
 ![Comparação das distribuições de TAs (considerando os 40 mais recorrentes) nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-09.png){width=100% #fig-graf09}
 
-#### DISTRIBUIÇÃO DAS CATEGORIAS FUNCIONAIS
+### DISTRIBUIÇÃO DAS CATEGORIAS FUNCIONAIS
 
 ![Distribuição de categorias funcionais (considerando os 40 mais recorrentes) no *corpus* Jazz.](../figs/grafico-10a.png){width=50% #fig-graf10a}
 
@@ -341,7 +341,7 @@ Para cada aspecto examinado são apresentados 13 gráficos referentes aos *corpo
 
 ![Comparação das distribuições de categorias funcionais (considerando os 40 mais recorrentes) nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-10.png){width=100% #fig-graf10}
 
-#### DISTRIBUIÇÃO DE RELAÇÕES BINÁRIAS FUNCIONAIS
+### DISTRIBUIÇÃO DE RELAÇÕES BINÁRIAS FUNCIONAIS
 
 ![Distribuição de RBFs (considerando os 40 mais recorrentes) no *corpus* Jazz.](../figs/grafico-11a.png){width=50% #fig-graf11a}
 
@@ -374,7 +374,7 @@ Para cada aspecto examinado são apresentados 13 gráficos referentes aos *corpo
 ![Comparação das distribuições de RBFs (considerando os 40 mais recorrentes) nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-11.png){width=100% #fig-graf11}
 
 
-#### DISTRIBUIÇÃO DE RELAÇÕES BINÁRIAS FUNCIONAIS EM ALTO NÍVEL (entre classes funcionais)
+### DISTRIBUIÇÃO DE RELAÇÕES BINÁRIAS FUNCIONAIS EM ALTO NÍVEL (entre classes funcionais)
 
 ![Distribuição de RBFs em alto nível no *corpus* Jazz.](../figs/grafico-12a.png){width=50% #fig-graf12a}
 
@@ -407,7 +407,7 @@ Para cada aspecto examinado são apresentados 13 gráficos referentes aos *corpo
 ![Comparação das distribuições de RBFs em alto nível nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-12.png){width=100% #fig-graf12}
 
 
-#### DISTRIBUIÇÃO DOS *GENERA* DE TIPOS ACORDAIS
+### DISTRIBUIÇÃO DOS *GENERA* DE TIPOS ACORDAIS
 
 ![Distribuição dos *genera* de tipos acordais no *corpus* Jazz.](../figs/grafico-13a.png){width=50% #fig-graf13a}
 
@@ -440,7 +440,7 @@ Para cada aspecto examinado são apresentados 13 gráficos referentes aos *corpo
 ![Comparação das distribuições dos *genera* de tipos acordais nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-13.png){width=100% #fig-graf13}
 
 
-#### DISTRIBUIÇÃO DOS MOVIMENTOS DE BAIXOS ENTRE ACORDES CONTÍGUOS
+### DISTRIBUIÇÃO DOS MOVIMENTOS DE BAIXOS ENTRE ACORDES CONTÍGUOS
 
 ![Distribuição de movimentos de baixos entre acordes contíguos (números se referem a semitons) no *corpus* Jazz.](../figs/grafico-14a.png){width=50% #fig-graf14a}
 
@@ -472,7 +472,7 @@ Para cada aspecto examinado são apresentados 13 gráficos referentes aos *corpo
 
 ![Comparação das distribuições de movimentos de baixos entre acordes contíguos (números se referem a semitons) nos *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/grafico-14.png){width=100% #fig-graf14}
 
-#### DISTRIBUIÇÃO DAS ENTROPIAS DAS CATEGORIAS FUNCIONAIS
+### DISTRIBUIÇÃO DAS ENTROPIAS DAS CATEGORIAS FUNCIONAIS
 
 ![Distribuição de entropias (em bits) das categorias funcionais no *corpus* Jazz.](../figs/grafico-15a.png){width=50% #fig-graf15a}
 

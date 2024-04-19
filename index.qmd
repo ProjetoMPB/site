@@ -4,12 +4,11 @@ subtitle: "Um estudo sistemático sobre a estrutura da Música Popular Brasileir
 ---
 
 ::: {.callout-warning}
-## ATUALIZAÇÃO EM 01/04/2024
+## ATUALIZAÇÃO EM 19/04/2024
 
-* Lançamento de seis novos capítulos!
-* Possibilidade de comentar e fazer anotações privadas nas páginas.
+* Lançamento do capítulo [Gráficos](capitulos/graficos.qmd)
 
-Para mais detalhes, veja as duas postagens mais recentes no [blog do projeto](blog.qmd).
+Para mais detalhes, veja a postagens mais recentes no [blog do projeto](blog.qmd).
 :::
 
 O Projeto MPB, vinculado ao [Grupo de Pesquisa MusMat](https://musmat.org/), tem como propósito determinar de modo sistemático os contornos do contexto estético-musical que informalmente é denominado Música Popular Brasileira, mais conhecido como MPB. De modo mais específico, a abordagem aqui adotada é multidisciplinar, através da criação de *corpora* de composições representativas da estética em questão seguida de uma minuciosa análise estatística e musical.
