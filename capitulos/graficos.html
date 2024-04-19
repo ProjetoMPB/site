@@ -29,6 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../capitulos/cifragem.html" rel="next">
+<link href="../capitulos/atributos-secundarios.html" rel="prev">
 <link href="../favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -92,7 +94,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Gráficos dos resultados</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../capitulos/atributos-primarios.html">Métricas e resultados</a></li><li class="breadcrumb-item"><a href="../capitulos/graficos.html">Gráficos dos resultados</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -201,13 +203,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
  <span class="menu-text">Métricas e resultados</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false" aria-label="Alternar seção">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Alternar seção">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../capitulos/atributos-primarios.html" class="sidebar-item-text sidebar-link">
@@ -218,6 +220,12 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="../capitulos/atributos-secundarios.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Atributos secundários</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/graficos.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Gráficos dos resultados</span></a>
   </div>
 </li>
       </ul>
@@ -285,14 +293,26 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#subdomínio-do-ritmo" id="toc-subdomínio-do-ritmo" class="nav-link" data-scroll-target="#subdomínio-do-ritmo"><span class="header-section-number">1.2</span> Subdomínio do ritmo</a></li>
   <li><a href="#subdomínio-das-notas-funções" id="toc-subdomínio-das-notas-funções" class="nav-link" data-scroll-target="#subdomínio-das-notas-funções"><span class="header-section-number">1.3</span> Subdomínio das notas-funções</a></li>
   </ul></li>
-  <li><a href="#domínio-harmônico" id="toc-domínio-harmônico" class="nav-link" data-scroll-target="#domínio-harmônico"><span class="header-section-number">2</span> Domínio harmônico</a></li>
+  <li><a href="#domínio-harmônico" id="toc-domínio-harmônico" class="nav-link" data-scroll-target="#domínio-harmônico"><span class="header-section-number">2</span> Domínio harmônico</a>
+  <ul class="collapse">
+  <li><a href="#distribuição-de-tonalidades" id="toc-distribuição-de-tonalidades" class="nav-link" data-scroll-target="#distribuição-de-tonalidades"><span class="header-section-number">2.1</span> DISTRIBUIÇÃO DE TONALIDADES</a></li>
+  <li><a href="#distribuição-de-relações-binárias-tonais" id="toc-distribuição-de-relações-binárias-tonais" class="nav-link" data-scroll-target="#distribuição-de-relações-binárias-tonais"><span class="header-section-number">2.2</span> DISTRIBUIÇÃO DE RELAÇÕES BINÁRIAS TONAIS</a></li>
+  <li><a href="#distribuição-de-acordes-específicos" id="toc-distribuição-de-acordes-específicos" class="nav-link" data-scroll-target="#distribuição-de-acordes-específicos"><span class="header-section-number">2.3</span> DISTRIBUIÇÃO DE ACORDES ESPECÍFICOS</a></li>
+  <li><a href="#distribuição-de-tipos-acordais" id="toc-distribuição-de-tipos-acordais" class="nav-link" data-scroll-target="#distribuição-de-tipos-acordais"><span class="header-section-number">2.4</span> DISTRIBUIÇÃO DE TIPOS ACORDAIS</a></li>
+  <li><a href="#distribuição-das-categorias-funcionais" id="toc-distribuição-das-categorias-funcionais" class="nav-link" data-scroll-target="#distribuição-das-categorias-funcionais"><span class="header-section-number">2.5</span> DISTRIBUIÇÃO DAS CATEGORIAS FUNCIONAIS</a></li>
+  <li><a href="#distribuição-de-relações-binárias-funcionais" id="toc-distribuição-de-relações-binárias-funcionais" class="nav-link" data-scroll-target="#distribuição-de-relações-binárias-funcionais"><span class="header-section-number">2.6</span> DISTRIBUIÇÃO DE RELAÇÕES BINÁRIAS FUNCIONAIS</a></li>
+  <li><a href="#distribuição-de-relações-binárias-funcionais-em-alto-nível-entre-classes-funcionais" id="toc-distribuição-de-relações-binárias-funcionais-em-alto-nível-entre-classes-funcionais" class="nav-link" data-scroll-target="#distribuição-de-relações-binárias-funcionais-em-alto-nível-entre-classes-funcionais"><span class="header-section-number">2.7</span> DISTRIBUIÇÃO DE RELAÇÕES BINÁRIAS FUNCIONAIS EM ALTO NÍVEL (entre classes funcionais)</a></li>
+  <li><a href="#distribuição-dos-genera-de-tipos-acordais" id="toc-distribuição-dos-genera-de-tipos-acordais" class="nav-link" data-scroll-target="#distribuição-dos-genera-de-tipos-acordais"><span class="header-section-number">2.8</span> DISTRIBUIÇÃO DOS <em>GENERA</em> DE TIPOS ACORDAIS</a></li>
+  <li><a href="#distribuição-dos-movimentos-de-baixos-entre-acordes-contíguos" id="toc-distribuição-dos-movimentos-de-baixos-entre-acordes-contíguos" class="nav-link" data-scroll-target="#distribuição-dos-movimentos-de-baixos-entre-acordes-contíguos"><span class="header-section-number">2.9</span> DISTRIBUIÇÃO DOS MOVIMENTOS DE BAIXOS ENTRE ACORDES CONTÍGUOS</a></li>
+  <li><a href="#distribuição-das-entropias-das-categorias-funcionais" id="toc-distribuição-das-entropias-das-categorias-funcionais" class="nav-link" data-scroll-target="#distribuição-das-entropias-das-categorias-funcionais"><span class="header-section-number">2.10</span> DISTRIBUIÇÃO DAS ENTROPIAS DAS CATEGORIAS FUNCIONAIS</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/capitulos/graficos.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/capitulos/graficos.qmd" class="toc-action"><i class="bi empty"></i>Ver o código fonte</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../capitulos/atributos-primarios.html">Métricas e resultados</a></li><li class="breadcrumb-item"><a href="../capitulos/graficos.html">Gráficos dos resultados</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Gráficos dos resultados</h1>
 </div>
@@ -1093,8 +1113,8 @@ Figura&nbsp;75: Comparação das teias globais de notas-funções (valores médi
 </section>
 <section id="domínio-harmônico" class="level2" data-number="2">
 <h2 data-number="2" class="anchored" data-anchor-id="domínio-harmônico"><span class="header-section-number">2</span> Domínio harmônico</h2>
-<section id="distribuição-de-tonalidades" class="level4" data-number="2.0.1">
-<h4 data-number="2.0.1" class="anchored" data-anchor-id="distribuição-de-tonalidades"><span class="header-section-number">2.0.1</span> DISTRIBUIÇÃO DE TONALIDADES</h4>
+<section id="distribuição-de-tonalidades" class="level3" data-number="2.1">
+<h3 data-number="2.1" class="anchored" data-anchor-id="distribuição-de-tonalidades"><span class="header-section-number">2.1</span> DISTRIBUIÇÃO DE TONALIDADES</h3>
 <div id="fig-graf06a" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-graf06a-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -1246,8 +1266,8 @@ Figura&nbsp;90: Comparação das distribuições de tonalidades principais nos <
 </figure>
 </div>
 </section>
-<section id="distribuição-de-relações-binárias-tonais" class="level4" data-number="2.0.2">
-<h4 data-number="2.0.2" class="anchored" data-anchor-id="distribuição-de-relações-binárias-tonais"><span class="header-section-number">2.0.2</span> DISTRIBUIÇÃO DE RELAÇÕES BINÁRIAS TONAIS</h4>
+<section id="distribuição-de-relações-binárias-tonais" class="level3" data-number="2.2">
+<h3 data-number="2.2" class="anchored" data-anchor-id="distribuição-de-relações-binárias-tonais"><span class="header-section-number">2.2</span> DISTRIBUIÇÃO DE RELAÇÕES BINÁRIAS TONAIS</h3>
 <div id="fig-graf07a" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-graf07a-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -1399,8 +1419,8 @@ Figura&nbsp;105: Comparação das distribuições de RBTs nos <em>corpora</em> d
 </figure>
 </div>
 </section>
-<section id="distribuição-de-acordes-específicos" class="level4" data-number="2.0.3">
-<h4 data-number="2.0.3" class="anchored" data-anchor-id="distribuição-de-acordes-específicos"><span class="header-section-number">2.0.3</span> DISTRIBUIÇÃO DE ACORDES ESPECÍFICOS</h4>
+<section id="distribuição-de-acordes-específicos" class="level3" data-number="2.3">
+<h3 data-number="2.3" class="anchored" data-anchor-id="distribuição-de-acordes-específicos"><span class="header-section-number">2.3</span> DISTRIBUIÇÃO DE ACORDES ESPECÍFICOS</h3>
 <div id="fig-graf08a" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-graf08a-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -1552,8 +1572,8 @@ Figura&nbsp;120: Comparação das distribuições de acordes específicos (consi
 </figure>
 </div>
 </section>
-<section id="distribuição-de-tipos-acordais" class="level4" data-number="2.0.4">
-<h4 data-number="2.0.4" class="anchored" data-anchor-id="distribuição-de-tipos-acordais"><span class="header-section-number">2.0.4</span> DISTRIBUIÇÃO DE TIPOS ACORDAIS</h4>
+<section id="distribuição-de-tipos-acordais" class="level3" data-number="2.4">
+<h3 data-number="2.4" class="anchored" data-anchor-id="distribuição-de-tipos-acordais"><span class="header-section-number">2.4</span> DISTRIBUIÇÃO DE TIPOS ACORDAIS</h3>
 <div id="fig-graf09a" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-graf09a-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -1705,8 +1725,8 @@ Figura&nbsp;135: Comparação das distribuições de TAs (considerando os 40 mai
 </figure>
 </div>
 </section>
-<section id="distribuição-das-categorias-funcionais" class="level4" data-number="2.0.5">
-<h4 data-number="2.0.5" class="anchored" data-anchor-id="distribuição-das-categorias-funcionais"><span class="header-section-number">2.0.5</span> DISTRIBUIÇÃO DAS CATEGORIAS FUNCIONAIS</h4>
+<section id="distribuição-das-categorias-funcionais" class="level3" data-number="2.5">
+<h3 data-number="2.5" class="anchored" data-anchor-id="distribuição-das-categorias-funcionais"><span class="header-section-number">2.5</span> DISTRIBUIÇÃO DAS CATEGORIAS FUNCIONAIS</h3>
 <div id="fig-graf10a" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-graf10a-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -1858,8 +1878,8 @@ Figura&nbsp;150: Comparação das distribuições de categorias funcionais (cons
 </figure>
 </div>
 </section>
-<section id="distribuição-de-relações-binárias-funcionais" class="level4" data-number="2.0.6">
-<h4 data-number="2.0.6" class="anchored" data-anchor-id="distribuição-de-relações-binárias-funcionais"><span class="header-section-number">2.0.6</span> DISTRIBUIÇÃO DE RELAÇÕES BINÁRIAS FUNCIONAIS</h4>
+<section id="distribuição-de-relações-binárias-funcionais" class="level3" data-number="2.6">
+<h3 data-number="2.6" class="anchored" data-anchor-id="distribuição-de-relações-binárias-funcionais"><span class="header-section-number">2.6</span> DISTRIBUIÇÃO DE RELAÇÕES BINÁRIAS FUNCIONAIS</h3>
 <div id="fig-graf11a" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-graf11a-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -2011,8 +2031,8 @@ Figura&nbsp;165: Comparação das distribuições de RBFs (considerando os 40 ma
 </figure>
 </div>
 </section>
-<section id="distribuição-de-relações-binárias-funcionais-em-alto-nível-entre-classes-funcionais" class="level4" data-number="2.0.7">
-<h4 data-number="2.0.7" class="anchored" data-anchor-id="distribuição-de-relações-binárias-funcionais-em-alto-nível-entre-classes-funcionais"><span class="header-section-number">2.0.7</span> DISTRIBUIÇÃO DE RELAÇÕES BINÁRIAS FUNCIONAIS EM ALTO NÍVEL (entre classes funcionais)</h4>
+<section id="distribuição-de-relações-binárias-funcionais-em-alto-nível-entre-classes-funcionais" class="level3" data-number="2.7">
+<h3 data-number="2.7" class="anchored" data-anchor-id="distribuição-de-relações-binárias-funcionais-em-alto-nível-entre-classes-funcionais"><span class="header-section-number">2.7</span> DISTRIBUIÇÃO DE RELAÇÕES BINÁRIAS FUNCIONAIS EM ALTO NÍVEL (entre classes funcionais)</h3>
 <div id="fig-graf12a" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-graf12a-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -2164,8 +2184,8 @@ Figura&nbsp;180: Comparação das distribuições de RBFs em alto nível nos <em
 </figure>
 </div>
 </section>
-<section id="distribuição-dos-genera-de-tipos-acordais" class="level4" data-number="2.0.8">
-<h4 data-number="2.0.8" class="anchored" data-anchor-id="distribuição-dos-genera-de-tipos-acordais"><span class="header-section-number">2.0.8</span> DISTRIBUIÇÃO DOS <em>GENERA</em> DE TIPOS ACORDAIS</h4>
+<section id="distribuição-dos-genera-de-tipos-acordais" class="level3" data-number="2.8">
+<h3 data-number="2.8" class="anchored" data-anchor-id="distribuição-dos-genera-de-tipos-acordais"><span class="header-section-number">2.8</span> DISTRIBUIÇÃO DOS <em>GENERA</em> DE TIPOS ACORDAIS</h3>
 <div id="fig-graf13a" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-graf13a-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -2317,8 +2337,8 @@ Figura&nbsp;195: Comparação das distribuições dos <em>genera</em> de tipos a
 </figure>
 </div>
 </section>
-<section id="distribuição-dos-movimentos-de-baixos-entre-acordes-contíguos" class="level4" data-number="2.0.9">
-<h4 data-number="2.0.9" class="anchored" data-anchor-id="distribuição-dos-movimentos-de-baixos-entre-acordes-contíguos"><span class="header-section-number">2.0.9</span> DISTRIBUIÇÃO DOS MOVIMENTOS DE BAIXOS ENTRE ACORDES CONTÍGUOS</h4>
+<section id="distribuição-dos-movimentos-de-baixos-entre-acordes-contíguos" class="level3" data-number="2.9">
+<h3 data-number="2.9" class="anchored" data-anchor-id="distribuição-dos-movimentos-de-baixos-entre-acordes-contíguos"><span class="header-section-number">2.9</span> DISTRIBUIÇÃO DOS MOVIMENTOS DE BAIXOS ENTRE ACORDES CONTÍGUOS</h3>
 <div id="fig-graf14a" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-graf14a-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -2470,8 +2490,8 @@ Figura&nbsp;210: Comparação das distribuições de movimentos de baixos entre 
 </figure>
 </div>
 </section>
-<section id="distribuição-das-entropias-das-categorias-funcionais" class="level4" data-number="2.0.10">
-<h4 data-number="2.0.10" class="anchored" data-anchor-id="distribuição-das-entropias-das-categorias-funcionais"><span class="header-section-number">2.0.10</span> DISTRIBUIÇÃO DAS ENTROPIAS DAS CATEGORIAS FUNCIONAIS</h4>
+<section id="distribuição-das-entropias-das-categorias-funcionais" class="level3" data-number="2.10">
+<h3 data-number="2.10" class="anchored" data-anchor-id="distribuição-das-entropias-das-categorias-funcionais"><span class="header-section-number">2.10</span> DISTRIBUIÇÃO DAS ENTROPIAS DAS CATEGORIAS FUNCIONAIS</h3>
 <div id="fig-graf15a" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-graf15a-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -3181,6 +3201,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../capitulos/atributos-secundarios.html" class="pagination-link" aria-label="Atributos secundários">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Atributos secundários</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../capitulos/cifragem.html" class="pagination-link" aria-label="Cifragem">
+        <span class="nav-page-text">Cifragem</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
