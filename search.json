@@ -402,6 +402,44 @@
     ]
   },
   {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog do Projeto MPB",
+    "section": "",
+    "text": "No blog do Projeto MPB você encontrará notícias sobre o projeto, como: lançamentos de novos capítulos, publicações de artigos, apresentações, composições, e outras informações pertinentes.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublicação de novos capítulos e encontro com Fabian Moss\n\n\n\n\n\n\nnoticias do projeto\n\n\nnovos capitulos\n\n\n\n‘Gráficos’\n\n\n\n\n\n19 de abr. de 2024\n\n\nHugo Carvalho\n\n\n\n\n\n\n\n\n\n\n\n\nPublicação de novos capítulos e plataforma de comentários\n\n\n\n\n\n\nnoticias do projeto\n\n\nnovos capitulos\n\n\n\n‘Atributos secundários’ e outras atualizações\n\n\n\n\n\n1 de abr. de 2024\n\n\nHugo Carvalho\n\n\n\n\n\n\n\n\n\n\n\n\nPublicação de novos capítulos\n\n\n\n\n\n\nnoticias do projeto\n\n\nnovos capitulos\n\n\n\n‘Atributos primários’ e ‘Probabilidade e entropia’\n\n\n\n\n\n27 de mar. de 2024\n\n\nHugo Carvalho\n\n\n\n\n\n\n\n\n\n\n\n\nLançamento oficial do site\n\n\n\n\n\n\nnoticias do projeto\n\n\n\nBem-vindos ao Projeto MPB!\n\n\n\n\n\n4 de mar. de 2024\n\n\nHugo Carvalho\n\n\n\n\n\n\nNenhum item correspondente",
+    "crumbs": [
+      "Blog do projeto"
+    ]
+  },
+  {
+    "objectID": "posts/novos-caps-3.html",
+    "href": "posts/novos-caps-3.html",
+    "title": "Publicação de novos capítulos e encontro com Fabian Moss",
+    "section": "",
+    "text": "Foi lançado mais um capítulo, Gráficos, com diversas ilustrações de quantidades computadas sobre os compositores/as.\nRecentemente o pesquisador Fabian Moss esteve no Rio de Janeiro, e tivemos a oportunidade de conversar com ele sobre o projeto. Além disso, ele proferiu uma palestra no ciclo Palestras MusMat, disponível no canal do YouTube do grupo MusMat. Confira abaixo algumas fotos que tiramos, na Escola de Música da UFRJ e claro, na Lapa!"
+  },
+  {
+    "objectID": "posts/novos-caps-1.html",
+    "href": "posts/novos-caps-1.html",
+    "title": "Publicação de novos capítulos",
+    "section": "",
+    "text": "Temos o prazer de anunciar o lançamento de dois novos capítulos do projeto, Atributos primários e Probabilidade e entropia: o primeiro inaugura a seção de “Métricas e resultados” do projeto, discutindo atributos mais básicos sobre os corpora analisados; o segundo traz conteúdos básicos de Teoria de Probabilidades e entropia de variáveis aleatórias, de grande importância para a quantificação estilística desejada, bem como em aplicações composicionais, a serem futuramente divulgadas.\nBoa leitura!"
+  },
+  {
+    "objectID": "posts/lançamento.html",
+    "href": "posts/lançamento.html",
+    "title": "Lançamento oficial do site",
+    "section": "",
+    "text": "No exótico dia de 29 de fevereiro de 2024, foi lançado oficialmente o site do Projeto MPB, juntamente com a cerimônia de lançamento do livro A Melodia de Jobim (Almada 2023). O evento aconteceu no Instituto Antonio Carlos Jobim, no bairo Jardim Botânico da cidade do Rio de Janeiro. Não poderia haver local mais pertinente para tal evento: o maestro já morou no bairro, e era um apaixonado pela região. Na foto abaixo, parte da equipe e convidados celebram ambos os lançamentos em um jantar no restaurante Braseiro da Gávea.\n\n\n\n\n\nReferências\n\nAlmada, Carlos. 2023. A Melodia de Jobim. Campinas: Editora da Unicamp."
+  },
+  {
+    "objectID": "posts/novos-caps-2.html",
+    "href": "posts/novos-caps-2.html",
+    "title": "Publicação de novos capítulos e plataforma de comentários",
+    "section": "",
+    "text": "E mais capítulos foram lançados! A continuação da análise foi publicada, e você pode vê-la no capítulo Atributos secundários. Além disso, novos materiais suplementares também estão disponíveis: Cifragem, Funções e Tipos acordais.\nA outra novidade é que agora você pode fazer comentários na página do projeto, e também fazer anotações privadas para guiar a sua leitura. Abra a interface de comentários no botão “&lt;” no canto superior direito da sua tela, e clique no ícone com um papel dobrado para deixar um comentário na página. Você também pode deixar um comentário em um local específico dentro de uma página, selecionando o texto desejado e clicando em “Annotate” na interface que irá aparecer – essas anotações serão públicas, e qualquer leitor(a) conseguirá vê-las. Para fazer anotações privadas em sua leitura, selecione o texto desejado e clique em “Highlight”. Para fazer qualquer comentário ou anotação é necessário um rápido cadastro na plataforma Hypothes.is – assim evitamos comentários de spam e você consegue ter as suas anotações privadas de modo permanente, sem depender de cookies do navegador.\nBoa leitura!"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Projeto MPB",
@@ -450,58 +488,6 @@
     "crumbs": [
       "Página inicial"
     ]
-  },
-  {
-    "objectID": "posts/novos-caps-2.html",
-    "href": "posts/novos-caps-2.html",
-    "title": "Publicação de novos capítulos e plataforma de comentários",
-    "section": "",
-    "text": "E mais capítulos foram lançados! A continuação da análise foi publicada, e você pode vê-la no capítulo Atributos secundários. Além disso, novos materiais suplementares também estão disponíveis: Cifragem, Funções e Tipos acordais.\nA outra novidade é que agora você pode fazer comentários na página do projeto, e também fazer anotações privadas para guiar a sua leitura. Abra a interface de comentários no botão “&lt;” no canto superior direito da sua tela, e clique no ícone com um papel dobrado para deixar um comentário na página. Você também pode deixar um comentário em um local específico dentro de uma página, selecionando o texto desejado e clicando em “Annotate” na interface que irá aparecer – essas anotações serão públicas, e qualquer leitor(a) conseguirá vê-las. Para fazer anotações privadas em sua leitura, selecione o texto desejado e clique em “Highlight”. Para fazer qualquer comentário ou anotação é necessário um rápido cadastro na plataforma Hypothes.is – assim evitamos comentários de spam e você consegue ter as suas anotações privadas de modo permanente, sem depender de cookies do navegador.\nBoa leitura!"
-  },
-  {
-    "objectID": "posts/lançamento.html",
-    "href": "posts/lançamento.html",
-    "title": "Lançamento oficial do site",
-    "section": "",
-    "text": "No exótico dia de 29 de fevereiro de 2024, foi lançado oficialmente o site do Projeto MPB, juntamente com a cerimônia de lançamento do livro A Melodia de Jobim (Almada 2023). O evento aconteceu no Instituto Antonio Carlos Jobim, no bairo Jardim Botânico da cidade do Rio de Janeiro. Não poderia haver local mais pertinente para tal evento: o maestro já morou no bairro, e era um apaixonado pela região. Na foto abaixo, parte da equipe e convidados celebram ambos os lançamentos em um jantar no restaurante Braseiro da Gávea.\n\n\n\n\n\nReferências\n\nAlmada, Carlos. 2023. A Melodia de Jobim. Campinas: Editora da Unicamp."
-  },
-  {
-    "objectID": "posts/novos-caps-1.html",
-    "href": "posts/novos-caps-1.html",
-    "title": "Publicação de novos capítulos",
-    "section": "",
-    "text": "Temos o prazer de anunciar o lançamento de dois novos capítulos do projeto, Atributos primários e Probabilidade e entropia: o primeiro inaugura a seção de “Métricas e resultados” do projeto, discutindo atributos mais básicos sobre os corpora analisados; o segundo traz conteúdos básicos de Teoria de Probabilidades e entropia de variáveis aleatórias, de grande importância para a quantificação estilística desejada, bem como em aplicações composicionais, a serem futuramente divulgadas.\nBoa leitura!"
-  },
-  {
-    "objectID": "posts/novos-caps-3.html",
-    "href": "posts/novos-caps-3.html",
-    "title": "Publicação de novos capítulos e encontro com Fabian Moss",
-    "section": "",
-    "text": "Foi lançado mais um capítulo, Gráficos, com diversas ilustrações de quantidades computadas sobre os compositores/as.\nRecentemente o pesquisador Fabian Moss esteve no Rio de Janeiro, e tivemos a oportunidade de conversar com ele sobre o projeto. Além disso, ele proferiu uma palestra no ciclo Palestras MusMat, disponível no canal do YouTube do grupo MusMat. Confira abaixo algumas fotos que tiramos, na Escola de Música da UFRJ e claro, na Lapa!"
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog do Projeto MPB",
-    "section": "",
-    "text": "No blog do Projeto MPB você encontrará notícias sobre o projeto, como: lançamentos de novos capítulos, publicações de artigos, apresentações, composições, e outras informações pertinentes.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublicação de novos capítulos e encontro com Fabian Moss\n\n\n\n\n\n\nnoticias do projeto\n\n\nnovos capitulos\n\n\n\n‘Gráficos’\n\n\n\n\n\n19 de abr. de 2024\n\n\nHugo Carvalho\n\n\n\n\n\n\n\n\n\n\n\n\nPublicação de novos capítulos e plataforma de comentários\n\n\n\n\n\n\nnoticias do projeto\n\n\nnovos capitulos\n\n\n\n‘Atributos secundários’ e outras atualizações\n\n\n\n\n\n1 de abr. de 2024\n\n\nHugo Carvalho\n\n\n\n\n\n\n\n\n\n\n\n\nPublicação de novos capítulos\n\n\n\n\n\n\nnoticias do projeto\n\n\nnovos capitulos\n\n\n\n‘Atributos primários’ e ‘Probabilidade e entropia’\n\n\n\n\n\n27 de mar. de 2024\n\n\nHugo Carvalho\n\n\n\n\n\n\n\n\n\n\n\n\nLançamento oficial do site\n\n\n\n\n\n\nnoticias do projeto\n\n\n\nBem-vindos ao Projeto MPB!\n\n\n\n\n\n4 de mar. de 2024\n\n\nHugo Carvalho\n\n\n\n\n\n\nNenhum item correspondente",
-    "crumbs": [
-      "Blog do projeto"
-    ]
-  },
-  {
-    "objectID": "n-grams.html",
-    "href": "n-grams.html",
-    "title": "N-gramas",
-    "section": "",
-    "text": "** Introdução\nO conceito de n-gramas (ou n-grams em sua versão original, em inglês) pode ser basicamente definido como sequências contíguas de n elementos, podendo ser aplicado a qualquer tipo de sequência de símbolos, como, por exemplo, em textos ou elementos musicais, como é diretamente de nosso interesse. O valor de n no termo indica, propriamente, o número de transições da sequência. Assim, podemos ter 0-gramas (nenhuma transição, ou seja, apenas um elemento), 1-gramas (uma transição, dois elementos), 2-gramas (duas transições contíguas, três elementos) e assim ´pr diante. O conceito de n-gramas tem suas origens na teoria da probabilidade e na linguística computacional, remontando, assim como a ideia de entropia (ver capítulo Probabilidade e entropia), aos trabalhos de Claude Shannon na década de 1940 sobre Teoria da Informação, a partir de uma intenção de quantificar a redundância em sequências de símbolos em textos. Na década de 1950 e 1960, com o surgimento da linguística computacional, os n-gramas foramempregados para modelar a linguagem natural, o que foi principalmente aperfeiçoado pelo trabalho de George Kingsley Zipf,1 que observou padrões na frequência das palavras em textos em inúmeros livros, independentemente da época ou do idioma em que foram escritos. No contexto do Projeto MPB"
-  },
-  {
-    "objectID": "n-grams.html#footnotes",
-    "href": "n-grams.html#footnotes",
-    "title": "N-gramas",
-    "section": "Notas de rodapé",
-    "text": "Notas de rodapé\n\n\nVer Zipf (1965).↩︎"
   },
   {
     "objectID": "capitulos/tipos-acordais.html",
