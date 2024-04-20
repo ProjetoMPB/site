@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -306,15 +326,20 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>** Introdução</p>
-<p>O conceito de <em>n-gramas</em> (ou <em>n-grams</em> em sua versão original, em inglês) pode ser basicamente definido como sequências contíguas de n elementos, podendo ser aplicado a qualquer tipo de sequência de símbolos, como, por exemplo, em textos ou elementos musicais, como diretamente nos interessa (principalmente categorias funcionais, c-letras e r-letras). O valor de <em>n</em> no termo indica, propriamente, o número de transições da sequência. Assim, podemos ter 0-gramas (nenhuma transição, ou seja, apenas um elemento), 1-gramas (uma transição, dois elementos), 2-gramas (duas transições contíguas, três elementos) e assim ´pr diante. O conceito de n-gramas tem suas origens na teoria da probabilidade e na linguística computacional, remontando, assim como a ideia de <em>entropia</em> (ver capítulo <a href="probabilidade.qmd">Probabilidade e entropia</a>), aos trabalhos de Claude Shannon na década de 1940 sobre Teoria da Informação, a partir de uma intenção de quantificar a redundância em sequências de símbolos em textos. Na década de 1950 e 1960, com o surgimento da linguística computacional, os n-gramas foramempregados para modelar a linguagem natural, o que foi principalmente aperfeiçoado pelo trabalho de George Kingsley Zipf,<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> que observou regularidades na frequência das palavras em textos. Aplicações: Os n-gramas têm sido amplamente utilizados em várias aplicações de processamento de linguagem natural (PLN) e recuperação de informação. Eles são usados para modelar a probabilidade de ocorrência de palavras ou caracteres em um texto, o que é útil para tarefas como correção ortográfica, tradução automática, análise de sentimentos e muito mais. Desafios e Desenvolvimentos: Embora os n-gramas tenham sido uma ferramenta poderosa, eles enfrentam desafios em lidar com a complexidade da linguagem natural, como a ambiguidade e a variação linguística. Isso levou ao desenvolvimento de modelos mais avançados, como redes neurais recorrentes e transformers, que podem capturar melhor essas nuances. Em resumo, os n-gramas são uma ferramenta fundamental no processamento de linguagem natural, com uma história rica e contínua relevância em várias aplicações modernas.</p>
+<p>O conceito de <em>n-gramas</em> (ou <em>n-grams</em> em sua versão original, em inglês) pode ser basicamente definido como sequências contíguas de n elementos, podendo ser aplicado a qualquer tipo de sequência de símbolos, como, por exemplo, em textos ou elementos musicais, como é diretamente de nosso interesse. O valor de <em>n</em> no termo indica, propriamente, o número de transições da sequência. Assim, podemos ter 0-gramas (nenhuma transição, ou seja, apenas um elemento), 1-gramas (uma transição, dois elementos), 2-gramas (duas transições contíguas, três elementos) e assim ´pr diante. O conceito de n-gramas tem suas origens na teoria da probabilidade e na linguística computacional, remontando, assim como a ideia de <em>entropia</em> (ver capítulo <a href="probabilidade.qmd">Probabilidade e entropia</a>), aos trabalhos de Claude Shannon na década de 1940 sobre Teoria da Informação, a partir de uma intenção de quantificar a redundância em sequências de símbolos em textos. Na década de 1950 e 1960, com o surgimento da linguística computacional, os n-gramas foramempregados para modelar a linguagem natural, o que foi principalmente aperfeiçoado pelo trabalho de George Kingsley Zipf,<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> que observou padrões na frequência das palavras em textos em inúmeros livros, independentemente da época ou do idioma em que foram escritos. No contexto do Projeto MPB</p>
 
 
 
 
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Notas de rodapé</h2>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referências</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-zipf-psycho" class="csl-entry" role="listitem">
+Zipf, George. 1965. <em>The Psycho-Biology Of Language</em>. Cambridge: The MIT Press.
+</div>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Notas de rodapé</h2>
 
 <ol>
-<li id="fn1"><p>Ver <span class="citation" data-cites="zipf">(<a href="#ref-zipf" role="doc-biblioref"><strong>zipf?</strong></a>)</span>.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>Ver <span class="citation" data-cites="zipf-psycho">Zipf (<a href="#ref-zipf-psycho" role="doc-biblioref">1965</a>)</span>.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
