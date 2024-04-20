@@ -30,6 +30,7 @@ A estrutura deste projeto foi pensada como uma sequência de artigos (ou capítu
     * [Atributos secundários](capitulos/atributos-secundarios.qmd)
     * Atributos terciários
     * Gráficos comparativos (fase 1)
+    * N-gramas
 * **Aplicações composicionais**
     * Aplicações composicionais
 * **Materiais suplementares**
