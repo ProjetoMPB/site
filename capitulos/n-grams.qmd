@@ -1,0 +1,11 @@
+---
+title: N-gramas
+---
+
+** Introdução
+
+
+*N-gramas* (ou *n-grams* em sua versão original, em inglês) podem ser basicamente definidos como sequências contíguas de n elementos, podendo ser aplicado a qualquer tipo de sequência de símbolos, como, por exemplo, em textos ou elementos musicais, como é diretamente de nosso interesse. O valor de *n* no termo indica, propriamente, o número de transições da sequência. Assim, podemos ter 0-gramas (nenhuma transição, ou seja, apenas um elemento), 1-gramas (uma transição, dois elementos), 2-gramas (duas transições contíguas, três elementos) e assim por diante.
+
+O conceito de n-gramas tem suas origens na teoria da probabilidade e na linguística computacional, remontando, assim como a ideia de *entropia* (ver capítulo [Probabilidade e entropia](probabilidade.qmd)), às pesquisas de Claude Shannon na década de 1940 sobre Teoria da Informação, a partir de uma intenção de quantificar a redundância em sequências de símbolos em textos. Na década de 1950 e 1960, com o surgimento da linguística computacional, os n-gramas foramempregados para modelar a linguagem natural, o que foi principalmente aperfeiçoado pelo trabalho de George Kingsley Zipf,^[Ver @zipf-psycho.] que observou padrões na frequência das palavras em textos em inúmeros livros, independentemente de época ou de idioma em que foram escritos. 
+No contexto do Projeto MPB........
