@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Projeto MPB - Blog do Projeto MPB</title>
+<title>Projeto MPB - N-gramas</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,10 +29,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./index.html" rel="prev">
 <link href="./favicon.ico" rel="icon">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -71,35 +68,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Procurar"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script type="application/json" class="js-hypothesis-config">
 {
   "showHighlights": "never"
@@ -112,35 +80,6 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -153,7 +92,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./blog.html">Blog do projeto</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">N-gramas</li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -191,7 +130,7 @@ window.Quarto = {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./blog.html" class="sidebar-item-text sidebar-link active">
+  <a href="./blog.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Blog do projeto</span></a>
   </div>
 </li>
@@ -343,13 +282,13 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categorias</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Tudo <span class="quarto-category-count">(4)</span></div><div class="category" data-category="noticias do projeto">noticias do projeto <span class="quarto-category-count">(4)</span></div><div class="category" data-category="novos capitulos">novos capitulos <span class="quarto-category-count">(3)</span></div></div></div>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Blog do Projeto MPB</h1>
+<h1 class="title">N-gramas</h1>
 </div>
 
 
@@ -366,159 +305,18 @@ window.Quarto = {
 </header>
 
 
-<p>No blog do Projeto MPB você encontrará notícias sobre o projeto, como: lançamentos de novos capítulos, publicações de artigos, apresentações, composições, e outras informações pertinentes.</p>
+<p>** Introdução</p>
+<p>O conceito de <em>n-gramas</em> (ou <em>n-grams</em> em sua versão original, em inglês) pode ser basicamente definido como sequências contíguas de n elementos, podendo ser aplicado a qualquer tipo de sequência de símbolos, como, por exemplo, em textos ou elementos musicais, como diretamente nos interessa (principalmente categorias funcionais, c-letras e r-letras). O valor de <em>n</em> no termo indica, propriamente, o número de transições da sequência. Assim, podemos ter 0-gramas (nenhuma transição, ou seja, apenas um elemento), 1-gramas (uma transição, dois elementos), 2-gramas (duas transições contíguas, três elementos) e assim ´pr diante. O conceito de n-gramas tem suas origens na teoria da probabilidade e na linguística computacional, remontando, assim como a ideia de <em>entropia</em> (ver capítulo <a href="probabilidade.qmd">Probabilidade e entropia</a>), aos trabalhos de Claude Shannon na década de 1940 sobre Teoria da Informação, a partir de uma intenção de quantificar a redundância em sequências de símbolos em textos. Na década de 1950 e 1960, com o surgimento da linguística computacional, os n-gramas foramempregados para modelar a linguagem natural, o que foi principalmente aperfeiçoado pelo trabalho de George Kingsley Zipf,<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> que observou regularidades na frequência das palavras em textos. Aplicações: Os n-gramas têm sido amplamente utilizados em várias aplicações de processamento de linguagem natural (PLN) e recuperação de informação. Eles são usados para modelar a probabilidade de ocorrência de palavras ou caracteres em um texto, o que é útil para tarefas como correção ortográfica, tradução automática, análise de sentimentos e muito mais. Desafios e Desenvolvimentos: Embora os n-gramas tenham sido uma ferramenta poderosa, eles enfrentam desafios em lidar com a complexidade da linguagem natural, como a ambiguidade e a variação linguística. Isso levou ao desenvolvimento de modelos mais avançados, como redes neurais recorrentes e transformers, que podem capturar melhor essas nuances. Em resumo, os n-gramas são uma ferramenta fundamental no processamento de linguagem natural, com uma história rica e contínua relevância em várias aplicações modernas.</p>
 
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="noticias do projeto,novos capitulos" data-listing-date-sort="1713484800000" data-listing-file-modified-sort="1713636857685" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="69">
-<div class="thumbnail">
-<p><a href="./posts/novos-caps-3.html" class="no-external"></a></p><a href="./posts/novos-caps-3.html" class="no-external">
-<p><img src="./figs/moss-ventura.jpeg" class="thumbnail-image"></p>
-</a><p><a href="./posts/novos-caps-3.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/novos-caps-3.html" class="no-external">Publicação de novos capítulos e encontro com Fabian Moss</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/novos-caps-3.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('noticias do projeto'); return false;">
-noticias do projeto
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('novos capitulos'); return false;">
-novos capitulos
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/novos-caps-3.html" class="no-external">‘Gráficos’</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/novos-caps-3.html" class="no-external">
-<div class="listing-date">
-19 de abr. de 2024
-</div>
-<div class="listing-author">
-Hugo Carvalho
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="noticias do projeto,novos capitulos" data-listing-date-sort="1711929600000" data-listing-file-modified-sort="1713636857685" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="174">
-<div class="thumbnail">
-<p><a href="./posts/novos-caps-2.html" class="no-external"></a></p><a href="./posts/novos-caps-2.html" class="no-external">
-<p><img src="./figs/atri-sec-03.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/novos-caps-2.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/novos-caps-2.html" class="no-external">Publicação de novos capítulos e plataforma de comentários</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/novos-caps-2.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('noticias do projeto'); return false;">
-noticias do projeto
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('novos capitulos'); return false;">
-novos capitulos
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/novos-caps-2.html" class="no-external">‘Atributos secundários’ e outras atualizações</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/novos-caps-2.html" class="no-external">
-<div class="listing-date">
-1 de abr. de 2024
-</div>
-<div class="listing-author">
-Hugo Carvalho
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="noticias do projeto,novos capitulos" data-listing-date-sort="1711497600000" data-listing-file-modified-sort="1713636857685" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
-<div class="thumbnail">
-<p><a href="./posts/novos-caps-1.html" class="no-external"></a></p><a href="./posts/novos-caps-1.html" class="no-external">
-<p><img src="./figs/probabilidade-01.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/novos-caps-1.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/novos-caps-1.html" class="no-external">Publicação de novos capítulos</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/novos-caps-1.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('noticias do projeto'); return false;">
-noticias do projeto
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('novos capitulos'); return false;">
-novos capitulos
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/novos-caps-1.html" class="no-external">‘Atributos primários’ e ‘Probabilidade e entropia’</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/novos-caps-1.html" class="no-external">
-<div class="listing-date">
-27 de mar. de 2024
-</div>
-<div class="listing-author">
-Hugo Carvalho
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="noticias do projeto" data-listing-date-sort="1709510400000" data-listing-file-modified-sort="1713636857685" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="89">
-<div class="thumbnail">
-<p><a href="./posts/lançamento.html" class="no-external"></a></p><a href="./posts/lançamento.html" class="no-external">
-<p><img src="./fotos/lancamento-livro-almada-e-site.jpeg" class="thumbnail-image"></p>
-</a><p><a href="./posts/lançamento.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/lançamento.html" class="no-external">Lançamento oficial do site</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/lançamento.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('noticias do projeto'); return false;">
-noticias do projeto
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/lançamento.html" class="no-external">Bem-vindos ao Projeto MPB!</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/lançamento.html" class="no-external">
-<div class="listing-date">
-4 de mar. de 2024
-</div>
-<div class="listing-author">
-Hugo Carvalho
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-Nenhum item correspondente
-</div>
-</div></main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Notas de rodapé</h2>
+
+<ol>
+<li id="fn1"><p>Ver <span class="citation" data-cites="zipf">(<a href="#ref-zipf" role="doc-biblioref"><strong>zipf?</strong></a>)</span>.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -1072,15 +870,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link" aria-label="Página inicial">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Página inicial</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -1091,7 +880,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/blog.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/blog.qmd" class="toc-action"><i class="bi empty"></i>Ver o código fonte</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></div>
+    <div class="toc-actions"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/n-grams.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/n-grams.qmd" class="toc-action"><i class="bi empty"></i>Ver o código fonte</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Página construída em <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
