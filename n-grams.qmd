@@ -1,0 +1,12 @@
+---
+title: N-gramas
+---
+
+** Introdução
+
+
+O conceito de *n-gramas* (ou *n-grams* em sua versão original, em inglês) pode ser basicamente definido como sequências contíguas de n elementos, podendo ser aplicado a qualquer tipo de sequência de símbolos, como, por exemplo, em textos ou elementos musicais, como diretamente nos interessa (principalmente categorias funcionais, c-letras e r-letras). O valor de *n* no termo indica, propriamente, o número de transições da sequência. Assim, podemos ter 0-gramas (nenhuma transição, ou seja, apenas um elemento), 1-gramas (uma transição, dois elementos), 2-gramas (duas transições contíguas, três elementos) e assim ´pr diante.
+O conceito de n-gramas tem suas origens na teoria da probabilidade e na linguística computacional, remontando, assim como a ideia de *entropia* (ver capítulo [Probabilidade e entropia](probabilidade.qmd)), aos trabalhos de Claude Shannon na década de 1940 sobre Teoria da Informação, a partir de uma intenção de quantificar a redundância em sequências de símbolos em textos. Na década de 1950 e 1960, com o surgimento da linguística computacional, os n-gramas foramempregados para modelar a linguagem natural, o que foi principalmente aperfeiçoado pelo trabalho de George Kingsley Zipf,^[Ver @zipf.] que observou regularidades na frequência das palavras em textos.
+Aplicações: Os n-gramas têm sido amplamente utilizados em várias aplicações de processamento de linguagem natural (PLN) e recuperação de informação. Eles são usados para modelar a probabilidade de ocorrência de palavras ou caracteres em um texto, o que é útil para tarefas como correção ortográfica, tradução automática, análise de sentimentos e muito mais.
+Desafios e Desenvolvimentos: Embora os n-gramas tenham sido uma ferramenta poderosa, eles enfrentam desafios em lidar com a complexidade da linguagem natural, como a ambiguidade e a variação linguística. Isso levou ao desenvolvimento de modelos mais avançados, como redes neurais recorrentes e transformers, que podem capturar melhor essas nuances.
+Em resumo, os n-gramas são uma ferramenta fundamental no processamento de linguagem natural, com uma história rica e contínua relevância em várias aplicações modernas.
