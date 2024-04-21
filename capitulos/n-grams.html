@@ -305,7 +305,10 @@ div.csl-indent {
     <h2 id="toc-title">Nesta página</h2>
    
   <ul>
-  <li><a href="#introdução" id="toc-introdução" class="nav-link active" data-scroll-target="#introdução"><span class="header-section-number">1</span> Introdução</a></li>
+  <li><a href="#introdução" id="toc-introdução" class="nav-link active" data-scroll-target="#introdução"><span class="header-section-number">1</span> Introdução</a>
+  <ul class="collapse">
+  <li><a href="#n-gramas-no-domínio-da-harmonia" id="toc-n-gramas-no-domínio-da-harmonia" class="nav-link" data-scroll-target="#n-gramas-no-domínio-da-harmonia"><span class="header-section-number">1.1</span> N-gramas no domínio da harmonia</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/capitulos/n-grams.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/capitulos/n-grams.qmd" class="toc-action"><i class="bi empty"></i>Ver o código fonte</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
     </div>
@@ -335,7 +338,9 @@ div.csl-indent {
 <h2 data-number="1" class="anchored" data-anchor-id="introdução"><span class="header-section-number">1</span> Introdução</h2>
 <p><em>N-gramas</em> (ou <em>n-grams</em> em sua versão original, em inglês) podem ser basicamente definidos como sequências contíguas de <em>n</em> itens. Tal conceito pode ser aplicado a qualquer sequência de símbolos, como acontece em textos (a aplicação original), mas também em outros tipos de informação simbólica notada sequencialmente, como se observa em sequenciação de aminoácidos (em biologia computacional) ou em música, o que se associa diretamente a nossos interesses.</p>
 <p>O conceito de n-gramas tem suas origens na teoria da probabilidade e na linguística computacional, remontando – assim como a ideia de <em>entropia</em> (ver capítulo <a href="../capitulos/probabilidade.html">Probabilidade e entropia</a>) – às primeiras formulações de Claude Shannon na década de 1940 sobre Teoria da Informação, a partir de uma intenção de quantificar a redundância em sequências de símbolos em textos. Na década de 1950 e 1960, com o surgimento da linguística computacional, os n-gramas foram empregados para modelar a linguagem natural, o que foi principalmente aperfeiçoado pelo trabalho de George Kingsley Zipf,<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> que observou padrões na frequência das palavras em textos em inúmeros livros, independentemente de época ou de idioma em que foram escritos.</p>
-<p>No contexto do Projeto MPB……</p>
+<p>No contexto do Projeto MPB, com o intuito de trazer mais luzes para as preferências estilísitcas, n-gramas podem ser aplicados a diversas estruturas. Destacamos especialmente três delas para exames, cada qual associada a um domínio/subdomínio: c-letras (alturas), r-letras (ritmo) e categrias funcionais (harmonia). A bem da verdade, alguns dos levantamentos com n-gramas correspondem a atributos já avaliados, como é o caso da distribuição de c-letras (1-grama); a distribuição de r-letras (1-grama), r-dissílabos (2-grama) e r-trissílabos (3-grama); a distribuição de categorias funcionais (1-grama) e das RBFs (2-grama). A despeito desse fato, consideramos que trazer novamente tais avaliações e combiná-las a outras ainda não efetuadas (3-gramas e, especialmente, 4-gramas) é não apenas justificável (em nome da consistência e da presente nomenclatura), mas de grande utilidade para nossos propósitos de definição estilística, por permitir reunir as comparações entre os <em>corpora</em> em um único grupo.</p>
+<section id="n-gramas-no-domínio-da-harmonia" class="level3" data-number="1.1">
+<h3 data-number="1.1" class="anchored" data-anchor-id="n-gramas-no-domínio-da-harmonia"><span class="header-section-number">1.1</span> N-gramas no domínio da harmonia</h3>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../figs/ng-01.png" class="img-fluid figure-img" style="width:70.0%"></p>
@@ -345,6 +350,7 @@ div.csl-indent {
 
 
 
+</section>
 </section>
 
 
