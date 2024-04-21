@@ -17,6 +17,8 @@ O quadro abaixo apresenta dados sobre os n-gramas (*n* entre 1 e 4) referentes �
 
 ![N-gramas (1 a 4) referentes a categorias funcionais nos *corpora* de controle, de análise e no conjunto MPB.](../figs/ng-01.png){width=90%}
 
+![3-gramas referentes a categorias funcionais nos *corpora* de controle, de análise e no conjunto MPB.](../figs/ng-02.png){width=100%}
+
 
 
 
