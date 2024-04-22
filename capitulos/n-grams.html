@@ -308,6 +308,7 @@ div.csl-indent {
   <li><a href="#introdução" id="toc-introdução" class="nav-link active" data-scroll-target="#introdução"><span class="header-section-number">1</span> Introdução</a>
   <ul class="collapse">
   <li><a href="#n-gramas-no-domínio-da-harmonia" id="toc-n-gramas-no-domínio-da-harmonia" class="nav-link" data-scroll-target="#n-gramas-no-domínio-da-harmonia"><span class="header-section-number">1.1</span> N-gramas no domínio da harmonia</a></li>
+  <li><a href="#n-gramas-no-subdomínio-das-alturas" id="toc-n-gramas-no-subdomínio-das-alturas" class="nav-link" data-scroll-target="#n-gramas-no-subdomínio-das-alturas"><span class="header-section-number">1.2</span> N-gramas no subdomínio das alturas</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/capitulos/n-grams.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/capitulos/n-grams.qmd" class="toc-action"><i class="bi empty"></i>Ver o código fonte</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
@@ -338,7 +339,7 @@ div.csl-indent {
 <h2 data-number="1" class="anchored" data-anchor-id="introdução"><span class="header-section-number">1</span> Introdução</h2>
 <p><em>N-gramas</em> (ou <em>n-grams</em> em sua versão original, em inglês) podem ser basicamente definidos como sequências contíguas de <em>n</em> itens. Tal conceito pode ser aplicado a qualquer sequência de símbolos, como acontece em textos (a aplicação original), mas também em outros tipos de informação simbólica notada sequencialmente, como se observa em sequenciação de aminoácidos (em biologia computacional) ou em música, o que se associa diretamente a nossos interesses.</p>
 <p>O conceito de n-gramas tem suas origens na teoria da probabilidade e na linguística computacional, remontando – assim como a ideia de <em>entropia</em> (ver capítulo <a href="../capitulos/probabilidade.html">Probabilidade e entropia</a>) – às primeiras formulações de Claude Shannon na década de 1940 sobre Teoria da Informação, a partir de uma intenção de quantificar a redundância em sequências de símbolos em textos. Na década de 1950 e 1960, com o surgimento da linguística computacional, os n-gramas foram empregados para modelar a linguagem natural, o que foi principalmente aperfeiçoado pelo trabalho de George Kingsley Zipf,<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> que observou padrões na frequência das palavras em textos em inúmeros livros, independentemente de época ou de idioma em que foram escritos.</p>
-<p>No contexto do Projeto MPB, com o intuito de trazer mais luzes para as preferências estilísitcas, n-gramas podem ser aplicados a diversas estruturas. Destacamos especialmente três delas para exames, cada qual associada a um domínio/subdomínio: c-letras (alturas), r-letras (ritmo) e categrias funcionais (harmonia). A bem da verdade, alguns dos levantamentos com n-gramas correspondem a atributos já avaliados, como é o caso da distribuição de c-letras (1-grama); a distribuição de r-letras (1-grama), r-dissílabos (2-grama) e r-trissílabos (3-grama); a distribuição de categorias funcionais (1-grama) e das RBFs (2-grama). A despeito desse fato, consideramos que trazer novamente tais avaliações e combiná-las a outras ainda não efetuadas (3-gramas e, especialmente, 4-gramas) é não apenas justificável (em nome da consistência e da presente nomenclatura), mas de grande utilidade para nossos propósitos de definição estilística, por permitir reunir as comparações entre os <em>corpora</em> em um único grupo.</p>
+<p>No contexto do Projeto MPB, com o intuito de trazer mais luzes para as preferências estilísitcas, n-gramas podem ser aplicados a diversas estruturas. Destacamos especialmente três delas para exames, cada qual associada a um domínio/subdomínio: c-letras e c-palavras (alturas), r-letras e r-palavras (ritmo) e categrias funcionais (harmonia). A bem da verdade, alguns dos levantamentos com n-gramas correspondem a atributos já avaliados, como é o caso da distribuição de c-letras (1-grama); a distribuição de r-letras (1-grama), r-dissílabos (2-grama) e r-trissílabos (3-grama); a distribuição de categorias funcionais (1-grama) e das RBFs (2-grama). A despeito desse fato, consideramos que trazer novamente tais avaliações e combiná-las a outras ainda não efetuadas (3-gramas e, especialmente, 4-gramas) é não apenas justificável (em nome da consistência e da presente nomenclatura), mas de grande utilidade para nossos propósitos de definição estilística, por permitir reunir as comparações entre os <em>corpora</em> em um único grupo.</p>
 <section id="n-gramas-no-domínio-da-harmonia" class="level3" data-number="1.1">
 <h3 data-number="1.1" class="anchored" data-anchor-id="n-gramas-no-domínio-da-harmonia"><span class="header-section-number">1.1</span> N-gramas no domínio da harmonia</h3>
 <p>O quadro abaixo apresenta dados sobre os n-gramas (<em>n</em> entre 1 e 4) referentes às sequências de categorias funcionais em todos os 13 <em>corpora</em> (controle e análise), incluindo o conjunto MPB (que engloba os <em>corpora</em> de análise). Nesse quadro são apresentados, em cada nível, o n-grama mais recorrente do <em>corpus</em> em questão, seu percentual e o total de n-gramas encontrados.</p>
@@ -348,7 +349,8 @@ div.csl-indent {
 <figcaption>N-gramas (1 a 4) referentes a categorias funcionais nos <em>corpora</em> de controle, de análise e no conjunto MPB.</figcaption>
 </figure>
 </div>
-<p>GRÁFICOS</p>
+<section id="gráficos" class="level4" data-number="1.1.1">
+<h4 data-number="1.1.1" class="anchored" data-anchor-id="gráficos"><span class="header-section-number">1.1.1</span> Gráficos</h4>
 <p>3-GRAMAS</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -532,6 +534,10 @@ div.csl-indent {
 <figcaption>Comparação dos 4-gramas referentes a sequências de categorias funcionais <em>corpora</em> dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).</figcaption>
 </figure>
 </div>
+</section>
+</section>
+<section id="n-gramas-no-subdomínio-das-alturas" class="level3" data-number="1.2">
+
 
 
 
@@ -539,7 +545,7 @@ div.csl-indent {
 </section>
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referências</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">1.2 N-gramas no subdomínio das alturas</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-zipf-psycho" class="csl-entry" role="listitem">
 Zipf, George. 1965. <em>The Psycho-Biology of Language</em>. Cambridge: The MIT Press.
 </div>
