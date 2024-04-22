@@ -86,9 +86,17 @@ O quadro abaixo apresenta dados sobre os n-gramas (*n* entre 1 e 4) referentes �
 ![Comparação dos 4-gramas referentes a sequências de categorias funcionais *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/ng-03.png){width=100%}
 
 
-### N-gramas no subdomínio das alturas
+### N-gramas no subdomínio do ritmo
 
 ![N-gramas (1 a 4) referentes a r-letras nos *corpora* de controle, de análise e no conjunto MPB.](../figs/ng-04.png){width=90%}
+
+#### Gráficos 
+
+2-GRAMAS
+
+### N-gramas no subdomínio das alturas
+
+2-GRAMAS
 
 
 
