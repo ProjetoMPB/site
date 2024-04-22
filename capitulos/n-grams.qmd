@@ -88,6 +88,8 @@ O quadro abaixo apresenta dados sobre os n-gramas (*n* entre 1 e 4) referentes �
 
 ### N-gramas no subdomínio das alturas
 
+![N-gramas (1 a 4) referentes a r-letras nos *corpora* de controle, de análise e no conjunto MPB.](../figs/ng-04.png){width=90%}
+
 
 
 
