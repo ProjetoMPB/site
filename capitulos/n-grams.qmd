@@ -9,7 +9,7 @@ title: N-gramas
 
 O conceito de n-gramas tem suas origens na teoria da probabilidade e na linguística computacional, remontando -- assim como a ideia de *entropia* (ver capítulo [Probabilidade e entropia](probabilidade.qmd)) -- às primeiras formulações de Claude Shannon na década de 1940 sobre Teoria da Informação, a partir de uma intenção de quantificar a redundância em sequências de símbolos em textos. Na década de 1950 e 1960, com o surgimento da linguística computacional, os n-gramas foram empregados para modelar a linguagem natural, o que foi principalmente aperfeiçoado pelo trabalho de George Kingsley Zipf,^[Ver @zipf-psycho.] que observou padrões na frequência das palavras em textos em inúmeros livros, independentemente de época ou de idioma em que foram escritos. 
 
-No contexto do Projeto MPB, com o intuito de trazer mais luzes para as preferências estilísitcas, n-gramas podem ser aplicados a diversas estruturas. Destacamos especialmente três delas para exames, cada qual associada a um domínio/subdomínio: c-letras (alturas), r-letras (ritmo) e categrias funcionais (harmonia). A bem da verdade, alguns dos levantamentos com n-gramas correspondem a atributos já avaliados, como é o caso da distribuição de c-letras (1-grama); a distribuição de r-letras (1-grama), r-dissílabos (2-grama) e r-trissílabos (3-grama); a distribuição de categorias funcionais (1-grama) e das RBFs (2-grama). A despeito desse fato, consideramos que trazer novamente tais avaliações e combiná-las a outras ainda não efetuadas (3-gramas e, especialmente, 4-gramas) é não apenas justificável (em nome da consistência e da presente nomenclatura), mas de grande utilidade para nossos propósitos de definição estilística, por permitir reunir as comparações entre os *corpora* em um único grupo.
+No contexto do Projeto MPB, com o intuito de trazer mais luzes para as preferências estilísitcas, n-gramas podem ser aplicados a diversas estruturas. Destacamos especialmente três delas para exames, cada qual associada a um domínio/subdomínio: c-letras e c-palavras (alturas), r-letras e r-palavras (ritmo) e categrias funcionais (harmonia). A bem da verdade, alguns dos levantamentos com n-gramas correspondem a atributos já avaliados, como é o caso da distribuição de c-letras (1-grama); a distribuição de r-letras (1-grama), r-dissílabos (2-grama) e r-trissílabos (3-grama); a distribuição de categorias funcionais (1-grama) e das RBFs (2-grama). A despeito desse fato, consideramos que trazer novamente tais avaliações e combiná-las a outras ainda não efetuadas (3-gramas e, especialmente, 4-gramas) é não apenas justificável (em nome da consistência e da presente nomenclatura), mas de grande utilidade para nossos propósitos de definição estilística, por permitir reunir as comparações entre os *corpora* em um único grupo.
 
 ### N-gramas no domínio da harmonia
 
@@ -17,7 +17,7 @@ O quadro abaixo apresenta dados sobre os n-gramas (*n* entre 1 e 4) referentes �
 
 ![N-gramas (1 a 4) referentes a categorias funcionais nos *corpora* de controle, de análise e no conjunto MPB.](../figs/ng-01.png){width=90%}
 
-GRÁFICOS 
+#### Gráficos 
 
 3-GRAMAS
 
@@ -84,6 +84,9 @@ GRÁFICOS
 ![Os 30 mais recorrentes 4-gramas referentes a sequências de categorias no conjunto MPB (*corpora* 1 a 10).](../figs/ng-03n.png){width=50%}
 
 ![Comparação dos 4-gramas referentes a sequências de categorias funcionais *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/ng-03.png){width=100%}
+
+
+### N-gramas no subdomínio das alturas
 
 
 
