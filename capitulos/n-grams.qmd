@@ -55,7 +55,7 @@ Considerando que as sequências 1-grama e 2-grama já foram expostas graficament
 
 ![Os 30 mais recorrentes 3-gramas referentes a sequências de categorias no conjunto MPB (*corpora* 1 a 10).](../figs/ng-02n.png){width=50%}
 
-![Comparação dos 3-gramas referentes a sequências de categorias funcionais *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/ng-02.png){width=100%}
+![Comparação dos 3-gramas referentes a sequências de categorias funcionais nos *corpora* de controle (acima), de análise (centro) e no conjunto MPB (abaixo).](../figs/ng-02.png){width=100%}
 
 ---
 
@@ -89,7 +89,7 @@ Considerando que as sequências 1-grama e 2-grama já foram expostas graficament
 
 ![Os 30 mais recorrentes 4-gramas referentes a sequências de categorias no conjunto MPB (*corpora* 1 a 10).](../figs/ng-03n.png){width=50%}
 
-![Comparação dos 4-gramas referentes a sequências de categorias funcionais *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/ng-03.png){width=100%}
+![Comparação dos 4-gramas referentes a sequências de categorias funcionais nos *corpora* de controle (acima), de análise (centro) e no conjunto MPB (abaixo).](../figs/ng-03.png){width=100%}
 
 ---------------
 
@@ -97,10 +97,45 @@ Considerando que as sequências 1-grama e 2-grama já foram expostas graficament
 
 ![N-gramas (1 a 4) referentes a r-letras nos *corpora* de controle, de análise e no conjunto MPB.](../figs/ng-04.png){width=90%}
 
+DISCUSSÃO
+
+................................
+
 #### Gráficos 
 
+Os gráficos das sequências de r-letras abrangem 2- 3- e 4-gramas (para 1-grama, ver a "Distribuição de r-letras" no [capítulo Gráficos](graficos.qmd)).
 
 2-GRAMAS
+
+![Os 30 mais recorrentes 2-gramas referentes a sequências de r-letras no *corpus* Jazz.](../figs/ng-05a.png){width=50%}
+
+![Os 30 mais recorrentes 2-gramas referentes a sequências de r-letras no *corpus* Choro.](../figs/ng-05b.png){width=50%}
+
+![Os 30 mais recorrentes 2-gramas referentes a sequências de r-letras no *corpus* Samba.](../figs/ng-05c.png){width=50%}
+
+![Os 30 mais recorrentes 2-gramas referentes a sequências de r-letras no *corpus* Jobim.](../figs/ng-05d.png){width=50%}
+
+![Os 30 mais recorrentes 2-gramas referentes a sequências de r-letras no *corpus* Lins.](../figs/ng-05e.png){width=50%}
+
+![Os 30 mais recorrentes 2-gramas referentes a sequências de r-letras no *corpus* Chico.](../figs/ng-05f.png){width=50%}
+
+![Os 30 mais recorrentes 2-gramas referentes a sequências de r-letras no *corpus* Edu.](../figs/ng-05g.png){width=50%}
+
+![Os 30 mais recorrentes 2-gramas referentes a sequências de r-letras no *corpus* Caetano.](../figs/ng-05h.png){width=50%}
+
+![Os 30 mais recorrentes 2-gramas referentes a sequências de r-letras no *corpus* Djavan.](../figs/ng-05i.png){width=50%}
+
+![Os 30 mais recorrentes 2-gramas referentes a sequências de r-letras no *corpus* Bosco.](../figs/ng-05j.png){width=50%}
+
+![Os 30 mais recorrentes 2-gramas referentes a sequências de r-letras no *corpus* Milton.](../figs/ng-05k.png){width=50%}
+
+![Os 30 mais recorrentes 2-gramas referentes a sequências de r-letras no *corpus* Gil.](../figs/ng-05l.png){width=50%}
+
+![Os 30 mais recorrentes 2-gramas referentes a sequências de r-letras no *corpus* Rita.](../figs/ng-05m.png){width=50%}
+
+![Os 30 mais recorrentes 2-gramas referentes a sequências de r-letras no conjunto MPB (*corpora* 1 a 10).](../figs/ng-05n.png){width=50%}
+
+![Comparação dos 2-gramas referentes a sequências de r-letras nos *corpora* de controle (acima), de análise (centro) e no conjunto MPB (abaixo).](../figs/ng-05.png){width=100%}
 
 ### N-gramas no subdomínio das alturas
 
