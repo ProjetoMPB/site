@@ -13,11 +13,17 @@ No contexto do Projeto MPB, com o intuito de trazer mais luzes para as preferên
 
 ### N-gramas no domínio da harmonia
 
-O quadro abaixo apresenta dados sobre os n-gramas (*n* entre 1 e 4) referentes às sequências de categorias funcionais em todos os 13 *corpora* (controle e análise), incluindo o conjunto MPB (que engloba os *corpora* de análise). Nesse quadro são apresentados, em cada nível, o n-grama mais recorrente do *corpus* em questão, seu percentual e o total de n-gramas encontrados.
+O quadro abaixo apresenta dados sobre os n-gramas (*n* entre 1 e 4)^[Segundo nosso entendimento, embora possíveis de serem obtidos, n-gramas de cardinalidades 5 em diante tornam-se menos cada vez menos informativos (além de implicarem pulverização das sequências, perdendo, assim, valor como elementos de determinação estilística).]  referentes às sequências de categorias funcionais em todos os 13 *corpora* (controle e análise), incluindo o conjunto MPB (que engloba os *corpora* de análise). Nesse quadro são apresentados, em cada nível, o n-grama mais recorrente do *corpus* em questão, seu percentual e o total de n-gramas encontrados.
 
 ![N-gramas (1 a 4) referentes a categorias funcionais nos *corpora* de controle, de análise e no conjunto MPB.](../figs/ng-01.png){width=90%}
 
+DISCUSSÃO
+
+................................
+
 #### Gráficos 
+
+Considerando que as sequências 1-grama e 2-grama já foram expostas graficamente, denominadas, respectivamente, "Distribuição de categorias funcionais" e "Distribuição de RBFs" (ver o [capítulo Gráficos](graficos.qmd)), seguem-se abaixo os gráficos referentes aos 30 mais recorrentes 3-gramas e 4-gramas associados às r-letras nos diferentes *corpora*.
 
 3-GRAMAS
 
@@ -85,12 +91,14 @@ O quadro abaixo apresenta dados sobre os n-gramas (*n* entre 1 e 4) referentes �
 
 ![Comparação dos 4-gramas referentes a sequências de categorias funcionais *corpora* dos grupo de controle (acima), dos compositores (centro) e do conjunto MPB (abaixo).](../figs/ng-03.png){width=100%}
 
+---------------
 
 ### N-gramas no subdomínio do ritmo
 
 ![N-gramas (1 a 4) referentes a r-letras nos *corpora* de controle, de análise e no conjunto MPB.](../figs/ng-04.png){width=90%}
 
 #### Gráficos 
+
 
 2-GRAMAS
 
