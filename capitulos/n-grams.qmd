@@ -212,6 +212,13 @@ N-gramas rítmicos também podem ser observados em um nível superior ao das r-l
 
 ![2-gramas referentes a sequências de r-palavras nos *corpora* de controle, de análise e no conjunto MPB.](../figs/ng-08.png){width=50%}
 
+DISCUSSÃO
+
+................................................
+
+GRÁFICO
+
+![Comparação dos 2-gramas referentes a sequências de r-palavras nos *corpora* de controle (acima), de análise (centro) e no conjunto MPB (abaixo).](../figs/ng-09.png){width=100%}
 ------------
 
 ### N-gramas no subdomínio das alturas
