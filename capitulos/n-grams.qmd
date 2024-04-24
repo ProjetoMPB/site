@@ -95,6 +95,8 @@ Considerando que as sequências 1-grama e 2-grama já foram expostas graficament
 
 ### N-gramas no subdomínio do ritmo
 
+#### Nível das r-letras
+
 ![N-gramas (1 a 4) referentes a r-letras nos *corpora* de controle, de análise e no conjunto MPB.](../figs/ng-04.png){width=90%}
 
 DISCUSSÃO
@@ -201,8 +203,20 @@ Os gráficos das sequências de r-letras abrangem 2- 3- e 4-gramas (para 1-grama
 ![Os 30 mais recorrentes 4-gramas referentes a sequências de r-letras no conjunto MPB (*corpora* 1 a 10).](../figs/ng-07n.png){width=50%}
 
 ![Comparação dos 4-gramas referentes a sequências de r-letras nos *corpora* de controle (acima), de análise (centro) e no conjunto MPB (abaixo).](../figs/ng-07.png){width=100%}
+
+--- 
+
+#### Nível das r-palavras
+
+N-gramas rítmicos também podem ser observados em um nível superior ao das r-letras, ou seja, envolvendo sequências de r-palavras. Em termos práticos, consideramos que interessa apenas observar sequências desse tipo que abranjam dois elementos, já que cardinalidades maiores apresentam considerável aumento de dispersão em relação a esse caso. O quadro abaixo resume os mais recorrentes 2-gramas de r-palavras nos *corpora*, informando percentuais e o total de casos observados.
+
+![2-gramas referentes a sequências de r-palavras nos *corpora* de controle, de análise e no conjunto MPB.](../figs/ng-08.png){width=90%}
+
 ------------
+
 ### N-gramas no subdomínio das alturas
+
+#### Nível das c-letras
 
 2-GRAMAS
 
