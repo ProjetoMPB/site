@@ -210,7 +210,7 @@ Os gráficos das sequências de r-letras abrangem 2- 3- e 4-gramas (para 1-grama
 
 N-gramas rítmicos também podem ser observados em um nível superior ao das r-letras, ou seja, envolvendo sequências de r-palavras. Em termos práticos, consideramos que interessa apenas observar sequências desse tipo que abranjam dois elementos, já que cardinalidades maiores apresentam considerável aumento de dispersão em relação a esse caso. O quadro abaixo resume os mais recorrentes 2-gramas de r-palavras nos *corpora*, informando percentuais e o total de casos observados.
 
-![2-gramas referentes a sequências de r-palavras nos *corpora* de controle, de análise e no conjunto MPB.](../figs/ng-08.png){width=90%}
+![2-gramas referentes a sequências de r-palavras nos *corpora* de controle, de análise e no conjunto MPB.](../figs/ng-08.png){width=50%}
 
 ------------
 
