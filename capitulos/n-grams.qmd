@@ -169,6 +169,39 @@ Os gráficos das sequências de r-letras abrangem 2- 3- e 4-gramas (para 1-grama
 
 ![Comparação dos 3-gramas referentes a sequências de r-letras nos *corpora* de controle (acima), de análise (centro) e no conjunto MPB (abaixo).](../figs/ng-06.png){width=100%}
 
+
+4 GRAMAS
+
+![Os 30 mais recorrentes 4-gramas referentes a sequências de r-letras no *corpus* Jazz.](../figs/ng-07a.png){width=50%}
+
+![Os 30 mais recorrentes 4-gramas referentes a sequências de r-letras no *corpus* Choro.](../figs/ng-07b.png){width=50%}
+
+![Os 30 mais recorrentes 4-gramas referentes a sequências de r-letras no *corpus* Samba.](../figs/ng-07c.png){width=50%}
+
+![Os 30 mais recorrentes 4-gramas referentes a sequências de r-letras no *corpus* Jobim.](../figs/ng-07d.png){width=50%}
+
+![Os 30 mais recorrentes 4-gramas referentes a sequências de r-letras no *corpus* Lins.](../figs/ng-07e.png){width=50%}
+
+![Os 30 mais recorrentes 4-gramas referentes a sequências de r-letras no *corpus* Chico.](../figs/ng-07f.png){width=50%}
+
+![Os 30 mais recorrentes 4-gramas referentes a sequências de r-letras no *corpus* Edu.](../figs/ng-07g.png){width=50%}
+
+![Os 30 mais recorrentes 4-gramas referentes a sequências de r-letras no *corpus* Caetano.](../figs/ng-07h.png){width=50%}
+
+![Os 30 mais recorrentes 4-gramas referentes a sequências de r-letras no *corpus* Djavan.](../figs/ng-07i.png){width=50%}
+
+![Os 30 mais recorrentes 4-gramas referentes a sequências de r-letras no *corpus* Bosco.](../figs/ng-07j.png){width=50%}
+
+![Os 30 mais recorrentes 4-gramas referentes a sequências de r-letras no *corpus* Milton.](../figs/ng-07k.png){width=50%}
+
+![Os 30 mais recorrentes 4-gramas referentes a sequências de r-letras no *corpus* Gil.](../figs/ng-07l.png){width=50%}
+
+![Os 30 mais recorrentes 4-gramas referentes a sequências de r-letras no *corpus* Rita.](../figs/ng-07m.png){width=50%}
+
+![Os 30 mais recorrentes 4-gramas referentes a sequências de r-letras no conjunto MPB (*corpora* 1 a 10).](../figs/ng-07n.png){width=50%}
+
+![Comparação dos 4-gramas referentes a sequências de r-letras nos *corpora* de controle (acima), de análise (centro) e no conjunto MPB (abaixo).](../figs/ng-07.png){width=100%}
+------------
 ### N-gramas no subdomínio das alturas
 
 2-GRAMAS
