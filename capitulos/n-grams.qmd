@@ -11,7 +11,7 @@ O conceito de n-gramas tem suas origens na teoria da probabilidade e na linguís
 
 No contexto do Projeto MPB, com o intuito de trazer mais luzes para as preferências estilísitcas, n-gramas podem ser aplicados a diversas estruturas. Destacamos especialmente três delas para exames, cada qual associada a um domínio/subdomínio: c-letras e c-palavras (alturas), r-letras e r-palavras (ritmo) e categrias funcionais (harmonia). A bem da verdade, alguns dos levantamentos com n-gramas correspondem a atributos já avaliados, como é o caso da distribuição de c-letras (1-grama); a distribuição de r-letras (1-grama), r-dissílabos (2-grama) e r-trissílabos (3-grama); a distribuição de categorias funcionais (1-grama) e das RBFs (2-grama). A despeito desse fato, consideramos que trazer novamente tais avaliações e combiná-las a outras ainda não efetuadas (3-gramas e, especialmente, 4-gramas) é não apenas justificável (em nome da consistência e da presente nomenclatura), mas de grande utilidade para nossos propósitos de definição estilística, por permitir reunir as comparações entre os *corpora* em um único grupo.
 
-### N-gramas no domínio da harmonia
+## N-gramas no domínio da harmonia
 
 O quadro abaixo apresenta dados sobre os n-gramas (*n* entre 1 e 4)^[Segundo nosso entendimento, embora possíveis de serem obtidos, n-gramas com cardinalidades 5 em diante tornam-se cada vez menos informativos, além de implicarem pulverização das alternativas de sequências, perdendo, assim, valor como elementos de determinação estilística.]  referentes às sequências de categorias funcionais em todos os 13 *corpora* (controle e análise), incluindo o conjunto MPB (que engloba os *corpora* de análise). Nesse quadro são apresentados, em cada nível, o n-grama mais recorrente do *corpus* em questão, seu percentual e o total de n-gramas encontrados.
 
@@ -93,7 +93,7 @@ Considerando que as sequências 1-grama e 2-grama já foram expostas graficament
 
 ---------------
 
-### N-gramas no subdomínio do ritmo
+## N-gramas no subdomínio do ritmo
 
 #### Nível das r-letras
 
@@ -216,12 +216,12 @@ DISCUSSÃO
 
 ................................................
 
-GRÁFICO
+### Gráfico
 
 ![Comparação dos 2-gramas referentes a sequências de r-palavras nos *corpora* de controle (acima), de análise (centro) e no conjunto MPB (abaixo).](../figs/ng-09.png){width=100%}
 ------------
 
-### N-gramas no subdomínio das alturas
+## N-gramas no subdomínio das alturas
 
 #### Nível das c-letras
 
@@ -230,6 +230,8 @@ GRÁFICO
 DISCUSSÃO
 
 ................................
+
+### Gráficos
 
 2-GRAMAS
 
