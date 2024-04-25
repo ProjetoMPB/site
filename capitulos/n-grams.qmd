@@ -225,6 +225,12 @@ GRÁFICO
 
 #### Nível das c-letras
 
+![N-gramas (1 a 4) referentes a c-letras nos *corpora* de controle, de análise e no conjunto MPB.](../figs/ng-10.png){width=90%}
+
+DISCUSSÃO
+
+................................
+
 2-GRAMAS
 
 
