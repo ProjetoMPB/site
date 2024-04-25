@@ -305,14 +305,16 @@ div.csl-indent {
     <h2 id="toc-title">Nesta página</h2>
    
   <ul>
-  <li><a href="#introdução" id="toc-introdução" class="nav-link active" data-scroll-target="#introdução"><span class="header-section-number">1</span> Introdução</a>
+  <li><a href="#introdução" id="toc-introdução" class="nav-link active" data-scroll-target="#introdução"><span class="header-section-number">1</span> Introdução</a></li>
+  <li><a href="#n-gramas-no-domínio-da-harmonia" id="toc-n-gramas-no-domínio-da-harmonia" class="nav-link" data-scroll-target="#n-gramas-no-domínio-da-harmonia"><span class="header-section-number">2</span> N-gramas no domínio da harmonia</a></li>
+  <li><a href="#n-gramas-no-subdomínio-do-ritmo" id="toc-n-gramas-no-subdomínio-do-ritmo" class="nav-link" data-scroll-target="#n-gramas-no-subdomínio-do-ritmo"><span class="header-section-number">3</span> N-gramas no subdomínio do ritmo</a>
   <ul class="collapse">
-  <li><a href="#n-gramas-no-domínio-da-harmonia" id="toc-n-gramas-no-domínio-da-harmonia" class="nav-link" data-scroll-target="#n-gramas-no-domínio-da-harmonia"><span class="header-section-number">1.1</span> N-gramas no domínio da harmonia</a></li>
-  <li><a href="#n-gramas-no-subdomínio-do-ritmo" id="toc-n-gramas-no-subdomínio-do-ritmo" class="nav-link" data-scroll-target="#n-gramas-no-subdomínio-do-ritmo"><span class="header-section-number">1.2</span> N-gramas no subdomínio do ritmo</a></li>
+  <li><a href="#gráfico" id="toc-gráfico" class="nav-link" data-scroll-target="#gráfico"><span class="header-section-number">3.1</span> Gráfico</a></li>
   </ul></li>
-  <li><a href="#comparação-dos-2-gramas-referentes-a-sequências-de-r-palavras-nos-corpora-de-controle-acima-de-análise-centro-e-no-conjunto-mpb-abaixo." id="toc-comparação-dos-2-gramas-referentes-a-sequências-de-r-palavras-nos-corpora-de-controle-acima-de-análise-centro-e-no-conjunto-mpb-abaixo." class="nav-link" data-scroll-target="#comparação-dos-2-gramas-referentes-a-sequências-de-r-palavras-nos-corpora-de-controle-acima-de-análise-centro-e-no-conjunto-mpb-abaixo."><span class="header-section-number">2</span> <img src="../figs/ng-09.png" class="img-fluid" style="width:100.0%" alt="Comparação dos 2-gramas referentes a sequências de r-palavras nos corpora de controle (acima), de análise (centro) e no conjunto MPB (abaixo)."></a>
+  <li><a href="#comparação-dos-2-gramas-referentes-a-sequências-de-r-palavras-nos-corpora-de-controle-acima-de-análise-centro-e-no-conjunto-mpb-abaixo." id="toc-comparação-dos-2-gramas-referentes-a-sequências-de-r-palavras-nos-corpora-de-controle-acima-de-análise-centro-e-no-conjunto-mpb-abaixo." class="nav-link" data-scroll-target="#comparação-dos-2-gramas-referentes-a-sequências-de-r-palavras-nos-corpora-de-controle-acima-de-análise-centro-e-no-conjunto-mpb-abaixo."><span class="header-section-number">4</span> <img src="../figs/ng-09.png" class="img-fluid" style="width:100.0%" alt="Comparação dos 2-gramas referentes a sequências de r-palavras nos corpora de controle (acima), de análise (centro) e no conjunto MPB (abaixo)."></a></li>
+  <li><a href="#n-gramas-no-subdomínio-das-alturas" id="toc-n-gramas-no-subdomínio-das-alturas" class="nav-link" data-scroll-target="#n-gramas-no-subdomínio-das-alturas"><span class="header-section-number">5</span> N-gramas no subdomínio das alturas</a>
   <ul class="collapse">
-  <li><a href="#n-gramas-no-subdomínio-das-alturas" id="toc-n-gramas-no-subdomínio-das-alturas" class="nav-link" data-scroll-target="#n-gramas-no-subdomínio-das-alturas"><span class="header-section-number">2.1</span> N-gramas no subdomínio das alturas</a></li>
+  <li><a href="#gráficos-2" id="toc-gráficos-2" class="nav-link" data-scroll-target="#gráficos-2"><span class="header-section-number">5.1</span> Gráficos</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/capitulos/n-grams.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/capitulos/n-grams.qmd" class="toc-action"><i class="bi empty"></i>Ver o código fonte</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
@@ -344,8 +346,9 @@ div.csl-indent {
 <p><em>N-gramas</em> (ou <em>n-grams</em> em sua versão original, em inglês) podem ser basicamente definidos como sequências contíguas de <em>n</em> itens. Tal conceito pode ser aplicado a qualquer sequência de símbolos, como acontece em textos (a aplicação original), mas também em outros tipos de informação simbólica notada sequencialmente, como se observa em sequenciação de aminoácidos (em biologia computacional) ou em música, o que se associa diretamente a nossos interesses.</p>
 <p>O conceito de n-gramas tem suas origens na teoria da probabilidade e na linguística computacional, remontando – assim como a ideia de <em>entropia</em> (ver capítulo <a href="../capitulos/probabilidade.html">Probabilidade e entropia</a>) – às primeiras formulações de Claude Shannon na década de 1940 sobre Teoria da Informação, a partir de uma intenção de quantificar a redundância em sequências de símbolos em textos. Na década de 1950 e 1960, com o surgimento da linguística computacional, os n-gramas foram empregados para modelar a linguagem natural, o que foi principalmente aperfeiçoado pelo trabalho de George Kingsley Zipf,<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> que observou padrões na frequência das palavras em textos em inúmeros livros, independentemente de época ou de idioma em que foram escritos.</p>
 <p>No contexto do Projeto MPB, com o intuito de trazer mais luzes para as preferências estilísitcas, n-gramas podem ser aplicados a diversas estruturas. Destacamos especialmente três delas para exames, cada qual associada a um domínio/subdomínio: c-letras e c-palavras (alturas), r-letras e r-palavras (ritmo) e categrias funcionais (harmonia). A bem da verdade, alguns dos levantamentos com n-gramas correspondem a atributos já avaliados, como é o caso da distribuição de c-letras (1-grama); a distribuição de r-letras (1-grama), r-dissílabos (2-grama) e r-trissílabos (3-grama); a distribuição de categorias funcionais (1-grama) e das RBFs (2-grama). A despeito desse fato, consideramos que trazer novamente tais avaliações e combiná-las a outras ainda não efetuadas (3-gramas e, especialmente, 4-gramas) é não apenas justificável (em nome da consistência e da presente nomenclatura), mas de grande utilidade para nossos propósitos de definição estilística, por permitir reunir as comparações entre os <em>corpora</em> em um único grupo.</p>
-<section id="n-gramas-no-domínio-da-harmonia" class="level3" data-number="1.1">
-<h3 data-number="1.1" class="anchored" data-anchor-id="n-gramas-no-domínio-da-harmonia"><span class="header-section-number">1.1</span> N-gramas no domínio da harmonia</h3>
+</section>
+<section id="n-gramas-no-domínio-da-harmonia" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="n-gramas-no-domínio-da-harmonia"><span class="header-section-number">2</span> N-gramas no domínio da harmonia</h2>
 <p>O quadro abaixo apresenta dados sobre os n-gramas (<em>n</em> entre 1 e 4)<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> referentes às sequências de categorias funcionais em todos os 13 <em>corpora</em> (controle e análise), incluindo o conjunto MPB (que engloba os <em>corpora</em> de análise). Nesse quadro são apresentados, em cada nível, o n-grama mais recorrente do <em>corpus</em> em questão, seu percentual e o total de n-gramas encontrados.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -355,8 +358,8 @@ div.csl-indent {
 </div>
 <p>DISCUSSÃO</p>
 <p>…………………………..</p>
-<section id="gráficos" class="level4" data-number="1.1.1">
-<h4 data-number="1.1.1" class="anchored" data-anchor-id="gráficos"><span class="header-section-number">1.1.1</span> Gráficos</h4>
+<section id="gráficos" class="level4" data-number="2.0.1">
+<h4 data-number="2.0.1" class="anchored" data-anchor-id="gráficos"><span class="header-section-number">2.0.1</span> Gráficos</h4>
 <p>Considerando que as sequências 1-grama e 2-grama já foram expostas graficamente, denominadas, respectivamente, “Distribuição de categorias funcionais” e “Distribuição de RBFs” (ver o <a href="../capitulos/graficos.html">capítulo Gráficos</a>), seguem-se abaixo os gráficos referentes aos 30 mais recorrentes 3-gramas e 4-gramas associados às r-letras nos diferentes <em>corpora</em>.</p>
 <p>3-GRAMAS</p>
 <div class="quarto-figure quarto-figure-center">
@@ -544,10 +547,10 @@ div.csl-indent {
 <hr>
 </section>
 </section>
-<section id="n-gramas-no-subdomínio-do-ritmo" class="level3" data-number="1.2">
-<h3 data-number="1.2" class="anchored" data-anchor-id="n-gramas-no-subdomínio-do-ritmo"><span class="header-section-number">1.2</span> N-gramas no subdomínio do ritmo</h3>
-<section id="nível-das-r-letras" class="level4" data-number="1.2.1">
-<h4 data-number="1.2.1" class="anchored" data-anchor-id="nível-das-r-letras"><span class="header-section-number">1.2.1</span> Nível das r-letras</h4>
+<section id="n-gramas-no-subdomínio-do-ritmo" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="n-gramas-no-subdomínio-do-ritmo"><span class="header-section-number">3</span> N-gramas no subdomínio do ritmo</h2>
+<section id="nível-das-r-letras" class="level4" data-number="3.0.1">
+<h4 data-number="3.0.1" class="anchored" data-anchor-id="nível-das-r-letras"><span class="header-section-number">3.0.1</span> Nível das r-letras</h4>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../figs/ng-04.png" class="img-fluid figure-img" style="width:90.0%"></p>
@@ -557,8 +560,8 @@ div.csl-indent {
 <p>DISCUSSÃO</p>
 <p>…………………………..</p>
 </section>
-<section id="gráficos-1" class="level4" data-number="1.2.2">
-<h4 data-number="1.2.2" class="anchored" data-anchor-id="gráficos-1"><span class="header-section-number">1.2.2</span> Gráficos</h4>
+<section id="gráficos-1" class="level4" data-number="3.0.2">
+<h4 data-number="3.0.2" class="anchored" data-anchor-id="gráficos-1"><span class="header-section-number">3.0.2</span> Gráficos</h4>
 <p>Os gráficos das sequências de r-letras abrangem 2- 3- e 4-gramas (para 1-grama, ver a “Distribuição de r-letras” no <a href="../capitulos/graficos.html">capítulo Gráficos</a>).</p>
 <p>2-GRAMAS</p>
 <div class="quarto-figure quarto-figure-center">
@@ -835,8 +838,8 @@ div.csl-indent {
 </div>
 <hr>
 </section>
-<section id="nível-das-r-palavras" class="level4" data-number="1.2.3">
-<h4 data-number="1.2.3" class="anchored" data-anchor-id="nível-das-r-palavras"><span class="header-section-number">1.2.3</span> Nível das r-palavras</h4>
+<section id="nível-das-r-palavras" class="level4" data-number="3.0.3">
+<h4 data-number="3.0.3" class="anchored" data-anchor-id="nível-das-r-palavras"><span class="header-section-number">3.0.3</span> Nível das r-palavras</h4>
 <p>N-gramas rítmicos também podem ser observados em um nível superior ao das r-letras, ou seja, envolvendo sequências de r-palavras. Em termos práticos, consideramos que interessa apenas observar sequências desse tipo que abranjam dois elementos, já que cardinalidades maiores apresentam considerável aumento de dispersão em relação a esse caso. O quadro abaixo resume os mais recorrentes 2-gramas de r-palavras nos <em>corpora</em>, informando percentuais e o total de casos observados.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -846,16 +849,18 @@ div.csl-indent {
 </div>
 <p>DISCUSSÃO</p>
 <p>…………………………………………</p>
-<p>GRÁFICO</p>
+</section>
+<section id="gráfico" class="level3" data-number="3.1">
+<h3 data-number="3.1" class="anchored" data-anchor-id="gráfico"><span class="header-section-number">3.1</span> Gráfico</h3>
 </section>
 </section>
+<section id="comparação-dos-2-gramas-referentes-a-sequências-de-r-palavras-nos-corpora-de-controle-acima-de-análise-centro-e-no-conjunto-mpb-abaixo." class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="comparação-dos-2-gramas-referentes-a-sequências-de-r-palavras-nos-corpora-de-controle-acima-de-análise-centro-e-no-conjunto-mpb-abaixo."><span class="header-section-number">4</span> <img src="../figs/ng-09.png" class="img-fluid" style="width:100.0%" alt="Comparação dos 2-gramas referentes a sequências de r-palavras nos corpora de controle (acima), de análise (centro) e no conjunto MPB (abaixo)."></h2>
 </section>
-<section id="comparação-dos-2-gramas-referentes-a-sequências-de-r-palavras-nos-corpora-de-controle-acima-de-análise-centro-e-no-conjunto-mpb-abaixo." class="level2" data-number="2">
-<h2 data-number="2" class="anchored" data-anchor-id="comparação-dos-2-gramas-referentes-a-sequências-de-r-palavras-nos-corpora-de-controle-acima-de-análise-centro-e-no-conjunto-mpb-abaixo."><span class="header-section-number">2</span> <img src="../figs/ng-09.png" class="img-fluid" style="width:100.0%" alt="Comparação dos 2-gramas referentes a sequências de r-palavras nos corpora de controle (acima), de análise (centro) e no conjunto MPB (abaixo)."></h2>
-<section id="n-gramas-no-subdomínio-das-alturas" class="level3" data-number="2.1">
-<h3 data-number="2.1" class="anchored" data-anchor-id="n-gramas-no-subdomínio-das-alturas"><span class="header-section-number">2.1</span> N-gramas no subdomínio das alturas</h3>
-<section id="nível-das-c-letras" class="level4" data-number="2.1.1">
-<h4 data-number="2.1.1" class="anchored" data-anchor-id="nível-das-c-letras"><span class="header-section-number">2.1.1</span> Nível das c-letras</h4>
+<section id="n-gramas-no-subdomínio-das-alturas" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="n-gramas-no-subdomínio-das-alturas"><span class="header-section-number">5</span> N-gramas no subdomínio das alturas</h2>
+<section id="nível-das-c-letras" class="level4" data-number="5.0.1">
+<h4 data-number="5.0.1" class="anchored" data-anchor-id="nível-das-c-letras"><span class="header-section-number">5.0.1</span> Nível das c-letras</h4>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../figs/ng-10.png" class="img-fluid figure-img" style="width:90.0%"></p>
@@ -864,11 +869,13 @@ div.csl-indent {
 </div>
 <p>DISCUSSÃO</p>
 <p>…………………………..</p>
+</section>
+<section id="gráficos-2" class="level3" data-number="5.1">
+<h3 data-number="5.1" class="anchored" data-anchor-id="gráficos-2"><span class="header-section-number">5.1</span> Gráficos</h3>
 <p>2-GRAMAS</p>
 
 
 
-</section>
 </section>
 </section>
 
