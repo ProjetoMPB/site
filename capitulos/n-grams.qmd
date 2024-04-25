@@ -171,7 +171,6 @@ Os gráficos das sequências de r-letras abrangem 2- 3- e 4-gramas (para 1-grama
 
 ![Comparação dos 3-gramas referentes a sequências de r-letras nos *corpora* de controle (acima), de análise (centro) e no conjunto MPB (abaixo).](../figs/ng-06.png){width=100%}
 
----
 4 GRAMAS
 
 ![Os 30 mais recorrentes 4-gramas referentes a sequências de r-letras no *corpus* Jazz.](../figs/ng-07a.png){width=50%}
@@ -219,7 +218,7 @@ DISCUSSÃO
 ### Gráfico
 
 ![Comparação dos 2-gramas referentes a sequências de r-palavras nos *corpora* de controle (acima), de análise (centro) e no conjunto MPB (abaixo).](../figs/ng-09.png){width=100%}
-------------
+
 
 ## N-gramas no subdomínio das alturas
 
