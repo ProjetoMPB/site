@@ -264,6 +264,37 @@ DISCUSSÃO
 
 ![Comparação dos 2-gramas referentes a sequências de c-letras nos *corpora* de controle (acima), de análise (centro) e no conjunto MPB (abaixo).](../figs/ng-11.png){width=100%}
 
+3-GRAMAS
+
+![Os 30 mais recorrentes 3-gramas referentes a sequências de c-letras no *corpus* Jazz.](../figs/ng-12a.png){width=50%}
+
+![Os 30 mais recorrentes 3-gramas referentes a sequências de c-letras no *corpus* Choro.](../figs/ng-12b.png){width=50%}
+
+![Os 30 mais recorrentes 3-gramas referentes a sequências de c-letras no *corpus* Samba.](../figs/ng-12c.png){width=50%}
+
+![Os 30 mais recorrentes 3-gramas referentes a sequências de c-letras no *corpus* Jobim.](../figs/ng-12d.png){width=50%}
+
+![Os 30 mais recorrentes 3-gramas referentes a sequências de c-letras no *corpus* Lins.](../figs/ng-12e.png){width=50%}
+
+![Os 30 mais recorrentes 3-gramas referentes a sequências de c-letras no *corpus* Chico.](../figs/ng-12f.png){width=50%}
+
+![Os 30 mais recorrentes 3-gramas referentes a sequências de c-letras no *corpus* Edu.](../figs/ng-12g.png){width=50%}
+
+![Os 30 mais recorrentes 3-gramas referentes a sequências de c-letras no *corpus* Caetano.](../figs/ng-12h.png){width=50%}
+
+![Os 30 mais recorrentes 3-gramas referentes a sequências de c-letras no *corpus* Djavan.](../figs/ng-12i.png){width=50%}
+
+![Os 30 mais recorrentes 3-gramas referentes a sequências de c-letras no *corpus* Bosco.](../figs/ng-12j.png){width=50%}
+
+![Os 30 mais recorrentes 3-gramas referentes a sequências de c-letras no *corpus* Milton.](../figs/ng-12k.png){width=50%}
+
+![Os 30 mais recorrentes 3-gramas referentes a sequências de c-letras no *corpus* Gil.](../figs/ng-12l.png){width=50%}
+
+![Os 30 mais recorrentes 3-gramas referentes a sequências de c-letras no *corpus* Rita.](../figs/ng-12m.png){width=50%}
+
+![Os 30 mais recorrentes 3-gramas referentes a sequências de c-letras no conjunto MPB (*corpora* 1 a 10).](../figs/ng-12n.png){width=50%}
+
+![Comparação dos 3-gramas referentes a sequências de c-letras nos *corpora* de controle (acima), de análise (centro) e no conjunto MPB (abaixo).](../figs/ng-12.png){width=100%}
 
 
 
