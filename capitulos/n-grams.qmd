@@ -328,5 +328,16 @@ DISCUSSÃO
 
 ![Comparação dos 4-gramas referentes a sequências de c-letras nos *corpora* de controle (acima), de análise (centro) e no conjunto MPB (abaixo).](../figs/ng-13.png){width=100%}
 
+### Nível das c-palavras
+
+![2-gramas referentes a c-palavras nos *corpora* de controle, de análise e no conjunto MPB.](../figs/ng-15.png){width=70%}
+
+DISCUSSÃO
+
+................................
+
+#### Gráfico
+
+![Comparação dos 2-gramas referentes a sequências de c-palavras nos *corpora* de controle (acima), de análise (centro) e no conjunto MPB (abaixo).](../figs/ng-14.png){width=100%}
 
 
