@@ -330,7 +330,7 @@ DISCUSSÃO
 
 ### Nível das c-palavras
 
-![2-gramas referentes a c-palavras nos *corpora* de controle, de análise e no conjunto MPB.](../figs/ng-15.png){width=70%}
+![2-gramas referentes a c-palavras nos *corpora* de controle, de análise e no conjunto MPB.](../figs/ng-15.png){width=50%}
 
 DISCUSSÃO
 
