@@ -19,7 +19,9 @@ O quadro abaixo apresenta dados sobre os n-gramas (*n* entre 1 e 4)^[Segundo nos
 
 DISCUSSÃO
 
-................................
+Embora exista uma preponderância total de uma única fórmula nos 1-gramas (I) e nos 2-gramas (V|I) nos 14 *corpora* considerados, torna-se interessante observar os pesos percentuais em que isso acontece. Assim, Chico, Djavan e Jobim (nesta ordem) são, juntamente com o controle Jazz, os repertórios nos quais há relativamente menor recorrência (entre 18 e 20%), bem menos do que no *corpus* Milton (35%), percentual que evidencia o caráter predominantemente modal da música desse compositor. Por outro lado, a sequência V|I apresenta valores menores do que a média nesse mesmo *corpus*, o que também é consistente com uma lógica eminentemente modal.
+Quanto aos 3-gramas, nove dos repertórios apresentam como principal a sequência II|V|I. Em três casos, a preferência recai sobre I|V|I. Apenas dois são distintos e envolvem acordes não diatônicos: a sequência cadencial V/II|V/V|V (Djavan) e I|IV7|I (Rita Lee), que evoca uma lógica de *rhythm and blues*, bem recorrente na música da compositora.
+Como se esperaria, a divergência de opções (e a redução dos percentuais) se acentuam nas sequências 4-gramas, o que não permite conclusões significativas. 
 
 #### Gráficos 
 
