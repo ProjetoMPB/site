@@ -238,7 +238,15 @@ Como visto no nível das letras, as r-palavras tendem também a se replicar sequ
 
 DISCUSSÃO
 
-................................
+De início, em relação aos 1-gramas, observa-se uma forte consistência na presença da c-letra *p*, não apenas considerando os *corpora* nos quais é preferencial (10 em 13), como nos níveis percentuais em que isso acontece (em média, 30%). Dessa média divergem apenas Milton (quase 40%) e Djavan (23%).
+
+Nos 2-gramas, assim como acontece com as r-letras, a tendência de replicação é predominante. Começa também a surgir como uma alternativa à dupla *pp* (em oito *corpora*)  a replicação do uníssono *uu* (quatro casos). Importante ainda assinalar que apenas nos repertórios Jazz, Choro e Chico Buarque todas as combinações possíveis (49) das sete c-letras acontecem. Djavan é o *corpus* com menos alternativas empregadas (43). 
+
+A replicação é novamente total nos 3-gramas. Desta vez, a sequência *ppp* como a mais recorrente se apresenta em sete repertórios, com o 3-grama *uuu* predominante em cinco.^[Todos os repertórios com 2-grama preferencial *pp* evoluem para *ppp*, com a exceção do Samba, que apresenta *uuu* como mais recorrente.] 
+
+Replicação também é a regra nos 4-gramas preferenciais, porém, nesse nível, as sequências de quatro uníssonos se tornam predominantes nos repertórios (10 deles, se incluirmos o conjunto MPB). Apenas nos *corpora* Choro, Lins e Lobo a sequência de passos escalares descendentes *pppp* é a mais comum.^[Chama a atenção o fato de que os movimentos escalares replicados também são preferenciais no controle Jazz, mas em sentido ascendente.]
+
+É bastante interessante constatar como a tendência de replicação se estende além do subdomínio rítmico, alcançando a organização melódica. Essa generalização parece extrapolar a questão da economia de meios e se associar a metaforicamente a algo semelhante ao princípio físico da inércia. Parece-nos também como uma via promissora de prospecção investigar essa ramificação da hipótese inicial.
 
 #### Gráficos
 
@@ -344,7 +352,7 @@ DISCUSSÃO
 
 DISCUSSÃO
 
-................................
+...................
 
 #### Gráfico
 
