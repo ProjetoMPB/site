@@ -229,7 +229,7 @@ A observação dos percentuais com que os 2-gramas preferenciais se apresentam f
 
 #### Gráfico
 
-A relativa baixa diversidade geral dos 2-gramas de r-palavras em relação aos das r-letras fica visualmente evidente pela simples simples observação dos gráficos de barras abaixo, que apresentam as 30 mais comuns sequências de cada repertório. Isso se expressa pela presença (maciça, em certos casos, como no *corpus* Djavan) de "planaltos" que correspondem equivalências percentuais entre 2-gramas (e denotam, consequentemente, baixa consistência de padrões rítmicos em médio nível).
+A relativa baixa diversidade geral dos 2-gramas de r-palavras em relação aos das r-letras fica visualmente evidente pela simples observação dos gráficos de barras abaixo, que apresentam as 30 mais comuns sequências de cada repertório. Isso se expressa pela presença (maciça, em certos casos, como no *corpora* Samba e Djavan) de "planaltos" que correspondem a equivalências percentuais entre 2-gramas (e denotam, consequentemente, baixa consistência de padrões rítmicos em médio nível).
 
 ![Comparação dos 2-gramas referentes a sequências de r-palavras nos *corpora* de controle (acima), de análise (centro) e no conjunto MPB (abaixo).](../figs/ng-09.png){width=100%}
 
@@ -356,7 +356,7 @@ Replicação também é a regra nos 4-gramas preferenciais, porém, nesse nível
 
 DISCUSSÃO
 
-Parece paradoxal que, embora sejam construídos com um alfabeto bem mais limitado em relação ao das r-palavras (sete, contra 26 letras), os 2-gramas de c-palavras apresentam consideravelmente maior dispersão do que aquelas (ver discussão na seção 4.2 deste capítulo). Aqui, o valor percentual máximo (1.0), no *corpus* Caetano, é menos do que a metade do valor máximo observado para as r-palavras. Na maior parte dos demais repertórios, o percentual do 2-grama mais recorrente gira ao torno de 0.5%, com o Samba apresentando o valor mínimo (0.3%).^[No conjunto MPB, o valor é ainda menor, 0.2%.] Como discutido anteriormente, esses dados sugerem haver, relativamente, ainda menos consistência motívica no subdomínio das alturas do que no rítmico. Isso, por si só, reforça o conhecimento intuitivo que temos sobre a importância do ritmo na caracterização de ideias melódicas, especialmente temáticas e motívicas (ou seja, aquelas que têm consequência construtiva).
+Parece paradoxal que, embora sejam construídos com um alfabeto bem mais limitado em relação ao das r-palavras (sete, contra 26 letras), os 2-gramas de c-palavras apresentem consideravelmente maior dispersão do que aquelas (ver discussão na seção 4.2 deste capítulo). Aqui, o valor percentual máximo (1.0), no *corpus* Caetano, é menos do que a metade do valor máximo observado para as r-palavras. Na maior parte dos demais repertórios, o percentual do 2-grama mais recorrente gira ao torno de 0.5%, com o Samba apresentando o valor mínimo (0.3%).^[No conjunto MPB, o valor é ainda menor, 0.2%.] Como discutido anteriormente, esses dados sugerem haver, relativamente, ainda menos consistência motívica no subdomínio das alturas do que no rítmico. Isso, por si só, reforça o conhecimento intuitivo que temos sobre a importância do ritmo na caracterização de ideias melódicas, especialmente temáticas e motívicas (ou seja, aquelas que têm consequência construtiva).
 
 Por outro lado, observamos novamente a ubiquidade do princípio da replicação: em apenas dois dos repertórios a segunda c-palavra da sequência não replica a primeira.  
 
