@@ -595,14 +595,21 @@
     "href": "capitulos/ng-especificos.html",
     "title": "N-gramas funcionais específicos",
     "section": "",
-    "text": "Este capítulo, em seguimento ao capítulo sobre n-gramas, examinaremos sequências acordais específicas, de significados funcionais relevantes para o mapeamento estilístico almejado, comparando suas distribuições nos diferentes corpora, o que, por certo, nos permitirá extrair conclusões adicionais referentes aos objetivos do projeto.\nCom tal propósito, os gráficos a seguir são organizados de acordo com as cardinalidades envolvidas (ou seja, 1-gramas, 2-gramas etc.) e com as classes ou situações funcionais que consideramos significativas para exame e comparações. Os percentuais dos gráficos se referem às distribuições das categorias específicas nos respectivos corpora em relação aos n-gramas correspondentes.\n\n\n\n\nClasse funcional DIA\n\n\n\nComparação de proeminências relativas de 1-gramas diatônicos (classe funcional DIA) nos 13 corpora e no conjunto MPB (percentuais se referem ao grupo de 1-gramas de cada repertório específico)."
+    "text": "Este capítulo, em seguimento ao capítulo sobre n-gramas, examinaremos sequências acordais específicas, de significados funcionais relevantes para o mapeamento estilístico almejado, comparando suas distribuições nos diferentes corpora, o que, por certo, nos permitirá extrair conclusões adicionais referentes aos objetivos do projeto.\nCom tal propósito, os gráficos a seguir são organizados de acordo com as cardinalidades envolvidas (ou seja, 1-gramas, 2-gramas etc.) e com as classes ou situações funcionais que consideramos significativas para exame e comparações. Os percentuais dos gráficos se referem às distribuições das categorias específicas nos respectivos corpora em relação aos n-gramas correspondentes."
   },
   {
     "objectID": "capitulos/ng-especificos.html#introdução",
     "href": "capitulos/ng-especificos.html#introdução",
     "title": "N-gramas funcionais específicos",
     "section": "",
-    "text": "Este capítulo, em seguimento ao capítulo sobre n-gramas, examinaremos sequências acordais específicas, de significados funcionais relevantes para o mapeamento estilístico almejado, comparando suas distribuições nos diferentes corpora, o que, por certo, nos permitirá extrair conclusões adicionais referentes aos objetivos do projeto.\nCom tal propósito, os gráficos a seguir são organizados de acordo com as cardinalidades envolvidas (ou seja, 1-gramas, 2-gramas etc.) e com as classes ou situações funcionais que consideramos significativas para exame e comparações. Os percentuais dos gráficos se referem às distribuições das categorias específicas nos respectivos corpora em relação aos n-gramas correspondentes.\n\n\n\n\nClasse funcional DIA\n\n\n\nComparação de proeminências relativas de 1-gramas diatônicos (classe funcional DIA) nos 13 corpora e no conjunto MPB (percentuais se referem ao grupo de 1-gramas de cada repertório específico)."
+    "text": "Este capítulo, em seguimento ao capítulo sobre n-gramas, examinaremos sequências acordais específicas, de significados funcionais relevantes para o mapeamento estilístico almejado, comparando suas distribuições nos diferentes corpora, o que, por certo, nos permitirá extrair conclusões adicionais referentes aos objetivos do projeto.\nCom tal propósito, os gráficos a seguir são organizados de acordo com as cardinalidades envolvidas (ou seja, 1-gramas, 2-gramas etc.) e com as classes ou situações funcionais que consideramos significativas para exame e comparações. Os percentuais dos gráficos se referem às distribuições das categorias específicas nos respectivos corpora em relação aos n-gramas correspondentes."
+  },
+  {
+    "objectID": "capitulos/ng-especificos.html#gráficos",
+    "href": "capitulos/ng-especificos.html#gráficos",
+    "title": "N-gramas funcionais específicos",
+    "section": "2 Gráficos",
+    "text": "2 Gráficos\n\n2.1 1-gramas\nClasse funcional DIA\n\n\n\nComparação de proeminências relativas de 1-gramas diatônicos (classe funcional DIA) nos 13 corpora e no conjunto MPB (percentuais se referem ao grupo de 1-gramas de cada repertório específico).\n\n\nDISCUSSÃO\n……………………"
   },
   {
     "objectID": "capitulos/metodologia.html",
