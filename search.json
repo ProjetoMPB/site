@@ -591,6 +591,20 @@
     ]
   },
   {
+    "objectID": "capitulos/ng-especificos.html",
+    "href": "capitulos/ng-especificos.html",
+    "title": "N-gramas funcionais específicos",
+    "section": "",
+    "text": "Este capítulo, em seguimento ao capítulo sobre n-gramas, examinaremos sequências acordais específicas, de significados funcionais relevantes para o mapeamento estilístico almejado, comparando suas distribuições nos diferentes corpora, o que, por certo, nos permitirá extrair conclusões adicionais referentes aos objetivos do projeto.\nCom tal propósito, os gráficos a seguir são organizados de acordo com as cardinalidades envolvidas (ou seja, 1-gramas, 2-gramas etc.) e com as classes ou situações funcionais que consideramos significativas para exame e comparações. Os percentuais dos gráficos se referem às distribuições das categorias específicas nos respectivos corpora em relação aos n-gramas correspondentes."
+  },
+  {
+    "objectID": "capitulos/ng-especificos.html#introdução",
+    "href": "capitulos/ng-especificos.html#introdução",
+    "title": "N-gramas funcionais específicos",
+    "section": "",
+    "text": "Este capítulo, em seguimento ao capítulo sobre n-gramas, examinaremos sequências acordais específicas, de significados funcionais relevantes para o mapeamento estilístico almejado, comparando suas distribuições nos diferentes corpora, o que, por certo, nos permitirá extrair conclusões adicionais referentes aos objetivos do projeto.\nCom tal propósito, os gráficos a seguir são organizados de acordo com as cardinalidades envolvidas (ou seja, 1-gramas, 2-gramas etc.) e com as classes ou situações funcionais que consideramos significativas para exame e comparações. Os percentuais dos gráficos se referem às distribuições das categorias específicas nos respectivos corpora em relação aos n-gramas correspondentes."
+  },
+  {
     "objectID": "capitulos/metodologia.html",
     "href": "capitulos/metodologia.html",
     "title": "Metodologia",
