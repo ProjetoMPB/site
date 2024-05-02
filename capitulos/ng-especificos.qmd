@@ -12,7 +12,7 @@ Com tal propósito, os gráficos a seguir são organizados de acordo com as card
 
 ### 1-gramas
 
-Classe funcional DIA
+Dentro da classe funcional DIA
 
 ![Comparação de proeminências relativas de 1-gramas de seis categorias funcionais diatônicas (I, II, III, IV, V e VI) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 1-gramas de cada repertório específico).](../figs/nge-01.png){width=90%}
 
@@ -20,10 +20,18 @@ DISCUSSÃO
 
 ........................
 
-Classe funcional EC
+Dentro das classes funcionais E1 e E2
 
 ![Comparação de proeminências relativas de 1-gramas de seis categorias funcionais das classes E1 (IVm7, bVII7, bVI7M, bII7M e Vm7) e E2 (bVIm7) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 1-gramas de cada repertório específico).](../figs/nge-02.png){width=90%}
 
 DISCUSSÃO
 
 ........................
+
+### 2-gramas
+
+Dentro da classe funcional DIA
+
+![Comparação de proeminências relativas de dois pares de 2-gramas diatônicos (V | I x I | V e IV | V x II |V) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 1-gramas de cada repertório específico).](../figs/nge-03.png){width=90%}
+
+DISCUSSÃO
