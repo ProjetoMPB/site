@@ -20,9 +20,17 @@ DISCUSSÃO
 
 ........................
 
+Dentro das classe funcional PRE
+
+![Comparação de proeminências relativas de 1-gramas de nove categorias funcionais das classes PRE (V/V, V/IV/ V/II, V/VI, V/III, "II", SubV, bIII° e I°) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 1-gramas de cada repertório específico).](../figs/nge-02.png){width=90%}
+
+DISCUSSÃO
+
+........................
+
 Dentro das classes funcionais E1 e E2
 
-![Comparação de proeminências relativas de 1-gramas de seis categorias funcionais das classes E1 (IVm7, bVII7, bVI7M, bII7M e Vm7) e E2 (bVIm7) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 1-gramas de cada repertório específico).](../figs/nge-02.png){width=90%}
+![Comparação de proeminências relativas de 1-gramas de seis categorias funcionais das classes E1 (IVm7, bVII7, bVI7M, bII7M e Vm7) e E2 (bVIm7) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 1-gramas de cada repertório específico).](../figs/nge-03.png){width=90%}
 
 DISCUSSÃO
 
@@ -32,6 +40,6 @@ DISCUSSÃO
 
 Dentro da classe funcional DIA
 
-![Comparação de proeminências relativas de dois pares de 2-gramas diatônicos (V | I x I | V e IV | V x II |V) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 1-gramas de cada repertório específico).](../figs/nge-03.png){width=90%}
+![Comparação de proeminências relativas de dois pares de 2-gramas diatônicos (V | I x I | V e IV | V x II |V) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 1-gramas de cada repertório específico).](../figs/nge-04.png){width=90%}
 
 DISCUSSÃO
