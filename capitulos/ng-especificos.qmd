@@ -43,3 +43,9 @@ Dentro da classe funcional DIA
 ![Comparação de proeminências relativas de dois pares de 2-gramas diatônicos (V | I x I | V e IV | V x II |V) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 1-gramas de cada repertório específico).](../figs/nge-04.png){width=90%}
 
 DISCUSSÃO
+
+Dentro da classe funcional PRE (Locuções dominantes)
+
+![Comparação de proeminências relativas de quatro 2-gramas preparatórios, referentes a locuções dominantes ("II | V/V, "II" | V/IV, "II" | V/II e II | SubV) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 1-gramas de cada repertório específico).](../figs/nge-05.png){width=90%}
+
+DISCUSSÃO
