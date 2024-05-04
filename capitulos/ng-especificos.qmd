@@ -40,7 +40,7 @@ DISCUSSÃO
 
 Dentro da classe funcional DIA
 
-![Comparação de proeminências relativas de dois pares de 2-gramas diatônicos (V | I x I | V e IV | V x II |V) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 1-gramas de cada repertório específico).](../figs/nge-04.png){width=90%}
+![Comparação de proeminências relativas de cinco 2-gramas diatônicos (V | I,  I | V, IV | I, IV | V e II | V) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 1-gramas de cada repertório específico).](../figs/nge-04.png){width=90%}
 
 DISCUSSÃO
 
@@ -55,3 +55,5 @@ DISCUSSÃO
 ![Comparação de proeminências relativas de quatro 2-gramas referentes a fórmulas de "saída" características após a Subdominante Estrutural -- ou, alternativamente, o começo de uma "descida Plagal" -- (IV | IVm7, #IVm7(b5) | IVm7, IV | bVII7 e IV | V°/ V) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 1-gramas de cada repertório específico).](../figs/nge-06.png){width=90%}
 
 DISCUSSÃO
+
+### 3-gramas
