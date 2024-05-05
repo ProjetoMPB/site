@@ -68,7 +68,7 @@ Sequências modelando cadências autênticas
 
 Sequências modelando semicadências
 
-![Comparação de proeminências relativas de três 3-gramas referentes a fórmulas que modelam semicadências (II | V/V | V e V/V | II | V) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 3-gramas de cada repertório específico).](../figs/nge-09.png){width=70%}
+![Comparação de proeminências relativas de três 3-gramas referentes a fórmulas que modelam semicadências (II | V/V | V e V/V | II | V) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 3-gramas de cada repertório específico).](../figs/nge-09.png){width=80%}
 
 Sequências de dominantes consecutivos
 
