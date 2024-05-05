@@ -57,3 +57,7 @@ DISCUSSÃO
 DISCUSSÃO
 
 ### 3-gramas
+
+Sequências modelando cadências autênticas
+
+![Comparação de proeminências relativas de três 3-gramas referentes a fórmulas que modelam cadências perfeitas (II | V | I, IV | V | I e V/V | V | I) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 1-gramas de cada repertório específico).](../figs/nge-07.png){width=90%}
