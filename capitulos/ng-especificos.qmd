@@ -40,36 +40,36 @@ DISCUSSÃO
 
 Dentro da classe funcional DIA
 
-![Comparação de proeminências relativas de cinco 2-gramas diatônicos (V | I,  I | V, IV | I, IV | V e II | V) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 1-gramas de cada repertório específico).](../figs/nge-04.png){width=90%}
+![Comparação de proeminências relativas de cinco 2-gramas diatônicos (V | I,  I | V, IV | I, IV | V e II | V) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 2-gramas de cada repertório específico).](../figs/nge-04.png){width=90%}
 
 DISCUSSÃO
 
 Dentro da classe funcional PRE (Locuções dominantes)
 
-![Comparação de proeminências relativas de quatro 2-gramas preparatórios, referentes a locuções dominantes ("II | V/V, "II" | V/IV, "II" | V/II e II | SubV) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 1-gramas de cada repertório específico).](../figs/nge-05.png){width=90%}
+![Comparação de proeminências relativas de quatro 2-gramas preparatórios, referentes a locuções dominantes ("II | V/V, "II" | V/IV, "II" | V/II e II | SubV) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 2-gramas de cada repertório específico).](../figs/nge-05.png){width=90%}
 
 DISCUSSÃO
 
 "Saída" da Subdominante Estrutural 
 
-![Comparação de proeminências relativas de quatro 2-gramas referentes a fórmulas de "saída" características após a Subdominante Estrutural -- ou, alternativamente, o começo de uma "descida Plagal" -- (IV | IVm7, #IVm7(b5) | IVm7, IV | bVII7 e IV | V°/ V) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 1-gramas de cada repertório específico).](../figs/nge-06.png){width=90%}
+![Comparação de proeminências relativas de quatro 2-gramas referentes a fórmulas de "saída" características após a Subdominante Estrutural -- ou, alternativamente, o começo de uma "descida Plagal" -- (IV | IVm7, #IVm7(b5) | IVm7, IV | bVII7 e IV | V°/ V) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 2-gramas de cada repertório específico).](../figs/nge-06.png){width=90%}
 
 DISCUSSÃO
 
 Sequências de dominantes consecutivos
 
-![Comparação de proeminências relativas de cinco 2-gramas referentes a sequências de dominantes consecutivos (V/III | V/VI,  V/VI | V/II, V/II | V/V, V/V | V e V | V/IV) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 1-gramas de cada repertório específico).](../figs/nge-07.png){width=90%}
+![Comparação de proeminências relativas de cinco 2-gramas referentes a sequências de dominantes consecutivos (V/III | V/VI,  V/VI | V/II, V/II | V/V, V/V | V e V | V/IV) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 2-gramas de cada repertório específico).](../figs/nge-07.png){width=90%}
 
 ### 3-gramas
 
 Sequências modelando cadências autênticas
 
-![Comparação de proeminências relativas de três 3-gramas referentes a fórmulas que modelam cadências perfeitas (II | V | I, IV | V | I e V/V | V | I) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 1-gramas de cada repertório específico).](../figs/nge-08.png){width=90%}
+![Comparação de proeminências relativas de três 3-gramas referentes a fórmulas que modelam cadências perfeitas (II | V | I, IV | V | I e V/V | V | I) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 3-gramas de cada repertório específico).](../figs/nge-08.png){width=90%}
 
 Sequências modelando semicadências
 
-![Comparação de proeminências relativas de três 3-gramas referentes a fórmulas que modelam cadências perfeitas (II | V | I, IV | V | I e V/V | V | I) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 1-gramas de cada repertório específico).](../figs/nge-09.png){width=70%}
+![Comparação de proeminências relativas de três 3-gramas referentes a fórmulas que modelam semicadências (II | V/V | V e V/V | II | V) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 3-gramas de cada repertório específico).](../figs/nge-09.png){width=80%}
 
 Sequências de dominantes consecutivos
 
-![Comparação de proeminências relativas de três 3-gramas referentes a sequências de dominantes consecutivos (V/III | V/VI | V/II, V/VI | V/II | V/V e V/II | V/V | V) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 1-gramas de cada repertório específico).](../figs/nge-10.png){width=90%}
+![Comparação de proeminências relativas de três 3-gramas referentes a sequências de dominantes consecutivos (V/III | V/VI | V/II, V/VI | V/II | V/V e V/II | V/V | V) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 3-gramas de cada repertório específico).](../figs/nge-10.png){width=90%}
