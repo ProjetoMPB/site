@@ -73,3 +73,7 @@ Sequências modelando semicadências
 Sequências de dominantes consecutivos
 
 ![Comparação de proeminências relativas de três 3-gramas referentes a sequências de dominantes consecutivos (V/III | V/VI | V/II, V/VI | V/II | V/V e V/II | V/V | V) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 3-gramas de cada repertório específico).](../figs/nge-10.png){width=90%}
+
+Descida plagal
+
+![Comparação de proeminências relativas de quatro 3-gramas referentes a sequências de "descidas palagais" (IV | IVm7 | i, IV | IVm7 | III, #IVm7(b5) | IVm7 | I e #IVm7(b5) | IVm7 | III) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 3-gramas de cada repertório específico).](../figs/nge-11.png){width=80%}
