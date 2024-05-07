@@ -4,9 +4,9 @@ title: N-gramas funcionais específicos
 
 ## Introdução
 
-Este capítulo, em seguimento ao capítulo sobre [n-gramas](n-grams.qmd), examinaremos sequências acordais específicas, de significados funcionais relevantes para o mapeamento estilístico almejado, comparando suas distribuições nos diferentes *corpora*, o que, por certo, nos permitirá extrair conclusões adicionais referentes aos objetivos do projeto. 
+Neste capítulo, em seguimento ao capítulo sobre [n-gramas](n-grams.qmd), examinaremos sequências acordais específicas, de significados funcionais relevantes para o mapeamento estilístico almejado, comparando suas distribuições nos diferentes *corpora*, o que, por certo, nos permitirá extrair conclusões adicionais referentes aos objetivos do projeto. 
 
-Com tal propósito, os gráficos a seguir são organizados de acordo com as cardinalidades envolvidas (ou seja, 1-gramas, 2-gramas etc.) e com as classes ou situações funcionais que consideramos significativas para exame e comparações. Os percentuais dos gráficos se referem às distribuições das categorias específicas nos respectivos *corpora* em relação aos n-gramas correspondentes.
+Com tal propósito, os gráficos a seguir são organizados de acordo com as cardinalidades envolvidas (ou seja, 1-gramas, 2-gramas etc.) e com as classes ou situações funcionais que consideramos significativas para exame e comparações. Os percentuais dos gráficos se referem às distribuições das categorias específicas nos respectivos *corpora* em relação aos n-gramas correspondentes. Sendo assim, é sempre importante atentar para as diferenças de escalas envolvidas: enfatizamos, assim, que as comparações entre os desempenhos dos *corpora* em relação a algum aspecto devem ser consideradas apenas no âmbito do gráfico em questão.
 
 ## Gráficos
 
@@ -18,7 +18,15 @@ Dentro da classe funcional DIA
 
 DISCUSSÃO
 
-........................
+O primeiro conjunto de gráficos examina o desempenho dos graus diatônicos isolados (apenas o VII não é considerado). Como seria de esperar, o I grau é o 1-grama é altamente recorrente em todos os repertórios, em níveis consideravelmente próximos, com a exceção do *corpus* Milton, no qual se apresenta de maneira bem mais expressiva. Isso pode ser atribuído à proeminência da lógica modal na obra do compositor (reforçando o que já foi comentado em outros resultados do projeto. 
+
+Há maior variância dentro do conjunto MPB em relação aos demais graus tonais (IV e V). Nesse sentido, chama especial atenção a maior presença do IV em Milton,^[E, por outro lado, a baixa frequência de V, na comparação com seus pares. Ambos os fenômenos podem ser associados à diluição da funcionalidade tonal na música do compositor.] Caetano e Rita (nestes casos, provavelmente devido a uma relativa proeminência dos gêneros rock e *rhythm and blues* nesses repertórios).
+
+Quanto aos graus diatônicos menores, II é, em média, o mais comum, provavelmente, devido ao fato de ser um acorde preferencialmente aplicado como preparação cadencial, dentro da organização funcional tonal.^[Subjacentemente, isso denota uma influência dupla do Jazz e, especialmente, do Samba, gêneros nos quais o II grau tem papel destacado.] O acorde tem em Jobim uma distribuição levemente maior do que a média, enquanto em Milton apresenta-se bem menor (novamente, devido à expressiva presença de peças modais no *corpus*).
+
+O 1-grama VI ocupa uma posição hierárquica mais baixa do que o II, na média, no conjunto MPB. Contudo, ainda assim, tem uma presença consideravelmente maior do que se observa nos gêneros de controle, especialmente o Samba. Isso sugere que o acorde, talvez, possa estar associado a uma sutil preferência estilística da Prática Comum da MPB. Internamente ao conjunto, VI destaca-se no *corpus* Lins (seguido por Milton), tendo a menor distribuição em Jobim.
+
+Comparado aos demais diatônicos, o III é bem menos comum (o que é consistente, aliás, com o que se observa em geral na funcionalidade tonal, independentemente de estilo), apresentando em Djavan e Milton as maiores recorrências.
 
 Dentro das classe funcional PRE
 
