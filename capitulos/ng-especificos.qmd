@@ -22,9 +22,9 @@ O primeiro conjunto de gráficos examina o desempenho dos graus diatônicos isol
 
 Há maior variância dentro do conjunto MPB em relação aos demais graus tonais (IV e V). Nesse sentido, chama especial atenção a maior presença do IV em Milton,^[E, por outro lado, a baixa frequência de V, na comparação com seus pares. Ambos os fenômenos podem ser associados à diluição da funcionalidade tonal na música do compositor.] Caetano e Rita (nestes casos, provavelmente devido a uma relativa proeminência dos gêneros rock e *rhythm and blues* nesses repertórios).
 
-Quanto aos graus diatônicos menores, II é, em média, o mais comum, provavelmente, devido ao fato de ser um acorde preferencialmente aplicado como preparação cadencial, dentro da organização funcional tonal.^[Subjacentemente, isso denota uma influência dupla do Jazz e, especialmente, do Samba, gêneros nos quais o II grau tem papel destacado.] O acorde tem em Jobim uma distribuição levemente maior do que a média, enquanto em Milton apresenta-se bem menor (novamente, devido à expressiva presença de peças modais no *corpus*).
+Quanto aos graus diatônicos menores, II é, em média, o mais comum, provavelmente, devido ao fato de ser um acorde preferencialmente aplicado como preparação cadencial, dentro da organização funcional tonal.^[Subjacentemente, isso denota uma influência dupla do Jazz e, especialmente, do Samba, gêneros nos quais o II grau tem papel destacado.] O acorde tem em Jobim uma distribuição levemente maior do que a média, enquanto que em Milton apresenta-se em percentuais bem menores (novamente, devido à expressiva presença de peças modais nesse *corpus*).
 
-O 1-grama VI ocupa uma posição hierárquica mais baixa do que o II, na média, no conjunto MPB. Contudo, ainda assim, tem uma presença consideravelmente maior do que se observa nos gêneros de controle, especialmente o Samba. Isso sugere que o acorde, talvez, possa estar associado a uma sutil preferência estilística da Prática Comum da MPB. Internamente ao conjunto, VI destaca-se no *corpus* Lins (seguido por Milton), tendo a menor distribuição em Jobim.
+O 1-grama VI ocupa uma posição hierárquica mais baixa do que o II, na média, no conjunto MPB. Contudo, ainda assim, tem uma presença consideravelmente maior do que se observa nos gêneros de controle, especialmente o Samba. Isso sugere que a categoria funcional talvez possa estar associada a uma sutil preferência estilística da Prática Comum da MPB.^[Hipótese a ser futuramente investigada.] Internamente ao conjunto, VI destaca-se no *corpus* Lins (seguido por Milton), tendo a menor distribuição em Jobim.
 
 Comparado aos demais diatônicos, o III é bem menos comum (o que é consistente, aliás, com o que se observa em geral na funcionalidade tonal, independentemente de estilo), apresentando em Djavan e Milton as maiores recorrências.
 
@@ -34,7 +34,7 @@ Dentro das classe funcional PRE
 
 DISCUSSÃO
 
-........................
+O gráfico examina 1-gramas da classe PRE que, por definição, são inerentemente instáveis e trazem consigo fortes expectativas de continuação.^[O que torna, na prática, desnecessário que sejam avaliados os 2-gramas que lhes são correspondentes.] Consideramos cinco subgrupos: o primeiro deles congrega a subclasse dos Dominantes Secundários. V/V, V/IV e V/II são, em média, como se esperaria, os mais proeminentes.^[Observe-se que, à exceção do V/V, o *corpus* Milton apresenta percentuais sensivelmente menores do que de seus pares, um fato que, mais uma vez, é consistente com uma linguagem funcional-tonal mais diluída.] Em relação a esse trio, podemos tecer as seguintes observações: (a) o V/V é bem proeminente no Choro (comparado aos demais gêneros e ao conjunto MPB), o que parece ser derivado a aspectos estruturais.^[A forma de *período* (@schoenberg-fundamentos)
 
 Dentro das classes funcionais E1 e E2
 
