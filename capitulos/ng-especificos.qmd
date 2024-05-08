@@ -52,7 +52,7 @@ Por fim, o quinto subgrupo considera três dos mais significativos diminutos que
 
 DISCUSSÃO
 
-........................
+O gráfico compara cinco dos 1-gramas mais recorrentes da classe dos Empréstimos de Primeira Ordem (E1) -- IVm7, bVII7, bVI7M, bII7M e Vm7 -- e aquele que pode ser considerado o mais importante dos bem mais raros Empréstimos de Segunda Ordem (E2), bVIm7. 
 
 ### 2-gramas
 
