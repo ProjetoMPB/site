@@ -12,7 +12,7 @@ Com tal propósito, os gráficos a seguir são organizados de acordo com as card
 
 ### 1-gramas
 
-Dentro da classe funcional DIA
+#### Dentro da classe funcional DIA
 
 ![Comparação de proeminências relativas de 1-gramas de seis categorias funcionais diatônicas (I, II, III, IV, V e VI) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 1-gramas de cada repertório específico).](../figs/nge-01.png){width=100%}
 
@@ -28,17 +28,17 @@ O 1-grama VI ocupa uma posição hierárquica mais baixa do que o II, na média,
 
 Comparado aos demais diatônicos, o III é bem menos comum (o que é consistente, aliás, com o que se observa em geral na funcionalidade tonal, independentemente de estilo), apresentando em Djavan e Milton as maiores recorrências.
 
-Dentro das classe funcional PRE
+#### Dentro das classe funcional PRE
 
 ![Comparação de proeminências relativas de 1-gramas de 12 categorias funcionais das classes PRE (V/V, V/IV/ V/II, V/VI, V/III, "II", SubV, bIII°, I°, V°/V, V°/II e V°/III) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 1-gramas de cada repertório específico).](../figs/nge-02.png){width=100%}
 
 DISCUSSÃO
 
-O gráfico examina 1-gramas da classe PRE que, por definição, são inerentemente instáveis e trazem consigo fortes expectativas de continuação.^[O que torna, na prática, desnecessário que sejam avaliados os 2-gramas que lhes são correspondentes.] Consideramos cinco subgrupos: o primeiro deles congrega a subclasse dos Dominantes Secundários. V/V, V/IV e V/II são, em média, como se esperaria, os mais proeminentes.^[Observe-se que, à exceção do V/V, o *corpus* Milton apresenta percentuais sensivelmente menores do que de seus pares, um fato que, mais uma vez, é consistente com uma linguagem funcional-tonal mais diluída.] Em relação a esse trio, podemos tecer as seguintes observações: (a) o V/V é bem proeminente no Choro (comparado aos demais gêneros e ao conjunto MPB), o que parece ser derivado a aspectos estruturais.^[A forma de *período* (@caplin-forma-functions) é normativa em choros, o que, no mínimo garantiria a presença de duas cadências por seção -- uma semicadência ao final do *antecedente* e uma autêntica perfeita ao final do *consequente* (ambas, caracteristicamente, incluem V/V). Para maiores informações, ver @almada-choro.]; (b) o maior percentual de V/IV no *corpus* Chico sugeriria, consequentemente, um destaque de seu alvo (o IV) no mesmo repertório. No entanto, a presença do subdominante estrutural em Chico é a mais baixa entre seus pares, o que é no mínimo enigmático, requerendo estudos futuros;^[Uma possibilidade seria, talvez, uma maior ocorrência de resoluções deceptivas a partir do V/IV do que nos outros repertórios.] (c) V/II é 1-grama de forte importância na organização de sambas, o que faz com que seja mais comum, evidentemente, no respectivo controle e nos *corpora* nos quais o gênero tem boa presença (na ordem: Bosco, Chico, Djavan e Jobim).
+O gráfico examina 1-gramas da classe PRE que, por definição, são inerentemente instáveis e trazem consigo fortes expectativas de continuação.^[O que torna, na prática, desnecessário que sejam avaliados os 2-gramas que lhes são correspondentes.] Consideramos cinco subgrupos: o primeiro deles congrega a subclasse dos Dominantes Secundários. V/V, V/IV e V/II são, em média, como se esperaria, os mais proeminentes.^[Observe-se que, à exceção do V/V, o *corpus* Milton apresenta percentuais sensivelmente menores do que de seus pares, um fato que, mais uma vez, é consistente com uma linguagem funcional-tonal mais diluída.] Em relação a esse trio, podemos tecer as seguintes observações: (a) o V/V é bem proeminente no Choro (comparado aos demais gêneros e ao conjunto MPB), o que parece ser derivado a aspectos estruturais;^[A forma de *período* (@caplin-formal-functions) é normativa em choros, o que, no mínimo garantiria a presença de duas cadências por seção -- uma semicadência ao final do *antecedente* e uma autêntica perfeita ao final do *consequente* (ambas, caracteristicamente, incluem V/V). Para maiores informações, ver @almada-choro.] (b) o maior percentual de V/IV no *corpus* Chico sugeriria, consequentemente, um destaque de seu alvo (o IV) no mesmo repertório. No entanto, a presença do subdominante estrutural em Chico é a mais baixa entre seus pares, o que é no mínimo enigmático, requerendo estudos futuros;^[Uma possibilidade seria, talvez, uma maior ocorrência de resoluções deceptivas a partir do V/IV do que nos outros repertórios.] (c) V/II é 1-grama de forte importância na organização de sambas, o que faz com que seja mais comum, evidentemente, no respectivo controle e nos *corpora* nos quais o gênero tem boa presença (na ordem: Bosco, Chico, Djavan e Jobim).
 
 Os demais dominantes secundários -- V/VI e V/III --
 
-Dentro das classes funcionais E1 e E2
+#### Dentro das classes funcionais E1 e E2
 
 ![Comparação de proeminências relativas de 1-gramas de seis categorias funcionais das classes E1 (IVm7, bVII7, bVI7M, bII7M e Vm7) e E2 (bVIm7) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 1-gramas de cada repertório específico).](../figs/nge-03.png){width=100%}
 
@@ -48,25 +48,25 @@ DISCUSSÃO
 
 ### 2-gramas
 
-Dentro da classe funcional DIA
+#### Dentro da classe funcional DIA
 
 ![Comparação de proeminências relativas de cinco 2-gramas diatônicos (V | I,  I | V, IV | I, IV | V e II | V) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 2-gramas de cada repertório específico).](../figs/nge-04.png){width=90%}
 
 DISCUSSÃO
 
-Dentro da classe funcional PRE (Locuções dominantes)
+#### Dentro da classe funcional PRE (Locuções dominantes)
 
 ![Comparação de proeminências relativas de quatro 2-gramas preparatórios, referentes a locuções dominantes ("II | V/V, "II" | V/IV, "II" | V/II e II | SubV) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 2-gramas de cada repertório específico).](../figs/nge-05.png){width=90%}
 
 DISCUSSÃO
 
-"Saída" da Subdominante Estrutural 
+#### "Saída" da Subdominante Estrutural 
 
 ![Comparação de proeminências relativas de quatro 2-gramas referentes a fórmulas de "saída" características após a Subdominante Estrutural -- ou, alternativamente, o começo de uma "descida Plagal" -- (IV | IVm7, #IVm7(b5) | IVm7, IV | bVII7 e IV | V°/ V) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 2-gramas de cada repertório específico).](../figs/nge-06.png){width=90%}
 
 DISCUSSÃO
 
-Sequências de dominantes consecutivos
+#### Sequências de dominantes consecutivos
 
 ![Comparação de proeminências relativas de cinco 2-gramas referentes a sequências de dominantes consecutivos (V/III | V/VI,  V/VI | V/II, V/II | V/V, V/V | V e V | V/IV) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 2-gramas de cada repertório específico).](../figs/nge-07.png){width=90%}
 
@@ -74,25 +74,25 @@ DISCUSSÃO
 
 ### 3-gramas
 
-Sequências modelando cadências autênticas
+#### Sequências modelando cadências autênticas
 
 ![Comparação de proeminências relativas de três 3-gramas referentes a fórmulas que modelam cadências perfeitas (II | V | I, IV | V | I e V/V | V | I) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 3-gramas de cada repertório específico).](../figs/nge-08.png){width=90%}
 
 DISCUSSÃO
 
-Sequências modelando semicadências
+#### Sequências modelando semicadências
 
 ![Comparação de proeminências relativas de três 3-gramas referentes a fórmulas que modelam semicadências (II | V/V | V e V/V | II | V) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 3-gramas de cada repertório específico).](../figs/nge-09.png){width=80%}
 
 DISCUSSÃO
 
-Sequências de dominantes consecutivos
+#### Sequências de dominantes consecutivos
 
 ![Comparação de proeminências relativas de três 3-gramas referentes a sequências de dominantes consecutivos (V/III | V/VI | V/II, V/VI | V/II | V/V e V/II | V/V | V) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 3-gramas de cada repertório específico).](../figs/nge-10.png){width=90%}
 
 DISCUSSÃO
 
-Descida plagal
+#### Descida plagal
 
 ![Comparação de proeminências relativas de quatro 3-gramas referentes a sequências de "descidas plagais" (IV | IVm7 | i, IV | IVm7 | III, #IVm7(b5) | IVm7 | I e #IVm7(b5) | IVm7 | III) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 3-gramas de cada repertório específico).](../figs/nge-11.png){width=80%}
 
@@ -101,7 +101,7 @@ DISCUSSÃO
 
 ### 4-gramas
 
-Sequências de dominantes consecutivos
+#### Sequências de dominantes consecutivos
 
 ![Comparação de proeminências relativas de dois 4-gramas referentes a sequências de dominantes consecutivos (V/III | V/VI | V/II | V/V e V/VI | V/II | V/V | V) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 3-gramas de cada repertório específico).](../figs/nge-12.png){width=80%}
 
