@@ -44,7 +44,7 @@ O 1-grama SubV (cuja alvo é I)^[Dada a relativa menor presença dos substitutos
 
 O quarto subgrupo considera os principais acordes diminutos de aplicação *cromática* (bIII°) e *bordadura* (I°). A despeito de suas relativas baixas frequências nos *corpora* (se comparados aos demais da classe PRE), suas avaliações são aqui relevantes por integrarem fórmulas idiomáticas associadas à tradição da música brasileira (especialmente bIII°), o que pode contribuir para o rastreamento estilístico da MPB.
 
-Por fim, o quinto subgrupo considera três dos mais significativos diminutos que substituem dominantes secundários, dado que representam também influências do grupo controle na MPB, desta vez, do Samba e do Choro.......
+Por fim, o quinto subgrupo considera três dos mais significativos diminutos que substituem dominantes secundários, dado que representam também influências do grupo controle na MPB, desta vez, do Samba e do Choro. O 1-grama V°/V, que tem distribuição semelhante em ambos os gêneros apresenta-se em quase idênticos percentuais nos *corpora* Jobim, Chico e Bosco, seguidos de perto por Caetano (nos demais repertórios a categoria é bem mais rara). No caso de V°/II (levemente mais comum no Samba), o percentual de Jobim corresponde a quase totalidade do conjunto MPB,^[Os *corpora* Edu, Caetano, Milton, Gil e Rita não apresentam ocorrências.] o que se mostra como uma informação interessante. Por último, V°/III, um 1-grama de forte característica estilística no Choro (e baixíssima recorrência no Samba) tem maiores presenças em Jobim e Djavan, em destaque em relação aos demais repertórios
 
 #### Dentro das classes funcionais E1 e E2
 
