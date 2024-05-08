@@ -44,6 +44,8 @@ O 1-grama SubV (cuja alvo é I)^[Dada a relativa menor presença dos substitutos
 
 O quarto subgrupo considera os principais acordes diminutos de aplicação *cromática* (bIII°) e *bordadura* (I°). A despeito de suas relativas baixas frequências nos *corpora* (se comparados aos demais da classe PRE), suas avaliações são aqui relevantes por integrarem fórmulas idiomáticas associadas à tradição da música brasileira (especialmente bIII°), o que pode contribuir para o rastreamento estilístico da MPB.
 
+Por fim, o quinto subgrupo considera três dos mais significativos diminutos que substituem dominantes secundários, dado que representam também influências do grupo controle na MPB, desta vez, do Samba e do Choro.......
+
 #### Dentro das classes funcionais E1 e E2
 
 ![Comparação de proeminências relativas de 1-gramas de seis categorias funcionais das classes E1 (IVm7, bVII7, bVI7M, bII7M e Vm7) e E2 (bVIm7) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 1-gramas de cada repertório específico).](../figs/nge-03.png){width=100%}
