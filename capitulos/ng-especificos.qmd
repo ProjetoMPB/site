@@ -48,11 +48,11 @@ Por fim, o quinto subgrupo considera três dos mais significativos diminutos que
 
 #### Dentro das classes funcionais E1 e E2
 
-![Comparação de proeminências relativas de 1-gramas de seis categorias funcionais das classes E1 (IVm7, bVII7, bVI7M, bII7M e Vm7) e E2 (bVIm7) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 1-gramas de cada repertório específico).](../figs/nge-03.png){width=100%}
+![Comparação de proeminências relativas de 1-gramas de seis categorias funcionais das classes E1 (IV7, IVm7, bVII7, bVI7M e bII7M e Vm7) e E2 (bVIm7) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 1-gramas de cada repertório específico).](../figs/nge-03.png){width=100%}
 
 DISCUSSÃO
 
-O gráfico compara cinco dos 1-gramas mais recorrentes da classe dos Empréstimos de Primeira Ordem (E1) -- IVm7, bVII7, bVI7M, bII7M e Vm7 -- e aquele que pode ser considerado o mais importante dos bem mais raros Empréstimos de Segunda Ordem (E2), bVIm7. 
+O gráfico compara cinco dos 1-gramas mais recorrentes da classe dos Empréstimos de Primeira Ordem (E1) -- IVm7, bVII7, bII7M, bVI7M e Vm7 -- e aquele que pode ser considerado o mais importante dos bem mais raros Empréstimos de Segunda Ordem (E2), bVIm7. 
 
 ### 2-gramas
 
