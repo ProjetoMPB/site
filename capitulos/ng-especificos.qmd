@@ -70,6 +70,13 @@ O bVIm7 apresenta nos diversos *corpora* distribuições bem rarefeitas (bem aba
 
 DISCUSSÃO
 
+Iniciamos a avaliação dos 2-gramas com algumas importantes sequências puramente diatônicas. Os dois gráficos superiores demonstram a assimetria^[Evidenciada claramente pelas escalas de distribuições percentuais em cada progressão, respectivamente, 0-16% e 0-7%.] existente entre as progressões V | I e I | V, que contextualizam os 1-gramas mais comuns em todos os repertórios. 
+
+Na comparação entre os *corpora*, percebe-seque nos gêneros de controle (especialmente no Choro e no Samba, em torno de 15%) V | I tem um peso consideravelmente maior do se observa nos repertórios MPB, o que pode ser um sutil fator de definição estilística.^[Os percentuais variam entre 6 e 8% -- este o valor médio do conjunto --, com Caetano atingindo 12%. Nesse sentido, é relevante apontar Jobim como o *corpus* no qual a fórmula tem o menor peso entre os 2-gramas, sendo seguido de perto por Milton. Tal baixa ocorrência em ambos os casos explica-se, no entanto, a partir de conjecturas distintas: a multiplicidade de situações funcionais (em Jobim) que, por assim dizer, dilui a ubiquidade da fórmula no repertório e a maior presença de lógicas modais (em Milton) quue, por definição, evitam a atração funcional dominante-tônica.]
+
+Por outro lado, sua versão espelhada -- V | I -- se apresenta com comportamentos díspares nos *corpora* ........
+
+
 #### Dentro da classe funcional PRE (Locuções dominantes)
 
 ![Comparação de proeminências relativas de quatro 2-gramas preparatórios, referentes a locuções dominantes ("II | V/V, "II" | V/IV, "II" | V/II e II | SubV) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 2-gramas de cada repertório específico).](../figs/nge-05.png){width=90%}
