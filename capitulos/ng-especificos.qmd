@@ -95,13 +95,19 @@ Considerando a locução primária II | SubV (que envolve percentagens bem menor
 
 #### "Saída" da Subdominante Estrutural 
 
-![Comparação de proeminências relativas de quatro 2-gramas referentes a fórmulas de "saída" características após a Subdominante Estrutural -- ou, alternativamente, o começo de uma "descida Plagal" -- (IV | IVm7, #IVm7(b5) | IVm7, IV | bVII7 e IV | V°/ V) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 2-gramas de cada repertório específico).](../figs/nge-06.png){width=90%}
+![Comparação de proeminências relativas de quatro 2-gramas referentes a fórmulas de "saída" características após a Subdominante Estrutural -- ou, alternativamente, o começo de uma "descida Plagal" -- (IV | IVm7, IV | bVII7, #IVm7(b5) | IVm7,  e IV | V°/ V) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 2-gramas de cada repertório específico).](../figs/nge-06.png){width=90%}
 
 DISCUSSÃO
 
 Os quatro gráficos representam as principais manifestções do que podemos denominar a "saída" da Subdominante Estrutural (ou, alternativamente, os mais recorrentes 2-gramas de abertura do Gesto Funcional Retórico nomeado como "Descida Plagal").^[Tais sequências geralmente acontecem em pontos climáricos das peças, tendo assim uma vinculação com aspectos da estrutura formal-retórica (daí a nomenclatura).]
 
-A sequência representativa da fórmula funcional -- IV | IVm7 -- é bem mais comum do que suas variantes
+A sequência básica da fórmula funcional -- IV | IVm7 -- é bem mais comum do que suas variantes e, com a surpreendente exceção do *corpus* Lins,^[Outra surpresa é a baixa percentagem da sequência entre os 2-gramas no *corpus* Edu (0.1%).] está presente em todos os repertórios. As distribuições de -- principalmente -- Jobim (1.5%), Rita (1.1%), Caetano (0.9%) e Chico (0.7%) ficam acima da média MPB (0.6%). 
+
+Djavan (0.9%) é o *corpus* no qual a variante IV | bVII7 tem maior recorrência, seguido por Lins, Caetano e Edu (em torno de 0.4%). Choro e Samba (contrastando com o Jazz, no grupo de controle) têm percentuais bem baixos
+
+A alternativa #IVm7(b5) | IVm7 (que também modela a sequência funcional SD-sd) é ainda mais rara nos repertórios: Choro, Caetano, Milton e Rita não apresentam ocorrências. Novamente, Djavan é o *corpus* com maior percentual relativo dessa progressão (0.4%).
+
+O quarto gráfico analisa o 2-grama IV | V°/V que, embora não seja propriamente uma sequência SD-sd, como as anteriores, apresenta-se como alternativa disponível de "descida plagal". É uma fórmula idiomática em sambas (embora não exclusivamente), usada especialmente em inícios de refrãos. Esse fato se evidencia claramente pela alta percentagem no controle Samba (0.7%), se comparada aos demais repertórios. O *corpus* Caetano (0.6%) se sobressai dentre o conjunto MPB, o que de certo modo surpreende, já que os *corpora* Chico e Bosco -- mais associados ao gênero samba -- apresentam distribuições bem menores, em torno de 0.2%.
 
 #### Sequências de dominantes consecutivos
 
