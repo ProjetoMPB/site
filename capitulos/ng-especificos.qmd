@@ -99,6 +99,10 @@ Considerando a locução primária II | SubV (que envolve percentagens bem menor
 
 DISCUSSÃO
 
+Os quatro gráficos representam as principais manifestções do que podemos denominar a "saída" da Subdominante Estrutural (ou, alternativamente, os mais recorrentes 2-gramas de abertura do Gesto Funcional Retórico nomeado como "Descida Plagal").^[Tais sequências geralmente acontecem em pontos climáricos das peças, tendo assim uma vinculação com aspectos da estrutura formal-retórica (daí a nomenclatura).]
+
+A sequência representativa da fórmula funcional -- IV | IVm7 -- é bem mais comum do que suas variantes
+
 #### Sequências de dominantes consecutivos
 
 ![Comparação de proeminências relativas de cinco 2-gramas referentes a sequências de dominantes consecutivos (V/III | V/VI,  V/VI | V/II, V/II | V/V, V/V | V e V | V/IV) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 2-gramas de cada repertório específico).](../figs/nge-07.png){width=90%}
