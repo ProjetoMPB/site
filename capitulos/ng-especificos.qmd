@@ -115,6 +115,21 @@ O quarto gráfico analisa o 2-grama IV | V°/V que, embora não seja propriament
 
 DISCUSSÃO
 
+Os cinco gráficos "quebram" as possíveis sequências de dominantes consecutivos (DCs) em 2-gramas,^[Mais à frente, consideraremos sequências mais extensas.] blocos mínimos de significado nessa técnica especial de conexão "preparação-alvo". Ao contrário do que acontece em outros casos, aqui os 2-gramas não são ordenados pelas frequências de ocorrência, mas seguindo o fluxo sequencial V/III | V/VI | V/II | V/V | V | V/IV.
+
+Percebemos que, como se esperaria (a partir do que foi observado com os 1-gramas PRE), o bloco V/III | V/VI é o mais raro de todos, sendo mesmo inexistente na metade dos *corpora* MPB: Edu, Djavan, Milton, Gil e Rita. Significativammente, a maior ocorrência desse 2-grama acontece no *corpus* Chico, o que parece ser de algum modo associado a uma preferência estilística pessoal, em reforço a observações prévias.
+
+O 2-grama V/VI | V/II é mais comum do que o anterior (na razão 2:1, em média), com relativas altas frequências em quase todos os repertórios (ausente apenas em Milton e com baixa presença em Djavan).
+
+Bem mais expressivo é o uso do bloco V/II | V/V (talvez pelo fato de ser um elemento recorrente em cadências). Neste caso, Djavan é o *corpus* com mais alta percentagem (2.8%, o dobro da média MPB). É o primeiro a estar presente em todos os repertórios, mesmo em Milton (ainda que com valor bem baixo, 0.1%).
+
+O 2-grama V/V | V (claramente cadencial) é a sequência DC mais forte de todas (superando a anterior numa razão média 2:1). Apresenta-se em níveis consideravelmente semelhantes em todos os repertórios MPB (incluindo Milton), em média 2% de seus respectivos 2-gramas.^[Chama a atenção a alta ocorrência da fórmula no gênero Choro (5.2%), o que, como já sugerido, se deve especialmente ao seu uso idiomático nas duas cadências que segmentam normativamente as seções das composições.]
+
+Por último, a última "estação" do fluxo DC, que finalmente encontra seu alvo definitivo (V/IV | IV). É bem menos comum do que o 2-grama anterior, o que talvez se explique por tratar-se de um recurso alternativo para se alcançar o Subdominante estrutural (mais frequente é que isso seja feito através de locução secundária). Os *corpora* Gil, Chico, Bosco e Jobim apresentam percentuais acima da média (0.4%).^[Novamente, o Choro se destaca (1.1%), desta vez provavelmente por um fator negativo: a raridade do emprego da locução "II" | V/IV (como já visto).]
+
+
+
+
 ### 3-gramas
 
 #### Sequências modelando cadências autênticas
