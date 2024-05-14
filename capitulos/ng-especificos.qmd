@@ -10,7 +10,7 @@ Com tal propósito, os gráficos a seguir são organizados de acordo com as card
 
 ## Gráficos
 
-### 1-gramas
+### Referentes a 1-gramas
 
 #### Dentro da classe funcional DIA
 
@@ -62,7 +62,7 @@ As demais categorias de E1 consideradas, bVII7, bII7M e bVI7M integram a subclas
 
 O bVIm7 apresenta nos diversos *corpora* distribuições bem rarefeitas (bem abaixo de 1% entre os 1-gramas, de modo geral).^[Na verdade, o mesmo se observa em categorias da mesma classe: extremamente raras ou mesmo ausentes em certos repertórios (como no Choro, no Samba e em Rita Lee, no presente caso), os 1-gramas E2 são em geral empregados no discurso harmônico como "temperos" bastante peculiares, adicionados pelos compositores em verdadeiras "doses homeopáticas", por assim dizer.] Seu uso mais característico (porém não único) é na preparação acordes de qualidade dominante com fundamental um semitom abaixo, resultando em um bloco denominado "complexo dominante" (@almada-harmonia-jobim[247-253]), cuja manifestação mais conhecida acontece em *Chega de saudade* (Jobim e Vinicius de Moraes).^[Dado o extraordinário impacto que o surgimento dessa canção representou para inúmeros compositores (como declaram os próprios, dentre os quais Caetano Veloso, Gilberto Gil, Chico Buarque, Edu Lobo etc.), parece plausível supor que talvez algumas das ocorrências da categoria bVIm7 em suas obras possam ser atribuídas a uma relação de influência, naturalmente assimilada em seus estilos de criação harmônica. Nesse sentido, é interessante perceber que o *corpus* Edu Lobo (e, um pouco menos, também Djavan) apresenta um percentual superior ao do próprio Jobim em relação a essa categoria.] 
 
-### 2-gramas
+### Referentes a 2-gramas
 
 #### Dentro da classe funcional DIA
 
@@ -130,13 +130,19 @@ Por último, a última "estação" do fluxo DC, que finalmente encontra seu alvo
 
 
 
-### 3-gramas
+### Referentes a 3-gramas
 
 #### Sequências modelando cadências autênticas
 
 ![Comparação de proeminências relativas de três 3-gramas referentes a fórmulas que modelam cadências perfeitas (II | V | I, IV | V | I e V/V | V | I) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 3-gramas de cada repertório específico).](../figs/nge-08.png){width=90%}
 
 DISCUSSÃO
+
+A avaliação dos 3-gramas específicos se inicia com a comparação entre duas sequências que modelam a cadência autêntica empregando apenas categorias funcionais diatônicas. Reforçando o que já foi sugerido em avaliações anteriores, II | V | I é, em média, bem mais comum do que a alternativa IV | V | I. A preferência pela primeira fórmula se mantém na observação individual dos *corpora*, ainda que em proporções distintas.^[As diferenças mais marcantes acontecem no grupo de controle: Jazz (7.9 x 0.2%) e Samba (5.7 x 0.6%).] Na maior parte dos repertórios MPB (incluindo a própria média), a diferença entre as alternativas varia entre 1 e 2 pontos percentuais, excetuando-se os casos extremos de Caetano (5.3 x 1.6%) e Milton (0.6 x 0.3%).^[Este último, mais uma vez, denotando a diluição da sintaxe tonal (evidenciada pela baixa presença de ambos os gestos cadenciais) na música do compositor.]
+
+A terceira alternativa (não diatônica) envolve um fechamento cadencial com dominantes consecutivos V/V | V | I. Como se observa, é uma opção consideravelmente mais comum, em média, do que IV | V | I, o que a coloca em segundo lugar nas preferências. Neste caso, o Choro se destaca bastante dos demais repertórios (3.7% dos 3-gramas do gênero correspondem a ocorrências da fórmula). No âmbito do conjunto MPB, é significativo constatar que apenas os *corpora* Jobim, Lins e Edu apresentam percentuais menores do que a média (0.8%).^[Tais valores são próximos ao percentual do Jazz, o que talvez possa, de maneira indireta, representar mais uma preferência harmônico-estilística desse subconjunto compartilhada com o gênero, reforçando aquelas sugeridas em outras análises.]
+
+
 
 #### Sequências modelando semicadências
 
@@ -157,7 +163,7 @@ DISCUSSÃO
 DISCUSSÃO
 
 
-### 4-gramas
+### Referentes a 4-gramas
 
 #### Sequências de dominantes consecutivos
 
