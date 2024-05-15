@@ -170,7 +170,7 @@ A quarta possibilidade, iniciada com V/V, aborta as finalizações cadenciais, a
 
 DISCUSSÃO
 
-Os gráficos acima destacam os 3-gramas de descidas plagais completas^[Isto é, incluindo a "chegada" ao acorde de função tônica.] mais recorrentes, em média.^[Desconsideramos as alternativas nas quais a média MPB ficou abaixo de 0.05%.] A fórmula-padrão -- IV | IVm7 | I -- é a mais disseminada pelos repertórios (ausente apenas em Lins e Bosco). As maiores ocorrências se apresentam nos controles Choro (0.6%), Samba (0.5%) e no *corpus* Jobim (0.5%), bem acima da média MPB (0.2%).
+Os gráficos acima destacam os 3-gramas de descidas plagais completas^[Isto é, incluindo a "chegada" ao acorde de função tônica.] mais recorrentes, em média.^[Desconsideramos as alternativas nas quais a média MPB ficou abaixo de 0.05%. Denominamos esse valor a *restrição de representatividade*, um limite abaixo do qual não consideramos como relevante para nossa análise.] A fórmula-padrão -- IV | IVm7 | I -- é a mais disseminada pelos repertórios (ausente apenas em Lins e Bosco). As maiores ocorrências se apresentam nos controles Choro (0.6%), Samba (0.5%) e no *corpus* Jobim (0.5%), bem acima da média MPB (0.2%).
 
 A chegada ao III (no lugar de I) é bem mais rarefeita, com presença na música de apenas quatro compositores (Jobim, novamente, é o que mais emprega esse 3-grama, com percentual bem próximo do anterior, 0.4%).^[O que torna, provavelmente, sua música como a que mais emprega, entre seus pares, a descida plagal -- próximo de 1% de todos os 3-gramas do compositor. Isso sugere ser a fórmula (e suas variantes) um possível marcador estilístico, confirmando a impressão criada pelas análises harmônicas realizadas.]
 
@@ -178,10 +178,12 @@ A alternativa IV | bVII | I (com a substituição dentro da subclasse Subdominan
 
 ### Referentes a 4-gramas
 
-A partir de quatro elementos o número de sequências funcionais distintas cresce enormemente, pulverizando as alternativas e implicando a diminuição da quantidade de padrões, o que torna quase que inviável o exame de n-gramas com cardinalidades mairoes do que 4.
+A partir de quatro elementos o número de sequências funcionais distintas cresce enormemente, pulverizando as alternativas e implicando, consequentemente, a diminuição da quantidade de padrões, o que torna quase que inviável o exame de n-gramas com cardinalidades iguais a ou maiores que 4.
 
 #### Sequências de dominantes consecutivos
 
-![Comparação de proeminências relativas de dois 4-gramas referentes a sequências de dominantes consecutivos (V/III | V/VI | V/II | V/V e V/VI | V/II | V/V | V) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 3-gramas de cada repertório específico).](../figs/nge-12.png){width=80%}
+![Comparação de proeminências relativas de dois 4-gramas referentes a sequências de dominantes consecutivos (V/III | V/VI | V/II | V/V e V/VI | V/II | V/V | V) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 3-gramas de cada repertório específico).](../figs/nge-12.png){width=50%}
 
 DISCUSSÃO
+
+Na verdade, cremos que apenas um caso, mostrado no gráfico acima, justificaria a avaliação de 4-gramas, já que corresponde a uma fórmula consagrada (que admitiria, inclusive, cardinalidades ainda maiores). Combinando, entretanto, essa circunstância com o cumprimento da restrição de representatividade de 0.05% para os n-gramas, obtemos apenas uma sequência válida: V/VI | V/II | V/V | V.^[O fato de essa sequência ter um perfil cadencial (tendo como potenciais alvos tanto o próprio V quanto I) pode justificar a relativa alta distribuição desse 4-grama diante de outras possibilidades DS.]
