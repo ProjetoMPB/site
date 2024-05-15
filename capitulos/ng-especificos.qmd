@@ -127,9 +127,6 @@ O 2-grama V/V | V (claramente cadencial) é a sequência DC mais forte de todas 
 
 Por último, a última "estação" do fluxo DC, que finalmente encontra seu alvo definitivo (V/IV | IV). É bem menos comum do que o 2-grama anterior, o que talvez se explique por tratar-se de um recurso alternativo para se alcançar o Subdominante estrutural (mais frequente é que isso seja feito através de locução secundária). Os *corpora* Gil, Chico, Bosco e Jobim apresentam percentuais acima da média (0.4%).^[Novamente, o Choro se destaca (1.1%), desta vez provavelmente por um fator negativo: a raridade do emprego da locução "II" | V/IV (como já visto).]
 
-
-
-
 ### Referentes a 3-gramas
 
 #### Sequências modelando cadências autênticas
@@ -155,6 +152,8 @@ DISCUSSÃO
 ![Comparação de proeminências relativas de três 3-gramas referentes a sequências de dominantes consecutivos (V/III | V/VI | V/II, V/VI | V/II | V/V e V/II | V/V | V) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 3-gramas de cada repertório específico).](../figs/nge-10.png){width=90%}
 
 DISCUSSÃO
+
+A dupla de gráficos compara outras duas estratégias alternativas cadenciais, desta vez mirando na dominante (ou, seja, semicadências). É interessante constatar que ambos os 3-gramas usam as mesmas categorias funcionais, porém em ordenamentos diferentes. Enquanto na primeira sequência (II | V/V | I) pressupõe-se, no âmbito contrapontístico, a cromatização da terça do primeiro acorde (Fá-Fá#, na tonalidade de Dó maior), levando naturalmente à nota funcamental da dominante-alvo, a segunda a terça inicial sofre o que denominamos informalmente um processo de "amolecimento" (Fá#-Fá natural), antecipando a sétima do acorde. Mais importante, a fórmula envolve a formação da locução dominante primária, característica em contextos de música popular. Isso é constatado na comparação dos gráficos: a segunda sequência pode ser vista como preferencial pelos compositores MPB, dada a grande diferença entre os percentuais médios das duas fórmulas. Jobim, Caetano, Chico, Edu e Gil apresentam distribuições acima da média (0.4%).^[Enquanto o *corpus* Jazz apresenta percentual três vezes maior (1.2%) e nenhuma ocorrência do 3-grama II | V/V | V. Isso nos faz supor que a sequência V/V | II | V  possa ser mais uma influência construtiva jazzística na Prática Comum da MPB.]
 
 #### Descida plagal
 
