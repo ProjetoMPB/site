@@ -178,6 +178,8 @@ A alternativa IV | bVII | I (com a substituição dentro da subclasse Subdominan
 
 ### Referentes a 4-gramas
 
+A partir de quatro elementos o número de sequências funcionais distintas cresce enormemente, pulverizando as alternativas e implicando a diminuição da quantidade de padrões, o que torna quase que inviável o exame de n-gramas com cardinalidades mairoes do que 4.
+
 #### Sequências de dominantes consecutivos
 
 ![Comparação de proeminências relativas de dois 4-gramas referentes a sequências de dominantes consecutivos (V/III | V/VI | V/II | V/V e V/VI | V/II | V/V | V) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 3-gramas de cada repertório específico).](../figs/nge-12.png){width=80%}
