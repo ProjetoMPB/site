@@ -147,13 +147,22 @@ A terceira alternativa (não diatônica) envolve um fechamento cadencial com dom
 
 DISCUSSÃO
 
+A dupla de gráficos compara outras duas estratégias alternativas cadenciais, desta vez mirando na dominante (ou, seja, semicadências). É interessante constatar que ambos os 3-gramas usam as mesmas categorias funcionais, porém em ordenamentos diferentes. Enquanto na primeira sequência (II | V/V | I) pressupõe-se, no âmbito contrapontístico, a cromatização da terça do primeiro acorde (Fá-Fá#, na tonalidade de Dó maior), levando naturalmente à nota funcamental da dominante-alvo, a segunda a terça inicial sofre o que denominamos informalmente um processo de "amolecimento" (Fá#-Fá natural), antecipando a sétima do acorde. Mais importante, a fórmula envolve a formação da locução dominante primária, característica em contextos de música popular. Isso é constatado na comparação dos gráficos: a segunda sequência pode ser vista como preferencial pelos compositores MPB, dada a grande diferença entre os percentuais médios das duas fórmulas. Jobim, Caetano, Chico, Edu e Gil apresentam distribuições acima da média (0.4%).^[Enquanto o *corpus* Jazz apresenta percentual três vezes maior (1.2%) e nenhuma ocorrência do 3-grama II | V/V | V. Isso nos faz supor que a sequência V/V | II | V  possa ser mais uma influência construtiva jazzística na Prática Comum da MPB.]
+
 #### Sequências de dominantes consecutivos
 
 ![Comparação de proeminências relativas de três 3-gramas referentes a sequências de dominantes consecutivos (V/III | V/VI | V/II, V/VI | V/II | V/V e V/II | V/V | V) nos 13 *corpora* e no conjunto MPB (percentuais se referem ao grupo de 3-gramas de cada repertório específico).](../figs/nge-10.png){width=90%}
 
 DISCUSSÃO
 
-A dupla de gráficos compara outras duas estratégias alternativas cadenciais, desta vez mirando na dominante (ou, seja, semicadências). É interessante constatar que ambos os 3-gramas usam as mesmas categorias funcionais, porém em ordenamentos diferentes. Enquanto na primeira sequência (II | V/V | I) pressupõe-se, no âmbito contrapontístico, a cromatização da terça do primeiro acorde (Fá-Fá#, na tonalidade de Dó maior), levando naturalmente à nota funcamental da dominante-alvo, a segunda a terça inicial sofre o que denominamos informalmente um processo de "amolecimento" (Fá#-Fá natural), antecipando a sétima do acorde. Mais importante, a fórmula envolve a formação da locução dominante primária, característica em contextos de música popular. Isso é constatado na comparação dos gráficos: a segunda sequência pode ser vista como preferencial pelos compositores MPB, dada a grande diferença entre os percentuais médios das duas fórmulas. Jobim, Caetano, Chico, Edu e Gil apresentam distribuições acima da média (0.4%).^[Enquanto o *corpus* Jazz apresenta percentual três vezes maior (1.2%) e nenhuma ocorrência do 3-grama II | V/V | V. Isso nos faz supor que a sequência V/V | II | V  possa ser mais uma influência construtiva jazzística na Prática Comum da MPB.]
+Os 2-gramas DCs são aqui reavaliados, reagrupando-os em sequências de três elementos. Podemos ver no primeiro gráfico que apenas nos controles Jazz e Samba (e, mesmo assim, em baixos percentuais) são registrados 3-gramas DCs a partir de V/III. 
+
+Sequências iniciadas na "estação" seguinte (V/VI) são recorrentes em vários dos *corpora* MPB, especialmente em Rita Lee, Gil e Caetano, que compartilham estéticas semelhantes (podemos denominá-los, um tanto imprecisamente, compositores "tropicalistas"), o que levanta uma instigante possibilidade de que o 3-grama V/VI | V/II | V/V possa ser um marcador estilístico associado a algum aspecto estético (mais um caso que demanda estudos complementares). 
+
+A sequência de três DCs mais comuns, no entanto, é V/II | V/V | V (associando-se, consequentemente, a um gesto cadencial, o que por certo explicaria sua maior recorrência). Djavan (2.4%) é o *corpus* no qual a fórmula se apresenta com maior destaque, seguido por Chico, Bosco e Caetanto, com percentuais acima da média MPB (0.8%).
+
+A quarta possibilidade, iniciada com V/V, aborta as finalizações cadenciais, apontando para a categoria IV. Talvez por essa razão,^[E por competir, por assim dizer, com o acesso preferencial à Subdominante Estrutural, a saber, a través de uma locução secundária (ver acima o gráfico correspondente, referente aos 2-gramas das locuções.] é bem menos comum do que o 3-grama anterior, tendo em Gil sua maior percentagem (0.4%, cerca do triplo da média).
+
 
 #### Descida plagal
 
