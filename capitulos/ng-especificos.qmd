@@ -155,13 +155,13 @@ A dupla de gráficos compara outras duas estratégias alternativas cadenciais, d
 
 DISCUSSÃO
 
-Os 2-gramas DCs são aqui reavaliados, reagrupando-os em sequências de três elementos. Podemos ver no primeiro gráfico que apenas nos controles Jazz e Samba (e, mesmo assim, em baixos percentuais) são registrados 3-gramas DCs a partir de V/III. 
+Reavaliamos aqui os 2-gramas DCs, reagrupando-os em sequências de três elementos. Podemos ver no primeiro gráfico que apenas nos controles Jazz e Samba (e, mesmo assim, em baixos percentuais) são registrados 3-gramas DCs a partir de V/III. 
 
-Sequências iniciadas na "estação" seguinte (V/VI) são recorrentes em vários dos *corpora* MPB, especialmente em Rita Lee, Gil e Caetano, que compartilham estéticas semelhantes (podemos denominá-los, um tanto imprecisamente, compositores "tropicalistas"), o que levanta uma instigante possibilidade de que o 3-grama V/VI | V/II | V/V possa ser um marcador estilístico associado a algum aspecto estético (mais um caso que demanda estudos complementares). 
+Sequências iniciadas na "estação" seguinte (V/VI) são recorrentes em vários dos *corpora* MPB, especialmente em Rita Lee, Gil e Caetano, que compartilham estéticas semelhantes (podemos denominá-los, um tanto imprecisamente, compositores "tropicalistas"), o que levanta uma instigante possibilidade de que o 3-grama V/VI | V/II | V/V possa ser um marcador estilístico desse subcorpus (mais um caso que demanda estudos complementares). 
 
-A sequência de três DCs mais comuns, no entanto, é V/II | V/V | V (associando-se, consequentemente, a um gesto cadencial, o que por certo explicaria sua maior recorrência). Djavan (2.4%) é o *corpus* no qual a fórmula se apresenta com maior destaque, seguido por Chico, Bosco e Caetanto, com percentuais acima da média MPB (0.8%).
+A sequência-trio de DCs mais comun, no entanto, é V/II | V/V | V (associando-se, consequentemente, a um gesto cadencial, o que por certo explicaria sua maior recorrência). Djavan (2.4%) é o *corpus* no qual a fórmula se apresenta com maior destaque, seguido por Chico, Bosco e Caetano, com percentuais acima da média MPB (0.8%).
 
-A quarta possibilidade, iniciada com V/V, aborta as finalizações cadenciais, apontando para a categoria IV. Talvez por essa razão,^[E por competir, por assim dizer, com o acesso preferencial à Subdominante Estrutural, a saber, a través de uma locução secundária (ver acima o gráfico correspondente, referente aos 2-gramas das locuções.] é bem menos comum do que o 3-grama anterior, tendo em Gil sua maior percentagem (0.4%, cerca do triplo da média).
+A quarta possibilidade, iniciada com V/V, aborta as finalizações cadenciais, apontando para a categoria IV. Talvez por essa razão,^[E por competir, por assim dizer, com o acesso preferencial à Subdominante Estrutural, a saber, através da locução secundária "II" | V/IV (ver o gráfico 2-grama correspondente.] é bem menos comum do que o 3-grama anterior, tendo em Gil sua maior percentagem (0.4%, cerca do triplo da média).
 
 
 #### Descida plagal
