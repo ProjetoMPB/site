@@ -170,6 +170,11 @@ A quarta possibilidade, iniciada com V/V, aborta as finalizações cadenciais, a
 
 DISCUSSÃO
 
+Os gráficos acima destacam os 3-gramas de descidas plagais completas^[Isto é, incluindo a "chegada" ao acorde de função tônica.] mais recorrentes, em média.^[Desconsideramos as alternativas nas quais a média MPB ficou abaixo de 0.05%.] A fórmula-padrão -- IV | IVm7 | I -- é a mais disseminada pelos repertórios (ausente apenas em Lins e Bosco). As maiores ocorrências se apresentam nos controles Choro (0.6%), Samba (0.5%) e no *corpus* Jobim (0.5%), bem acima da média MPB (0.2%).
+
+A chegada ao III (no lugar de I) é bem mais rarefeita, com presença na música de apenas quatro compositores (Jobim, novamente, é o que mais emprega esse 3-grama, com percentual bem próximo do anterior, 0.4%).^[O que torna, provavelmente, sua música como a que mais emprega, entre seus pares, a descida plagal -- próximo de 1% de todos os 3-gramas do compositor. Isso sugere ser a fórmula (e suas variantes) um possível marcador estilístico, confirmando a impressão criada pelas análises harmônicas realizadas.]
+
+A alternativa IV | bVII | I (com a substituição dentro da subclasse Subdominante Menor) produz resultados semelhantes à anterior (apenas cinco compositores MPB registram ocorrências). Os *corpora* Djavan e Caetano, com, respectivamente, 0.5 e 0.4% são os que mais se sobressaem (bem acima da média 0.1%). 
 
 ### Referentes a 4-gramas
 
