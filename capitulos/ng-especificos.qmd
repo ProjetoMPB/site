@@ -4,7 +4,7 @@ title: N-gramas funcionais específicos
 
 ## Introdução
 
-Neste capítulo, em seguimento ao capítulo sobre [n-gramas](n-grams.qmd), examinaremos sequências acordais específicas, de significados funcionais relevantes para o mapeamento estilístico almejado, comparando suas distribuições nos diferentes *corpora*, o que, por certo, nos permitirá extrair conclusões adicionais referentes aos objetivos do projeto. 
+Neste capítulo, em seguimento ao capítulo sobre [n-gramas](n-grams.qmd), examinaremos sequências acordais específicas, de significados funcionais relevantes para o mapeamento estilístico almejado, comparando suas distribuições nos diferentes *corpora*, o que, por certo, nos permitirá extrair conclusões adicionais referentes aos objetivos do projeto). 
 
 Com tal propósito, os gráficos a seguir são organizados de acordo com as cardinalidades envolvidas (ou seja, 1-gramas, 2-gramas etc.) e com as classes ou situações funcionais que consideramos significativas para exame e comparações. Os percentuais dos gráficos se referem às distribuições das categorias específicas nos respectivos *corpora* em relação aos n-gramas correspondentes. Sendo assim, é sempre importante atentar para as diferenças de escalas envolvidas: enfatizamos, assim, que as comparações entre os desempenhos dos *corpora* em relação a algum aspecto devem ser consideradas apenas no âmbito do gráfico em questão.
 
