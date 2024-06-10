@@ -620,6 +620,20 @@
     ]
   },
   {
+    "objectID": "capitulos/entropia.html",
+    "href": "capitulos/entropia.html",
+    "title": "Entropia",
+    "section": "",
+    "text": "Este capítulo tem por objetivo apresentar resultados das análises referentes à medição de entropia de aspectos melódicos, rítmicos e harmônicos. Além dos valores em bits das entropias, consideremos aqui a distribuição das possíveis continuações de cada evento medido, considerando apenas as três mais recorrentes, tomando como piso de observação o valor de 1% (ou seja, apenas as continuações mais recorrentes – acima desse mínimo – serão levadas em conta, o que filtrará os resultados mais significativos para a avaliação aqui proposta)."
+  },
+  {
+    "objectID": "capitulos/entropia.html#section",
+    "href": "capitulos/entropia.html#section",
+    "title": "Entropia",
+    "section": "1 ",
+    "text": "1 \nDe modo a tornar mais eficazes as comparações, optamos por considerar"
+  },
+  {
     "objectID": "capitulos/logo.html",
     "href": "capitulos/logo.html",
     "title": "Logotipo do Projeto MPB",
