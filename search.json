@@ -627,11 +627,18 @@
     "text": "Este capítulo tem por objetivo apresentar resultados das análises referentes à medição de entropia de aspectos melódicos, rítmicos e harmônicos. Além dos valores em bits das entropias, consideremos aqui a distribuição das possíveis continuações de cada evento medido, considerando apenas as três mais recorrentes, tomando como piso de observação o valor de 1% (ou seja, apenas as continuações mais recorrentes – acima desse mínimo – serão levadas em conta, o que filtrará os resultados mais significativos para a avaliação aqui proposta)."
   },
   {
-    "objectID": "capitulos/entropia.html#section",
-    "href": "capitulos/entropia.html#section",
+    "objectID": "capitulos/entropia.html#introdução",
+    "href": "capitulos/entropia.html#introdução",
     "title": "Entropia",
-    "section": "1 ",
-    "text": "1 \nDe modo a tornar mais eficazes as comparações, optamos por considerar"
+    "section": "",
+    "text": "Este capítulo tem por objetivo apresentar resultados das análises referentes à medição de entropia de aspectos melódicos, rítmicos e harmônicos. Além dos valores em bits das entropias, consideremos aqui a distribuição das possíveis continuações de cada evento medido, considerando apenas as três mais recorrentes, tomando como piso de observação o valor de 1% (ou seja, apenas as continuações mais recorrentes – acima desse mínimo – serão levadas em conta, o que filtrará os resultados mais significativos para a avaliação aqui proposta)."
+  },
+  {
+    "objectID": "capitulos/entropia.html#domínio-do-contorno-melódico",
+    "href": "capitulos/entropia.html#domínio-do-contorno-melódico",
+    "title": "Entropia",
+    "section": "2 Domínio do contorno melódico",
+    "text": "2 Domínio do contorno melódico"
   },
   {
     "objectID": "capitulos/logo.html",
