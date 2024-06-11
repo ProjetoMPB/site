@@ -31,7 +31,7 @@ O vetor R se apresenta como uma matriz de dimensões 1 $\times$ n, onde *n* é o
 
 ![Exemplo de trecho de uma matriz NF.](../figs/metodologia-05.png){width=30% #fig-metodologia05}
 
-**Matriz H** -- arquivo em formato XLS no qual diversos aspectos da estrutura harmônica de uma peça são coletadas e codificadas pelo analista. Para cada acorde da peça, são registrados: (a) fundamental; (b) baixo; (c) tipo acordal; (d) função; (e) contexto tonal; (f) localização métrica. O arquivo se apresenta como uma matriz de dimensões 8 $\times$ n, onde \textit{n} é o número de acordes presente na peça ([@fig-metodologia06]).
+**Matriz H** -- arquivo em formato XLS no qual diversos aspectos da estrutura harmônica de uma peça são coletadas e codificadas pelo analista. A matriz H é configurada como uma matriz com 8 linhas e *n* colunas (onde *n* é o número de acordes que a peça em análise contém). Assim, para cada acorde da peça, são registrados ([@fig-metodologia06]): fundamental (na linha *a*); baixo (linha *b*); tipo acordal (linhas *c* e *d*); função (linha *e*); contexto tonal (linhas *f* e *g*; localização métrica (linha *h*).
 
 ![Exemplo de trecho de uma matriz H.](../figs/metodologia-06.png){width=30% #fig-metodologia06}
 
