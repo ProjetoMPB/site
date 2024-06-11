@@ -7,4 +7,6 @@ Este capítulo tem por objetivo apresentar resultados das análises referentes �
 
 ## Domínio do contorno melódico
 
+### c-letra **u**
+
 ![Exemplo de trecho de um MIDI segmentado.](../figs/entro-01.png)
