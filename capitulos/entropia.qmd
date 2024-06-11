@@ -14,3 +14,7 @@ Este capítulo tem por objetivo apresentar resultados das análises referentes �
 ### c-letra **P**
 
 ![Entropia (em bits), número de continuações acima 10% e as três alternativas mais recorrentes referentes à c-letra P, considerando os 10 *corpora* de análise e o conjunto MPB.](../figs/entro-02.png){width=70%}
+
+### c-letra **p**
+
+![Entropia (em bits), número de continuações acima 10% e as três alternativas mais recorrentes referentes à c-letra p, considerando os 10 *corpora* de análise e o conjunto MPB.](../figs/entro-03.png){width=70%}
