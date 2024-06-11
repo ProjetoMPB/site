@@ -9,4 +9,4 @@ Este capítulo tem por objetivo apresentar resultados das análises referentes �
 
 ### c-letra **u**
 
-![Exemplo de trecho de um MIDI segmentado.](../figs/entro-01.png)
+![Entropia e as três mais comuns continuações (em percentuais) referentes à c-letra **u**, considerando os 10 *corpora* de análise e o conjunto MPB.](../figs/entro-01.png){width=70%}
