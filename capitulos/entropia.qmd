@@ -5,24 +5,40 @@ title: Entropia
 ## Introdução
 Este capítulo tem por objetivo apresentar resultados das análises referentes à medição de entropia de aspectos melódicos, rítmicos e harmônicos. Além dos valores em bits das entropias, consideremos aqui a distribuição das possíveis continuações de cada evento medido, considerando apenas as três mais recorrentes, tomando como piso de observação o valor de 1% (ou seja, apenas as continuações mais recorrentes -- acima desse mínimo -- serão levadas em conta, o que filtrará os resultados mais significativos para a avaliação aqui proposta).
 
-## Domínio do contorno melódico
-
-### c-letra **u**
+## Subdomínio do contorno melódico
+............................
+### c-letra **u** ("repetição")
 
 ![Entropia (em bits), número de continuações acima 10% e as três alternativas mais recorrentes referentes à c-letra u, considerando os 10 *corpora* de análise e o conjunto MPB. Barras cinza indicam continuações "reflexivas".](../figs/entro-01.png){width=70%}
 
-### c-letra **P**
+### c-letra **P** ("passo ascendente")
 
 ![Entropia (em bits), número de continuações acima 10% e as três alternativas mais recorrentes referentes à c-letra P, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-02.png){width=70%}
 
-### c-letra **p**
+### c-letra **p** ("passo descendente")
 
 ![Entropia (em bits), número de continuações acima 10% e as três alternativas mais recorrentes referentes à c-letra p, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-03.png){width=70%}
 
-### c-letra **A**
+### c-letra **A** ("arpejo ascendente")
 
 ![Entropia (em bits), número de continuações acima 10% e as três alternativas mais recorrentes referentes à c-letra A, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-04.png){width=70%}
 
-### c-letra **a**
+### c-letra **a** ("arpejo descendente")
 
 ![Entropia (em bits), número de continuações acima 10% e as três alternativas mais recorrentes referentes à c-letra a, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-05.png){width=70%}
+
+### c-letra **S** ("salto ascendente")
+
+![Entropia (em bits), número de continuações acima 10% e as três alternativas mais recorrentes referentes à c-letra S, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-06.png){width=70%}
+
+### c-letra **s** ("salto descendente")
+
+![Entropia (em bits), número de continuações acima 10% e as três alternativas mais recorrentes referentes à c-letra s, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-07.png){width=70%}
+
+### Discussão
+............................
+
+## Subdomínio do ritmo
+............................
+
+### r-letra **b**
