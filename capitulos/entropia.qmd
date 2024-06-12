@@ -22,3 +22,7 @@ Este capítulo tem por objetivo apresentar resultados das análises referentes �
 ### c-letra **A**
 
 ![Entropia (em bits), número de continuações acima 10% e as três alternativas mais recorrentes referentes à c-letra A, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-04.png){width=70%}
+
+### c-letra **a**
+
+![Entropia (em bits), número de continuações acima 10% e as três alternativas mais recorrentes referentes à c-letra a, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-05.png){width=70%}
