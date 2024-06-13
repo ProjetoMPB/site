@@ -48,3 +48,7 @@ Este capítulo tem por objetivo apresentar resultados das análises referentes �
 ### r-letra **e**
 
 ![Entropia (em bits), número de continuações acima 10% e as três alternativas mais recorrentes referentes à r-letra e, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-09.png){width=70%}
+
+### r-letra **j**
+
+![Entropia (em bits), número de continuações acima 10% e as três alternativas mais recorrentes referentes à r-letra j, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-10.png){width=70%}
