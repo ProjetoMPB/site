@@ -15,31 +15,31 @@ As duas outras ideias se referem à primeira continuação (seja ela reflexiva o
 
 ### c-letra **u** ("repetição")
 
-![Entropia (em bits), número de continuações acima 10% e as três alternativas mais recorrentes referentes à c-letra u, considerando os 10 *corpora* de análise e o conjunto MPB. Barras cinza indicam continuações "reflexivas".](../figs/entro-01.png){width=70%}
+![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à c-letra u, considerando os 10 *corpora* de análise e o conjunto MPB. Barras cinza indicam continuações "reflexivas".](../figs/entro-01.png){width=70%}
 
 ### c-letra **P** ("passo ascendente")
 
-![Entropia (em bits), número de continuações acima 10% e as três alternativas mais recorrentes referentes à c-letra P, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-02.png){width=70%}
+![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à c-letra P, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-02.png){width=70%}
 
 ### c-letra **p** ("passo descendente")
 
-![Entropia (em bits), número de continuações acima 10% e as três alternativas mais recorrentes referentes à c-letra p, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-03.png){width=70%}
+![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à c-letra p, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-03.png){width=70%}
 
 ### c-letra **A** ("arpejo ascendente")
 
-![Entropia (em bits), número de continuações acima 10% e as três alternativas mais recorrentes referentes à c-letra A, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-04.png){width=70%}
+![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à c-letra A, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-04.png){width=70%}
 
 ### c-letra **a** ("arpejo descendente")
 
-![Entropia (em bits), número de continuações acima 10% e as três alternativas mais recorrentes referentes à c-letra a, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-05.png){width=70%}
+![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à c-letra a, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-05.png){width=70%}
 
 ### c-letra **S** ("salto ascendente")
 
-![Entropia (em bits), número de continuações acima 10% e as três alternativas mais recorrentes referentes à c-letra S, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-06.png){width=70%}
+![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à c-letra S, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-06.png){width=70%}
 
 ### c-letra **s** ("salto descendente")
 
-![Entropia (em bits), número de continuações acima 10% e as três alternativas mais recorrentes referentes à c-letra s, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-07.png){width=70%}
+![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à c-letra s, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-07.png){width=70%}
 
 ### Discussão
 ............................
@@ -50,24 +50,35 @@ Foram selecionadas para exame as seis r-letras com maior percentual no conjunto 
 
 ### r-letra **b**
 
-![Entropia (em bits), número de continuações acima 10% e as três alternativas mais recorrentes referentes à r-letra b, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-08.png){width=70%}
+![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à r-letra b, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-08.png){width=70%}
 
 ### r-letra **e**
 
-![Entropia (em bits), número de continuações acima 10% e as três alternativas mais recorrentes referentes à r-letra e, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-09.png){width=70%}
+![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à r-letra e, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-09.png){width=70%}
 
 ### r-letra **j**
 
-![Entropia (em bits), número de continuações acima 10% e as três alternativas mais recorrentes referentes à r-letra j, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-10.png){width=70%}
+![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à r-letra j, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-10.png){width=70%}
 
 ### r-letra **n**
 
-![Entropia (em bits), número de continuações acima 10% e as três alternativas mais recorrentes referentes à r-letra n, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-11.png){width=70%}
+![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à r-letra n, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-11.png){width=70%}
 
 ### r-letra **r**
 
-![Entropia (em bits), número de continuações acima 10% e as três alternativas mais recorrentes referentes à r-letra r, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-12.png){width=70%}
+![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à r-letra r, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-12.png){width=70%}
 
 ### r-letra **s**
 
-![Entropia (em bits), número de continuações acima 10% e as três alternativas mais recorrentes referentes à r-letra s, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-13.png){width=70%}
+![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à r-letra s, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-13.png){width=70%}
+
+### Discussão
+............................
+
+## Domínio da harmonia
+
+### Classe funcional DIA
+
+#### Categoria funcional I
+
+![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à categoria funcional I, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-14.png){width=70%}
