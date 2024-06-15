@@ -3,7 +3,11 @@ title: Entropia
 ---
 
 ## Introdução
-Este capítulo tem por objetivo apresentar resultados das análises referentes à medição de entropia de aspectos melódicos, rítmicos e harmônicos. Além dos valores em bits das entropias, consideremos aqui a distribuição das possíveis continuações de cada evento medido, considerando apenas as três mais recorrentes, tomando como piso de observação o valor de 1% (ou seja, apenas as continuações mais recorrentes -- acima desse mínimo -- serão levadas em conta, o que filtrará os resultados mais significativos para a avaliação aqui proposta).
+Este capítulo tem por objetivo apresentar resultados das análises referentes à medição de entropia de aspectos melódicos, rítmicos e harmônicos. Além dos valores em bits das entropias, consideremos aqui a distribuição das possíveis continuações de cada evento medido, considerando apenas as três mais recorrentes, tomando como piso de observação o valor de 1% (ou seja, apenas as continuações mais recorrentes -- acima desse limite mínimo -- serão levadas em conta, o que filtrará os resultados mais significativos para a avaliação aqui proposta).
+
+Outro conceito que introduziremos é o de *evento reflexivo*, que se aplica quando uma das três mais frequentes continuações de um dado evento for uma replicação. Uma reflexão será **forte** quando corresponder à primeira continuação (será fraca se der nas posições 2 ou 3). Por outro lado, uma reflexão forte (ou seja, replicação do evento como primeira continuação) torna-se **superforte** se seu percentual for ao menos o dobro do percentual da segunda continuação. A constatação da presença desses tipos nas análises suscitará nas discussões interpretações distintas, a depender dos domínios/subdomínios considerados.
+
+Outro conceito útil para avaliação das análises é o *índice de alternativas* (ia), que corresponde à razão entre o número de continuações (com percentual acima de 1%) de um determinado evento e o número de total de opções disponíveis. Importante acrescentar que um dado *ia* só é comparável entre eventos de um mesmo domínio ou subdomínio (já que os totais de opções são diferentes em cada caso). Basicamente, quanto maior for o índice, menor será a incerteza ...............
 
 ## Subdomínio do contorno melódico
 ............................
