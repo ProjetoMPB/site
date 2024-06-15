@@ -3,16 +3,16 @@ title: Entropia
 ---
 
 ## Introdução
-Este capítulo tem por objetivo apresentar resultados das análises referentes à medição de entropia de aspectos melódicos, rítmicos e harmônicos. Além dos valores em bits das entropias, consideremos aqui a distribuição das possíveis continuações de cada evento medido, considerando apenas as três mais recorrentes, tomando como piso de observação o valor de 1% (ou seja, apenas as continuações mais recorrentes -- acima desse limite mínimo -- serão levadas em conta, o que busca filtrar os resultados mais estatisticamente significativos para a avaliação aqui proposta). 
+Este capítulo tem por objetivo apresentar resultados das análises referentes à medição de entropia de aspectos melódicos, rítmicos e harmônicos. Além dos valores em bits das entropias, consideremos aqui a distribuição das possíveis continuações de cada evento medido, examinado apenas as três mais recorrentes em cada evento, tomando como piso de observação o valor de 1% (ou seja, apenas as continuações mais recorrentes -- acima desse limite mínimo -- serão levadas em conta, o que busca filtrar os resultados mais estatisticamente significativos para a avaliação aqui proposta). 
 
-Os domínios/subdomínios estruturais considerados serão representados por eventos que apresentam maior recorrência (e, portanto, relevância) em seus respectivos alfabetos.^[Todo o alfabeto Ac, no caso dos contornos, pelo fato de possuir um número baixo de símbolos, sete.] As discussões que se seguem a cada grupo de gráficos levarão em conta três conceitos que integram uma tipologia geral avaliativa.
+Os domínios/subdomínios estruturais considerados serão representados por eventos musicalmente mais relevantes em seus respectivos alfabetos.^[No caso do subdomínio das alturas, será mapeado o alfabeto Ac completo, pelo fato de possuir um número reduzido de símbolos, apenas sete.] As discussões que se seguem a cada grupo de gráficos levarão em conta três conceitos que integram uma tipologia geral avaliativa.
 
-O primeiro conceito que introduziremos é o de **reflexão**, que se aplica quando uma das três mais frequentes continuações de um dado evento for uma replicação desse evento. Uma reflexão será **forte** quando corresponder à primeira continuação (será fraca se der nas posições 2 ou 3). Nos gráficos de entropia, a ocorrência de reflexão em uma das três continuações consideradas será indicada por uma barra de fundo cinza (continuações não reflexivas são representadas por barras com fundo preto).
+O primeiro conceito que introduziremos é o de **reflexão**, que se aplica quando uma das três mais frequentes continuações de um dado evento for uma replicação desse evento. Uma reflexão será **forte** quando corresponder à primeira continuação (será fraca se acontecer nas posições 2 ou 3). Nos gráficos de entropia, a ocorrência de reflexão em uma das três continuações consideradas será indicada por uma barra de fundo cinza (continuações não reflexivas serão representadas por barras com fundo preto).
 
-As duas outras ideias se referem à primeira continuação (seja ela reflexiva ou não). Ela será **proeminente** se seu percentual igual ou maior que 50%. Por outro lado, a primeira continuação (não necessariamente proeminente) será **enviezada** caso seu percentual seja ao menos o dobro do percentual da segunda continuação.
+As duas outras ideias se referem à primeira continuação (seja ela reflexiva ou não). Ela será **proeminente** se seu percentual for igual ou maior que 50%. Por outro lado, a primeira continuação (não necessariamente proeminente) será **enviezada** caso seu percentual seja ao menos o dobro do percentual da segunda continuação.
 
 ## Subdomínio do contorno melódico
-............................
+
 ### c-letra **u** ("repetição")
 
 ![Entropia (em bits), número de continuações acima 10% e as três alternativas mais recorrentes referentes à c-letra u, considerando os 10 *corpora* de análise e o conjunto MPB. Barras cinza indicam continuações "reflexivas".](../figs/entro-01.png){width=70%}
@@ -45,7 +45,8 @@ As duas outras ideias se referem à primeira continuação (seja ela reflexiva o
 ............................
 
 ## Subdomínio do ritmo
-............................
+
+Foram selecionadas para exame as seis r-letras com maior percentual no conjunto MPB, a saber (na ordem decrescente): j, b, e, n, r, s.^[Em conjunto, abrangem cerca de 2/3 do total do Alfabeto Ar, formado por 26 r-letras.}
 
 ### r-letra **b**
 
