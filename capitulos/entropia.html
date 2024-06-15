@@ -288,13 +288,14 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#introdução" id="toc-introdução" class="nav-link active" data-scroll-target="#introdução"><span class="header-section-number">1</span> Introdução</a></li>
   <li><a href="#subdomínio-do-contorno-melódico" id="toc-subdomínio-do-contorno-melódico" class="nav-link" data-scroll-target="#subdomínio-do-contorno-melódico"><span class="header-section-number">2</span> Subdomínio do contorno melódico</a>
   <ul class="collapse">
-  <li><a href="#c-letra-p-passo-ascendente" id="toc-c-letra-p-passo-ascendente" class="nav-link" data-scroll-target="#c-letra-p-passo-ascendente"><span class="header-section-number">2.1</span> c-letra <strong>P</strong> (“passo ascendente”)</a></li>
-  <li><a href="#c-letra-p-passo-descendente" id="toc-c-letra-p-passo-descendente" class="nav-link" data-scroll-target="#c-letra-p-passo-descendente"><span class="header-section-number">2.2</span> c-letra <strong>p</strong> (“passo descendente”)</a></li>
-  <li><a href="#c-letra-a-arpejo-ascendente" id="toc-c-letra-a-arpejo-ascendente" class="nav-link" data-scroll-target="#c-letra-a-arpejo-ascendente"><span class="header-section-number">2.3</span> c-letra <strong>A</strong> (“arpejo ascendente”)</a></li>
-  <li><a href="#c-letra-a-arpejo-descendente" id="toc-c-letra-a-arpejo-descendente" class="nav-link" data-scroll-target="#c-letra-a-arpejo-descendente"><span class="header-section-number">2.4</span> c-letra <strong>a</strong> (“arpejo descendente”)</a></li>
-  <li><a href="#c-letra-s-salto-ascendente" id="toc-c-letra-s-salto-ascendente" class="nav-link" data-scroll-target="#c-letra-s-salto-ascendente"><span class="header-section-number">2.5</span> c-letra <strong>S</strong> (“salto ascendente”)</a></li>
-  <li><a href="#c-letra-s-salto-descendente" id="toc-c-letra-s-salto-descendente" class="nav-link" data-scroll-target="#c-letra-s-salto-descendente"><span class="header-section-number">2.6</span> c-letra <strong>s</strong> (“salto descendente”)</a></li>
-  <li><a href="#discussão" id="toc-discussão" class="nav-link" data-scroll-target="#discussão"><span class="header-section-number">2.7</span> Discussão</a></li>
+  <li><a href="#c-letra-u-repetição" id="toc-c-letra-u-repetição" class="nav-link" data-scroll-target="#c-letra-u-repetição"><span class="header-section-number">2.1</span> c-letra <strong>u</strong> (“repetição”)</a></li>
+  <li><a href="#c-letra-p-passo-ascendente" id="toc-c-letra-p-passo-ascendente" class="nav-link" data-scroll-target="#c-letra-p-passo-ascendente"><span class="header-section-number">2.2</span> c-letra <strong>P</strong> (“passo ascendente”)</a></li>
+  <li><a href="#c-letra-p-passo-descendente" id="toc-c-letra-p-passo-descendente" class="nav-link" data-scroll-target="#c-letra-p-passo-descendente"><span class="header-section-number">2.3</span> c-letra <strong>p</strong> (“passo descendente”)</a></li>
+  <li><a href="#c-letra-a-arpejo-ascendente" id="toc-c-letra-a-arpejo-ascendente" class="nav-link" data-scroll-target="#c-letra-a-arpejo-ascendente"><span class="header-section-number">2.4</span> c-letra <strong>A</strong> (“arpejo ascendente”)</a></li>
+  <li><a href="#c-letra-a-arpejo-descendente" id="toc-c-letra-a-arpejo-descendente" class="nav-link" data-scroll-target="#c-letra-a-arpejo-descendente"><span class="header-section-number">2.5</span> c-letra <strong>a</strong> (“arpejo descendente”)</a></li>
+  <li><a href="#c-letra-s-salto-ascendente" id="toc-c-letra-s-salto-ascendente" class="nav-link" data-scroll-target="#c-letra-s-salto-ascendente"><span class="header-section-number">2.6</span> c-letra <strong>S</strong> (“salto ascendente”)</a></li>
+  <li><a href="#c-letra-s-salto-descendente" id="toc-c-letra-s-salto-descendente" class="nav-link" data-scroll-target="#c-letra-s-salto-descendente"><span class="header-section-number">2.7</span> c-letra <strong>s</strong> (“salto descendente”)</a></li>
+  <li><a href="#discussão" id="toc-discussão" class="nav-link" data-scroll-target="#discussão"><span class="header-section-number">2.8</span> Discussão</a></li>
   </ul></li>
   <li><a href="#subdomínio-do-ritmo" id="toc-subdomínio-do-ritmo" class="nav-link" data-scroll-target="#subdomínio-do-ritmo"><span class="header-section-number">3</span> Subdomínio do ritmo</a>
   <ul class="collapse">
@@ -332,22 +333,24 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="introdução" class="level2" data-number="1">
 <h2 data-number="1" class="anchored" data-anchor-id="introdução"><span class="header-section-number">1</span> Introdução</h2>
-<p>Este capítulo tem por objetivo apresentar resultados das análises referentes à medição de entropia de aspectos melódicos, rítmicos e harmônicos. Além dos valores em bits das entropias, consideremos aqui a distribuição das possíveis continuações de cada evento medido, considerando apenas as três mais recorrentes, tomando como piso de observação o valor de 1% (ou seja, apenas as continuações mais recorrentes – acima desse limite mínimo – serão levadas em conta, o que busca filtrar os resultados mais estatisticamente significativos para a avaliação aqui proposta).</p>
-<p>Os domínios/subdomínios estruturais considerados serão representados por eventos que apresentam maior recorrência (e, portanto, relevância) em seus respectivos alfabetos.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> As discussões que se seguem a cada grupo de gráficos levarão em conta três conceitos que integram uma tipologia geral avaliativa.</p>
-<p>O primeiro conceito que introduziremos é o de <strong>reflexão</strong>, que se aplica quando uma das três mais frequentes continuações de um dado evento for uma replicação desse evento. Uma reflexão será <strong>forte</strong> quando corresponder à primeira continuação (será fraca se der nas posições 2 ou 3). Nos gráficos de entropia, a ocorrência de reflexão em uma das três continuações consideradas será indicada por uma barra de fundo cinza (continuações não reflexivas são representadas por barras com fundo preto).</p>
-<p>As duas outras ideias se referem à primeira continuação (seja ela reflexiva ou não). Ela será <strong>proeminente</strong> se seu percentual igual ou maior que 50%. Por outro lado, a primeira continuação (não necessariamente proeminente) será <strong>enviezada</strong> caso seu percentual seja ao menos o dobro do percentual da segunda continuação.</p>
+<p>Este capítulo tem por objetivo apresentar resultados das análises referentes à medição de entropia de aspectos melódicos, rítmicos e harmônicos. Além dos valores em bits das entropias, consideremos aqui a distribuição das possíveis continuações de cada evento medido, examinado apenas as três mais recorrentes em cada evento, tomando como piso de observação o valor de 1% (ou seja, apenas as continuações mais recorrentes – acima desse limite mínimo – serão levadas em conta, o que busca filtrar os resultados mais estatisticamente significativos para a avaliação aqui proposta).</p>
+<p>Os domínios/subdomínios estruturais considerados serão representados por eventos musicalmente mais relevantes em seus respectivos alfabetos.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> As discussões que se seguem a cada grupo de gráficos levarão em conta três conceitos que integram uma tipologia geral avaliativa.</p>
+<p>O primeiro conceito que introduziremos é o de <strong>reflexão</strong>, que se aplica quando uma das três mais frequentes continuações de um dado evento for uma replicação desse evento. Uma reflexão será <strong>forte</strong> quando corresponder à primeira continuação (será fraca se acontecer nas posições 2 ou 3). Nos gráficos de entropia, a ocorrência de reflexão em uma das três continuações consideradas será indicada por uma barra de fundo cinza (continuações não reflexivas serão representadas por barras com fundo preto).</p>
+<p>As duas outras ideias se referem à primeira continuação (seja ela reflexiva ou não). Ela será <strong>proeminente</strong> se seu percentual for igual ou maior que 50%. Por outro lado, a primeira continuação (não necessariamente proeminente) será <strong>enviezada</strong> caso seu percentual seja ao menos o dobro do percentual da segunda continuação.</p>
 </section>
 <section id="subdomínio-do-contorno-melódico" class="level2" data-number="2">
 <h2 data-number="2" class="anchored" data-anchor-id="subdomínio-do-contorno-melódico"><span class="header-section-number">2</span> Subdomínio do contorno melódico</h2>
-<p>………………………. ### c-letra <strong>u</strong> (“repetição”)</p>
+<section id="c-letra-u-repetição" class="level3" data-number="2.1">
+<h3 data-number="2.1" class="anchored" data-anchor-id="c-letra-u-repetição"><span class="header-section-number">2.1</span> c-letra <strong>u</strong> (“repetição”)</h3>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../figs/entro-01.png" class="img-fluid figure-img" style="width:70.0%"></p>
 <figcaption>Entropia (em bits), número de continuações acima 10% e as três alternativas mais recorrentes referentes à c-letra u, considerando os 10 <em>corpora</em> de análise e o conjunto MPB. Barras cinza indicam continuações “reflexivas”.</figcaption>
 </figure>
 </div>
-<section id="c-letra-p-passo-ascendente" class="level3" data-number="2.1">
-<h3 data-number="2.1" class="anchored" data-anchor-id="c-letra-p-passo-ascendente"><span class="header-section-number">2.1</span> c-letra <strong>P</strong> (“passo ascendente”)</h3>
+</section>
+<section id="c-letra-p-passo-ascendente" class="level3" data-number="2.2">
+<h3 data-number="2.2" class="anchored" data-anchor-id="c-letra-p-passo-ascendente"><span class="header-section-number">2.2</span> c-letra <strong>P</strong> (“passo ascendente”)</h3>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../figs/entro-02.png" class="img-fluid figure-img" style="width:70.0%"></p>
@@ -355,8 +358,8 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 </section>
-<section id="c-letra-p-passo-descendente" class="level3" data-number="2.2">
-<h3 data-number="2.2" class="anchored" data-anchor-id="c-letra-p-passo-descendente"><span class="header-section-number">2.2</span> c-letra <strong>p</strong> (“passo descendente”)</h3>
+<section id="c-letra-p-passo-descendente" class="level3" data-number="2.3">
+<h3 data-number="2.3" class="anchored" data-anchor-id="c-letra-p-passo-descendente"><span class="header-section-number">2.3</span> c-letra <strong>p</strong> (“passo descendente”)</h3>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../figs/entro-03.png" class="img-fluid figure-img" style="width:70.0%"></p>
@@ -364,8 +367,8 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 </section>
-<section id="c-letra-a-arpejo-ascendente" class="level3" data-number="2.3">
-<h3 data-number="2.3" class="anchored" data-anchor-id="c-letra-a-arpejo-ascendente"><span class="header-section-number">2.3</span> c-letra <strong>A</strong> (“arpejo ascendente”)</h3>
+<section id="c-letra-a-arpejo-ascendente" class="level3" data-number="2.4">
+<h3 data-number="2.4" class="anchored" data-anchor-id="c-letra-a-arpejo-ascendente"><span class="header-section-number">2.4</span> c-letra <strong>A</strong> (“arpejo ascendente”)</h3>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../figs/entro-04.png" class="img-fluid figure-img" style="width:70.0%"></p>
@@ -373,8 +376,8 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 </section>
-<section id="c-letra-a-arpejo-descendente" class="level3" data-number="2.4">
-<h3 data-number="2.4" class="anchored" data-anchor-id="c-letra-a-arpejo-descendente"><span class="header-section-number">2.4</span> c-letra <strong>a</strong> (“arpejo descendente”)</h3>
+<section id="c-letra-a-arpejo-descendente" class="level3" data-number="2.5">
+<h3 data-number="2.5" class="anchored" data-anchor-id="c-letra-a-arpejo-descendente"><span class="header-section-number">2.5</span> c-letra <strong>a</strong> (“arpejo descendente”)</h3>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../figs/entro-05.png" class="img-fluid figure-img" style="width:70.0%"></p>
@@ -382,8 +385,8 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 </section>
-<section id="c-letra-s-salto-ascendente" class="level3" data-number="2.5">
-<h3 data-number="2.5" class="anchored" data-anchor-id="c-letra-s-salto-ascendente"><span class="header-section-number">2.5</span> c-letra <strong>S</strong> (“salto ascendente”)</h3>
+<section id="c-letra-s-salto-ascendente" class="level3" data-number="2.6">
+<h3 data-number="2.6" class="anchored" data-anchor-id="c-letra-s-salto-ascendente"><span class="header-section-number">2.6</span> c-letra <strong>S</strong> (“salto ascendente”)</h3>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../figs/entro-06.png" class="img-fluid figure-img" style="width:70.0%"></p>
@@ -391,8 +394,8 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 </section>
-<section id="c-letra-s-salto-descendente" class="level3" data-number="2.6">
-<h3 data-number="2.6" class="anchored" data-anchor-id="c-letra-s-salto-descendente"><span class="header-section-number">2.6</span> c-letra <strong>s</strong> (“salto descendente”)</h3>
+<section id="c-letra-s-salto-descendente" class="level3" data-number="2.7">
+<h3 data-number="2.7" class="anchored" data-anchor-id="c-letra-s-salto-descendente"><span class="header-section-number">2.7</span> c-letra <strong>s</strong> (“salto descendente”)</h3>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../figs/entro-07.png" class="img-fluid figure-img" style="width:70.0%"></p>
@@ -400,14 +403,14 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 </section>
-<section id="discussão" class="level3" data-number="2.7">
-<h3 data-number="2.7" class="anchored" data-anchor-id="discussão"><span class="header-section-number">2.7</span> Discussão</h3>
+<section id="discussão" class="level3" data-number="2.8">
+<h3 data-number="2.8" class="anchored" data-anchor-id="discussão"><span class="header-section-number">2.8</span> Discussão</h3>
 <p>……………………….</p>
 </section>
 </section>
 <section id="subdomínio-do-ritmo" class="level2" data-number="3">
 <h2 data-number="3" class="anchored" data-anchor-id="subdomínio-do-ritmo"><span class="header-section-number">3</span> Subdomínio do ritmo</h2>
-<p>……………………….</p>
+<p>Foram selecionadas para exame as seis r-letras com maior percentual no conjunto MPB, a saber (na ordem decrescente): j, b, e, n, r, s.^[Em conjunto, abrangem cerca de 2/3 do total do Alfabeto Ar, formado por 26 r-letras.}</p>
 <section id="r-letra-b" class="level3" data-number="3.1">
 <h3 data-number="3.1" class="anchored" data-anchor-id="r-letra-b"><span class="header-section-number">3.1</span> r-letra <strong>b</strong></h3>
 <div class="quarto-figure quarto-figure-center">
@@ -470,7 +473,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Notas de rodapé</h2>
 
 <ol>
-<li id="fn1"><p>Todo o alfabeto Ac, no caso dos contornos, pelo fato de possuir um número baixo de símbolos, sete.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>No caso do subdomínio das alturas, será mapeado o alfabeto Ac completo, pelo fato de possuir um número reduzido de símbolos, apenas sete.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
