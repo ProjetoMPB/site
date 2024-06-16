@@ -60,6 +60,10 @@ website:
             text: Atributos primários
           - href: capitulos/atributos-secundarios.qmd
             text: Atributos secundários
+          - href: capitulos/n-grams.qmd
+            text: n-gramas
+          - href: capitulos/ng-especificos.qmd
+            text: n-gramas específicos
           - href: capitulos/graficos.qmd
             test: Gráficos
       - section: Material suplementar

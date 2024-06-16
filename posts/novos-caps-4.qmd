@@ -1,0 +1,12 @@
+---
+title: "Publicação de novos capítulos "
+description: "'n-gramas' e 'n-gramas específicos'"
+author: "Hugo Carvalho"
+date: "6/16/2024"
+image: "../figs/ng-01.png"
+categories:
+  - noticias do projeto
+  - novos capitulos
+---
+
+Foram lançados mais dois capítulos, [n-gramas](../capitulos/n-grams.qmd) e [n-gramas específicos](../capitulos/ng-especificos.qmd), analisando a ocorrência contígua de dois ou mais símbolos de interesse. Confira!
