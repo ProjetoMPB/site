@@ -23,6 +23,9 @@ Os sete gráficos abaixo examinam as entropias das c-letras que formam o alfabet
 
 ![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à c-letra u, considerando os 10 *corpora* de análise e o conjunto MPB. Barras cinza indicam continuações "reflexivas".](../figs/entro-01.png){width=70%}
 
+DISCUSSÃO
+A r-letra u é **reflexiva-alta** em todos os *corpora*. É ainda **proeminente-forte** em metade deles (Jobim, Chico, Bosco, Milton e Rita). No conjunto MPB apresenta-se como **reflexiva-alta-forte**.
+
 ### c-letra **P** ("passo ascendente")
 
 ![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à c-letra P, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-02.png){width=70%}
