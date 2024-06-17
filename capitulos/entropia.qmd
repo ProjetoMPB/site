@@ -24,11 +24,17 @@ Os sete gráficos abaixo examinam as entropias das c-letras que formam o alfabet
 ![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à c-letra u, considerando os 10 *corpora* de análise e o conjunto MPB. Barras cinza indicam continuações "reflexivas".](../figs/entro-01.png){width=70%}
 
 DISCUSSÃO
-A r-letra u é **reflexiva-alta** em todos os *corpora*. É ainda **proeminente-forte** em metade deles (Jobim, Chico, Bosco, Milton e Rita). No conjunto MPB apresenta-se como **reflexiva-alta-forte**.
+
+A r-letra u é **reflexiva-alta** em todos os *corpora*. É ainda **proeminente-forte** em metade deles (Jobim, Chico, Bosco, Milton e Rita). No conjunto MPB apresenta-se como **reflexiva-alta-forte**. Tais dados indicam uma forte tendência *autoatrativa* dessa c-letra como uma característica da Prática Comum da MPB. Ou seja, *u* é não apenas bastante frequente em linhas melódicas emepebísticas, como também o são sequências de notas repetidas, um elemento que se mostra, assim, caracterizante em todos os repertórios (ao menos, em média). Classificaremos, a partir deste ponto, como *inercial* um determinado evento que se comporte dessa maneira. Podemos assim considerar a c-letra como intensamente inercial.
 
 ### c-letra **P** ("passo ascendente")
 
 ![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à c-letra P, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-02.png){width=70%}
+
+DISCUSSÃO
+
+
+
 
 ### c-letra **p** ("passo descendente")
 
@@ -95,3 +101,7 @@ Devido ao tamanho do alfabeto de r-letras (26 símbolos), foram selecionadas par
 #### Categoria funcional V
 
 ![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à categoria funcional V, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-15.png){width=70%}
+
+#### Categoria funcional IV
+
+![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à categoria funcional IV, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-16.png){width=70%}
