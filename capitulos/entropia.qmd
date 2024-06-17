@@ -25,7 +25,7 @@ Os sete gráficos abaixo examinam as entropias das c-letras que formam o alfabet
 
 DISCUSSÃO
 
-A r-letra u é **reflexiva-alta** em todos os *corpora*. É ainda **proeminente-forte** em metade deles (Jobim, Chico, Bosco, Milton e Rita). No conjunto MPB apresenta-se como **reflexiva-alta-forte**. Tais dados indicam uma forte tendência *autoatrativa* dessa c-letra como uma característica da Prática Comum da MPB. Ou seja, *u* é não apenas bastante frequente em linhas melódicas emepebísticas, como também o são sequências de notas repetidas, um elemento que se mostra, assim, caracterizante em todos os repertórios (ao menos, em média). Classificaremos, a partir deste ponto, como *inercial* um determinado evento que se comporte dessa maneira. Podemos assim considerar a c-letra como intensamente inercial.
+A r-letra u é **reflexiva-alta** em todos os *corpora*. É ainda **proeminente-forte** em metade deles (Jobim, Chico, Bosco, Milton e Rita). No conjunto MPB apresenta-se como **reflexiva-alta-forte**. Tais dados indicam uma forte tendência *autoatrativa* dessa c-letra como uma característica da Prática Comum da MPB. Ou seja, *u* é não apenas bastante frequente em linhas melódicas emepebísticas, como também o são sequências de notas repetidas, um elemento que se mostra, assim, caracterizante em todos os repertórios (ao menos, em média). Classificaremos, a partir deste ponto, como *inercial* um determinado evento que se apresente como **reflexiva-forte** em cinco ou mais repertórios de análise. Podemos assim considerar *u* como intensamente inercial.
 
 ### c-letra **P** ("passo ascendente")
 
@@ -33,7 +33,7 @@ A r-letra u é **reflexiva-alta** em todos os *corpora*. É ainda **proeminente-
 
 DISCUSSÃO
 
-
+P é **reflexiva** em todos os *corpora*, sendo também **forte** em quatro deles (o que não a torna **inercial**, dentro de nossa classificação). Em nenhum repertório apresenta-se como **predominante**. Entretanto, a continuação na c-letra *u* no *corpus* Chico traz ambas as características (de maneira bastante intensa, aliás), o que sugere ser esta uma característica estilística pessoal na construção melódica do compositor.
 
 
 ### c-letra **p** ("passo descendente")
