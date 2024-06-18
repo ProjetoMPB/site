@@ -40,6 +40,10 @@ P é **reflexiva** em todos os *corpora*, sendo também **forte** em quatro dele
 
 ![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à c-letra p, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-03.png){width=70%}
 
+DISCUSSÃO
+
+Como acontece com a repetição (u), a c-letra *p* é **reflexiva-alta** em todos os repertórios, tendendo, portanto, a se perpetuar, neste caso formando linhas escalares descendentes. Em reforço a isso, em cinco dos 10 *corpora* (Lins, Chico, Edu, Caetano e Gil), além do próprio conjunto MPB, apresenta-se também como uma continuação **forte**.
+
 ### c-letra **A** ("arpejo ascendente")
 
 ![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à c-letra A, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-04.png){width=70%}
