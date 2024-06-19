@@ -48,6 +48,10 @@ Como acontece com a repetição (u), a c-letra *p* é **reflexiva-alta** em todo
 
 ![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à c-letra A, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-04.png){width=70%}
 
+DISCUSSÃO
+
+A c-letra *A* apresenta um perfil consideravelmente distinto dos casos anteriores. Em apenas quatro *corpora* é **reflexiva** (sendo também **forte** somente em um deles -- Lins). As demais continuações preferenciais privilegiam repetições *u* (três *corpora*) ou provocam mudança de direção melódica (ou seja, descendente) com *p* (também três *corpora* -- apresentando-se como **alta** em Jobim) e *a* (um *corpus*).
+
 ### c-letra **a** ("arpejo descendente")
 
 ![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à c-letra a, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-05.png){width=70%}
