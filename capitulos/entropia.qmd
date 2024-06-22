@@ -74,7 +74,7 @@ A c-letra *s*, assim como sua contraparte *S*, não é **reflexiva** em nenhum r
 
 ## Subdomínio do ritmo
 
-Devido ao tamanho do alfabeto de r-letras (26 símbolos), foram selecionadas para a análise de entropia as seis r-letras mais recorrentes do conjunto MPB: j, b, e, n, r, s.^[Em conjunto, abrangem cerca de 2/3 do total do alfabeto.}
+Devido ao tamanho do alfabeto de r-letras (26 símbolos), foram selecionadas para a análise de entropia as seis r-letras mais recorrentes do conjunto MPB: j, b, e, n, r, s.^[Em conjunto, abrangem cerca de 2/3 do total do alfabeto.]
 
 ### r-letra **b**
 
