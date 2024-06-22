@@ -25,7 +25,7 @@ Os sete gráficos abaixo examinam as entropias das c-letras que formam o alfabet
 
 DISCUSSÃO
 
-A r-letra u é **reflexiva-alta** em todos os *corpora*. É ainda **proeminente-forte** em metade deles (Jobim, Chico, Bosco, Milton e Rita). No conjunto MPB apresenta-se como **reflexiva-alta-forte**. Tais dados indicam uma forte tendência *autoatrativa* dessa c-letra como uma característica da Prática Comum da MPB. Ou seja, *u* é não apenas bastante frequente em linhas melódicas emepebísticas, como também o são sequências de notas repetidas, um elemento que se mostra, assim, caracterizante em todos os repertórios (ao menos, em média). Classificaremos, a partir deste ponto, como *inercial* um determinado evento que se apresente como **reflexiva-forte** em cinco ou mais repertórios de análise. Podemos assim considerar *u* como intensamente inercial.
+A r-letra u é **reflexiva-alta** em todos os *corpora*. É ainda **proeminente-forte** em metade deles (Jobim, Chico, Bosco, Milton e Rita). No conjunto MPB apresenta-se como **reflexiva-alta-forte**. Tais dados indicam uma forte tendência *autoatrativa* dessa c-letra como uma característica da Prática Comum da MPB. Ou seja, *u* é não apenas bastante frequente em linhas melódicas emepebísticas, como também o são sequências de notas repetidas, um elemento que se mostra, assim, caracterizante em todos os repertórios (ao menos, em média). Classificaremos, a partir deste ponto, como **inercial** um determinado evento que se apresente como **reflexiva-forte** em cinco ou mais repertórios de análise. Podemos assim considerar *u* como intensamente inercial.
 
 ### c-letra **P** ("passo ascendente")
 
@@ -42,7 +42,7 @@ P é **reflexiva** em todos os *corpora*, sendo também **forte** em quatro dele
 
 DISCUSSÃO
 
-Como acontece com a repetição (u), a c-letra *p* é **reflexiva-alta** em todos os repertórios, tendendo, portanto, a se perpetuar, neste caso formando linhas escalares descendentes. Em reforço a isso, em cinco dos 10 *corpora* (Lins, Chico, Edu, Caetano e Gil), além do próprio conjunto MPB, apresenta-se também como uma continuação **forte**.
+Como acontece com a repetição (u), a c-letra *p* é **reflexiva-alta** em todos os repertórios (o que, por si só, a torna fortemente **inercial**), tendendo, portanto, a se perpetuar em linhas escalares descendentes. Em reforço a isso, em cinco dos 10 *corpora* (Lins, Chico, Edu, Caetano e Gil), além do próprio conjunto MPB, apresenta-se também como uma continuação **forte**.
 
 ### c-letra **A** ("arpejo ascendente")
 
@@ -60,12 +60,16 @@ A c-letra *A* apresenta um perfil consideravelmente distinto dos casos anteriore
 
 ![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à c-letra S, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-06.png){width=70%}
 
+DISCUSSÃO
+
+Um elemento marcante de *S* em relação às demais c-letras é o fato de não ser **reflexiva** em nenhum dos *corpora*. Por outro lado, é altamente enviezada pela continuação em passo descendente (p),^[Esse dado confirma a tradicional regra de manuais de contraponto que determina que um salto melódico deva ser compensado por grau conjunto na direção contrária.] que acontece em nove dos 11 gráficos. Em Gil e Rita a continuação *p* é **proeminente** (mais do que 50%), o que acontece também no *corpus* Caetano, acrescentando-se o atributo **forte**.
+
 ### c-letra **s** ("salto descendente")
 
 ![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à c-letra s, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-07.png){width=70%}
 
-### Discussão
-............................
+DISCUSSÃO
+
 
 ## Subdomínio do ritmo
 
