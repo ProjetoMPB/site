@@ -118,10 +118,23 @@ Devido ao tamanho do alfabeto de r-letras (26 símbolos), foram selecionadas par
 
 ![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à categoria funcional II, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-17.png){width=70%}
 
+#### Categoria funcional VI
+
+![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à categoria funcional VI, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-18.png){width=70%}
+
+#### Categoria funcional III
+
+![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à categoria funcional III, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-19.png){width=70%}
+
+
 ### Classe funcional PRE 
 
 Subclassee DS
 
 #### Categoria funcional V/V
 
-![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à categoria funcional V/V, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-18.png){width=70%}
+![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à categoria funcional V/V, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-20.png){width=70%}
+
+#### Categoria funcional V/IV
+
+![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à categoria funcional V/IV, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-21.png){width=70%}
