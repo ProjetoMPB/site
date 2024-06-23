@@ -88,6 +88,10 @@ A r-letra *b* pode ser considerada, analogamente à categoria funcional I, uma e
 
 ![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à r-letra e, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-09.png){width=70%}
 
+DISCUSSÃO
+
+A r-letra *e* apresenta-se como **reflexiva-fraca** em quase todos os repertórios (apenas em Jobim não está entre as três mais prováveis continuações). É, por assim dizer, atraída por *j*, que se apresenta como continuação preferencial em nove *corpora* (e no conjunto MPB),^[Apenas em Lins *j* fica (por pouco) em segundo lugar, após *b*.] sendo que em cinco deles (Jobim, Chico, Caetano, Gil e Rita) é também **proeminente-forte**.^[A sequência <ej> consiste numa fórmula de abertura de r-palavra muito comum em todos os repertórios.]
+
 ### r-letra **j**
 
 ![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à r-letra j, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-10.png){width=70%}
