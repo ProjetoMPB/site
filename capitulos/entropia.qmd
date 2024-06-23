@@ -80,6 +80,10 @@ Devido ao tamanho do alfabeto de r-letras (26 símbolos), foram selecionadas par
 
 ![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à r-letra b, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-08.png){width=70%}
 
+DISCUSSÃO
+
+A r-letra *b* pode ser considerada, analogamente à categoria funcional I, uma espécie de *tônica micrométrica*, não apenas por ser uma finalização bastante comum de c/r-palavras, mas por sua alta recorrência em todos os repertórios analisados (é o 1-grama rítmico mais comum em sete dos 10 *corpora* MPB). Como se observa no gráfico, *b* é **reflexiva-alta** em todos os 11 casos, sendo também **forte** em Djavan e **proeminente-forte** em Lins, Edu e, especialmente, em Milton.
+
 ### r-letra **e**
 
 ![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à r-letra e, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-09.png){width=70%}
@@ -139,6 +143,10 @@ Subclassee DS
 #### Categoria funcional V/V
 
 ![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à categoria funcional V/V, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-20.png){width=70%}
+
+#### Categoria funcional V/IV
+
+![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à categoria funcional V/IV, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-21.png){width=70%}
 
 #### Categoria funcional V/IV
 
