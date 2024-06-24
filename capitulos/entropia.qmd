@@ -106,7 +106,7 @@ A r-letra que corresponde ao par de colcheias (j) é **reflexiva-forte** em nove
 
 DISCUSSÃO
 
-A r-letra *n*, unidade que, por si só, representa a essência da sincopação do samba,^[Ver @almada-zisels-2023.]
+A r-letra *n*, unidade que, por si só, representa a essência da sincopação do samba,^[Ver @almada-zisels-2023.] tem marcante presença na Prática Comum da MPB, apresentando-se como **reflexiva-forte** em oito dos 10 *corpora* de análise (as exceções são Milton e Rita, nos quais *n* não é uma das três mais prováveis continuações). Em Jobim, Djavan, Bosco e Gil (e no conjunto MPB) a continuação em *n* é ainda **proeminente**. Destcam-se como continuações recorrentes as r-letras *c* e *r*, que quando combinadas a *n*, formam blocos sincopados bastante recorrentes em gêneros de samba e bossa nova.
 
 
 ### r-letra **r**
