@@ -98,11 +98,15 @@ A r-letra *e* apresenta-se como **reflexiva-fraca** em quase todos os repertóri
 
 DISCUSSÃO
 
-O par de colcheias (j) é **reflexiva-forte** em nove dos *corpora* (bem como no conjunto MPB), sendo ainda **proeminente-alta** em Chico, Gil e Rita (estes dois com grande destaque), o que sugere que linhas em colcheias tendem a se perpetuar em frases (algo que foi observado com bastante frequência nas análises dos vários repertórios).
+A r-letra que corresponde ao par de colcheias (j) é **reflexiva-forte** em nove dos *corpora* (bem como no conjunto MPB), sendo ainda **proeminente-alta** em Chico, Gil e Rita (estes dois com grande destaque), o que sugere que linhas em colcheias tendem a se perpetuar em frases (algo que foi observado com bastante frequência nas análises dos vários repertórios).
 
 ### r-letra **n**
 
 ![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à r-letra n, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-11.png){width=70%}
+
+DISCUSSÃO
+
+
 
 ### r-letra **r**
 
