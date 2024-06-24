@@ -163,3 +163,11 @@ Subclassee DS
 #### Categoria funcional V/II
 
 ![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à categoria funcional V/II, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-22.png){width=70%}
+
+#### Categoria funcional V/VI
+
+![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à categoria funcional V/VI, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-23.png){width=70%}
+
+#### Categoria funcional V/III
+
+![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à categoria funcional V/III, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-24.png){width=70%}
