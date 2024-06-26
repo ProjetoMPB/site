@@ -113,12 +113,17 @@ A r-letra *n*, unidade que, por si só, representa a essência da sincopação d
 
 ![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à r-letra r, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-12.png){width=70%}
 
+DISCUSSÃO
+
+A r-letra *r* é **reflexiva** em seis *corpora* (apenas em Caetano e Gil é também **forte**). Considerando suas continuações preferenciais, *n* é a mais provável em seis dos repertórios (e também no conjunto MPB), o que gera bigramas sincopados bem recorrentes em contextos de samba e bossa nova.
+
 ### r-letra **s**
 
 ![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à r-letra s, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-13.png){width=70%}
 
-### Discussão
-............................
+DISCUSSÃO
+
+O grupo de quiálteras de colcheias (s) é **reflexiva** em oito *corpora* (sendo também **forte** apenas em Gil e Lins). Sua continuação mais provável é a r-letra *b* (especialmente posicionada em finais de segmentos), que se apresenta como preferencial em sete dos repertórios (e no conjunto MPB), tendo maior destaque em Jobim, como **proeminente-alta**.^[O que acontece também em Rita, considerando, nesse caso, a r-letra *j*.]
 
 ## Domínio da harmonia
 
