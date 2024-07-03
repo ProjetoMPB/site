@@ -133,6 +133,10 @@ O grupo de quiálteras de colcheias (s) é **reflexiva** em oito *corpora* (send
 
 ![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à categoria funcional I, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-14.png){width=70%}
 
+DISCUSSÃO
+
+Uma propriedade interessante observada na categoria I é a **reflexão**. Explica-se, principalmente, pelo uso de variantes de tipos acordais que denotam movimentações internas de vozes (por exemplo, CM7 | C6), um recurso relativamente comum na estruturação harmônica em vários dos repertórios. Em cinco dos *corpora* (Jobim, Lins, Edu, Bosco e Milton -- além do próprio conjunto MPB) a categoria apresenta-se como **reflexiva-forte-alta**. Excluindo a continuação reflexiva, V, IV e IV7 são as mais prováveis opções de continuação.
+
 #### Categoria funcional V
 
 ![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à categoria funcional V, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-15.png){width=70%}
