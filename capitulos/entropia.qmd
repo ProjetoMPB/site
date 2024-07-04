@@ -141,6 +141,10 @@ Uma propriedade interessante observada na categoria I é a **reflexão**. Explic
 
 ![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à categoria funcional V, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-15.png){width=70%}
 
+DISCUSSÃO
+
+Embora V seja também uma categoria **reflexiva** em todos os repertórios ^[O que se dá, especialmente, pelas características mudanças de variantes do tipo acordal Y que resultam de caminhos internos -- muitas vezes cromáticos -- em linhas de tensões mantendo-se a mesma fundamental, como, por exemplo, em G4.7.9 | G7(b9) ou G7.13 | G7(b13).], apresenta-se sempre como **fraca**, já que é intensamente atraída pelo grau tônico I. Esta continuação preferencial se apresenta como **predominante-alta** em seis *corpora* (Chico,  Djavan, Bosco, Milton, Gil e, especialmente, Caetano) e como **predominante** nos demais.
+
 #### Categoria funcional IV
 
 ![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à categoria funcional IV, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-16.png){width=70%}
