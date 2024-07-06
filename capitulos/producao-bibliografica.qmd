@@ -4,6 +4,14 @@ title: Produção bibliográfica
 
 ## 2024
 
+### Artigos
+#### Função, expectativa e contexto na harmonia em música popular
+Carlos de Lemos Almada
+
+Musica Theorica, v. 9 n. 1 (DOI: [ https://doi.org/10.52930/mt.v9i1](https://doi.org/10.52930/mt.v9i1))
+
+**Resumo**: Este artigo discute o papel que as noções de expectativa e contexto exercem na determinação da funcionalidade, considerando condições encontradas especialmente na harmonia estendida da música popular. A partir da ideia de que a análise harmônica nesses contextos pode ser estratificada em diferentes níveis de observação e com o suporte de estudos sobre estrutura harmônica, probabilidade e cognição musical (considerando os conceitos de interesse do trabalho), são propostos tipologias específicas e um modelo analítico, aplicado na seção conclusiva.
+
 ### Monografias, teses e dissertações
 #### Identificação de Acordes via Modelos de Markov Ocultos Musicalmente Informados
 Rodrigo Côrtes Nogueira da Rocha Pita
