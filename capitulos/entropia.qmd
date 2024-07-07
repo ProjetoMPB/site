@@ -157,6 +157,11 @@ A categoria IV apresenta-se como **reflexiva** em metade dos repertórios (apena
 
 ![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à categoria funcional II, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-17.png){width=70%}
 
+DISCUSSÃO
+
+Assim como V, a categoria II se apresenta como **reflexiva** em metade dos *corpora* (porém, desta vez, em todos os casos, como **fraca**). O que chama mais atenção, entretanto, é a forte atração que II tem pela continuação V, a qual apresenta-se como **predominante-alta** em oito dos repertórios (e mais no conjunto MPB), com destaque especial para o *corpus* Caetano, com probabilidade de ocorrência de 83% dos casos.
+
+
 #### Categoria funcional VI
 
 ![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à categoria funcional VI, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-18.png){width=70%}
