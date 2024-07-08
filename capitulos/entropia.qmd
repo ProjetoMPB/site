@@ -205,3 +205,15 @@ nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
 ![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes às categorias funcionais da Subclasse SubV considerando suas distribuições no conjunto MPB.  Barras cinza indicam continuações "reflexivas". Barras azuis indicam os alvos diatônicos pretendidos.](../figs/entro-25.png){width=70%}
 
+Subclassee DIM
+
+nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes às categorias funcionais da Subclasse DIM considerando suas distribuições no conjunto MPB.  Barras cinza indicam continuações "reflexivas". Barras azuis indicam os alvos diatônicos pretendidos.](../figs/entro-26.png){width=70%}
+
+### Classe funcional E1
+
+#### Categoria funcional IVm7
+
+![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à categoria funcional IVm7, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".  Barras azuis indicam os alvos diatônicos pretendidos.](../figs/entro-27.png){width=70%}
+
