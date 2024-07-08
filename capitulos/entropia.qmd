@@ -168,11 +168,15 @@ Assim como V, a categoria II se apresenta como **reflexiva** em metade dos *corp
 
 DISCUSSÃO
 
-A propriedade de **reflexão** em relação ao VI ocorre em sete *corpora*, sendo em três deles como **forte**.^[Isso se deve em boa parte ao recurso do chamado "clichê cromático" em acordes de modo menor (por exemplo, Am | Am(M7) | Am7 | Am6 | Am(b6) | Am), que ocorre, com maior frequência e em geral, na categoria funcional VI.] Em termos de continuações preferenciais, em nenhum dos casos encontra-se **predominância**, sendo que apenas em Caetano a primeira continuação tem a propriedade de ser **alta**. Além dos três casos reflexivos, as demais preferências se dividem  entre II (três casos -- privilegiando a opção do movimento de fundamentais de quarta justa ascendente), I (dois casos), IV e V (um caso cada).
+A propriedade de **reflexão** em relação ao VI ocorre em sete *corpora*, sendo em três deles como **forte**.^[Isso se deve em boa parte ao recurso do chamado "clichê cromático" em acordes de modo menor (por exemplo, Am | Am(M7) | Am7 | Am6 | Am(b6) | Am), que costuma ser aplicado, caracteristicamente, na categoria funcional VI.] Em termos de continuações preferenciais, em nenhum dos casos encontra-se **predominância**, sendo que apenas em Caetano a primeira continuação tem a propriedade de ser **alta**. Além dos três casos reflexivos, as demais preferências se dividem  entre II (três casos -- privilegiando a opção do movimento de fundamentais de quarta justa ascendente), I (dois casos), IV e V (um caso cada).
 
 #### Categoria funcional III
 
 ![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à categoria funcional III, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-19.png){width=70%}
+
+DISCUSSÃO
+
+Mais rara e com  entropia mais alta que os demais diatônicos, a categoria III tem também um comportamento distinto do que aquelas. Apresenta-se como **reflexiva** em apenas dois *corpora*, Bosco e Edu (onde é também **forte-alta**). Suas continuações preferenciais são VI (quatro casos, seguindo a lógica do movimento de fundamentais por quarta justa ascendente) e II (em três *corpora*).
 
 
 ### Classe funcional PRE 
