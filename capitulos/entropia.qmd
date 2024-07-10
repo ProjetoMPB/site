@@ -189,6 +189,10 @@ Subclassee DS
 
 ![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à categoria funcional V/V, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".  Barras azuis indicam os alvos diatônicos pretendidos.](../figs/entro-20.png){width=70%}
 
+DISCUSSÃO
+
+Uma característica esperada de todos os dominantes secundários é a **reflexão**, já que faz parte do idioma MPB o encademanto entre acordes de qualidade X7 com mesma fundamental diferindo apenas pela variante empregada (por exemplo, G4.7 | G7, D7.9 | D7(b9), Bb7(13) | Bb7(b13) etc.). De fato, com a exceção dos *corpora* Caetano e Djavan (nos quais V/V não se encontra entre as três mais recorrentes continuações), todos os demais a categoria se apresenta como **reflexiva-baixa** (ou seja, na segunda ou na terceira posição). Por outro lado, o alvo V apresenta a propriedade **atrativa** em todos os repertórios, sendo também **alta** em Chico, Caetano, Bosco, Milton e Gil, e **proeminente-alta** em Djavan e, especialmente, Rita (com quase 70% de probabilidade de ocorrência).
+
 #### Categoria funcional V/IV
 
 ![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à categoria funcional V/IV, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".  Barras azuis indicam os alvos diatônicos pretendidos.](../figs/entro-21.png){width=70%}
