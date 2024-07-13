@@ -204,11 +204,11 @@ Certamente não por acaso, V/IV tem um comportamento bastante semelhante a V/V n
 
 #### Categoria funcional V/II
 
+![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à categoria funcional V/II, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".  Barras azuis indicam os alvos diatônicos pretendidos.](../figs/entro-22.png){width=70%}
+
 DISCUSSÃO
 
-Em comparação aos casos anteriores vemos algumas diferenças significativas, devido a características especiais da categoria V/II: (a) a propriedade de **reflexão** deixa de ser ubíqua, atingindo sete dos repertórios (e apenas em Linsapresenta-se como **alta**); (b) a continuação no alvo II, embora seja sempre uma das três mais prováveis dos *corpora*, é **atrativa** em apenas três casos (Jobim, Caetano e Rita), em nenhum deles **predominante** ou **forte**; (c) V/V apresenta-se como uma continuação ainda mais provável alvo declarado em cinco repertórios (além do próprio conjunto MPB).^[Em Djavan, como **proeminente-forte**.] Esse fato denota a força das fórmulas de dominantes consecutivos nos repertórios analisados, especialmente envolvendo o 3-grama V/II | V/V | V, o mais recorrente (em média) das alternativas disponíveis.^[Ver o capítulo sobre [N-gramas específicos](ng-especificos.qmd)).]
-
-![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à categoria funcional V/II, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".  Barras azuis indicam os alvos diatônicos pretendidos.](../figs/entro-22.png){width=70%}
+Em comparação aos casos anteriores vemos algumas diferenças significativas, devido a características especiais da categoria V/II: (a) a propriedade de **reflexão** deixa de ser ubíqua, atingindo sete dos repertórios (e apenas em Lins apresenta-se como **alta**); (b) a continuação no alvo II, embora seja sempre uma das três mais prováveis dos *corpora*, é **atrativa** em apenas três casos (Jobim, Caetano e Rita), em nenhum deles como **predominante** ou **forte**; (c) V/V apresenta-se como uma continuação ainda mais provável do que o alvo declarado (II) em cinco repertórios (além do próprio conjunto MPB).^[Em Djavan, como **proeminente-forte**.] Esse fato denota a força das fórmulas de dominantes consecutivos nos repertórios analisados, especialmente envolvendo o 3-grama V/II | V/V | V, o mais recorrente (em média) das alternativas disponíveis.^[Ver o capítulo sobre [N-gramas específicos](ng-especificos.qmd)).]
 
 #### Categoria funcional V/VI
 
