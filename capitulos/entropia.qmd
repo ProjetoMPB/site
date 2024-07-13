@@ -197,6 +197,11 @@ Uma característica esperada de todos os dominantes secundários é a **reflexã
 
 ![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à categoria funcional V/IV, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".  Barras azuis indicam os alvos diatônicos pretendidos.](../figs/entro-21.png){width=70%}
 
+DISCUSSÃO
+
+Certamente não por acaso, V/IV tem um comportamento bastante semelhante a V/V no aspecto aqui examinado.^[Afinal, ambas as categorias têm como alvo pilares estruturais essenciais da funcionalidade tonal. Por outro lado, podemos lembrar que a frequência de ocorrência média de V é consideravelmente maior do que a de IV em todos os repertórios: enquanto a fórmula V/V | V é caracteristicamente encontrada em duas alternativas cadenciais -- autêntica e semicadência -- e que estas estão presentes na grande maioria das peças analisadas, o *locus* da sequência V/IV | IV (um dos gestos retóricos funcionais listados em @almada-2024) é normalmente reservado para a preparação do ponto climático (o surgimento da *subdominante estrutural*), o que relativiza os seus respectivos pesos.] Assim, a categoria é **reflexiva** em todos os *corpora* (apenas em Edu é também **alta**). Seu alvo declarado apresenta-se como continuação **atrativa** em todos os repertórios, **forte** em quatro deles e **proeminente** em dois Gil e Caetano (neste caso, como 73% de probabilidade).
+
+
 #### Categoria funcional V/II
 
 ![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à categoria funcional V/II, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".  Barras azuis indicam os alvos diatônicos pretendidos.](../figs/entro-22.png){width=70%}
@@ -225,9 +230,13 @@ nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
 #### Categoria funcional IVm7
 
-![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à categoria funcional IVm7, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".  Barras azuis indicam os alvos diatônicos pretendidos.](../figs/entro-27.png){width=70%}
+![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à categoria funcional IVm7, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-27.png){width=70%}
 
 #### Categoria funcional IV7
 
-![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à categoria funcional IV7, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".  Barras azuis indicam os alvos diatônicos pretendidos.](../figs/entro-28.png){width=70%}
+![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à categoria funcional IV7, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-28.png){width=70%}
+
+#### Categorias funcionais bIIM7, #IVm7(b5), Vm7, bVIM7, bVIm7 e bVII7
+
+![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à categoria funcional #IVm7(b5), considerando suas distribuições no conjunto MPB. Barras cinza indicam continuações "reflexivas".](../figs/entro-29.png){width=70%}
 
