@@ -208,7 +208,7 @@ Certamente não por acaso, V/IV tem um comportamento bastante semelhante a V/V n
 
 DISCUSSÃO
 
-Em comparação aos casos anteriores vemos algumas diferenças significativas, devido a características especiais da categoria V/II: (a) a propriedade de **reflexão** deixa de ser ubíqua, atingindo sete dos repertórios (e apenas em Lins apresenta-se como **alta**); (b) a continuação no alvo II, embora seja sempre uma das três mais prováveis dos *corpora*, é **atrativa** em apenas três casos (Jobim, Caetano e Rita), em nenhum deles como **predominante** ou **forte**; (c) V/V apresenta-se como uma continuação ainda mais provável do que o alvo declarado (II) em cinco repertórios (além do próprio conjunto MPB).^[Em Djavan, como **proeminente-forte**.] Esse fato denota a força das fórmulas de dominantes consecutivos nos repertórios analisados, especialmente envolvendo o 3-grama V/II | V/V | V, o mais recorrente (em média) das alternativas disponíveis.^[Ver o capítulo sobre [N-gramas específicos](ng-especificos.qmd)).]
+Em comparação aos casos anteriores vemos algumas diferenças significativas, devido a características especiais da categoria V/II: (a) a propriedade de **reflexão** deixa de ser ubíqua, atingindo sete dos repertórios (e apenas em Lins apresenta-se como **alta**); (b) a continuação no alvo II, embora seja sempre uma das três mais prováveis dos *corpora*, é **atrativa** em apenas três casos (Jobim, Caetano e Rita), em nenhum deles como **predominante** ou **forte**; (c) V/V apresenta-se como uma continuação ainda mais provável do que o alvo declarado (II) em cinco repertórios (além do próprio conjunto MPB).^[Em Djavan, como **proeminente-forte**.] Esse fato denota a força das fórmulas de dominantes consecutivos nos repertórios analisados, especialmente envolvendo o 3-grama V/II | V/V | V, o mais recorrente (em média) das alternativas disponíveis.^[Ver o capítulo sobre [N-gramas específicos](ng-especificos.qmd).]
 
 #### Categoria funcional V/VI
 
@@ -222,13 +222,18 @@ O número de *corpora* nos quais a categoria V/VI mostra-se como **reflexiva** �
 
 ![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à categoria funcional V/III, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".  Barras azuis indicam os alvos diatônicos pretendidos.](../figs/entro-24.png){width=70%}
 
-Subclassee SubV
+DISCUSSÃO
 
-nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+Como já mencionado em outras avaliações harmônicas, o alvo III é a categoria diatônica mais rara de sua classe, o que torna, consequentemente, ainda mais raro o seu dominante secundário (V/III). Essa constatação talvez explique a inusitada quantidade de "empates" entre as continuações principais, o que é observado em nada menos do que cinco *corpora* (Djavan, Bosco, Milton, Gil e Rita). Em quatro outros, III apresenta-se como **atrativa** (e tabém **predominante** em dois deles, Chico e Edu). Apenas em Lins, V/III mostra-se como **reflexiva-alta** (empatada em primeiro lugar com "II").^[Seu *corpus* é o único no qual III não se encontra entre as três principais continuações, o que se deve, certamente, a uma baixa frequência de ocorrência.] Evidenciando ainda a raridade da sequência de dominantes consecutivos iniciando-se em V/III,^[Ver capítulo [N-gramas específicos](ng-especificos.qmd).] a continuação-alvo (V/VI) aparece apenas em dois dos *corpora*.
+
+
+Subclasse SubV
+
+Levando em conta a relativa raridade de categorias da subclasse SubV em alguns dos *corpora* (o que torna suas entropias extremamente baixas, ou mesmo nulas, inviabilizando suas análises neste capítulo), optamos por examiná-las apenas dentro do conjunto MPB.
 
 ![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes às categorias funcionais da Subclasse SubV considerando suas distribuições no conjunto MPB.  Barras cinza indicam continuações "reflexivas". Barras azuis indicam os alvos diatônicos pretendidos.](../figs/entro-25.png){width=70%}
 
-Subclassee DIM
+Subclasse DIM
 
 nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
