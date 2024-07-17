@@ -240,9 +240,11 @@ Embora compartilhem com dominantes (primário e secundários) a qualidade X7 e p
 
 Subclasse DIM
 
-nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
-
 ![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes às categorias funcionais da Subclasse DIM considerando suas distribuições no conjunto MPB.  Barras cinza indicam continuações "reflexivas". Barras azuis indicam os alvos diatônicos pretendidos.](../figs/entro-26.png){width=70%}
+
+DISCUSSÃO
+
+O caso da entropia das categorias diminutas apresenta diversos aspectos interessantes: (a) a continuação mais provável de V°/V não é seu alvo declarado, mas I, o que se explica pelo uso característico desse diminuto, a saber, como segundo elemento de uma variante da "descida plagal"^[Ver @almada-2024.] -- IV|V°/V|I (por exemplo, em Dó maior, F|F#°|C/G --^[A segunda inversão de I é normativa, permitindo o movimento cromático ascendente de baixo.]; (b) Nas demais categorias DIM-Dom (V°/II, V°/III, V°/IV e V°/VI), o alvo declarado apresenta-se como **atrativo**, com um destaque especial para II, que se mostra como continuação **predominante-alta** com percentual bastante elevado (80%); (c) A categoria DIM-Bord I° tende para I em quase 60% dos casos; (d) bIII° (a principal opção da subclasse DIM-Ponte) prepara ainda mais fortemente seu alvo II, com probabilidade de ocorrência maior do que 80%.
 
 ### Classe funcional E1
 
