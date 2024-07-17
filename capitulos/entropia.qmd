@@ -224,14 +224,19 @@ O número de *corpora* nos quais a categoria V/VI mostra-se como **reflexiva** �
 
 DISCUSSÃO
 
-Como já mencionado em outras avaliações harmônicas, o alvo III é a categoria diatônica mais rara de sua classe, o que torna, consequentemente, ainda mais raro o seu dominante secundário (V/III). Essa constatação talvez explique a inusitada quantidade de "empates" entre as continuações principais, o que é observado em nada menos do que cinco *corpora* (Djavan, Bosco, Milton, Gil e Rita). Em quatro outros, III apresenta-se como **atrativa** (e tabém **predominante** em dois deles, Chico e Edu). Apenas em Lins, V/III mostra-se como **reflexiva-alta** (empatada em primeiro lugar com "II").^[Esse *corpus* é o único no qual III não se encontra entre as três principais continuações, o que se deve, certamente, a uma baixa frequência de ocorrência.] Evidenciando ainda a raridade da sequência de dominantes consecutivos iniciando-se em V/III,^[Ver capítulo [N-gramas específicos](ng-especificos.qmd).] a continuação-alvo (V/VI) aparece apenas em dois dos *corpora*.
+Como já apontado em outras avaliações harmônicas deste projeto, o alvo III é a categoria diatônica menos comum de sua classe, o que torna, consequentemente, ainda mais raro o seu dominante secundário (V/III). Essa constatação talvez explique a inusitada quantidade de "empates" entre as continuações principais, o que é observado em nada menos do que cinco *corpora* (Djavan, Bosco, Milton, Gil e Rita). Em quatro outros, III apresenta-se como **atrativa** (e tabém **predominante** em dois deles, Chico e Edu). Apenas em Lins, V/III mostra-se como **reflexiva-alta** (empatada em primeiro lugar com "II").^[Esse *corpus* é o único no qual III não se encontra entre as três principais continuações, o que se deve, certamente, a uma baixa frequência de ocorrência.] Entre outras continuações disponíveis, destaca-se a presença da categoria "II". Ainda que esta englobe genericamente todas as possíveis instâncias da categoria denominada informalmente "II relativo", nesse contexto, entretanto, denota claramente o termo locucional "II/II" (Em7 ou Em7(b5), em Dó maior), um uso idiomático de sobreposição bifuncional (aproveitando a identidade desse acorde e o alvo declarado -- III).^[Observe-se que algo semelhante ocorre em relação às continuações de V/VI (ver gráfico anterior), já que, nos termos aqui propostos, VI = "II/V".] Por fim, evidenciando ainda a raridade da sequência de dominantes consecutivos iniciando-se em V/III,^[Ver capítulo [N-gramas específicos](ng-especificos.qmd).] a continuação-alvo (V/VI) aparece apenas em dois dos *corpora*.
 
 
-Subclasse SubV
+Subclasse SUBV
 
-Levando em conta a relativa raridade de categorias da subclasse SubV em alguns dos *corpora* (o que torna suas entropias extremamente baixas, ou mesmo nulas, inviabilizando suas análises neste capítulo), optamos por examiná-las apenas dentro do conjunto MPB.
+Levando em conta a relativa raridade de categorias da subclasse SUBV em alguns dos *corpora* (o que torna suas entropias extremamente baixas, ou mesmo nulas, inviabilizando suas análises neste capítulo), optamos por examiná-las apenas dentro do conjunto MPB.^[O mesmo se aplica à próxima avaliação, considerando a subclasse DIM.]
 
-![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes às categorias funcionais da Subclasse SubV considerando suas distribuições no conjunto MPB.  Barras cinza indicam continuações "reflexivas". Barras azuis indicam os alvos diatônicos pretendidos.](../figs/entro-25.png){width=70%}
+![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes às categorias funcionais da Subclasse SUBV considerando suas distribuições no conjunto MPB.  Barras cinza indicam continuações "reflexivas". Barras azuis indicam os alvos diatônicos pretendidos.](../figs/entro-25.png){width=70%}
+
+DISCUSSÃO
+
+Embora compartilhem com dominantes (primário e secundários) a qualidade X7 e propensões diretas para seus respectivos alvos, as categorias da subclasse SUBV, caracteristicamente, não apresentam a propriedade de **reflexão**, uma interessante distinção de "comportamento" entre as subclasses-irmãs. Por outro lado, ambas as subclasses assemelham-se pelo aspecto de **atratividade** de seus alvos declarados.^[Com a exceção de III em relação a SubV/III, o que, no entanto, pode ser explicado pela sobreposição bifuncional, apontada acima (i.e., III = "II/II").] É, assim, **forte** em II e V e **predominante-forte** em IV e, especialmente, I.
+
 
 Subclasse DIM
 
