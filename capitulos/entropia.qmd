@@ -269,3 +269,7 @@ Ainda que seja um "empréstimo" cromático do diatônico IV, o chamado "subdomin
 
 ![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à categoria funcional #IVm7(b5), considerando suas distribuições no conjunto MPB. Barras cinza indicam continuações "reflexivas".](../figs/entro-29.png){width=70%}
 
+DISCUSSÃO
+
+Como observado nas avaliações acima, de IVm7 e IV7, I é a continuação preferencial desses empréstimos (em quatro dos seis casos). A principal divergência acontece com #IVm7(b5). Não por acaso, a categoria com a menor entropia desse grupo, tem como principal aplicação substituir IV na posição de Subdominante-estrutural, encabeçando variantes da "descida plagal". Isso é evidenciado por sua continuação preferencial dentro do conjunto MPB, a saber, IVm7, apresentando-se como **alta**.
+
