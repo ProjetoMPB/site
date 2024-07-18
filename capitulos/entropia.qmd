@@ -226,7 +226,6 @@ DISCUSSÃO
 
 Como já apontado em outras avaliações harmônicas deste projeto, o alvo III é a categoria diatônica menos comum de sua classe, o que torna, consequentemente, ainda mais raro o seu dominante secundário (V/III). Essa constatação talvez explique a inusitada quantidade de "empates" entre as continuações principais, o que é observado em nada menos do que cinco *corpora* (Djavan, Bosco, Milton, Gil e Rita). Em quatro outros, III apresenta-se como **atrativa** (e tabém **predominante** em dois deles, Chico e Edu). Apenas em Lins, V/III mostra-se como **reflexiva-alta** (empatada em primeiro lugar com "II").^[Esse *corpus* é o único no qual III não se encontra entre as três principais continuações, o que se deve, certamente, a uma baixa frequência de ocorrência.] Entre outras continuações disponíveis, destaca-se a presença da categoria "II". Ainda que esta englobe genericamente todas as possíveis instâncias da categoria denominada informalmente "II relativo", nesse contexto, entretanto, denota claramente o termo locucional "II/II" (Em7 ou Em7(b5), em Dó maior), um uso idiomático de sobreposição bifuncional (aproveitando a identidade desse acorde e o alvo declarado -- III).^[Observe-se que algo semelhante ocorre em relação às continuações de V/VI (ver gráfico anterior), já que, nos termos aqui propostos, VI = "II/V".] Por fim, evidenciando ainda a raridade da sequência de dominantes consecutivos iniciando-se em V/III,^[Ver capítulo [N-gramas específicos](ng-especificos.qmd).] a continuação-alvo (V/VI) aparece apenas em dois dos *corpora*.
 
-
 Subclasse SUBV
 
 Levando em conta a relativa raridade de categorias da subclasse SUBV em alguns dos *corpora* (o que torna suas entropias extremamente baixas, ou mesmo nulas, inviabilizando suas análises neste capítulo), optamos por examiná-las apenas dentro do conjunto MPB.^[O mesmo se aplica à próxima avaliação, considerando a subclasse DIM.]
@@ -248,13 +247,23 @@ O caso da entropia das categorias diminutas apresenta diversos aspectos interess
 
 ### Classe funcional E1
 
+Assim como o que foi feito na avaliação da classe PRE, optamos por analisar a entropia das categorias da classe dos Empréstimos de Primeira Ordem (E1) em dois blocos: no primeiro deles, as categorias mais comuns da classe, em média -- IVm7 e IV7 -- serão avaliadas nos *corpora* individuais, enquanto o segundo bloco avaliará seis outras categorias relativamente mais raras nos repertórios (bIIM7, #IVm7(b5), Vm7, bVIM7, bVIm7 e bVII7), considerando, nesse caso, seus comportamentos apenas dentro do conjunto MPB.
+
 #### Categoria funcional IVm7
 
 ![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à categoria funcional IVm7, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-27.png){width=70%}
 
+DISCUSSÃO
+
+IVm7 é a categoria principal da subclasse Subdominante Menor (sd), tendo seu emprego característico como segundo elemento de "descidas plagais". Isso fica evidente na forte presença de I (o terceiro elemento preferencial da fórmula) como principal continuação em nada menos do que sete *corpora* (além do próprio conjunto MPB). Em três destes (Jobim, Chico e Milton) I acumula ainda a propriedade **alta**, e no *corpus* Edu é, além disso, **predominante**. Embora menos comum a mudança de variante de tipo acordal nessa categoria (geralmente, na sequência Xm7|Xm6), ela apresenta-se como **reflexiva** em quatro *corpora*, sendo na posição **forte** em Lins.
+
 #### Categoria funcional IV7
 
 ![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à categoria funcional IV7, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-28.png){width=70%}
+
+DISCUSSÃO
+
+Ainda que seja um "empréstimo" cromático do diatônico IV, o chamado "subdominante blues" (IV7) não integra a fórmula da "descida plagal", ao contrário das suas categorias-irmãs IVm7 e #IVm7(b5). A despeito disso, sua continuação preferencial é o grau tônico, I, o que se observa em nove dos repertórios (e no conjunto MPB).^[Apenas o *corpus* Lins diverge desse quadro, com a **reflexão** de IV7. O VI (como substituto diatônico de I) aparece como a segunda continuação mais provável.] Como já apontado em outras avaliações no âmbito do projeto, os comportamentos de IV7 no que tange à entropia nos *corpora* Gil, Rita e Milton diferem consideravelmente em relação aos demais, devido às naturezas particulares das linguagens harmônicas praticadas por esses compositores. No caso de Gil e Rita, principalmente pela presença das estéticas blues/rock, enquanto em Milton isso se dá pelo tratamento modal (muitas vezes peculiar) que caracteriza sua música.
 
 #### Categorias funcionais bIIM7, #IVm7(b5), Vm7, bVIM7, bVIm7 e bVII7
 
