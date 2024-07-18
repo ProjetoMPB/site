@@ -247,7 +247,7 @@ O caso da entropia das categorias diminutas apresenta diversos aspectos interess
 
 ### Classe funcional E1
 
-Assim como o que foi feito na avaliação da classe PRE, optamos por analisar a entropia das categorias da classe dos Empréstimos de Primeira Ordem (E1) em dois blocos: no primeiro deles, as categorias mais comuns da classe, em média -- IVm7 e IV7 -- serão avaliadas nos *corpora* individuais, enquanto o segundo bloco avaliará seis outras categorias relativamente mais raras nos repertórios (bIIM7, #IVm7(b5), Vm7, bVIM7, bVIm7 e bVII7), considerando, nesse caso, seus comportamentos apenas dentro do conjunto MPB.
+Assim como o que foi feito na avaliação da classe PRE, optamos por analisar a entropia das categorias da classe dos Empréstimos de Primeira Ordem (E1) em dois blocos: no primeiro deles, as categorias mais comuns da classe, em média -- IVm7 e IV7 -- são avaliadas nos *corpora* individuais, enquanto o segundo bloco avalia seis outras categorias relativamente mais raras nos repertórios (bIIM7, #IVm7(b5), Vm7, bVIM7, bVIm7 e bVII7), considerando, nesse caso, seus comportamentos apenas dentro do conjunto MPB.
 
 #### Categoria funcional IVm7
 
