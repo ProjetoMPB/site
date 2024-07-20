@@ -56,6 +56,10 @@ A c-letra *A* apresenta um perfil consideravelmente distinto dos casos anteriore
 
 ![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à c-letra a, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-05.png){width=70%}
 
+DISCUSSÃO
+
+O movimento arpejado descendente (a) apresenta um comportamento semelhante ao ascendente (A), sendo **reflexiva** em cinco *corpora*, sendo **forte** em apenas dois (Lins e Bosco) e, mesmo assim, como percentuais bem próximos dos das segundas continuações. Vistos assim em conjunto, podemos considerar que saltos curtos tendem, em geral, a ser movimentos isolados e seguidos por outros tipos, preferencialmente em direções inversas.^[Como se observa nos gráficos, movimentos escalares em sentido inverso são as principais continuações. Essa tendência se intensifica e se consolida nos saltos maiores (S/s), comoveremos a seguir.]
+
 ### c-letra **S** ("salto ascendente")
 
 ![Entropia (em bits), número de continuações acima 1% e as três alternativas mais recorrentes referentes à c-letra S, considerando os 10 *corpora* de análise e o conjunto MPB.  Barras cinza indicam continuações "reflexivas".](../figs/entro-06.png){width=70%}
