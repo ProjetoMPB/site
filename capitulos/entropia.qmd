@@ -86,7 +86,7 @@ Devido ao tamanho do alfabeto de r-letras (26 símbolos), foram selecionadas par
 
 DISCUSSÃO
 
-A r-letra *b* pode ser considerada, analogamente à categoria funcional I, uma espécie de *tônica micrométrica*, não apenas por ser uma finalização bastante comum de c/r-palavras, mas por sua alta recorrência em todos os repertórios analisados (é o 1-grama rítmico mais comum em sete dos 10 *corpora* MPB). Como se observa no gráfico, *b* é **reflexiva-alta** em todos os 11 casos, sendo também **forte** em Djavan e **proeminente-forte** em Lins, Edu e, especialmente, em Milton.
+A r-letra *b* pode ser considerada, analogamente à categoria funcional I, uma espécie de *tônica micrométrica*, não apenas por ser uma finalização bastante comum de c/r-palavras, mas por sua alta recorrência em todos os repertórios analisados (é o 1-grama rítmico mais comum em sete dos 10 *corpora* MPB). Como se observa no gráfico, *b* é **reflexiva-forte** em todos os 11 casos, sendo também **alta** em Djavan e **proeminente-alta** em Lins, Edu e, especialmente, em Milton.
 
 ### r-letra **e**
 
@@ -94,7 +94,7 @@ A r-letra *b* pode ser considerada, analogamente à categoria funcional I, uma e
 
 DISCUSSÃO
 
-A r-letra *e* apresenta-se como **reflexiva-fraca** em quase todos os repertórios (apenas em Jobim não está entre as três mais prováveis continuações). É, por assim dizer, atraída por *j*, que se apresenta como continuação preferencial em nove *corpora* (e no conjunto MPB),^[Apenas em Lins *j* fica (por pouco) em segundo lugar, após *b*.] sendo que em cinco deles (Jobim, Chico, Caetano, Gil e Rita) é também **proeminente-forte**.^[A sequência <ej> consiste numa fórmula de abertura de r-palavra muito comum em todos os repertórios.]
+A r-letra *e* apresenta-se como **reflexiva-fraca** em quase todos os repertórios (apenas em Jobim não está entre as três mais prováveis continuações). É, por assim dizer, atraída por *j*, que se apresenta como continuação preferencial em nove *corpora* (e no conjunto MPB),^[Apenas em Lins *j* fica (por pouco) em segundo lugar, após *b*.] sendo que em cinco deles (Jobim, Chico, Caetano, Gil e Rita) é também **proeminente-alta**.^[A sequência <ej> consiste numa fórmula de abertura de r-palavra muito comum em todos os repertórios.]
 
 ### r-letra **j**
 
@@ -102,7 +102,7 @@ A r-letra *e* apresenta-se como **reflexiva-fraca** em quase todos os repertóri
 
 DISCUSSÃO
 
-A r-letra que corresponde ao par de colcheias (j) é **reflexiva-forte** em nove dos *corpora* (bem como no conjunto MPB), sendo ainda **proeminente-alta** em Chico, Gil e Rita (estes dois com grande destaque), o que sugere que linhas em colcheias tendem a se perpetuar em frases (algo que foi observado com bastante frequência nas análises dos vários repertórios).
+A r-letra que corresponde ao par de colcheias (j) é **reflexiva-forte** em nove dos *corpora* (bem como no conjunto MPB), sendo ainda **proeminente-alta** em Chico, Gil e Rita (estes dois com grande destaque), o que sugere que linhas em colcheias tendem a se perpetuar em frases (algo que foi observado com bastante frequência nas análises dos vários repertórios), ou seja, pode ser considerada como uma r-letra **inercial** (à semelhança do que acontece, no domínio das alturas, com as c-letras *u*, *p*.
 
 ### r-letra **n**
 
@@ -110,7 +110,7 @@ A r-letra que corresponde ao par de colcheias (j) é **reflexiva-forte** em nove
 
 DISCUSSÃO
 
-A r-letra *n*, unidade que, por si só, representa a essência da sincopação do samba,^[Ver @almada-zisels-2023.] tem marcante presença na Prática Comum da MPB, apresentando-se como **reflexiva-forte** em oito dos 10 *corpora* de análise (as exceções são Milton e Rita, nos quais *n* não é uma das três mais prováveis continuações). Em Jobim, Djavan, Bosco e Gil (e no conjunto MPB) a continuação em *n* é ainda **proeminente**. Destcam-se como continuações recorrentes as r-letras *c* e *r*, que quando combinadas a *n*, formam blocos sincopados bastante recorrentes em gêneros de samba e bossa nova.
+A r-letra *n*, unidade que, por si só, representa a essência da sincopação do samba,^[Ver @almada-zisels-2023.] tem marcante presença na Prática Comum da MPB, apresentando-se como **reflexiva-forte** em oito dos 10 *corpora* de análise (as exceções são Milton e Rita, nos quais *n* não é uma das três mais prováveis continuações).^[Dados que a tornam também **inercial**.] Em Jobim, Djavan, Bosco e Gil (e no conjunto MPB), a continuação em *n* é ainda **proeminente**. Destacam-se como continuações prováveis as r-letras *c* e *r*, que quando combinadas a *n*, formam blocos sincopados bastante recorrentes em gêneros de samba e bossa nova.
 
 
 ### r-letra **r**
@@ -139,7 +139,7 @@ O grupo de quiálteras de colcheias (s) é **reflexiva** em oito *corpora* (send
 
 DISCUSSÃO
 
-Uma propriedade interessante observada na categoria I é a **reflexão**. Explica-se, principalmente, pelo uso de variantes de tipos acordais que denotam movimentações internas de vozes (por exemplo, CM7 | C6), um recurso relativamente comum na estruturação harmônica em vários dos repertórios. Em cinco dos *corpora* (Jobim, Lins, Edu, Bosco e Milton -- além do próprio conjunto MPB) a categoria apresenta-se como **reflexiva-forte-alta**. Excluindo a continuação reflexiva, V, IV e IV7 são as mais prováveis opções de continuação.
+Uma propriedade interessante observada na categoria I é a **reflexão**. Explica-se, principalmente, pelo uso de variantes de tipos acordais que denotam movimentações internas de vozes (por exemplo, CM7 | C6), um recurso relativamente comum na estruturação harmônica em vários dos repertórios. Em cinco dos *corpora* (Jobim, Lins, Edu, Bosco e Milton -- além do próprio conjunto MPB) a categoria apresenta-se como **reflexiva-forte-alta**.^[Embora, a rigor, isso torne a categoria **inercial** em nossos critérios, pensamos que se trata aqui de uma inércia de uma natureza distinta daquela considerada nos domínios das alturas e do ritmo. mais "superficial", por assim dizer, já que considera apenas as variantes de qualidades. Assim, optamos por não empregar a qualificação nesses casos.] Excluindo a continuação reflexiva, V, IV e IV7 são as mais prováveis opções de continuação.
 
 #### Categoria funcional V
 
