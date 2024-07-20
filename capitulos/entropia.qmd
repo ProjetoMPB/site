@@ -66,7 +66,7 @@ O movimento arpejado descendente (a) apresenta um comportamento semelhante ao as
 
 DISCUSSÃO
 
-Um elemento marcante de *S* em relação às demais c-letras é o fato de não ser **reflexiva** em nenhum dos *corpora*. Por outro lado, é altamente enviezada pela continuação em passo descendente (p),^[Esse dado confirma a tradicional regra de manuais de contraponto que determina que um salto melódico deva ser compensado por grau conjunto na direção contrária.] que acontece em nove dos 11 gráficos. Em Gil e Rita a continuação *p* é **proeminente** (mais do que 50%), o que acontece também no *corpus* Caetano, acrescentando-se o atributo **forte**.
+Um elemento marcante de *S* em relação às demais c-letras é o fato de não ser **reflexiva** em nenhum dos *corpora*. Por outro lado, é altamente enviezada pela continuação em passo descendente (p),^[Esse dado confirma a tradicional regra de manuais de contraponto que determina que um salto melódico deva ser compensado por grau conjunto na direção contrária.] que acontece em nove dos 11 gráficos. Em Gil e Rita a continuação *p* é **proeminente** (mais do que 50%), o que acontece também no *corpus* Caetano, acrescentando-se também, neste caso, a propriedade **alta**.
 
 ### c-letra **s** ("salto descendente")
 
