@@ -576,73 +576,40 @@ title: "Listagem dos *corpora*"
 
 ### Carlos Lyra
 
-[Site oficial](https://www.instagram.com/ritalee_oficial/)
+[Site oficial](http://www.carloslyra.com/)
 
-[Playlist](https://open.spotify.com/playlist/5N3gtetTypnsFvI3Sl3bEQ?si=4412bbb41f774d18)
+[Playlist](https://open.spotify.com/playlist/53VD1fHd6fRlXIYkkbnmKg?si=c32ce521523f41de)
 
-Até parece (Carlos Lyra)
-
-Barquinho de papel (Carlos Lyra)
-
-Broto maroto (Carlos Lyra e Vinicius de Moraes)
-
-Broto triste (Carlos Lyra e Vinicius de Moraes)
-
-Canção do amor que chegou (Carlos Lyra e Vinicius de Moraes)
-
-
-Canção que morre no ar (Carlos Lyra e Ronaldo Bôscoli)
-
-Cara bonita (Carlos Lyra)
-
-Cartão de visitas (Carlos Lyra e Vinicius de Moraes)
-
-Ciúme (Carlos Lyra)
-
-Coisa mais linda (Carlos Lyra e Vinicius de Moraes)
-
-Entrudo (Carlos Lyra e Ruy Guerra)
-
-Essa passou (Carlos Lyra e Chico Buarque)
-
-Feio não é bonito (Carlos Lyra e Gianfrancesco Guarnieri)
-
-Influência do jazz (Carlos Lyra)
-
-Lamento de um homen só (Carlos Lyra e Vinicius de Moraes)
-
-Lobo bobo (Carlos Lyra e Ronaldo Bôscoli)
-
-
-Marcha de Quarta-feira de Cinzas (Carlos Lyra e Vinicius de Moraes)
-
-
-Maria Moita (Carlos Lyra e Vinicius de Moraes)
-
-Maria ninguém (Carlos Lyra)
-
-Minha namorada (Carlos Lyra e Vinicius de Moraes)
-
-Nada como ter amor (Carlos Lyra e Vinicius de Moraes)
-
-O negócio é amar (Carlos Lyra e Dolores Duran)
-
-Pobre menina rica (Carlos Lyra e Vinicius de Moraes)
-
-Pode ir (Carlos Lyra e Vinicius de Moraes)
-
-Primavera (Carlos Lyra e Vinicius de Moraes)
-
-Primeira namorada (Carlos Lyra e Vinicius de Moraes)
-
-
-Sabe você (Carlos Lyra e Vinicius de Moraes)
-
-Saudade fez um samba (Carlos Lyra e Ronaldo Bôscoli)
-
-Se é tarde, me perdoa (Carlos Lyra e Ronaldo Bôscoli)
-
-Você e eu (Carlos Lyra e Vinicius de Moraes)
+1. *Até parece* (Carlos Lyra)
+1. *Barquinho de papel* (Carlos Lyra)
+1. *Broto maroto* (Carlos Lyra e Vinicius de Moraes)
+1. *Broto triste* (Carlos Lyra e Vinicius de Moraes)
+1. *Canção do amor* que chegou (Carlos Lyra e Vinicius de Moraes)
+1. *Canção que morre no ar* (Carlos Lyra e Ronaldo Bôscoli)
+1. *Cara bonita* (Carlos Lyra)
+1. *Cartão de visitas* (Carlos Lyra e Vinicius de Moraes)
+1. *Ciúme* (Carlos Lyra)
+1. *Coisa mais linda* (Carlos Lyra e Vinicius de Moraes)
+1. *Entrudo* (Carlos Lyra e Ruy Guerra)
+1. *Essa passou* (Carlos Lyra e Chico Buarque)
+1. *Feio não é bonito* (Carlos Lyra e Gianfrancesco Guarnieri)
+1. *Influência do jazz* (Carlos Lyra)
+1. *Lamento de um homen só* (Carlos Lyra e Vinicius de Moraes)
+1. *Lobo bobo* (Carlos Lyra e Ronaldo Bôscoli)
+1. *Marcha de Quarta-feira de Cinzas* (Carlos Lyra e Vinicius de Moraes)
+1. *Maria Moita* (Carlos Lyra e Vinicius de Moraes)
+1. *Maria ninguém* (Carlos Lyra)
+1. *Minha namorada* (Carlos Lyra e Vinicius de Moraes)
+1. *Nada como ter amor* (Carlos Lyra e Vinicius de Moraes)
+1. *O negócio é amar* (Carlos Lyra e Dolores Duran)
+1. *Pobre menina rica* (Carlos Lyra e Vinicius de Moraes)
+1. *Pode ir* (Carlos Lyra e Vinicius de Moraes)
+1. *Primavera* (Carlos Lyra e Vinicius de Moraes)
+1. *Primeira namorada* (Carlos Lyra e Vinicius de Moraes)
+1. *Sabe você* (Carlos Lyra e Vinicius de Moraes)
+1. *Saudade fez um samba* (Carlos Lyra e Ronaldo Bôscoli)
+1. *Se é tarde, me perdoa* (Carlos Lyra e Ronaldo Bôscoli)
+1. *Você e eu* (Carlos Lyra e Vinicius de Moraes)
 
 
 
