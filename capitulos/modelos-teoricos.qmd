@@ -39,11 +39,11 @@ A aplicação das transformações sobre os protoacordes, condicionada pelas reg
 | y             | 1  | 3  | 3  | 1  | -  | -  | - | 8     |
 | x             | 1  | 4  | 6  | 3  | 1  | -  | - | 15    |
 | w             | 1  | 2  | 1  | -  | -  | -  | - | 4     |
-| v             | 1  | 3  | 3  | 1  | -  | -  | - | 7     |
+| v             | 1  | 3  | 3  | 1  | -  | -  | - | 8     |
 | Total         | 10 | 33 | 46 | 36 | 22 | 13 | 2 | 161   |
 : Distribuição dos TAs pelos 10 *genera*. {#tbl-4-2} {.hover}
 
-Como se observa nessa distribuição, enquanto alguns *genera* são bastante rarefeitos (como v, com apenas sete membros) outros apresentam alta densidade, notavelmente o *genus* "dominante" Y, com 59 elementos, o que se explica especialmente pela disponibilidade e possibilidades combinatórias decorrentes de um rico cardápio de tensões (e de suas possíveis alterações).
+Como se observa nessa distribuição, enquanto alguns *genera* são bastante rarefeitos (como v, com apenas oito membros) outros apresentam alta densidade, notavelmente o *genus* "dominante" Y, com 59 elementos, o que se explica especialmente pela disponibilidade e possibilidades combinatórias decorrentes de um rico cardápio de tensões (e de suas possíveis alterações).
 
 A notação genealógica de variantes descreve sua posição derivativa dentro do *genus* respectivo através de uma sequência numérica. Por exemplo, o rótulo Y1321 representa o TA variante do *genus* Y de quarta geração (o que se depreende pelo número de algarismos que se seguem à letra identificadora). Sua posição genealógica (lida da direita para a esquerda) é: primeira variante (4ª geração) da segunda variante (3ª geração) da terceira variante (2ª geração) da primeira variante (1ª geração) de Y0.
 
