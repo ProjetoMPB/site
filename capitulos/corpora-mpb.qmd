@@ -45,6 +45,7 @@ Na fase 2, mais compositores foram elencados:
 
 * Carlos Lyra (1933--2023)
 * Dori Caymmi (1943)
+* Cartola (1908--1980)
 
 Em relação à escolha das obras para integrarem os 10 *corpora* MPB consideramos songbooks de partituras à disposição no mercado editorial brasileiro. Vale acrescentar que, a despeito das origens das partituras, todas são cuidadosamente revisadas antes de suas transcrições, fase na qual erros eventuais são corrigidos. As fontes adotadas são as seguintes:
 
@@ -59,6 +60,8 @@ Em relação à escolha das obras para integrarem os 10 *corpora* MPB consideram
 * Gilberto Gil -- *Songbook Gilberto Gil*, em dois volumes, publicado pela editora Lumiar.  
 * Rita Lee -- *Songbook Rita Lee*, em dois volumes publicado pela editora Lumiar.
 * Carlos Lyra -- *Songbook Carlos Lyra*, publicado pela editora Lumiar.
+* Dori Caymmi -- *Dori Caymmi songbook: 80 anos de um cantador*, publicado pelas Edições SESC.
+* Cartola -- *O melhor de Cartola*, publicado pela editora Irmãos Vitale.
 
 Após a conclusão desta primeira, uma segunda fase incluirá mais 10 compositores, e assim por diante, tornando cada vez mais sólido e abrangente o projeto. Como uma ilustração do potencial de expansão do projeto, nesse sentido, a @fig-corpora01 apresenta as linhas de vida dos 10 compositores selecionados para a fase 1 (em destaque) e outras sugestões de nomes (entre vários outros possíveis) para futuras fases.
 
