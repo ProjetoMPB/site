@@ -84,7 +84,7 @@ Os atributos secundários são essencialmente revisões (ou detalhamentos) de al
 
 ---------------------------------
 
-## Resultados - Fase 1 (compositores 1 a 10)
+## Resultados
 
 Ao contrário do que é feito com os atributos primários, os secundários são apresentados em tabelas individuais e discutidos em seguida.
 
@@ -98,7 +98,7 @@ Ao contrário do que é feito com os atributos primários, os secundários são 
 
 #### Discussão
 
-Observa-se na tabela acima uma certa tendência de que os *corpora* MPB apresentem uma relativa alta diversidade de RBTs, em sintonia com o que acontece no *corpus* Jazz, o que sugere uma possível influência, ainda que vaga, no sentido de uma maior exuberância de soluções modulatórias. Nesse sentido, chama especialmente atenção a baixa quantidade de relações distintas no Samba, o que talvez reflita o fato de que modulações não sejam tão comuns como em outros gêneros e, consequentemente, a estabilidade tonal possa ser uma característica distinguidora.^[Num patamar intermediário, em torno de 15 %, encontram-se os *corpora* Chico Buarque, João Bosco, Gilberto Gil e Rita Lee.] Essa conjectura abre uma via de pesquisa para estudos futuros.
+Observa-se na tabela acima uma certa tendência de que os *corpora* MPB apresentem uma relativa alta diversidade de RBTs, em sintonia com o que acontece no *corpus* Jazz, o que sugere uma possível influência, ainda que vaga, no sentido de uma maior exuberância de soluções modulatórias. Nesse sentido, chama especialmente atenção a baixa quantidade de relações distintas no Samba,^[O *corpus* do sambista Cartola, com apenas 6 RBTs, apresenta valor bem próximo daquele observado no controle Samba, o que pode reforçar a correlação com o gênero. Por outro lado, é possível também atribuir o número reduzido de RBTs ao fato de o repertório de Cartola apresentar apenas 20 peças (de acordo com as estratégias metodológicas adotadas na segunda fase do projeto), o que dificultaria uma comparação com em comparação com os demais repertórios da Fase 1 do projeto nos mesmos termos (embora Caymmi e Lyra -- que também integram a Fase 2 -- apresentem bem mais RBTs do que Cartola).] o que talvez reflita o fato de que modulações não sejam tão comuns como em outros gêneros e, consequentemente, a estabilidade tonal possa ser uma característica distinguidora.^[Num patamar intermediário, em torno de 15%, encontram-se os *corpora* Chico Buarque, João Bosco, Gilberto Gil e Rita Lee.] Essa conjectura abre uma via de pesquisa para estudos futuros.
 
 2H1b
 
