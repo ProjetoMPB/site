@@ -228,7 +228,7 @@ Há, em termos percentuais, uma convergência geral pelas RBFs em alto nível DI
 
 2M1a
 
-![Distribuição das notas diatônicas por *corpus*, considerando modos maior e menor (em percentuais).](../figs/atri-sec-23.png){width=60%}
+![Distribuição das notas diatônicas por *corpus*, considerando modos maior e menor (em percentuais).](../figs/atri-sec-23.png){width=80%}
 
 #### Discussão
 
