@@ -208,7 +208,7 @@ Apesar de sua relativa raridade, os empréstimos de segunda ordem contribuem ain
 
 2H3d
 
-![Total de relações binárias funcionais distintas por *corpus*.](../figs/atri-sec-18.png){width=60%}
+![Total de relações binárias funcionais distintas por *corpus*.](../figs/atri-sec-18.png){width=30%}
 
 #### Discussão
 
