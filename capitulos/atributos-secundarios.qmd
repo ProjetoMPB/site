@@ -202,13 +202,13 @@ A relativa presença de empréstimos é certamente um forte marcador estilístic
 
 #### Discussão
 
-Apesar de sua relativa raridade, os empréstimos de segunda ordem contribuem ainda com mais intensidade para a marcação das fronteiras da MPB em relação ao superconjunto no qual se insere. Como mostram os dados, o *corpus* Jobim é o que mais se destaca nesse atributo, sendo o único no qual todas as categorias mapeadas estão presentes. Observe-se também a proeminência em todos os repertórios da categoria IV7.^[Especialmente nos *corpora* Rita Lee (5.4 %) e Gilberto Gil (4.0 %), o que denota uma provável influência do gênero *rhythm and blues* na música de ambos os compositores. Acrescente-se que no repertório de Jobim a categoria IV7 pode ser vista como um elemento característico proveniente da incorporação de aspectos da prática harmônica do jazz e do blues-jazz, como discutido em [@almada-harmonia-jobim, pp. 260-268].]
+Apesar de sua relativa raridade, os empréstimos de segunda ordem contribuem ainda com mais intensidade para a marcação das fronteiras da MPB em relação ao superconjunto no qual se insere. Como mostram os dados, o *corpus* Jobim é o que mais se destaca nesse atributo, sendo o único no qual todas as categorias mapeadas estão presentes. Por outro lado, nos *corpora* João Bosco, Caetano Veloso, Rita Lee e, especialmente, Cartola as categorias da classe EC2 são ainda mais raras, o que faz distanciar esse grupo daquele que podemos denominar o núcleo MPB referente a tal classe.
 
 ---
 
 2H3d
 
-![Total de relações binárias funcionais distintas por *corpus*.](../figs/atri-sec-21.png){width=25%}
+![Total de relações binárias funcionais distintas por *corpus*.](../figs/atri-sec-21.png){width=100%}
 
 #### Discussão
 
@@ -216,7 +216,7 @@ O número de RBFs distintas varia consideravelmente -- de 178 (Samba) a 438 (Job
 
 2H3e
 
-![Distribuição de relações binárias funcionais em alto nível por *corpus* (n = quantidade de RBFs; p = percentagem em relação ao todo).](../figs/atri-sec-22.png){width=60%}
+![Distribuição de relações binárias funcionais em alto nível por *corpus* (n = quantidade de RBFs; p = percentagem em relação ao todo).](../figs/atri-sec-22.png){width=80%}
 
 #### Discussão
 
