@@ -32,7 +32,7 @@ Os atributos secundários são essencialmente revisões (ou detalhamentos) de al
 
 ---
 
-**2H3** -- nível das funções (contém seis aspectos):
+**2H3** -- nível das funções (contém cinco aspectos):
 
 - 2H3a -- informa a quantidade de categorias funcionais distintas em cada *corpus* e o respectivo percentual considerando o total de categorias adotadas (73). Por hipótese, a  diversidade de categorias seria um marcador estilístico centrípeto (também em relação ao subconjunto JAZZ).
 
