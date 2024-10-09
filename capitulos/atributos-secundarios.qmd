@@ -216,7 +216,7 @@ O número de RBFs distintas varia consideravelmente -- de 178 (Samba) a 438 (Job
 
 2H3e
 
-![Distribuição de relações binárias funcionais em alto nível por *corpus* (n = quantidade de RBFs; p = percentagem em relação ao todo).](../figs/atri-sec-22.png){width=80%}
+![Distribuição de relações binárias funcionais em alto nível por *corpus* (n = quantidade de RBFs; p = percentagem em relação ao todo).](../figs/atri-sec-19.png){width=80%}
 
 #### Discussão
 
