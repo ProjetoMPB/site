@@ -166,7 +166,7 @@ Neste atributo os *corpora* MPB mais uma vez se mostram em sintonia com o repert
 
 2H3b
 
-![Distribuição de classes (e/ou subclasses) de categorias funcionais por *corpus* (em percentuais). A última coluna ("?") se refere a situações funcionais não identificadas nas análises.](../figs/atri-sec-09.png){width=100%}
+![Distribuição de classes (e/ou subclasses) de categorias funcionais por *corpus* (em percentuais). A última coluna ("?") se refere a situações funcionais não identificadas nas análises.](../figs/atri-sec-09.png){width=60%}
 
 #### Discussão
 
