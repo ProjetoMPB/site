@@ -68,7 +68,7 @@ Os atributos secundários são essencialmente revisões (ou detalhamentos) de al
 
 ---
 
-**2M3** -- nível do ritmo (contém cinco aspectos):
+**2M3** -- nível do ritmo (contém três aspectos):
 
 - 2M3a -- compara as distribuições dos perfis métricos dos *corpora*. Por hipótese, membros do subconjunto-alvo (especialmente aqueles que apresentam, em maior ou menor medida, influências do gênero SAMBA) se diferenciarão dos membros do subconjunto JAZZ por ocorrências de ataques mais significativa nos pontos 4 e 10.
 
@@ -76,9 +76,6 @@ Os atributos secundários são essencialmente revisões (ou detalhamentos) de al
 
 - 2M3c -- informa as distribuições de r-letras "tercinais" (d, f, i, k, o, s) em cada *corpus*, incluindo sua presença percentual em relação ao todo das r-letras. Não há hipóteses previamente associadas a este atributo.    
 
-- 2M3d -- destaca de cada *corpus* os 10 mais recorrentes *r-dissílabos*. Não há hipóteses previamente associadas a este atributo.
-
-- 2M3e -- destaca de cada *corpus* os 10 mais recorrentes r-trissílabos, detectados a partir do atributo 2M3d. Não há hipóteses previamente associadas a este atributo.  
 
 ---------------------------------
 
@@ -100,7 +97,7 @@ Observa-se na tabela acima uma certa tendência de que os *corpora* MPB apresent
 
 2H1b
 
-![Distribuição das relações binárias tonais notáveis por *corpus*.](../figs/atri-sec-02.png){width=40%}
+![Distribuição das relações binárias tonais notáveis por *corpus*.](../figs/atri-sec-02.png){width=60%}
 
 #### Discussão
 
@@ -128,7 +125,7 @@ O número de tipos acordais distintos por *corpus* consiste em um dos mais forte
 
 2H2b
 
-![Distribuição dos conteúdos dos *genera* por *corpus* (em percentuais).](../figs/atri-sec-05.png){width=80%}
+![Distribuição dos conteúdos dos *genera* por *corpus* (em percentuais).](../figs/atri-sec-05.png){width=70%}
 
 #### Discussão
 
@@ -136,7 +133,7 @@ Um primeiro dado interessante na avaliação deste atributo é a convergência d
 
 2H2c
 
-![Distribuição de protoacordes e variantes por *corpus* (em percentuais).](../figs/atri-sec-06.png){width=40%}
+![Distribuição de protoacordes e variantes por *corpus* (em percentuais).](../figs/atri-sec-06.png){width=50%}
 
 #### Discussão
 
@@ -184,7 +181,7 @@ Nada de muito surpreendente surge nos dados apresentados na tabela acima: quase 
 
 Neste caso, há uma divisão das preferências em três grupos: pelo V/V (Choro, Jobim, Edu Lobo, Milton Nascimento, Rita Lee e Dori Caymmi),^[À parte a recorrência dessa categoria funcional -- diríamos, quase "normal", em comparação aos demais -- o repertório de Milton Nascimento se notabiliza pela raridade dos demais dominantes secundários, o que é novamente um fator que sugere uma preferência pelo modalismo.] pelo II cadencial (Jazz, Ivan Lins, Chico Buarque, Caetano Veloso, Djavan, Gilberto Gil, Carlos Lyra e Cartola) e V/II (Samba e João Bosco). Nenhuma conclusão sólida referente a estilo pode ser extraída desses resultados isoladamente. 
 
-![Distribuição das categorias funcionais da subclasse "SubV" (SUBV) por *corpus* (em percentuais).](../figs/atri-sec-12.png){width=80%}
+![Distribuição das categorias funcionais da subclasse "SubV" (SUBV) por *corpus* (em percentuais).](../figs/atri-sec-12.png){width=60%}
 
 #### Discussão
 
@@ -196,7 +193,7 @@ Os dados revelam que acordes da classe SUBV, embora menos comuns do que dominant
 
 A relativa presença de empréstimos é certamente um forte marcador estilístico da Prática Comum da MPB, a partir de uma suposta herança jazzística. O quadro apresentado acima deixa, por si só, tal fato evidente. A distribuição das categorias funcionais dessa classe em quase todos os repertórios tende a convergir para o IVm7 como a mais proeminente, com algumas exceções: (1) nos casos do *corpora* Ivan Lins e Jazz, bVII7 é a categoria mais comum, porém diverge pouco em termos gerais de IVm7, já que ambas pertencem à mesma subclasse funcional, "Subdominante menor" (sd); (2) no *corpus* Caetano Veloso, a preferência é pelo bVIM7, uma categoria, como as anteriores integrante do grupo "Subdominante menor" (o que torna as opções, na prática, equivalentes); (3) Por outro lado, no *corpus* Edu Lobo Vm7 é a categoria mais recorrente, talvez refletindo a presença de lógicas modais nos repertórios dos compositor, ou seja, podendo representar uma característica estilística pessoal mais significativa; (4) Atribuímos a uma razão semelhante a recorrência da categoria bVIIM7 como a mais comum (e bem acima das demais) no *corpus* Milton Nascimento; (5) o "subdominante blues" (IV7) é o empréstimo mais comum nos *corpora* Djavan, Gilberto Gil e Rita Lee.
 
-![Distribuição das categorias funcionais da classe "Empréstimos cromáticos de segunda ordem" (EC2) por *corpus* (em percentuais).](../figs/atri-sec-14.png){width=80%}
+![Distribuição das categorias funcionais da classe "Empréstimos cromáticos de segunda ordem" (EC2) por *corpus* (em percentuais).](../figs/atri-sec-14.png){width=60%}
 
 #### Discussão
 
@@ -214,7 +211,7 @@ O número de RBFs distintas varia consideravelmente -- de 109 (Cartola) a 438 (J
 
 2H3e
 
-![Distribuição de relações binárias funcionais em alto nível por *corpus* (n = quantidade de RBFs; p = percentagem em relação ao todo).](../figs/atri-sec-19.png){width=80%}
+![Distribuição de relações binárias funcionais em alto nível por *corpus* (n = quantidade de RBFs; p = percentagem em relação ao todo).](../figs/atri-sec-19.png){width=60%}
 
 #### Discussão
 
@@ -228,7 +225,7 @@ Há, em termos percentuais, uma convergência geral pelas RBFs em alto nível DI
 
 2M1a
 
-![Distribuição das notas diatônicas por *corpus*, considerando modos maior e menor (em percentuais).](../figs/atri-sec-23.png){width=80%}
+![Distribuição das notas diatônicas por *corpus*, considerando modos maior e menor (em percentuais).](../figs/atri-sec-23.png){width=60%}
 
 #### Discussão
 
@@ -236,7 +233,7 @@ A presença de notas diatônicas em peças em modo maior é, como se esperaria e
 
 2M1b
 
-![Distribuição das inflexões por *corpus* (em percentuais).](../figs/atri-sec-24.png){width=30%}
+![Distribuição das inflexões por *corpus* (em percentuais).](../figs/atri-sec-24.png){width=40%}
 
 #### Discussão
 
@@ -264,7 +261,7 @@ A Tabela acima detalha o atributo anterior, mostrando como as distribuições cl
 
 2M2a
 
-![Distribuição das classes de c-letras por *corpus* (em percentuais).](../figs/atri-sec-27.png){width=60%}
+![Distribuição das classes de c-letras por *corpus* (em percentuais).](../figs/atri-sec-27.png){width=40%}
 
 #### Discussão
 
@@ -306,12 +303,4 @@ As relações de afinidade sugeridas no atributo anterior são, de certo modo, c
 
 Embora menos importante do que os atributos rítmicos anteriores, a distribuições das r-letras tercinas contribui indiretamente para evidenciar particularidades estilísticas individuais. Inicialmente, considerando os percentuais dessas letras em relação ao Alfabeto-r, observamos que os *corpora* Ivan Lins, Tom Jobim e João Bosco se destacam como os de maior proeminência nesse quesito, seguidos -- um pouco mais afastados -- por Edu Lobo, Caetano Veloso e Milton Nascimento, deixando os demais bem mais distantes. No que se refere ao detalhamento das r-letras, é interessante perceber que, enquanto em Ivan Lins (e, um pouco menos, João Bosco, Gilberto Gil e Rita Lee) as r-letras *d* e *k* se destacam (são associadas às fórmulas de quiálteras de semínimas, de uso acentuado em várias canções do compositor), as preferências de Jobim recaem mais pela r-letra *s*, o grupo de quiálteras de colcheias, enquanto em Milton a presença de *o* (grupo de quiálteras de colcheias com pausa na primeira articulação) é mais expressiva.
 
-2M3d
-
-![Os 10 mais recorrentes r-dissílabos por *corpus*.](../figs/atri-sec-32.png){width=90%}
-
-
-2M3e
-
-![Os 10 mais recorrentes r-trissílabos por *corpus*.](../figs/atri-sec-33.png){width=100%}
 
