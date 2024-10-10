@@ -89,7 +89,7 @@ Ao contrário do que é feito com os atributos primários, os secundários são 
 
 2H1a
 
-![Total de relações binárias tonais distintas por *corpus* (percentuais entre parênteses).](../figs/atri-sec-01.png){width=35%}
+![Total de relações binárias tonais distintas por *corpus* (percentuais entre parênteses).](../figs/atri-sec-01.png){width=30%}
 
 #### Discussão
 
@@ -97,7 +97,7 @@ Observa-se na tabela acima uma certa tendência de que os *corpora* MPB apresent
 
 2H1b
 
-![Distribuição das relações binárias tonais notáveis por *corpus*.](../figs/atri-sec-02.png){width=55%}
+![Distribuição das relações binárias tonais notáveis por *corpus*.](../figs/atri-sec-02.png){width=50%}
 
 #### Discussão
 
