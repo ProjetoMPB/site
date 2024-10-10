@@ -89,7 +89,7 @@ Ao contrário do que é feito com os atributos primários, os secundários são 
 
 2H1a
 
-![Total de relações binárias tonais distintas por *corpus* (percentuais entre parênteses).](../figs/atri-sec-01.png){width=40%}
+![Total de relações binárias tonais distintas por *corpus* (percentuais entre parênteses).](../figs/atri-sec-01.png){width=35%}
 
 #### Discussão
 
@@ -97,7 +97,7 @@ Observa-se na tabela acima uma certa tendência de que os *corpora* MPB apresent
 
 2H1b
 
-![Distribuição das relações binárias tonais notáveis por *corpus*.](../figs/atri-sec-02.png){width=50%}
+![Distribuição das relações binárias tonais notáveis por *corpus*.](../figs/atri-sec-02.png){width=55%}
 
 #### Discussão
 
@@ -211,7 +211,7 @@ O número de RBFs distintas varia consideravelmente -- de 109 (Cartola) a 438 (J
 
 2H3e
 
-![Distribuição de relações binárias funcionais em alto nível por *corpus* (n = quantidade de RBFs; p = percentagem em relação ao todo).](../figs/atri-sec-19.png){width=60%}
+![Distribuição de relações binárias funcionais em alto nível por *corpus* (n = quantidade de RBFs; p = percentagem em relação ao todo).](../figs/atri-sec-19.png){width=65%}
 
 #### Discussão
 
@@ -261,7 +261,7 @@ A Tabela acima detalha o atributo anterior, mostrando como as distribuições cl
 
 2M2a
 
-![Distribuição das classes de c-letras por *corpus* (em percentuais).](../figs/atri-sec-27.png){width=40%}
+![Distribuição das classes de c-letras por *corpus* (em percentuais).](../figs/atri-sec-27.png){width=50%}
 
 #### Discussão
 
@@ -269,7 +269,7 @@ A tabela acima nos informa que graus conjuntos são gestos preferenciais na cons
 
 2M2b
 
-![Distribuição das c-letras por *corpus* (em percentuais).](../figs/atri-sec-28.png){width=80%}
+![Distribuição das c-letras por *corpus* (em percentuais).](../figs/atri-sec-28.png){width=70%}
 
 #### Discussão
 
