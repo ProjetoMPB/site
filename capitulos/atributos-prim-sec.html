@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Hipóteses – Projeto MPB</title>
+<title>Atributos primários e secundários de avaliação – descrição – Projeto MPB</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,27 +20,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -49,6 +29,8 @@ div.csl-indent {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../capitulos/cifragem.html" rel="next">
+<link href="../capitulos/metodologia.html" rel="prev">
 <link href="../favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -100,6 +82,35 @@ div.csl-indent {
   });
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -112,7 +123,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Hipóteses</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../capitulos/intro.html">Dados gerais</a></li><li class="breadcrumb-item"><a href="../capitulos/atributos-prim-sec.html">Atributos primários e secundários</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Procurar" onclick="window.quartoOpenSearch();">
@@ -156,13 +167,13 @@ div.csl-indent {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
  <span class="menu-text">Dados gerais</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Alternar seção">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Alternar seção">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../capitulos/intro.html" class="sidebar-item-text sidebar-link">
@@ -230,7 +241,7 @@ div.csl-indent {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../capitulos/atributos-prim-sec.html" class="sidebar-item-text sidebar-link">
+  <a href="../capitulos/atributos-prim-sec.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Atributos primários e secundários</span></a>
   </div>
 </li>
@@ -339,17 +350,27 @@ div.csl-indent {
     <h2 id="toc-title">Nesta página</h2>
    
   <ul>
-  <li><a href="#hipóteses-relacionadas-ao-domínio-da-harmonia" id="toc-hipóteses-relacionadas-ao-domínio-da-harmonia" class="nav-link active" data-scroll-target="#hipóteses-relacionadas-ao-domínio-da-harmonia"><span class="header-section-number">1</span> Hipóteses relacionadas ao domínio da harmonia</a></li>
-  <li><a href="#hipóteses-relacionadas-ao-domínio-da-melodia" id="toc-hipóteses-relacionadas-ao-domínio-da-melodia" class="nav-link" data-scroll-target="#hipóteses-relacionadas-ao-domínio-da-melodia"><span class="header-section-number">2</span> Hipóteses relacionadas ao domínio da melodia</a></li>
+  <li><a href="#introdução" id="toc-introdução" class="nav-link active" data-scroll-target="#introdução"><span class="header-section-number">1</span> Introdução</a></li>
+  <li><a href="#critérios-de-nomenclatura-para-atributos-primários-e-secundários" id="toc-critérios-de-nomenclatura-para-atributos-primários-e-secundários" class="nav-link" data-scroll-target="#critérios-de-nomenclatura-para-atributos-primários-e-secundários"><span class="header-section-number">2</span> Critérios de nomenclatura para atributos primários e secundários</a></li>
+  <li><a href="#atributos-primários" id="toc-atributos-primários" class="nav-link" data-scroll-target="#atributos-primários"><span class="header-section-number">3</span> Atributos primários</a>
+  <ul class="collapse">
+  <li><a href="#atributos-primários-harmônicos" id="toc-atributos-primários-harmônicos" class="nav-link" data-scroll-target="#atributos-primários-harmônicos"><span class="header-section-number">3.1</span> Atributos primários harmônicos</a></li>
+  <li><a href="#atributos-primários-melódicos" id="toc-atributos-primários-melódicos" class="nav-link" data-scroll-target="#atributos-primários-melódicos"><span class="header-section-number">3.2</span> Atributos primários melódicos</a></li>
+  </ul></li>
+  <li><a href="#atributos-secundários" id="toc-atributos-secundários" class="nav-link" data-scroll-target="#atributos-secundários"><span class="header-section-number">4</span> Atributos secundários</a>
+  <ul class="collapse">
+  <li><a href="#atributos-secundários-harmônicos" id="toc-atributos-secundários-harmônicos" class="nav-link" data-scroll-target="#atributos-secundários-harmônicos"><span class="header-section-number">4.1</span> Atributos secundários harmônicos</a></li>
+  <li><a href="#atributos-secundários-melódicos" id="toc-atributos-secundários-melódicos" class="nav-link" data-scroll-target="#atributos-secundários-melódicos"><span class="header-section-number">4.2</span> Atributos secundários melódicos</a></li>
+  </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/capitulos/hipoteses.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/capitulos/hipoteses.qmd" class="toc-action"><i class="bi empty"></i>Ver o código fonte</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/capitulos/atributos-prim-sec.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/capitulos/atributos-prim-sec.qmd" class="toc-action"><i class="bi empty"></i>Ver o código fonte</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../capitulos/intro.html">Dados gerais</a></li><li class="breadcrumb-item"><a href="../capitulos/atributos-prim-sec.html">Atributos primários e secundários</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Hipóteses</h1>
+<h1 class="title">Atributos primários e secundários de avaliação – descrição</h1>
 </div>
 
 
@@ -366,44 +387,157 @@ div.csl-indent {
 </header>
 
 
-<p>Neste breve capítulo, listaremos um conjunto de hipóteses, levantadas a partir de um conhecimento informal sobre a MPB. Essas hipóteses de trabalho embasarão a formalização dos atributos estilísticos, a serem descritos oportunamente.</p>
-<section id="hipóteses-relacionadas-ao-domínio-da-harmonia" class="level2" data-number="1">
-<h2 data-number="1" class="anchored" data-anchor-id="hipóteses-relacionadas-ao-domínio-da-harmonia"><span class="header-section-number">1</span> Hipóteses relacionadas ao domínio da harmonia</h2>
-<p>Considerando diversos aspectos e níveis associados às questões harmônicas, peças musicais da MPB tendem a:</p>
-<ul>
-<li>Apresentar relações tonais internas inusitadas (se comparadas aos padrões mais convencionais, ou seja, modulações para tonalidades relativas, homônimas ou para as regiões dominante e subdominante). Assim, esperamos que as relações tonais MPB fujam, em certa medida, desses padrões.</li>
-<li>Possuir grande diversidade de tipos acordais distintos.</li>
-<li>Apresentar um espectro amplo de categorias funcionais, com um destaque relativamente acentuado àquelas não diatônicas.</li>
-</ul>
-<p>Além destas, investigaremos a hipótese de que tais características harmônicas possam ter sido, por assim dizer, herdadas da prática jazzística. Essa conjectura é suportada não apenas pela constatação informal (através de análises superficiais de partituras e da própria apreciação auditiva das peças emepebísticas), mas também pela literatura sobre aspectos históricos e estéticos da MPB e por depoimentos de alguns compositores.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<section id="introdução" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="introdução"><span class="header-section-number">1</span> Introdução</h2>
+<p>Os atributos (e métricas) que adotamos para a avaliação das análises podem ter natureza quantitativa ou qualitativa, bem como podem ser associados a <em>marcadores estilísticos</em> (ver Capítulo sobre <a href="../capitulos/estilo-musical.html">Estilo Musical</a>).</p>
+<p>Buscando um refinamento, classificamos os atributos em três categorias básicas, <em>primários</em>, <em>secundários</em> e <em>terciários</em> (em desenvolvimento). As principais diferenças entre essas categorias se encontram nos seus respectivos graus de complexidade e detalhamento, bem como no quanto contribuem para evidenciar questões e demarcações estilísticas. Assim, enquanto os atributos secundários são <em>potenciais</em> definidores de estilo, os primários, ainda que importantes, não apresentam, tão marcadamente essa capacidade (apenas se vistos em conjunto). Na verdade, os atributos secundários, por assim dizer, “revisam” atributos primários a eles correspondentes, examinando-os de outras perspectivas, em geral mais amplas e, ao mesmo tempo, detalhadas. Podemos ainda considerar, de um modo um pouco mais livre, que os atributos secundários evidenciam os <em>contextos</em> nos quais os atributos primários se inserem. Por sua vez, atributos terciários podem ser vistos como uma espécie de sintonia fina dos secundários, tendo como principais características a natureza eminente quantitativa e o fato de considerarem todo o conjunto de cada um de seus atributos (enquanto os secundários envolvem mais seus aspectos qualitativos).</p>
 </section>
-<section id="hipóteses-relacionadas-ao-domínio-da-melodia" class="level2" data-number="2">
-<h2 data-number="2" class="anchored" data-anchor-id="hipóteses-relacionadas-ao-domínio-da-melodia"><span class="header-section-number">2</span> Hipóteses relacionadas ao domínio da melodia</h2>
-<p>Dividimos as hipóteses melódicas em dois grupos, de acordo com os subdomínios das alturas e do ritmo. Quanto às alturas, hipotetizamos que linhas melódicas de peças emepebísticas tendem a:</p>
+<section id="critérios-de-nomenclatura-para-atributos-primários-e-secundários" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="critérios-de-nomenclatura-para-atributos-primários-e-secundários"><span class="header-section-number">2</span> Critérios de nomenclatura para atributos primários e secundários<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></h2>
+<p>Os atributos primários e secundários são agrupadas internamente em relação aos <em>domínios</em> (harmonia e melodia),<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> a <em>níveis</em> de organização e a <em>aspectos</em> específicos desses níveis. Para uma rápida identificação, os aspectos são rotulados de acordo com a fórmula “mXnp”, onde <em>m</em> é o número que indica o nível do atributo – primário (m = 1) ou secundário (m = 2) –, <em>X</em> é a letra que representa o domínio considerado (H, para harmonia, M, para melodia), <em>n</em> é o número do nível em questão (n = 1, 2, 3 ou 4) e <em>p</em> é uma letra sequencial em caixa baixa identificadora do aspecto específico (p = a, b, c, d, …). Assim, por exemplo, o rótulo 1H3b corresponde a um atributo estilístico <em>primário</em> (1) vinculado ao domínio da <em>harmonia</em> (H) associado ao <em>terceiro nível</em> (3, que é referente aos tipos acordais), considerando o <em>segundo aspecto</em> (b, que se refere à categoria funcional mais recorrente dentro do <em>corpus</em> em análise).</p>
+</section>
+<section id="atributos-primários" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="atributos-primários"><span class="header-section-number">3</span> Atributos primários</h2>
+<p>Por hipótese, os atributos primários evidenciam especialmente (mas não apenas) elementos estruturais compartilhados por compositores pertencentes a um determinado superconjunto estilístico. Foram definidos 35 atributos primários, 19 associados ao domínio harmônico e 16 ao domínio melódico. São as seguintes suas descrições básicas:</p>
+<section id="atributos-primários-harmônicos" class="level3" data-number="3.1">
+<h3 data-number="3.1" class="anchored" data-anchor-id="atributos-primários-harmônicos"><span class="header-section-number">3.1</span> Atributos primários harmônicos</h3>
+<p><strong>1H1</strong> – nível das tonalidades (contém cinco aspectos):</p>
 <ul>
-<li>Apresentar relações relativamente complexas com as harmonias que as suportam, ou seja, serem intensamente baseadas em notas-estruturais “superiores” (sextas, sétimas e tensões), especialmente em pontos de destaque. Tal hipótese, caso confirmada, também estaria associada a uma origem jazzística.</li>
-<li>Apresentar contornos predominantemente descendentes e movimentos em grau conjunto (em oposição, saltos seriam raros). Hipotetizamos que tais características seriam herdadas de gêneros brasileiros “antecessores”, em especial, da prática do samba e do choro.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></li>
+<li>1H1a – informa o número de tonalidades distintas empregadas dentro de cada <em>corpus</em> (bem como o percentual diante do total possível – 24), incluindo principais e secundárias (ou seja, aquelas obtidas por modulação interna).</li>
+<li>1H1b – identifica a tônica mais recorrente. Por convenção, maiúsculas indicam tonalidades maiores (DÓ, SOL etc.) e minúsculas as menores (ré, si♭ etc.). O atributo indica ainda o percentual de sua ocorrência.<br>
+</li>
+<li>1H1c – informa a distribuição percentual das tonalidades principais em modo maior.<br>
+</li>
+<li>1H1d – informa a distribuição percentual de peças monotônicas (em oposição às pluritônicas).<br>
+</li>
+<li>1H1e – identifica a relação binária tonal (RBT) mais recorrente, incluindo sua frequência percentual.</li>
 </ul>
-<p>No caso do subdomínio do ritmo, de acordo com nossas hipóteses, as peças da MPB tenderiam, em geral, a empregar configurações características da música brasileira (em especial, mas não somente, do samba). Isso se evidenciaria nos níveis das r-letras (com uma preferência, em maior ou menor medida, por aquelas contramétricas) e dos r-dissíbolos e r-trissílabos, nos quais se sobressaiam unidades proto-motívicas.</p>
-<p>Outras hipóteses, novas ou derivadas das acima listadas poderão ser explicitadas ao longo do projeto.</p>
-
+<hr>
+<p><strong>1H2</strong> – nível das funções (contém dois aspectos):</p>
+<ul>
+<li>1H2a – identifica a categoria funcional mais recorrente, incluindo sua distribuição percentual.<br>
+</li>
+<li>1H2b – identifica a relação binária funcional (RBF) mais recorrente, incluindo sua distribuição percentual.</li>
+</ul>
+<hr>
+<p><strong>1H3</strong> – nível dos tipos acordais (contém três aspectos):</p>
+<ul>
+<li>1H3a – informa o <em>genus</em> de tipos acordais mais recorrente, incluindo sua distribuição percentual.<br>
+</li>
+<li>1H3b – identifica o tipo acordal mais recorrente, incluindo sua distribuição percentual.<br>
+</li>
+<li>1H3c – identifica a relação binária abstrata (RBA) mais recorrente, incluindo sua distribuição percentual.</li>
+</ul>
+<hr>
+<p><strong>1H4</strong> – nível dos acordes específicos (contém quatro aspectos):</p>
+<ul>
+<li>1H4a – informa a distribuição percentual de acordes em estado fundamental (em relação aos invertidos).</li>
+<li>1H4b – informa o número de acordes específicos distintos empregados.<br>
+</li>
+<li>1H4c – identifica o acorde específico mais recorrente, incluindo sua distribuição percentual.<br>
+</li>
+<li>1H4d – identifica o movimento intervalar de baixos mais recorrente entre acordes contíguos, incluindo sua distribuição percentual.</li>
+</ul>
+<hr>
+</section>
+<section id="atributos-primários-melódicos" class="level3" data-number="3.2">
+<h3 data-number="3.2" class="anchored" data-anchor-id="atributos-primários-melódicos"><span class="header-section-number">3.2</span> Atributos primários melódicos</h3>
+<p><strong>1M1</strong> – nível das notas-funções (contém quatro aspectos):</p>
+<ul>
+<li>1M1a – identifica o grau escalar mais recorrente, considerando os modos maior e menor, informando seus percentuais em relação ao total de casos.</li>
+<li>1M1b – identifica a categoria de nota-função mais recorrente (neste caso, englobando ambos os modos), informando sua distribuição percentual.<br>
+</li>
+<li>1M1c – identifica a nota-estrutural mais recorrente (englobando ambos os modos), informando sua distribuição percentual.<br>
+</li>
+<li>1M1d – informa o índice de ancoragem (ia) médio do <em>corpus</em>.</li>
+</ul>
+<hr>
+<p><strong>1M2</strong> – nível do contorno melódico (contém cinco aspectos):</p>
+<ul>
+<li>1M2a – identifica a c-letra mais recorrente, informando sua distribuição percentual.<br>
+</li>
+<li>1M2b – identifica a c-palavra mais recorrente, informando sua distribuição percentual.</li>
+<li>1M2c – identifica a cardinalidade de c/r palavra mais recorrente, informando sua distribuição percentual.<br>
+</li>
+<li>1M2d – informa o índice de economia intervalar (iE) médio do <em>corpus</em>. .</li>
+<li>1M2e – informa o índice de economia intervalar compensada (iEc) médio do <em>corpus</em>. .</li>
+</ul>
+<hr>
+<p><strong>1M3</strong> – nível do ritmo (contém quatro aspectos):</p>
+<ul>
+<li>1M3a – identifica o ponto de ataque mais recorrente do perfil métrico, informando sua distribuição percentual.<br>
+</li>
+<li>1M3b – identifica a r-letra mais recorrente, informando sua distribuição percentual.</li>
+<li>1M3c – identifica a r-palavra mais recorrente, informando sua distribuição percentual.<br>
+</li>
+<li>1M3d – informa o índice de contrametricidade (ic) médio do <em>corpus</em>.</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="atributos-secundários" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="atributos-secundários"><span class="header-section-number">4</span> Atributos secundários</h2>
+<p>Os atributos secundários são essencialmente revisões (ou detalhamentos) de alguns atributos primários, de maneira a permitir a evidenciação de características peculiares de um(a) determinado(a) compositor(a) (ou de um pequeno grupo de compositores) em relação a um contexto estilístico mais amplo. Exposto de outro modo, enquanto atributos primários tendem a agrupar <em>corpora</em> (e os estilos composicionais a eles associados) formando superconjuntos, os secundários agem principalmente na segregação desses subconjuntos, tendendo a promover fronteiras estilísticas entre compositores. Além dessa diferença, ao contrário do que acontece com os primários, os atributos secundários geralmente são vinculados a hipóteses, a partir de conhecimentos informais pré-existentes.</p>
+<section id="atributos-secundários-harmônicos" class="level3" data-number="4.1">
+<h3 data-number="4.1" class="anchored" data-anchor-id="atributos-secundários-harmônicos"><span class="header-section-number">4.1</span> Atributos secundários harmônicos</h3>
+<p><strong>2H1</strong> – nível das relações tonais (contém três aspectos):</p>
+<ul>
+<li><p>2H1a – informa a quantidade de relações binárias tonais (RBTs) distintas em cada <em>corpus</em>. A princípio, não é associado objetivamente a uma hipótese, tendo em vista que uma diversidade de RBTs não implica necessariamente maior complexidade. Os próximos atributos atuam nesse sentido, na busca de qualificar os tipos de relações e apresentar hipóteses mais consistentes.</p></li>
+<li><p>2H1b – compara a distribuição das relações binárias tonais da superclasse “notáveis” com o restante do universo. Por hipótese, RBTs “não notáveis” são mais empregadas no contexto estilístico da MPB do que as “notáveis”. Assim, uma predominância de RBTs “notáveis” em um determinado <em>corpus</em> tenderia, potencialmente, a “afastá-lo” do subconjunto-alvo.</p></li>
+<li><p>2H1c – examina em maiores detalhes os conteúdos das superclasses, considerando a distribuição de sete classes de RBTs, as “notáveis” HOM, REL, D/SD e as “não notáveis” MED, QUA, STM, TOM, TRI. Por hipótese, a predominância da classe MED é um indicativo de pertencimento ao subconjunto-alvo, ou seja, um <em>marcador estilístico centrípeto</em> (ver <a href="../capitulos/estilo-musical.html">capítulo sobre estilo musical</a>).</p></li>
+</ul>
+<hr>
+<p><strong>2H2</strong> – nível dos tipos acordais (contém quatro aspectos):</p>
+<ul>
+<li><p>2H2a – informa a quantidade de tipos acordais (TAs) distintos em cada <em>corpus</em>, bem como seu percentual em relação ao total, de acordo com o modelo GTA (ver <a href="modelos-teoricos.qmd">capítulo sobre os modelos teóricos</a>). Por hipótese, a diversidade de TAs seria um possível marcador centrípeto (também em relação ao subconjunto JAZZ).</p></li>
+<li><p>2H2b – compara a distribuição dos conteúdos dos 10 <em>genera</em> de tipos acordais. Por hipótese, uma alta recorrência dos <em>genera</em> triádicos V, v em relação aos demais se torna um marcador estilístico <em>centrífugo</em>. Inversamente, uma distribuição mais significativa dos <em>genera</em> Z, z (independentemente dos demais) indicaria um marcador centrípeto. No entanto, este aspecto também seria característico do subconjunto JAZZ, demandando observações complementares para o refinamento da análise.</p></li>
+<li><p>2H2c – compara as distribuições relativas de protoacordes e variantes acordais, agrupados. Por hipótese, o estilo MPB se caracteriza por uma significativa presença de tipos acordais variantes, em relação aos protoacordes, o que não se observaria tão intensamente no subconjunto JAZZ, constituindo , portanto, um possível fator diferenciador entre os dois contextos.</p></li>
+<li><p>2H2d – refina o atributo 2H2c, diferenciando protoacordes e variantes de acordo com os respectivos <em>genera</em>.</p></li>
+</ul>
+<hr>
+<p><strong>2H3</strong> – nível das funções (contém cinco aspectos):</p>
+<ul>
+<li><p>2H3a – informa a quantidade de categorias funcionais distintas em cada <em>corpus</em> e o respectivo percentual considerando o total de categorias adotadas (73). Por hipótese, a diversidade de categorias seria um marcador estilístico centrípeto (também em relação ao subconjunto JAZZ).</p></li>
+<li><p>2H3b – compara a distribuição de 12 classes (e/ou subclasses) mais significativas de categorias funcionais, a saber, DIA, DS, SubV, DIM, D-pte, EC1 e EC2.</p></li>
+<li><p>2H3c – refina o atributo 2H3b, examinando os conteúdos de cada classe, em separado.</p></li>
+<li><p>2H3d – compara as classes de relações binárias funcionais, ou RBFs de alto-nível (DIA|DIA, CR|DIA, DIA|CR, CR|CR). Por hipótese, integrantes do subconjunto-alvo e do subconjunto JAZZ apresentariam distribuições significativas das classes que envolvam a categoria CR. A separação dos dois subconjuntos neste atributo requererá, por certo, exames e discussões suplementares.</p></li>
+<li><p>2H3e – dispõe a distribuição das relações binárias funcionais de alto nível (considerando as classes de RBFs <a href="modelos-teoricos.qmd">ver capítulo dos Modelos Teóricos</a>.</p></li>
+</ul>
+<hr>
+</section>
+<section id="atributos-secundários-melódicos" class="level3" data-number="4.2">
+<h3 data-number="4.2" class="anchored" data-anchor-id="atributos-secundários-melódicos"><span class="header-section-number">4.2</span> Atributos secundários melódicos</h3>
+<p><strong>2M1</strong> – nível das notas-funções (contém quatro aspectos):</p>
+<ul>
+<li><p>2M1a – informa a distribuição das notas diatônicas em cada <em>corpus</em>, considerando os modos maior e menor. Não há hipóteses previamente associadas a este atributo.</p></li>
+<li><p>2M1b – informa a distribuição das inflexões melódicas em relação às notas-estruturais. Não há hipóteses previamente associadas a este atributo.</p></li>
+<li><p>2M1c – compara as distribuições das superclasses de notas-estruturais (básicas <span class="math inline">\(\times\)</span> tensões). Por hipótese, a presença significativa de tensões é um forte marcador centrípeto para os subconjuntos MPB e JAZZ.</p></li>
+<li><p>2M1d – detalha o atributo 2M1c, considerando as classes de notas-estruturais (tríade, tétrade, tensões simples e tensões alteradas). Por hipótese, melodias do subconjunto-alvo apoiam-se, em média, mais em tensões do que aquelas provenientes do subconjunto JAZZ e, significativamente, mais ainda do que as do superconjunto.</p></li>
+</ul>
+<hr>
+<p><strong>2M2</strong> – nível das alturas (contém dois aspectos):</p>
+<ul>
+<li><p>2M2a – compara as distribuições das classes básicas de c-letras (u, P/p, A/a, S/s) em cada <em>corpus</em>. Não há hipóteses previamente associadas a este atributo.</p></li>
+<li><p>2M2b – detalha o atributo 2M2a, comparando as distribuições das c-letras em cada <em>corpus</em>. Não há hipóteses previamente associadas a este atributo.</p></li>
+</ul>
+<hr>
+<p><strong>2M3</strong> – nível do ritmo (contém três aspectos):</p>
+<ul>
+<li><p>2M3a – compara as distribuições dos perfis métricos dos <em>corpora</em>. Por hipótese, membros do subconjunto-alvo (especialmente aqueles que apresentam, em maior ou menor medida, influências do gênero SAMBA) se diferenciarão dos membros do subconjunto JAZZ por ocorrências de ataques mais significativa nos pontos 4 e 10.</p></li>
+<li><p>2M3b – informa as distribuições de r-letras <em>contramétricas</em> (c, e, g, m, n, p, u) em cada <em>corpus</em>, incluindo sua presença percentual em relação ao todo das r-letras. Por hipótese, membros do subconjunto-alvo (especialmente aqueles que apresentam, em maior ou menor medida, influências do gênero SAMBA) se diferenciarão dos membros do subconjunto JAZZ pela massiva ococrrência de r-letras contramétricas.</p></li>
+<li><p>2M3c – informa as distribuições de r-letras “tercinais” (d, f, i, k, o, s) em cada <em>corpus</em>, incluindo sua presença percentual em relação ao todo das r-letras. Não há hipóteses previamente associadas a este atributo.</p></li>
+</ul>
 
 
 </section>
+</section>
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referências</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-tinhorao-samba" class="csl-entry" role="listitem">
-Tinhorão, José Ramos. 2015/1969. <em>O samba agora vai...: A farsa da música popular no exterior</em>. São Paulo: Editora 34.
-</div>
-<div id="ref-tinhorao-historia-musica-popular" class="csl-entry" role="listitem">
-———. 2013/1990. <em>Pequena história da música popular: segundo seus gêneros</em>. São Paulo: Editora 34.
-</div>
-</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Notas de rodapé</h2>
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Notas de rodapé</h2>
 
 <ol>
-<li id="fn1"><p>Ver, por exemplo, <span class="citation" data-cites="tinhorao-samba">Tinhorão (<a href="#ref-tinhorao-samba" role="doc-biblioref">2015/1969</a>)</span>, <span class="citation" data-cites="tinhorao-historia-musica-popular">Tinhorão (<a href="#ref-tinhorao-historia-musica-popular" role="doc-biblioref">2013/1990</a>)</span>, entre outros.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>Cumpre acrescentar que, ao contrário daquelas que sugerem uma herança jazzística, esta hipótese tem bases bem frágeis, calcadas apenas na impressão informal.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>Os atributos terciários são identificados com uma simbologia distinta.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>O domínio melódico, por sua vez, subdivide-se em subdomínios: notas-funções, alturas e ritmo.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -970,6 +1104,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../capitulos/metodologia.html" class="pagination-link" aria-label="Metodologia">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Metodologia</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../capitulos/cifragem.html" class="pagination-link" aria-label="Cifragem">
+        <span class="nav-page-text">Cifragem</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -980,7 +1126,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/capitulos/hipoteses.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/capitulos/hipoteses.qmd" class="toc-action"><i class="bi empty"></i>Ver o código fonte</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/capitulos/atributos-prim-sec.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/capitulos/atributos-prim-sec.qmd" class="toc-action"><i class="bi empty"></i>Ver o código fonte</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Página construída em <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
