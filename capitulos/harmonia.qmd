@@ -1,0 +1,67 @@
+---
+title: Harmonia
+---
+
+A teoria associada ao domínio da harmonia dentro do projeto considera dois ramos principais -- "semântico" e "sintático" --, nomeados numa relação metafórica com conceitos oriundos da Linguística. O ramo "semântico" dá conta especialmente das estruturas dos *tipos acordais* (ou TAs)^[Entende-se este conceito como uma versão abstrata da ideia de um acorde, na qual sua fundamental específica passa a ser irrelevante. Num tipo acordal (doravante, TA) é filtrada a *qualidade* do acorde, manifestada principalmente pela estrutura intervalar entre seus componentes. Assim, por exemplo, a qualidade "dominante-com-nona-maior" de um acorde específico A7.9 é, em suma, seu tipo acordal associado, consistindo na sequência intervalar <2233> (em número de semitons), resultante da disposição compactada das classes de alturas <A-B-C♯-E-G>.] considerados, mas também de acordes específicos, enquanto o ramo "sintático" se refere às relações entre acordes e tipos acordais, considerando vários níveis de organização. As próximas subseções descrevem em linhas gerais dois modelos criados e desenvolvidos especialmente para a pesquisa: o dos *Genera de Tipos Acordais* ("semântico") e o das *Relações Binárias* ("sintático").
+
+## Genera de Tipos Acordais
+O modelo teórico denominado *Genera de Tipos Acordais* (doravante identificado pelo acrônimo GTA) toma como base a existência de 10 tipos acordais arquetípicos, denominados *protoacordes*. De acordo com os pressupostos teóricos adotados, cada um destes tipos encabeça um conjunto (ou *genus*) de tipos acordais de mesma qualidade genérica, cujos membros são o próprio protoacorde e todas suas possíveis variantes. A derivação dos TAs, de acordo com o modelo, é regida por um conjunto de regras de produção e pela aplicação recursiva de três tipos de transformação: **adição** (inclusão de uma nota-função a um tipo acordal, como por exemplo, uma "nona" numa tríade maior), **substituição** (p. ex., a "terça" pela "quarta" no tipo acordal "dominante sus4") e **alteração** (cromatização de uma nota-função referencial, resultando, p. ex., em uma "décima terceira" bemolizada). Os 10 genera são nomeados com letras finais do alfabeto em ordem inversa, maiúsculas referentes a protoacordes em modo maior, minúsculas para os protoacordes com terça menor.^[Para uma descrição mais detalhada do modelo GTA, ver @almada-harmonia-jobim.]
+
+Protoacordes e variantes que integram um mesmo *genus* são identificados no sistema através de dois tipos de notação: (a) alfanumérica, baseada em uma simbologia aproximadamente consensual entre compositores e instrumentistas,^[Os modelos adotam um sistema de cifragem próprio, cuja principal distinção se refere ao ordenamento dos símbolos numéricos eventualmente empregados no rótulo e o uso de pontos de separação dos símbolos (além de parênteses, nos casos em que há alteração de notas-funções). Por exemplo: C6.M7.9, E4.7(♭9)13, F(♯5)7 etc. Para maiores detalhes sobre o sistema de notação alfanumérica, ver @almada-harmonia-jobim.] e (b) genealógica, construída como uma fórmula que congrega o símbolo do *genus* e um código numérico que identifica a linhagem do TA em questão. Por convenção, todos os protoacordes são numerados com um "zero" à direita da letra-símbolo correspondente, como mostra a @tbl-4-1.
+
+| Genera | Notação genealógica | Notação alfanumérica |
+|:------:|:-------------------:|:--------------------:|
+| Z      | Z0                  | CM7                  |
+| Y      | Y0                  | C7                   |
+| X      | X0                  | C(♭5)7               |
+| W      | W0                  | C(♯5)7               |
+| V      | V0                  | C                    |
+| z      | z0                  | Cm7                  |
+| y      | y0                  | C^ø^                 |
+| x      | x0                  | C°7                  |
+| w      | w0                  | Cm(M7)               |
+| v      | v0                  | Cm                   |
+: Os 10 protoacordes do modelo GTA, considerando as notações genealógica e alfanumérica (com a fundamental "Dó" como referencial). {#tbl-4-1} {.hover}
+
+A aplicação das transformações sobre os protoacordes, condicionada pelas regras pré-estabelecidas (que incluem limites e restrições para evitar construções redundantes e "superpopulação" de TAs), permite a produção total de 161 variantes, distribuídas pelos *genera* em diferentes gerações (a geração "zero" corresponde ao nível dos protoacordes) como apresentado na @tbl-4-2.
+
+| *Genera*      | 0  | 1  | 2  | 3  | 4  | 5  | 6 | Total |
+|:-------------:|:--:|:--:|:--:|:--:|:--:|:--:|:-:|:-----:|
+| Z             | 1  | 5  | 7  | 3  | -  | -  | - | 16    |
+| Y             | 1  | 4  | 9  | 14 | 16 | 13 | 2 | 59    |
+| X             | 1  | 3  | 5  | 6  | 4  | -  | - | 19    |
+| W             | 1  | 2  | 3  | 3  | 1  | -  | - | 10    |
+| V             | 1  | 4  | 5  | 2  | -  | -  | - | 12    |
+| z             | 1  | 3  | 4  | 3  | -  | -  | - | 11    |
+| y             | 1  | 3  | 3  | 1  | -  | -  | - | 8     |
+| x             | 1  | 4  | 6  | 3  | 1  | -  | - | 15    |
+| w             | 1  | 2  | 1  | -  | -  | -  | - | 4     |
+| v             | 1  | 3  | 3  | 1  | -  | -  | - | 8     |
+| Total         | 10 | 33 | 46 | 36 | 22 | 13 | 2 | 161   |
+: Distribuição dos TAs pelos 10 *genera*. {#tbl-4-2} {.hover}
+
+Como se observa nessa distribuição, enquanto alguns *genera* são bastante rarefeitos (como v, com apenas oito membros) outros apresentam alta densidade, notavelmente o *genus* "dominante" Y, com 59 elementos, o que se explica especialmente pela disponibilidade e possibilidades combinatórias decorrentes de um rico cardápio de tensões (e de suas possíveis alterações).
+
+A notação genealógica de variantes descreve sua posição derivativa dentro do *genus* respectivo através de uma sequência numérica. Por exemplo, o rótulo Y1321 representa o TA variante do *genus* Y de quarta geração (o que se depreende pelo número de algarismos que se seguem à letra identificadora). Sua posição genealógica (lida da direita para a esquerda) é: primeira variante (4ª geração) da segunda variante (3ª geração) da terceira variante (2ª geração) da primeira variante (1ª geração) de Y0.
+
+## Relações Binárias
+O segundo modelo corresponde à Teoria das Relações Binárias (TRB), sendo destinado à quantificação e qualificação dos encadeamentos entre pares de "atores harmônicos" contíguos. Entenda-se este termo como uma designação genérica que pode representar diversos níveis de informação harmônica. Assim, o modelo comporta não apenas tipos acordais (como foi concebido originalmente), mas também acordes específicos, categorias funcionais e mesmo relações tonais. Os quatro níveis de relações binárias considerados são os seguintes:
+
+1. **Relações binárias acordais específicas** (RBs) -- é o nível mais baixo, correspondendo à descrição da relação entre dois TAs específicos contíguos. Devido ao gigantesco número de possibilidades,^[Considerando a estrutura teórica que fundamenta a pesquisa, o total possível de RBs é 311.052 (161 $\times$ 12 $\times$ 12).] esse tipo não é contabilizado nas análises, embora seja importante seu registro, pois cria a base sobre a qual os demais níveis se apresentam. As relações binárias (por simplicidade, RBs) podem ser denotadas tanto em notação convencional por cifras alfanuméricas -- por exemplo, C7.9.13 | Am6.9 -- quanto em notação genealógica, de acordo com o modelo GTA. Neste caso, é adotada a fórmula $$Q_1|i Q_2,$$ onde $Q_1$ e $Q_2$ são os símbolos genealógicos referentes aos TAs que formam a relação e $i$ é o intervalo entre suas fundamentais, em módulo 12 ($0 \leq i \leq 11$). Assim, o exemplo acima apresentado da RB em cifras (C7.9.13 | Am6.9), é notado genealogicamente como Y22|9z11, de acordo com a classificação lexical dos TAs.
+
+2. **Relações binárias acordais abstratas** (RBAs) -- este nível filtra do anterior apenas as informações essenciais da relação binária acordal, ou seja, o intervalo entre as fundamentais dos dois tipos acordais contíguos e seus respectivos *genera*, daí a designação "abstrata". Posto de outra maneira, uma RBA retira de uma relação binária acordal específica as identificações das variantes dos TAs envolvidos. Considerando o exemplo anterior, sua notação como RBA passa a ser Y|9z. Essa filtragem permite que o número de alternativas seja drasticamente reduzido, tornando as RBAs adequadas para mapeamentos e manipulações estatísticas. 
+
+3. **Relações binárias funcionais** (RBFs) -- neste caso, os aspectos harmônicos considerados da relação binária são as categorias funcionais associadas aos tipos acordais. Em outros termos, o tipo identifica o *contexto* em que se dá a relação, considerando um nível "sintático" mais alto do que o das RBs e RBAs. Há 73 categorias funcionais (codificadas numericamente) mapeadas no sistema, agrupadas em 11 classes.^[A listagem das categorias e classes funcionais será apresentada em um capítulo específico.] Uma RBF é notada de acordo com a fórmula $$F_1|F_2,$$ onde $F_1$ e $F_2$ são os símbolos funcionais referentes aos TAs que formam a relação. Por exemplo: V|I, SubV/IV|IV etc.
+  
+4. **Relações binárias tonais** (RBTs) -- informam as relações de mais alto nível, ou seja, aquelas que envolvem tonalidades contíguas em uma única peça musical em análise. Considerando que há 12 tônicas (as 12 classes de altura) e dois modos (maior e menor), o número de combinações possíveis é 48. Adotamos para designação das RBTs uma fórmula adaptada daquela proposta por @murphy-2006 : $$T_1iT_2,$$ onde $T_1$ e $T_2$ são os símbolos que representam os modos das tonalidades formam a relação ("M" é usado para modo maior e "m" para modo menor) e $i$ é o intervalo entre suas tônicas, em módulo 12 ($0 \leq i \leq 11$). Por exemplo: M7m, m0M etc. As RBTs são agrupadas em classes:
+    * RBTs *notáveis* -- congregam as modulações mais comuns. Suas subclasses são:
+        * REL (relativas) -- entre tonalidades relativas: M9m e m3M;
+        * D/SD (dominantes/subdominantes) -- entre tonalidades de mesmo modo distanciadas por quartas justas: M5M, M7M, m5m e m7m;
+        * HOM (homônimas) -- entre tonalidades de modos distintos e mesma tônica: m0M e M0m.
+
+    * Demais RBTs -- cujas subclasses são:
+        * Mediânticas (MED) -- entre tonalidades distanciadas por terça:^[Excluindo-se aqui, evidentemente, as relativas (REL) M9m e m3M, já contabilizadas entre as relações notáveis.] M3M, M4M, M8M, M9M, M3m, M4m, M8m, m4M, m8M, m9M, m3m, m4m, m8m e m9m;
+        * Quartais (QUA) -- entre tonalidades distanciadas por quarta justa:^[Excluindo-se aqui, evidentemente, as modulações dominante/subdominante (D/SD) M5M, M7M, m5m e m7m, já contabilizadas entre as relações notáveis.] M5m, M7m, m5M e m7M;
+        * Contíguas por semitom (STM) -- entre tonalidades distanciadas por um semitom: M1M, M11M, M1m, M11m, m1M, m11M, m1m e m11m;
+        * Contíguas por tom (TOM) -- entre tonalidades distanciadas por um tom: M2M, M10M, M2m, M10m, m2M, m10M, m2m e m10m;
+        * Tritônicas (TRI) -- entre tonalidades distanciadas por trítono: M6M, M6m, m6M e m6m.

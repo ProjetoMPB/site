@@ -1,0 +1,21 @@
+---
+title: "Mudanças e novidades!"
+description: "Reformulação da estrutura da página, atualização dos *corpora* de análise e visita ao Dori Caymmi"
+author: "Hugo Carvalho"
+date: "10/18/2024"
+image: "../fotos/visita-dori.jpeg"
+categories:
+  - noticias do projeto
+  - novos capitulos
+  - visitas
+---
+
+Estamos reformulando a página do Projeto para oferecer uma melhor experiência de leitura! No momento reorganizamos o menu de navegação pelas páginas, e em breve teremos um *dashboard* interativo para uma melhor visualização dos resultados. Os gráficos referentes à primeira fase da pesquisa estão, temporariamente, disponíveis [aqui](../capitulos/graficos.qmd).
+
+Anunciamos também a inauguração da segunda fase do projeto, com a análise dos *corpora* de Carlos Lyra, Dori Caymmi e Cartola. Os resultados estão disponíveis nas páginas dos [atributos primários](../capitulos/atributos-primarios.qmd) e [atributos secundários](../capitulos/atributos-secundarios.qmd).
+
+Finalmente, no dia 23 de Julho tivemos a maravilhosa oportunidade de conhecer Dori Caymmi! Tivemos uma agradável tarde conversando sobre sua obra e sobre o projeto. Vejam abaixo fotos com o mestre e e os violões de seu pai, Dorival Caymmi, e de seu avô, Durval Caymmi! Relíquias!
+
+![](../fotos/visita-dori.jpeg)
+
+![](../fotos/visita-dori-violoes.jpeg)

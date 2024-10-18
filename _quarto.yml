@@ -35,8 +35,7 @@ website:
         text: Página inicial
       - href: blog.qmd
         text: Blog do projeto
-      - text: "---"
-      - section: Informações básicas
+      - section: Dados gerais
         contents:
           - href: capitulos/intro.qmd
             text: Introdução
@@ -46,41 +45,55 @@ website:
             text: Uma breve discussão sobre estilo musical
           - href: capitulos/corpora-mpb.qmd
             text: Os *corpora* MPB
-      - section: Fundamentos teóricos e metodológicos
-        contents:
-          - href: capitulos/modelos-teoricos.qmd
-            text: Modelos teóricos
+          - section: Modelos teóricos
+            contents:
+            - href: capitulos/harmonia.qmd
+              text: Harmonia
+            - href: capitulos/melodia.qmd
+              text: Melodia
+            - href: capitulos/notas-funcoes.qmd
+              text: Notas-funções
+            - href: capitulos/probabilidade.qmd
+              text: Probabilidade e entropia
           - href: capitulos/metodologia.qmd
             text: Metodologia
-          - href: capitulos/probabilidade.qmd
-            text: Probabilidade e entropia
-      - section: Métricas e resultados
+          - href: capitulos/atributos-prim-sec.qmd
+            text: Atributos primários e secundários
+          - section: Material suplementar
+            contents:
+              - href: capitulos/cifragem.qmd
+                text: Cifragem
+              - href: capitulos/funcoes.qmd
+                text: Funções
+              - href: capitulos/tipos-acordais.qmd
+                text: Tipos acordais
+              - href: capitulos/glossario.qmd
+                text: Glossário
+      - section: Resultados
         contents:
           - href: capitulos/atributos-primarios.qmd
             text: Atributos primários
           - href: capitulos/atributos-secundarios.qmd
             text: Atributos secundários
-          - href: capitulos/n-grams.qmd
-            text: n-gramas
-          - href: capitulos/ng-especificos.qmd
-            text: n-gramas específicos
-          - href: capitulos/graficos.qmd
-            test: Gráficos
-      - section: Material suplementar
-        contents:
-          - href: capitulos/cifragem.qmd
-            text: Cifragem
-          - href: capitulos/funcoes.qmd
-            text: Funções
-          - href: capitulos/tipos-acordais.qmd
-            text: Tipos acordais
-          - href: capitulos/listagem-corpora.qmd
-            text: Listagem dos *corpora*
-          - href: capitulos/producao-bibliografica.qmd
-            text: Produção bibliográfica
-          - href: capitulos/glossario.qmd
-            text: Glossário
-      
+          # - href: capitulos/atributos-terciarios.qmd
+            # text: Atributos terciários [CRIAR]
+          # - href: capitulos/graficos-interativos.qmd
+            # text: Gráficos interativos [CRIAR]
+          - section: Fase 1
+            contents:
+            - href: capitulos/n-grams.qmd
+              text: n-gramas
+            - href: capitulos/ng-especificos.qmd
+              text: n-gramas específicos
+            # - href: capitulos/graficos.qmd
+              # test: Gráficos
+      - href: capitulos/listagem-corpora.qmd
+        text: Listagem dos *corpora*
+      - href: capitulos/producao-bibliografica.qmd
+        text: Produção bibliográfica
+      # - href: bibliografia.qmd
+        # text: Bibliografia
+
 crossref:
   fig-title: Figura
   tbl-title: Tabela

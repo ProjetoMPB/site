@@ -4,9 +4,9 @@ subtitle: "Um estudo sistemático sobre a estrutura da Música Popular Brasileir
 ---
 
 ::: {.callout-warning}
-## ATUALIZAÇÃO EM 16/06/2024
+## ATUALIZAÇÃO EM 18/10/2024
 
-* Lançamento dos capítulos [n-gramas](capitulos/n-grams.qmd) e [n-gramas específicos](capitulos/ng-especificos.qmd).
+* Reformulação da estrutura da página, atualização dos *corpora* de análise e visita ao Dori Caymmi.
 
 Para mais detalhes, veja a postagens mais recentes no [blog do projeto](blog.qmd).
 :::

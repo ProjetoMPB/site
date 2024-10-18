@@ -1,0 +1,18 @@
+---
+title: Melodia
+---
+
+## Filtragem Melódica
+As bases para a construção deste modelo foram definidas a partir de três princípios: *segmentação*, *abstração* e *codificação*. O primeiro deles se fundamenta na ideia de que o entendimento de uma informação sequencial requer que esta seja segmentada em unidades de menor extensão cada qual exercendo uma relativa autonomia (como pequenas "frases" musicais ou, de uma maneira mais neutra, como pequenos grupos).^[Para um suporte a essa argumentação, ver @snyder-music-memory.] No modelo, tais grupos são denominados *palavras*.^[O que denota mais uma correlação metafórica com conceitos linguísticos.] Já a abstração é um estágio imprescindível para qualquer processo analítico, pois permite que estruturas distintas possam ser agrupadas em classes de equivalência em relação a algum parâmetro de comparação. No modelo de Filtragem Melódica (abreviado como FM), as estruturas de alturas e rítmica são isoladas das melodias em análise, transformando-se em descrições abstratas desses domínios. Desse modo, as alturas são transcritas como sequências de sete *gestos básicos de contorno* (repetições de nota, graus conjuntos, arpejos e saltos, ascendentes e descendentes) -- formando um alfabeto de *c-letras* (@fig-modelos01).
+
+![Alfabeto de c-letras.](../figs/modelos-teoricos-01.png){width=60% #fig-modelos01}
+
+Para o ritmo, a estratégia consiste em subdividir um tempo (semínima) em 12 unidades e associar as possíveis  configurações de IOIs^[Na sigla em inglês, *Inter-Onset Intervals* (intervalos entre ataques). Em sequências de IOIs, as durações não são levadas em conta, apenas as distâncias entre pontos de ataque.]  que ocorrem dentro dessa janela temporal a unidades-padrão, denominadas no modelo r-letras, o que permite a formação de um alfabeto com 26 elementos (@fig-modelos02).
+
+![Alfabeto de r-letras.](../figs/modelos-teoricos-02.png){#fig-modelos02}
+
+Finalmente, a codificação associa as c- e r-letras a símbolos alfabéticos, que passam a ser usados na tradução computacional das estruturas de alturas e rítmicas, transformando melodias em sequências segmentadas de *c-palavras* e *r-palavras* (@fig-modelos03).
+
+![Exemplo de uma c/r-palavra.](../figs/modelos-teoricos-03.png){#fig-modelos03}
+
+Recentemente, um novo conceito foi incorporado ao modelo, o de *r-sílabas*.^[@almada-zisels-2023] Tratam-se de unidades rítmicas de nível intermediário em relação às r-letras e r-palavras, que trazem pontencialmente ao entendimento do ritmo uma carga "semântica", já que podem ser associadas a pequenos motivos rítmicos. Embora r-sílabas possam em tese apresentar diferentes cardinalidades, consideramos como as categorias ótimas para análise os *r-dissílabos* (r-sílaba com duas r-letras, por exemplo, nc) e os *r-trissílabos*, (jjl, por exemplo). Cada um dos níveis (letra, sílaba e palavra) será base para alguns atributos estilísticos, como será apresentado oportunamente.
