@@ -5,10 +5,18 @@ title: Produção bibliográfica
 ## 2024
 
 ### Artigos
+
+#### Apontamentos para uma teoria da forma em música popular
+Carlos de Lemos Almada
+
+Orfeu, v. 9 n. 2 (DOI: [https://doi.org/10.5965/2525530409022024e0105](https://doi.org/10.5965/2525530409022024e0105)
+
+**Resumo**: Este  artigo  integra  uma  pesquisa  abrangente  sobre  a  estrutura  da  Música  Popular Brasileira (MPB), focando em as-pectos da forma. O estudo, que pretende essencialmente estabelecer uma base sóli-da para uma teoria sobre forma em música popular, é motivado pela escassa literatura específica sobre o assunto e toma como principais referenciais para suas formula-ções conceitos e pressupostos derivados da assim chamada Neue Formenlehre. Ini-ciando com um grupo de definições básicas (forma nominal, camadas e níveis estruturas, relações S/C e fatores de segmentação), o estudo propõe tipologias referentes às ideias de macro e microformas, concentrando-se especialmente neste último aspecto, ao qual se associa a dualidade conceitual períodoe sentença (SCHOENBERG, 1967; CAPLIN, 1998). Como ponto central de discussão, propomos uma perspectiva mais flexível para ambos os conceitos, a partir da ob-servação da prática musical no contexto da MPB. A construção de um modelo analítico voltado para as formulações propostas e sua aplicação em quatro estudos de caso são contemplados nas seções finais do artigo.
+
 #### Função, expectativa e contexto na harmonia em música popular
 Carlos de Lemos Almada
 
-Musica Theorica, v. 9 n. 1 (DOI: [ https://doi.org/10.52930/mt.v9i1](https://doi.org/10.52930/mt.v9i1))
+Musica Theorica, v. 9 n. 1 (DOI: [https://doi.org/10.52930/mt.v9i1](https://doi.org/10.52930/mt.v9i1))
 
 **Resumo**: Este artigo discute o papel que as noções de expectativa e contexto exercem na determinação da funcionalidade, considerando condições encontradas especialmente na harmonia estendida da música popular. A partir da ideia de que a análise harmônica nesses contextos pode ser estratificada em diferentes níveis de observação e com o suporte de estudos sobre estrutura harmônica, probabilidade e cognição musical (considerando os conceitos de interesse do trabalho), são propostos tipologias específicas e um modelo analítico, aplicado na seção conclusiva.
 
