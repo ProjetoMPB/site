@@ -128,7 +128,7 @@ Apesar de sua relativa raridade, os empréstimos de segunda ordem contribuem ain
 
 #### Discussão
 
-O número de RBFs distintas varia consideravelmente -- de 109 (Cartola) a 438 (Jobim). Como em outros atributos, percebemos no subconjunto MPB uma subdivisão em dois blocos: um deles (incluindo aqui o *corpus* Jazz), composto pela maioria dos repertórios, mantém, em média, 310 RBFs distintas. O segundo bloco é formado por *corpora* com números de relações consideravelmente menores: Gilberto Gil, Carlos Lyra, Dori Caymmi, Rita Lee e Cartola (alguns deles com valores inferiores aos dos repertórios de controle). Mais uma vez, distinções internas entre os compositores MPB na esfera harmônica se evidenciam, o que demandará avaliações complementares futuramente.
+O número de RBFs distintas varia consideravelmente -- de 109 (Cartola) a 438 (Jobim). Como em outros atributos, percebemos no subconjunto MPB uma subdivisão em dois blocos: um deles (incluindo aqui o *corpus* Jazz), composto pela maioria dos repertórios, mantém, em média, 310 RBFs distintas. O segundo bloco é formado por *corpora* com números de relações consideravelmente menores: Gilberto Gil, Carlos Lyra, Dori Caymmi, Rita Lee, Gonzaguinha e Cartola (alguns deles com valores inferiores aos dos repertórios de controle). Mais uma vez, distinções internas entre os compositores MPB na esfera harmônica se evidenciam, o que demandará avaliações complementares futuramente.
 
 2H3e
 
