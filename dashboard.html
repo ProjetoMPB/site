@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Notas-funções – Projeto MPB</title>
+<title>Dashboard – Projeto MPB</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,49 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../capitulos/probabilidade.html" rel="next">
-<link href="../capitulos/melodia.html" rel="prev">
-<link href="../favicon.ico" rel="icon">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-d166b450ba5a8e9f7a0ab969bf6592c1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-2f9c039ea7a9e575d83849e7716bb683.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-504eaef62a3362ffc665ddab0dff3f96.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./favicon.ico" rel="icon">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d166b450ba5a8e9f7a0ab969bf6592c1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-2f9c039ea7a9e575d83849e7716bb683.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-504eaef62a3362ffc665ddab0dff3f96.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -102,35 +80,6 @@ div.csl-indent {
   });
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -143,7 +92,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../capitulos/intro.html">Dados gerais</a></li><li class="breadcrumb-item"><a href="../capitulos/harmonia.html">Modelos teóricos</a></li><li class="breadcrumb-item"><a href="../capitulos/notas-funcoes.html">Notas-funções</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Dashboard</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Procurar" onclick="window.quartoOpenSearch();">
@@ -157,8 +106,8 @@ window.Quarto = {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
-      <a href="../index.html" class="sidebar-logo-link">
-      <img src="../logos/logo-projeto.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <a href="./index.html" class="sidebar-logo-link">
+      <img src="./logos/logo-projeto.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main tools-wide">
     <a href="https://projetompb.github.io/site/" title="Projeto MPB" class="quarto-navigation-tool px-1" aria-label="Projeto MPB"><i class="bi bi-globe"></i></a>
@@ -175,79 +124,79 @@ window.Quarto = {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Página inicial</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../blog.html" class="sidebar-item-text sidebar-link">
+  <a href="./blog.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Blog do projeto</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
  <span class="menu-text">Dados gerais</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Alternar seção">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Alternar seção">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../capitulos/intro.html" class="sidebar-item-text sidebar-link">
+  <a href="./capitulos/intro.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Introdução</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../capitulos/nossa-mpb.html" class="sidebar-item-text sidebar-link">
+  <a href="./capitulos/nossa-mpb.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">A “nossa” MPB</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../capitulos/estilo-musical.html" class="sidebar-item-text sidebar-link">
+  <a href="./capitulos/estilo-musical.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Uma breve discussão sobre estilo musical</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../capitulos/corpora-mpb.html" class="sidebar-item-text sidebar-link">
+  <a href="./capitulos/corpora-mpb.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Os <em>corpora</em> MPB</span></a>
   </div>
 </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
  <span class="menu-text">Modelos teóricos</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Alternar seção">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Alternar seção">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../capitulos/harmonia.html" class="sidebar-item-text sidebar-link">
+  <a href="./capitulos/harmonia.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Harmonia</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../capitulos/melodia.html" class="sidebar-item-text sidebar-link">
+  <a href="./capitulos/melodia.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Melodia</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../capitulos/notas-funcoes.html" class="sidebar-item-text sidebar-link active">
+  <a href="./capitulos/notas-funcoes.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Notas-funções</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../capitulos/probabilidade.html" class="sidebar-item-text sidebar-link">
+  <a href="./capitulos/probabilidade.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Probabilidade e entropia</span></a>
   </div>
 </li>
@@ -255,13 +204,13 @@ window.Quarto = {
   </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../capitulos/metodologia.html" class="sidebar-item-text sidebar-link">
+  <a href="./capitulos/metodologia.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Metodologia</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../capitulos/atributos-prim-sec.html" class="sidebar-item-text sidebar-link">
+  <a href="./capitulos/atributos-prim-sec.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Atributos primários e secundários</span></a>
   </div>
 </li>
@@ -276,25 +225,25 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../capitulos/cifragem.html" class="sidebar-item-text sidebar-link">
+  <a href="./capitulos/cifragem.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Cifragem</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../capitulos/funcoes.html" class="sidebar-item-text sidebar-link">
+  <a href="./capitulos/funcoes.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Funções</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../capitulos/tipos-acordais.html" class="sidebar-item-text sidebar-link">
+  <a href="./capitulos/tipos-acordais.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Tipos acordais</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../capitulos/glossario.html" class="sidebar-item-text sidebar-link">
+  <a href="./capitulos/glossario.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Glossário</span></a>
   </div>
 </li>
@@ -313,13 +262,13 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../capitulos/atributos-primarios.html" class="sidebar-item-text sidebar-link">
+  <a href="./capitulos/atributos-primarios.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Atributos primários</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../capitulos/atributos-secundarios.html" class="sidebar-item-text sidebar-link">
+  <a href="./capitulos/atributos-secundarios.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Atributos secundários</span></a>
   </div>
 </li>
@@ -334,13 +283,13 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../capitulos/n-grams.html" class="sidebar-item-text sidebar-link">
+  <a href="./capitulos/n-grams.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">n-gramas</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../capitulos/ng-especificos.html" class="sidebar-item-text sidebar-link">
+  <a href="./capitulos/ng-especificos.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">n-gramas específicos</span></a>
   </div>
 </li>
@@ -350,13 +299,13 @@ window.Quarto = {
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../capitulos/listagem-corpora.html" class="sidebar-item-text sidebar-link">
+  <a href="./capitulos/listagem-corpora.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Listagem dos <em>corpora</em></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../capitulos/producao-bibliografica.html" class="sidebar-item-text sidebar-link">
+  <a href="./capitulos/producao-bibliografica.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Produção bibliográfica</span></a>
   </div>
 </li>
@@ -365,21 +314,15 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Nesta página</h2>
-   
-  <ul>
-  <li><a href="#teia-de-notas-funções" id="toc-teia-de-notas-funções" class="nav-link active" data-scroll-target="#teia-de-notas-funções"><span class="header-section-number">1</span> Teia de Notas-Funções</a></li>
-  </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/capitulos/notas-funcoes.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/capitulos/notas-funcoes.qmd" class="toc-action"><i class="bi empty"></i>Ver o código fonte</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../capitulos/intro.html">Dados gerais</a></li><li class="breadcrumb-item"><a href="../capitulos/harmonia.html">Modelos teóricos</a></li><li class="breadcrumb-item"><a href="../capitulos/notas-funcoes.html">Notas-funções</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Notas-funções</h1>
+<h1 class="title">Dashboard</h1>
 </div>
 
 
@@ -396,117 +339,16 @@ window.Quarto = {
 </header>
 
 
-<section id="teia-de-notas-funções" class="level2" data-number="1">
-<h2 data-number="1" class="anchored" data-anchor-id="teia-de-notas-funções"><span class="header-section-number">1</span> Teia de Notas-Funções</h2>
-<p>Essencialmente, tal modelo associa a cada acorde dentro de um campo tonal – ou, mais acuradamente, para cada <em>categoria funcional</em> possível – uma hierarquia para as notas estruturais de uma melodia que porventura harmonize. O ponto de partida para a construção desse modelo é o conceito conhecido pelos músicos como “escala de acordes”. Na perspectiva que nos é adequada, a escala de um acorde apresenta-se como uma maneira conveniente de dispor suas possibilidades de harmonização. A <a href="#fig-modelos04" class="quarto-xref">Figura&nbsp;1</a> ilustra essa argumentação, considerando a escala referente ao acorde tônico (I) em Dó maior, cifrado, em sua versão tetrádica, como CM7.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
-<div id="fig-modelos04" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-modelos04-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="../figs/modelos-teoricos-04.png" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-modelos04-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;1: Estrutura da escala de CM7 (I em Dó maior) e identificação de suas notas-estruturais.
-</figcaption>
-</figure>
-</div>
-<p>À esquerda da figura são apresentadas as notas-funções, dispostas em ordem escalar. As notas brancas correspondem às notas-estruturais básicas (identificadas abaixo da pauta), que formam o arpejo da tétrade – fundamental (1), terça (3), quinta (5) e a sétima maior (M7) –, incluindo a sexta (6), que eventualmente pode substituir a sétima.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> Para a avaliação das tensões elegíveis a integrar o grupo das notas-estruturais (acima da pauta) segue-se a regra prática dos “dois semitons”. Tal regra determina que uma nota-função não pertencente ao arpejo básico se candidataria a se tornar uma tensão harmonizável (portanto, uma nota-estrutural) para um acorde se, na escala, estiver a <em>dois semitons acima</em> da nota do arpejo imediatamente à sua esquerda. Em caso negativo (ou seja, se a distância for de apenas um semitom), a nota não é considerada para integrar o grupo das notas-estruturais, sendo denominada normalmente uma nota “evitada”.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p>
-<p>Uma representação verticalizada da escala, cuja principal vantagem é evidenciar a hierarquia das notas-estruturais, é apresentada à direita da <a href="#fig-modelos04" class="quarto-xref">Figura&nbsp;1</a> (evidentemente, a nota “evitada” Fá é omitida). A partir desse conjunto de notas-estruturais estabelecido para o acorde CM7, funcionalmente contextualizado como I grau, podemos listar todas as possibilidades de concretização desse acorde, que são – importante acrescentar – equivalentes em relação à posição funcional: C (tríade), C.9 (tríade com nona acrescentada), CM7 (a disposição <em>default</em>, por assim dizer), C6, CM7.9 e C6.9 (ambas com a incorporação da tensão 9).</p>
-<p>A partir dessa visão, propomos aqui uma acepção mais abrangente em relação à ideia tradicional de “harmonia”, a saber, como o conjunto resultante da combinação das notas formantes de um determinado acorde e das notas-estruturais presentes na melodia que ocorrem dentro desse contexto acordal. Frisamos que apenas as notas-estruturais são levadas em conta nesse somatório, desconsiderando-se assim toda e qualquer inflexão melódica que porventura ocorra nesse contexto. Definimos então, formalmente, uma <em>inflexão</em> como uma nota transitória que, podendo ou não pertencer à escala do acorde, é sucedida por uma nota claramente estrutural de si distanciada por grau conjunto, nota-estrutural esta denominada o <em>alvo</em> da inflexão. Inflexões, portanto, são elementos à parte do contexto acordal, não sendo registradas como estruturais.</p>
-<p>Além da classificação de notas como estruturais ou inflexões, relacionadas a um contexto <em>local</em> (determinado pelos acordes que suportam as melodias), parece-nos também relevante avaliá-las de acordo com o contexto <em>global</em> (ou seja, a tonalidade a que pertencem), a partir de uma constatação de que melodias em música popular são predominantemente diatônicas e que notas não diatônicas são, em maior ou menor medida, digressões.</p>
-<p>A partir desses conceitos, é possível propor uma metodologia de análise de melodias, considerando ambos os níveis – global e local. Como uma tentativa preliminar para formalizar um modelo analítico, a <a href="#fig-modelos05" class="quarto-xref">Figura&nbsp;2</a> examina o exemplo de uma melodia hipotética.</p>
-<div id="fig-modelos05" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-modelos05-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="../figs/modelos-teoricos-05.png" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-modelos05-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;2: Exemplo de análise melódica (considerando contextos local e global) de uma melodia hipotética.
-</figcaption>
-</figure>
-</div>
-<p>Os dois níveis são contemplados na análise: abaixo da pauta são indicados os graus escalares associados a cada nota melódica através de números com circunflexos (contexto global), enquanto acima da pauta as notas-funções são evidenciadas, em relação aos acordes (contexto local). Inflexões são representadas pelo símbolo “<span class="math inline">\(\times\)</span>”.</p>
-<p>Observe-se que o método adotado promove normalização das melodias, ou seja, não é relevante a identificação das tonalidades absolutas envolvidas, apenas as relações entre as notas e as respectivas escalas diatônicas. Isso fica especialmente claro no exemplo através da modulação que acontece no compasso 4, com o contexto global transferindo-se de Lá maior para Fá maior (a troca de referencial escalar é representada pela fórmula “<span class="math inline">\(\hat{1} =\hat{3}\)</span>”).</p>
-<p>O modelo analítico contempla um processo algorítmico de análise das notas-funções, cuja entrada de dados é formatada como uma matriz de dimensões <span class="math inline">\(5 \times n\)</span> (<span class="math inline">\(n\)</span> é o número de notas da melodia, 36 no exemplo da <a href="#fig-modelos05" class="quarto-xref">Figura&nbsp;2</a>), denominada <em>mapa de notas-funções</em> (ou <em>mapa NF</em>). O quadro da <a href="#fig-modelos06" class="quarto-xref">Figura&nbsp;3</a> apresenta o mapa NF referente aos três compassos iniciais da melodia da <a href="#fig-modelos05" class="quarto-xref">Figura&nbsp;2</a>.</p>
-<div id="fig-modelos06" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-modelos06-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="../figs/modelos-teoricos-06.png" class="img-fluid figure-img" style="width:60.0%">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-modelos06-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;3: Mapa de notas-funções referente ao exemplo da <a href="#fig-modelos05" class="quarto-xref">Figura&nbsp;2</a>, c.&nbsp;1-3.
-</figcaption>
-</figure>
-</div>
-<p>A coluna 1 do mapa identifica os níveis considerados:</p>
-<ol type="A">
-<li>dos graus escalares (referente ao contexto global). Os números correspondentes aos graus são escritos sem os circunflexos originais. Alterações cromáticas são identificadas como números decimais (assim, 2.5 refere-se à alteração cromática ascendente do grau 2, ou seja, ao Si♯, no c.&nbsp;1);<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></li>
-<li>Notas-funções da tríade básica;</li>
-<li>Notas-funções da tétrade básica;</li>
-<li>Tensões simples;</li>
-<li>Tensões alteradas.</li>
-</ol>
-<p>Com objetivos operacionais, facilitando a implementação computacional, um mapa a ser usado em análise é previamente preenchido por zeros. A cada coluna – cada nota – uma ou duas células são preenchidas: aquela referente à linha A (obrigatoriamente, pois o nível global precisa ser informado) e, se for o caso, uma das linhas de notas-estruturais (B-E). Se a nota em questão for uma inflexão, obviamente, apenas a célula da linha A será preenchida (para facilitar a visualização, as células preenchidas nos exemplos foram sombreadas).<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></p>
-<p>A computação da matriz NF pelo algoritmo de análise retorna uma matriz que dispõe as ocorrências de notas-funções em relação aos graus escalares, ou seja, combinando os contextos global e local. O quadro da <a href="#fig-modelos07" class="quarto-xref">Figura&nbsp;4</a> apresenta a matriz-resultado referente ao exemplo da <a href="#fig-modelos05" class="quarto-xref">Figura&nbsp;2</a>.</p>
-<div id="fig-modelos07" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-modelos07-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="../figs/modelos-teoricos-07.png" class="img-fluid figure-img" style="width:60.0%">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-modelos07-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;4: Matriz de notas-funções referente ao exemplo da <a href="#fig-modelos05" class="quarto-xref">Figura&nbsp;2</a>.
-</figcaption>
-</figure>
-</div>
-<p>Uma versão mais concisa desse esquema considera apenas as cinco classes de notas-funções, ou seja, inflexões, notas-estruturais da tríade básica, notas-estruturais da tétrade, notas-estruturais correspondentes a tensões simples e notas-estruturais correspondentes a tensões alteradas (<a href="#fig-modelos08" class="quarto-xref">Figura&nbsp;5</a>). Assim, as categorias individuais colapsam nessas classes, o que facilita a plotagem gráfica (ver adiante) e proporciona um exame mais global da distribuição das notas-funções.</p>
-<div id="fig-modelos08" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-modelos08-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="../figs/modelos-teoricos-08.png" class="img-fluid figure-img" style="width:60.0%">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-modelos08-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;5: Matriz de classes de notas-funções referente ao exemplo da <a href="#fig-modelos05" class="quarto-xref">Figura&nbsp;2</a>.
-</figcaption>
-</figure>
-</div>
-<p>Uma das representações gráficas disponíveis no escopo do modelo é apresentada na <a href="#fig-modelos09" class="quarto-xref">Figura&nbsp;6</a>. Denominado <em>Teia NF</em> (a partir de seu formato, que lembra vagamente uma teia de aranha), o gráfico é formado por cinco círculos concêntricos cortados por 12 raios dispostos em incrementos angulares de 30°, com cada um desses eixos correspondendo a uma das notas da escala cromática. Os graus escalares (no caso da figura, considerando a escala diatônica maior) são identificados com algarismos arábicos (1 a 7), revelando sua superioridade hierárquica em relação aos graus escalares não diatônicos, os eixos intermediários.</p>
-<div id="fig-modelos09" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-modelos09-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="../figs/modelos-teoricos-09.png" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-modelos09-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;6: Esquema básico da Teia NF.
-</figcaption>
-</figure>
-</div>
-<p>O círculo de menor raio corresponde ao nível das inflexões (órbita 1), com os demais círculos obedecendo a hierarquia das notas-estruturais, desde as mais básicas, que formam a tríade (órbita 2), passando pelas componentes da tétrade (órbita 3), as tensões simples (órbita 4) e, finalmente, as notas-estruturais mais fracamente “ancoradas”, as tensões alteradas, na órbita exterior (5).</p>
-<p>A Teia NF tem, portanto, 60 posições possíveis, definidos pelos cruzamentos dos círculos e dos raios. De acordo com essa estrutura, é fácil concluir que melodias apoiadas em notas mais básicas tenderão a ter ocupadas na Teia correspondente mais posições “internas” do que “externas”. Por outro lado, melodias com relações mais complexas entre notas e acordes (como, por exemplo, em bossas novas), tenderão a “colonizar” posições mais “externas” das respectivas teias.</p>
-<p>Uma métrica de grande importância para o modelo NF é o <em>índice de ancoragem melódica</em> (ia). Tal índice quantifica, em média, o comportamento de uma melodia em relação às notas-estruturais,<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> tomando como parâmetro o grau de “ancoragem” dessas notas em relação aos acordes que as suportam. Entenda-se o termo como uma medida de maior ou menor proximidade de uma dada nota-estrutural em relação ao seu contexto acordal. Assim, quanto mais básica for a função exercida no acorde pela nota, mais “ancorada” ela estará.<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a></p>
+<p>Clique <a href="https://projetompb-graficos.onrender.com">aqui</a> para visitar o nosso <em>dashboard</em> com gráficos interativos do projeto!</p>
+<p>Alguns avisos importantes:</p>
+<ul>
+<li>O <em>dashboard</em> ainda está em construção! Periodicamente são adicionadas novas funcionalidades, parâmetros e <em>corpora</em>.</li>
+<li>O <em>dashboard</em> está hospedado em um servidor gratuito, que após certo tempo de inatividade, “desarma”. Portanto, se você tentar acessar o <em>dashboard</em> e a página demorar para carregar, espere um pouquinho enquanto o servidor o disponibiliza novamente.</li>
+</ul>
 
 
 
-</section>
-
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referências</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-almada-harmonia-jobim" class="csl-entry" role="listitem">
-Almada, Carlos. 2022. <em>A Harmonia de Jobim</em>. Campinas: Editora da Unicamp.
-</div>
-<div id="ref-lerdhal-tonal-pitch-space" class="csl-entry" role="listitem">
-Lerdhal, Fred. 2001. <em>Tonal Pitch Space</em>. Oxford: Oxford University Press.
-</div>
-</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Notas de rodapé</h2>
-
-<ol>
-<li id="fn1"><p>As escalas dos sete acordes diatônicos recebem nomes associados com os chamados modos gregos: Jônica (I), Dórica (II), Frígia (III), Lídia (IV), Mixolídia (V), Eólia (VI) e Lócria (VII), cada qual com uma configuração intervalar distinta, o que se reflete nos respectivos conjuntos de notas-estruturais disponíveis.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>Para uma explanação sobre notas-estruturais substitutas, ver <span class="citation" data-cites="almada-harmonia-jobim">Almada (<a href="#ref-almada-harmonia-jobim" role="doc-biblioref">2022</a>)</span>.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3"><p>Como em toda regra, há algumas exceções. Para sua apresentação e discussão, ver <span class="citation" data-cites="almada-harmonia-jobim">Almada (<a href="#ref-almada-harmonia-jobim" role="doc-biblioref">2022</a>)</span>.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn4"><p>Observe que, como esse sistema não diferencia o sentido das alterações – bemóis e sustenidos –, a mesma designação (2.5) serviria para um cromatismo descendente do terceiro grau escalar (Dó natural, como acontece no c.&nbsp;2 da <a href="#fig-modelos05" class="quarto-xref">Figura&nbsp;2</a>).<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn5"><p>Em certo sentido, o mapa NF pode ser comparado com o espaço tonal de alturas (<em>tonal pitch space</em>) proposto por <span class="citation" data-cites="lerdhal-tonal-pitch-space">Lerdhal (<a href="#ref-lerdhal-tonal-pitch-space" role="doc-biblioref">2001</a>)</span>, ambos configurados como estruturas estratificadas. As semelhanças, no entanto, são apenas essenciais, já que os dois esquemas são consideravelmente distintos em estrutura e em relação aos fenômenos que buscam mapear.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn6"><p>Ou seja, no cálculo do <em>ia</em>, apenas as notas-estruturais são levadas em conta, desconsiderando-se, assim, as inflexões presentes na melodia analisada.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn7"><p>Por uma questão de foco, postergamos, por ora, a apresentação cálculo do índice de ancoragem.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -1068,18 +910,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="../capitulos/melodia.html" class="pagination-link" aria-label="Melodia">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Melodia</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="../capitulos/probabilidade.html" class="pagination-link" aria-label="Probabilidade e entropia">
-        <span class="nav-page-text">Probabilidade e entropia</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -1090,7 +920,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/capitulos/notas-funcoes.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/capitulos/notas-funcoes.qmd" class="toc-action"><i class="bi empty"></i>Ver o código fonte</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></div>
+    <div class="toc-actions"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/dashboard.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/dashboard.qmd" class="toc-action"><i class="bi empty"></i>Ver o código fonte</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Página construída em <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
