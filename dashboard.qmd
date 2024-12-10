@@ -1,0 +1,10 @@
+---
+title: Dashboard
+---
+
+Clique [aqui](https://projetompb-graficos.onrender.com) para visitar o nosso *dashboard* com gráficos interativos do projeto!
+
+Alguns avisos importantes:
+
+* O *dashboard* ainda está em construção! Periodicamente são adicionadas novas funcionalidades, parâmetros e *corpora*. 
+* O *dashboard* está hospedado em um servidor gratuito, que após certo tempo de inatividade, "desarma". Portanto, se você tentar acessar o *dashboard* e a página demorar para carregar, espere um pouquinho enquanto o servidor o disponibiliza novamente. 
