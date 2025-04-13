@@ -1,5 +1,6 @@
 ---
 title: Atributos secundários de avaliação -- resultados
+echo: False
 ---
 
 Ao contrário do que é feito com os atributos primários, os secundários são apresentados em tabelas individuais e discutidos em seguida.
@@ -8,25 +9,32 @@ Ao contrário do que é feito com os atributos primários, os secundários são 
 
 **2H1** (RELAÇÕES TONAIS)
 
-2H1a
+```{python}
+from tabelas import exibir_tabela_atributos
 
-![Total de relações binárias tonais distintas por *corpus* (percentuais entre parênteses).](../figs/atri-sec-01.png){width=30%}
+exibir_tabela_atributos(
+    "2H1a",
+    subtitulo="Relações binárias tonais (RBTs) distintas (percentuais entre parênteses)",
+)
+```
+
 
 #### Discussão
 
 Observa-se na tabela acima uma certa tendência de que os *corpora* MPB apresentem uma relativa alta diversidade de RBTs, em sintonia com o que acontece no *corpus* Jazz, o que sugere uma possível influência, ainda que vaga, no sentido de uma maior exuberância de soluções modulatórias. Nesse sentido, chama especialmente atenção a baixa quantidade de relações distintas no Samba,^[O *corpus* do sambista Cartola, com apenas 6 RBTs, apresenta valor bem próximo daquele observado no controle Samba, o que pode reforçar a correlação com o gênero. Por outro lado, é possível também atribuir o número reduzido de RBTs ao fato de o repertório de Cartola apresentar apenas 20 peças (de acordo com as estratégias metodológicas adotadas na segunda fase do projeto), o que dificultaria uma comparação com em comparação com os demais repertórios da Fase 1 do projeto nos mesmos termos (isso também se aplica ao repertório Gonzaguinha, embora Caymmi e Lyra -- que também integram a Fase 2 -- apresentem bem mais RBTs do que ambos).] o que talvez reflita o fato de que modulações não sejam tão comuns como em outros gêneros e, consequentemente, a estabilidade tonal possa ser uma característica distinguidora.^[Num patamar intermediário, em torno de 15%, encontram-se os *corpora* Chico Buarque, João Bosco, Gilberto Gil e Rita Lee.] Essa conjectura abre uma via de pesquisa para estudos futuros.
 
-2H1b
-
-![Distribuição das relações binárias tonais notáveis por *corpus*.](../figs/atri-sec-02.png){width=50%}
+```{python}
+exibir_tabela_atributos("2H1b", titulo="2H1b", subtitulo="Distribuição percentaul das relações binárias tonais notáveis")
+```
 
 #### Discussão
 
 Nota-se aqui também um possível definidor de fronteira entre a Prática Comum da MPB e o superconjunto representado pelos gêneros Samba e Choro, pois parece ser um marcador estilístico desse subconjunto uma maior presença de RBTs não notáveis. Entretanto, os repertórios de análise podem ser segmentados em dois grupos bem definidos: um envolvendo uma relativa baixa frequência de RBTs notáveis, em torno de 1/5 a 1/4 dos casos (Jobim, Ivan Lins, Edu Lobo, Caetano Veloso e Carlos Lyra) e o outro no qual tais relações abrangem de 40 % (Djavan) a 63 % (João Bosco), incluindo valores mais próximos à metade das ocorrências (Chico Buarque, Milton Nascimento, Gilberto Gil, Rita Lee e Gonzaguinha). Nesse contexto, o *corpus* Cartola pode ser visto como um caso à parte: devido às razões apresentadas acima, a baixíssima quantidade de RBTs notáveis pode se creditar ao fato de serem modulações relativamente raras no seu repertório selecionado. De toda maneira, pensamos que seria mais apropriado tratar esses dados (e seus desdobramentos) como insuficientes para qualquer conclusão mais consistente.
 
-2H1c
+```{python}
+exibir_tabela_atributos("2H1c", titulo="2H1c", subtitulo="Distribuição das classes de relações binárias tonais (percentagens entre parênteses)")
+```
 
-![Distribuição das classes de relações binárias tonais por *corpus* (números indicam percentuais).](../figs/atri-sec-03.png){width=70%}
 
 #### Discussão
 
@@ -36,33 +44,32 @@ Como sugerem os dados, este atributo refina o anterior, evidenciando a distribui
 
 **2H2** (TIPOS ACORDAIS)
 
-2H2a
-
-![Total de tipos acordais distintos por *corpus* (percentagens entre parênteses).](../figs/atri-sec-04.png){width=30%}
-
+```{python}
+exibir_tabela_atributos("2H2a", titulo="2H2a", subtitulo="Tipos acordais distintos (percentagem dos tipos possíveis entre parênteses)")
+```
 #### Discussão
 
 O número de tipos acordais distintos por *corpus* consiste em um dos mais fortes marcadores estilísticos harmônicos -- mais uma vez, reforçando a hipótese da influência jazzística. Todos os repertórios MPB apresentam-se em patamares altos nesse atributo (com especial destaque para os *corpora* Jobim e Edu Lobo com, respectivamente, 75 e 73 TAs distintos, de um total de 161 possíveis).^[Nesse quadro, os tropicalistas Caetano Veloso, Gilberto Gil e Rita Lee ocupariam uma posição intermediária entre os dois níveis, o que parece ser coerente com as afinidades estéticas que apresentam. Também apresentam números relativamente baixos de tipos acordais distintos os *corpora* Carlos Lyra, Cartola e Gonzaguinha.]
 
-2H2b
-
-![Distribuição dos conteúdos dos *genera* por *corpus* (em percentuais).](../figs/atri-sec-05.png){width=75%}
+```{python}
+exibir_tabela_atributos("2H2b", titulo="2H2b", subtitulo="Distribuição dos conteúdos dos *genera* (em percentuais)")
+```
 
 #### Discussão
 
 Um primeiro dado interessante na avaliação deste atributo é a convergência de quase todos os *corpora* em relação à proeminência do *genus* Y^[Ver o [capítulo sobre modelos teóricos](modelos-teoricos.qmd).] (por volta de 40 % do total, em média), o que reflete indubitavelmente o compartilhamento de propriedades sintáticas tonais e, mais especificamente, a presença de preparações dominantes -- primárias e secundárias -- nesses repertórios.^[Há duas notáveis exceções: a primeira no repertório de Milton Nascimento (que privilegia a qualidade básica de tríade maior, seguida proximamente pelo tipo básico z). Bastante interessante ainda é a discrepância em relação à tríade menor, cerca de oito vezes menos comum do que a maior). Como discutido na avaliação dos [atributos primários](atributos-primarios.qmd), esse resultado é um forte sintoma do tratamento predominante modal da música do compositor. Outros fatos relacionados aos tipos acordais reforçam essa interpretação: além da relativa baixa ocorrência do *genus* Y (se comparada aos dos demais *corpora*), registre-se também a raridade dos *genera* meio-diminuto (y) e diminuto (x), elementos com certa presença em repertórios tonais. A segunda exceção é observada no *corpus* Gonzaguinha, com a predominância ocorrendo em relção ao genus z (um pouco acima de Y).] A partir disso, observamos como os *corpora* analíticos (juntamente com o *corpus* Jazz e com as notáveis exceções dos \textit{corpora} Caetano Veloso, Milton Nascimento, Gilberto Gil e Rita Lee (e, um pouco menos, Dori Caymmi), nos quais a qualidade V tem forte presença) formam um grupo coeso em oposição aos controles Samba e Choro, no que diz respeito à maior presença dos *genera* Z/z em oposição aos triádicos V/v, numa razão média, aproximada, de 8:1 (e o inverso se observa nos dois repertórios). Esses resultados, mais uma vez, contribuem para confirmar a hipótese da existência de uma relação de influência Jazz &rarr; MPB no domínio da harmonia, que se revela aqui a uma forte preferência por tipos acordais tetrádicos.
 
-2H2c
-
-![Distribuição de protoacordes e variantes por *corpus* (em percentuais).](../figs/atri-sec-06.png){width=45%}
+```{python}
+exibir_tabela_atributos("2H2c", subtitulo="Distribuição dos protoacordes e variantes (em percentuais)")
+```
 
 #### Discussão
 
 A presença maciça de variantes de tipos acordais é também um marcador estilístico do subconjunto MPB. No entanto, os dados permitem estabelecer três grupos de situações: (a) os repertórios Choro e Samba são bastante convergentes neste atributo, ao apresentar um número quase irrelevante de TAs variantes; (b) ainda que em número maior, as variantes no *corpus* Jazz são superadas pelos protoacordes em uma razão 2:1; (c) nos *corpora* MPB observa-se, em média, uma paridade aproximada entre protoacordes e variantes (destacando-se o caso especial do *corpus* Ivan Lins, com as variantes representando quase 3/4 do total de TAs) e Edu Lobo e Dori Caymmi (quase 2/3).^[Caetano Veloso, Gilberto Gil e Cartola ocupam uma posição intermediária dentro do subconjunto MPB, com os protoacordes superando as variantes em mais do que o dobro. Já no repertório de Rita Lee essa diferença é ainda mais acentuada (apenas 16.7 % são variantes).] Os resultados contribuem para reforçar a hipótese sobre a influência harmônica do Jazz, porém, neste caso, sugerem uma intensificação na complexidade acordal (em relação ao modelo jazzístico) como uma possível característica da Prática Comum da MPB, o que pode ser detalhado no exame de outros atributos.
 
-2H2d
-
-![Distribuição dos tipos acordais por *corpus*, considerando as categorias *protoacorde* (p) e *variantes* (v).](../figs/atri-sec-07.png){width=100%}
+```{python}
+exibir_tabela_atributos("2H2d", subtitulo="Distribuição dos tipo acordais, considerando as categorias *protoacrode* (p) e *variante* (v)")
+```
 
 #### Discussão
 
@@ -72,67 +79,79 @@ O detalhamento do atributo anterior traz, embora em magnitudes diferentes, uma c
 
 **2H3** (FUNÇÕES)
 
-2H3a
-
-![Total de categorias funcionais distintas por *corpus* e respectivos percentuais, considerando o total de 73 possibilidades identificadas (percentuais entre parênteses).](../figs/atri-sec-08.png){width=30%}
+```{python}
+exibir_tabela_atributos("2H3a", subtitulo="Categorias funcionais distintas (percentagem do total de 73 possíveis entre parênteses)")
+```
 
 #### Discussão
 
 Neste atributo os *corpora* MPB mais uma vez se mostram em sintonia com o repertório jazzístico, apresentando uma alta diversidade de categorias funcionais (com um especial destaque ao *corpus* Jobim, abarcando cerca de 3/4 do total possível preconizado pelo modelo teórico adotado (ver [capítulo sobre os modelos teóricos](modelos-teoricos.qmd)).^[Jobim é seguido bem de perto por Gilberto Gil e Djavan. Por outro lado, Cartola é o *corpus* que apresenta a menor quantidade de categorias funcionais (25), menos até do que os controles Samba e Choro. Isso pode ser talvez interpretado como fruto de uma maior consistência (e, consequentemente, menor diversidade) de soluções funcionais em sua música, algo que pode ser também correlacionado a outros atributos associados a funções.] Novamente, os repertórios de controle Samba e Choro apresentam diversidade semelhante, em níveis sensivelmente mais baixos em relação ao outro grupo (com a exceção de Cartola), reforçando a separação dos dois conjuntos também no aspecto do vocabulário das categorias funcionais.
 
-2H3b
-
-![Distribuição de classes (e/ou subclasses) de categorias funcionais por *corpus* (em percentuais). A última coluna ("?") se refere a situações funcionais não identificadas nas análises.](../figs/atri-sec-09.png){width=60%}
+```{python}
+from tabelas import exibir_tabela_atributos
+exibir_tabela_atributos("2H3b", subtitulo="Distribuição das classes (e/ou subclasses) de categorias funcionais (em percentuais)", rodape="A última coluna '?' se refere a situações funcionais não identificadas nas análises.")
+```
 
 #### Discussão
 
 Em relação a classes (ou subclasses significativas) de categorias funcionais, observa-se inicialmente, como seria de se esperar, uma preponderância absoluta da classe DIA (com destaque especial do *corpus* Samba), o que apenas é reflexo de uma característica geral compartilhada por repertórios de música tonal. A especificidade funcional da MPB (em conjunção com a do *corpus* Jazz, como em outros atributos harmônicos) se evidencia na distribuição de outras classes/subclasses, especialmente SubV e EC1, que apresentam relativamente maior peso do que nos *corpora* de controle Samba e Choro. No contexto dos repertórios de análise, o caso do *corpus* Milton Nascimento deve ser observado à parte, já que os dados associados a este atributo revelam inequivocamente as profundas diferenças na construção harmônica em comparação aos demais *corpora*. É, em especial, marcante os sensivelmente baixos valores das subclasses que compõem a classe funcional de acordes preparadores (DS, SubV, DIM), o que é fortemente sintomático de um tratamento eminentemente modal (veja especialmente a discrepância entre os percentuais envolvidos). Por razões semelhantes àquelas já elencadas, o *corpus* Cartola também se apresenta aqui destoante em relação ao núcleo MPB, corroborando um comportamento geral funcional mais modesto.
 
-2H3c
-
-![Distribuição das categorias funcionais da classe "Diatônica" (DIA) por *corpus* (em percentuais).](../figs/atri-sec-10.png){width=60%}
+```{python}
+exibir_tabela_atributos("2H3c-DIA", titulo="2H3c - diatônicas", subtitulo='Distribuição percentual das categorias funcionais da classe "Diatônica" (DIA)')
+```
 
 #### Discussão
 
 Nada de muito surpreendente surge nos dados apresentados na tabela acima: quase todos os *corpora* convergem para o I grau, como a categoria funcional mais recorrente da classe DIA. As exceções -- no *corpura* Chico Buarque e Cartola -- o V é o mais comum,^[Na verdade, o V é a segunda categoria mais comum nos demais repertórios, quase empatando em frequência com o I no *corpus* Samba.] o que não deixa de ser uma informação coerente com o que se observaria em qualquer repertório essencialmente tonal. Num nível mais apurado de observação, torna-se mais uma vez sintomática a distinção entre o *corpus* Milton Nascimento e os demais, devido à magnitude da presença do I grau (cerca de 10 pontos percentuais a mais em relação ao valor médio demais repertórios) e também considerando que supera V quase pelo triplo (em contraste com o máximo de duas vezes, nos demais *corpora*). Tal proeminência reduz consequentemente a importância dos demais graus diatônicos nesse repertório, contribuindo mais uma vez para enfatizar seu caráter essencialmente modal (através da diminuição da diversidade diatônica).
 
-![Distribuição das categorias funcionais das subclasse "Dominante secundários" (DS) e "II secundários" (IIs) por *corpus* (em percentuais). A última coluna ("II_V/x") indica que os "II relativos" são, na análise, armazenados em conjunto independentemente de seus respectivos alvos ("x").](../figs/atri-sec-11.png){width=60%}
-
+```{python}
+exibir_tabela_atributos("2H3c-DS", titulo="2H3c - dominantes secundários", subtitulo='Distribuição das categorias funcionais da subclasse "Dominante secundários" (DS) e "II secundários" (IIs) por *corpus* (em percentuais).', rodape='A última coluna ("II-V/x") indica que os "II relativos" são, na análise, armazenados em conjunto independentemente de seus respectivos alvos ("x").')
+```
 #### Discussão
 
 Neste caso, há uma divisão das preferências em três grupos: pelo V/V (Choro, Jobim, Edu Lobo, Milton Nascimento, Rita Lee e Dori Caymmi),^[À parte a recorrência dessa categoria funcional -- diríamos, quase "normal", em comparação aos demais -- o repertório de Milton Nascimento se notabiliza pela raridade dos demais dominantes secundários, o que é novamente um fator que sugere uma preferência pelo modalismo.] pelo II cadencial (Jazz, Ivan Lins, Chico Buarque, Caetano Veloso, Djavan, Gilberto Gil, Carlos Lyra, Cartola e Gonzaguinha) e V/II (Samba e João Bosco). Nenhuma conclusão sólida referente a estilo pode ser extraída desses resultados isoladamente. 
 
-![Distribuição das categorias funcionais da subclasse "SubV" (SUBV) por *corpus* (em percentuais).](../figs/atri-sec-12.png){width=70%}
-
+```{python}
+exibir_tabela_atributos("2H3c-SUBV", titulo="2H3c - SubV", subtitulo='Distribuição das categorias funcionais da subclasse "SubV" (SUBV) (em percentuais)')
+```
 #### Discussão
 
 Os dados revelam que acordes da classe SUBV, embora menos comuns do que dominantes secundários, estão presentes em todos os repertórios (em menor frequência nos *corpora* Choro, Cartola e Milton Nascimento), com maior proeminência daqueles cujos alvos preferenciais são o I (Jazz, Jobim, Edu Lobo e Carlos Lyra) e o V graus (Choro, Samba, Ivan Lins, Chico Buarque, Caetano Veloso, Djavan, João Bosco, Gilberto Gil, Rita Lee, Dori Caymmi e Cartola). Tal situação não permite conclusões consistentes em relação a características estilísticas.^[Um dado especialmente interessante é a ausência de manifestações do SubV primário nos \textit{corpora} Rita Lee e Cartola.]
 
-![Distribuição das categorias funcionais da classe "Empréstimos cromáticos de primeira ordem" (EC1) por *corpus* (em percentuais).](../figs/atri-sec-13.png){width=100%}
+```{python}
+exibir_tabela_atributos("2H3c-EC1", titulo="2H3c - Empréstimos cromáticos de primeira ordem", subtitulo='Distribuição das categorias funcionais da subclasse "Empréstimos cromáticos de primeira ordem" (EC1)')
+```
 
 #### Discussão
 
 A relativa presença de empréstimos é certamente um forte marcador estilístico da Prática Comum da MPB, a partir de uma suposta herança jazzística. O quadro apresentado acima deixa, por si só, tal fato evidente. A distribuição das categorias funcionais dessa classe em quase todos os repertórios tende a convergir para o IVm7 como a mais proeminente, com algumas exceções: (1) nos casos do *corpora* Ivan Lins e Jazz, bVII7 é a categoria mais comum, porém diverge pouco em termos gerais de IVm7, já que ambas pertencem à mesma subclasse funcional, "Subdominante menor" (sd); (2) no *corpus* Caetano Veloso, a preferência é pelo bVIM7, uma categoria, como as anteriores integrante do grupo "Subdominante menor" (o que torna as opções, na prática, equivalentes); (3) Por outro lado, no *corpus* Edu Lobo Vm7 é a categoria mais recorrente, talvez refletindo a presença de lógicas modais nos repertórios dos compositor, ou seja, podendo representar uma característica estilística pessoal mais significativa; (4) Atribuímos a uma razão semelhante a recorrência da categoria bVIIM7 como a mais comum (e bem acima das demais) no *corpus* Milton Nascimento; (5) o "subdominante blues" (IV7) é o empréstimo mais comum nos *corpora* Djavan, Gilberto Gil e Rita Lee.
 
-![Distribuição das categorias funcionais da classe "Empréstimos cromáticos de segunda ordem" (EC2) por *corpus* (em percentuais).](../figs/atri-sec-14.png){width=70%}
+```{python}
+exibir_tabela_atributos("2H3c-EC2", titulo="2H3c - Empréstimos cromático de segunda ordem", subtitulo='Distribuição das categorias funcionais da subclasse "Empréstimos cromáticos de segunda ordem" (EC2)')
+```
+
 
 #### Discussão
 
 Apesar de sua relativa raridade, os empréstimos de segunda ordem contribuem ainda com mais intensidade para a marcação das fronteiras da MPB em relação ao superconjunto no qual se insere. Como mostram os dados, o *corpus* Jobim é o que mais se destaca nesse atributo, sendo o único no qual todas as categorias mapeadas estão presentes. Por outro lado, nos *corpora* João Bosco, Caetano Veloso, Rita Lee e, especialmente, Cartola as categorias da classe EC2 são ainda mais raras, o que faz distanciar esse grupo daquele que podemos denominar o núcleo MPB referente a tal classe.
+```{python}
+exibir_tabela_atributos("2H3d", subtitulo='Total de relações binárias funcionais (RBFs) distintas')
+```
 
----
-
-2H3d
-
-![Total de relações binárias funcionais distintas por *corpus*.](../figs/atri-sec-18.png){width=30%}
 
 #### Discussão
 
 O número de RBFs distintas varia consideravelmente -- de 109 (Cartola) a 438 (Jobim). Como em outros atributos, percebemos no subconjunto MPB uma subdivisão em dois blocos: um deles (incluindo aqui o *corpus* Jazz), composto pela maioria dos repertórios, mantém, em média, 310 RBFs distintas. O segundo bloco é formado por *corpora* com números de relações consideravelmente menores: Gilberto Gil, Carlos Lyra, Dori Caymmi, Rita Lee, Gonzaguinha e Cartola (alguns deles com valores inferiores aos dos repertórios de controle). Mais uma vez, distinções internas entre os compositores MPB na esfera harmônica se evidenciam, o que demandará avaliações complementares futuramente.
 
-2H3e
+```{python}
+from tabelas import join_resultados, exibir_tabela_atributos
 
-![Distribuição de relações binárias funcionais em alto nível por *corpus* (n = quantidade de RBFs; p = percentagem em relação ao todo).](../figs/atri-sec-19.png){width=65%}
+join_resultados(["2H3e-dist", "2H3e-unique-count"], "2H3e")
+exibir_tabela_atributos(
+    "2H3e",
+    subtitulo="Distribuição de relações binárias funcionais (RBFs) em alto nível.",
+)
+```
 
 #### Discussão
 
@@ -144,33 +163,32 @@ Há, em termos percentuais, uma convergência geral pelas RBFs em alto nível DI
 
 **2M1** (NOTAS-FUNÇÕES)
 
-2M1a
-
-![Distribuição das notas diatônicas por *corpus*, considerando modos maior e menor (em percentuais).](../figs/atri-sec-23.png){width=65%}
-
+```{python}
+exibir_tabela_atributos("2M1a", subtitulo='Distribuição das notas diatônicas, considerando modos maior e menor (em percentuais)')
+```
 #### Discussão
 
 A presença de notas diatônicas em peças em modo maior é, como se esperaria em qualquer repertório, bastante alta: em média 90%,^[Destacando-se o *corpus* Samba como o mais diatônico melodicamente, com impressionantes 97%. Dos repertórios de análise, Gonzaguinha é o que mais se aproxima desse patamar, com 96%.] ficando Edu Lobo com a menor taxa (87%). No modo menor, o diatonicismo também é bastante alto (por volta de 84%, em média), porém não tanto em relação ao maior, devido às alternâncias de notas das escalas natural, harmônica e melódica. Como em outros atributos, os dados não trazem contribuições no sentido de evidenciar alguma fronteira da MPB, pelo contrário, são consistentes quanto às normas compartilhadas por repertórios tonais, de cunho geral, portanto.
 
-2M1b
-
-![Distribuição das inflexões por *corpus* (em percentuais).](../figs/atri-sec-24.png){width=30%}
+```{python}
+exibir_tabela_atributos("2M1b", subtitulo='Distribuição das inflexões (em percentuais)')
+```
 
 #### Discussão
 
 Observamos também uma certa uniformidade no que se refere à distribuição das inflexões, que correspondem, em média a 1/5 das notas melódicas (confirmando aproximadamente o senso comum analítico). Num olhar mais detalhado, percebemos como o *corpus* Choro é o que, no grupo de controle, apresenta a maior percentagem dessa categoria de nota-função (24.3%), o que é também uma informação consistente em relação ao que se conhece informalmente obre o comportamento da melodia nesse gênero.^[Dos *corpora* de análise, Cartola, João Bosco e, especialmente, Gonzaguinha são os que possuem maiores percentuais de inflexões, acima de 23%.]
 
-2M1c
-
-![Distribuição das superclasses de notas-estruturais por *corpus* (em percentuais).](../figs/atri-sec-25.png){width=40%}
+```{python}
+exibir_tabela_atributos("2M1c", subtitulo='Distribuição de notas-estruturais (em percentuais)')
+```
 
 #### Discussão
 
 Ao contrário dos anteriores, este atributo permite delinear mais claramente as fronteiras da MPB em relação aos repertórios de controle Samba e Choro, já que a superclasse das tensões mostram uma considerável presença nos *corpora* analíticos (em congruência com o repertório jazzístico). No entanto, os *corpora* Tom Jobim (especialmente), Ivan Lins, Edu Lobo e Djavan apresentam um percentual mais elevado de tensões do que os demais repertórios, o que sugere que possam integrar um subgrupo especial, com relações melodia/harmonia mais complexas.^[Nos *corpora* Milton Nascimento, Caetano Veloso, Gilberto Gil, Rita Lee, Dori Caymmi e Gonzaguinha a presença de tensões é consideravelmente menor do que no outro subgrupo.]  
 
-2M1d
-
-![Distribuição das classes de notas-estruturais por *corpus* (em percentuais).](../figs/atri-sec-26.png){width=60%}
+```{python}
+exibir_tabela_atributos("2M1d", subtitulo='Distribuição de classes de notas-estruturais (em percentuais)')
+```
 
 #### Discussão
 
@@ -180,17 +198,17 @@ A Tabela acima detalha o atributo anterior, mostrando como as distribuições da
 
 **2M2** (ALTURAS)
 
-2M2a
-
-![Distribuição das classes de c-letras por *corpus* (em percentuais).](../figs/atri-sec-27.png){width=50%}
+```{python}
+exibir_tabela_atributos("2M2a", subtitulo='Distribuição das classes de c-letras (em percentuais)')
+```
 
 #### Discussão
 
 A tabela acima nos informa que graus conjuntos são gestos preferenciais na construção melódica (em média, correspondendo à cerca de metade dos movimentos intervalares),^[Atingindo em Jobim o máximo percentual (58%).] independentemente do repertório considerado (embora com diferentes flutuações), o que não deixa de ser uma informação relevante, embora não diretamente associada aos presentes objetivos. Por outro lado, saltos são bem menos comuns em todos os repertórios (com um destaque especial na música de Edu Lobo, com cerca de 10% dos movimentos melódicos).
 
-2M2b
-
-![Distribuição das c-letras por *corpus* (em percentuais).](../figs/atri-sec-28.png){width=70%}
+```{python}
+exibir_tabela_atributos("2M2b", subtitulo='Distribuição das c-letras (em percentuais)')
+```
 
 #### Discussão
 
@@ -200,17 +218,17 @@ O refinamento do atributo anterior aponta para a c-letra *p* (grau conjunto desc
 
 **2M3** (RITMO)
 
-2M3a
-
-![Perfil métrico por *corpus* (em percentuais).](../figs/atri-sec-29.png){width=80%}
+```{python}
+exibir_tabela_atributos("2M3a", subtitulo='Perfil métrico (em percentuais)')
+```
 
 #### Discussão
 
 O perfil métrico é um dos mais importantes atributos na evidenciação de uma "linhagem" musical brasileira na MPB, pois trata da essência de sua rítmica. Diversos aspectos merecem ser comentados: (1) Como era esperado, quase todos os repertórios têm a posição 1 como o ponto de maior recorrência, com as notáveis exceções de Rita Lee (ponto 7 como o mais comum), de Carlos Lyra e do Samba (em ambos a posição predominante é 10, a essência da sincopação desse gênero);^[Podemos, na verdade, considerar a posição 10 como uma espécie de elemento de medição de contrametricidade, o que será explorado nos demais atributos secundários rítmicos.] (2) Nesse sentido, além de Carlos Lyra, os *corpora* Cartola, Choro, Jobim, Chico Buarque, Djavan, João Bosco e Gilberto Gil são os que poderiam ser considerados mais próximos do Samba, dadas suas distribuições nessa posição (mais do que 1/5 de ocorrências). O *corpus* Jazz (também como esperado) é o que apresenta a mais baixa percentagem na posição 10, quase desprezível (são também especialmente baixos os percentuais de Milton Nascimento e Rita Lee em relação a essa posição micrométrica); (3) Por outro lado, a posição 7 (que divide o tempo na metade) apresenta alta concentração de ataques nos *corpora* Jazz, Milton Nascimento (os dois muito próximos e bem acima dos demais), Dori Caymmi e, especialmente, Rita Lee (o mais alto valor de todos, 48.3 %); (4) As posições que contribuem para dividir o tempo em três partes iguais (5 e 9) apresentam alta distribuição em Milton Nascimento e Ivan Lins (em média, respectivamente, 12 e 11 %), bem acima do que nos demais repertórios.^[Jobim vem logo após a dupla (média de 8.6 %), o que se atribui principalmente à fase inicial do compositor, marcada pela forte presença de sambas-canções.] Tais posições são raramente ocupadas no Samba (menos de 1 %) e no Choro (em média, 1.5 %).
 
-2M3b
-
-![Distribuição das r-letras contramétricas por *corpus* (em percentuais).](../figs/atri-sec-30.png){width=70%}
+```{python}
+exibir_tabela_atributos("2M3b", subtitulo='Distribuição das r-letras contramétricas (em percentuais)')
+```
 
 #### Discussão
 
@@ -218,7 +236,9 @@ As relações de afinidade sugeridas no atributo anterior são, de certo modo, c
 
 2M3c
 
-![Distribuição das r-letras tercinas por *corpus* (em percentuais).](../figs/atri-sec-31.png){width=65%}
+```{python}
+exibir_tabela_atributos("2M3c", subtitulo='Distribuição das r-letras tercinas (em percentuais)')
+```
 
 #### Discussão
 
