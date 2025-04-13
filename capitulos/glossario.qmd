@@ -60,7 +60,7 @@ title: Glossário
 
 **Perfil métrico** -- gráfico de barras usado para apresentação da distribuição dos ataques rítmicos correspondentes à **grade micrométrica** referente a uma peça ou repertório analisado no projeto.
 
-**Protoacorde** -- **tipo acordal** básico associado a um **genus**. Existem dez protoacordes no modelo GTA, identificados pelas letras do genus com um zero em subscrito: "maior com sétima maior" (Z0 = CM7), "dominante" (Y0 = C7), "sexta francesa" (X0 = C(b5)7), "dominante aumentado" (W0 = C(#5)7), "tríade maior" (V0 = C), "menor com sétima menor" (z0 = Cm7), "meio diminuto" (y0 = Cm7(b5)), "sétima diminuta" (x0 = C°),  "menor com sétima maior" (w0 = Cm(M7)) e "tríade menor" (v0 = Cm).
+**Protoacorde** -- **tipo acordal** básico associado a um **genus**. Existem dez protoacordes no modelo GTA, identificados pelas letras do genus com um zero em subscrito: "maior com sétima maior" (Z0 = CM7), "dominante" (Y0 = C7), "sexta francesa" (X0 = C(b5)7), "dominante aumentado" (W0 = C(#5)7), "tríade maior" (V0 = C), "menor com sétima menor" (z0 = Cm7), "meio diminuto" (y0 = C∅)), "sétima diminuta" (x0 = C°),  "menor com sétima maior" (w0 = Cm(M7)) e "tríade menor" (v0 = Cm).
 
 **Regiões mediânticas cromáticas** -- denominação genérica atribuída às regiões tonais posicionadas a intervalos de terça (ascendente e descendente, maior e menor) da tônica referencial, excluindo-se aquelas regiões vizinhas (mediante e submediante), consideradas mediânticas diatônicas.
 
