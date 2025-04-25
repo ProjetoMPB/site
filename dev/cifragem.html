@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Hugo Carvalho">
-<meta name="description" content="‘Gráficos’">
 
-<title>Publicação de novos capítulos e encontro com Fabian Moss – Projeto MPB</title>
+<title>Critérios adotados para cifragem alfanumérica – Projeto MPB</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -94,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Publicação de novos capítulos e encontro com Fabian Moss</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Critérios adotados para cifragem alfanumérica</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Procurar" onclick="window.quartoOpenSearch();">
@@ -324,35 +342,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Publicação de novos capítulos e encontro com Fabian Moss</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">noticias do projeto</div>
-    <div class="quarto-category">novos capitulos</div>
-  </div>
-  </div>
-
-<div>
-  <div class="description">
-    ‘Gráficos’
-  </div>
+<h1 class="title">Critérios adotados para cifragem alfanumérica</h1>
 </div>
+
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Autor</div>
-    <div class="quarto-title-meta-contents">
-             <p>Hugo Carvalho </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Data de Publicação</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">19 de abril de 2024</p>
-    </div>
-  </div>
   
     
   </div>
@@ -362,14 +359,42 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Foi lançado mais um capítulo, <a href="../capitulos/graficos.html">Gráficos</a>, com diversas ilustrações de quantidades computadas sobre os compositores/as.</p>
-<p>Recentemente o pesquisador <a href="https://fabian-moss.de/">Fabian Moss</a> esteve no Rio de Janeiro, e tivemos a oportunidade de conversar com ele sobre o projeto. Além disso, ele proferiu uma palestra no ciclo Palestras MusMat, disponível no <a href="https://www.youtube.com/c/musmat">canal do YouTube do grupo MusMat</a>. Confira abaixo algumas fotos que tiramos, na Escola de Música da UFRJ e claro, na Lapa!</p>
-<p><img src="../figs/moss-ventura.jpeg" class="img-fluid"></p>
-<p><img src="../figs/moss-lapa.jpeg" class="img-fluid"></p>
+<p>Esta proposta de notação de cifras alfanuméricas foi elaborada a partir dos critérios de lógica, clareza, concisão e simplicidade, buscando a minimizar a incoerência da simbologia (o que favorece eventualmente à implementação computacional).<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> Acrescente-se que tal proposta não tem a pretensão de substituir outros sistemas em uso geral, especialmente os mais estáveis, por assim dizer. Pelo contrário, ela vem juntar-se a eles como mais uma alternativa disponível, apenas mais lógica, talvez.</p>
+<p>As convenções adotadas são as seguintes:</p>
+<ul>
+<li><strong>Tríades maiores</strong> são indicadas apenas pelas letras que representa suas fundamentais (C, F, Db etc.)</li>
+<li>Em <strong>tríades menores</strong> é acrescentado um “m” à direita da letra-fundamental (Cm, Am etc.)</li>
+<li>Em <strong>tríades quartais</strong> (quarta substituindo a terça maior) acrescenta-se um “4” à direita da letra-fundamental (C4, F#4 etc.)</li>
+<li>Em <strong>tríades diminutas</strong> é acrescentado o símbolo “°” à direita da letra-fundamental (C°, Eb° etc.)</li>
+<li>Em <strong>tríades aumentadas</strong> é acrescentado o símbolo “+” à direita da letra-fundamental (C+, G+ etc.)</li>
+<li>A <strong>tétrade maior com sétima maior</strong> é escrita acrescentando-se o símbolo “M7” à direita da letra-fundamental (CM7, AbM7 etc.)<br>
+</li>
+<li>A <strong>tétrade maior com sétima (menor)</strong>, também conhecida como tétrade <em>dominante</em>, é escrita acrescentando-se o símbolo “7” à direita da letra-fundamental (C7, E7 etc.)<br>
+</li>
+<li>A <strong>tétrade menor com sétima</strong> é escrita acrescentando-se o símbolo “m7” à direita da letra-fundamental (Cm7, Bm7 etc.)<br>
+</li>
+<li>A <strong>tétrade menor com sétima e quinta diminuta</strong>, também conhecida como acorde <em>meio diminuto</em>, é escrita acrescentando-se o símbolo “<sup>ø</sup>” à direita da letra-fundamental (C<sup>ø</sup>, Db<sup>ø</sup> etc.)<br>
+</li>
+<li>A <strong>tétrade menor com quinta e sétima diminutas</strong>, também conhecida como <em>tétrade diminuta</em>, é escrita acrescentando-se o símbolo “°7” à direita da letra-fundamental (C°7, G#°7 etc.)<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></li>
+<li>A inclusão de outras notas-funções (sextas, nonas, décimas primeiras e décimas terceiras) deve ser feita obedecendo à ordem de magnitude dos números envolvidos, separando as entradas por pontos, se necessário. Exemplos: C6, A6.9, Fm7.11, Bb4.7.9, E6.M7, F#7.9.13, B<sup>ø</sup>.11.13 etc.</li>
+<li>Notas-funções alteradas (quintas ou tensões) são sempre incluídas dentro de parênteses. Em caso de haver duas ou mais alterações de magnitudes sequenciais em um mesmo acorde, elas são inseridas nos mesmos parênteses e separadas por pontos. Exemplos: C(b5)7.9, GM7(#11), Db4.7(b13), A7(b9.#9), Eb4.7.9(#11).13 etc.</li>
+</ul>
 
 
 
-</main> <!-- /main -->
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referências</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-almada-harmonia-jobim" class="csl-entry" role="listitem">
+Almada, Carlos. 2022. <em>A Harmonia de Jobim</em>. Campinas: Editora da Unicamp.
+</div>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Notas de rodapé</h2>
+
+<ol>
+<li id="fn1"><p>Esta proposta sintetiza e adapta a seção “2.1 Cifragem alfanumérica”, publicada originalmente em <span class="citation" data-cites="almada-harmonia-jobim">(<a href="#ref-almada-harmonia-jobim" role="doc-biblioref">Almada 2022, 27–28</a>)</span>.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>É mais comum que a notação desse tipo acordal seja abreviada para apenas “X°”, já que a forma triádica diminuta é extremamente rara em contextos da música popular. Adotaremos, assim, preferencialmente, a forma abreviada.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -941,7 +966,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/posts/novos-caps-3.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/posts/novos-caps-3.qmd" class="toc-action"><i class="bi empty"></i>Ver o código fonte</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></div>
+    <div class="toc-actions"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/dev/cifragem.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/dev/cifragem.qmd" class="toc-action"><i class="bi empty"></i>Ver o código fonte</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Página construída em <a href="https://quarto.org/">Quarto</a>.</p>
 </div>

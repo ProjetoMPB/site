@@ -1,0 +1,2670 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.43">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Atributos primários de avaliação – resultados – Projeto MPB</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script><script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../favicon.ico" rel="icon">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-4379b0ccadffce622b03caf4c46266b3.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a4f09a128564692efbd2e4b7986dbcea.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-8f4cbf19915c7ede4ee9758edf4cc63c.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
+  }
+}</script>
+<script type="application/json" class="js-hypothesis-config">
+{
+  "showHighlights": "never"
+}
+</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
+<script>
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    document.body.classList.add('hypothesis-enabled');
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Atributos primários de avaliação – resultados</li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Procurar" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-center sidebar-header">
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="../logos/logo-projeto.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      <div class="sidebar-tools-main tools-wide">
+    <a href="https://projetompb.github.io/site/" title="Projeto MPB" class="quarto-navigation-tool px-1" aria-label="Projeto MPB"><i class="bi bi-globe"></i></a>
+    <a href="https://github.com/ProjetoMPB/site" title="Projeto MPB (repositório)" class="quarto-navigation-tool px-1" aria-label="Projeto MPB (repositório)"><i class="bi bi-github"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo escuro"><i class="bi"></i></a>
+</div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Procurar"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Página inicial</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../blog.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Blog do projeto</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
+ <span class="menu-text">Dados gerais</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Alternar seção">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introdução</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/nossa-mpb.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">A “nossa” MPB</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/estilo-musical.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Uma breve discussão sobre estilo musical</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/corpora-mpb.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Os <em>corpora</em> MPB</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Modelos teóricos</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Alternar seção">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/harmonia.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Harmonia</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/melodia.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Melodia</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/notas-funcoes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Notas-funções</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/probabilidade.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Probabilidade e entropia</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/metodologia.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Metodologia</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/atributos-prim-sec.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Atributos primários e secundários</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Material suplementar</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Alternar seção">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/cifragem.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cifragem</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/funcoes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Funções</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/tipos-acordais.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Tipos acordais</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/glossario.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Glossário</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">Resultados</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Alternar seção">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/atributos-primarios.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Atributos primários</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/atributos-secundarios.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Atributos secundários</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
+ <span class="menu-text">Fase 1</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Alternar seção">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/n-grams.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">n-gramas</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/ng-especificos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">n-gramas específicos</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/listagem-corpora.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Listagem dos <em>corpora</em></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../capitulos/producao-bibliografica.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Produção bibliográfica</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Nesta página</h2>
+   
+  <ul>
+  <li><a href="#atributos-primários-harmônicos" id="toc-atributos-primários-harmônicos" class="nav-link active" data-scroll-target="#atributos-primários-harmônicos"><span class="header-section-number">0.1</span> Atributos primários harmônicos</a></li>
+  <li><a href="#atributos-primários-melódicos" id="toc-atributos-primários-melódicos" class="nav-link" data-scroll-target="#atributos-primários-melódicos"><span class="header-section-number">0.2</span> Atributos primários melódicos</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/dev/atributos-primarios.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/dev/atributos-primarios.qmd" class="toc-action"><i class="bi empty"></i>Ver o código fonte</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Atributos primários de avaliação – resultados</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Antes de iniciarmos propriamente o exame dos resultados das análises dos atributos primários harmônicos e melódicos, convém apresentar alguns dados básicos compilados referente aos <em>corpora</em> (de análise e de controle), como mostra a tabela abaixo:<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<div id="01f875ee" class="cell" data-execution_count="1">
+<div class="cell-output cell-output-display">
+<div id="heuvnlgiku" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>
+#heuvnlgiku table {
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+        }
+
+#heuvnlgiku thead, tbody, tfoot, tr, td, th { border-style: none; }
+ tr { background-color: transparent; }
+#heuvnlgiku p { margin: 0; padding: 0; }
+ #heuvnlgiku .gt_table { display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3; }
+ #heuvnlgiku .gt_caption { padding-top: 4px; padding-bottom: 4px; }
+ #heuvnlgiku .gt_title { color: #333333; font-size: 125%; font-weight: initial; padding-top: 4px; padding-bottom: 4px; padding-left: 5px; padding-right: 5px; border-bottom-color: #FFFFFF; border-bottom-width: 0; }
+ #heuvnlgiku .gt_subtitle { color: #333333; font-size: 85%; font-weight: initial; padding-top: 3px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px; border-top-color: #FFFFFF; border-top-width: 0; }
+ #heuvnlgiku .gt_heading { background-color: #FFFFFF; text-align: center; border-bottom-color: #FFFFFF; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; }
+ #heuvnlgiku .gt_bottom_border { border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; }
+ #heuvnlgiku .gt_col_headings { border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; }
+ #heuvnlgiku .gt_col_heading { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: normal; text-transform: inherit; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: bottom; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px; overflow-x: hidden; }
+ #heuvnlgiku .gt_column_spanner_outer { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: normal; text-transform: inherit; padding-top: 0; padding-bottom: 0; padding-left: 4px; padding-right: 4px; }
+ #heuvnlgiku .gt_column_spanner_outer:first-child { padding-left: 0; }
+ #heuvnlgiku .gt_column_spanner_outer:last-child { padding-right: 0; }
+ #heuvnlgiku .gt_column_spanner { border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; vertical-align: bottom; padding-top: 5px; padding-bottom: 5px; overflow-x: hidden; display: inline-block; width: 100%; }
+ #heuvnlgiku .gt_spanner_row { border-bottom-style: hidden; }
+ #heuvnlgiku .gt_group_heading { padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; text-align: left; }
+ #heuvnlgiku .gt_empty_group_heading { padding: 0.5px; color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; vertical-align: middle; }
+ #heuvnlgiku .gt_from_md> :first-child { margin-top: 0; }
+ #heuvnlgiku .gt_from_md> :last-child { margin-bottom: 0; }
+ #heuvnlgiku .gt_row { padding-top: 8px; padding-bottom: 8px; padding-left: 20px; padding-right: 20px; margin: 10px; border-top-style: solid; border-top-width: 1px; border-top-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; overflow-x: hidden; }
+ #heuvnlgiku .gt_stub { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-right-style: solid; border-right-width: 2px; border-right-color: #D3D3D3; padding-left: 20px; padding-right: 20px; }
+ #heuvnlgiku .gt_stub_row_group { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-right-style: solid; border-right-width: 2px; border-right-color: #D3D3D3; padding-left: 5px; padding-right: 5px; vertical-align: top; }
+ #heuvnlgiku .gt_row_group_first td { border-top-width: 2px; }
+ #heuvnlgiku .gt_row_group_first th { border-top-width: 2px; }
+ #heuvnlgiku .gt_striped { background-color: rgba(128,128,128,0.05); }
+ #heuvnlgiku .gt_table_body { border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; }
+ #heuvnlgiku .gt_sourcenotes { color: #333333; background-color: #FFFFFF; border-bottom-style: none; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; }
+ #heuvnlgiku .gt_sourcenote { font-size: 90%; padding-top: 4px; padding-bottom: 4px; padding-left: 5px; padding-right: 5px; text-align: left; }
+ #heuvnlgiku .gt_left { text-align: left; }
+ #heuvnlgiku .gt_center { text-align: center; }
+ #heuvnlgiku .gt_right { text-align: right; font-variant-numeric: tabular-nums; }
+ #heuvnlgiku .gt_font_normal { font-weight: normal; }
+ #heuvnlgiku .gt_font_bold { font-weight: bold; }
+ #heuvnlgiku .gt_font_italic { font-style: italic; }
+ #heuvnlgiku .gt_super { font-size: 65%; }
+ #heuvnlgiku .gt_footnote_marks { font-size: 75%; vertical-align: 0.4em; position: initial; }
+ #heuvnlgiku .gt_asterisk { font-size: 100%; vertical-align: 0; }
+ 
+</style>
+
+<table class="gt_table caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<thead>
+<tr class="gt_heading header">
+<th colspan="4" class="gt_heading gt_title gt_font_normal" style="text-align: center;">Dados básicos dos corpora</th>
+</tr>
+<tr class="gt_heading even">
+<th colspan="4" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border" style="text-align: center;"></th>
+</tr>
+<tr class="gt_col_headings header">
+<th id="Corpus" class="gt_col_heading gt_columns_bottom_border gt_left" style="text-align: center;" data-quarto-table-cell-role="th" scope="col">Corpus</th>
+<th id="extra-H1-H" class="gt_col_heading gt_columns_bottom_border gt_center" style="text-align: center;" data-quarto-table-cell-role="th" scope="col">Acordes</th>
+<th id="extra-M1-M" class="gt_col_heading gt_columns_bottom_border gt_center" style="text-align: center;" data-quarto-table-cell-role="th" scope="col">Ataques</th>
+<th id="extra-M2-M" class="gt_col_heading gt_columns_bottom_border gt_center" style="text-align: center;" data-quarto-table-cell-role="th" scope="col">Notas-funções</th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="gt_group_heading_row odd">
+<td colspan="4" class="gt_group_heading" data-quarto-table-cell-role="th" style="text-align: center; font-size: small; font-weight: bold;">MPB</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Tom Jobim</td>
+<td class="gt_row gt_center" style="text-align: center;">2320</td>
+<td class="gt_row gt_center" style="text-align: center;">6276</td>
+<td class="gt_row gt_center" style="text-align: center;">2375</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Ivan Lins</td>
+<td class="gt_row gt_center" style="text-align: center;">2238</td>
+<td class="gt_row gt_center" style="text-align: center;">6115</td>
+<td class="gt_row gt_center" style="text-align: center;">2066</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Chico Buarque</td>
+<td class="gt_row gt_center" style="text-align: center;">1549</td>
+<td class="gt_row gt_center" style="text-align: center;">5771</td>
+<td class="gt_row gt_center" style="text-align: center;">2159</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Edu Lobo</td>
+<td class="gt_row gt_center" style="text-align: center;">1747</td>
+<td class="gt_row gt_center" style="text-align: center;">5503</td>
+<td class="gt_row gt_center" style="text-align: center;">2063</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Caetano Veloso</td>
+<td class="gt_row gt_center" style="text-align: center;">1449</td>
+<td class="gt_row gt_center" style="text-align: center;">5072</td>
+<td class="gt_row gt_center" style="text-align: center;">3320</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Djavan</td>
+<td class="gt_row gt_center" style="text-align: center;">1740</td>
+<td class="gt_row gt_center" style="text-align: center;">5265</td>
+<td class="gt_row gt_center" style="text-align: center;">3335</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">João Bosco</td>
+<td class="gt_row gt_center" style="text-align: center;">1640</td>
+<td class="gt_row gt_center" style="text-align: center;">6452</td>
+<td class="gt_row gt_center" style="text-align: center;">2577</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Milton Nascimento</td>
+<td class="gt_row gt_center" style="text-align: center;">1396</td>
+<td class="gt_row gt_center" style="text-align: center;">4969</td>
+<td class="gt_row gt_center" style="text-align: center;">1962</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Gilberto Gil</td>
+<td class="gt_row gt_center" style="text-align: center;">1691</td>
+<td class="gt_row gt_center" style="text-align: center;">5883</td>
+<td class="gt_row gt_center" style="text-align: center;">2374</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Rita Lee</td>
+<td class="gt_row gt_center" style="text-align: center;">1310</td>
+<td class="gt_row gt_center" style="text-align: center;">4846</td>
+<td class="gt_row gt_center" style="text-align: center;">2146</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Carlos Lyra</td>
+<td class="gt_row gt_center" style="text-align: center;">1181</td>
+<td class="gt_row gt_center" style="text-align: center;">3246</td>
+<td class="gt_row gt_center" style="text-align: center;">1305</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Dori Caymmmi</td>
+<td class="gt_row gt_center" style="text-align: center;">1025</td>
+<td class="gt_row gt_center" style="text-align: center;">2553</td>
+<td class="gt_row gt_center" style="text-align: center;">1038</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Cartola</td>
+<td class="gt_row gt_center" style="text-align: center;">822</td>
+<td class="gt_row gt_center" style="text-align: center;">2180</td>
+<td class="gt_row gt_center" style="text-align: center;">853</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Gonzaguinha</td>
+<td class="gt_row gt_center" style="text-align: center;">920</td>
+<td class="gt_row gt_center" style="text-align: center;">2932</td>
+<td class="gt_row gt_center" style="text-align: center;">805</td>
+</tr>
+<tr class="gt_group_heading_row even">
+<td colspan="4" class="gt_group_heading" data-quarto-table-cell-role="th" style="text-align: center; font-size: small; font-weight: bold;">Controle</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Jazz</td>
+<td class="gt_row gt_center" style="text-align: center;">1588</td>
+<td class="gt_row gt_center" style="text-align: center;">3833</td>
+<td class="gt_row gt_center" style="text-align: center;">1992</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Choro</td>
+<td class="gt_row gt_center" style="text-align: center;">3143</td>
+<td class="gt_row gt_center" style="text-align: center;">13596</td>
+<td class="gt_row gt_center" style="text-align: center;">2568</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Samba</td>
+<td class="gt_row gt_center" style="text-align: center;">2478</td>
+<td class="gt_row gt_center" style="text-align: center;">8066</td>
+<td class="gt_row gt_center" style="text-align: center;">1997</td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+        
+</div>
+</div>
+<section id="atributos-primários-harmônicos" class="level3" data-number="0.1">
+<h3 data-number="0.1" class="anchored" data-anchor-id="atributos-primários-harmônicos"><span class="header-section-number">0.1</span> Atributos primários harmônicos</h3>
+<p>As duas tabelas que informam os resultados das análises sob a ótica dos atributos primários (harmônicos e melódicos) trazem, para cada <em>corpus</em> informações de diversas naturezas: símbólica (por exemplo, c-letras, cifras acordais etc.), numérica (índices de ancoragem, de contrametricidade etc.) e percentuais (quase sempre entre parênteses e muitas vezes complementando dados simbólicos ou numéricos). Após cada tabela, discussões de cada atributo isolado, baseadas em avaliações das estruturas musicais (e estéticas) envolvidas, são apresentadas.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
+<section id="discussão" class="level4" data-number="0.1.1">
+<h4 data-number="0.1.1" class="anchored" data-anchor-id="discussão"><span class="header-section-number">0.1.1</span> Discussão</h4>
+<section id="relações-tonais-1h1" class="level5" data-number="0.1.1.1">
+<h5 data-number="0.1.1.1" class="anchored" data-anchor-id="relações-tonais-1h1"><span class="header-section-number">0.1.1.1</span> Relações tonais (1H1)</h5>
+<div id="1c56457a" class="cell" data-execution_count="2">
+<div class="cell-output cell-output-display">
+<div id="gfaewbnlux" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>
+#gfaewbnlux table {
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+        }
+
+#gfaewbnlux thead, tbody, tfoot, tr, td, th { border-style: none; }
+ tr { background-color: transparent; }
+#gfaewbnlux p { margin: 0; padding: 0; }
+ #gfaewbnlux .gt_table { display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3; }
+ #gfaewbnlux .gt_caption { padding-top: 4px; padding-bottom: 4px; }
+ #gfaewbnlux .gt_title { color: #333333; font-size: 125%; font-weight: initial; padding-top: 4px; padding-bottom: 4px; padding-left: 5px; padding-right: 5px; border-bottom-color: #FFFFFF; border-bottom-width: 0; }
+ #gfaewbnlux .gt_subtitle { color: #333333; font-size: 85%; font-weight: initial; padding-top: 3px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px; border-top-color: #FFFFFF; border-top-width: 0; }
+ #gfaewbnlux .gt_heading { background-color: #FFFFFF; text-align: center; border-bottom-color: #FFFFFF; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; }
+ #gfaewbnlux .gt_bottom_border { border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; }
+ #gfaewbnlux .gt_col_headings { border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; }
+ #gfaewbnlux .gt_col_heading { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: normal; text-transform: inherit; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: bottom; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px; overflow-x: hidden; }
+ #gfaewbnlux .gt_column_spanner_outer { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: normal; text-transform: inherit; padding-top: 0; padding-bottom: 0; padding-left: 4px; padding-right: 4px; }
+ #gfaewbnlux .gt_column_spanner_outer:first-child { padding-left: 0; }
+ #gfaewbnlux .gt_column_spanner_outer:last-child { padding-right: 0; }
+ #gfaewbnlux .gt_column_spanner { border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; vertical-align: bottom; padding-top: 5px; padding-bottom: 5px; overflow-x: hidden; display: inline-block; width: 100%; }
+ #gfaewbnlux .gt_spanner_row { border-bottom-style: hidden; }
+ #gfaewbnlux .gt_group_heading { padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; text-align: left; }
+ #gfaewbnlux .gt_empty_group_heading { padding: 0.5px; color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; vertical-align: middle; }
+ #gfaewbnlux .gt_from_md> :first-child { margin-top: 0; }
+ #gfaewbnlux .gt_from_md> :last-child { margin-bottom: 0; }
+ #gfaewbnlux .gt_row { padding-top: 8px; padding-bottom: 8px; padding-left: 20px; padding-right: 20px; margin: 10px; border-top-style: solid; border-top-width: 1px; border-top-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; overflow-x: hidden; }
+ #gfaewbnlux .gt_stub { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-right-style: solid; border-right-width: 2px; border-right-color: #D3D3D3; padding-left: 20px; padding-right: 20px; }
+ #gfaewbnlux .gt_stub_row_group { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-right-style: solid; border-right-width: 2px; border-right-color: #D3D3D3; padding-left: 5px; padding-right: 5px; vertical-align: top; }
+ #gfaewbnlux .gt_row_group_first td { border-top-width: 2px; }
+ #gfaewbnlux .gt_row_group_first th { border-top-width: 2px; }
+ #gfaewbnlux .gt_striped { background-color: rgba(128,128,128,0.05); }
+ #gfaewbnlux .gt_table_body { border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; }
+ #gfaewbnlux .gt_sourcenotes { color: #333333; background-color: #FFFFFF; border-bottom-style: none; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; }
+ #gfaewbnlux .gt_sourcenote { font-size: 90%; padding-top: 4px; padding-bottom: 4px; padding-left: 5px; padding-right: 5px; text-align: left; }
+ #gfaewbnlux .gt_left { text-align: left; }
+ #gfaewbnlux .gt_center { text-align: center; }
+ #gfaewbnlux .gt_right { text-align: right; font-variant-numeric: tabular-nums; }
+ #gfaewbnlux .gt_font_normal { font-weight: normal; }
+ #gfaewbnlux .gt_font_bold { font-weight: bold; }
+ #gfaewbnlux .gt_font_italic { font-style: italic; }
+ #gfaewbnlux .gt_super { font-size: 65%; }
+ #gfaewbnlux .gt_footnote_marks { font-size: 75%; vertical-align: 0.4em; position: initial; }
+ #gfaewbnlux .gt_asterisk { font-size: 100%; vertical-align: 0; }
+ 
+</style>
+
+<table class="gt_table caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<thead>
+<tr class="gt_heading header">
+<th colspan="6" class="gt_heading gt_title gt_font_normal" style="text-align: center;">1H1</th>
+</tr>
+<tr class="gt_heading even">
+<th colspan="6" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border" style="text-align: center;">Relações tonais</th>
+</tr>
+<tr class="gt_col_headings header">
+<th id="Corpus" class="gt_col_heading gt_columns_bottom_border gt_left" style="text-align: center;" data-quarto-table-cell-role="th" scope="col">Corpus</th>
+<th id="1H1a" class="gt_col_heading gt_columns_bottom_border gt_center" style="text-align: center;" data-quarto-table-cell-role="th" scope="col">1H1a</th>
+<th id="1H1b" class="gt_col_heading gt_columns_bottom_border gt_center" style="text-align: center;" data-quarto-table-cell-role="th" scope="col">1H1b</th>
+<th id="1H1c" class="gt_col_heading gt_columns_bottom_border gt_center" style="text-align: center;" data-quarto-table-cell-role="th" scope="col">1H1c</th>
+<th id="1H1d" class="gt_col_heading gt_columns_bottom_border gt_center" style="text-align: center;" data-quarto-table-cell-role="th" scope="col">1H1d</th>
+<th id="1H1e" class="gt_col_heading gt_columns_bottom_border gt_center" style="text-align: center;" data-quarto-table-cell-role="th" scope="col">1H1e</th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="gt_group_heading_row odd">
+<td colspan="6" class="gt_group_heading" data-quarto-table-cell-role="th" style="text-align: center; font-size: small; font-weight: bold;">MPB</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Tom Jobim</td>
+<td class="gt_row gt_center" style="text-align: center;">20 (83.3)</td>
+<td class="gt_row gt_center" style="text-align: center;">DÓ (17.5)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.76</td>
+<td class="gt_row gt_center" style="text-align: center;">0.52</td>
+<td class="gt_row gt_center" style="text-align: center;">M3M (12.6)</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Ivan Lins</td>
+<td class="gt_row gt_center" style="text-align: center;">18 (75.0)</td>
+<td class="gt_row gt_center" style="text-align: center;">RÉ (14.3)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.84</td>
+<td class="gt_row gt_center" style="text-align: center;">0.38</td>
+<td class="gt_row gt_center" style="text-align: center;">M3M (13.3)</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Chico Buarque</td>
+<td class="gt_row gt_center" style="text-align: center;">20 (83.3)</td>
+<td class="gt_row gt_center" style="text-align: center;">RÉ (12.6)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.68</td>
+<td class="gt_row gt_center" style="text-align: center;">0.58</td>
+<td class="gt_row gt_center" style="text-align: center;">M9m (15.6)</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Edu Lobo</td>
+<td class="gt_row gt_center" style="text-align: center;">20 (83.3)</td>
+<td class="gt_row gt_center" style="text-align: center;">DÓ (11.3)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.54</td>
+<td class="gt_row gt_center" style="text-align: center;">0.44</td>
+<td class="gt_row gt_center" style="text-align: center;">M4M (12.2)</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Caetano Veloso</td>
+<td class="gt_row gt_center" style="text-align: center;">18 (75.0)</td>
+<td class="gt_row gt_center" style="text-align: center;">DÓ (24.0)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.84</td>
+<td class="gt_row gt_center" style="text-align: center;">0.58</td>
+<td class="gt_row gt_center" style="text-align: center;">M10M (12.0)</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Djavan</td>
+<td class="gt_row gt_center" style="text-align: center;">15 (62.5)</td>
+<td class="gt_row gt_center" style="text-align: center;">lá (14.0)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.74</td>
+<td class="gt_row gt_center" style="text-align: center;">0.62</td>
+<td class="gt_row gt_center" style="text-align: center;">M9m (9.3)</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">João Bosco</td>
+<td class="gt_row gt_center" style="text-align: center;">14 (58.3)</td>
+<td class="gt_row gt_center" style="text-align: center;">MI (16.9)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.56</td>
+<td class="gt_row gt_center" style="text-align: center;">0.7</td>
+<td class="gt_row gt_center" style="text-align: center;">m0M (17.9)</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Milton Nascimento</td>
+<td class="gt_row gt_center" style="text-align: center;">17 (70.8)</td>
+<td class="gt_row gt_center" style="text-align: center;">ré (15.6)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.52</td>
+<td class="gt_row gt_center" style="text-align: center;">0.4</td>
+<td class="gt_row gt_center" style="text-align: center;">m0M (10.3)</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Gilberto Gil</td>
+<td class="gt_row gt_center" style="text-align: center;">18 (75.0)</td>
+<td class="gt_row gt_center" style="text-align: center;">DÓ (17.8)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.84</td>
+<td class="gt_row gt_center" style="text-align: center;">0.54</td>
+<td class="gt_row gt_center" style="text-align: center;">M9m (13.2)</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Rita Lee</td>
+<td class="gt_row gt_center" style="text-align: center;">15 (62.5)</td>
+<td class="gt_row gt_center" style="text-align: center;">RÉ (16.9)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.84</td>
+<td class="gt_row gt_center" style="text-align: center;">0.74</td>
+<td class="gt_row gt_center" style="text-align: center;">M5M (17.9)</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Carlos Lyra</td>
+<td class="gt_row gt_center" style="text-align: center;">18 (75.0)</td>
+<td class="gt_row gt_center" style="text-align: center;">RÉ (23.6)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.9</td>
+<td class="gt_row gt_center" style="text-align: center;">0.533</td>
+<td class="gt_row gt_center" style="text-align: center;">M5M (14.3)</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Dori Caymmmi</td>
+<td class="gt_row gt_center" style="text-align: center;">17 (70.8)</td>
+<td class="gt_row gt_center" style="text-align: center;">RÉ (20.2)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.692</td>
+<td class="gt_row gt_center" style="text-align: center;">0.269</td>
+<td class="gt_row gt_center" style="text-align: center;">m3M (17.2)</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Cartola</td>
+<td class="gt_row gt_center" style="text-align: center;">11 (45.8)</td>
+<td class="gt_row gt_center" style="text-align: center;">DÓ (23.5)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.9</td>
+<td class="gt_row gt_center" style="text-align: center;">0.7</td>
+<td class="gt_row gt_center" style="text-align: center;">M8M (28.6)</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Gonzaguinha</td>
+<td class="gt_row gt_center" style="text-align: center;">16 (66.7)</td>
+<td class="gt_row gt_center" style="text-align: center;">SOL (17.5)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.6</td>
+<td class="gt_row gt_center" style="text-align: center;">0.6</td>
+<td class="gt_row gt_center" style="text-align: center;">m3M (25.0)</td>
+</tr>
+<tr class="gt_group_heading_row even">
+<td colspan="6" class="gt_group_heading" data-quarto-table-cell-role="th" style="text-align: center; font-size: small; font-weight: bold;">Controle</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Jazz</td>
+<td class="gt_row gt_center" style="text-align: center;">20 (83.3)</td>
+<td class="gt_row gt_center" style="text-align: center;">DÓ (19.9)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.84</td>
+<td class="gt_row gt_center" style="text-align: center;">0.44</td>
+<td class="gt_row gt_center" style="text-align: center;">M4M (20.8)</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Choro</td>
+<td class="gt_row gt_center" style="text-align: center;">14 (58.3)</td>
+<td class="gt_row gt_center" style="text-align: center;">FÁ (28.8)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.7</td>
+<td class="gt_row gt_center" style="text-align: center;">0.06</td>
+<td class="gt_row gt_center" style="text-align: center;">M9m (23.3)</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Samba</td>
+<td class="gt_row gt_center" style="text-align: center;">18 (75.0)</td>
+<td class="gt_row gt_center" style="text-align: center;">SOL (17.7)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.82</td>
+<td class="gt_row gt_center" style="text-align: center;">0.88</td>
+<td class="gt_row gt_center" style="text-align: center;">M9m (33.3)</td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+        
+</div>
+</div>
+<p><strong>1H1a</strong> – Com a exceção dos <em>corpora</em> Choro, João Bosco, Carlos Lyra, Dori Caymmi e Cartola (todos em volta de 10%), os demais são consideravelmente semelhantes na diversidade de tonalidades empregadas (variando entre 50 e 75% do total possível), incluindo tônicas principais e secundárias, o que sugere ser tal atributo um marcador centrípeto em relação ao superconjunto “Música Popular Urbana do Brasil”. Reforça-se assim a noção de que a exploração de um espectro amplo de alternativas tonais é uma regra compartilhada.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p>
+<p><strong>1H1b</strong> – A preferência por uma tônica específica num determinado <em>corpus</em> pode ser explicada por tantas razões (e idiossincrasias) que o atributo é certamente inócuo para os propósitos de marcação estilística. A despeito disso, chama bastante a atenção o fato de que o <em>corpus</em> Milton Nascimento é o único em que a predominância recai sobre uma tonalidade menor (ré), o que se apresenta, provavelmente, como uma característica individual marcante do compositor.</p>
+<p><strong>1H1c</strong> – Aqui vemos novamente a provável ação de uma regra compartilhada por membros do superconjunto “Música Popular”, que congrega todos os <em>corpora</em> (e, provavelmente, também do conjunto superordenado a este, “Música Tonal”). No entanto, parece ser significativo o relativo alto percentual do modo menor nos <em>corpora</em> Edu Lobo, João Bosco, Milton Nascimento, Dori Caymmi e Gonzaguinha (beirando a metade do total nos quatro casos), um fato que requer estudos futuros.</p>
+<p><strong>1H1d</strong> – É necessário, inicialmente, diferenciar o caso do <em>corpus</em> Choro dos demais, já que nesse gênero, ao contrário do que acontece no Jazz e no Samba, é idiomático o emprego de modulações <em>seccionais</em> (ou seja, assocadas às delimitações entre seções, uma característica herdada pela forma rondó.<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> Portanto, tal característica implica a inexistência de peças monotônicas nesse <em>corpus</em>, tornando-o incomparável aos demais em relação a tal aspecto, no sentido de se extrair informações estilísticas significativas, bem entendido. No caso do <em>corpus</em> Samba, por outro lado, chama a atenção a alta proporção de peças monotônicas, o que não apenas pode ser um reflexo da seleção livre do repertório: de fato, pela experiência adquirida na audição de uma grande quantidade de sambas, parece-nos que de fato que o emprego de modulações como estratégia para contraste tonal é menos comum do que em outros gêneros, algo que pode ser investigado com mais propriedade em trabalhos futuros.</p>
+<p><strong>1H1e</strong> – Temos aqui uma clara diferenciação entre os <em>corpora</em> de análise e os de controle Samba e Choro (representantes do superconjunto “Música Popular Urbana do Brasil”), um fato que vem reforçar duas das hipóteses inicialmente elencadas: enquanto que nos dois gêneros observa-se a preponderância de relações binárias tonais “notáveis” (respectivamente, M5M e M9m),<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> os <em>corpora</em> Jobim, Ivan Lins, Edu Lobo e, um tanto surpreendentemente, Cartola têm como mais recorrente RBTs do tipo “mediântica cromática” (M3M, M4M, M8M e M9M), o que também acontece no <em>corpus</em> Jazz, sugerindo uma afinidade estilística neste aspecto, como foi hipotetizado. Os <em>corpora</em> Caetano Veloso e Djavan, embora apresente relações mediânticas com certo destaque, têm a RBT M10M como predominante (além de M9m e m8M, no caso de Djavan). Já no <em>corpus</em> João Bosco, destoando mais destacadamente dos demais, observa-se a predominância de uma RBT “notável” homônima, M0m, o que também se observa no <em>corpus</em> Milton Nascimento.<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> Esse tópico é retomado em maiores detalhes na discussão sobre atributos harmônicos secundários.</p>
+</section>
+<section id="funções-1h2" class="level5" data-number="0.1.1.2">
+<h5 data-number="0.1.1.2" class="anchored" data-anchor-id="funções-1h2"><span class="header-section-number">0.1.1.2</span> Funções (1H2)</h5>
+<div id="2098e235" class="cell" data-execution_count="3">
+<div class="cell-output cell-output-display">
+<div id="jwnfikldxn" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>
+#jwnfikldxn table {
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+        }
+
+#jwnfikldxn thead, tbody, tfoot, tr, td, th { border-style: none; }
+ tr { background-color: transparent; }
+#jwnfikldxn p { margin: 0; padding: 0; }
+ #jwnfikldxn .gt_table { display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3; }
+ #jwnfikldxn .gt_caption { padding-top: 4px; padding-bottom: 4px; }
+ #jwnfikldxn .gt_title { color: #333333; font-size: 125%; font-weight: initial; padding-top: 4px; padding-bottom: 4px; padding-left: 5px; padding-right: 5px; border-bottom-color: #FFFFFF; border-bottom-width: 0; }
+ #jwnfikldxn .gt_subtitle { color: #333333; font-size: 85%; font-weight: initial; padding-top: 3px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px; border-top-color: #FFFFFF; border-top-width: 0; }
+ #jwnfikldxn .gt_heading { background-color: #FFFFFF; text-align: center; border-bottom-color: #FFFFFF; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; }
+ #jwnfikldxn .gt_bottom_border { border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; }
+ #jwnfikldxn .gt_col_headings { border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; }
+ #jwnfikldxn .gt_col_heading { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: normal; text-transform: inherit; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: bottom; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px; overflow-x: hidden; }
+ #jwnfikldxn .gt_column_spanner_outer { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: normal; text-transform: inherit; padding-top: 0; padding-bottom: 0; padding-left: 4px; padding-right: 4px; }
+ #jwnfikldxn .gt_column_spanner_outer:first-child { padding-left: 0; }
+ #jwnfikldxn .gt_column_spanner_outer:last-child { padding-right: 0; }
+ #jwnfikldxn .gt_column_spanner { border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; vertical-align: bottom; padding-top: 5px; padding-bottom: 5px; overflow-x: hidden; display: inline-block; width: 100%; }
+ #jwnfikldxn .gt_spanner_row { border-bottom-style: hidden; }
+ #jwnfikldxn .gt_group_heading { padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; text-align: left; }
+ #jwnfikldxn .gt_empty_group_heading { padding: 0.5px; color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; vertical-align: middle; }
+ #jwnfikldxn .gt_from_md> :first-child { margin-top: 0; }
+ #jwnfikldxn .gt_from_md> :last-child { margin-bottom: 0; }
+ #jwnfikldxn .gt_row { padding-top: 8px; padding-bottom: 8px; padding-left: 20px; padding-right: 20px; margin: 10px; border-top-style: solid; border-top-width: 1px; border-top-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; overflow-x: hidden; }
+ #jwnfikldxn .gt_stub { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-right-style: solid; border-right-width: 2px; border-right-color: #D3D3D3; padding-left: 20px; padding-right: 20px; }
+ #jwnfikldxn .gt_stub_row_group { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-right-style: solid; border-right-width: 2px; border-right-color: #D3D3D3; padding-left: 5px; padding-right: 5px; vertical-align: top; }
+ #jwnfikldxn .gt_row_group_first td { border-top-width: 2px; }
+ #jwnfikldxn .gt_row_group_first th { border-top-width: 2px; }
+ #jwnfikldxn .gt_striped { background-color: rgba(128,128,128,0.05); }
+ #jwnfikldxn .gt_table_body { border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; }
+ #jwnfikldxn .gt_sourcenotes { color: #333333; background-color: #FFFFFF; border-bottom-style: none; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; }
+ #jwnfikldxn .gt_sourcenote { font-size: 90%; padding-top: 4px; padding-bottom: 4px; padding-left: 5px; padding-right: 5px; text-align: left; }
+ #jwnfikldxn .gt_left { text-align: left; }
+ #jwnfikldxn .gt_center { text-align: center; }
+ #jwnfikldxn .gt_right { text-align: right; font-variant-numeric: tabular-nums; }
+ #jwnfikldxn .gt_font_normal { font-weight: normal; }
+ #jwnfikldxn .gt_font_bold { font-weight: bold; }
+ #jwnfikldxn .gt_font_italic { font-style: italic; }
+ #jwnfikldxn .gt_super { font-size: 65%; }
+ #jwnfikldxn .gt_footnote_marks { font-size: 75%; vertical-align: 0.4em; position: initial; }
+ #jwnfikldxn .gt_asterisk { font-size: 100%; vertical-align: 0; }
+ 
+</style>
+
+<table class="gt_table caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<thead>
+<tr class="gt_heading header">
+<th colspan="3" class="gt_heading gt_title gt_font_normal" style="text-align: center;">1H2</th>
+</tr>
+<tr class="gt_heading even">
+<th colspan="3" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border" style="text-align: center;">Funções</th>
+</tr>
+<tr class="gt_col_headings header">
+<th id="Corpus" class="gt_col_heading gt_columns_bottom_border gt_left" style="text-align: center;" data-quarto-table-cell-role="th" scope="col">Corpus</th>
+<th id="1H2a" class="gt_col_heading gt_columns_bottom_border gt_center" style="text-align: center;" data-quarto-table-cell-role="th" scope="col">1H2a</th>
+<th id="1H2b" class="gt_col_heading gt_columns_bottom_border gt_center" style="text-align: center;" data-quarto-table-cell-role="th" scope="col">1H2b</th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="gt_group_heading_row odd">
+<td colspan="3" class="gt_group_heading" data-quarto-table-cell-role="th" style="text-align: center; font-size: small; font-weight: bold;">MPB</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Tom Jobim</td>
+<td class="gt_row gt_center" style="text-align: center;">I (20.3)</td>
+<td class="gt_row gt_center" style="text-align: center;">V|I (5.7)</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Ivan Lins</td>
+<td class="gt_row gt_center" style="text-align: center;">I (20.9)</td>
+<td class="gt_row gt_center" style="text-align: center;">V|I (7.0)</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Chico Buarque</td>
+<td class="gt_row gt_center" style="text-align: center;">I (18.5)</td>
+<td class="gt_row gt_center" style="text-align: center;">V|I (9.1)</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Edu Lobo</td>
+<td class="gt_row gt_center" style="text-align: center;">I (22.8)</td>
+<td class="gt_row gt_center" style="text-align: center;">V|I (7.2)</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Caetano Veloso</td>
+<td class="gt_row gt_center" style="text-align: center;">I (23.3)</td>
+<td class="gt_row gt_center" style="text-align: center;">V|I (11.9)</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Djavan</td>
+<td class="gt_row gt_center" style="text-align: center;">I (19.7)</td>
+<td class="gt_row gt_center" style="text-align: center;">V|I (7.8)</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">João Bosco</td>
+<td class="gt_row gt_center" style="text-align: center;">I (24.3)</td>
+<td class="gt_row gt_center" style="text-align: center;">V|I (8.0)</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Milton Nascimento</td>
+<td class="gt_row gt_center" style="text-align: center;">I (35.4)</td>
+<td class="gt_row gt_center" style="text-align: center;">I|I (11.7)</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Gilberto Gil</td>
+<td class="gt_row gt_center" style="text-align: center;">I (24.5)</td>
+<td class="gt_row gt_center" style="text-align: center;">V|I (9.3)</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Rita Lee</td>
+<td class="gt_row gt_center" style="text-align: center;">I (24.8)</td>
+<td class="gt_row gt_center" style="text-align: center;">V|I (9.0)</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Carlos Lyra</td>
+<td class="gt_row gt_center" style="text-align: center;">I (21.4)</td>
+<td class="gt_row gt_center" style="text-align: center;">V|I (9.4)</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Dori Caymmmi</td>
+<td class="gt_row gt_center" style="text-align: center;">I (25.5)</td>
+<td class="gt_row gt_center" style="text-align: center;">V|I (10.2)</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Cartola</td>
+<td class="gt_row gt_center" style="text-align: center;">V (19.9)</td>
+<td class="gt_row gt_center" style="text-align: center;">V|I (14.1)</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Gonzaguinha</td>
+<td class="gt_row gt_center" style="text-align: center;">I (20.5)</td>
+<td class="gt_row gt_center" style="text-align: center;">V|I (9.7)</td>
+</tr>
+<tr class="gt_group_heading_row even">
+<td colspan="3" class="gt_group_heading" data-quarto-table-cell-role="th" style="text-align: center; font-size: small; font-weight: bold;">Controle</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Jazz</td>
+<td class="gt_row gt_center" style="text-align: center;">I (19.8)</td>
+<td class="gt_row gt_center" style="text-align: center;">V|I (11.5)</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Choro</td>
+<td class="gt_row gt_center" style="text-align: center;">I (27.8)</td>
+<td class="gt_row gt_center" style="text-align: center;">V|I (15.7)</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Samba</td>
+<td class="gt_row gt_center" style="text-align: center;">I (28.5)</td>
+<td class="gt_row gt_center" style="text-align: center;">V|I (16.8)</td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+        
+</div>
+</div>
+<p><strong>1H2a</strong> – Como no atributo 1H1c, a quase por completa sintonia de todos os <em>corpora</em> em relação à categoria funcional mais comum – o I grau – favorece a interpretação de termos aqui uma nova evidência de regra geral.<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> Certamente, o fato mais significativo de todos seja a relativamente alta presença da categoria I no <em>corpus</em> Milton (35.4%), a maior de todas (bem acima, aliás, do que se observa no grupo de controle), o que, provavelmente, é mais um sintoma da preponderância modal na música do compositor.</p>
+<p><strong>1H2b</strong> – Algo semelhante ocorre em relação a este atributo, desta vez com uma total convergência: como seria esperado em ambientes tonais, a fórmula funcional V|I é predominante. Novamente, numa leitura um pouco mais fina, podemos observar que, a despeito dessa predominância, o peso estatístico dessa RBF é consideravelmente menor nos <em>corpora</em> de análise do que no grupo de controle (destacando-se, neste caso, o <em>corpus</em> Jobim, com apenas 5.6% para o encadeamento), o que sugeriria igualmente uma maior diversidade funcional. No caso de Milton Nascimento, entretanto, a comparação com o atributo 1H2a parece, indiretamente, corroborar o esvaziamento do uso de forças tonais, já que, a despeito da forte presença de I em seu repertório, em apenas 7.7% das RBFs analisadas ele é precedido por V.</p>
+</section>
+<section id="tipos-acordais-1h3" class="level5" data-number="0.1.1.3">
+<h5 data-number="0.1.1.3" class="anchored" data-anchor-id="tipos-acordais-1h3"><span class="header-section-number">0.1.1.3</span> Tipos acordais (1H3)</h5>
+<div id="eb510ce9" class="cell" data-execution_count="4">
+<div class="cell-output cell-output-display">
+<div id="mxpzouxkvw" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>
+#mxpzouxkvw table {
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+        }
+
+#mxpzouxkvw thead, tbody, tfoot, tr, td, th { border-style: none; }
+ tr { background-color: transparent; }
+#mxpzouxkvw p { margin: 0; padding: 0; }
+ #mxpzouxkvw .gt_table { display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3; }
+ #mxpzouxkvw .gt_caption { padding-top: 4px; padding-bottom: 4px; }
+ #mxpzouxkvw .gt_title { color: #333333; font-size: 125%; font-weight: initial; padding-top: 4px; padding-bottom: 4px; padding-left: 5px; padding-right: 5px; border-bottom-color: #FFFFFF; border-bottom-width: 0; }
+ #mxpzouxkvw .gt_subtitle { color: #333333; font-size: 85%; font-weight: initial; padding-top: 3px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px; border-top-color: #FFFFFF; border-top-width: 0; }
+ #mxpzouxkvw .gt_heading { background-color: #FFFFFF; text-align: center; border-bottom-color: #FFFFFF; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; }
+ #mxpzouxkvw .gt_bottom_border { border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; }
+ #mxpzouxkvw .gt_col_headings { border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; }
+ #mxpzouxkvw .gt_col_heading { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: normal; text-transform: inherit; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: bottom; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px; overflow-x: hidden; }
+ #mxpzouxkvw .gt_column_spanner_outer { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: normal; text-transform: inherit; padding-top: 0; padding-bottom: 0; padding-left: 4px; padding-right: 4px; }
+ #mxpzouxkvw .gt_column_spanner_outer:first-child { padding-left: 0; }
+ #mxpzouxkvw .gt_column_spanner_outer:last-child { padding-right: 0; }
+ #mxpzouxkvw .gt_column_spanner { border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; vertical-align: bottom; padding-top: 5px; padding-bottom: 5px; overflow-x: hidden; display: inline-block; width: 100%; }
+ #mxpzouxkvw .gt_spanner_row { border-bottom-style: hidden; }
+ #mxpzouxkvw .gt_group_heading { padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; text-align: left; }
+ #mxpzouxkvw .gt_empty_group_heading { padding: 0.5px; color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; vertical-align: middle; }
+ #mxpzouxkvw .gt_from_md> :first-child { margin-top: 0; }
+ #mxpzouxkvw .gt_from_md> :last-child { margin-bottom: 0; }
+ #mxpzouxkvw .gt_row { padding-top: 8px; padding-bottom: 8px; padding-left: 20px; padding-right: 20px; margin: 10px; border-top-style: solid; border-top-width: 1px; border-top-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; overflow-x: hidden; }
+ #mxpzouxkvw .gt_stub { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-right-style: solid; border-right-width: 2px; border-right-color: #D3D3D3; padding-left: 20px; padding-right: 20px; }
+ #mxpzouxkvw .gt_stub_row_group { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-right-style: solid; border-right-width: 2px; border-right-color: #D3D3D3; padding-left: 5px; padding-right: 5px; vertical-align: top; }
+ #mxpzouxkvw .gt_row_group_first td { border-top-width: 2px; }
+ #mxpzouxkvw .gt_row_group_first th { border-top-width: 2px; }
+ #mxpzouxkvw .gt_striped { background-color: rgba(128,128,128,0.05); }
+ #mxpzouxkvw .gt_table_body { border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; }
+ #mxpzouxkvw .gt_sourcenotes { color: #333333; background-color: #FFFFFF; border-bottom-style: none; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; }
+ #mxpzouxkvw .gt_sourcenote { font-size: 90%; padding-top: 4px; padding-bottom: 4px; padding-left: 5px; padding-right: 5px; text-align: left; }
+ #mxpzouxkvw .gt_left { text-align: left; }
+ #mxpzouxkvw .gt_center { text-align: center; }
+ #mxpzouxkvw .gt_right { text-align: right; font-variant-numeric: tabular-nums; }
+ #mxpzouxkvw .gt_font_normal { font-weight: normal; }
+ #mxpzouxkvw .gt_font_bold { font-weight: bold; }
+ #mxpzouxkvw .gt_font_italic { font-style: italic; }
+ #mxpzouxkvw .gt_super { font-size: 65%; }
+ #mxpzouxkvw .gt_footnote_marks { font-size: 75%; vertical-align: 0.4em; position: initial; }
+ #mxpzouxkvw .gt_asterisk { font-size: 100%; vertical-align: 0; }
+ 
+</style>
+
+<table class="gt_table caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<thead>
+<tr class="gt_heading header">
+<th colspan="4" class="gt_heading gt_title gt_font_normal" style="text-align: center;">1H3</th>
+</tr>
+<tr class="gt_heading even">
+<th colspan="4" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border" style="text-align: center;">Tipos acordais</th>
+</tr>
+<tr class="gt_col_headings header">
+<th id="Corpus" class="gt_col_heading gt_columns_bottom_border gt_left" style="text-align: center;" data-quarto-table-cell-role="th" scope="col">Corpus</th>
+<th id="1H3a" class="gt_col_heading gt_columns_bottom_border gt_center" style="text-align: center;" data-quarto-table-cell-role="th" scope="col">1H3a</th>
+<th id="1H3b" class="gt_col_heading gt_columns_bottom_border gt_center" style="text-align: center;" data-quarto-table-cell-role="th" scope="col">1H3b</th>
+<th id="1H3c" class="gt_col_heading gt_columns_bottom_border gt_center" style="text-align: center;" data-quarto-table-cell-role="th" scope="col">1H3c</th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="gt_group_heading_row odd">
+<td colspan="4" class="gt_group_heading" data-quarto-table-cell-role="th" style="text-align: center; font-size: small; font-weight: bold;">MPB</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Tom Jobim</td>
+<td class="gt_row gt_center" style="text-align: center;">Y (36.1)</td>
+<td class="gt_row gt_center" style="text-align: center;">z0 (17.7)</td>
+<td class="gt_row gt_center" style="text-align: center;">z|7Y (8.9)</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Ivan Lins</td>
+<td class="gt_row gt_center" style="text-align: center;">Y (41.2)</td>
+<td class="gt_row gt_center" style="text-align: center;">z2 (10.6)</td>
+<td class="gt_row gt_center" style="text-align: center;">Y|0Y (11.3)</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Chico Buarque</td>
+<td class="gt_row gt_center" style="text-align: center;">Y (42.3)</td>
+<td class="gt_row gt_center" style="text-align: center;">Y0 (20.5)</td>
+<td class="gt_row gt_center" style="text-align: center;">Y|7Z (6.3)</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Edu Lobo</td>
+<td class="gt_row gt_center" style="text-align: center;">Y (39.0)</td>
+<td class="gt_row gt_center" style="text-align: center;">z0 (11.6)</td>
+<td class="gt_row gt_center" style="text-align: center;">Y|0Y (9.2)</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Caetano Veloso</td>
+<td class="gt_row gt_center" style="text-align: center;">Y (34.2)</td>
+<td class="gt_row gt_center" style="text-align: center;">V0 (23.3)</td>
+<td class="gt_row gt_center" style="text-align: center;">z|7Y (12.6)</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Djavan</td>
+<td class="gt_row gt_center" style="text-align: center;">Y (38.9)</td>
+<td class="gt_row gt_center" style="text-align: center;">z0 (16.6)</td>
+<td class="gt_row gt_center" style="text-align: center;">z|7Y (9.5)</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">João Bosco</td>
+<td class="gt_row gt_center" style="text-align: center;">Y (39.8)</td>
+<td class="gt_row gt_center" style="text-align: center;">Y0 (13.8)</td>
+<td class="gt_row gt_center" style="text-align: center;">Y|7Y (7.6)</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Milton Nascimento</td>
+<td class="gt_row gt_center" style="text-align: center;">V (30.4)</td>
+<td class="gt_row gt_center" style="text-align: center;">V0 (25.4)</td>
+<td class="gt_row gt_center" style="text-align: center;">V|0V (4.9)</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Gilberto Gil</td>
+<td class="gt_row gt_center" style="text-align: center;">Y (43.1)</td>
+<td class="gt_row gt_center" style="text-align: center;">Y0 (23.3)</td>
+<td class="gt_row gt_center" style="text-align: center;">Y|7Y (8.1)</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Rita Lee</td>
+<td class="gt_row gt_center" style="text-align: center;">Y (38.9)</td>
+<td class="gt_row gt_center" style="text-align: center;">V0 (28.1)</td>
+<td class="gt_row gt_center" style="text-align: center;">z|7Y (8.3)</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Carlos Lyra</td>
+<td class="gt_row gt_center" style="text-align: center;">Y (36.7)</td>
+<td class="gt_row gt_center" style="text-align: center;">z0 (25.0)</td>
+<td class="gt_row gt_center" style="text-align: center;">z|7Y (15.9)</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Dori Caymmmi</td>
+<td class="gt_row gt_center" style="text-align: center;">Y (37.1)</td>
+<td class="gt_row gt_center" style="text-align: center;">Y0 (11.1)</td>
+<td class="gt_row gt_center" style="text-align: center;">Y|0Y (9.1)</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Cartola</td>
+<td class="gt_row gt_center" style="text-align: center;">Y (37.5)</td>
+<td class="gt_row gt_center" style="text-align: center;">z0 (26.3)</td>
+<td class="gt_row gt_center" style="text-align: center;">z|7Y (15.2)</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Gonzaguinha</td>
+<td class="gt_row gt_center" style="text-align: center;">z (36.5)</td>
+<td class="gt_row gt_center" style="text-align: center;">z0 (26.4)</td>
+<td class="gt_row gt_center" style="text-align: center;">z|7Y (10.0)</td>
+</tr>
+<tr class="gt_group_heading_row even">
+<td colspan="4" class="gt_group_heading" data-quarto-table-cell-role="th" style="text-align: center; font-size: small; font-weight: bold;">Controle</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Jazz</td>
+<td class="gt_row gt_center" style="text-align: center;">Y (37.0)</td>
+<td class="gt_row gt_center" style="text-align: center;">Y0 (20.0)</td>
+<td class="gt_row gt_center" style="text-align: center;">z|7Y (16.9)</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Choro</td>
+<td class="gt_row gt_center" style="text-align: center;">Y (42.9)</td>
+<td class="gt_row gt_center" style="text-align: center;">Y0 (42.8)</td>
+<td class="gt_row gt_center" style="text-align: center;">Y|7V (10.5)</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Samba</td>
+<td class="gt_row gt_center" style="text-align: center;">Y (45.8)</td>
+<td class="gt_row gt_center" style="text-align: center;">Y0 (45.2)</td>
+<td class="gt_row gt_center" style="text-align: center;">Y|7V (11.2)</td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+        
+</div>
+</div>
+<p><strong>1H3a</strong> – Neste aspecto, há uma quase uniformidade das preferências dos <em>corpora</em> (incluindo a perspectiva quantitativa) pelo <em>genus</em> Y.<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a> As únicas e notáveis exceções acontecem nos <em>corpora</em> Gonzaguinha (preferência pela qualidade “menor com sétima” – z) e Milton Nascimento, no qual a tríade maior (V) ocupa a posição de maior destaque, reforçando o caráter predominantemente modal dessa música.<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a></p>
+<p><strong>1H3b</strong> – Em relação ao tipo acordal mais comum dos repertórios, observamos quatro preferências divergentes: (1) o protoacorde dominante Y0 (em reforço aos resultados do atributo 1H3a), nos <em>corpora</em> Jazz, Samba, Chico Buarque, João Bosco, Gilberto Gil e Dori Caymmi; (2) acordes menores com sétima, nos <em>corpora</em> Jobim, Edu Lobo, Djavan, Carlos Lyra, Cartola e Gonzaguinha (com o protoacorde z0) e Ivan Lins (aqui, a variante com nona z2); (3) a tríade menor v0, no <em>corpus</em> Choro e (4) a tríade maior (V0), nos repertórios de Caetano Veloso, Milton Nascimento e Rita Lee, talvez o resultado mais surpreendente da análise deste atributo, por serem estes os únicos <em>corpora</em> analíticos com maior peso em tríades do que em acordes mais densos.<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a></p>
+<p><strong>1H3c</strong> – Em relação a este atributo, podemos observar cinco tipos básicos de RBAs, quatro delas envolvendo a qualidade Y: (1) modelando a relação “dominante | alvo” (tríade maior – V – no <em>corpus</em> Samba e tríade menor – v – no Choro); (2) z|5Y, que modela a conhecida fórmula “<em>two-five</em>”, nos <em>corpora</em> Jazz, Jobim, Chico Buarque, Edu Lobo, Caetano Veloso, Djavan, Rita Lee, Carlos Lyra, Cartola e Gonzaguinha; (3) modelando a fórmula de “dominantes consecutivos” (Y|5Y), nos <em>corpora</em> João Bosco e Gilberto Gil; (4) a RBA “estacionária” Y|0Y, nos <em>corpora</em> Ivan Lins e Dori Caymmi, associada a transformações internas (de tensões, especialmente) em preparações dominantes (por exemplo, 9–♭9 etc.); e (5) a relação V|7V, em destaque apenas no <em>corpus</em> Milton, que parece modelar a fórmula cadencial mixolídia IV-I, mais um elemento idiossincrático na harmonia do compositor (em relação a seus pares).</p>
+</section>
+<section id="acordes-específicos-1h4" class="level5" data-number="0.1.1.4">
+<h5 data-number="0.1.1.4" class="anchored" data-anchor-id="acordes-específicos-1h4"><span class="header-section-number">0.1.1.4</span> Acordes específicos (1H4)</h5>
+<div id="289d98fe" class="cell" data-execution_count="5">
+<div class="cell-output cell-output-display">
+<div id="ifwtogdmeh" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>
+#ifwtogdmeh table {
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+        }
+
+#ifwtogdmeh thead, tbody, tfoot, tr, td, th { border-style: none; }
+ tr { background-color: transparent; }
+#ifwtogdmeh p { margin: 0; padding: 0; }
+ #ifwtogdmeh .gt_table { display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3; }
+ #ifwtogdmeh .gt_caption { padding-top: 4px; padding-bottom: 4px; }
+ #ifwtogdmeh .gt_title { color: #333333; font-size: 125%; font-weight: initial; padding-top: 4px; padding-bottom: 4px; padding-left: 5px; padding-right: 5px; border-bottom-color: #FFFFFF; border-bottom-width: 0; }
+ #ifwtogdmeh .gt_subtitle { color: #333333; font-size: 85%; font-weight: initial; padding-top: 3px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px; border-top-color: #FFFFFF; border-top-width: 0; }
+ #ifwtogdmeh .gt_heading { background-color: #FFFFFF; text-align: center; border-bottom-color: #FFFFFF; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; }
+ #ifwtogdmeh .gt_bottom_border { border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; }
+ #ifwtogdmeh .gt_col_headings { border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; }
+ #ifwtogdmeh .gt_col_heading { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: normal; text-transform: inherit; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: bottom; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px; overflow-x: hidden; }
+ #ifwtogdmeh .gt_column_spanner_outer { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: normal; text-transform: inherit; padding-top: 0; padding-bottom: 0; padding-left: 4px; padding-right: 4px; }
+ #ifwtogdmeh .gt_column_spanner_outer:first-child { padding-left: 0; }
+ #ifwtogdmeh .gt_column_spanner_outer:last-child { padding-right: 0; }
+ #ifwtogdmeh .gt_column_spanner { border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; vertical-align: bottom; padding-top: 5px; padding-bottom: 5px; overflow-x: hidden; display: inline-block; width: 100%; }
+ #ifwtogdmeh .gt_spanner_row { border-bottom-style: hidden; }
+ #ifwtogdmeh .gt_group_heading { padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; text-align: left; }
+ #ifwtogdmeh .gt_empty_group_heading { padding: 0.5px; color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; vertical-align: middle; }
+ #ifwtogdmeh .gt_from_md> :first-child { margin-top: 0; }
+ #ifwtogdmeh .gt_from_md> :last-child { margin-bottom: 0; }
+ #ifwtogdmeh .gt_row { padding-top: 8px; padding-bottom: 8px; padding-left: 20px; padding-right: 20px; margin: 10px; border-top-style: solid; border-top-width: 1px; border-top-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; overflow-x: hidden; }
+ #ifwtogdmeh .gt_stub { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-right-style: solid; border-right-width: 2px; border-right-color: #D3D3D3; padding-left: 20px; padding-right: 20px; }
+ #ifwtogdmeh .gt_stub_row_group { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-right-style: solid; border-right-width: 2px; border-right-color: #D3D3D3; padding-left: 5px; padding-right: 5px; vertical-align: top; }
+ #ifwtogdmeh .gt_row_group_first td { border-top-width: 2px; }
+ #ifwtogdmeh .gt_row_group_first th { border-top-width: 2px; }
+ #ifwtogdmeh .gt_striped { background-color: rgba(128,128,128,0.05); }
+ #ifwtogdmeh .gt_table_body { border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; }
+ #ifwtogdmeh .gt_sourcenotes { color: #333333; background-color: #FFFFFF; border-bottom-style: none; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; }
+ #ifwtogdmeh .gt_sourcenote { font-size: 90%; padding-top: 4px; padding-bottom: 4px; padding-left: 5px; padding-right: 5px; text-align: left; }
+ #ifwtogdmeh .gt_left { text-align: left; }
+ #ifwtogdmeh .gt_center { text-align: center; }
+ #ifwtogdmeh .gt_right { text-align: right; font-variant-numeric: tabular-nums; }
+ #ifwtogdmeh .gt_font_normal { font-weight: normal; }
+ #ifwtogdmeh .gt_font_bold { font-weight: bold; }
+ #ifwtogdmeh .gt_font_italic { font-style: italic; }
+ #ifwtogdmeh .gt_super { font-size: 65%; }
+ #ifwtogdmeh .gt_footnote_marks { font-size: 75%; vertical-align: 0.4em; position: initial; }
+ #ifwtogdmeh .gt_asterisk { font-size: 100%; vertical-align: 0; }
+ 
+</style>
+
+<table class="gt_table caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<thead>
+<tr class="gt_heading header">
+<th colspan="5" class="gt_heading gt_title gt_font_normal" style="text-align: center;">1H4</th>
+</tr>
+<tr class="gt_heading even">
+<th colspan="5" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border" style="text-align: center;">Acordes específicos</th>
+</tr>
+<tr class="gt_col_headings header">
+<th id="Corpus" class="gt_col_heading gt_columns_bottom_border gt_left" style="text-align: center;" data-quarto-table-cell-role="th" scope="col">Corpus</th>
+<th id="1H4a" class="gt_col_heading gt_columns_bottom_border gt_center" style="text-align: center;" data-quarto-table-cell-role="th" scope="col">1H4a</th>
+<th id="1H4b" class="gt_col_heading gt_columns_bottom_border gt_center" style="text-align: center;" data-quarto-table-cell-role="th" scope="col">1H4b</th>
+<th id="1H4c" class="gt_col_heading gt_columns_bottom_border gt_center" style="text-align: center;" data-quarto-table-cell-role="th" scope="col">1H4c</th>
+<th id="1H4d" class="gt_col_heading gt_columns_bottom_border gt_center" style="text-align: center;" data-quarto-table-cell-role="th" scope="col">1H4d</th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="gt_group_heading_row odd">
+<td colspan="5" class="gt_group_heading" data-quarto-table-cell-role="th" style="text-align: center; font-size: small; font-weight: bold;">MPB</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Tom Jobim</td>
+<td class="gt_row gt_center" style="text-align: center;">0.923</td>
+<td class="gt_row gt_center" style="text-align: center;">358</td>
+<td class="gt_row gt_center" style="text-align: center;">Dm7 (3.6)</td>
+<td class="gt_row gt_center" style="text-align: center;">5.0 (31.9)</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Ivan Lins</td>
+<td class="gt_row gt_center" style="text-align: center;">0.884</td>
+<td class="gt_row gt_center" style="text-align: center;">336</td>
+<td class="gt_row gt_center" style="text-align: center;">Bm7.9 (2.0)</td>
+<td class="gt_row gt_center" style="text-align: center;">5.0 (32.3)</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Chico Buarque</td>
+<td class="gt_row gt_center" style="text-align: center;">0.786</td>
+<td class="gt_row gt_center" style="text-align: center;">229</td>
+<td class="gt_row gt_center" style="text-align: center;">A7 (4.4)</td>
+<td class="gt_row gt_center" style="text-align: center;">5.0 (30.2)</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Edu Lobo</td>
+<td class="gt_row gt_center" style="text-align: center;">0.839</td>
+<td class="gt_row gt_center" style="text-align: center;">364</td>
+<td class="gt_row gt_center" style="text-align: center;">Am7 (2.7)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.0 (26.1)</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Caetano Veloso</td>
+<td class="gt_row gt_center" style="text-align: center;">0.965</td>
+<td class="gt_row gt_center" style="text-align: center;">167</td>
+<td class="gt_row gt_center" style="text-align: center;">C (6.1)</td>
+<td class="gt_row gt_center" style="text-align: center;">5.0 (43.4)</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Djavan</td>
+<td class="gt_row gt_center" style="text-align: center;">0.932</td>
+<td class="gt_row gt_center" style="text-align: center;">230</td>
+<td class="gt_row gt_center" style="text-align: center;">Am7 (3.4)</td>
+<td class="gt_row gt_center" style="text-align: center;">5.0 (35.6)</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">João Bosco</td>
+<td class="gt_row gt_center" style="text-align: center;">0.908</td>
+<td class="gt_row gt_center" style="text-align: center;">276</td>
+<td class="gt_row gt_center" style="text-align: center;">B7 (3.3)</td>
+<td class="gt_row gt_center" style="text-align: center;">5.0 (31.4)</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Milton Nascimento</td>
+<td class="gt_row gt_center" style="text-align: center;">0.717</td>
+<td class="gt_row gt_center" style="text-align: center;">218</td>
+<td class="gt_row gt_center" style="text-align: center;">G (6.4)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.0 (29.5)</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Gilberto Gil</td>
+<td class="gt_row gt_center" style="text-align: center;">0.928</td>
+<td class="gt_row gt_center" style="text-align: center;">206</td>
+<td class="gt_row gt_center" style="text-align: center;">A7 (4.0)</td>
+<td class="gt_row gt_center" style="text-align: center;">5.0 (35.3)</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Rita Lee</td>
+<td class="gt_row gt_center" style="text-align: center;">0.962</td>
+<td class="gt_row gt_center" style="text-align: center;">147</td>
+<td class="gt_row gt_center" style="text-align: center;">E7 (5.2)</td>
+<td class="gt_row gt_center" style="text-align: center;">5.0 (33.2)</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Carlos Lyra</td>
+<td class="gt_row gt_center" style="text-align: center;">0.94</td>
+<td class="gt_row gt_center" style="text-align: center;">162</td>
+<td class="gt_row gt_center" style="text-align: center;">Bm7 (4.4)</td>
+<td class="gt_row gt_center" style="text-align: center;">5.0 (41.2)</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Dori Caymmmi</td>
+<td class="gt_row gt_center" style="text-align: center;">0.698</td>
+<td class="gt_row gt_center" style="text-align: center;">198</td>
+<td class="gt_row gt_center" style="text-align: center;">A9 (3.7)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.0 (30.5)</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Cartola</td>
+<td class="gt_row gt_center" style="text-align: center;">0.923</td>
+<td class="gt_row gt_center" style="text-align: center;">122</td>
+<td class="gt_row gt_center" style="text-align: center;">E7 (5.2)</td>
+<td class="gt_row gt_center" style="text-align: center;">5.0 (50.8)</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Gonzaguinha</td>
+<td class="gt_row gt_center" style="text-align: center;">0.911</td>
+<td class="gt_row gt_center" style="text-align: center;">161</td>
+<td class="gt_row gt_center" style="text-align: center;">Am7 (3.7)</td>
+<td class="gt_row gt_center" style="text-align: center;">5.0 (37.6)</td>
+</tr>
+<tr class="gt_group_heading_row even">
+<td colspan="5" class="gt_group_heading" data-quarto-table-cell-role="th" style="text-align: center; font-size: small; font-weight: bold;">Controle</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Jazz</td>
+<td class="gt_row gt_center" style="text-align: center;">0.986</td>
+<td class="gt_row gt_center" style="text-align: center;">240</td>
+<td class="gt_row gt_center" style="text-align: center;">Dm7 (3.5)</td>
+<td class="gt_row gt_center" style="text-align: center;">5.0 (48.6)</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Choro</td>
+<td class="gt_row gt_center" style="text-align: center;">0.775</td>
+<td class="gt_row gt_center" style="text-align: center;">86</td>
+<td class="gt_row gt_center" style="text-align: center;">F (9.1)</td>
+<td class="gt_row gt_center" style="text-align: center;">5.0 (33.3)</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Samba</td>
+<td class="gt_row gt_center" style="text-align: center;">0.74</td>
+<td class="gt_row gt_center" style="text-align: center;">84</td>
+<td class="gt_row gt_center" style="text-align: center;">G7 (7.7)</td>
+<td class="gt_row gt_center" style="text-align: center;">5.0 (37.4)</td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+        
+</div>
+</div>
+<p><strong>1H4a</strong> – Trata-se de um atributo potencialmente inconclusivo, pois a maior ou menor presença de inversões de acordes, embora possa ser associado a certas preferências composicionais, depende também da fonte em que foram coletadas as partituras (que podem ter sido, por alguma razão, originalmente transcritas de maneira simplificada, omitindo possíveis movimentos de baixos). De todo modo, é digno mencionar a relativa alta percentagem (acima de 20%) de inversões nos <em>corpora</em> (nesta ordem): Dori Caymmi, Milton Nascimento, Samba, Choro e Chico Buarque.</p>
+<p><strong>1H4b</strong> – Neste atributo parece haver convergência em dois grandes grupos: os <em>corpora</em> Choro e Samba apresentam relativamente poucos acordes específicos distintos (87, em média) se comparados aos <em>corpora</em> de análise e Jazz (média de 306). Nesse quadro, os <em>corpora</em> Caetano Veloso, Carlos Lyra, Gonzaguinha e Rita Lee se situam num nível mais ou menos equidistante dos dois extremos com, respectivamente, 167, 162, 160 e 147 acordes distintos. Cartola, com 122 acordes, distancia-se mais em relação a esse nível. Embora não explicitamente, os resultados parecem sugerir a existência de uma correlação entre a quantidade de acordes específicos distintos e a complexidade harmônica, algo que poderá ser refinado com a avaliação dos atributos secundários.</p>
+<p><strong>1H4c</strong> – Apenas indiretamente a identificação de acordes específicos mais recorrentes em um <em>corpus</em> pode contribuir para evidenciar um traço estilístico, dada sua fragilidade como atributo e à dispersão com que se manifesta (as preferências nos <em>corpora</em> se apresentam, em geral, taxas variando entre 2 e 7%).</p>
+<p><strong>1H4d</strong> – Como em outros casos (por exemplo, 1H1c, 1H2a e 1H2b), este atributo evidencia uma regra compartilhada por quase todos os <em>corpora</em>, que na verdade emana da própria prática harmônica funcional-tonal, na qual a movimentação de fundamentais por intervalo de quarta ascendente.<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a> Os <em>corpura</em> Milton Nascimento e Dori Caymmi se apresentam como notáveis exceçções, já que o uníssono (repetição de baixo em acordes contíguos) é sensivelmente mais comum nesses repertorios (quase 1/3 dos casos em ambos).</p>
+</section>
+</section>
+</section>
+<section id="atributos-primários-melódicos" class="level3" data-number="0.2">
+<h3 data-number="0.2" class="anchored" data-anchor-id="atributos-primários-melódicos"><span class="header-section-number">0.2</span> Atributos primários melódicos</h3>
+<section id="notas-funções-1m1" class="level4" data-number="0.2.1">
+<h4 data-number="0.2.1" class="anchored" data-anchor-id="notas-funções-1m1"><span class="header-section-number">0.2.1</span> Notas-funções (1M1)</h4>
+<div id="f8a526b4" class="cell" data-execution_count="6">
+<div class="cell-output cell-output-display">
+<div id="avdqvmtglk" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>
+#avdqvmtglk table {
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+        }
+
+#avdqvmtglk thead, tbody, tfoot, tr, td, th { border-style: none; }
+ tr { background-color: transparent; }
+#avdqvmtglk p { margin: 0; padding: 0; }
+ #avdqvmtglk .gt_table { display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3; }
+ #avdqvmtglk .gt_caption { padding-top: 4px; padding-bottom: 4px; }
+ #avdqvmtglk .gt_title { color: #333333; font-size: 125%; font-weight: initial; padding-top: 4px; padding-bottom: 4px; padding-left: 5px; padding-right: 5px; border-bottom-color: #FFFFFF; border-bottom-width: 0; }
+ #avdqvmtglk .gt_subtitle { color: #333333; font-size: 85%; font-weight: initial; padding-top: 3px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px; border-top-color: #FFFFFF; border-top-width: 0; }
+ #avdqvmtglk .gt_heading { background-color: #FFFFFF; text-align: center; border-bottom-color: #FFFFFF; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; }
+ #avdqvmtglk .gt_bottom_border { border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; }
+ #avdqvmtglk .gt_col_headings { border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; }
+ #avdqvmtglk .gt_col_heading { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: normal; text-transform: inherit; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: bottom; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px; overflow-x: hidden; }
+ #avdqvmtglk .gt_column_spanner_outer { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: normal; text-transform: inherit; padding-top: 0; padding-bottom: 0; padding-left: 4px; padding-right: 4px; }
+ #avdqvmtglk .gt_column_spanner_outer:first-child { padding-left: 0; }
+ #avdqvmtglk .gt_column_spanner_outer:last-child { padding-right: 0; }
+ #avdqvmtglk .gt_column_spanner { border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; vertical-align: bottom; padding-top: 5px; padding-bottom: 5px; overflow-x: hidden; display: inline-block; width: 100%; }
+ #avdqvmtglk .gt_spanner_row { border-bottom-style: hidden; }
+ #avdqvmtglk .gt_group_heading { padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; text-align: left; }
+ #avdqvmtglk .gt_empty_group_heading { padding: 0.5px; color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; vertical-align: middle; }
+ #avdqvmtglk .gt_from_md> :first-child { margin-top: 0; }
+ #avdqvmtglk .gt_from_md> :last-child { margin-bottom: 0; }
+ #avdqvmtglk .gt_row { padding-top: 8px; padding-bottom: 8px; padding-left: 20px; padding-right: 20px; margin: 10px; border-top-style: solid; border-top-width: 1px; border-top-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; overflow-x: hidden; }
+ #avdqvmtglk .gt_stub { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-right-style: solid; border-right-width: 2px; border-right-color: #D3D3D3; padding-left: 20px; padding-right: 20px; }
+ #avdqvmtglk .gt_stub_row_group { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-right-style: solid; border-right-width: 2px; border-right-color: #D3D3D3; padding-left: 5px; padding-right: 5px; vertical-align: top; }
+ #avdqvmtglk .gt_row_group_first td { border-top-width: 2px; }
+ #avdqvmtglk .gt_row_group_first th { border-top-width: 2px; }
+ #avdqvmtglk .gt_striped { background-color: rgba(128,128,128,0.05); }
+ #avdqvmtglk .gt_table_body { border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; }
+ #avdqvmtglk .gt_sourcenotes { color: #333333; background-color: #FFFFFF; border-bottom-style: none; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; }
+ #avdqvmtglk .gt_sourcenote { font-size: 90%; padding-top: 4px; padding-bottom: 4px; padding-left: 5px; padding-right: 5px; text-align: left; }
+ #avdqvmtglk .gt_left { text-align: left; }
+ #avdqvmtglk .gt_center { text-align: center; }
+ #avdqvmtglk .gt_right { text-align: right; font-variant-numeric: tabular-nums; }
+ #avdqvmtglk .gt_font_normal { font-weight: normal; }
+ #avdqvmtglk .gt_font_bold { font-weight: bold; }
+ #avdqvmtglk .gt_font_italic { font-style: italic; }
+ #avdqvmtglk .gt_super { font-size: 65%; }
+ #avdqvmtglk .gt_footnote_marks { font-size: 75%; vertical-align: 0.4em; position: initial; }
+ #avdqvmtglk .gt_asterisk { font-size: 100%; vertical-align: 0; }
+ 
+</style>
+
+<table class="gt_table caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<thead>
+<tr class="gt_heading header">
+<th colspan="6" class="gt_heading gt_title gt_font_normal" style="text-align: center;">1M1</th>
+</tr>
+<tr class="gt_heading even">
+<th colspan="6" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border" style="text-align: center;">Notas-funções</th>
+</tr>
+<tr class="gt_col_headings header">
+<th id="Corpus" class="gt_col_heading gt_columns_bottom_border gt_left" style="text-align: center;" data-quarto-table-cell-role="th" scope="col">Corpus</th>
+<th id="1M1a-(maior)" class="gt_col_heading gt_columns_bottom_border gt_center" style="text-align: center;" data-quarto-table-cell-role="th" scope="col">1M1a (maior)</th>
+<th id="1M1a-(menor)" class="gt_col_heading gt_columns_bottom_border gt_center" style="text-align: center;" data-quarto-table-cell-role="th" scope="col">1M1a (menor)</th>
+<th id="1M1b" class="gt_col_heading gt_columns_bottom_border gt_center" style="text-align: center;" data-quarto-table-cell-role="th" scope="col">1M1b</th>
+<th id="1M1c" class="gt_col_heading gt_columns_bottom_border gt_center" style="text-align: center;" data-quarto-table-cell-role="th" scope="col">1M1c</th>
+<th id="1M1d" class="gt_col_heading gt_columns_bottom_border gt_center" style="text-align: center;" data-quarto-table-cell-role="th" scope="col">1M1d</th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="gt_group_heading_row odd">
+<td colspan="6" class="gt_group_heading" data-quarto-table-cell-role="th" style="text-align: center; font-size: small; font-weight: bold;">MPB</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Tom Jobim</td>
+<td class="gt_row gt_center" style="text-align: center;">3 (15.0)</td>
+<td class="gt_row gt_center" style="text-align: center;">3 (23.7)</td>
+<td class="gt_row gt_center" style="text-align: center;">Tríade (39.4)</td>
+<td class="gt_row gt_center" style="text-align: center;">3 (16.5)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.58</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Ivan Lins</td>
+<td class="gt_row gt_center" style="text-align: center;">3 (19.1)</td>
+<td class="gt_row gt_center" style="text-align: center;">5 (19.8)</td>
+<td class="gt_row gt_center" style="text-align: center;">Tríade (51.5)</td>
+<td class="gt_row gt_center" style="text-align: center;">3 (20.0)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.66</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Chico Buarque</td>
+<td class="gt_row gt_center" style="text-align: center;">3 (17.5)</td>
+<td class="gt_row gt_center" style="text-align: center;">1 (18.7)</td>
+<td class="gt_row gt_center" style="text-align: center;">Tríade (53.9)</td>
+<td class="gt_row gt_center" style="text-align: center;">5 (17.9)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.70</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Edu Lobo</td>
+<td class="gt_row gt_center" style="text-align: center;">5 (15.9)</td>
+<td class="gt_row gt_center" style="text-align: center;">5 (18.2)</td>
+<td class="gt_row gt_center" style="text-align: center;">Tríade (46.4)</td>
+<td class="gt_row gt_center" style="text-align: center;">5 (18.6)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.56</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Caetano Veloso</td>
+<td class="gt_row gt_center" style="text-align: center;">1 (17.9)</td>
+<td class="gt_row gt_center" style="text-align: center;">5 (20.2)</td>
+<td class="gt_row gt_center" style="text-align: center;">Tríade (56.0)</td>
+<td class="gt_row gt_center" style="text-align: center;">1 (19.2)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.72</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Djavan</td>
+<td class="gt_row gt_center" style="text-align: center;">1 (19.7)</td>
+<td class="gt_row gt_center" style="text-align: center;">5 (21.8)</td>
+<td class="gt_row gt_center" style="text-align: center;">Tríade (47.3)</td>
+<td class="gt_row gt_center" style="text-align: center;">1 (19.7)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.64</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">João Bosco</td>
+<td class="gt_row gt_center" style="text-align: center;">3 (17.9)</td>
+<td class="gt_row gt_center" style="text-align: center;">1 (18.7)</td>
+<td class="gt_row gt_center" style="text-align: center;">Tríade (50.5)</td>
+<td class="gt_row gt_center" style="text-align: center;">1 (19.5)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.70</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Milton Nascimento</td>
+<td class="gt_row gt_center" style="text-align: center;">1 (18.9)</td>
+<td class="gt_row gt_center" style="text-align: center;">1 (18.7)</td>
+<td class="gt_row gt_center" style="text-align: center;">Tríade (50.8)</td>
+<td class="gt_row gt_center" style="text-align: center;">1 (21.3)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.68</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Gilberto Gil</td>
+<td class="gt_row gt_center" style="text-align: center;">3 (18.4)</td>
+<td class="gt_row gt_center" style="text-align: center;">1 (24.8)</td>
+<td class="gt_row gt_center" style="text-align: center;">Tríade (56.4)</td>
+<td class="gt_row gt_center" style="text-align: center;">1 (21.2)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.71</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Rita Lee</td>
+<td class="gt_row gt_center" style="text-align: center;">1 (18.0)</td>
+<td class="gt_row gt_center" style="text-align: center;">1 (25.6)</td>
+<td class="gt_row gt_center" style="text-align: center;">Tríade (56.2)</td>
+<td class="gt_row gt_center" style="text-align: center;">1 (21.0)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.74</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Carlos Lyra</td>
+<td class="gt_row gt_center" style="text-align: center;">3 (16.7)</td>
+<td class="gt_row gt_center" style="text-align: center;">5 (22.5)</td>
+<td class="gt_row gt_center" style="text-align: center;">Tríade (49.0)</td>
+<td class="gt_row gt_center" style="text-align: center;">1 (18.9)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.66</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Dori Caymmmi</td>
+<td class="gt_row gt_center" style="text-align: center;">3 (18.0)</td>
+<td class="gt_row gt_center" style="text-align: center;">3 (17.5)</td>
+<td class="gt_row gt_center" style="text-align: center;">Tríade (58.0)</td>
+<td class="gt_row gt_center" style="text-align: center;">3 (17.6)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.72</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Cartola</td>
+<td class="gt_row gt_center" style="text-align: center;">5 (17.4)</td>
+<td class="gt_row gt_center" style="text-align: center;">3 (17.3)</td>
+<td class="gt_row gt_center" style="text-align: center;">Tríade (50.3)</td>
+<td class="gt_row gt_center" style="text-align: center;">3 (18.8)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.69</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Gonzaguinha</td>
+<td class="gt_row gt_center" style="text-align: center;">3 (19.9)</td>
+<td class="gt_row gt_center" style="text-align: center;">3 (20.9)</td>
+<td class="gt_row gt_center" style="text-align: center;">Tríade (54.0)</td>
+<td class="gt_row gt_center" style="text-align: center;">3 (21.6)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.71</td>
+</tr>
+<tr class="gt_group_heading_row even">
+<td colspan="6" class="gt_group_heading" data-quarto-table-cell-role="th" style="text-align: center; font-size: small; font-weight: bold;">Controle</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Jazz</td>
+<td class="gt_row gt_center" style="text-align: center;">3 (16.5)</td>
+<td class="gt_row gt_center" style="text-align: center;">1 (17.4)</td>
+<td class="gt_row gt_center" style="text-align: center;">Tríade (48.5)</td>
+<td class="gt_row gt_center" style="text-align: center;">3 (17.7)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.63</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Choro</td>
+<td class="gt_row gt_center" style="text-align: center;">3 (16.2)</td>
+<td class="gt_row gt_center" style="text-align: center;">1 (17.6)</td>
+<td class="gt_row gt_center" style="text-align: center;">Tríade (64.3)</td>
+<td class="gt_row gt_center" style="text-align: center;">1 (16.5)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.79</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Samba</td>
+<td class="gt_row gt_center" style="text-align: center;">3 (17.7)</td>
+<td class="gt_row gt_center" style="text-align: center;">5 (17.5)</td>
+<td class="gt_row gt_center" style="text-align: center;">Tríade (57.6)</td>
+<td class="gt_row gt_center" style="text-align: center;">5 (17.4)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.74</td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+        
+</div>
+</div>
+<p><strong>1M1a</strong> – Como alguns dos atributos primários harmônicos, 1M1a evidencia mais uma regra da música tonal (compartilhada por todos os repertórios) do que uma estratégia, tendo em vista de que em todos os casos, o grau escalar mais recorrente (em ambos os modos) pertence ao arpejo do acorde tônico. Como reforço, suas distribuições percentuais são bastante próximas, variando entre 14 e 22%.</p>
+<p><strong>1M1b</strong> – Algo semelhante ocorre aqui, pois é quase uma consequência natural que em qualquer repertório tonal que a categoria básica de nota-função mais recorrente seja “tríade”. Talvez apenas a magnitude do percentual possa ser um sutil marcador. Como se observa, os <em>corpora</em> de controle Samba e Choro apresentam valores um pouco mais altos dos que demais conjuntos, respectivamente, 58.7 e 64.0%. Por outro lado, os <em>corpora</em> Jazz, Edu Lobo, Djavan e Jobim (especialmente este último, como 39%) são os que menos dependem das notas-funções triádicas, que ficam abaixo de 50%. Em posição intermediária, na faixa dos 50% dos apoios melódicos em notas da tríade, estão os demais <em>corpora</em>.</p>
+<p><strong>1M1c</strong> – Este atributo apenas detalha o anterior, explicitando a nota-estrutural mais recorrente (fundamental, terça ou quinta) pertencente à categoria “tríade”. Neste caso, ao contrário de 1M1b, os percentuais são muito próximos em todos os <em>corpora</em>, variando de 15% (Jobim) a 24% (Gonzaguinha).</p>
+<p><strong>1M1d</strong> – Em relação à <em>ancoragem harmônica</em> de notas-estruturais, observamos,<a href="#fn12" class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a> como se esperava, valores maiores e coerentes nos grupos de controle Samba e Choro em oposição a uma maior convergência dos <em>corpora</em> analísticos e do <em>corpus</em> Jazz, o que se deve a uma idiomática maior presença de notas de tétrade e tensões nesses repertórios. Destaca-se mais uma vez o <em>corpus</em> Jobim, que tem em média o menor valor apurado para o índice de ancoragem (0.587), com Rita Lee apresentando o mais alto dentro dos repertórios MPB (0.738).<a href="#fn13" class="footnote-ref" id="fnref13" role="doc-noteref"><sup>13</sup></a></p>
+</section>
+<section id="alturas-1m2" class="level4" data-number="0.2.2">
+<h4 data-number="0.2.2" class="anchored" data-anchor-id="alturas-1m2"><span class="header-section-number">0.2.2</span> Alturas (1M2)</h4>
+<div id="605c9b54" class="cell" data-execution_count="7">
+<div class="cell-output cell-output-display">
+<div id="dfpmhlvzmx" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>
+#dfpmhlvzmx table {
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+        }
+
+#dfpmhlvzmx thead, tbody, tfoot, tr, td, th { border-style: none; }
+ tr { background-color: transparent; }
+#dfpmhlvzmx p { margin: 0; padding: 0; }
+ #dfpmhlvzmx .gt_table { display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3; }
+ #dfpmhlvzmx .gt_caption { padding-top: 4px; padding-bottom: 4px; }
+ #dfpmhlvzmx .gt_title { color: #333333; font-size: 125%; font-weight: initial; padding-top: 4px; padding-bottom: 4px; padding-left: 5px; padding-right: 5px; border-bottom-color: #FFFFFF; border-bottom-width: 0; }
+ #dfpmhlvzmx .gt_subtitle { color: #333333; font-size: 85%; font-weight: initial; padding-top: 3px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px; border-top-color: #FFFFFF; border-top-width: 0; }
+ #dfpmhlvzmx .gt_heading { background-color: #FFFFFF; text-align: center; border-bottom-color: #FFFFFF; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; }
+ #dfpmhlvzmx .gt_bottom_border { border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; }
+ #dfpmhlvzmx .gt_col_headings { border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; }
+ #dfpmhlvzmx .gt_col_heading { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: normal; text-transform: inherit; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: bottom; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px; overflow-x: hidden; }
+ #dfpmhlvzmx .gt_column_spanner_outer { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: normal; text-transform: inherit; padding-top: 0; padding-bottom: 0; padding-left: 4px; padding-right: 4px; }
+ #dfpmhlvzmx .gt_column_spanner_outer:first-child { padding-left: 0; }
+ #dfpmhlvzmx .gt_column_spanner_outer:last-child { padding-right: 0; }
+ #dfpmhlvzmx .gt_column_spanner { border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; vertical-align: bottom; padding-top: 5px; padding-bottom: 5px; overflow-x: hidden; display: inline-block; width: 100%; }
+ #dfpmhlvzmx .gt_spanner_row { border-bottom-style: hidden; }
+ #dfpmhlvzmx .gt_group_heading { padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; text-align: left; }
+ #dfpmhlvzmx .gt_empty_group_heading { padding: 0.5px; color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; vertical-align: middle; }
+ #dfpmhlvzmx .gt_from_md> :first-child { margin-top: 0; }
+ #dfpmhlvzmx .gt_from_md> :last-child { margin-bottom: 0; }
+ #dfpmhlvzmx .gt_row { padding-top: 8px; padding-bottom: 8px; padding-left: 20px; padding-right: 20px; margin: 10px; border-top-style: solid; border-top-width: 1px; border-top-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; overflow-x: hidden; }
+ #dfpmhlvzmx .gt_stub { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-right-style: solid; border-right-width: 2px; border-right-color: #D3D3D3; padding-left: 20px; padding-right: 20px; }
+ #dfpmhlvzmx .gt_stub_row_group { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-right-style: solid; border-right-width: 2px; border-right-color: #D3D3D3; padding-left: 5px; padding-right: 5px; vertical-align: top; }
+ #dfpmhlvzmx .gt_row_group_first td { border-top-width: 2px; }
+ #dfpmhlvzmx .gt_row_group_first th { border-top-width: 2px; }
+ #dfpmhlvzmx .gt_striped { background-color: rgba(128,128,128,0.05); }
+ #dfpmhlvzmx .gt_table_body { border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; }
+ #dfpmhlvzmx .gt_sourcenotes { color: #333333; background-color: #FFFFFF; border-bottom-style: none; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; }
+ #dfpmhlvzmx .gt_sourcenote { font-size: 90%; padding-top: 4px; padding-bottom: 4px; padding-left: 5px; padding-right: 5px; text-align: left; }
+ #dfpmhlvzmx .gt_left { text-align: left; }
+ #dfpmhlvzmx .gt_center { text-align: center; }
+ #dfpmhlvzmx .gt_right { text-align: right; font-variant-numeric: tabular-nums; }
+ #dfpmhlvzmx .gt_font_normal { font-weight: normal; }
+ #dfpmhlvzmx .gt_font_bold { font-weight: bold; }
+ #dfpmhlvzmx .gt_font_italic { font-style: italic; }
+ #dfpmhlvzmx .gt_super { font-size: 65%; }
+ #dfpmhlvzmx .gt_footnote_marks { font-size: 75%; vertical-align: 0.4em; position: initial; }
+ #dfpmhlvzmx .gt_asterisk { font-size: 100%; vertical-align: 0; }
+ 
+</style>
+
+<table class="gt_table caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<thead>
+<tr class="gt_heading header">
+<th colspan="6" class="gt_heading gt_title gt_font_normal" style="text-align: center;">1M2</th>
+</tr>
+<tr class="gt_heading even">
+<th colspan="6" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border" style="text-align: center;">Alturas</th>
+</tr>
+<tr class="gt_col_headings header">
+<th id="Corpus" class="gt_col_heading gt_columns_bottom_border gt_left" style="text-align: center;" data-quarto-table-cell-role="th" scope="col">Corpus</th>
+<th id="1M2a" class="gt_col_heading gt_columns_bottom_border gt_center" style="text-align: center;" data-quarto-table-cell-role="th" scope="col">1M2a</th>
+<th id="1M2b" class="gt_col_heading gt_columns_bottom_border gt_center" style="text-align: center;" data-quarto-table-cell-role="th" scope="col">1M2b</th>
+<th id="1M2c" class="gt_col_heading gt_columns_bottom_border gt_center" style="text-align: center;" data-quarto-table-cell-role="th" scope="col">1M2c</th>
+<th id="1M2d" class="gt_col_heading gt_columns_bottom_border gt_center" style="text-align: center;" data-quarto-table-cell-role="th" scope="col">1M2d</th>
+<th id="1M2e" class="gt_col_heading gt_columns_bottom_border gt_center" style="text-align: center;" data-quarto-table-cell-role="th" scope="col">1M2e</th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="gt_group_heading_row odd">
+<td colspan="6" class="gt_group_heading" data-quarto-table-cell-role="th" style="text-align: center; font-size: small; font-weight: bold;">MPB</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Tom Jobim</td>
+<td class="gt_row gt_center" style="text-align: center;">p (30.9)</td>
+<td class="gt_row gt_center" style="text-align: center;">pa (1.0)</td>
+<td class="gt_row gt_center" style="text-align: center;">5 (20.0)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.70</td>
+<td class="gt_row gt_center" style="text-align: center;">0.50</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Ivan Lins</td>
+<td class="gt_row gt_center" style="text-align: center;">p (30.0)</td>
+<td class="gt_row gt_center" style="text-align: center;">upP (1.8)</td>
+<td class="gt_row gt_center" style="text-align: center;">6 (17.7)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.69</td>
+<td class="gt_row gt_center" style="text-align: center;">0.49</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Chico Buarque</td>
+<td class="gt_row gt_center" style="text-align: center;">p (31.4)</td>
+<td class="gt_row gt_center" style="text-align: center;">uuu (2.3)</td>
+<td class="gt_row gt_center" style="text-align: center;">5 (16.8)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.73</td>
+<td class="gt_row gt_center" style="text-align: center;">0.50</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Edu Lobo</td>
+<td class="gt_row gt_center" style="text-align: center;">p (28.8)</td>
+<td class="gt_row gt_center" style="text-align: center;">APupuuaAP (1.0)</td>
+<td class="gt_row gt_center" style="text-align: center;">7 (19.1)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.67</td>
+<td class="gt_row gt_center" style="text-align: center;">0.49</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Caetano Veloso</td>
+<td class="gt_row gt_center" style="text-align: center;">p (32.7)</td>
+<td class="gt_row gt_center" style="text-align: center;">pppAppp (1.3)</td>
+<td class="gt_row gt_center" style="text-align: center;">6 (15.9)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.68</td>
+<td class="gt_row gt_center" style="text-align: center;">0.52</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Djavan</td>
+<td class="gt_row gt_center" style="text-align: center;">p (22.9)</td>
+<td class="gt_row gt_center" style="text-align: center;">Pa (1.3)</td>
+<td class="gt_row gt_center" style="text-align: center;">5 (15.4)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.66</td>
+<td class="gt_row gt_center" style="text-align: center;">0.50</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">João Bosco</td>
+<td class="gt_row gt_center" style="text-align: center;">p (29.5)</td>
+<td class="gt_row gt_center" style="text-align: center;">Au (1.0)</td>
+<td class="gt_row gt_center" style="text-align: center;">7 (16.2)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.71</td>
+<td class="gt_row gt_center" style="text-align: center;">0.52</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Milton Nascimento</td>
+<td class="gt_row gt_center" style="text-align: center;">u (39.7)</td>
+<td class="gt_row gt_center" style="text-align: center;">upu (1.5)</td>
+<td class="gt_row gt_center" style="text-align: center;">5 (19.0)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.79</td>
+<td class="gt_row gt_center" style="text-align: center;">0.49</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Gilberto Gil</td>
+<td class="gt_row gt_center" style="text-align: center;">p (31.8)</td>
+<td class="gt_row gt_center" style="text-align: center;">Pa (1.5)</td>
+<td class="gt_row gt_center" style="text-align: center;">5 (15.5)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.71</td>
+<td class="gt_row gt_center" style="text-align: center;">0.51</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Rita Lee</td>
+<td class="gt_row gt_center" style="text-align: center;">u (29.9)</td>
+<td class="gt_row gt_center" style="text-align: center;">p (1.7)</td>
+<td class="gt_row gt_center" style="text-align: center;">4 (17.3)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.75</td>
+<td class="gt_row gt_center" style="text-align: center;">0.50</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Carlos Lyra</td>
+<td class="gt_row gt_center" style="text-align: center;">p (28.6)</td>
+<td class="gt_row gt_center" style="text-align: center;">Au (1.7)</td>
+<td class="gt_row gt_center" style="text-align: center;">5 (18.8)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.68</td>
+<td class="gt_row gt_center" style="text-align: center;">0.50</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Dori Caymmmi</td>
+<td class="gt_row gt_center" style="text-align: center;">p (26.9)</td>
+<td class="gt_row gt_center" style="text-align: center;">ppP (2.1)</td>
+<td class="gt_row gt_center" style="text-align: center;">7 (29.8)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.70</td>
+<td class="gt_row gt_center" style="text-align: center;">0.49</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Cartola</td>
+<td class="gt_row gt_center" style="text-align: center;">p (31.9)</td>
+<td class="gt_row gt_center" style="text-align: center;">a (2.0)</td>
+<td class="gt_row gt_center" style="text-align: center;">6 (16.4)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.72</td>
+<td class="gt_row gt_center" style="text-align: center;">0.51</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Gonzaguinha</td>
+<td class="gt_row gt_center" style="text-align: center;">p (30.4)</td>
+<td class="gt_row gt_center" style="text-align: center;">pp (1.2)</td>
+<td class="gt_row gt_center" style="text-align: center;">5 (17.4)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.73</td>
+<td class="gt_row gt_center" style="text-align: center;">0.50</td>
+</tr>
+<tr class="gt_group_heading_row even">
+<td colspan="6" class="gt_group_heading" data-quarto-table-cell-role="th" style="text-align: center; font-size: small; font-weight: bold;">Controle</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Jazz</td>
+<td class="gt_row gt_center" style="text-align: center;">P (26.8)</td>
+<td class="gt_row gt_center" style="text-align: center;">AAA (1.3)</td>
+<td class="gt_row gt_center" style="text-align: center;">3 (19.3)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.64</td>
+<td class="gt_row gt_center" style="text-align: center;">0.49</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Choro</td>
+<td class="gt_row gt_center" style="text-align: center;">p (32.7)</td>
+<td class="gt_row gt_center" style="text-align: center;">AaaaAs (0.6)</td>
+<td class="gt_row gt_center" style="text-align: center;">6 (12.6)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.60</td>
+<td class="gt_row gt_center" style="text-align: center;">0.50</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Samba</td>
+<td class="gt_row gt_center" style="text-align: center;">p (30.5)</td>
+<td class="gt_row gt_center" style="text-align: center;">pp (1.5)</td>
+<td class="gt_row gt_center" style="text-align: center;">7 (19.3)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.70</td>
+<td class="gt_row gt_center" style="text-align: center;">0.51</td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+        
+</div>
+</div>
+<p><strong>1M2a</strong> – Embora todos os repertórios (com uma exceção) convirjam para a categoria “grau conjunto” como preferencial (e percentuais muito próximos) – sugerindo ser uma regra estilística compartilhada –, é instigante constatar que nos <em>corpora</em> Samba, Choro, Jobim, Ivan Lins, Chico Buarque, Edu Lobo, Caetano Veloso, Djavan, João Bosco, Gilberto Gil, Carlos Lyra, Dori Caymmi, Cartola e Gonzaguinha a c-letra <em>p</em> (passo descendente) é predominante, em oposição ao que se observa no <em>corpus</em> Jazz, no qual a mais recorrente c-letra é <em>P</em> (passo ascendente). A hipótese de que poderia ser uma característica da música popular brasileira a predominância de movimentos em grau conjunto descendente apresenta-se assim como uma interessante futura via exploratória. Em contraste a esse quadro, no <em>corpus</em> Milton Nascimento a predominância (bem folgada, aliás) cabe ao movimento melódico de repetição (u), que reflete a notável estaticidade que prevalece na construção melódica do compositor, um aspecto certamento caracterizante. Caso semelhante se observa no repertório Rita Lee, diferenciando-se apenas pelo fato de o percentual de <em>u</em> ser menor (29.9% frente a 39.8% de Nascimento) e tendo bem próxima, em segundo lugar, a r-letra p (29.6%).</p>
+<p><strong>1M2b</strong> – Como já comentado, a grande dispersão das c-palavras (observada também nos resultados obtidos) dificulta a obtenção de conclusões consistentes em relação a este atributo.</p>
+<p><strong>1M2c</strong> – Quanto à cardinalidade das c/r palavras, parece haver uma convergência para um número médio de, aproximadamente, 6 articulações melódicas, confirmando nossos pressupostos, devidamente referendados por estudos sobre segmentação de melodias, entre os quais os <span class="citation" data-cites="snyder-music-memory">(<a href="#ref-snyder-music-memory" role="doc-biblioref">Snyder 2001</a>)</span>.<a href="#fn14" class="footnote-ref" id="fnref14" role="doc-noteref"><sup>14</sup></a></p>
+<p><strong>1M2d</strong> e <strong>1M2e</strong> – Vistos em conjunto, os dois atributos – que, em suma, medem o grau de estabilidade melódica – corroboram, grosso modo, a noção geral de que existiria uma espécie de <em>lei de compensação</em> atuando em linhas melódicas, as quais, idealmente, tenderiam para a <em>retificação</em> (ou seja, saltos e vales tenderiam a se anular mutuamente). Tal hipótese fica evidente em 1M2e, pois todos os repertórios apresentam índices de estabilidade compensada com valores relativamente altos e bastante próximos entre si. A observação de 1M2d, por outro lado, embora também com valores próximos, permite destacar os <em>corpora</em> Jazz e Choro dos demais, pois apresentam iE baixos e bem semelhantes, sugerindo particularidades construtivas, talvez pela presença de um número relativamente maior de movimentos arpejados e saltos em uma única direção do que nos demais repertórios (o que também poderá ser verificado em estudos futuros específicos).</p>
+<section id="ritmo-1m3" class="level5" data-number="0.2.2.1">
+<h5 data-number="0.2.2.1" class="anchored" data-anchor-id="ritmo-1m3"><span class="header-section-number">0.2.2.1</span> Ritmo (1M3)</h5>
+<div id="19c4bb0b" class="cell" data-execution_count="8">
+<div class="cell-output cell-output-display">
+<div id="iqgeihrozo" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>
+#iqgeihrozo table {
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+        }
+
+#iqgeihrozo thead, tbody, tfoot, tr, td, th { border-style: none; }
+ tr { background-color: transparent; }
+#iqgeihrozo p { margin: 0; padding: 0; }
+ #iqgeihrozo .gt_table { display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3; }
+ #iqgeihrozo .gt_caption { padding-top: 4px; padding-bottom: 4px; }
+ #iqgeihrozo .gt_title { color: #333333; font-size: 125%; font-weight: initial; padding-top: 4px; padding-bottom: 4px; padding-left: 5px; padding-right: 5px; border-bottom-color: #FFFFFF; border-bottom-width: 0; }
+ #iqgeihrozo .gt_subtitle { color: #333333; font-size: 85%; font-weight: initial; padding-top: 3px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px; border-top-color: #FFFFFF; border-top-width: 0; }
+ #iqgeihrozo .gt_heading { background-color: #FFFFFF; text-align: center; border-bottom-color: #FFFFFF; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; }
+ #iqgeihrozo .gt_bottom_border { border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; }
+ #iqgeihrozo .gt_col_headings { border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; }
+ #iqgeihrozo .gt_col_heading { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: normal; text-transform: inherit; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: bottom; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px; overflow-x: hidden; }
+ #iqgeihrozo .gt_column_spanner_outer { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: normal; text-transform: inherit; padding-top: 0; padding-bottom: 0; padding-left: 4px; padding-right: 4px; }
+ #iqgeihrozo .gt_column_spanner_outer:first-child { padding-left: 0; }
+ #iqgeihrozo .gt_column_spanner_outer:last-child { padding-right: 0; }
+ #iqgeihrozo .gt_column_spanner { border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; vertical-align: bottom; padding-top: 5px; padding-bottom: 5px; overflow-x: hidden; display: inline-block; width: 100%; }
+ #iqgeihrozo .gt_spanner_row { border-bottom-style: hidden; }
+ #iqgeihrozo .gt_group_heading { padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; text-align: left; }
+ #iqgeihrozo .gt_empty_group_heading { padding: 0.5px; color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; vertical-align: middle; }
+ #iqgeihrozo .gt_from_md> :first-child { margin-top: 0; }
+ #iqgeihrozo .gt_from_md> :last-child { margin-bottom: 0; }
+ #iqgeihrozo .gt_row { padding-top: 8px; padding-bottom: 8px; padding-left: 20px; padding-right: 20px; margin: 10px; border-top-style: solid; border-top-width: 1px; border-top-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; overflow-x: hidden; }
+ #iqgeihrozo .gt_stub { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-right-style: solid; border-right-width: 2px; border-right-color: #D3D3D3; padding-left: 20px; padding-right: 20px; }
+ #iqgeihrozo .gt_stub_row_group { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-right-style: solid; border-right-width: 2px; border-right-color: #D3D3D3; padding-left: 5px; padding-right: 5px; vertical-align: top; }
+ #iqgeihrozo .gt_row_group_first td { border-top-width: 2px; }
+ #iqgeihrozo .gt_row_group_first th { border-top-width: 2px; }
+ #iqgeihrozo .gt_striped { background-color: rgba(128,128,128,0.05); }
+ #iqgeihrozo .gt_table_body { border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; }
+ #iqgeihrozo .gt_sourcenotes { color: #333333; background-color: #FFFFFF; border-bottom-style: none; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; }
+ #iqgeihrozo .gt_sourcenote { font-size: 90%; padding-top: 4px; padding-bottom: 4px; padding-left: 5px; padding-right: 5px; text-align: left; }
+ #iqgeihrozo .gt_left { text-align: left; }
+ #iqgeihrozo .gt_center { text-align: center; }
+ #iqgeihrozo .gt_right { text-align: right; font-variant-numeric: tabular-nums; }
+ #iqgeihrozo .gt_font_normal { font-weight: normal; }
+ #iqgeihrozo .gt_font_bold { font-weight: bold; }
+ #iqgeihrozo .gt_font_italic { font-style: italic; }
+ #iqgeihrozo .gt_super { font-size: 65%; }
+ #iqgeihrozo .gt_footnote_marks { font-size: 75%; vertical-align: 0.4em; position: initial; }
+ #iqgeihrozo .gt_asterisk { font-size: 100%; vertical-align: 0; }
+ 
+</style>
+
+<table class="gt_table caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<thead>
+<tr class="gt_heading header">
+<th colspan="5" class="gt_heading gt_title gt_font_normal" style="text-align: center;">1M3</th>
+</tr>
+<tr class="gt_heading even">
+<th colspan="5" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border" style="text-align: center;">Ritmo</th>
+</tr>
+<tr class="gt_col_headings header">
+<th id="Corpus" class="gt_col_heading gt_columns_bottom_border gt_left" style="text-align: center;" data-quarto-table-cell-role="th" scope="col">Corpus</th>
+<th id="1M3a" class="gt_col_heading gt_columns_bottom_border gt_center" style="text-align: center;" data-quarto-table-cell-role="th" scope="col">1M3a</th>
+<th id="1M3b" class="gt_col_heading gt_columns_bottom_border gt_center" style="text-align: center;" data-quarto-table-cell-role="th" scope="col">1M3b</th>
+<th id="1M3c" class="gt_col_heading gt_columns_bottom_border gt_center" style="text-align: center;" data-quarto-table-cell-role="th" scope="col">1M3c</th>
+<th id="1M3d" class="gt_col_heading gt_columns_bottom_border gt_center" style="text-align: center;" data-quarto-table-cell-role="th" scope="col">1M3d</th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="gt_group_heading_row odd">
+<td colspan="5" class="gt_group_heading" data-quarto-table-cell-role="th" style="text-align: center; font-size: small; font-weight: bold;">MPB</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Tom Jobim</td>
+<td class="gt_row gt_center" style="text-align: center;">1 (30.4)</td>
+<td class="gt_row gt_center" style="text-align: center;">b (20.9)</td>
+<td class="gt_row gt_center" style="text-align: center;">pn (3.1)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.63</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Ivan Lins</td>
+<td class="gt_row gt_center" style="text-align: center;">1 (38.0)</td>
+<td class="gt_row gt_center" style="text-align: center;">b (23.5)</td>
+<td class="gt_row gt_center" style="text-align: center;">kdb (4.0)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.62</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Chico Buarque</td>
+<td class="gt_row gt_center" style="text-align: center;">1 (30.2)</td>
+<td class="gt_row gt_center" style="text-align: center;">j (19.4)</td>
+<td class="gt_row gt_center" style="text-align: center;">ejjj (3.8)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.65</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Edu Lobo</td>
+<td class="gt_row gt_center" style="text-align: center;">1 (39.7)</td>
+<td class="gt_row gt_center" style="text-align: center;">b (24.6)</td>
+<td class="gt_row gt_center" style="text-align: center;">uvb (1.8)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.56</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Caetano Veloso</td>
+<td class="gt_row gt_center" style="text-align: center;">1 (37.4)</td>
+<td class="gt_row gt_center" style="text-align: center;">j (23.3)</td>
+<td class="gt_row gt_center" style="text-align: center;">ejj (1.7)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.60</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Djavan</td>
+<td class="gt_row gt_center" style="text-align: center;">1 (29.1)</td>
+<td class="gt_row gt_center" style="text-align: center;">b (15.0)</td>
+<td class="gt_row gt_center" style="text-align: center;">nn (1.7)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.69</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">João Bosco</td>
+<td class="gt_row gt_center" style="text-align: center;">1 (30.5)</td>
+<td class="gt_row gt_center" style="text-align: center;">b (16.7)</td>
+<td class="gt_row gt_center" style="text-align: center;">osb (1.6)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.67</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Milton Nascimento</td>
+<td class="gt_row gt_center" style="text-align: center;">1 (46.5)</td>
+<td class="gt_row gt_center" style="text-align: center;">b (30.2)</td>
+<td class="gt_row gt_center" style="text-align: center;">ejej (2.4)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.56</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Gilberto Gil</td>
+<td class="gt_row gt_center" style="text-align: center;">1 (31.3)</td>
+<td class="gt_row gt_center" style="text-align: center;">j (17.7)</td>
+<td class="gt_row gt_center" style="text-align: center;">nng (2.7)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.63</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Rita Lee</td>
+<td class="gt_row gt_center" style="text-align: center;">7 (48.3)</td>
+<td class="gt_row gt_center" style="text-align: center;">j (42.5)</td>
+<td class="gt_row gt_center" style="text-align: center;">ej (4.3)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.58</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Carlos Lyra</td>
+<td class="gt_row gt_center" style="text-align: center;">10 (27.2)</td>
+<td class="gt_row gt_center" style="text-align: center;">n (20.2)</td>
+<td class="gt_row gt_center" style="text-align: center;">gvc (2.7)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.72</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Dori Caymmmi</td>
+<td class="gt_row gt_center" style="text-align: center;">1 (38.8)</td>
+<td class="gt_row gt_center" style="text-align: center;">j (28.8)</td>
+<td class="gt_row gt_center" style="text-align: center;">nnj (4.1)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.59</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Cartola</td>
+<td class="gt_row gt_center" style="text-align: center;">1 (25.7)</td>
+<td class="gt_row gt_center" style="text-align: center;">n (22.8)</td>
+<td class="gt_row gt_center" style="text-align: center;">nn (3.1)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.73</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Gonzaguinha</td>
+<td class="gt_row gt_center" style="text-align: center;">1 (33.0)</td>
+<td class="gt_row gt_center" style="text-align: center;">b (19.7)</td>
+<td class="gt_row gt_center" style="text-align: center;">ejjbb (2.3)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.66</td>
+</tr>
+<tr class="gt_group_heading_row even">
+<td colspan="5" class="gt_group_heading" data-quarto-table-cell-role="th" style="text-align: center; font-size: small; font-weight: bold;">Controle</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Jazz</td>
+<td class="gt_row gt_center" style="text-align: center;">1 (59.8)</td>
+<td class="gt_row gt_center" style="text-align: center;">b (44.9)</td>
+<td class="gt_row gt_center" style="text-align: center;">bbbb (3.7)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.41</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Choro</td>
+<td class="gt_row gt_center" style="text-align: center;">1 (31.6)</td>
+<td class="gt_row gt_center" style="text-align: center;">v (24.9)</td>
+<td class="gt_row gt_center" style="text-align: center;">uvb (3.5)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.53</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left gt_stub" style="text-align: center;" data-quarto-table-cell-role="th">Samba</td>
+<td class="gt_row gt_center" style="text-align: center;">10 (34.0)</td>
+<td class="gt_row gt_center" style="text-align: center;">n (28.6)</td>
+<td class="gt_row gt_center" style="text-align: center;">nn (2.8)</td>
+<td class="gt_row gt_center" style="text-align: center;">0.71</td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+        
+</div>
+</div>
+<p><strong>1M3a</strong> – Como era esperado, a detecção do ataque mais recorrente no perfil métrico de quase todos os repertórios confirma a proeminência da posição 1 da grade. Há apenas duas exceções: (1) como era esperado, o <em>corpus</em> Samba tem em destaque a posição 10 (a quarta semicolcheia do tempo), sugerindo o alto grau de sincopação do gênero. Em patamar mais modesto, os <em>corpora</em> Carlos Lyra e Cartola também tem 10 como ponto de ataque mais recorrente, o que denota a forte presença do gênero samba em seus repertórios. O aspecto será melhor detalhado nos atributos secundários correspondentes.<a href="#fn15" class="footnote-ref" id="fnref15" role="doc-noteref"><sup>15</sup></a> (2) no caso do <em>corpus</em> Rita Lee, a proeminência da posição 7 se deve ao fato de que, em média, as linhas melódicas da compositora apresentam grande recorrência de colcheias (ver também o atributo 1M3b), associando-se a uma forte tendência para finalizações contramétricas das r-palavras (o que contribui para uma maior presença da posição 7 em relação à posição cométrica 1).</p>
+<p><strong>1M3b</strong> – Nesta abordagem inicial sobre o atributo, que evidencia apenas a r-letra mais comum, os resultados são inconclusivos, pois tendem a capturar a alternativa <em>b</em> (ataque único, uma espécie de “I grau” rítmico), bastante comum em todos os repertórios (e é o que se observa nos resultados obtidos). Destaque-se as exceções que confirmam as células básicas dos gêneros dos <em>corpora</em> de controle: r-letras <em>n</em> (Samba)<a href="#fn16" class="footnote-ref" id="fnref16" role="doc-noteref"><sup>16</sup></a> e <em>v</em> (Choro), bem como a alta porcentagem em que se manifesta <em>b</em> no Jazz (cerca do dobro em relação a outros repertórios). Registre-se também a proeminência de <em>j</em> nos <em>corpora</em> Chico Buarque, Caetano Veloso, Milton Nascimento, Gilberto Gil e Rita Lee (neste, o maior percentual de todos – 42.5% – quase o dobro em relação à média referente a essa r-letra). Resultados mais significativos sobre o aspecto em questão serão trazidos no exame dos atributos secundários correspondentes.</p>
+<p><strong>1M3c</strong> – Algo semelhante ao observado no atributo 1M2b (que mede a distribuição das c-palavras) ocorre aqui, ainda que numa relativamente menor dispersão: o grande número de r-palavras dificulta a obtenção de conclusões substanciais na comparação dos <em>corpora</em>.<a href="#fn17" class="footnote-ref" id="fnref17" role="doc-noteref"><sup>17</sup></a></p>
+<p><strong>1M3d</strong> – Neste caso, ao contrário do que é observado nos índices de compensação intervalar, a medição do índice de contrametricidade produz informações relevantes em relação à determinação estilística. É possível dividir os <em>corpora</em>, nesse aspecto, em três níveis de sincopação: (1) alto (acima de 0.7), liderado pelo <em>corpus</em> Samba; (2) médio (entre 0.6 a 0.7), com vários dos repertórios analíticos (tendo o <em>corpus</em> Cartola, dentre esses, o maior valor relativo para <em>ic</em>) e (3) baixo (menor que 0.6), com os repertórios de Choro, Jazz, Caetano Veloso, Dori Caymmi e Milton Nascimento (o menor valor de todos). Isso nos leva a conjecturar que tal característica abstrata do samba (levando em conta aqui apenas a sincopação rítmica, bem entendido) se infiltra, em maior ou menor medida, em alguns estilos composicionais individuais. O exame dos atributos secundários buscará validar esta hipótese.</p>
+
+
+
+</section>
+</section>
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referências</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-almada-choro" class="csl-entry" role="listitem">
+Almada, Carlos. 2006. <em>A estrutura do choro</em>. Rio de Janeiro: Da Fonseca.
+</div>
+<div id="ref-almada-zisels-2023" class="csl-entry" role="listitem">
+Almada, Carlos, e Pedro Zisels. 2023. <span>«O ritmo de ideias básicas de samba: uma abordagem sistemática»</span>. <em>Musica Theorica</em> 8 (1).
+</div>
+<div id="ref-schoenberg-structural-functions" class="csl-entry" role="listitem">
+Schoenberg, Arnold. 1969. <em>Structural Functions of Harmony</em>. New York: W. W. Norton.
+</div>
+<div id="ref-snyder-music-memory" class="csl-entry" role="listitem">
+Snyder, Robert. 2001. <em>Music and Memory: An Introduction</em>. Cambridge: The MIT Press.
+</div>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Notas de rodapé</h2>
+
+<ol>
+<li id="fn1"><p>Não deve ter passado despercebida a maior discrepância referente aos números de acordes e, especialmente, de ataques no Choro comparado à média dos demais <em>corpora</em>: isso deriva do fato de que cada peça de choro considerada compreende três seções (em geral com 16 compassos cada), o que faz com que os “territórios” cobertos nesse repertório pela análise correspondam a quase o dobro em relação a qualquer outro. Por outro lado, é bem interessante constatar , por assim dizer,o “conservadorismo” estilístico que foi detectado no gênero, mantendo uma considerável consistência e regularidade.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Avaliações estatísticas desses resultados serão oportunamente apresentadas.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Nesse sentido, a relativa menor expansão que se observa nos choros pode ser talvez explicada pela combinação de dois fatores: (a) uma preferência acentuada por tonalidades que otimizam o número de cordas soltas nos instrumentos típicos do gênero (violão, bandolim e cavaquinho), diminuindo o número de alternativas disponíveis; (b) um esquema relativamente rígido de modulações, que faz com que escolhida a tonalidade principal, na seção A (por exemplo Fá maior), as tonalidades das partes secundárias sejam praticamente definidas. No caso do exemplo, há duas possibilidades para as seções B e C: Ré menor e Si<span class="math inline">\(\flat\)</span> maior ou Dó maior e Si<span class="math inline">\(\flat\)</span> maior. Para maiores informações, ver <span class="citation" data-cites="almada-choro">(<a href="#ref-almada-choro" role="doc-biblioref">Almada 2006</a>)</span>. Em relação a Lyra, Caymmi e Cartola, a menor diversidade tonal possivelmente resulta de serem <em>corpora</em> provenientes da segunda fase do projeto, que contemplam um número menor de peças analisadas em relação aos repertórios da fase 1.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Ver Almada <span class="citation" data-cites="almada-choro">(<a href="#ref-almada-choro" role="doc-biblioref">Almada 2006</a>)</span>. Tanto nos demais <em>corpora</em> de controle, quanto nos de análise, modulações seccionais, ainda que eventualmente existentes, são bem mais raras. Nesses contextos, modulações internas a seções (de diferentes tipos) são mais comuns (e quase inexistentes em choros).<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Os repertórios de Chico Buarque e Gilberto Gil também apresentam maior proeminência da relação M9m, que conecta uma tonalidade maior à sua relativa menor. A relação M5M, por sua vez é a mais comum no <em>corpus</em> Rita Lee.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>Aqui empatada em primeiro lugar com outra – e mais rara – relação homônima m0M, bem como com a também “notável” M7M. A esse propósito, a distribuição das RBTs no repertório deste compositor parece bem mais idiossincrática do que as de seus pares, o que certamente é um sintoma de sua preferência por construções modais (de variadas naturezas), algo que o torna bem distinto no âmbito MPB. Outros aspectos dessa circunstância serão levantados na avaliação de outros atributos harmônicos, tanto primários quanto secundários.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>A única divergência – o V nos <em>corpora</em> Chico Buarque e Cartola – não causa impacto nessa conclusão, já que ambas as categorias ocupariam provavelmente as posições mais altas, independentemente do repertório analisado, dentro do contexto da música tonal.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>Isso sugere que esse dado pode também ser associado a uma regra geral (ou seja, como um marcador centrípeto em relação ao superconjunto). No caso do <em>corpus</em> Rita Lee, o <em>genus</em> Y apresenta um percentual relativamente alto, considerando os demais casos, o que por certo se deve à alta presença de uma lógica harmônica baseada no gênero <em>rhythm and blues</em>, caracterizado pelo uso de qualidades dominantes “não funcionais”.<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p>A segunda posição é ocupada pelo <em>genus</em> z, tendo Y apenas no terceiro posto.<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10"><p>Isso pode ser talvez parcialmente explicado pelas características gerais das harmonias de cada compositor: Caetano, em sua estética pessoal, tropicalista, em essência, parece ser menos permeável à influência jazzística (ao contrário de vários de seus pares da MPB), e mais ligado ao rock e a gêneros brasileiros de origem não urbana, como o afoxé, o samba-de-roda etc. No caso de Milton, como já apontado nas avaliações de atributos anteriores, a preferência por tríades maiores (mas, interessantemente, não exatamente pelas menores), parece bem mais fortemente associada à natureza essencialmente modal de sua música.<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn11"><p><span class="citation" data-cites="schoenberg-structural-functions">Schoenberg (<a href="#ref-schoenberg-structural-functions" role="doc-biblioref">1969</a>)</span> identifica o intervalo como o principal movimento para a concatenação dos acordes, classificando-o como um “movimento forte entre fundamentais”. A necessidade de precisão nos obriga a ressaltar que, embora o atributo 1H4d seja dedicado a medir movimentos entre os <em>baixos</em> de acordes contíguos, captura também os movimentos entre suas fundamentais. Se considerarmos a relativamente baixa ocorrência de inversões, em modo geral, ficará claro que o atributo também pode ser entendido, com uma certa flexibilidade, como um medidor das distâncias entre fundamentais.<a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn12"><p>Representada pelo índice <em>ia</em> – ver Capítulo <a href="modelos-teoricos.qmd">Modelos teóricos</a>.<a href="#fnref12" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn13"><p>Além do valor <em>ia</em> de Rita lee, apenas os de Gilberto Gil, Caetano Veloso, Dori Caymmi e Gonzaguinha ficam acima de 0.7, dentre os repertórios MPB.<a href="#fnref13" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn14"><p>Apenas o <em>corpus</em> Jazz parece se distanciar desse eixo (com preferência por segmentos com quatro articulações), o que pode suscitar estudos futuros específicos.<a href="#fnref14" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn15"><p>Para um detalhamento desse tópico, ver <span class="citation" data-cites="almada-zisels-2023">(<a href="#ref-almada-zisels-2023" role="doc-biblioref">Almada e Zisels 2023</a>)</span>.<a href="#fnref15" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn16"><p>O mesmo se observa na música de Lyra e Cartola, corroborando os dados obsefvados no atributo anterior.<a href="#fnref16" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn17"><p>Registre-se, entretanto, o significativo fato de que nos <em>corpora</em> Djavan e Cartola a r-palavra mais comum é a mesma predominante no <em>corpus</em> Samba – nn –, o que pode denotar a forte contrametricidade de ambos os repertórios.<a href="#fnref17" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copiada");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copiada");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/projetompb\.github\.io\/site\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
+<a property="dct:title" rel="cc:attributionURL" href="https://projetompb.github.io/site/">Projeto MPB</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a>
+</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ProjetoMPB/site/edit/main/dev/atributos-primarios.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/ProjetoMPB/site/blob/main/dev/atributos-primarios.qmd" class="toc-action"><i class="bi empty"></i>Ver o código fonte</a></li><li><a href="https://github.com/ProjetoMPB/site/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>Página construída em <a href="https://quarto.org/">Quarto</a>.</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
