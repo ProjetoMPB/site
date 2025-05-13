@@ -45,6 +45,10 @@ def formata_moda_grau(series: pd.Series):
     return series.map(formata_linha)
 
 
+def formata_1M1a(series: pd.Series):
+    return "^" + formata_moda_grau(series)
+
+
 def formata_1M1b(series: pd.Series):
     def formata_linha(linha: str) -> str:
         nome, prop = ast.literal_eval(linha)
@@ -79,8 +83,8 @@ def formata_1H1b(series: pd.Series):
 
 
 ATR_TO_FORMATTER = {
-    "1M1a-maior": formata_moda_grau,
-    "1M1a-menor": formata_moda_grau,
+    "1M1a-maior": formata_1M1a,
+    "1M1a-menor": formata_1M1a,
     "1M1b": formata_1M1b,
     "1M1c": formata_moda_grau,
     "1M1d": formata_indices,
