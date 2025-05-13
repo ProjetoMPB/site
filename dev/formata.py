@@ -104,6 +104,7 @@ ATR_TO_FORMATTER = {
     "1H3a": formata_moda,
     "1H3b": formata_moda,
     "1H3c": formata_moda,
+    "1H4a": formata_proporcao_df,
     "1H4c": formata_moda,
     "1H4d": formata_moda,
     "1H1e": formata_moda,
