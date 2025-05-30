@@ -19,7 +19,6 @@ def formatar_2H3b(gt: GT) -> GT:
         gt = gt.tab_spanner(label, columns=cols)
     return gt
 
-
 def colorir_gt(gt: GT) -> GT:
     return gt.data_color(
         palette=["white", "#0f5132"],
@@ -86,7 +85,7 @@ ATRIB_COLORIDOS = [
     "2H3c",
     "2H3c-DIA",
     "2H3c-DS",
-    "2H3c-SubV",
+    "2H3c-SUBV",
     "2H3c-EC1",
     "2H3c-EC2",
     "2M1b",
@@ -126,6 +125,7 @@ def exibir_tabela_atributos(
         .tab_stubhead(label="Corpus")
         .tab_options(data_row_padding_horizontal="20px")
         .cols_align("center")
+        .sub_missing()
     )
 
     if rodape:

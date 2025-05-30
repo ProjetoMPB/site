@@ -22,15 +22,15 @@ def formata_moda_df(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def formata_indice(indice: float) -> str:
-    return f"{indice:.2f}"
+    return f"{indice * 100:.1f}"
 
 
 def formata_proporcao_df(df: pd.DataFrame):
-    return df.replace(0, np.nan).map(lambda p: float(f"{p * 100:.1f}"))
+    return df.map(lambda p: float(f"{p * 100:.1f}"))
 
 
 def formata_proporcao(series: pd.Series):
-    return series.apply(lambda p: f"{p * 100:.1f}").replace("nan", "-")
+    return series.apply(lambda p: f"{p * 100:.1f}")
 
 
 def formata_indices(series: pd.Series):
@@ -99,6 +99,8 @@ ATR_TO_FORMATTER = {
     "1M3d": formata_indices,
     "1H1a": formata_moda,
     "1H1b": formata_1H1b,
+    "1H1c": formata_indices,
+    "1H1d": formata_indices,
     "1H2a": formata_moda,
     "1H2b": formata_moda,
     "1H3a": formata_moda,
