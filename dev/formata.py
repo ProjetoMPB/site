@@ -22,7 +22,7 @@ def formata_moda_df(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def formata_indice(indice: float) -> str:
-    return f"{indice * 100:.1f}"
+    return f"{indice:.3f}"
 
 
 def formata_proporcao_df(df: pd.DataFrame):
@@ -99,8 +99,8 @@ ATR_TO_FORMATTER = {
     "1M3d": formata_indices,
     "1H1a": formata_moda,
     "1H1b": formata_1H1b,
-    "1H1c": formata_indices,
-    "1H1d": formata_indices,
+    "1H1c": formata_proporcao_df,
+    "1H1d": formata_proporcao_df,
     "1H2a": formata_moda,
     "1H2b": formata_moda,
     "1H3a": formata_moda,
