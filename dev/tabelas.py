@@ -44,9 +44,9 @@ def formatar_2H3e(gt: GT) -> GT:
         gt = gt.cols_move_to_end(x)
     for label, cols in [(l, [f"{l}-unique-count", f"{l}-dist"]) for l in rbfs]:
         gt = gt.tab_spanner(label, columns=cols)
-    gt = gt.fmt_percent(columns=[f"{l}-dist" for l in rbfs])
+    gt = gt.fmt_number(columns=[f"{l}-dist" for l in rbfs], scale_by=100, decimals=1)
     gt = gt.cols_label(**{f"{l}-unique-count": "n" for l in rbfs})
-    gt = gt.cols_label(**{f"{l}-dist": "p" for l in rbfs})
+    gt = gt.cols_label(**{f"{l}-dist": "%" for l in rbfs})
     return gt
 
 
