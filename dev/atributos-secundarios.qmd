@@ -94,7 +94,7 @@ exibir_tabela_atributos("2H3b", subtitulo="Distribuição das classes (e/ou subc
 
 #### Discussão
 
-Em relação a classes (ou subclasses significativas) de categorias funcionais, observa-se inicialmente, como seria de se esperar, uma preponderância absoluta da classe DIA (com destaque especial do *corpus* Samba), o que apenas é reflexo de uma característica geral compartilhada por repertórios de música tonal. A especificidade funcional da MPB (em conjunção com a do *corpus* Jazz, como em outros atributos harmônicos) se evidencia na distribuição de outras classes/subclasses, especialmente SubV e EC1, que apresentam relativamente maior peso do que nos *corpora* de controle Samba e Choro. No contexto dos repertórios de análise, o caso do *corpus* Milton Nascimento deve ser observado à parte, já que os dados associados a este atributo revelam inequivocamente as profundas diferenças na construção harmônica em comparação aos demais *corpora*. É, em especial, marcante os sensivelmente baixos valores das subclasses que compõem a classe funcional de acordes preparadores (DS, SubV, DIM), o que é fortemente sintomático de um tratamento eminentemente modal (veja especialmente a discrepância entre os percentuais envolvidos). Por razões semelhantes àquelas já elencadas, o *corpus* Cartola também se apresenta aqui destoante em relação ao núcleo MPB, corroborando um comportamento geral funcional mais modesto.
+Em relação a classes (ou subclasses significativas) de categorias funcionais, observa-se inicialmente, como seria de se esperar, uma preponderância absoluta da classe DIA (com destaque especial do *corpus* Samba), o que apenas é reflexo de uma característica geral compartilhada por repertórios de música tonal. A especificidade funcional da MPB (em conjunção com a do *corpus* Jazz, como em outros atributos harmônicos) se evidencia na distribuição de outras classes/subclasses, especialmente SubV e E1, que apresentam relativamente maior peso do que nos *corpora* de controle Samba e Choro. No contexto dos repertórios de análise, o caso do *corpus* Milton Nascimento deve ser observado à parte, já que os dados associados a este atributo revelam inequivocamente as profundas diferenças na construção harmônica em comparação aos demais *corpora*. É, em especial, marcante os sensivelmente baixos valores das subclasses que compõem a classe funcional de acordes preparadores (DS, SubV, DIM), o que é fortemente sintomático de um tratamento eminentemente modal (veja especialmente a discrepância entre os percentuais envolvidos). Por razões semelhantes àquelas já elencadas, o *corpus* Cartola também se apresenta aqui destoante em relação ao núcleo MPB, corroborando um comportamento geral funcional mais modesto.
 
 ```{python}
 exibir_tabela_atributos("2H3c-DIA", titulo="2H3c - diatônicas", subtitulo='Distribuição percentual das categorias funcionais da classe "Diatônica" (DIA)')
@@ -112,14 +112,14 @@ exibir_tabela_atributos("2H3c-DS", titulo="2H3c - dominantes secundários", subt
 Neste caso, há uma divisão das preferências em três grupos: pelo V/V (Choro, Jobim, Edu Lobo, Milton Nascimento, Rita Lee e Dori Caymmi),^[À parte a recorrência dessa categoria funcional -- diríamos, quase "normal", em comparação aos demais -- o repertório de Milton Nascimento se notabiliza pela raridade dos demais dominantes secundários, o que é novamente um fator que sugere uma preferência pelo modalismo.] pelo II cadencial (Jazz, Ivan Lins, Chico Buarque, Caetano Veloso, Djavan, Gilberto Gil, Carlos Lyra, Cartola e Gonzaguinha) e V/II (Samba e João Bosco). Nenhuma conclusão sólida referente a estilo pode ser extraída desses resultados isoladamente. 
 
 ```{python}
-exibir_tabela_atributos("2H3c-SubV", titulo="2H3c - SubV", subtitulo='Distribuição das categorias funcionais da subclasse "SubV" (SUBV) (em percentuais)')
+exibir_tabela_atributos("2H3c-SUBV", titulo="2H3c - SubV", subtitulo='Distribuição das categorias funcionais da subclasse "SubV" (SUBV) (em percentuais)')
 ```
 #### Discussão
 
 Os dados revelam que acordes da classe SUBV, embora menos comuns do que dominantes secundários, estão presentes em todos os repertórios (em menor frequência nos *corpora* Choro, Cartola e Milton Nascimento), com maior proeminência daqueles cujos alvos preferenciais são o I (Jazz, Jobim, Edu Lobo e Carlos Lyra) e o V graus (Choro, Samba, Ivan Lins, Chico Buarque, Caetano Veloso, Djavan, João Bosco, Gilberto Gil, Rita Lee, Dori Caymmi e Cartola). Tal situação não permite conclusões consistentes em relação a características estilísticas.^[Um dado especialmente interessante é a ausência de manifestações do SubV primário nos \textit{corpora} Rita Lee e Cartola.]
 
 ```{python}
-exibir_tabela_atributos("2H3c-EC1", titulo="2H3c - Empréstimos cromáticos de primeira ordem", subtitulo='Distribuição das categorias funcionais da subclasse "Empréstimos cromáticos de primeira ordem" (EC1)')
+exibir_tabela_atributos("2H3c-E1", titulo="2H3c - Empréstimos cromáticos de primeira ordem", subtitulo='Distribuição das categorias funcionais da subclasse "Empréstimos cromáticos de primeira ordem" (E1)')
 ```
 
 #### Discussão
@@ -127,13 +127,13 @@ exibir_tabela_atributos("2H3c-EC1", titulo="2H3c - Empréstimos cromáticos de p
 A relativa presença de empréstimos é certamente um forte marcador estilístico da Prática Comum da MPB, a partir de uma suposta herança jazzística. O quadro apresentado acima deixa, por si só, tal fato evidente. A distribuição das categorias funcionais dessa classe em quase todos os repertórios tende a convergir para o IVm7 como a mais proeminente, com algumas exceções: (1) nos casos do *corpora* Ivan Lins e Jazz, bVII7 é a categoria mais comum, porém diverge pouco em termos gerais de IVm7, já que ambas pertencem à mesma subclasse funcional, "Subdominante menor" (sd); (2) no *corpus* Caetano Veloso, a preferência é pelo bVIM7, uma categoria, como as anteriores integrante do grupo "Subdominante menor" (o que torna as opções, na prática, equivalentes); (3) Por outro lado, no *corpus* Edu Lobo Vm7 é a categoria mais recorrente, talvez refletindo a presença de lógicas modais nos repertórios dos compositor, ou seja, podendo representar uma característica estilística pessoal mais significativa; (4) Atribuímos a uma razão semelhante a recorrência da categoria bVIIM7 como a mais comum (e bem acima das demais) no *corpus* Milton Nascimento; (5) o "subdominante blues" (IV7) é o empréstimo mais comum nos *corpora* Djavan, Gilberto Gil e Rita Lee.
 
 ```{python}
-exibir_tabela_atributos("2H3c-EC2", titulo="2H3c - Empréstimos cromático de segunda ordem", subtitulo='Distribuição das categorias funcionais da subclasse "Empréstimos cromáticos de segunda ordem" (EC2)')
+exibir_tabela_atributos("2H3c-E2", titulo="2H3c - Empréstimos cromático de segunda ordem", subtitulo='Distribuição das categorias funcionais da subclasse "Empréstimos cromáticos de segunda ordem" (E2)')
 ```
 
 
 #### Discussão
 
-Apesar de sua relativa raridade, os empréstimos de segunda ordem contribuem ainda com mais intensidade para a marcação das fronteiras da MPB em relação ao superconjunto no qual se insere. Como mostram os dados, o *corpus* Jobim é o que mais se destaca nesse atributo, sendo o único no qual todas as categorias mapeadas estão presentes. Por outro lado, nos *corpora* João Bosco, Caetano Veloso, Rita Lee e, especialmente, Cartola as categorias da classe EC2 são ainda mais raras, o que faz distanciar esse grupo daquele que podemos denominar o núcleo MPB referente a tal classe.
+Apesar de sua relativa raridade, os empréstimos de segunda ordem contribuem ainda com mais intensidade para a marcação das fronteiras da MPB em relação ao superconjunto no qual se insere. Como mostram os dados, o *corpus* Jobim é o que mais se destaca nesse atributo, sendo o único no qual todas as categorias mapeadas estão presentes. Por outro lado, nos *corpora* João Bosco, Caetano Veloso, Rita Lee e, especialmente, Cartola as categorias da classe E2 são ainda mais raras, o que faz distanciar esse grupo daquele que podemos denominar o núcleo MPB referente a tal classe.
 ```{python}
 exibir_tabela_atributos("2H3d", subtitulo='Total de relações binárias funcionais (RBFs) distintas')
 ```
