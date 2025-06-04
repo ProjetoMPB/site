@@ -116,7 +116,9 @@ exibir_tabela_atributos(
     "2H3c-SubV",
     titulo="2H3c - SubV",
     subtitulo='Distribuição das categorias funcionais da subclasse "SubV" (SUBV) (em percentuais)',
-)#### Discussão
+)
+```
+#### Discussão
 
 Os dados revelam que acordes da classe SUBV, embora menos comuns do que dominantes secundários, estão presentes em todos os repertórios (em menor frequência nos *corpora* Choro, Cartola e Milton Nascimento), com maior proeminência daqueles cujos alvos preferenciais são o I (Jazz, Jobim, Edu Lobo e Carlos Lyra) e o V graus (Choro, Samba, Ivan Lins, Chico Buarque, Caetano Veloso, Djavan, João Bosco, Gilberto Gil, Rita Lee, Dori Caymmi e Cartola). Tal situação não permite conclusões consistentes em relação a características estilísticas.^[Um dado especialmente interessante é a ausência de manifestações do SubV primário nos \textit{corpora} Rita Lee e Cartola.]
 
