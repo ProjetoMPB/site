@@ -1,6 +1,28 @@
 ---
 title: Produção bibliográfica
 ---
+## 2025
+### Trabalhos em anais de congresso
+Hugo Carvalho; Felipe Martins Carlos Almada  
+
+#### A Corpus Study of Rhythm in Brazilian Popular Music. 
+
+In: Latin American Music Information Retrieval Workshop, 1. Rio de Janeiro: Universidade Federal do Rio de Janeiro, 2024. Proceedings..., Rio de Janeiro: 2025.
+[https://zenodo.org/records/14908040]
+
+**Abstract**: The MPB Project (from the Brazilian Portuguese Música
+Popular Brasileira) is a broad corpus study intended to
+systematically analyze a large group of musical attributes
+(regarding harmony, melody, and rhythm) in order to map
+stylistic characteristics of renowned Brazilian composers
+of popular music. The present work focuses on the rhyth-
+mic structure, describing concisely the scope of the project
+and some of the most important elements, like corpora for-
+mation, datasets, methodological tools, analytical criteria,
+conceptual framework, and some of the results obtained so
+far, which in accordance with what we believe would be
+the expectations of someone familiarized with the style.
+
 
 ## 2024
 
