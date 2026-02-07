@@ -696,6 +696,12 @@ title: "Listagem dos *corpora*"
 1. *Sangrando* (Gonzaguinha)
 1. *Um homem também chora* (Gonzaguinha)
 
+### Joyce Moreno
+
+[Site oficial](https://www.joycemoreno.com//)
+
+
+
 
 -----
 
@@ -752,6 +758,8 @@ title: "Listagem dos *corpora*"
 1. *The song is you* (Jerome Kern e Oscar Hammerstein III) 
 1. *The sorcerer* (Herbie Hancock)    
 1. *Time remembered* (Bill Evans) 
+
+
 
 
 
