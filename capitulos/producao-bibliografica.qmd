@@ -2,6 +2,16 @@
 title: Produção bibliográfica
 ---
 ## 2025
+
+### Livros
+#### Funcionalidade harmônica em música popular: uma proposta teórica
+Carlos Almada
+
+Editora da Unicamp
+
+**Resumo**: Este livro apresenta uma perspectiva original e inédita sobre o campo de estudos da harmonia na música popular, formalizando uma proposta de teoria cuja essência é a ideia de funcionalidade, tratada de maneira abrangente e aprofundada. Construída a partir da observação da prática harmônica estendida em música popular, essa teoria é estruturada como um amplo conjunto de princípios e novos conceitos, tais como a ideia de uma detalhada taxonomia de classes, subclasses e categorias funcionais, a sistematização de funções melódicas, bem como formulações referentes a expectativa contextual e níveis de organização funcional, entre outros aspectos. No livro, a noção de funcionalidade é ainda generalizada e estendida a contextos modais e coleções não diatônicas (simétricas ou não), o que gera novas abordagens teóricas e analíticas.
+
+
 ### Trabalhos em anais de congresso
 Hugo Carvalho; Felipe Martins Carlos Almada  
 
