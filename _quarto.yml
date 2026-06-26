@@ -35,7 +35,7 @@ website:
         text: Página inicial
       - href: blog.qmd
         text: Blog do projeto
-      - section: Dados gerais
+      - section: Fundamentos teóricos
         contents:
           - href: capitulos/intro.qmd
             text: Introdução
@@ -79,16 +79,16 @@ website:
             # text: Atributos terciários [CRIAR]
           # - href: capitulos/graficos-interativos.qmd
             # text: Gráficos interativos [CRIAR]
-          - section: Fase 1
-            contents:
-            - href: capitulos/n-grams.qmd
-              text: n-gramas
-            - href: capitulos/ng-especificos.qmd
-              text: n-gramas específicos
+          - href: capitulos/n-grams.qmd
+            text: n-gramas
+          - href: capitulos/ng-especificos.qmd
+            text: n-gramas específicos
             # - href: capitulos/graficos.qmd
               # test: Gráficos
       - href: capitulos/listagem-corpora.qmd
         text: Listagem dos *corpora*
+      - href: dashboard.qmd
+        text: Dashboard
       - href: capitulos/producao-bibliografica.qmd
         text: Produção bibliográfica
       # - href: bibliografia.qmd

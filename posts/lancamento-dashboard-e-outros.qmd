@@ -1,0 +1,19 @@
+---
+title: "Lançamento do dashboard e outras novidades"
+description: "Lançamento do dashboard, apresentação em evento, base de dados disponível, novos membros e outras novidades"
+author: "Hugo Carvalho"
+date: "06/24/2026"
+image: "../fotos/dashboard.png"
+categories:
+  - noticias do projeto
+---
+
+No dia 18/06/2026, Hugo Carvalho fez uma apresentação do Projeto MPB na mesa redonda "Música Popular e Matemática" do VI Congresso da TeMA (Associação Brasileira de Teoria e Análise Musica), dando um panorama geral do projeto bem como apresentando alguns resultados obtidos utilizando processamento de linguagem natural. Confira [aqui](https://www.youtube.com/live/zhZfAO3K5lU?t=8891s) a apresentação e a posterior discussão na mesa.
+
+O projeto agora conta com três novos membros, Stefane Moraes, Rumenick Brandi e Frederico Strasser, alunos do Instituto de Matemática da UFRJ. Confira as biografias deles na [página inicial do projeto](../index.qmd).
+
+O projeto também conta com um *dashboard* interativo para uma melhor visualização dos resultados. Até o presente momento você pode ver frequências relativas e absolutas de c-letras, r-letras, tipos acordais e categorias funcionais, para cada artista analisado na primeira fase do projeto. Além disso, você pode ver as teias de notas-função para todas as músicas referentes a esses artistas. Confira [aqui](../dashboard.qmd) o painel interativo.
+
+Após uma extensa etapa de revisão dos dados coletados, a base de dados referente à primeira fase do projeto está agora disponível para download [aqui](https://zenodo.org/records/19222221), com códigos auxiliares e material suplementar disponível [aqui](https://github.com/ProjetoMPB/mpb-corpus). Um artigo descrevendo a primeira fase do projeto, com a base de dados e alguns resultados e análises, está em fase de revisão.
+
+Finalmente, a segunda etapa do Projeto MPB está a todo vapor! Já temos dados coletados referentes aos seguintes artistas: Carlos Lyra, Cartola, Dori Caymmi, Gonzaguinha e Joyce Moreno. Em breve teremos mais novidades!

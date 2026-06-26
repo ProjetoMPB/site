@@ -27,7 +27,7 @@ Hugo Carvalho; Felipe Martins Carlos Almada
 #### A Corpus Study of Rhythm in Brazilian Popular Music. 
 
 In: Latin American Music Information Retrieval Workshop, 1. Rio de Janeiro: Universidade Federal do Rio de Janeiro, 2024. Proceedings..., Rio de Janeiro: 2025.
-[https://zenodo.org/records/14908040]
+[https://zenodo.org/records/14908040](https://zenodo.org/records/14908040)
 
 **Abstract**: The MPB Project (from the Brazilian Portuguese Música
 Popular Brasileira) is a broad corpus study intended to
