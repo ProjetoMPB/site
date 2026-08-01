@@ -13,6 +13,14 @@ Editora da Unicamp
 
 ### Artigos
 
+#### O gesto Waldstein e o Espaço Tetrádico. 
+Carlos de Lemos Almada
+
+Revista Vórtex, vol. 14, 2026, p. 1-31 (DOI: [https://doi.org/10.33871/vortex.2026.14.11073](https://doi.org/10.33871/vortex.2026.14.11073)
+
+**Resumo**: Este artigo toma como base o conceito de gestos funcionais retóricos (Almada, 2025), vinculado à Teoria dos Esquemas e à prática harmônica da música popular. Tal fundamentação possibilita descrever o gesto Waldstein, cuja denominação deriva de seu modelo, extraído dos compassos iniciais da Sonata para Piano op. 53 de Beethoven. Após identificadas suas características construtivas e feitas as devidas adaptações às condições peculiares do repertório musical popular, o gesto Waldstein é plotado como grafo direcionado no Espaço Tetrádico, um espaço acordal especialmente elaborado para a identificação e a qualificação de relações harmônicas entre tétrades assimétricas. Trechos de cinco obras do repertório musical popular que empregam o referido gesto são analisadas na seção final do artigo, seguindo-se uma discussão comparativa, o que permite identificar os elementos caracterizantes de tal estratégia composicional.
+
+
 #### Gestos Funcionais Retóricos e esquemas: a funcionalidade harmônica da música popular em nível médio. 
 Carlos de Lemos Almada
 
